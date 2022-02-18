@@ -80,7 +80,6 @@ jobs:
         with:
           commit_message: Update ${{ matrix.state }}
           branch: ${{ matrix.state }}
-          skip_checkout: true
           file_pattern: ./data/warn-scraper/*
  
       - name: Upload file to biglocalnews.org
