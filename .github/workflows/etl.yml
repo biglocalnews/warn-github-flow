@@ -1,0 +1,177 @@
+name: Extract, transform and load
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 0 * * *"
+
+jobs:
+  extract:
+    strategy:
+      fail-fast: false
+      matrix:
+        state:
+          [
+            al,
+            ak,
+            az,
+            ca,
+            ct,
+            dc,
+            de,
+            fl,
+            ga,
+            ia,
+            id,
+            in,
+            ks,
+            la,
+            md,
+            me,
+            mo,
+            mt,
+            ne,
+            nj,
+            nm,
+            ny,
+            oh,
+            ok,
+            or,
+            ri,
+            sd,
+            tx,
+            ut,
+            va,
+            vt,
+            wa,
+            wi,
+          ]
+    name: Extract
+    runs-on: ubuntu-latest
+    steps:
+      - name: Clone repository
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+
+      - name: Checkout branch
+        env:
+          STATE: ${{ matrix.state }}
+        run: | 
+          git config user.name "WARN scraper bot"
+          git config user.email "actions@users.noreply.github.com"
+          (git show-branch ${{ env.STATE }} &>/dev/null) && (git checkout ${{ env.STATE }}) || (git checkout -b ${{ env.STATE }})
+          git config pull.rebase false
+          git pull origin main
+
+      - id: install-pipenv
+        name: Install pipenv
+        run: pipx install pipenv
+
+      - id: install-python
+        name: Install Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.9'
+          cache: 'pipenv'
+
+      - id: install-python-dependencies
+        name: Install Python dependencies
+        run: pipenv install --skip-lock --dev
+
+      - name: Run scrapers
+        env:
+          STATE: ${{ matrix.state }}
+          WARN_OUTPUT_DIR: ./data/warn-scraper/
+        run: make scrape scraper=${{ env.STATE }}
+
+      - name: Commit and push
+        env:
+          STATE: ${{ matrix.state }}
+        run: |-
+          git add ./data/warn-scraper
+          git commit -m "${{ env.STATE }}" || exit 0
+          git push origin ${{ env.STATE }}
+ 
+      - name: Upload file to biglocalnews.org
+        uses: biglocalnews/upload-files@v1
+        with:
+          api-key: ${{ secrets.BLN_API_KEY }}
+          project-id: ${{ secrets.BLN_PROJECT_ID }}
+          path: ./data/warn-scraper/exports/${{ matrix.state }}.csv
+
+  transform:
+    name: Transform
+    runs-on: ubuntu-latest
+    needs: [extract]
+    permissions:
+      contents: 'read'
+      id-token: 'write'
+    steps:
+      - name: Clone repository
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+
+      - name: Checkout branch
+        run: | 
+          git config user.name "WARN scraper bot"
+          git config user.email "actions@users.noreply.github.com"
+          (git show-branch transformer &>/dev/null) && (git checkout transformer) || (git checkout -b transformer)
+          git config pull.rebase false
+          git pull origin main
+
+      - id: install-pipenv
+        name: Install pipenv
+        run: pipx install pipenv
+
+      - id: install-python
+        name: Install Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.9'
+          cache: 'pipenv'
+
+      - id: install-python-dependencies
+        name: Install Python dependencies
+        run: pipenv install --skip-lock --dev
+
+      - name: Download files
+        run: pipenv run python -c "from warn_transformer import download; download.run()"
+        env:
+            BLN_API_TOKEN: ${{ secrets.BLN_API_KEY }}
+            WARN_TRANSFORMER_OUTPUT_DIR: ./data/warn-transformer/
+
+      - name: Consolidate files
+        run: pipenv run python -c "from warn_transformer import consolidate; consolidate.run()"
+        env:
+            WARN_TRANSFORMER_OUTPUT_DIR: ./data/warn-transformer/
+
+      - name: Commit and push
+        env:
+          STATE: ${{ matrix.state }}
+        run: |-
+          git add ./data/warn-scraper
+          git commit -m "transformer update" || exit 0
+          git push origin transformer
+
+      - name: Upload file to biglocalnews.org
+        uses: biglocalnews/upload-files@v1
+        with:
+          api-key: ${{ secrets.BLN_API_KEY }}
+          project-id: ${{ secrets.BLN_PROJECT_ID }}
+          path: ./data/warn-transformer/processed/consolidated.csv
+
+  slack:
+    name: Send Slack alert
+    runs-on: ubuntu-latest
+    needs: [transform]
+    steps:
+      - name: Post
+        id: slack
+        uses: slackapi/slack-github-action@v1.18.0
+        with:
+          channel-id: ${{ secrets.SLACK_CHANNEL_ID }}
+          slack-message: "WARN Act Notice ETL result: ${{ job.status }} at https://github.com/biglocalnews/warn-github-flow/actions"
+        env:
+          SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
