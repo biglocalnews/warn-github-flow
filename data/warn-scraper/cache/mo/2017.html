@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<!--[if IEMobile 7]><html class="iem7"  lang="en" dir="ltr"><![endif]-->
+<!--[if lte IE 6]><html class="lt-ie9 lt-ie8 lt-ie7"  lang="en" dir="ltr"><![endif]-->
+<!--[if (IE 7)&(!IEMobile)]><html class="lt-ie9 lt-ie8"  lang="en" dir="ltr"><![endif]-->
+<!--[if IE 8]><html class="lt-ie9"  lang="en" dir="ltr"><![endif]-->
+<!--[if (gte IE 9)|(gt IEMobile 7)]><!--><html  lang="en" dir="ltr" prefix="fb: http://ogp.me/ns/fb# og: http://ogp.me/ns# article: http://ogp.me/ns/article# book: http://ogp.me/ns/book# profile: http://ogp.me/ns/profile# video: http://ogp.me/ns/video# product: http://ogp.me/ns/product#"><!--<![endif]-->
+
+<head>
+  <meta charset="utf-8" /><script type="text/javascript">(window.NREUM||(NREUM={})).init={ajax:{deny_list:["bam-cell.nr-data.net"]}};(window.NREUM||(NREUM={})).loader_config={licenseKey:"1a1ddd71e3",applicationID:"70695873"};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var i=e[n]={exports:{}};t[n][0].call(i.exports,function(e){var i=t[n][1][e];return r(i||e)},i,i.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var i=0;i<n.length;i++)r(n[i]);return r}({1:[function(t,e,n){function r(){}function i(t,e,n,r){return function(){return s.recordSupportability("API/"+e+"/called"),o(t+e,[u.now()].concat(c(arguments)),n?null:this,r),n?void 0:this}}var o=t("handle"),a=t(10),c=t(11),f=t("ee").get("tracer"),u=t("loader"),s=t(4),d=NREUM;"undefined"==typeof window.newrelic&&(newrelic=d);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",v=l+"ixn-";a(p,function(t,e){d[e]=i(l,e,!0,"api")}),d.addPageAction=i(l,"addPageAction",!0),d.setCurrentRouteName=i(l,"routeName",!0),e.exports=newrelic,d.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(t,e){var n={},r=this,i="function"==typeof e;return o(v+"tracer",[u.now(),t,n],r),function(){if(f.emit((i?"":"no-")+"fn-start",[u.now(),r,i],n),i)try{return e.apply(this,arguments)}catch(t){throw f.emit("fn-err",[arguments,this,t],n),t}finally{f.emit("fn-end",[u.now()],n)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,e){m[e]=i(v,e)}),newrelic.noticeError=function(t,e){"string"==typeof t&&(t=new Error(t)),s.recordSupportability("API/noticeError/called"),o("err",[t,u.now(),!1,e])}},{}],2:[function(t,e,n){function r(t){if(NREUM.init){for(var e=NREUM.init,n=t.split("."),r=0;r<n.length-1;r++)if(e=e[n[r]],"object"!=typeof e)return;return e=e[n[n.length-1]]}}e.exports={getConfiguration:r}},{}],3:[function(t,e,n){var r=!1;try{var i=Object.defineProperty({},"passive",{get:function(){r=!0}});window.addEventListener("testPassive",null,i),window.removeEventListener("testPassive",null,i)}catch(o){}e.exports=function(t){return r?{passive:!0,capture:!!t}:!!t}},{}],4:[function(t,e,n){function r(t,e){var n=[a,t,{name:t},e];return o("storeMetric",n,null,"api"),n}function i(t,e){var n=[c,t,{name:t},e];return o("storeEventMetrics",n,null,"api"),n}var o=t("handle"),a="sm",c="cm";e.exports={constants:{SUPPORTABILITY_METRIC:a,CUSTOM_METRIC:c},recordSupportability:r,recordCustom:i}},{}],5:[function(t,e,n){function r(){return c.exists&&performance.now?Math.round(performance.now()):(o=Math.max((new Date).getTime(),o))-a}function i(){return o}var o=(new Date).getTime(),a=o,c=t(12);e.exports=r,e.exports.offset=a,e.exports.getLastTimestamp=i},{}],6:[function(t,e,n){function r(t){return!(!t||!t.protocol||"file:"===t.protocol)}e.exports=r},{}],7:[function(t,e,n){function r(t,e){var n=t.getEntries();n.forEach(function(t){"first-paint"===t.name?l("timing",["fp",Math.floor(t.startTime)]):"first-contentful-paint"===t.name&&l("timing",["fcp",Math.floor(t.startTime)])})}function i(t,e){var n=t.getEntries();if(n.length>0){var r=n[n.length-1];if(u&&u<r.startTime)return;var i=[r],o=a({});o&&i.push(o),l("lcp",i)}}function o(t){t.getEntries().forEach(function(t){t.hadRecentInput||l("cls",[t])})}function a(t){var e=navigator.connection||navigator.mozConnection||navigator.webkitConnection;if(e)return e.type&&(t["net-type"]=e.type),e.effectiveType&&(t["net-etype"]=e.effectiveType),e.rtt&&(t["net-rtt"]=e.rtt),e.downlink&&(t["net-dlink"]=e.downlink),t}function c(t){if(t instanceof y&&!w){var e=Math.round(t.timeStamp),n={type:t.type};a(n),e<=v.now()?n.fid=v.now()-e:e>v.offset&&e<=Date.now()?(e-=v.offset,n.fid=v.now()-e):e=v.now(),w=!0,l("timing",["fi",e,n])}}function f(t){"hidden"===t&&(u=v.now(),l("pageHide",[u]))}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var u,s,d,p,l=t("handle"),v=t("loader"),m=t(9),g=t(3),y=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){s=new PerformanceObserver(r);try{s.observe({entryTypes:["paint"]})}catch(h){}d=new PerformanceObserver(i);try{d.observe({entryTypes:["largest-contentful-paint"]})}catch(h){}p=new PerformanceObserver(o);try{p.observe({type:"layout-shift",buffered:!0})}catch(h){}}if("addEventListener"in document){var w=!1,b=["click","keydown","mousedown","pointerdown","touchstart"];b.forEach(function(t){document.addEventListener(t,c,g(!1))})}m(f)}},{}],8:[function(t,e,n){function r(t,e){if(!i)return!1;if(t!==i)return!1;if(!e)return!0;if(!o)return!1;for(var n=o.split("."),r=e.split("."),a=0;a<r.length;a++)if(r[a]!==n[a])return!1;return!0}var i=null,o=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var c=navigator.userAgent,f=c.match(a);f&&c.indexOf("Chrome")===-1&&c.indexOf("Chromium")===-1&&(i="Safari",o=f[1])}e.exports={agent:i,version:o,match:r}},{}],9:[function(t,e,n){function r(t){function e(){t(c&&document[c]?document[c]:document[o]?"hidden":"visible")}"addEventListener"in document&&a&&document.addEventListener(a,e,i(!1))}var i=t(3);e.exports=r;var o,a,c;"undefined"!=typeof document.hidden?(o="hidden",a="visibilitychange",c="visibilityState"):"undefined"!=typeof document.msHidden?(o="msHidden",a="msvisibilitychange"):"undefined"!=typeof document.webkitHidden&&(o="webkitHidden",a="webkitvisibilitychange",c="webkitVisibilityState")},{}],10:[function(t,e,n){function r(t,e){var n=[],r="",o=0;for(r in t)i.call(t,r)&&(n[o]=e(r,t[r]),o+=1);return n}var i=Object.prototype.hasOwnProperty;e.exports=r},{}],11:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,i=n-e||0,o=Array(i<0?0:i);++r<i;)o[r]=t[e+r];return o}e.exports=r},{}],12:[function(t,e,n){e.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(t,e,n){function r(){}function i(t){function e(t){return t&&t instanceof r?t:t?u(t,f,a):a()}function n(n,r,i,o,a){if(a!==!1&&(a=!0),!l.aborted||o){t&&a&&t(n,r,i);for(var c=e(i),f=m(n),u=f.length,s=0;s<u;s++)f[s].apply(c,r);var p=d[w[n]];return p&&p.push([b,n,r,c]),c}}function o(t,e){h[t]=m(t).concat(e)}function v(t,e){var n=h[t];if(n)for(var r=0;r<n.length;r++)n[r]===e&&n.splice(r,1)}function m(t){return h[t]||[]}function g(t){return p[t]=p[t]||i(n)}function y(t,e){l.aborted||s(t,function(t,n){e=e||"feature",w[n]=e,e in d||(d[e]=[])})}var h={},w={},b={on:o,addEventListener:o,removeEventListener:v,emit:n,get:g,listeners:m,context:e,buffer:y,abort:c,aborted:!1};return b}function o(t){return u(t,f,a)}function a(){return new r}function c(){(d.api||d.feature)&&(l.aborted=!0,d=l.backlog={})}var f="nr@context",u=t("gos"),s=t(10),d={},p={},l=e.exports=i();e.exports.getOrSetContext=o,l.backlog=d},{}],gos:[function(t,e,n){function r(t,e,n){if(i.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(o){}return t[e]=r,r}var i=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){i.buffer([t],r),i.emit(t,e,n)}var i=t("ee").get("handle");e.exports=r,r.ee=i},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,o,function(){return i++})}var i=1,o="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!P++){var t=M.info=NREUM.info,e=g.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&e))return u.abort();f(O,function(e,n){t[e]||(t[e]=n)});var n=a();c("mark",["onload",n+M.offset],null,"api"),c("timing",["load",n]);var r=g.createElement("script");0===t.agent.indexOf("http://")||0===t.agent.indexOf("https://")?r.src=t.agent:r.src=v+"://"+t.agent,e.parentNode.insertBefore(r,e)}}function i(){"complete"===g.readyState&&o()}function o(){c("mark",["domContent",a()+M.offset],null,"api")}var a=t(5),c=t("handle"),f=t(10),u=t("ee"),s=t(8),d=t(6),p=t(2),l=t(3),v=p.getConfiguration("ssl")===!1?"http":"https",m=window,g=m.document,y="addEventListener",h="attachEvent",w=m.XMLHttpRequest,b=w&&w.prototype,E=!d(m.location);NREUM.o={ST:setTimeout,SI:m.setImmediate,CT:clearTimeout,XHR:w,REQ:m.Request,EV:m.Event,PR:m.Promise,MO:m.MutationObserver};var x=""+location,O={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1215.min.js"},T=w&&b&&b[y]&&!/CriOS/.test(navigator.userAgent),M=e.exports={offset:a.getLastTimestamp(),now:a,origin:x,features:{},xhrWrappable:T,userAgent:s,disabled:E};if(!E){t(1),t(7),g[y]?(g[y]("DOMContentLoaded",o,l(!1)),m[y]("load",r,l(!1))):(g[h]("onreadystatechange",i),m[h]("onload",r)),c("mark",["firstbyte",a.getLastTimestamp()],null,"api");var P=0}},{}],"wrap-function":[function(t,e,n){function r(t,e){function n(e,n,r,f,u){function nrWrapper(){var o,a,s,p;try{a=this,o=d(arguments),s="function"==typeof r?r(o,a):r||{}}catch(l){i([l,"",[o,a,f],s],t)}c(n+"start",[o,a,f],s,u);try{return p=e.apply(a,o)}catch(v){throw c(n+"err",[o,a,v],s,u),v}finally{c(n+"end",[o,a,p],s,u)}}return a(e)?e:(n||(n=""),nrWrapper[p]=e,o(e,nrWrapper,t),nrWrapper)}function r(t,e,r,i,o){r||(r="");var c,f,u,s="-"===r.charAt(0);for(u=0;u<e.length;u++)f=e[u],c=t[f],a(c)||(t[f]=n(c,s?f+r:r,i,f,o))}function c(n,r,o,a){if(!v||e){var c=v;v=!0;try{t.emit(n,r,o,e,a)}catch(f){i([f,n,r,o],t)}v=c}}return t||(t=s),n.inPlace=r,n.flag=p,n}function i(t,e){e||(e=s);try{e.emit("internal-error",t)}catch(n){}}function o(t,e,n){if(Object.defineProperty&&Object.keys)try{var r=Object.keys(t);return r.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(o){i([o],n)}for(var a in t)l.call(t,a)&&(e[a]=t[a]);return e}function a(t){return!(t&&t instanceof Function&&t.apply&&!t[p])}function c(t,e){var n=e(t);return n[p]=t,o(t,n,s),n}function f(t,e,n){var r=t[e];t[e]=c(r,n)}function u(){for(var t=arguments.length,e=new Array(t),n=0;n<t;++n)e[n]=arguments[n];return e}var s=t("ee"),d=t(11),p="nr@original",l=Object.prototype.hasOwnProperty,v=!1;e.exports=r,e.exports.wrapFunction=c,e.exports.wrapInPlace=f,e.exports.argsToArray=u},{}]},{},["loader"]);</script>
+<link rel="shortcut icon" href="//jobs.mo.gov/sites/jobs/themes/jobs_mo_gov/favicon.ico" type="image/vnd.microsoft.icon" />
+<link href="/sites/jobs/themes/jobs_mo_gov/apple-touch-icon-57x57.png" rel="apple-touch-icon-precomposed" sizes="57x57" />
+<link href="/sites/jobs/themes/jobs_mo_gov/apple-touch-icon-72x72.png" rel="apple-touch-icon-precomposed" sizes="72x72" />
+<link href="/sites/jobs/themes/jobs_mo_gov/apple-touch-icon-114x114.png" rel="apple-touch-icon-precomposed" sizes="114x114" />
+<link href="/sites/jobs/themes/jobs_mo_gov/apple-touch-icon-144x144.png" rel="apple-touch-icon-precomposed" sizes="144x144" />
+<meta name="description" content="Missouri WARN Log PY 2017 Worker Adjustment and Retraining Notification Act (WARN Act) notices received from employers by the Missouri Division of Workforce Development&#039;s Dislocated Worker Program, by Program Year (July to June), July 2017 to present. Media inquiries concerning this information should be directed to Missouri Department of Economic Development&#039;s Communications" />
+<meta name="generator" content="Drupal 7 (https://www.drupal.org)" />
+<link rel="canonical" href="https://jobs.mo.gov/content/missouri-warn-notices-py-2017" />
+<link rel="shortlink" href="https://jobs.mo.gov/node/34966" />
+<meta property="og:site_name" content="JobsMoGov" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Missouri WARN Notices PY 2017" />
+<meta property="og:url" content="https://jobs.mo.gov/content/missouri-warn-notices-py-2017" />
+<meta property="og:description" content="Missouri WARN Log PY 2017 Worker Adjustment and Retraining Notification Act (WARN Act) notices received from employers by the Missouri Division of Workforce Development&#039;s Dislocated Worker Program, by Program Year (July to June), July 2017 to present. Media inquiries concerning this information should be directed to Missouri Department of Economic Development&#039;s Communications Director.  " />
+<meta property="og:updated_time" content="2020-10-09T09:25:56-05:00" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:url" content="https://jobs.mo.gov/content/missouri-warn-notices-py-2017" />
+<meta name="twitter:title" content="Missouri WARN Notices PY 2017" />
+<meta name="twitter:description" content="Missouri WARN Log PY 2017 Worker Adjustment and Retraining Notification Act (WARN Act) notices received from employers by the Missouri Division of Workforce Development&#039;s Dislocated Worker Program," />
+<meta property="article:published_time" content="2017-07-11T10:08:40-05:00" />
+<meta property="article:modified_time" content="2020-10-09T09:25:56-05:00" />
+<meta itemprop="name" content="Missouri WARN Notices PY 2017" />
+<meta itemprop="description" content="Missouri WARN Log PY 2017 Worker Adjustment and Retraining Notification Act (WARN Act) notices received from employers by the Missouri Division of Workforce Development&#039;s Dislocated Worker Program, by Program Year (July to June), July 2017 to present. Media inquiries concerning this information should be directed to Missouri Department of Economic Development&#039;s Communications Director.  " />
+<meta name="dcterms.title" content="Missouri WARN Notices PY 2017" />
+<meta name="dcterms.creator" content="Lisa K. Johnson" />
+<meta name="dcterms.description" content="Missouri WARN Log PY 2017 Worker Adjustment and Retraining Notification Act (WARN Act) notices received from employers by the Missouri Division of Workforce Development&#039;s Dislocated Worker Program, by Program Year (July to June), July 2017 to present. Media inquiries concerning this information should be directed to Missouri Department of Economic Development&#039;s Communications Director.  " />
+<meta name="dcterms.date" content="2017-07-11T10:08-05:00" />
+<meta name="dcterms.type" content="Text" />
+<meta name="dcterms.format" content="text/html" />
+<meta name="dcterms.identifier" content="https://jobs.mo.gov/content/missouri-warn-notices-py-2017" />
+  <title>Missouri WARN Notices PY 2017 | JobsMoGov</title>
+
+      <meta name="MobileOptimized" content="width">
+    <meta name="HandheldFriendly" content="true">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="cleartype" content="on">
+
+  <link rel="stylesheet" href="//jobs.mo.gov/sites/jobs/files/css/css_dBWDJMr6oCR3cn-F07ZIKSX8OPfrqMs-1m3eu1kXZ7M.css" media="all" />
+<link rel="stylesheet" href="//jobs.mo.gov/sites/jobs/files/css/css_dD8gNZFC8-zVrFprzbrc1uHRWGbZ9lTUN7OqbohijvA.css" media="all" />
+<link rel="stylesheet" href="//jobs.mo.gov/sites/jobs/files/css/css_9Nbv8BpQ3-A_n4Gbok3lJzNOwj_g7F8xfbjyMDFSTco.css" media="all" />
+<link rel="stylesheet" href="//jobs.mo.gov/sites/jobs/files/css/css_7EWpya-wOuTqcYpOx7TFv0UlBckHydK7gcM5h3Gdri0.css" media="all" />
+  <script src="//jobs.mo.gov/sites/jobs/files/js/js_WYF7ZBCHYJfNAHOTfCdbxJLg8zqHa6qdgfkaOiUKtSc.js"></script>
+<script>document.createElement( "picture" );</script>
+<script src="//jobs.mo.gov/sites/jobs/files/js/js_OphXCn6AHRgC3bU_eRuY9NBUtFkcwAFLbMNvhWtRCt0.js"></script>
+<script src="//jobs.mo.gov/sites/jobs/files/js/js_4QMBrWhyloj5pry00afXQ5TITvBC1K8WwNLFmuXZeWk.js"></script>
+<script>(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","https://www.google-analytics.com/analytics.js","ga");ga("create", "UA-7197466-56", {"cookieDomain":"auto","allowLinker":true});ga("require", "linker");ga("linker:autoLink", ["jobs.mo.gov","summerjobs.mo.gov"]);ga("set", "anonymizeIp", true);ga("send", "pageview");</script>
+<script src="//jobs.mo.gov/sites/jobs/files/js/js_EuYOJ1RX0dVxWSNQyK2oJ_hsgU1b3yE9UswnpJAL6Gg.js"></script>
+<script>jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","setHasJsCookie":0,"ajaxPageState":{"theme":"jobs_mo_gov","theme_token":"yhKNnY7pjlq-jFpfEKhDQu4BgSerIo4hzLbHIvVkk58","js":{"sites\/all\/modules\/contrib\/picture\/picturefill2\/picturefill.min.js":1,"sites\/all\/modules\/contrib\/picture\/picture.min.js":1,"sites\/all\/modules\/mogov\/tls_check\/js\/outdatedbrowser.min.js":1,"sites\/all\/modules\/mogov\/mogov_glossary_inline\/js\/mogov_glossary_inline.behaviors.js":1,"sites\/all\/modules\/mogov\/mogov_blocks\/js\/mobile_nav_button.behaviors.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery\/1.8\/jquery.min.js":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery-html-prefilter-3.5.0-backport.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/libraries\/fitvids\/jquery.fitvids.js":1,"0":1,"sites\/all\/modules\/contrib\/fitvids\/fitvids.js":1,"sites\/all\/modules\/contrib\/extlink\/extlink.js":1,"sites\/all\/libraries\/colorbox\/jquery.colorbox-min.js":1,"sites\/all\/modules\/contrib\/colorbox\/js\/colorbox.js":1,"sites\/all\/modules\/contrib\/colorbox\/styles\/default\/colorbox_style.js":1,"sites\/jobs\/modules\/mogov\/jobs_project\/js\/jobs_project.js":1,"sites\/jobs\/modules\/mogov\/jobs_summerjobs\/js\/jobs_summerjobs.js":1,"sites\/all\/modules\/contrib\/google_analytics\/googleanalytics.js":1,"1":1,"sites\/all\/themes\/mogov\/blue\/..\/..\/..\/libraries\/jquery.details.min.js":1,"sites\/all\/themes\/mogov\/blue\/js\/blue.behaviors.js":1,"sites\/jobs\/themes\/jobs_mo_gov\/..\/..\/..\/all\/libraries\/jquery.details.min.js":1,"sites\/jobs\/themes\/jobs_mo_gov\/js\/jobs_mo_gov.behaviors.js":1,"sites\/jobs\/themes\/jobs_mo_gov\/js\/siteimprove-analytics.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"sites\/all\/modules\/contrib\/calendar\/css\/calendar_multiday.css":1,"sites\/all\/modules\/contrib\/date\/date_api\/date.css":1,"sites\/all\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"sites\/all\/modules\/contrib\/date\/date_repeat_field\/date_repeat_field.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/contrib\/fitvids\/fitvids.css":1,"modules\/node\/node.css":1,"sites\/all\/modules\/contrib\/office_hours\/office_hours.css":1,"sites\/all\/modules\/contrib\/picture\/picture_wysiwyg.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/contrib\/extlink\/extlink.css":1,"sites\/all\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/ckeditor\/css\/ckeditor.css":1,"sites\/all\/modules\/contrib\/entity_embed\/css\/entity_embed.css":1,"sites\/all\/modules\/mogov\/tls_check\/css\/outdatedbrowser.min.css":1,"sites\/all\/modules\/contrib\/colorbox\/styles\/default\/colorbox_style.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/jobs\/modules\/mogov\/jobs_project\/css\/jobs_project.css":1,"sites\/jobs\/modules\/mogov\/jobs_summerjobs\/css\/jobs_summerjobs.css":1,"sites\/all\/modules\/mogov\/mogov_glossary_inline\/css\/mogov-glossary-inline.css":1,"sites\/all\/modules\/contrib\/panels\/css\/panels.css":1,"sites\/all\/themes\/mogov\/blue\/panels\/layouts\/columns_1\/sites\/all\/themes\/mogov\/blue\/css\/panels\/layouts\/columns_1\/columns-1.layout.css":1,"sites\/all\/themes\/mogov\/blue\/panels\/layouts\/columns_4_a\/..\/..\/..\/css\/panels\/layouts\/columns_4_a\/columns-4-a.layout.css":1,"sites\/all\/modules\/contrib\/menu_minipanels\/css\/menu_minipanels.css":1,"sites\/all\/themes\/mogov\/blue\/system.menus.css":1,"sites\/all\/themes\/mogov\/blue\/system.messages.css":1,"sites\/all\/themes\/mogov\/blue\/system.theme.css":1,"sites\/all\/themes\/mogov\/blue\/css\/blue.normalize.css":1,"sites\/all\/themes\/mogov\/blue\/css\/blue.hacks.css":1,"sites\/all\/themes\/mogov\/blue\/css\/blue.styles.css":1,"sites\/all\/themes\/mogov\/blue\/css\/blue.no-query.css":1,"sites\/jobs\/themes\/jobs_mo_gov\/css\/jobs_mo_gov.normalize.css":1,"sites\/jobs\/themes\/jobs_mo_gov\/css\/jobs_mo_gov.hacks.css":1,"sites\/jobs\/themes\/jobs_mo_gov\/css\/jobs_mo_gov.styles.css":1,"sites\/jobs\/themes\/jobs_mo_gov\/css\/jobs_mo_gov.no-query.css":1}},"colorbox":{"opacity":"0.85","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Close","maxWidth":"98%","maxHeight":"98%","fixed":true,"mobiledetect":true,"mobiledevicewidth":"480px"},"fitvids":{"custom_domains":[],"selectors":["body"],"simplifymarkup":true},"picture":{"mappings":[["Responsive Image Default","mogov_responsive_image_default"],["Not Set","not_set"]],"label":"Image size (required)"},"extlink":{"extTarget":"_blank","extClass":"ext","extLabel":"(link is external)","extImgClass":0,"extIconPlacement":"append","extSubdomains":1,"extExclude":"(mo\\.gov)|(state\\.mo\\.us)","extInclude":"","extCssExclude":"","extCssExplicit":"","extAlert":"_blank","extAlertText":"You are currently exiting to a site that is not part of the government (.gov) domain. Web sites are places where diverse groups of people interact, so please be aware that you will be subject to a wide variety of experiences beyond our control. Always use good judgment when using these platforms and when following links to other web sites.  Click OK to continue.","mailtoClass":0,"mailtoLabel":"(link sends e-mail)"},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip","trackColorbox":1,"trackDomainMode":2,"trackCrossDomains":["jobs.mo.gov","summerjobs.mo.gov"]},"currentPath":"node\/34966","currentPathIsAdmin":false});</script>
+      <!--[if lt IE 9]>
+    <script src="/sites/all/themes/contrib/zen/js/html5-respond.js"></script>
+    <![endif]-->
+  </head>
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-34966 node-type-jobs-child-page i18n-en section-content page-panels" >
+  <div id="fb-root"></div>
+      <p id="skip-link">
+      <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+    </p>
+      
+<div id="page">
+  <header class="l-zone l-header" role="banner">
+    <div class="l-container">
+      <div class="l-branding">
+          
+                  <div class="region region-branding">
+    <div id="block-block-2" class="block block-block jobs-logo first last odd">
+
+      
+  <div><a href="/"><picture title="jobs.mo.gov homepage" data-picture-mapping="mogov_responsive_image_default"><!--[if IE 9]><video style="display: none;"><![endif]--><source srcset="//jobs.mo.gov/sites/jobs/files/styles/picture_wide_1x/public/jobs-logo-white.png?itok=Zohj6rY_ 1x" media="all and (min-width: 992px)"></source><source srcset="//jobs.mo.gov/sites/jobs/files/styles/picture_normal_1x/public/jobs-logo-white.png?itok=EK26wBb2 1x" media="all and (min-width: 768px)"></source><source srcset="//jobs.mo.gov/sites/jobs/files/styles/picture_mobile_1x/public/jobs-logo-white.png?itok=ljtI52n8 1x" media="all and (min-width: 0px)"></source><!--[if IE 9]></video><![endif]--><img data-picture-mapping="mogov_responsive_image_default" src="//jobs.mo.gov/sites/jobs/files/styles/medium/public/jobs-logo-white.png?itok=VeGrtlN-" alt="jobs.mo.gov logo" title="jobs.mo.gov homepage" /></picture></a></div>
+</div>
+  </div>
+      </div>
+      <div class="l-header-content">
+          <div class="region region-header-content-1">
+    <div id="block-menu-menu-mogov-utility-bar" class="block block-menu first odd" role="navigation">
+
+        <h2 class="block__title block-title">Utility Bar</h2>
+    
+  <ul class="menu"><li class="menu__item is-leaf first leaf"><a href="https://jobs.mo.gov/content/contact-customer-support" class="menu__link">Contact Us</a></li>
+<li class="menu__item is-leaf leaf"><a href="https://jobs.mo.gov/media-inquiries" class="menu__link">Media Inquiries</a></li>
+<li class="menu__item is-leaf leaf"><a href="https://jobs.mo.gov/jobseeker/workshops" class="menu__link">No Cost Workshops</a></li>
+<li class="menu__item is-leaf last leaf"><a href="https://jobs.mo.gov/content/babel-notice" class="menu__link">¡IMPORTANTE! |  WICHTIG! | 重要!</a></li>
+</ul>
+</div>
+<div id="block-block-7" class="block block-block login-create-account-buttons last even">
+
+      
+  <p class="button-container float-right"><a href="https://app-jobs.mo.gov"><picture data-picture-mapping="mogov_responsive_image_default"><!--[if IE 9]><video style="display: none;"><![endif]--><source srcset="//jobs.mo.gov/sites/jobs/files/styles/picture_wide_1x/public/mojobs_login_100x33_600dpi.jpg?itok=SrX0Cqnr 1x" media="all and (min-width: 992px)"></source><source srcset="//jobs.mo.gov/sites/jobs/files/styles/picture_normal_1x/public/mojobs_login_100x33_600dpi.jpg?itok=ZMUBtcyv 1x" media="all and (min-width: 768px)"></source><source srcset="//jobs.mo.gov/sites/jobs/files/styles/picture_mobile_1x/public/mojobs_login_100x33_600dpi.jpg?itok=f3qatmrU 1x" media="all and (min-width: 0px)"></source><!--[if IE 9]></video><![endif]--><img data-picture-mapping="mogov_responsive_image_default" src="//jobs.mo.gov/sites/jobs/files/styles/medium/public/mojobs_login_100x33_600dpi.jpg?itok=goDy8Bb9" alt="MOJOBS Login" title="" /></picture></a></p>
+</div>
+  </div>
+          <div class="region region-header-content-2">
+    <div id="block-gtranslate-gtranslate" class="block block-gtranslate first last odd">
+
+        <h2 class="block__title block-title">Google Translate</h2>
+    
+  <script type="text/javascript">
+/* <![CDATA[ */
+eval(unescape("eval%28function%28p%2Ca%2Cc%2Ck%2Ce%2Cr%29%7Be%3Dfunction%28c%29%7Breturn%28c%3Ca%3F%27%27%3Ae%28parseInt%28c/a%29%29%29+%28%28c%3Dc%25a%29%3E35%3FString.fromCharCode%28c+29%29%3Ac.toString%2836%29%29%7D%3Bif%28%21%27%27.replace%28/%5E/%2CString%29%29%7Bwhile%28c--%29r%5Be%28c%29%5D%3Dk%5Bc%5D%7C%7Ce%28c%29%3Bk%3D%5Bfunction%28e%29%7Breturn%20r%5Be%5D%7D%5D%3Be%3Dfunction%28%29%7Breturn%27%5C%5Cw+%27%7D%3Bc%3D1%7D%3Bwhile%28c--%29if%28k%5Bc%5D%29p%3Dp.replace%28new%20RegExp%28%27%5C%5Cb%27+e%28c%29+%27%5C%5Cb%27%2C%27g%27%29%2Ck%5Bc%5D%29%3Breturn%20p%7D%28%276%207%28a%2Cb%29%7Bn%7B4%282.9%29%7B3%20c%3D2.9%28%22o%22%29%3Bc.p%28b%2Cf%2Cf%29%3Ba.q%28c%29%7Dg%7B3%20c%3D2.r%28%29%3Ba.s%28%5C%27t%5C%27+b%2Cc%29%7D%7Du%28e%29%7B%7D%7D6%20h%28a%29%7B4%28a.8%29a%3Da.8%3B4%28a%3D%3D%5C%27%5C%27%29v%3B3%20b%3Da.w%28%5C%27%7C%5C%27%29%5B1%5D%3B3%20c%3B3%20d%3D2.x%28%5C%27y%5C%27%29%3Bz%283%20i%3D0%3Bi%3Cd.5%3Bi++%294%28d%5Bi%5D.A%3D%3D%5C%27B-C-D%5C%27%29c%3Dd%5Bi%5D%3B4%282.j%28%5C%27k%5C%27%29%3D%3DE%7C%7C2.j%28%5C%27k%5C%27%29.l.5%3D%3D0%7C%7Cc.5%3D%3D0%7C%7Cc.l.5%3D%3D0%29%7BF%286%28%29%7Bh%28a%29%7D%2CG%29%7Dg%7Bc.8%3Db%3B7%28c%2C%5C%27m%5C%27%29%3B7%28c%2C%5C%27m%5C%27%29%7D%7D%27%2C43%2C43%2C%27%7C%7Cdocument%7Cvar%7Cif%7Clength%7Cfunction%7CGTranslateFireEvent%7Cvalue%7CcreateEvent%7C%7C%7C%7C%7C%7Ctrue%7Celse%7CdoGTranslate%7C%7CgetElementById%7Cgoogle_translate_element2%7CinnerHTML%7Cchange%7Ctry%7CHTMLEvents%7CinitEvent%7CdispatchEvent%7CcreateEventObject%7CfireEvent%7Con%7Ccatch%7Creturn%7Csplit%7CgetElementsByTagName%7Cselect%7Cfor%7CclassName%7Cgoog%7Cte%7Ccombo%7Cnull%7CsetTimeout%7C500%27.split%28%27%7C%27%29%2C0%2C%7B%7D%29%29"))
+/* ]]> */
+</script><style type="text/css">
+<!--
+#goog-gt-tt {display:none !important;}
+
+.goog-te-banner-frame {display:none !important;}
+
+.goog-te-menu-value:hover {text-decoration:none !important;}
+
+body {top:0 !important;}
+
+#google_translate_element2 {display:none!important;}
+-->
+</style><div id="google_translate_element2"></div>
+<script type="text/javascript">function googleTranslateElementInit2() {new google.translate.TranslateElement({pageLanguage: 'en', autoDisplay: false}, 'google_translate_element2');}</script>
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit2"></script><select onchange="doGTranslate(this);"><option value="">Select Language</option><option value="en|en" style="font-weight:bold;background:url('/sites/all/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -0px;padding-left:18px;">English</option><option value="en|af" style="background:url('/sites/all/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -688px;padding-left:18px;">Afrikaans</option><option value="en|sq" style="background:url('/sites/all/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -560px;padding-left:18px;">Albanian</option><option value="en|am" style="background:url('/sites/all/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1456px;padding-left:18px;">Amharic</option><option value="en|ar" style="background:url('/sites/all/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -16px;padding-left:18px;">Arabic</option><option value="en|hy" style="background:url('/sites/all/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -832px;padding-left:18px;">Armenian</option><option value="en|az" style="background:url('/sites/all/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -848px;padding-left:18px;">Azerbaijani</option><option value="en|eu" style="background:url('/sites/all/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -864px;padding-left:18px;">Basque</option><option value="en|be" style="background:url('/sites/all/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -768px;padding-left:18px;">Belarusian</option><option value="en|bn" style="background:url('/sites/all/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -928px;padding-left:18px;">Bengali</option><option value="en|bs" style="background:url('/sites/all/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -944px;padding-left:18px;">Bosnian</option><option value="en|bg" style="background:url('/sites/all/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -32px;padding-left:18px;">Bulgarian</option><option value="en|ca" style="background:url('/sites/all/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -384px;padding-left:18px;">Catalan</option><option value="en|ceb" style="background:url('/sites/all/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -960px;padding-left:18px;">Cebuano</option><option value="en|ny" style="background:url('/sites/all/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1312px;padding-left:18px;">Chichewa</option><option value="en|zh-CN" style="background:url('/sites/all/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -48px;padding-left:18px;">Chinese (Simplified)</option><option value="en|zh-TW" style="background:url('/sites/all/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -64px;padding-left:18px;">Chinese (Traditional)</option><option value="en|co" style="background:url('/sites/all/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1472px;padding-left:18px;">Corsican</option><option value="en|hr" style="background:url('/sites/all/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -80px;padding-left:18px;">Croatian</option><option value="en|cs" style="background:url('/sites/all/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -96px;padding-left:18px;">Czech</option><option value="en|da" style="background:url('/sites/all/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -112px;padding-left:18px;">Danish</option><option value="en|nl" style="background:url('/sites/all/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -128px;padding-left:18px;">Dutch</option><option value="en|eo" style="background:url('/sites/all/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -976px;padding-left:18px;">Esperanto</option><option value="en|et" style="background:url('/sites/all/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -576px;padding-left:18px;">Estonian</option><option value="en|tl" style="background:url('/sites/all/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -400px;padding-left:18px;">Filipino</option><option value="en|fi" style="background:url('/sites/all/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -144px;padding-left:18px;">Finnish</option><option value="en|fr" style="background:url('/sites/all/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -160px;padding-left:18px;">French</option><option value="en|fy" style="background:url('/sites/all/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1632px;padding-left:18px;">Frisian</option><option value="en|gl" style="background:url('/sites/all/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -592px;padding-left:18px;">Galician</option><option value="en|ka" style="background:url('/sites/all/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -880px;padding-left:18px;">Georgian</option><option value="en|de" style="background:url('/sites/all/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -176px;padding-left:18px;">German</option><option value="en|el" style="background:url('/sites/all/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -192px;padding-left:18px;">Greek</option><option value="en|gu" style="background:url('/sites/all/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -992px;padding-left:18px;">Gujarati</option><option value="en|ht" style="background:url('/sites/all/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -896px;padding-left:18px;">Haitian Creole</option><option value="en|ha" style="background:url('/sites/all/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1008px;padding-left:18px;">Hausa</option><option value="en|haw" style="background:url('/sites/all/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1488px;padding-left:18px;">Hawaiian</option><option value="en|iw" style="background:url('/sites/all/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -416px;padding-left:18px;">Hebrew</option><option value="en|hi" style="background:url('/sites/all/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -208px;padding-left:18px;">Hindi</option><option value="en|hmn" style="background:url('/sites/all/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1024px;padding-left:18px;">Hmong</option><option value="en|hu" style="background:url('/sites/all/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -608px;padding-left:18px;">Hungarian</option><option value="en|is" style="background:url('/sites/all/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -784px;padding-left:18px;">Icelandic</option><option value="en|ig" style="background:url('/sites/all/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1040px;padding-left:18px;">Igbo</option><option value="en|id" style="background:url('/sites/all/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -432px;padding-left:18px;">Indonesian</option><option value="en|ga" style="background:url('/sites/all/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -736px;padding-left:18px;">Irish</option><option value="en|it" style="background:url('/sites/all/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -224px;padding-left:18px;">Italian</option><option value="en|ja" style="background:url('/sites/all/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -240px;padding-left:18px;">Japanese</option><option value="en|jw" style="background:url('/sites/all/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1056px;padding-left:18px;">Javanese</option><option value="en|kn" style="background:url('/sites/all/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1072px;padding-left:18px;">Kannada</option><option value="en|kk" style="background:url('/sites/all/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1328px;padding-left:18px;">Kazakh</option><option value="en|km" style="background:url('/sites/all/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1088px;padding-left:18px;">Khmer</option><option value="en|ko" style="background:url('/sites/all/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -256px;padding-left:18px;">Korean</option><option value="en|ku" style="background:url('/sites/all/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1504px;padding-left:18px;">Kurdish (Kurmanji)</option><option value="en|ky" style="background:url('/sites/all/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1520px;padding-left:18px;">Kyrgyz</option><option value="en|lo" style="background:url('/sites/all/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1104px;padding-left:18px;">Lao</option><option value="en|la" style="background:url('/sites/all/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1120px;padding-left:18px;">Latin</option><option value="en|lv" style="background:url('/sites/all/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -448px;padding-left:18px;">Latvian</option><option value="en|lt" style="background:url('/sites/all/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -464px;padding-left:18px;">Lithuanian</option><option value="en|lb" style="background:url('/sites/all/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1536px;padding-left:18px;">Luxembourgish</option><option value="en|mk" style="background:url('/sites/all/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -800px;padding-left:18px;">Macedonian</option><option value="en|mg" style="background:url('/sites/all/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1344px;padding-left:18px;">Malagasy</option><option value="en|ms" style="background:url('/sites/all/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -704px;padding-left:18px;">Malay</option><option value="en|ml" style="background:url('/sites/all/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1360px;padding-left:18px;">Malayalam</option><option value="en|mt" style="background:url('/sites/all/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -624px;padding-left:18px;">Maltese</option><option value="en|mi" style="background:url('/sites/all/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1136px;padding-left:18px;">Maori</option><option value="en|mr" style="background:url('/sites/all/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1152px;padding-left:18px;">Marathi</option><option value="en|mn" style="background:url('/sites/all/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1168px;padding-left:18px;">Mongolian</option><option value="en|my" style="background:url('/sites/all/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1296px;padding-left:18px;">Myanmar (Burmese)</option><option value="en|ne" style="background:url('/sites/all/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1184px;padding-left:18px;">Nepali</option><option value="en|no" style="background:url('/sites/all/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -272px;padding-left:18px;">Norwegian</option><option value="en|ps" style="background:url('/sites/all/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1552px;padding-left:18px;">Pashto</option><option value="en|fa" style="background:url('/sites/all/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -672px;padding-left:18px;">Persian</option><option value="en|pl" style="background:url('/sites/all/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -288px;padding-left:18px;">Polish</option><option value="en|pt" style="background:url('/sites/all/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -304px;padding-left:18px;">Portuguese</option><option value="en|pa" style="background:url('/sites/all/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1200px;padding-left:18px;">Punjabi</option><option value="en|ro" style="background:url('/sites/all/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -320px;padding-left:18px;">Romanian</option><option value="en|ru" style="background:url('/sites/all/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -336px;padding-left:18px;">Russian</option><option value="en|sm" style="background:url('/sites/all/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1568px;padding-left:18px;">Samoan</option><option value="en|gd" style="background:url('/sites/all/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1584px;padding-left:18px;">Scottish Gaelic</option><option value="en|sr" style="background:url('/sites/all/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -480px;padding-left:18px;">Serbian</option><option value="en|st" style="background:url('/sites/all/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1392px;padding-left:18px;">Sesotho</option><option value="en|sn" style="background:url('/sites/all/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1600px;padding-left:18px;">Shona</option><option value="en|sd" style="background:url('/sites/all/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1616px;padding-left:18px;">Sindhi</option><option value="en|si" style="background:url('/sites/all/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1376px;padding-left:18px;">Sinhala</option><option value="en|sk" style="background:url('/sites/all/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -496px;padding-left:18px;">Slovak</option><option value="en|sl" style="background:url('/sites/all/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -512px;padding-left:18px;">Slovenian</option><option value="en|so" style="background:url('/sites/all/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1216px;padding-left:18px;">Somali</option><option value="en|es" style="background:url('/sites/all/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -352px;padding-left:18px;">Spanish</option><option value="en|su" style="background:url('/sites/all/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1408px;padding-left:18px;">Sudanese</option><option value="en|sw" style="background:url('/sites/all/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -720px;padding-left:18px;">Swahili</option><option value="en|sv" style="background:url('/sites/all/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -368px;padding-left:18px;">Swedish</option><option value="en|tg" style="background:url('/sites/all/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1424px;padding-left:18px;">Tajik</option><option value="en|ta" style="background:url('/sites/all/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1232px;padding-left:18px;">Tamil</option><option value="en|te" style="background:url('/sites/all/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1248px;padding-left:18px;">Telugu</option><option value="en|th" style="background:url('/sites/all/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -640px;padding-left:18px;">Thai</option><option value="en|tr" style="background:url('/sites/all/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -656px;padding-left:18px;">Turkish</option><option value="en|uk" style="background:url('/sites/all/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -528px;padding-left:18px;">Ukrainian</option><option value="en|ur" style="background:url('/sites/all/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -912px;padding-left:18px;">Urdu</option><option value="en|uz" style="background:url('/sites/all/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1440px;padding-left:18px;">Uzbek</option><option value="en|vi" style="background:url('/sites/all/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -544px;padding-left:18px;">Vietnamese</option><option value="en|cy" style="background:url('/sites/all/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -752px;padding-left:18px;">Welsh</option><option value="en|xh" style="background:url('/sites/all/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1648px;padding-left:18px;">Xhosa</option><option value="en|yi" style="background:url('/sites/all/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -816px;padding-left:18px;">Yiddish</option><option value="en|yo" style="background:url('/sites/all/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1264px;padding-left:18px;">Yoruba</option><option value="en|zu" style="background:url('/sites/all/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1280px;padding-left:18px;">Zulu</option></select>
+</div>
+  </div>
+      </div>
+    </div>
+  </header>
+  
+      <div class="l-zone l-menus l-premenu">
+      <div class="l-container">
+          <div class="region region-premenu">
+    <div id="block-mogov-blocks-mobile-nav-button" class="block block-mogov-blocks mobile-only first last odd">
+
+        <h2 class="block__title block-title">Navigation Menu</h2>
+    
+  <div id="mogov-navigate" class="mobile-only"><button class="navbar-toggle collapsed" type="button"><span class="sr-only">Mobile Menu Button</span></button></div>
+</div>
+  </div>
+      </div>
+    </div>
+    
+    
+    
+        
+  
+  <div class="l-zone l-main">
+    <div class="l-container">
+      <div class="l-content" role="main">
+        <a id="main-content"></a>
+                          <h1>Missouri WARN Notices PY 2017</h1>
+                                        
+
+
+<article class="node-34966 node node-jobs-child-page view-mode-full clearfix">
+
+  
+  <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even"><h2><strong>Missouri WARN Log PY 2017</strong></h2>
+
+<hr /><p>Worker Adjustment and Retraining Notification Act (WARN Act) notices received from employers by the Missouri Division of Workforce Development's Dislocated Worker Program, by Program Year (July to June), July 2017 to present.</p>
+
+<p><strong><a href="https://jobs.mo.gov/media-inquiries">Media inquiries</a> </strong>concerning this information should be directed to Missouri Department of Economic Development's Communications Director.<br />
+ </p>
+
+<table border="0" cellpadding="1" cellspacing="1" summary="Missouri WARN Notices PY 2016" valign="top"><thead><tr><th scope="col"><span>DATE RECEIVED</span></th>
+			<th scope="col"><span>COMPANY NAME</span></th>
+			<th scope="col"><span>LOCATION</span></th>
+			<th scope="col"><span>COUNTY</span></th>
+			<th scope="col"><span>REGION</span></th>
+			<th scope="col"><span>TYPE</span></th>
+			<th scope="col"><span>LAYOFF DATE</span></th>
+			<th scope="col"><span># AFFECTED</span></th>
+		</tr><tr><td>07/06/17</td>
+			<td><a href="https://jobs.mo.gov/sites/jobs/files/sunedison-layoff-stl-july2017.pdf">SunEdison, Inc.</a></td>
+			<td>St. Louis</td>
+			<td>St. Louis County</td>
+			<td>St. Louis County</td>
+			<td>Layoff</td>
+			<td>07/10/2017</td>
+			<td>6</td>
+		</tr><tr><td>07/24/17</td>
+			<td>Neuterra d/b/a <a href="https://jobs.mo.gov/sites/jobs/files/fulton-medical-center-hospital-_fulton_redacted.pdf">Fulton Medical Center </a>("Hospital")</td>
+			<td>Fulton</td>
+			<td>Callaway</td>
+			<td>Central</td>
+			<td>Closing</td>
+			<td>09/22/2017</td>
+			<td>158</td>
+		</tr><tr><td>07/31/17</td>
+			<td><a href="https://jobs.mo.gov/sites/jobs/files/loziercorp-redacted-082017.pdf">Lozier Corporation</a></td>
+			<td>Union</td>
+			<td>Franklin</td>
+			<td>Jefferson/Franklin Consortium</td>
+			<td>Closing</td>
+			<td>10/06/2017 -<br />
+			Fall 2017</td>
+			<td>92</td>
+		</tr><tr><td>08/03/17</td>
+			<td><a href="https://jobs.mo.gov/sites/jobs/files/diode-redacted-082017.pdf">Diodes Fabtech, Inc.</a></td>
+			<td>Lee's Summit</td>
+			<td>Jackson</td>
+			<td>Kansas City &amp; Vicinity</td>
+			<td>Closing</td>
+			<td>10/06/2017</td>
+			<td>167</td>
+		</tr><tr><td>08/16/17</td>
+			<td><a href="https://jobs.mo.gov/sites/jobs/files/frontier_communications_corporation_-_weldon_springs_redacted.pdf">Frontier Communications Corporation</a></td>
+			<td>Weldon Spring</td>
+			<td>St. Charles</td>
+			<td>St. Charles County</td>
+			<td>Closing</td>
+			<td>10/16/2017 - 10/20/2017</td>
+			<td>141</td>
+		</tr><tr><td>09/20/17</td>
+			<td><a href="https://jobs.mo.gov/sites/jobs/files/positronic_industries_inc_-_mt._vernon_redacted.pdf">Positronic Industries Inc.</a></td>
+			<td>Mt. Vernon</td>
+			<td>Lawrence</td>
+			<td>Southwest</td>
+			<td>Layoff</td>
+			<td>12/01/2017</td>
+			<td>97</td>
+		</tr><tr><td>10/10/17</td>
+			<td><a href="https://jobs.mo.gov/sites/jobs/files/td_ameritrade_holding_corp-st._louis_redacted_08222018.pdf">TD Ameritrade Corp</a>.  (updated 08-22-2018)</td>
+			<td>Multiple Locations</td>
+			<td>Multiple Locations</td>
+			<td>Multiple Locations</td>
+			<td>Layoff</td>
+			<td>11/21/2017</td>
+			<td>1208</td>
+		</tr><tr><td>10/20/17</td>
+			<td>Zhongding Sealing Parts (USA), Inc. d/b/a <a href="https://jobs.mo.gov/sites/jobs/files/buckhorn_rubber_products_zhongding_sealing_parts_oct2017.pdf">Buckhorn Rubber Products</a></td>
+			<td>Hannibal</td>
+			<td>Ralls</td>
+			<td>Northeast</td>
+			<td>Closing</td>
+			<td>12/22/2017</td>
+			<td>119</td>
+		</tr><tr><td>10/27/17</td>
+			<td><a href="https://jobs.mo.gov/sites/jobs/files/amcor_rigid_plastics_122717_redacted.pdf">Amcor Rigid Plastics USA LLC</a> (updated 12-27-2017)</td>
+			<td>Jefferson City</td>
+			<td>Cole</td>
+			<td>Central</td>
+			<td>Layoff</td>
+			<td>12/29/2017-3/29/2018</td>
+			<td>72</td>
+		</tr><tr><td>11/02/17</td>
+			<td><a href="https://jobs.mo.gov/sites/jobs/files/k_mart_corporation_11_2_17_redacted1.pdf">Kmart</a></td>
+			<td>Independence</td>
+			<td>Jackson</td>
+			<td>Kansas City &amp; Vicinity</td>
+			<td>Closing</td>
+			<td>01/21/2018</td>
+			<td>62</td>
+		</tr><tr><td>11/07/17</td>
+			<td><a href="https://jobs.mo.gov/sites/jobs/files/kindred_healthcare_11_7_17_redacted1.pdf">Kindred Hospitals East, LLC d/b/a Kindred Hospital</a></td>
+			<td>Kansas City</td>
+			<td>Jackson</td>
+			<td>Kansas City &amp; Vicinity</td>
+			<td>Closing</td>
+			<td>01/06/2018-01/20/2018</td>
+			<td>115</td>
+		</tr><tr><td>11/16/17</td>
+			<td><a href="https://jobs.mo.gov/sites/jobs/files/hmdunnaerosystems_112017_redacted.pdf">HM Dunn AeroSystems, Incorporated</a></td>
+			<td>St. Louis</td>
+			<td>St. Louis City</td>
+			<td>St. Louis City</td>
+			<td>Closing</td>
+			<td>01/28/18</td>
+			<td>53</td>
+		</tr><tr><td>11/20/17</td>
+			<td><a href="https://jobs.mo.gov/files/sedgwickwarn112117redacted2pdf">Sedgwick LLP</a></td>
+			<td>Kansas City</td>
+			<td>Jackson</td>
+			<td>Kansas City &amp; Vicinity</td>
+			<td>Closing</td>
+			<td>01/20/2018</td>
+			<td>75</td>
+		</tr><tr><td>12/05/17</td>
+			<td><a href="https://jobs.mo.gov/sites/jobs/files/knappco_inc_120517_redacted.pdf">Knappco, Inc.</a></td>
+			<td>Riverside</td>
+			<td>Platte</td>
+			<td>Kansas City &amp; Vicinity</td>
+			<td>Closing</td>
+			<td>02/12/2018</td>
+			<td>58</td>
+		</tr><tr><td>12/14/17</td>
+			<td><a href="https://jobs.mo.gov/sites/jobs/files/att_121417_redacted.pdf">AT&amp;T Communications, Inc.</a></td>
+			<td>Kansas City</td>
+			<td>Jackson</td>
+			<td>Kansas City &amp; Vicinity</td>
+			<td>Layoff</td>
+			<td>02/17/2018</td>
+			<td>87</td>
+		</tr><tr><td>12/15/17</td>
+			<td><a href="https://jobs.mo.gov/sites/jobs/files/talbot_warn_12152017_redacted.pdf">Talbot (Leggett &amp; Platt, Inc.)</a></td>
+			<td>Neosho</td>
+			<td>Newton</td>
+			<td>Southwest</td>
+			<td>Closing</td>
+			<td>02/13/2018</td>
+			<td>130</td>
+		</tr><tr><td>12/15/17</td>
+			<td><a href="https://jobs.mo.gov/sites/jobs/files/armstrong_energy_warn_121517_redacted.pdf">Armstrong Energy, Inc.</a></td>
+			<td>St. Louis</td>
+			<td>St. Louis County</td>
+			<td>St. Louis County</td>
+			<td>Closing</td>
+			<td>02/14/2018</td>
+			<td>8</td>
+		</tr><tr><td>01/05/18</td>
+			<td><a href="https://jobs.mo.gov/sites/jobs/files/conagra_updated_warn_redacted_01302018.pdf">ConAgra Foods, Inc.</a> (Updated 01-30-2018)</td>
+			<td>Trenton</td>
+			<td>Grundy</td>
+			<td>Northwest</td>
+			<td>Closing</td>
+			<td>03/09/2018-05/31/2018</td>
+			<td>282</td>
+		</tr><tr><td>01/11/18</td>
+			<td><a href="https://jobs.mo.gov/sites/jobs/files/moonridge_foods_warn_01172018_redacted.pdf">Moon Ridge Foods, LLC</a></td>
+			<td>Pleasant Hope</td>
+			<td>Polk</td>
+			<td>Southwest</td>
+			<td>Layoff</td>
+			<td>01/11/2018</td>
+			<td>240</td>
+		</tr><tr><td>01/26/18</td>
+			<td><a href="https://jobs.mo.gov/sites/jobs/files/serco_01262018_redacted.pdf">Serco, Inc.</a></td>
+			<td>Wentzville</td>
+			<td>St. Charles County</td>
+			<td>St. Charles County</td>
+			<td>Closing</td>
+			<td>06/30/2018</td>
+			<td>660</td>
+		</tr><tr><td>02/02/18</td>
+			<td><a href="https://jobs.mo.gov/sites/jobs/files/asm_research_warn_02022018.pdf">ASM Research</a></td>
+			<td>St. Louis</td>
+			<td>St. Louis City</td>
+			<td>St. Louis City</td>
+			<td>Closing</td>
+			<td>03/27/2018</td>
+			<td>14</td>
+		</tr><tr><td>02/02/18</td>
+			<td><a href="https://jobs.mo.gov/sites/jobs/files/congnosante_warn_032618_redacted.pdf">Cognosante, LLC</a> (Updated 03-26-2018)</td>
+			<td>Wentzville</td>
+			<td>St. Charles County</td>
+			<td>St. Charles County</td>
+			<td>Closing</td>
+			<td>04/06/2018</td>
+			<td>84</td>
+		</tr><tr><td>02/20/18</td>
+			<td><a href="https://jobs.mo.gov/sites/jobs/files/convergys_warn_02202018.pdf">Convergys Corporation</a></td>
+			<td>Arnold</td>
+			<td>Jefferson/Franklin Consortium</td>
+			<td>Jefferson County</td>
+			<td>Closing</td>
+			<td>04/30/2018</td>
+			<td>319</td>
+		</tr><tr><td>03/15/18</td>
+			<td><a href="https://jobs.mo.gov/sites/jobs/files/toysrus_lees_summit_warn_extension-redacted05152018.pdf">Toys "R" Us</a> (Updated 05-15-2018)</td>
+			<td>Lee's Summit</td>
+			<td>Jackson County</td>
+			<td>Kansas City &amp; Vicinity</td>
+			<td>Closing</td>
+			<td>05/14/2018</td>
+			<td>191</td>
+		</tr><tr><td>03/23/18</td>
+			<td><a href="https://jobs.mo.gov/files/eaglefoods-senecawarn03272018pdf">Eagle Foods</a></td>
+			<td>Seneca</td>
+			<td>Newton</td>
+			<td>Southwest</td>
+			<td>Closing</td>
+			<td>06/06/2018</td>
+			<td>39</td>
+		</tr><tr><td>04/18/18</td>
+			<td><a href="https://jobs.mo.gov/sites/jobs/files/abb_inc._-_st._louis_update_redacted08182018.pdf">ABB Inc.</a> (Updated 08-08-2018)</td>
+			<td>St. Louis</td>
+			<td>St. Louis City</td>
+			<td>St. Louis City</td>
+			<td>Layoff</td>
+			<td>May 31, 2018</td>
+			<td>82</td>
+		</tr><tr><td>04/19/18</td>
+			<td><a href="https://jobs.mo.gov/sites/jobs/files/select_medical_corporation_-_kansas_city-redacted.pdf">Select Medical Corporation</a></td>
+			<td>Kansas City</td>
+			<td>Jackson</td>
+			<td>Kansas City &amp; Vicinity</td>
+			<td>Closing</td>
+			<td>May 18, 2018</td>
+			<td>105</td>
+		</tr><tr><td>04/27/18</td>
+			<td><a href="https://jobs.mo.gov/sites/jobs/files/claycomo_releasing_inc_-warn_redacted_05102018.pdf">Claycomo Releasing, Inc.</a> (Updated 05-10-2018)</td>
+			<td>Claycomo</td>
+			<td>Clay</td>
+			<td>Kansas City &amp; Vicinity</td>
+			<td>Closing</td>
+			<td>June 30, 2018</td>
+			<td>172</td>
+		</tr><tr><td>04/30/18</td>
+			<td><a href="https://jobs.mo.gov/sites/jobs/files/trrmc_hma_physician_mngmt_warn_redacted_04302018.pdf">Twin Rivers Regional Medical Center - Kennett HMA Physicians Management, LLC</a></td>
+			<td>Kennett</td>
+			<td>Dunklin</td>
+			<td>Southeast</td>
+			<td>Closing</td>
+			<td>June 30, 2018</td>
+			<td>16</td>
+		</tr><tr><td>04/30/18</td>
+			<td><a href="https://jobs.mo.gov/sites/jobs/files/trrmc_hma_llc_warn_redacted_04302018.pdf">Twin Rivers Regional Medical Center - Kennett HMA, LLC</a></td>
+			<td>Kennett</td>
+			<td>Dunklin</td>
+			<td>Southeast</td>
+			<td>Closing</td>
+			<td>June 30, 2018</td>
+			<td>259</td>
+		</tr><tr><td>05/10/18</td>
+			<td><a href="https://jobs.mo.gov/sites/jobs/files/cassens_transport_company_-_claycomo_warn_redacted_05092018.pdf">Cassens Transport Company</a></td>
+			<td>Claycomo</td>
+			<td>Clay</td>
+			<td>Kansas City &amp; Vicinity</td>
+			<td>Closing</td>
+			<td>June 30, 2018</td>
+			<td>29</td>
+		</tr><tr><td>05/18/18</td>
+			<td><a href="https://jobs.mo.gov/sites/jobs/files/car_city_-_st._joe_warn_redacted_05232018.pdf">Car City Motor, Inc.</a></td>
+			<td>St. Joseph</td>
+			<td>Buchanan</td>
+			<td>Northwest</td>
+			<td>Closing</td>
+			<td>June 18, 2018</td>
+			<td>74</td>
+		</tr><tr><td>05/30/18</td>
+			<td><a href="https://jobs.mo.gov/sites/jobs/files/aramark_-_st._louis_university_redacted05312018.pdf">Aramark Campus Services, LLC - Saint Louis University</a></td>
+			<td>St. Louis</td>
+			<td>St. Louis </td>
+			<td>St. Louis </td>
+			<td>Closing</td>
+			<td>July 31, 2018</td>
+			<td>188</td>
+		</tr><tr><td>05/29/18</td>
+			<td><a href="https://jobs.mo.gov/sites/jobs/files/harley_davidson_warn_redacted_03252019.pdf">Harley Davidson Motor Company, Inc. - Kansas City</a> (Updated 03/25/2019)</td>
+			<td>Kansas City</td>
+			<td>Jackson</td>
+			<td>Kansas City &amp; Vicinity</td>
+			<td>Closing</td>
+			<td>August 3, 2018</td>
+			<td>485</td>
+		</tr><tr><td>06/15/18</td>
+			<td><a href="https://jobs.mo.gov/sites/jobs/files/hard_rock-st._louis_redacted_06182018.pdf">Hard Rock Cafe - St. Louis</a></td>
+			<td>St. Louis</td>
+			<td>St. Louis City</td>
+			<td>St. Louis City</td>
+			<td>Closing</td>
+			<td>August 16, 2018</td>
+			<td>57</td>
+		</tr><tr><td>06/15/18</td>
+			<td><a href="https://jobs.mo.gov/sites/jobs/files/syncreon_u.s._inc.-kansascity_redacted_040119.pdf">syncreon, U.S.</a> (Updated 04/01/2019)</td>
+			<td>Kansas City</td>
+			<td>Kansas City</td>
+			<td>Kansas City &amp; Vicinity</td>
+			<td>Layoff</td>
+			<td>August 17, 2018</td>
+			<td>378</td>
+		</tr><tr><td>06/28/18</td>
+			<td><a href="https://jobs.mo.gov/sites/jobs/files/state_farm-earthcity_warn_redacted_06282018.pdf">State Farm Mutual Automobile Insurance Company - Earth City</a></td>
+			<td>Earth City</td>
+			<td>St. Louis County</td>
+			<td>St. Louis County</td>
+			<td>Closing</td>
+			<td>August 31, 2018</td>
+			<td>136</td>
+		</tr><tr><td>06/29/18</td>
+			<td><a href="https://jobs.mo.gov/sites/jobs/files/american_airlines_inc._-_st._louis_warn_redacted_06292018.pdf">American Airlines, Inc. - St. Louis Pilot Crew Base</a></td>
+			<td>St. Louis</td>
+			<td>St. Louis </td>
+			<td>St. Louis</td>
+			<td>Closing</td>
+			<td>September 3, 2018</td>
+			<td>155</td>
+		</tr><tr><td> </td>
+			<td> </td>
+			<td> </td>
+			<td> </td>
+			<td> </td>
+			<td> </td>
+			<td><strong>TOTAL</strong></td>
+			<td><strong>6442</strong></td>
+		</tr></thead></table></div></div></div>
+  
+  
+</article>
+      </div>
+          </div>
+    <div class="l-container">
+          </div>
+  </div>
+
+  <footer class="l-zone l-footer" role="contentinfo">
+    <div class="l-container">
+        <div class="region region-footer">
+    <div id="block-panels-mini-footer-links" class="block block-panels-mini first odd">
+
+      
+  
+<div class="columns-4-a panel-display panel-display--columns-4-a">
+  <div class="l-container columns-4-a">
+    <div class="l-region columns-4-a-region--column-1">
+      <div class="panel-pane pane-block pane-menu-block-8 pane-menu-block"  >
+  
+        <h2 class="pane-title">
+      jobs.mo.gov    </h2>
+    
+  
+  <div class="menu-block-wrapper menu-block-8 menu-name-menu-footer-links parent-mlid-20689 menu-level-1">
+  <ul class="menu"><li class="menu__item is-leaf first leaf menu-mlid-20690"><a href="https://jobs.mo.gov/community/about-us" class="menu__link">About Us</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-20691"><a href="https://jobs.mo.gov/content/contact-customer-support" class="menu__link">Contact Us</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-27911"><a href="https://jobs.mo.gov/media-inquiries" class="menu__link">Media Inquiries</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-20692"><a href="/career-centers" class="menu__link">Find a Job Center</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-23839"><a href="/content/personal-internet-safety" class="menu__link">Internet Safety</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-27816"><a href="https://jobs.mo.gov/content/babel-notice" class="menu__link">Babel Notice</a></li>
+<li class="menu__item is-leaf last leaf menu-mlid-27146"><a href="https://jobs.mo.gov/content/newsletter-showcase" class="menu__link">Employment Related Tips</a></li>
+</ul></div>
+
+  
+  </div>
+<div class="panel-pane pane-block pane-menu-menu-social-links pane-menu-menu-social-links-small clearfix pane-menu"  >
+  
+        <h2 class="pane-title">
+      Connect with Us!    </h2>
+    
+  
+  <ul class="menu"><li class="menu__item is-leaf first leaf"><a href="http://www.facebook.com/JobsMoGov/" title="Like us on Facebook" class="menu__link ir facebook">Facebook</a></li>
+<li class="menu__item is-leaf leaf"><a href="http://twitter.com/JobsMoGov" title="Follow us on Twitter" class="menu__link ir twitter">Twitter</a></li>
+<li class="menu__item is-leaf leaf"><a href="https://www.pinterest.com/jobsmogov/" title="Follow us on Pinterest!" class="menu__link ir pinterest">Pinterest</a></li>
+<li class="menu__item is-leaf leaf"><a href="http://youtube.com/moworkforce1" title="Watch videos on YouTube" class="menu__link ir youtube">YouTube</a></li>
+<li class="menu__item is-leaf leaf"><a href="https://jobs.mo.gov/content/contact-customer-support" title="Contact us" class="menu__link ir email">Contact Us</a></li>
+<li class="menu__item is-leaf last leaf"><a href="https://public.govdelivery.com/accounts/MODHEWD/subscriber/new" title="Subscribe to GovDelivery" class="menu__link ir govdelivery">GovDelivery</a></li>
+</ul>
+  
+  </div>
+    </div>
+    <div class="l-region columns-4-a-region--column-2">
+      <div class="panel-pane pane-block pane-menu-block-3 pane-menu-block clearfix"  >
+  
+        <h2 class="pane-title">
+      Job Seekers    </h2>
+    
+  
+  <div class="menu-block-wrapper menu-block-3 menu-name-menu-footer-links parent-mlid-1646 menu-level-1">
+  <ul class="menu"><li class="menu__item is-leaf first leaf menu-mlid-1648"><a href="https://app-jobs.mo.gov/vosnet/Default.aspx" class="menu__link">Find a Job using MoJobs</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-1649"><a href="/jobseeker/plan-your-career" class="menu__link">Plan Your Career </a></li>
+<li class="menu__item is-leaf leaf menu-mlid-19751"><a href="/jobseeker/prepare-for-the-job" class="menu__link">Prepare for the Job</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-24352"><a href="https://jobs.mo.gov/sites/jobs/files/owd-jc-leadership-map-01-2022.pdf" class="menu__link">Find a Job Center - Print Map</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-27906"><a href="https://journeytocollege.mo.gov/" class="menu__link">Journey to College</a></li>
+<li class="menu__item is-leaf last leaf menu-mlid-27086"><a href="https://jobs.mo.gov/content/mojobs-live" class="menu__link">Job Seeker MoJobs Login</a></li>
+</ul></div>
+
+  
+  </div>
+    </div>
+    <div class="l-region columns-4-a-region--column-3">
+      <div class="panel-pane pane-block pane-menu-block-2 pane-menu-block grid-6 alpha"  >
+  
+        <h2 class="pane-title">
+      Employers    </h2>
+    
+  
+  <div class="menu-block-wrapper menu-block-2 menu-name-menu-footer-links parent-mlid-1642 menu-level-1">
+  <ul class="menu"><li class="menu__item is-leaf first leaf menu-mlid-1643"><a href="https://app-jobs.mo.gov/vosnet/Default.aspx" class="menu__link">Post a Job using MoJobs</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-1644"><a href="/employer/recruitment" class="menu__link">Recruitment</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-19748"><a href="/employer/incentives" class="menu__link">Incentives</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-19749"><a href="/employer/resources" class="menu__link">Business Resources</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-20693"><a href="https://jobs.mo.gov/sites/jobs/files/eres-map-1-17-2022.pdf" class="menu__link">Find a Local Business Contact</a></li>
+<li class="menu__item is-leaf last leaf menu-mlid-27091"><a href="https://jobs.mo.gov/content/mojobs-live" class="menu__link">Employer MoJobs Login</a></li>
+</ul></div>
+
+  
+  </div>
+    </div>
+    <div class="l-region columns-4-a-region--column-4">
+      <div class="panel-pane pane-block pane-menu-block-4 pane-menu-block grid-6"  >
+  
+        <h2 class="pane-title">
+      Community    </h2>
+    
+  
+  <div class="menu-block-wrapper menu-block-4 menu-name-menu-footer-links parent-mlid-1650 menu-level-1">
+  <ul class="menu"><li class="menu__item is-leaf first leaf menu-mlid-1653"><a href="/community/equal-opportunity" class="menu__link">Equal Opportunity &amp; Disability Services</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-1651"><a href="/community/mo-workforce-system" class="menu__link">Missouri Workforce System</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-1652"><a href="/community/mo-workforce-development-board" class="menu__link">Missouri Workforce Development Board</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-20694"><a href="/community/labor-market" class="menu__link">Missouri&#039;s Labor Market</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-27031"><a href="https://jobs.mo.gov/community/moetps" class="menu__link">Missouri Eligible Training Providers</a></li>
+<li class="menu__item is-leaf last leaf menu-mlid-27081"><a href="https://app-jobs.mo.gov/" class="menu__link">Staff Login</a></li>
+</ul></div>
+
+  
+  </div>
+<div class="panel-pane pane-custom pane-1"  >
+  
+      
+  
+  <p><a href="https://www.missouriorgandonor.com/odpublicsite/Default.aspx"><picture data-picture-mapping="mogov_responsive_image_default" data-picture-align="right"><!--[if IE 9]><video style="display: none;"><![endif]--><source srcset="//jobs.mo.gov/sites/jobs/files/styles/picture_wide_1x/public/save-life-footer.png?itok=HM6npDfa 1x" media="all and (min-width: 992px)"></source><source srcset="//jobs.mo.gov/sites/jobs/files/styles/picture_normal_1x/public/save-life-footer.png?itok=jU_C6CyZ 1x" media="all and (min-width: 768px)"></source><source srcset="//jobs.mo.gov/sites/jobs/files/styles/picture_mobile_1x/public/save-life-footer.png?itok=nvCYFCqI 1x" media="all and (min-width: 0px)"></source><!--[if IE 9]></video><![endif]--><img data-picture-mapping="mogov_responsive_image_default" data-picture-align="right" src="//jobs.mo.gov/sites/jobs/files/styles/medium/public/save-life-footer.png?itok=HriJ456k" alt="Click here to save a life" title="" /></picture></a></p>
+  
+  </div>
+    </div>
+  </div>
+</div>
+
+</div>
+<div id="block-block-3" class="block block-block footer-disclaimer even">
+
+      
+  <p class="rtecenter font-size-small">The Missouri Office of Workforce Development is a proud partner of the American Job Center network.</p>
+
+<p class="rtecenter font-size-small">Missouri Department of Higher Education and Workforce Development is an equal opportunity employer/program.<br />
+Auxiliary aids and services are available upon request to individuals with disabilities. Missouri Relay 711.</p>
+
+<p class="rtecenter font-size-small">This workforce product was funded by a grant awarded by the U.S. Department of Labor’s Employment and Training Administration.  The product was created by the contracting agency and does not necessarily reflect the official position of the U.S. Department of Labor.  The Department of Labor makes no guarantees, warranties, or assurances of any kind, express or implied, with respect to such information, including any information on linked sites and including, but not limited to, accuracy of the information or its completeness, timeliness, usefulness, adequacy, continued availability, or ownership. This product is copyrighted by the institution that created it.  Internal use by an organization and/or personal use by an individual for non-commercial purposes is permissible.  All other uses require the prior authorization of the copyright owner.</p>
+</div>
+<div id="block-menu-menu-menu-site-info" class="block block-menu last odd" role="navigation">
+
+      
+  <ul class="menu"><li class="menu__item is-leaf first leaf"><a href="/community/equal-opportunity" class="menu__link">Equal Opportunity</a></li>
+<li class="menu__item is-leaf leaf"><a href="http://www.mo.gov/accessibility/" class="menu__link">Accessibility</a></li>
+<li class="menu__item is-leaf leaf"><a href="http://www.mo.gov/privacy-policy/" class="menu__link">Privacy Policy</a></li>
+<li class="menu__item is-leaf leaf"><a href="http://governor.mo.gov/" class="menu__link">Governor Michael L. Parson</a></li>
+<li class="menu__item is-leaf leaf"><a href="http://www.mo.gov/search-results?mode=state_agencies" class="menu__link">State Agencies</a></li>
+<li class="menu__item is-leaf leaf"><a href="http://www.mo.gov/search-results?mode=online_services" class="menu__link">Online Services</a></li>
+<li class="menu__item is-leaf last leaf"><a href="https://jobs.mo.gov/content/translate" class="menu__link">Translation</a></li>
+</ul>
+</div>
+<div id="outdated"></div>  </div>
+    </div>
+  </footer>
+</div>
+
+  <script src="//jobs.mo.gov/sites/jobs/files/js/js_7Ukqb3ierdBEL0eowfOKzTkNu-Le97OPm-UqTS5NENU.js"></script>
+<script src="//jobs.mo.gov/sites/jobs/files/js/js_RAHkEDyxtbRFmHDcQ-awUsrpDwo3m9vbx0AcxTNDwaY.js"></script>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam-cell.nr-data.net","licenseKey":"1a1ddd71e3","applicationID":"70695873","transactionName":"YF0BMkNTDEMDAkILDlkXNhRYHQteBgROTBFfSA==","queueTime":0,"applicationTime":27,"atts":"TBoCRAtJH00=","errorBeacon":"bam-cell.nr-data.net","agent":""}</script><script async type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=2&cb=1293220427"></script>
+</body>
+</html>
