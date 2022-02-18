@@ -7,7 +7,7 @@ The [extract, transform and load](https://github.com/biglocalnews/warn-github-fl
 - 🔪 Gather raw WARN Notices from all of our sources with [warn-scraper](https://github.com/biglocalnews/warn-scraper)
 - 🪢 Consolidate the raw files into a single, standardized dataset with [warn-transformer](https://github.com/biglocalnews/warn-transformer)
 - ⏫ Upload the files to our archive on [biglocalnews.org](https://biglocalnews.org) with [upload-files](https://github.com/biglocalnews/upload-files)
-- 📟 Send a Slack alert to [#alerts-data-etl](https://biglocalnews.slack.com/archives/C016QMH6DHU)
+- 📟 Send a Slack alert
 
 ```mermaid
 flowchart LR

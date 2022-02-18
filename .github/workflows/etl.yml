@@ -91,7 +91,7 @@ jobs:
         run: |-
           git add ./data/warn-scraper
           git commit -m "${{ env.STATE }}" || exit 0
-          git pull --rebase
+          git pull origin ${{ env.STATE }}
           git push origin ${{ env.STATE }}
  
       - name: Upload file to biglocalnews.org
