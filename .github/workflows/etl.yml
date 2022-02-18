@@ -62,6 +62,7 @@ jobs:
           git config user.email "actions@users.noreply.github.com"
           (git show-branch ${{ env.STATE }} &>/dev/null) && (git checkout ${{ env.STATE }}) || (git checkout -b ${{ env.STATE }})
           git config pull.rebase false
+          git pull origin ${{ env.STATE }}
           git pull origin main
 
       - id: install-pipenv
@@ -91,7 +92,6 @@ jobs:
         run: |-
           git add ./data/warn-scraper
           git commit -m "${{ env.STATE }}" || exit 0
-          git pull origin ${{ env.STATE }}
           git push origin ${{ env.STATE }}
  
       - name: Upload file to biglocalnews.org
@@ -120,6 +120,7 @@ jobs:
           git config user.email "actions@users.noreply.github.com"
           (git show-branch transformer &>/dev/null) && (git checkout transformer) || (git checkout -b transformer)
           git config pull.rebase false
+          git pull origin transformer
           git pull origin main
 
       - id: install-pipenv
