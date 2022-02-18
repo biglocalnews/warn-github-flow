@@ -81,6 +81,7 @@ jobs:
           commit_message: Update ${{ matrix.state }}
           branch: ${{ matrix.state }}
           skip_checkout: true
+          push_options: '--force'
           file_pattern: ./data/warn-scraper/*
  
       - name: Upload file to biglocalnews.org
@@ -134,6 +135,8 @@ jobs:
         with:
           commit_message: Update transformer
           branch: transformer
+          skip_checkout: true
+          push_options: '--force'
           file_pattern: ./data/warn-transformer/*
 
       - name: Upload file to biglocalnews.org
