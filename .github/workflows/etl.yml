@@ -127,6 +127,15 @@ jobs:
         name: Install Python dependencies
         run: pipenv install --skip-lock --dev
 
+      - id: checkout
+        name: Checkout branch
+        run: |
+            git config --global user.email "actions@github.com"
+            git config --global user.name "GitHub Actions"
+            git config pull.rebase false
+            git checkout transformer
+            git pull origin main
+
       - name: Download files
         run: pipenv run python -c "from warn_transformer import download; download.run()"
         env:
@@ -143,8 +152,6 @@ jobs:
         with:
           commit_message: Update transformer
           branch: transformer
-          skip_checkout: true
-          push_options: '--force'
           file_pattern: ./data/warn-transformer/*
 
       - name: Upload file to biglocalnews.org
