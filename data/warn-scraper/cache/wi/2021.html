@@ -1,0 +1,414 @@
+ï»¿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=100"/>
+
+	<meta name="description" content="This is information about recently submitted WARN notices in the State of Wisconsin"/>
+
+	<title>2021 WARN Notices and Updates</title>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<link rel="stylesheet" type="text/css" href="/include/internet/css/bootstrap.min.css?v1"/>
+<link rel="stylesheet" type="text/css" href="/include/internet/css/fontawesome.min.css" />
+<link rel="stylesheet" type="text/css" href="/include/internet/css/main.css?v2" />
+<link rel="stylesheet" media="print" href="/include/internet/css/print.css">
+
+
+	
+	<script type="text/javascript" src="/dislocatedworker/warn/include/default.js"></script>
+	<script src="https://sheets.googleapis.com/v4/spreadsheets/1cyZiHZcepBI7ShB3dMcRprUFRG24lbwEnEDRBMhAqsA/values/Updates?key=AIzaSyDP0OltIjcmRQ6-9TTmEVDZPIX6BSFcunw&callback=handler2"></script>
+	<script src="https://sheets.googleapis.com/v4/spreadsheets/1cyZiHZcepBI7ShB3dMcRprUFRG24lbwEnEDRBMhAqsA/values/Originals?key=AIzaSyDP0OltIjcmRQ6-9TTmEVDZPIX6BSFcunw&callback=handler"></script>
+<style>
+	table {border: none !important;color: #000000 !important;}
+	.updatedInfo {background-color:#D5EDFF !important;}
+	.old_browser_notify_bar {
+	background: url("../../images/ie.png") no-repeat 13px rgb(253, 242, 171); left: 0px; top: 0px; 
+	width: 100%; 
+	text-align: center; 
+	color: rgb(0, 0, 0);
+	font-family: Arial,Helvetica,sans-serif; 
+	font-size: 12px; 
+	border-bottom-color: rgb(162, 147, 48); 
+	border-bottom-width: 1px; 
+	border-bottom-style: solid; 
+	position: fixed; 
+	z-index: 111111; 
+	cursor: pointer;
+}
+.old_browser_notify_bar div {
+	padding: 5px 36px 5px 40px;
+}
+.old_browser_notify_bar_close {
+	padding: 5px 0px !important; 
+	top: -2px; 
+	width: 24px; 
+	height: 40px; 
+	right: 6px; 
+	font-size: 26px; 
+	font-weight: bold; 
+	position: absolute;
+}
+</style>
+</head>
+
+<body>
+	
+	<div class="old_browser_notify_bar" id="old_browser" style="display:none;">
+    <div>
+      <strong>Your browser (Internet Explorer) is out of date</strong>.  Please <a href="https://jobcenterofwisconsin.com/Presentation/SupportedBrowsers.aspx" target="_blank" style="font-weight: bolder;">update your browser</a>,
+      <br/>
+       for more security, comfort and the best experience on this site.
+      <br/>
+      Some features may not work properly until you <a href="https://jobcenterofwisconsin.com/Presentation/SupportedBrowsers.aspx" target="_blank" style="font-weight: bolder;">use a supported browser</a>.
+      <div class="old_browser_notify_bar_close" onclick="closeOldBrowser();">Ã</div>
+    </div>
+	</div>
+
+<script type="application/javascript">
+	function closeOldBrowser() {
+		document.getElementById("old_browser").style.display = "none";
+	}
+	if (navigator.userAgent.indexOf("MSIE") != -1  || navigator.userAgent.indexOf(".NET") != -1  ) {
+//		alert("You're using Internet Explorer, WHY?");
+		document.getElementById("old_browser").style.display = "block";
+		
+	} else {
+		document.getElementById("old_browser").outerHTML = "";
+//		alert(navigator.userAgent);
+	}
+</script>
+
+		<div id="update-browser" class="text-center"><p><span class="fs-140 important red-txt">Outdated or Unsupported Browser Detected</span><br><span>DWD's website uses the latest technology. This makes our site faster and easier to use across all devices. Unfortunatley, your browser is out of date and is not supported. An update is not required, but it is strongly recommended to improve your browsing experience. To update Internet Explorer to Microsoft Edge visit their <a href="https://support.microsoft.com/en-us/microsoft-edge/make-the-switch-from-internet-explorer-to-microsoft-edge-a6f7173e-e84a-36a3-9728-3df20ade9b3c">website</a>.</span></p></div>
+
+
+<div id="wigov-bar" class="w-100">
+			<div  class="container container-fluid-md">
+			
+				<!-- DELETE THIS ROW WHEN COVID BUTTON IS REMOVED AND UNCOMENT ROW BELOW. ALSO NEED TO UPDATE #content-wrapper HEIGHT CALC IN THE MAIN.CSS-->
+				<div class="row" style="padding-top:.25rem; padding-bottom:.25rem;">
+					<div class="col">
+						<a href="https://wisconsin.gov/"><img id="wi-gov-logo" src="/images/internet/wigov-top-logo.png" alt="Wisconsin.gov Logo" style="height:auto; padding-top:5px;"></a>						
+					</div>
+					
+					
+					<div class="col text-right white-txt">
+						<a href="https://www.dhs.wisconsin.gov/covid-19/vaccine.htm"><img src="/images/internet/covid-vaccine.png" class="img-fluid pe-3" style="max-height:40px; top:-8px; left:100px;" alt="Wisconsin COVID-19 Vaccine Information"></a>
+						<a href="/jobs/" class="me-3 align-middle d-none d-lg-inline">Jobs at DWD</a>
+						<a href="http://www.wisconsin.gov/Pages/AllAgencies.aspx" target="_blank" class="me-3 align-middle d-none d-lg-inline">Agency Directory</a>
+						<a href="http://www.wisconsin.gov/Pages/resident.aspx" target="_blank" class="align-middle d-none d-lg-inline">Online Services</a>
+					</div>
+				</div>
+			
+			
+				<!--RESTORE THIS WHEN COVID VACCINE BUTTON IS REMOVED.
+				<div class="row py-2">
+					<div class="col">
+						<a href="https://wisconsin.gov/"><img id="wi-gov-logo" src="/images/internet/wigov-top-logo.png" alt="Wisconsin.gov Logo"></a>
+					</div>
+					
+					<div class="col text-right white-txt mt-2 mt-sm-0 hidden-xs">
+						<a href="/jobs/" class="me-3 align-middle">Jobs at DWD</a>
+						<a href="http://www.wisconsin.gov/Pages/AllAgencies.aspx" target="_blank" class="me-3 align-middle">Agency Directory</a>
+						<a href="http://www.wisconsin.gov/Pages/resident.aspx" target="_blank" class="align-middle">Online Services</a>
+					</div>
+				</div>
+				-->
+			</div>
+		</div>
+		
+		<div id="banner" class="w-100">
+			<div  class="container container-fluid-md text-center text-md-left">
+				<div class="row align-items-center position-relative">
+					<div class="col-12 col-md-6 col-lg-7">
+						<a href="/"><img id="dwd-logo" src="/images/internet/dwd-banner-logo.png" class="my-2" alt="Department of Workforce Development Logo"></a>
+					</div>
+					
+					<div id="main-search-wrap" class="col-12 col-md-6 col-lg-5">
+						<form id="main-search-form" class="search-form" method="GET" name="default front end" action="/search.htm">
+							<label class="sr-only" for="main-search-input">Search DWD's Website</label>
+							<input id="main-search-input" class="search-input" placeholder="Search DWD's Website" title="Search DWD's Website" type="text" name="query" maxlength="256" onclick="this.value=''" title="Search DWD's Website">
+							<input class="search-icon d-none d-md-block" type="image" src="/images/internet/icon/search.png" alt="Search icon button">
+							<input class="search-icon d-md-none" type="image" src="/images/internet/icon/search-light.png" alt="Search icon button">
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	
+		<nav id="main-nav" class="navbar navbar-expand-lg navbar-dark py-0" role="navigation">	
+			<button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-wrap" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon navbar-dark"></span>
+			</button>
+			<div  class="collapse navbar-collapse" id="navbar-wrap">
+				<ul class="p-0 m-0 w-100">
+					<li class="lvl1-nav">
+						<a href="/ui/">UNEMPLOYMENT</a>
+						<a class="expand-collapse d-lg-none" data-bs-toggle="collapsed">+</a>
+						<ul class="dropdown">
+							<li><a href="/uiben/">Claimants</a></li>
+							<li><a href="/uitax/">Employers</a></li>
+							<li><a href="/uitax/esp-resource-page.htm">Service Providers</a></li>
+						</ul>
+					</li>
+					<li class="lvl1-nav">
+						<a href="/wc/">WORKPLACE INJURY</a>
+						<a class="expand-collapse d-lg-none" data-bs-toggle="collapsed">+</a>
+						<ul class="dropdown">
+						  <li><a href="/wc/workers/">Workers</a></li>
+						  <li><a href="/wc/employers/">Employers</a></li>
+							<li><a href="/wc/insurance/">Insurers</a></li>
+							<li><a href="/wc/medical/">Medical Providers</a></li>
+							<li><a href="/wc/safety/">Workplace Safety</a></li>
+							<li><a href="/wc/contact/">Contact Us</a></li>
+						</ul>
+					</li>
+					<li class="lvl1-nav">
+						<a href="/er/">EQUAL RIGHTS</a>
+						<a class="expand-collapse d-lg-none" data-bs-toggle="collapsed">+</a>
+						<ul class="dropdown">
+						  <li><a href="/er/laborstandards/">Labor Standards</a></li>
+						  <li><a href="/er/civilrights/">Civil Rights</a></li>
+						  <li><a href="/er/civilrights/fmla/">FMLA</a></li>
+						  <li><a href="/er/contacts.htm">Contact Us</a></li>
+						</ul>
+					</li>
+					<li class="lvl1-nav">
+						<a href="/det/">EMPLOYMENT & TRAINING</a>
+						<a class="expand-collapse d-lg-none" data-bs-toggle="collapsed">+</a>
+						<ul class="dropdown">
+							<li><a href="/det/jobseeker.htm">Job Seekers</a></li>
+							<li><a href="/det/employer.htm">Employers</a></li>
+							<li><a href="/veterans/">Veterans</a></li>
+							<li><a href="/det/partners.htm">Partners</a></li>
+							<li><a href="https://jobcenterofwisconsin.com/wisconomy/" target="_blank">WisConomy</a></li>
+							<li><a href="/det/civil-rights/">Civil Rights</a></li>
+							<li><a href="/det/contact.htm">Contact Us</a></li>
+						</ul>
+					</li>
+					<li class="lvl1-nav">
+						<a href="/dvr/">DISABILITY EMPLOYMENT</a>
+						<a class="expand-collapse d-lg-none" data-bs-toggle="collapsed">+</a>
+						<ul class="dropdown">
+						  <li><a href="/dvr/about/">About DVR</a></li>
+							<li><a href="/dvr/referral/">How to Apply</a></li>
+							<li><a href="/dvr/job-seekers/">For Job Seekers</a></li>
+							<li><a href="/dvr/business/">For Businesses</a></li>
+							<li><a href="/dvr/partners/">Our Partners</a></li>
+							<li><a href="/dvr/about/contacts.htm">Contact Us</a></li>
+						</ul>
+					</li>
+					<li class="lvl1-nav">
+						<a href="/dwd/about-dwd.htm">ABOUT DWD</a>
+						<a class="expand-collapse d-lg-none" data-bs-toggle="collapsed">+</a>
+						<ul class="dropdown">
+							<li><a href="/dwd/leadership.htm">Leadership </a></li>
+							<!--<li><a href="/dwd/aboutdwd.htm#divisions">Divisions</a></li>-->
+							<li><a href="/news/">News Room</a></li>
+							<li><a href="/news/publicmeetings/">Public Meetings</a></li>
+							<li><a href="/dwd/orgcharts/">Organization Chart</a></li>
+							<li><a href="/dwd/open-records/">Open Records</a></li>
+							<li><a href="/dwd/contact-us.htm">Contact Us</a></li>
+							<li><a href="/jobs/">Jobs at DWD</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</nav>
+
+
+		<div id="content-wrapper">
+			<div class="container-fluid">
+				
+				<!--********BREADCRUMBS*********-->
+				<ol class="breadcrumb">
+					<li><a href="/"><i class="fas fa-home me-2"></i></a></li>
+					<li class="breadcrumb-item"><a href="/det/">Employment &amp; Training</a></li>
+					<li class="breadcrumb-item"><a href="/det/jobseeker.htm">Job Seeker</a></li>
+					<li class="breadcrumb-item"><a href="/dislocatedworker/">Dislocated Worker</a></li>
+					<li class="breadcrumb-item active">WARN Notices</li>
+				</ol>
+				
+				<div class="float-end me-3">This page was last updated on January 3, 2022</div>
+				<h1>2021 WARN Notices and Updates</h1>
+				
+				<p>In certain circumstances, federal and/or state law requires businesses laying off workers employed in Wisconsin to provide the State's Department of Workforce Development (DWD) with advance written notice of the layoffs.</p>
+					
+				<p><a href="/dislocatedworker/employer/tools/notice/default.htm">More information about the federal and state notice laws</a></p>
+				
+				<p>One purpose of these laws is to give DWD the opportunity to provide pre-layoff transition assistance (aka rapid response) to workers and businesses affected by permanent worker layoffs. DWD coordinates with regional workforce partners to deliver rapid response services such as: on-site, pre-layoff information sessions; workshops on topics such as resume writing, interviewing, job search strategies, and budgeting; targeted job and resource fairs; and referrals to resources, including the Wisconsin Job Center network and <a href="http://JobCenterofWisconsin.com/">JobCenterofWisconsin.com</a>.</p>
+						
+				<p>The layoff notices DWD receives do not represent a complete list of potential or actual layoffs in the state. Written notice to DWD is not required for all layoffs. Additionally, the number of workers ultimately laid off may differ from the number provided in the written notice for a variety of reasons, and DWD may not receive notification of the change.</p>
+
+				<div class="row">
+					<div class="col-md-6 col-sm-12 mt-3 mt-3"><strong>General Contact</strong><br/>
+						<a href="mailto:WIOATitleI@dwd.wisconsin.gov?Subject=Question%20for%20the%20Dislocated%20Worker%20Unit">Bureau of Workforce Training, Program Administration Section<br/>WIOATitleI@dwd.wisconsin.gov</a><br/>
+						201 East Washington Avenue<br/>
+						Madison, WI 53707<br/>
+						<a href="tel:16082667406">(608) 405-4070</a></div>
+					
+					<div class="col-md-6 col-sm-12 mt-3"><strong>Media Contact</strong><br/>
+						<a href="mailto:dwdsocommunicationsoffice@dwd.wisconsin.gov">DWD Communications<br/>dwdsocommunicationsoffice@dwd.wisconsin.gov </a><br/>
+						<a href="tel:16082662722">(608) 266-2722</a></div>
+				</div>
+				<div id="noticeTypeKey" class="float-start p-3 mb-3 mt-3" style="border:1px solid #000000;">
+					<h2 class="text-center">Legend</h2>
+					<p>
+						<strong>Notice Type</strong><br/>
+						CL	- Facility Closure<br/>
+						WR	- Workforce Reduction
+					</p>
+					<p>
+						<strong>Reasons for Update</strong><br/>
+						AW	- Change to Number of Affected Workers<br/>
+						LS	- Change to Layoff Schedule<br/>
+						RN	- Rescission of Notice
+					</p>
+				</div>
+				
+				<div style="clear:both;"><strong>* In instances where there are one or more revisions to the original layoff notice, the most recent revision reflects the total number of workers affected, as reported by the employer.</strong></div>
+				
+				<hr style="clear:both"/>
+
+				<span>
+					<h2>December 2021</h2><h3>New Notices</h3><table class="table table-bordered table-striped table-responsive"><tbody><tr><th class="p-2" id="Company" scope="col">Company</th><th class="p-2" id="City" scope="col">City</th><th class="p-2" id="AffectedWorkers" scope="col">Affected Workers</th><th class="p-2" id="NoticeRcvd" scope="col">Notice Received</th><th class="p-2" id="NoticeType" scope="col">Notice Type</th><th class="p-2" id="LayoffBeginDate" scope="col">Layoff Begin Date</th><th class="p-2" id="NAICSDescription" scope="col"><a href="http://www.naics.com/">NAICS Description</a></th><th class="p-2" id="County" scope="col">County</th><th class="p-2" id="WorkforceDevelopmentArea" scope="col">Workforce Development Area</th></tr><tr id="2021123001"><td class="p-2" headers="Company"><a href="2021123001.pdf">Waupaca Elevator Co Inc</a></td><td class="p-2" headers="City">Appleton </td><td class="p-2" headers="AffectedWorkers">60</td><td class="p-2" headers="NoticeRcvd">12/30/2021</td><td class="p-2" headers="NoticeType">WR</td><td class="p-2" headers="LayoffBeginDate">02/28/2022</td><td class="p-2" headers="NAICSDescription">Private Households</td><td class="p-2" headers="County">Outagamie</td><td class="p-2" headers="WorkforceDevelopmentArea">Bay Area</td></tr></tbody></table><p class="mt-5 mb-5"><strong>No updates for this month</strong></p><hr><h2>November 2021</h2><h3>New Notices</h3><table class="table table-bordered table-striped table-responsive"><tbody><tr><th class="p-2" id="Company" scope="col">Company</th><th class="p-2" id="City" scope="col">City</th><th class="p-2" id="AffectedWorkers" scope="col">Affected Workers</th><th class="p-2" id="NoticeRcvd" scope="col">Notice Received</th><th class="p-2" id="NoticeType" scope="col">Notice Type</th><th class="p-2" id="LayoffBeginDate" scope="col">Layoff Begin Date</th><th class="p-2" id="NAICSDescription" scope="col"><a href="http://www.naics.com/">NAICS Description</a></th><th class="p-2" id="County" scope="col">County</th><th class="p-2" id="WorkforceDevelopmentArea" scope="col">Workforce Development Area</th></tr><tr id="2021112201"><td class="p-2" headers="Company"><a href="2021112201.pdf">TMD Wisconsin LLC</a></td><td class="p-2" headers="City">Beloit</td><td class="p-2" headers="AffectedWorkers">27</td><td class="p-2" headers="NoticeRcvd">11/22/2021</td><td class="p-2" headers="NoticeType">WR</td><td class="p-2" headers="LayoffBeginDate">01/23/2022</td><td class="p-2" headers="NAICSDescription">Motor Vehicle Seating &amp; Interior Trim Mfg</td><td class="p-2" headers="County">Rock</td><td class="p-2" headers="WorkforceDevelopmentArea">Southwest</td></tr><tr id="2021112901"><td class="p-2" headers="Company"><a href="2021112901.pdf">First Transit</a></td><td class="p-2" headers="City">Racine</td><td class="p-2" headers="AffectedWorkers">81</td><td class="p-2" headers="NoticeRcvd">11/29/2021</td><td class="p-2" headers="NoticeType">CL</td><td class="p-2" headers="LayoffBeginDate">1/31/2022</td><td class="p-2" headers="NAICSDescription">Bus &amp; Other Motor Vehicle Transit Systems</td><td class="p-2" headers="County">Racine</td><td class="p-2" headers="WorkforceDevelopmentArea">Southeast</td></tr></tbody></table><h3>Updates to Previously Filed Notices</h3><table class="table table-bordered table-striped table-responsive"><tbody><tr><th class="p-2" id="CompanyUpdate" scope="col">Company</th><th class="p-2" id="ReasonForUpdate" scope="col">Reason for Update</th></tr><tr><td class="p-2" headers="Company"><a href="#2021012502">Conagra Brands, Inc.</a></td><td class="p-2" headers="ReasonforUpdate">LS, AW</td></tr></tbody></table><hr><h2>October 2021</h2><h3>New Notices</h3><table class="table table-bordered table-striped table-responsive"><tbody><tr><th class="p-2" id="Company" scope="col">Company</th><th class="p-2" id="City" scope="col">City</th><th class="p-2" id="AffectedWorkers" scope="col">Affected Workers</th><th class="p-2" id="NoticeRcvd" scope="col">Notice Received</th><th class="p-2" id="NoticeType" scope="col">Notice Type</th><th class="p-2" id="LayoffBeginDate" scope="col">Layoff Begin Date</th><th class="p-2" id="NAICSDescription" scope="col"><a href="http://www.naics.com/">NAICS Description</a></th><th class="p-2" id="County" scope="col">County</th><th class="p-2" id="WorkforceDevelopmentArea" scope="col">Workforce Development Area</th></tr><tr id="2021100401"><td class="p-2" headers="Company"><a href="2021100401.pdf">Valero Services Inc.</a></td><td class="p-2" headers="City">Johnson Creek</td><td class="p-2" headers="AffectedWorkers">61</td><td class="p-2" headers="NoticeRcvd">10/4/2021</td><td class="p-2" headers="NoticeType">WR</td><td class="p-2" headers="LayoffBeginDate">10/15/2021</td><td class="p-2" headers="NAICSDescription">Ethyl Alcohol Mfg</td><td class="p-2" headers="County">Jefferson</td><td class="p-2" headers="WorkforceDevelopmentArea">South Central</td></tr></tbody></table><p class="mt-5 mb-5"><strong>No updates for this month</strong></p><hr><h2>September 2021</h2><h3>New Notices</h3><table class="table table-bordered table-striped table-responsive"><tbody><tr><th class="p-2" id="Company" scope="col">Company</th><th class="p-2" id="City" scope="col">City</th><th class="p-2" id="AffectedWorkers" scope="col">Affected Workers</th><th class="p-2" id="NoticeRcvd" scope="col">Notice Received</th><th class="p-2" id="NoticeType" scope="col">Notice Type</th><th class="p-2" id="LayoffBeginDate" scope="col">Layoff Begin Date</th><th class="p-2" id="NAICSDescription" scope="col"><a href="http://www.naics.com/">NAICS Description</a></th><th class="p-2" id="County" scope="col">County</th><th class="p-2" id="WorkforceDevelopmentArea" scope="col">Workforce Development Area</th></tr><tr id="2021090901"><td class="p-2" headers="Company"><a href="2021090901.pdf">Eaton Corporation</a></td><td class="p-2" headers="City">Watertown</td><td class="p-2" headers="AffectedWorkers">56</td><td class="p-2" headers="NoticeRcvd">9/9/2021</td><td class="p-2" headers="NoticeType">CL</td><td class="p-2" headers="LayoffBeginDate">11/8/2021</td><td class="p-2" headers="NAICSDescription">Relay &amp; Ind Control Mfg</td><td class="p-2" headers="County">Jefferson</td><td class="p-2" headers="WorkforceDevelopmentArea">South Central</td></tr><tr id="2022012101" class="updatedInfo"><td class="p-2" headers="Company"><a href="/dislocatedworker/warn/2022/2022012101.pdf">Eaton Corporation - Revision 1</a></td><td class="p-2" headers="City">Watertown</td><td class="p-2" headers="AffectedWorkers">56</td><td class="p-2" headers="NoticeRcvd">1/21/2022</td><td class="p-2" headers="NoticeType">LS</td><td class="p-2" headers="LayoffBeginDate">11/8/2021</td><td class="p-2" headers="NAICSDescription">Relay &amp; Ind Control Mfg</td><td class="p-2" headers="County">Jefferson</td><td class="p-2" headers="WorkforceDevelopmentArea">South Central</td></tr><tr id="2021092801"><td class="p-2" headers="Company"><a href="2021092801.pdf">The Vollrath Company, LLC</a></td><td class="p-2" headers="City">Menomonee Falls</td><td class="p-2" headers="AffectedWorkers">51</td><td class="p-2" headers="NoticeRcvd">9/28/2021</td><td class="p-2" headers="NoticeType">CL</td><td class="p-2" headers="LayoffBeginDate">12/10/2021</td><td class="p-2" headers="NAICSDescription">Food Product Machinery Mfg</td><td class="p-2" headers="County">Waukesha</td><td class="p-2" headers="WorkforceDevelopmentArea">WOW</td></tr><tr id="2021093001"><td class="p-2" headers="Company"><a href="2021093001.pdf">Guardian Fabrication, LLC</a></td><td class="p-2" headers="City">Sun Prairie</td><td class="p-2" headers="AffectedWorkers">82</td><td class="p-2" headers="NoticeRcvd">9/30/2021</td><td class="p-2" headers="NoticeType">CL</td><td class="p-2" headers="LayoffBeginDate">12/17/2021</td><td class="p-2" headers="NAICSDescription">Glass Product Mfg Made of Purchased Glass</td><td class="p-2" headers="County">Dane</td><td class="p-2" headers="WorkforceDevelopmentArea">South Central</td></tr></tbody></table><p class="mt-5 mb-5"><strong>No updates for this month</strong></p><hr><h2>August 2021</h2><h3>New Notices</h3><table class="table table-bordered table-striped table-responsive"><tbody><tr><th class="p-2" id="Company" scope="col">Company</th><th class="p-2" id="City" scope="col">City</th><th class="p-2" id="AffectedWorkers" scope="col">Affected Workers</th><th class="p-2" id="NoticeRcvd" scope="col">Notice Received</th><th class="p-2" id="NoticeType" scope="col">Notice Type</th><th class="p-2" id="LayoffBeginDate" scope="col">Layoff Begin Date</th><th class="p-2" id="NAICSDescription" scope="col"><a href="http://www.naics.com/">NAICS Description</a></th><th class="p-2" id="County" scope="col">County</th><th class="p-2" id="WorkforceDevelopmentArea" scope="col">Workforce Development Area</th></tr><tr id="2021081101"><td class="p-2" headers="Company"><a href="2021081101.pdf">Tyson Foods, operating as LD Foods/Keystone Foods</a></td><td class="p-2" headers="City">Jefferson</td><td class="p-2" headers="AffectedWorkers">62</td><td class="p-2" headers="NoticeRcvd">8/11/2021</td><td class="p-2" headers="NoticeType">CL</td><td class="p-2" headers="LayoffBeginDate">10/10/2021</td><td class="p-2" headers="NAICSDescription">Seafood Product Preparation &amp; Packaging</td><td class="p-2" headers="County">Jefferson</td><td class="p-2" headers="WorkforceDevelopmentArea">South Central</td></tr></tbody></table><p class="mt-5 mb-5"><strong>No updates for this month</strong></p><hr><h2>July 2021</h2><h3>New Notices</h3><table class="table table-bordered table-striped table-responsive"><tbody><tr><th class="p-2" id="Company" scope="col">Company</th><th class="p-2" id="City" scope="col">City</th><th class="p-2" id="AffectedWorkers" scope="col">Affected Workers</th><th class="p-2" id="NoticeRcvd" scope="col">Notice Received</th><th class="p-2" id="NoticeType" scope="col">Notice Type</th><th class="p-2" id="LayoffBeginDate" scope="col">Layoff Begin Date</th><th class="p-2" id="NAICSDescription" scope="col"><a href="http://www.naics.com/">NAICS Description</a></th><th class="p-2" id="County" scope="col">County</th><th class="p-2" id="WorkforceDevelopmentArea" scope="col">Workforce Development Area</th></tr><tr id="2021071601"><td class="p-2" headers="Company"><a href="2021071601.pdf">Neenah, Inc.</a></td><td class="p-2" headers="City">Appleton</td><td class="p-2" headers="AffectedWorkers">94</td><td class="p-2" headers="NoticeRcvd">7/16/2021</td><td class="p-2" headers="NoticeType">CL</td><td class="p-2" headers="LayoffBeginDate">09/15/2021</td><td class="p-2" headers="NAICSDescription">Paper exc Newsprint Mills</td><td class="p-2" headers="County">Outagamie</td><td class="p-2" headers="WorkforceDevelopmentArea">Bay Area</td></tr></tbody></table><h3>Updates to Previously Filed Notices</h3><table class="table table-bordered table-striped table-responsive"><tbody><tr><th class="p-2" id="CompanyUpdate" scope="col">Company</th><th class="p-2" id="ReasonForUpdate" scope="col">Reason for Update</th></tr><tr><td class="p-2" headers="Company"><a href="#2021051901">Durr Universal</a></td><td class="p-2" headers="ReasonforUpdate">AW</td></tr></tbody></table><hr><h2>June 2021</h2><h3>New Notices</h3><table class="table table-bordered table-striped table-responsive"><tbody><tr><th class="p-2" id="Company" scope="col">Company</th><th class="p-2" id="City" scope="col">City</th><th class="p-2" id="AffectedWorkers" scope="col">Affected Workers</th><th class="p-2" id="NoticeRcvd" scope="col">Notice Received</th><th class="p-2" id="NoticeType" scope="col">Notice Type</th><th class="p-2" id="LayoffBeginDate" scope="col">Layoff Begin Date</th><th class="p-2" id="NAICSDescription" scope="col"><a href="http://www.naics.com/">NAICS Description</a></th><th class="p-2" id="County" scope="col">County</th><th class="p-2" id="WorkforceDevelopmentArea" scope="col">Workforce Development Area</th></tr><tr id="2021060101"><td class="p-2" headers="Company"><a href="2021060101.pdf">Calibre, Inc.</a></td><td class="p-2" headers="City">Grafton, Saukville</td><td class="p-2" headers="AffectedWorkers">204</td><td class="p-2" headers="NoticeRcvd">6/1/2021</td><td class="p-2" headers="NoticeType">CL</td><td class="p-2" headers="LayoffBeginDate">12/31/2020</td><td class="p-2" headers="NAICSDescription">Metal Coating &amp; Nonprecious Engraving</td><td class="p-2" headers="County">Ozaukee</td><td class="p-2" headers="WorkforceDevelopmentArea">WOW</td></tr><tr id="2021060201"><td class="p-2" headers="Company"><a href="2021060201.pdf">Hufcor Inc.</a></td><td class="p-2" headers="City">Janesville</td><td class="p-2" headers="AffectedWorkers">166</td><td class="p-2" headers="NoticeRcvd">6/2/2021</td><td class="p-2" headers="NoticeType">WR</td><td class="p-2" headers="LayoffBeginDate">08/03/2021</td><td class="p-2" headers="NAICSDescription">Showcases Partitions Shelving &amp; Lockers</td><td class="p-2" headers="County">Rock</td><td class="p-2" headers="WorkforceDevelopmentArea">Southwest</td></tr><tr id="2021060301"><td class="p-2" headers="Company"><a href="2021060301.pdf">Clearwater Paper</a></td><td class="p-2" headers="City">Neenah</td><td class="p-2" headers="AffectedWorkers">285</td><td class="p-2" headers="NoticeRcvd">6/2/2021</td><td class="p-2" headers="NoticeType">CL</td><td class="p-2" headers="LayoffBeginDate">07/02/2021</td><td class="p-2" headers="NAICSDescription">Paper exc Newsprint Mills</td><td class="p-2" headers="County">Winnebago</td><td class="p-2" headers="WorkforceDevelopmentArea">Fox Valley</td></tr><tr id="2021061501"><td class="p-2" headers="Company"><a href="2021061501.pdf">Malteurop North America Inc.</a></td><td class="p-2" headers="City">Milwaukee</td><td class="p-2" headers="AffectedWorkers">28</td><td class="p-2" headers="NoticeRcvd">6/15/2021</td><td class="p-2" headers="NoticeType">WR</td><td class="p-2" headers="LayoffBeginDate">08/15/2021</td><td class="p-2" headers="NAICSDescription">Malt Mfg</td><td class="p-2" headers="County">Milwaukee</td><td class="p-2" headers="WorkforceDevelopmentArea">Milwaukee</td></tr><tr id="2021062901"><td class="p-2" headers="Company"><a href="2021062901.pdf">Create-Ability, Inc.</a></td><td class="p-2" headers="City">Madison</td><td class="p-2" headers="AffectedWorkers">61</td><td class="p-2" headers="NoticeRcvd">6/29/2021</td><td class="p-2" headers="NoticeType">CL</td><td class="p-2" headers="LayoffBeginDate">08/31/21</td><td class="p-2" headers="NAICSDescription">Residential Intellectual and Developmental Disability Facilities</td><td class="p-2" headers="County">Dane</td><td class="p-2" headers="WorkforceDevelopmentArea">South Central</td></tr></tbody></table><h3>Updates to Previously Filed Notices</h3><table class="table table-bordered table-striped table-responsive"><tbody><tr><th class="p-2" id="CompanyUpdate" scope="col">Company</th><th class="p-2" id="ReasonForUpdate" scope="col">Reason for Update</th></tr><tr><td class="p-2" headers="Company"><a href="https://dwd.wisconsin.gov/dislocatedworker/warn/2020/default.htm#2020092501">Mondi Akrosil, LLC</a></td><td class="p-2" headers="ReasonforUpdate">AW</td></tr></tbody></table><hr><h2>May 2021</h2><h3>New Notices</h3><table class="table table-bordered table-striped table-responsive"><tbody><tr><th class="p-2" id="Company" scope="col">Company</th><th class="p-2" id="City" scope="col">City</th><th class="p-2" id="AffectedWorkers" scope="col">Affected Workers</th><th class="p-2" id="NoticeRcvd" scope="col">Notice Received</th><th class="p-2" id="NoticeType" scope="col">Notice Type</th><th class="p-2" id="LayoffBeginDate" scope="col">Layoff Begin Date</th><th class="p-2" id="NAICSDescription" scope="col"><a href="http://www.naics.com/">NAICS Description</a></th><th class="p-2" id="County" scope="col">County</th><th class="p-2" id="WorkforceDevelopmentArea" scope="col">Workforce Development Area</th></tr><tr id="2021051201"><td class="p-2" headers="Company"><a href="2021051201.pdf">Nestle USA, Inc.</a></td><td class="p-2" headers="City">Burlington</td><td class="p-2" headers="AffectedWorkers">34</td><td class="p-2" headers="NoticeRcvd">5/12/2021</td><td class="p-2" headers="NoticeType">WR</td><td class="p-2" headers="LayoffBeginDate">07/23/2021</td><td class="p-2" headers="NAICSDescription">Confectionery Merch Whls</td><td class="p-2" headers="County">Racine</td><td class="p-2" headers="WorkforceDevelopmentArea">Southeast</td></tr><tr id="2021051901"><td class="p-2" headers="Company"><a href="2021051901.pdf">Durr Universal</a></td><td class="p-2" headers="City">Muscoda</td><td class="p-2" headers="AffectedWorkers">87</td><td class="p-2" headers="NoticeRcvd">5/19/2021</td><td class="p-2" headers="NoticeType">WR</td><td class="p-2" headers="LayoffBeginDate">08/31/2021</td><td class="p-2" headers="NAICSDescription">Misc General Purpose Machinery Mfg</td><td class="p-2" headers="County">Grant</td><td class="p-2" headers="WorkforceDevelopmentArea">Southwest</td></tr><tr id="2021070601" class="updatedInfo"><td class="p-2" headers="Company"><a href="2021070601.pdf">Durr Universal - Revision 1</a></td><td class="p-2" headers="City">Muscoda</td><td class="p-2" headers="AffectedWorkers">88</td><td class="p-2" headers="NoticeRcvd">7/6/2021</td><td class="p-2" headers="NoticeType">AW</td><td class="p-2" headers="LayoffBeginDate">08/31/2021</td><td class="p-2" headers="NAICSDescription">Misc General Purpose Machinery Mfg</td><td class="p-2" headers="County">Grant</td><td class="p-2" headers="WorkforceDevelopmentArea">Southwest</td></tr></tbody></table><p class="mt-5 mb-5"><strong>No updates for this month</strong></p><hr><h2>April 2021</h2><h3>New Notices</h3><table class="table table-bordered table-striped table-responsive"><tbody><tr><th class="p-2" id="Company" scope="col">Company</th><th class="p-2" id="City" scope="col">City</th><th class="p-2" id="AffectedWorkers" scope="col">Affected Workers</th><th class="p-2" id="NoticeRcvd" scope="col">Notice Received</th><th class="p-2" id="NoticeType" scope="col">Notice Type</th><th class="p-2" id="LayoffBeginDate" scope="col">Layoff Begin Date</th><th class="p-2" id="NAICSDescription" scope="col"><a href="http://www.naics.com/">NAICS Description</a></th><th class="p-2" id="County" scope="col">County</th><th class="p-2" id="WorkforceDevelopmentArea" scope="col">Workforce Development Area</th></tr><tr id="2021040101"><td class="p-2" headers="Company"><a href="2021040101.pdf">Deluxe Corporation</a></td><td class="p-2" headers="City">Wausau</td><td class="p-2" headers="AffectedWorkers">43</td><td class="p-2" headers="NoticeRcvd">4/1/2021</td><td class="p-2" headers="NoticeType">CL</td><td class="p-2" headers="LayoffBeginDate">06/30/21</td><td class="p-2" headers="NAICSDescription">Printing &amp; Writing Paper Merch Whls</td><td class="p-2" headers="County">Marathon</td><td class="p-2" headers="WorkforceDevelopmentArea">North Central</td></tr><tr id="2021040601"><td class="p-2" headers="Company"><a href="2021040601.pdf">Cargill Cocoa and Chocolate, Inc.</a></td><td class="p-2" headers="City">Milwaukee</td><td class="p-2" headers="AffectedWorkers">80</td><td class="p-2" headers="NoticeRcvd">4/6/2021</td><td class="p-2" headers="NoticeType">WR</td><td class="p-2" headers="LayoffBeginDate">06/05/2021</td><td class="p-2" headers="NAICSDescription">Chocolate &amp; Confectionery Mfg from Cacao Bean</td><td class="p-2" headers="County">Milwaukee</td><td class="p-2" headers="WorkforceDevelopmentArea">Milwaukee</td></tr></tbody></table><p class="mt-5 mb-5"><strong>No updates for this month</strong></p><hr><h2>March 2021</h2><h3>New Notices</h3><table class="table table-bordered table-striped table-responsive"><tbody><tr><th class="p-2" id="Company" scope="col">Company</th><th class="p-2" id="City" scope="col">City</th><th class="p-2" id="AffectedWorkers" scope="col">Affected Workers</th><th class="p-2" id="NoticeRcvd" scope="col">Notice Received</th><th class="p-2" id="NoticeType" scope="col">Notice Type</th><th class="p-2" id="LayoffBeginDate" scope="col">Layoff Begin Date</th><th class="p-2" id="NAICSDescription" scope="col"><a href="http://www.naics.com/">NAICS Description</a></th><th class="p-2" id="County" scope="col">County</th><th class="p-2" id="WorkforceDevelopmentArea" scope="col">Workforce Development Area</th></tr><tr id="2021031601"><td class="p-2" headers="Company"><a href="2021031601.pdf">Neillsville Care and Rehab</a></td><td class="p-2" headers="City">Neillsville</td><td class="p-2" headers="AffectedWorkers">40</td><td class="p-2" headers="NoticeRcvd">3/16/2021</td><td class="p-2" headers="NoticeType">CL</td><td class="p-2" headers="LayoffBeginDate">03/16/2021</td><td class="p-2" headers="NAICSDescription">Nursing Care Facilities (Skilled Nursing)</td><td class="p-2" headers="County">Clark</td><td class="p-2" headers="WorkforceDevelopmentArea">West Central</td></tr><tr id="2021031801"><td class="p-2" headers="Company"><a href="2021031801.pdf">Wisconsin Central School Bus</a></td><td class="p-2" headers="City">New Richmond</td><td class="p-2" headers="AffectedWorkers">48</td><td class="p-2" headers="NoticeRcvd">3/18/2021</td><td class="p-2" headers="NoticeType">CL</td><td class="p-2" headers="LayoffBeginDate">03/18/2021</td><td class="p-2" headers="NAICSDescription">School &amp; Employee Bus Trans</td><td class="p-2" headers="County">St. Croix</td><td class="p-2" headers="WorkforceDevelopmentArea">West Central</td></tr><tr id="2021032201" class="updatedInfo"><td class="p-2" headers="Company"><a href="2021032201.pdf">Wisconsin Central School Bus - Revision 1</a></td><td class="p-2" headers="City">New Richmond</td><td class="p-2" headers="AffectedWorkers">48</td><td class="p-2" headers="NoticeRcvd">3/22/2021</td><td class="p-2" headers="NoticeType">LS</td><td class="p-2" headers="LayoffBeginDate">06/04/2021</td><td class="p-2" headers="NAICSDescription">School &amp; Employee Bus Trans</td><td class="p-2" headers="County">Saint Croix</td><td class="p-2" headers="WorkforceDevelopmentArea">West Central</td></tr><tr id="2021032501"><td class="p-2" headers="Company"><a href="2021032501.pdf">Dairyland Power Cooperative</a></td><td class="p-2" headers="City">Genoa</td><td class="p-2" headers="AffectedWorkers">63</td><td class="p-2" headers="NoticeRcvd">3/25/2021</td><td class="p-2" headers="NoticeType">CL</td><td class="p-2" headers="LayoffBeginDate">06/01/2021</td><td class="p-2" headers="NAICSDescription">Fossil Fuel Elect Power Generation</td><td class="p-2" headers="County">Vernon</td><td class="p-2" headers="WorkforceDevelopmentArea">Western</td></tr><tr id="2021033101"><td class="p-2" headers="Company"><a href="2021033101.pdf">Foot Locker Corporate Services, Inc.</a></td><td class="p-2" headers="City">Milwaukee</td><td class="p-2" headers="AffectedWorkers">22</td><td class="p-2" headers="NoticeRcvd">3/31/2021</td><td class="p-2" headers="NoticeType">WR</td><td class="p-2" headers="LayoffBeginDate">05/30/2021</td><td class="p-2" headers="NAICSDescription">Family Clothing Stores</td><td class="p-2" headers="County">Milwaukee</td><td class="p-2" headers="WorkforceDevelopmentArea">Milwaukee</td></tr></tbody></table><h3>Updates to Previously Filed Notices</h3><table class="table table-bordered table-striped table-responsive"><tbody><tr><th class="p-2" id="CompanyUpdate" scope="col">Company</th><th class="p-2" id="ReasonForUpdate" scope="col">Reason for Update</th></tr><tr><td class="p-2" headers="Company"><a href="https://dwd.wisconsin.gov/dislocatedworker/warn/2020/default.htm#2020061201">Nova Wildcat Shur-Line LLC</a></td><td class="p-2" headers="ReasonforUpdate">LS, AW</td></tr><tr><td class="p-2" headers="Company"><a href="https://dwd.wisconsin.gov/dislocatedworker/warn/2020/default.htm#2020042301">Marquis Yachts</a></td><td class="p-2" headers="ReasonforUpdate">LS, AW</td></tr><tr><td class="p-2" headers="Company"><a href="#2021031801">Wisconsin Central School Bus</a></td><td class="p-2" headers="ReasonforUpdate">LS</td></tr><tr><td class="p-2" headers="Company"><a href="#2021012502">Conagra Brands Inc.</a></td><td class="p-2" headers="ReasonforUpdate">LS, AW</td></tr></tbody></table><hr><h2>February 2021</h2><h3>New Notices</h3><table class="table table-bordered table-striped table-responsive"><tbody><tr><th class="p-2" id="Company" scope="col">Company</th><th class="p-2" id="City" scope="col">City</th><th class="p-2" id="AffectedWorkers" scope="col">Affected Workers</th><th class="p-2" id="NoticeRcvd" scope="col">Notice Received</th><th class="p-2" id="NoticeType" scope="col">Notice Type</th><th class="p-2" id="LayoffBeginDate" scope="col">Layoff Begin Date</th><th class="p-2" id="NAICSDescription" scope="col"><a href="http://www.naics.com/">NAICS Description</a></th><th class="p-2" id="County" scope="col">County</th><th class="p-2" id="WorkforceDevelopmentArea" scope="col">Workforce Development Area</th></tr><tr id="2021022601"><td class="p-2" headers="Company"><a href="2021022601.pdf">Wisconsin Physicians Services Insurance Corporation</a></td><td class="p-2" headers="City">Rothschild, Monona</td><td class="p-2" headers="AffectedWorkers">128</td><td class="p-2" headers="NoticeRcvd">2/26/2021</td><td class="p-2" headers="NoticeType">WR</td><td class="p-2" headers="LayoffBeginDate">05/03/2021</td><td class="p-2" headers="NAICSDescription">Direct Health &amp; Medical Insurance Carriers</td><td class="p-2" headers="County">Dane, Marathon</td><td class="p-2" headers="WorkforceDevelopmentArea">South Central, North Central</td></tr></tbody></table><h3>Updates to Previously Filed Notices</h3><table class="table table-bordered table-striped table-responsive"><tbody><tr><th class="p-2" id="CompanyUpdate" scope="col">Company</th><th class="p-2" id="ReasonForUpdate" scope="col">Reason for Update</th></tr><tr><td class="p-2" headers="Company"><a href="https://dwd.wisconsin.gov/dislocatedworker/warn/2020/default.htm#2020061201">Nova Wildcat Shur-Line LLC</a></td><td class="p-2" headers="ReasonforUpdate">LS, AW</td></tr><tr><td class="p-2" headers="Company"><a href="https://dwd.wisconsin.gov/dislocatedworker/warn/2020/default.htm#2020103002">Turnkey Processing Solution/WP Operations LLC</a></td><td class="p-2" headers="ReasonforUpdate">LS, AW</td></tr></tbody></table><hr><h2>January 2021</h2><h3>New Notices</h3><table class="table table-bordered table-striped table-responsive"><tbody><tr><th class="p-2" id="Company" scope="col">Company</th><th class="p-2" id="City" scope="col">City</th><th class="p-2" id="AffectedWorkers" scope="col">Affected Workers</th><th class="p-2" id="NoticeRcvd" scope="col">Notice Received</th><th class="p-2" id="NoticeType" scope="col">Notice Type</th><th class="p-2" id="LayoffBeginDate" scope="col">Layoff Begin Date</th><th class="p-2" id="NAICSDescription" scope="col"><a href="http://www.naics.com/">NAICS Description</a></th><th class="p-2" id="County" scope="col">County</th><th class="p-2" id="WorkforceDevelopmentArea" scope="col">Workforce Development Area</th></tr><tr id="2021011301"><td class="p-2" headers="Company"><a href="2021011301.pdf">Stresau Laboratory, Inc</a></td><td class="p-2" headers="City">Spooner</td><td class="p-2" headers="AffectedWorkers">70</td><td class="p-2" headers="NoticeRcvd">1/13/2021</td><td class="p-2" headers="NoticeType">CL</td><td class="p-2" headers="LayoffBeginDate">02/24/2021</td><td class="p-2" headers="NAICSDescription">Ammunition exc Small Arms Mfg</td><td class="p-2" headers="County">Washburn</td><td class="p-2" headers="WorkforceDevelopmentArea">Northwest</td></tr><tr id="2021012501" class="updatedInfo"><td class="p-2" headers="Company"><a href="2021012501.pdf">Stresau Laboratory, Inc. - Revision 1</a></td><td class="p-2" headers="City">Spooner</td><td class="p-2" headers="AffectedWorkers">0</td><td class="p-2" headers="NoticeRcvd">1/25/2021</td><td class="p-2" headers="NoticeType">RN</td><td class="p-2" headers="LayoffBeginDate"></td><td class="p-2" headers="NAICSDescription">Ammunition exc Small Arms Mfg</td><td class="p-2" headers="County">Washburn</td><td class="p-2" headers="WorkforceDevelopmentArea">Northwest</td></tr><tr id="2021012001"><td class="p-2" headers="Company"><a href="2021012001.pdf">The Master Lock Company</a></td><td class="p-2" headers="City">Milwaukee</td><td class="p-2" headers="AffectedWorkers">61</td><td class="p-2" headers="NoticeRcvd">1/20/2021</td><td class="p-2" headers="NoticeType">WR</td><td class="p-2" headers="LayoffBeginDate">03/20/2021</td><td class="p-2" headers="NAICSDescription">Hardware Mfg</td><td class="p-2" headers="County">Milwaukee</td><td class="p-2" headers="WorkforceDevelopmentArea">Milwaukee</td></tr><tr id="2021012101"><td class="p-2" headers="Company"><a href="2021012101.pdf">Durham School Services</a></td><td class="p-2" headers="City">Milwaukee</td><td class="p-2" headers="AffectedWorkers">23</td><td class="p-2" headers="NoticeRcvd">1/21/2021</td><td class="p-2" headers="NoticeType">CL</td><td class="p-2" headers="LayoffBeginDate">03/13/2021</td><td class="p-2" headers="NAICSDescription">School &amp; Employee Bus Trans</td><td class="p-2" headers="County">Milwaukee</td><td class="p-2" headers="WorkforceDevelopmentArea">Milwaukee</td></tr><tr id="2021012102"><td class="p-2" headers="Company"><a href="2021012102.pdf">Ryder Integrated Logistics</a></td><td class="p-2" headers="City">Milwaukee</td><td class="p-2" headers="AffectedWorkers">80</td><td class="p-2" headers="NoticeRcvd">1/21/2021</td><td class="p-2" headers="NoticeType">WR</td><td class="p-2" headers="LayoffBeginDate">03/31/2021</td><td class="p-2" headers="NAICSDescription">Packing &amp; Crating</td><td class="p-2" headers="County">Milwaukee</td><td class="p-2" headers="WorkforceDevelopmentArea">Milwaukee</td></tr><tr id="2021012502"><td class="p-2" headers="Company"><a href="2021012502.pdf">Conagra Brands, Inc.</a></td><td class="p-2" headers="City">Milwaukee</td><td class="p-2" headers="AffectedWorkers">190</td><td class="p-2" headers="NoticeRcvd">1/25/2021</td><td class="p-2" headers="NoticeType">CL</td><td class="p-2" headers="LayoffBeginDate">04/02/2021</td><td class="p-2" headers="NAICSDescription">Other Grocery Product Merch Whls</td><td class="p-2" headers="County">Milwaukee</td><td class="p-2" headers="WorkforceDevelopmentArea">Milwaukee</td></tr><tr id="2021032301" class="updatedInfo"><td class="p-2" headers="Company"><a href="2021032301.pdf">Conagra Brands Inc. - Revision 1</a></td><td class="p-2" headers="City">Milwaukee</td><td class="p-2" headers="AffectedWorkers">181</td><td class="p-2" headers="NoticeRcvd">3/23/2021</td><td class="p-2" headers="NoticeType">LS, AW</td><td class="p-2" headers="LayoffBeginDate">08/27/2021</td><td class="p-2" headers="NAICSDescription">Other Grocery Product Merch Whls</td><td class="p-2" headers="County">Milwaukee</td><td class="p-2" headers="WorkforceDevelopmentArea">Milwaukee</td></tr><tr id="2021111501" class="updatedInfo"><td class="p-2" headers="Company"><a href="2021111501.pdf">Conagra Brands, Inc. - Revision 2</a></td><td class="p-2" headers="City">Milwaukee</td><td class="p-2" headers="AffectedWorkers">153</td><td class="p-2" headers="NoticeRcvd">11/15/2021</td><td class="p-2" headers="NoticeType">LS, AW</td><td class="p-2" headers="LayoffBeginDate">01/21/2022</td><td class="p-2" headers="NAICSDescription">Other Grocery Product Merch Whls</td><td class="p-2" headers="County">Milwaukee</td><td class="p-2" headers="WorkforceDevelopmentArea">Milwaukee</td></tr><tr id="2021012801"><td class="p-2" headers="Company"><a href="2021012801.pdf">Air Wisconsin Airlines</a></td><td class="p-2" headers="City">Milwaukee</td><td class="p-2" headers="AffectedWorkers">140</td><td class="p-2" headers="NoticeRcvd">1/28/2021</td><td class="p-2" headers="NoticeType">WR</td><td class="p-2" headers="LayoffBeginDate">04/01/2021</td><td class="p-2" headers="NAICSDescription">Other Support Activities for Air Trans</td><td class="p-2" headers="County">Milwaukee</td><td class="p-2" headers="WorkforceDevelopmentArea">Milwaukee</td></tr><tr id="2021012901"><td class="p-2" headers="Company"><a href="2021012901.pdf">Stock and Field</a></td><td class="p-2" headers="City">Portage</td><td class="p-2" headers="AffectedWorkers">39</td><td class="p-2" headers="NoticeRcvd">1/29/2021</td><td class="p-2" headers="NoticeType">CL</td><td class="p-2" headers="LayoffBeginDate">03/31/2021</td><td class="p-2" headers="NAICSDescription">Department Stores</td><td class="p-2" headers="County">Columbia</td><td class="p-2" headers="WorkforceDevelopmentArea">South Central</td></tr></tbody></table><h3>Updates to Previously Filed Notices</h3><table class="table table-bordered table-striped table-responsive"><tbody><tr><th class="p-2" id="CompanyUpdate" scope="col">Company</th><th class="p-2" id="ReasonForUpdate" scope="col">Reason for Update</th></tr><tr><td class="p-2" headers="Company"><a href="https://dwd.wisconsin.gov/dislocatedworker/warn/2020/default.htm#2020103002">Turnkey Processing Solution/WP Operations LLC</a></td><td class="p-2" headers="ReasonforUpdate">LS</td></tr><tr><td class="p-2" headers="Company"><a href="https://dwd.wisconsin.gov/dislocatedworker/warn/2020/default.htm#2020111801">Southwest Airlines</a></td><td class="p-2" headers="ReasonforUpdate">RN</td></tr><tr><td class="p-2" headers="Company"><a href="#2021011301">Stresau Laboratory, Inc.</a></td><td class="p-2" headers="ReasonforUpdate">RN</td></tr></tbody></table><hr>
+				</span>
+				
+				<p class="mb-5" style="clear:left;"><br/>
+					<strong>Current 2021 Affected Worker Totals: 2377</strong><br/> <!-- updated 1/3/22 MB -->
+					(Includes New Notices and Updates to Previous Notices)<br/>
+					<!-- em>This information is updated daily at 4:30 pm.</em --></p>
+					
+				<p><a href="/dislocatedworker/warn/">2022 Layoff Notice Information</a></p>
+				
+				<!--<p><a href="/dislocatedworker/warn/2021/default.htm">2021 Layoff Notice Information</a></p>-->
+				
+				<p><a href="/dislocatedworker/warn/2020/default.htm">2020 Layoff Notice Information</a></p>
+				
+				<p><a href="/dislocatedworker/warn/2019/default.htm">2019 Layoff Notice Information</a></p>
+				
+				<p><a href="/dislocatedworker/warn/2018/default.htm">2018 Layoff Notice Information</a></p>
+
+				<p><a href="/dislocatedworker/warn/2017/default.htm">2017 Layoff Notice Information</a></p>
+
+				<p><a href="/dislocatedworker/warn/2016/default.htm">2016 Layoff Notice Information</a></p>
+ 
+ 				<p>Layoff notices from previous years may be requested from the <a href="mailto:askarchives@wisconsinhistory.org">Wisconsin Historical Society</a></p>
+			</div>
+		</div>
+
+		<div id="footer" class="white-txt">
+	<div class="container container-fluid-md">
+		<div class="row pt-3">
+			<div class="col-6 col-md-3 order-4 order-md-1">
+				<p class="mb-0 fs-initial">DWD Contact Information</p>
+				<hr>
+				<p>201 E. Washington Ave<br>
+				P.O. Box 7946<br>
+				Madison, WI 53707<br>
+				(608) 266-3131<br></p>
+				<a href="/dwd/contact-us.htm" class="btn btn-secondary mb-2">Contact Us</a>
+			</div>
+			
+			<div class="col-6 col-md-3 order-2">
+				<ul class="mb-1">
+					<li><a href="/dwd/admin-rules/">Administrative Rules</a></li>
+					<!--<li><a href="https://dwd.wisconsin.gov/gdl">Guidance Documents</a></li>-->
+					<li><a href="/jobs/">Jobs at DWD</a></li>
+					
+					<li><a href="https://www.wisconsin.gov/Pages/Policies.aspx">Legal/Acceptable Use</a></li>
+					<li><a href="/news/">News</a></li>
+					<li><a href="/news/publicmeetings/">Public Meeting &amp; Hearing Notices</a></li>
+					
+				</ul>
+			</div>
+			
+			<div class="col-6 col-md-3 order-3">
+				<ul>
+					<li><a href="/dwd/open-records/">Public Records</a></li>
+					<li><a href="/dwd/staff-partners.htm">Staff & Partners</a></li>
+					<li><a href="https://stateempdir.wi.gov/">State Employee Directory</a></li>
+					<li><a href="/dwd/topic-index.htm">Topic Index (Sitemap)</a></li>
+					<!--<li><a href="/dwd/pdf/translation-sample.pdf">Translate</a></li>-->
+					<li><a href="mailto:webfeed@dwd.wisconsin.gov">Website Support</a></li>
+				</ul>
+				<!--<ul class="mb-1">
+					<li><a href="/toolbox/allabbr/translate/translate.htm">Translate This Site</a></li>
+					<li><a href="/toolbox/allabbr/translate/translate.htm">Traducir el sitio de web</a></li>
+					<li><a href="/toolbox/allabbr/translate/translate.htm">ç¿»è­¯ç¶²ç«</a></li>
+					<li><a href="/toolbox/allabbr/translate/translate.htm">Website Ã¼bersetzen</a></li>
+					<li><a href="/toolbox/allabbr/translate/translate.htm">ØªØ±Ø¬ÙØ© Ø§ÙÙÙÙØ¹</a></li>
+					<li><a href="/toolbox/allabbr/translate/translate.htm">Txhais website</a></li>
+					<li><a href="/toolbox/allabbr/translate/translate.htm">ì¹ ì¬ì´í¸ ë²ì­</a></li>
+					<li><a href="/toolbox/allabbr/translate/translate.htm">ÐÐµÑÐµÐ²ÐµÑÑÐ¸ ÑÐ°Ð¹Ñ</a></li>
+				</ul>-->
+			
+			</div>
+			
+			<div class="col-6 col-md-3 text-center order-5">
+				<a href="https://www.wisconsin.gov/Pages/Home.aspx" target="_blank"><img src="/images/internet/wigov-logo.png" style="max-width:125px;" alt="Wisconsin.gov logo"></a>
+				<div class="row mt-3 g-0-xs">
+					<div class="col-3"><a href="https://www.instagram.com/wiworkforce/"><img class="img-fluid" src="/images/internet/icon/insta-icon.png" class="me-2 me-sm-0" alt="Instagram logo"></a></div>
+					<div class="col-3"><a href="https://www.youtube.com/user/wiworkforce"><img class="img-fluid" src="/images/internet/icon/youtube-icon.png" class="ms-1 ms-sm-0" alt="Youtube logo"></a></div>
+					<div class="col-3"><a href="https://www.facebook.com/WIWorkforce"><img class="img-fluid" src="/images/internet/icon/facebook-icon.png" class="mx-1" alt="Facebook logo"></a></div>
+					<div class="col-3"><a href="https://twitter.com/wiworkforce"><img class="img-fluid" src="/images/internet/icon/twitter-icon.png" class="ms-1" alt="Twitter logo"></a></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<p id="american-job-center">A proud partner of the <a href="https://www.careeronestop.org/" ><img src="/images/internet/american-job-center.jpg" alt="American Job Center logo"></a> network</p>
+</div>
+<script src="/include/internet/js/jquery-3.6.0.min.js"></script>
+<script src="/include/internet/js/popper.min.js?v1"></script>
+<script src="/include/internet/js/bootstrap.min.js?v1"></script>
+<script src="/include/internet/js/main.js?=v2"></script>
+
+<script type="text/javascript">
+
+
+
+
+
+		  //Google analytics code. 
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+		
+		  ga('create', 'UA-49143950-5', 'auto');
+		  ga('send', 'pageview');
+	 
+		var links = $('a');
+		var htmregex = /^.*(\.htm)|(\.php)$/;
+		var aspregex = /^.*\.aspx*$/;
+		var isfile = /^.*\..{3}$/;
+		var clickedLink;
+		var clickedLinkHref
+		
+		links.click(function(){
+		
+			clickedLink = $(this);
+			clickedLinkHref = clickedLink.attr('href');
+			
+			ga('send', 'event', 'Click Event',  location.pathname, clickedLinkHref);
+
+		});
+	
+
+</script>
+
+
+<script type="text/javascript">  
+        function googleTranslateElementInit() {  
+            new google.translate.TranslateElement( 
+                {pageLanguage: 'en'},  
+                'google_translate_element' 
+            );  
+        }  
+		</script>  
+		  
+		<!--<script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>  -->
+
+</body>
+</html>
