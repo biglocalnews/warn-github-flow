@@ -1,0 +1,543 @@
+
+<head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="/Content/Site.css" rel="stylesheet" type="text/css" />
+    <link href="/Content/bootstrap.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.6/moment.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="/Scripts/jquery-3.3.1.min.js"></script>
+    <script src="/Scripts/jquery.validate.min.js"></script>
+
+</head>
+
+<br />
+<p align="center">
+    <font face="Arial Black" size="6">
+        2019 Worker Adjustment and Retraining Notification Notices
+    </font>
+</p>
+<br />
+
+<form action="/WarnList/Records" method="post">    <div class="container-fluid">
+        <div class="container">
+            <div class="panel panel-default" style="text-align: left">
+                <div class="panel-heading">
+                    <h3>Search</h3>
+                </div>
+
+                <div class="panel-body">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2  editor-label" style="text-align: right">
+                            <label for="CompanyName">Company Name</label>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2 editor-field" style="text-align: left">
+                            <input class="text-box single-line" id="CompanyName" name="CompanyName" type="text" value="" />
+                            <input id="CompanyName" name="CompanyName" type="hidden" value="" />
+                            <input data-val="true" data-val-number="The field Year must be a number." data-val-required="The Year field is required." id="Year" name="Year" type="hidden" value="2019" year="2019" />
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2  editor-label" style="text-align: right">
+                            <label for="LWDB">LWDB</label>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2 editor-field" style="text-align: left">
+                            <input class="text-box single-line" id="LWDB" name="LWDB" type="text" value="" />
+                            <input id="LWDB" name="LWDB" type="hidden" value="" />
+                        </div>
+                    </div>
+
+
+                    <br />
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="text-align: center">
+                            <button class="btn btn-primary" type="submit">Search</button>
+                            <input type="submit" value="Clear" class="btn btn-primary" id="btnClear" name="clearButton" />
+                        </div>
+                    </div>
+                </div>
+                <br />
+
+                <div id="DivGrid" style="text-align:center;">
+                            <div style="text-align:left;"><strong></strong> | 152 <label for="Record_s__found">Record(s) found</label></div>
+    <table class="PGrid" id="DataTable">
+    <thead>
+        <tr class="Header">
+            <th scope="col">
+<a href="/WarnList/Records?year=2019&amp;sort=CompanyName&amp;sortdir=ASC">Company Name</a>            </th>
+            <th scope="col">
+<a href="/WarnList/Records?year=2019&amp;sort=WARNReceivedByStateDate&amp;sortdir=ASC">State Notification Date</a>            </th>
+            <th scope="col">
+<a href="/WarnList/Records?year=2019&amp;sort=LayOffDate&amp;sortdir=ASC">Layoff Date</a>            </th>
+            <th scope="col">
+<a href="/WarnList/Records?year=2019&amp;sort=EmpAffected&amp;sortdir=ASC">Employees Affected</a>            </th>
+            <th scope="col">
+<a href="/WarnList/Records?year=2019&amp;sort=Industry&amp;sortdir=ASC">Industry</a>            </th>
+            <th scope="col">
+<a href="/WarnList/Records?year=2019&amp;sort=Attachment&amp;sortdir=ASC">Attachment</a>            </th>
+        </tr>
+    </thead>
+    <tfoot>
+        <tr >
+            <td colspan="6"><a href="/WarnList/Records?year=2019&amp;page=1">&lt;</a> <a href="/WarnList/Records?year=2019&amp;page=1">1</a> 2 </td>
+        </tr>
+    </tfoot>
+    <tbody>
+        <tr>
+            <td><b>Adcomm, Inc.</b> </br>950 N. Courtenay Parkway</br>Suite 3</br>MERRITT ISLAND, FL, 32953</td>
+            <td>05-02-19</td>
+            <td>06-30-19</br><i> thru </i> </br>06-30-19</td>
+            <td>71</td>
+            <td>Administrative and Support and Waste Management and Remediation Services</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(1582);' /><input type = 'hidden' id = 'FPath1582' name = 'FPath1582' value = '%5c%5cdeo-wpdb005%5cReactFiles_P%5cAdcomm%2c+Inc.+-+Merritt+Island.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>InComm</b> </br>8935 Prominence Parkway</br></br>JACKSONVILLE, FL, 32256</td>
+            <td>04-29-19</td>
+            <td>07-01-19</br><i> thru </i> </br>07-01-19</td>
+            <td>125</td>
+            <td>Administrative and Support and Waste Management and Remediation Services</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(1583);' /><input type = 'hidden' id = 'FPath1583' name = 'FPath1583' value = '%5c%5cdeo-wpdb005%5cReactFiles_P%5cInComm+-+Jacksonville.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>T. Rowe Price Group, Inc.</b> </br>4211 West Boy Scout Boulevard</br></br>TAMPA, FL, 33607</td>
+            <td>04-23-19</td>
+            <td>06-30-19</br><i> thru </i> </br>06-30-19</td>
+            <td>169</td>
+            <td>Finance and Insurance</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(1584);' /><input type = 'hidden' id = 'FPath1584' name = 'FPath1584' value = '%5c%5cdeo-wpdb005%5cReactFiles_P%5cT.+Rowe+Price+Group%2c+Inc.+-+Tampa.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>COEI, LLC</b> </br>7669 Kingspointe Pkwy</br></br>ORLANDO, FL, 32819</td>
+            <td>04-22-19</td>
+            <td>06-18-19</br><i> thru </i> </br>06-18-19</td>
+            <td>49</td>
+            <td>Retail Trade</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(1585);' /><input type = 'hidden' id = 'FPath1585' name = 'FPath1585' value = '%5c%5cdeo-wpdb005%5cReactFiles_P%5cCOEI%2c+LLC+-+Orlando.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>Fortune Plastics</b> </br>11580 Ryland Court</br></br>ORLANDO, FL, 32824</td>
+            <td>04-18-19</td>
+            <td>06-17-19</br><i> thru </i> </br>06-17-19</td>
+            <td>56</td>
+            <td>Manufacturing</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(1586);' /><input type = 'hidden' id = 'FPath1586' name = 'FPath1586' value = '%5c%5cdeo-wpdb005%5cReactFiles_P%5cFortune+Plastics+-+Orlando.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>Hotelbeds</b> </br>220 E. Central Parkway</br>Suite 4000</br>ALTAMONTE SPRINGS, FL, 32701</td>
+            <td>04-22-19</td>
+            <td>05-31-19</br><i> thru </i> </br>05-31-19</td>
+            <td>21</td>
+            <td>Accommodation and Food Services</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(1587);' /><input type = 'hidden' id = 'FPath1587' name = 'FPath1587' value = '%5c%5cdeo-wpdb005%5cReactFiles_P%5cHotelbeds-21+-+Altamonte+Springs.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>Hotelbeds</b> </br>5422 Carrier Drive</br>Suite 201</br>ORLANDO, FL, 32819</td>
+            <td>04-18-19</td>
+            <td>06-15-19</br><i> thru </i> </br>06-15-19</td>
+            <td>1</td>
+            <td>Accommodation and Food Services</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(1588);' /><input type = 'hidden' id = 'FPath1588' name = 'FPath1588' value = '%5c%5cdeo-wpdb005%5cReactFiles_P%5cHotelbeds-5+-+Orlando.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>Gamma USA, Inc.</b> </br>5600-5700 NW 37th Ave.</br></br>MIAMI, FL, 33142</td>
+            <td>04-22-19</td>
+            <td>04-22-19</br><i> thru </i> </br>04-22-19</td>
+            <td>59</td>
+            <td>Manufacturing</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(1589);' /><input type = 'hidden' id = 'FPath1589' name = 'FPath1589' value = '%5c%5cdeo-wpdb005%5cReactFiles_P%5cGamma+USA%2c+Inc.+-+Miami.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>COEI, LLC</b> </br>11084 Cabot Commerce Cir.</br>Suite 200</br>JACKSONVILLE, FL, 32226</td>
+            <td>04-22-19</td>
+            <td>06-18-19</br><i> thru </i> </br>06-18-19</td>
+            <td>39</td>
+            <td>Retail Trade</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(1590);' /><input type = 'hidden' id = 'FPath1590' name = 'FPath1590' value = '%5c%5cdeo-wpdb005%5cReactFiles_P%5cCOEI%2c+LLC-+Jacksonville.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>Hotelbeds</b> </br>220 E. Central Parkway</br>Suite 4000</br>ALTAMONTE SPRINGS, FL, 32701</td>
+            <td>04-18-19</td>
+            <td>06-15-19</br><i> thru </i> </br>06-15-19</td>
+            <td>1</td>
+            <td>Accommodation and Food Services</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(1591);' /><input type = 'hidden' id = 'FPath1591' name = 'FPath1591' value = '%5c%5cdeo-wpdb005%5cReactFiles_P%5cHotelbeds+-+Altamonte+Springs.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>Pier Sixty-Six Hotel & Marina</b> </br>2301 SE 17th Street</br></br>FORT LAUDERDALE, FL, 33316</td>
+            <td>04-08-19</td>
+            <td>06-10-19</br><i> thru </i> </br>06-10-19</td>
+            <td>213</td>
+            <td>Accommodation and Food Services</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(1592);' /><input type = 'hidden' id = 'FPath1592' name = 'FPath1592' value = '%5c%5cdeo-wpdb005%5cReactFiles_P%5cPier+Sixty-Six+Hotel+%26+Marina+-+SKM_36819040810380.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>Beachcomber Resort & Villas</b> </br>1200 S. Ocean Boulevard</br></br>POMPANO BEACH, FL, 33062</td>
+            <td>04-01-19</td>
+            <td>05-31-19</br><i> thru </i> </br>06-14-19</td>
+            <td>79</td>
+            <td>Accommodation and Food Services</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(1593);' /><input type = 'hidden' id = 'FPath1593' name = 'FPath1593' value = '%5c%5cdeo-wpdb005%5cReactFiles_P%5cBeachcomber+Resort+%26+Villas+-+Pompano+Beach.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>Airport Management Services, LLC</b> </br>Destin-Fort Walton Beach Airport</br>1701 State Road 85 North</br>EGLIN AFB, FL, 32542</td>
+            <td>04-04-19</td>
+            <td>06-06-19</br><i> thru </i> </br>06-06-19</td>
+            <td>50</td>
+            <td>Retail Trade</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(1594);' /><input type = 'hidden' id = 'FPath1594' name = 'FPath1594' value = '%5c%5cdeo-wpdb005%5cReactFiles_P%5cAirport+Management+Services%2c+LLC-Destin-Fort+Walton+Beach+Airport+-+Eglin+AFB.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>Select Specialty Hospital-Panama City, Inc.</b> </br>615 North Bonita Avenue</br></br>PANAMA CITY, FL, 32401</td>
+            <td>04-02-19</td>
+            <td>06-01-19</br><i> thru </i> </br>06-01-19</td>
+            <td>114</td>
+            <td>Health Care and Social Assistance</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(1595);' /><input type = 'hidden' id = 'FPath1595' name = 'FPath1595' value = '%5c%5cdeo-wpdb005%5cReactFiles_P%5cSelect+Specialty+Hospital+-+Panama+City%2c+INc.+-+Panama+City.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>Lilly Distribution, LLC</b> </br>5401 Hanger Court</br></br>TAMPA, FL, 33634</td>
+            <td>03-22-19</td>
+            <td>06-29-19</br><i> thru </i> </br>12-31-19</td>
+            <td>112</td>
+            <td>Retail Trade</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(1596);' /><input type = 'hidden' id = 'FPath1596' name = 'FPath1596' value = '%5c%5cdeo-wpdb005%5cReactFiles_P%5cLilly+Distribution%2c+LLC+-+Tampa.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>National Express Transit</b> </br>8200 Casa Verde Rd.</br></br>ORLANDO, FL, 32827</td>
+            <td>03-22-19</td>
+            <td>04-30-19</br><i> thru </i> </br>04-30-19</td>
+            <td>102</td>
+            <td>Transportation and Warehousing</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(1597);' /><input type = 'hidden' id = 'FPath1597' name = 'FPath1597' value = '%5c%5cdeo-wpdb005%5cReactFiles_P%5cNational+Express+Transit+-+Orlando.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>Gannett Publishing Services</b> </br>277 N. Magnolia Drive</br></br>TALLAHASSEE, FL, 32301</td>
+            <td>03-20-19</td>
+            <td>05-20-19</br><i> thru </i> </br>08-28-20</td>
+            <td>45</td>
+            <td>Information</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(1598);' /><input type = 'hidden' id = 'FPath1598' name = 'FPath1598' value = '%5c%5cdeo-wpdb005%5cReactFiles_P%5cGannett+Publishing+Services+-+Tallahassee.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>Hotelbeds</b> </br>5422 Carrier Drive, Suite 201</br></br>ORLANDO, FL, 32819</td>
+            <td>03-19-19</td>
+            <td>05-15-19</br><i> thru </i> </br>05-15-19</td>
+            <td>4</td>
+            <td>Accommodation and Food Services</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(1599);' /><input type = 'hidden' id = 'FPath1599' name = 'FPath1599' value = '%5c%5cdeo-wpdb005%5cReactFiles_P%5cHotelbeds-4+-+Orlando.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>Masonite Corporation</b> </br>4406 Madison Industrial Drive</br></br>TAMPA, FL, 33619</td>
+            <td>03-14-19</td>
+            <td>05-14-19</br><i> thru </i> </br>12-31-19</td>
+            <td>60</td>
+            <td>Manufacturing</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(1600);' /><input type = 'hidden' id = 'FPath1600' name = 'FPath1600' value = '%5c%5cdeo-wpdb005%5cReactFiles_P%5cMasonite+Corporation+-+Tampa.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>Aetna Resources LLC</b> </br>1600 SW 80th Terrace</br></br>PLANTATION, FL, 33324</td>
+            <td>03-13-19</td>
+            <td>05-13-19</br><i> thru </i> </br>05-13-19</td>
+            <td>106</td>
+            <td>Finance and Insurance</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(1601);' /><input type = 'hidden' id = 'FPath1601' name = 'FPath1601' value = '%5c%5cdeo-wpdb005%5cReactFiles_P%5cAetna+Resources+LLC+-+Plantation.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>Molina Healthcare of Florida, Inc.</b> </br>8300 N.W. 33rd Street, #400</br></br>MIAMI, FL, 33122</td>
+            <td>03-08-19</td>
+            <td>05-06-19</br><i> thru </i> </br>05-06-19</td>
+            <td>5</td>
+            <td>Health Care and Social Assistance</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(1602);' /><input type = 'hidden' id = 'FPath1602' name = 'FPath1602' value = '%5c%5cdeo-wpdb005%5cReactFiles_P%5cMolina+Healthcare+of+Florida%2c+Inc.-6+-+Miami.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>Rexall Sundown, Inc.</b> </br>1111 SW 30th Ave.</br></br>DEERFIELD BEACH, FL, 33442</td>
+            <td>03-04-19</td>
+            <td>05-01-19</br><i> thru </i> </br>12-31-19</td>
+            <td>207</td>
+            <td>Administrative and Support and Waste Management and Remediation Services</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(1603);' /><input type = 'hidden' id = 'FPath1603' name = 'FPath1603' value = '%5c%5cdeo-wpdb005%5cReactFiles_P%5cRexall+Sundown%2c+Inc.+-+Deerfield%2c+Pompano+Beach%2c+and+Boca+Raton.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>Rexall Sundown, Inc.</b> </br>3001 Center Port Circle</br></br>POMPANO BEACH, FL, 33064</td>
+            <td>03-04-19</td>
+            <td>05-01-19</br><i> thru </i> </br>12-31-19</td>
+            <td>10</td>
+            <td>Transportation and Warehousing</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(1604);' /><input type = 'hidden' id = 'FPath1604' name = 'FPath1604' value = '%5c%5cdeo-wpdb005%5cReactFiles_P%5cRexall+Sundown%2c+Inc.+-+Deerfield%2c+Pompano+Beach%2c+and+Boca+Raton.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>Rexall Sundown, Inc.</b> </br>1297 Clint Moore Rd.</br></br>BOCA RATON, FL, 33487</td>
+            <td>03-04-19</td>
+            <td>05-01-19</br><i> thru </i> </br>12-31-19</td>
+            <td>33</td>
+            <td>Wholesale Trade</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(1605);' /><input type = 'hidden' id = 'FPath1605' name = 'FPath1605' value = '%5c%5cdeo-wpdb005%5cReactFiles_P%5cRexall+Sundown%2c+Inc.+-+Deerfield%2c+Pompano+Beach%2c+and+Boca+Raton.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>Laser Spine Inst., LLC & LSI Management Co., LLC</b> </br>5332 Avion Park Drive</br></br>TAMPA, FL, 33607</td>
+            <td>03-04-19</td>
+            <td>03-01-19</br><i> thru </i> </br>03-29-19</td>
+            <td>420</td>
+            <td>Health Care and Social Assistance</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(1606);' /><input type = 'hidden' id = 'FPath1606' name = 'FPath1606' value = '%5c%5cdeo-wpdb005%5cReactFiles_P%5cLaser+Spine+Institute%2c+LLC+and+LSI+Management+Company%2c+LLC+-+Tampa.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>The RADGroup</b> </br>2868 Pershing St.</br></br>HOLLYWOOD, FL, 33020</td>
+            <td>02-25-19</td>
+            <td>04-22-19</br><i> thru </i> </br>04-22-19</td>
+            <td>2</td>
+            <td>Retail Trade</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(1607);' /><input type = 'hidden' id = 'FPath1607' name = 'FPath1607' value = '%5c%5cdeo-wpdb005%5cReactFiles_P%5cThe+RADGroup+-+Hollywood+and+Dania+Beach.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>The RADGroup</b> </br>Design Center of America</br>1855 Griffin Road, #C-100</br>DANIA, FL, 33004</td>
+            <td>02-25-19</td>
+            <td>04-22-19</br><i> thru </i> </br>04-22-19</td>
+            <td>2</td>
+            <td>Retail Trade</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(1608);' /><input type = 'hidden' id = 'FPath1608' name = 'FPath1608' value = '%5c%5cdeo-wpdb005%5cReactFiles_P%5cThe+RADGroup+-+Hollywood+and+Dania+Beach.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>ABB, Inc.</b> </br>4300 Coral Ridge Drive</br></br>CORAL SPRINGS, FL, 33065</td>
+            <td>02-26-19</td>
+            <td>04-30-19</br><i> thru </i> </br>05-14-19</td>
+            <td>31</td>
+            <td>Manufacturing</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(1609);' /><input type = 'hidden' id = 'FPath1609' name = 'FPath1609' value = '%5c%5cdeo-wpdb005%5cReactFiles_P%5cABB%2c+Inc.+-+Coral+Springs.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>TIAA Bank</b> </br>301 W. Bay Street</br></br>JACKSONVILLE, FL, 32202</td>
+            <td>02-21-19</td>
+            <td>03-01-19</br><i> thru </i> </br>04-22-19</td>
+            <td>139</td>
+            <td>Finance and Insurance</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(1610);' /><input type = 'hidden' id = 'FPath1610' name = 'FPath1610' value = '%5c%5cdeo-wpdb005%5cReactFiles_P%5cTIAA+Bank+-+Jacksonville.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>TIAA Bank</b> </br>501 Riverside Avenue</br></br>JACKSONVILLE, FL, 32203</td>
+            <td>02-21-19</td>
+            <td>03-01-19</br><i> thru </i> </br>04-22-19</td>
+            <td>10</td>
+            <td>Finance and Insurance</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(1611);' /><input type = 'hidden' id = 'FPath1611' name = 'FPath1611' value = '%5c%5cdeo-wpdb005%5cReactFiles_P%5cTIAA+Bank+-+Jacksonville.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>TIAA Bank</b> </br>9822 Tapestry Park Circle</br></br>JACKSONVILLE, FL, 32246</td>
+            <td>02-21-19</td>
+            <td>03-01-19</br><i> thru </i> </br>04-22-19</td>
+            <td>22</td>
+            <td>Finance and Insurance</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(1612);' /><input type = 'hidden' id = 'FPath1612' name = 'FPath1612' value = '%5c%5cdeo-wpdb005%5cReactFiles_P%5cTIAA+Bank+-+Jacksonville.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>Schneider National Carriers, Inc.</b> </br>Statewide</br></br>STATEWIDE, FL, 00000</td>
+            <td>02-18-19</td>
+            <td>04-01-19</br><i> thru </i> </br>04-01-19</td>
+            <td>148</td>
+            <td>Transportation and Warehousing</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(1613);' /><input type = 'hidden' id = 'FPath1613' name = 'FPath1613' value = '%5c%5cdeo-wpdb005%5cReactFiles_P%5cSchneider+National+Carriers%2c+Inc.+-+Statewide.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>Spectrum Pharmaceuticals</b> </br>Statewide</br></br>STATEWIDE, FL, 00000</td>
+            <td>02-18-19</td>
+            <td>04-12-19</br><i> thru </i> </br>04-12-19</td>
+            <td>6</td>
+            <td>Wholesale Trade</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(1614);' /><input type = 'hidden' id = 'FPath1614' name = 'FPath1614' value = '%5c%5cdeo-wpdb005%5cReactFiles_P%5cSpectrum+Pharmaceuticals+-+Statewide.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>Masonite Corporation</b> </br>11200 69th Street, N.</br></br>LARGO, FL, 33773</td>
+            <td>02-15-19</td>
+            <td>04-16-19</br><i> thru </i> </br>12-31-19</td>
+            <td>35</td>
+            <td>Manufacturing</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(1615);' /><input type = 'hidden' id = 'FPath1615' name = 'FPath1615' value = '%5c%5cdeo-wpdb005%5cReactFiles_P%5cMasonite+Corporation+-+Largo.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>Hotelbeds</b> </br>5422 Carrier Drive, Suite 201</br></br>ORLANDO, FL, 32819</td>
+            <td>02-14-19</td>
+            <td>04-15-19</br><i> thru </i> </br>04-15-19</td>
+            <td>7</td>
+            <td>Accommodation and Food Services</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(1616);' /><input type = 'hidden' id = 'FPath1616' name = 'FPath1616' value = '%5c%5cdeo-wpdb005%5cReactFiles_P%5cHotelbeds-3+-+Orlando.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>Centerfield Media Holding Company</b> </br>1601 S.W. 80th Terrace</br></br>PLANTATION, FL, 33324</td>
+            <td>01-30-19</td>
+            <td>03-31-19</br><i> thru </i> </br>03-31-19</td>
+            <td>38</td>
+            <td>Administrative and Support and Waste Management and Remediation Services</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(1617);' /><input type = 'hidden' id = 'FPath1617' name = 'FPath1617' value = '%5c%5cdeo-wpdb005%5cReactFiles_P%5cCenterfield+Media+Holding+Company+-+Plantation.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>American Technical Ceramics</b> </br>2201 Corporate Square Blvd.</br></br>JACKSONVILLE, FL, 32216</td>
+            <td>01-31-19</td>
+            <td>04-05-19</br><i> thru </i> </br>04-18-19</td>
+            <td>24</td>
+            <td>Manufacturing</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(1618);' /><input type = 'hidden' id = 'FPath1618' name = 'FPath1618' value = '%5c%5cdeo-wpdb005%5cReactFiles_P%5cAmerican+Technical+Ceramics+-+Jacksonville.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>DaVita Labs</b> </br>3951 S.W. 30th Avenue</br></br>FORT LAUDERDALE, FL, 33312</td>
+            <td>01-31-19</td>
+            <td>04-01-19</br><i> thru </i> </br>04-01-19</td>
+            <td>3</td>
+            <td>Health Care and Social Assistance</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(1619);' /><input type = 'hidden' id = 'FPath1619' name = 'FPath1619' value = '%5c%5cdeo-wpdb005%5cReactFiles_P%5cDavita+Labs+-+Ft.+Lauderdale.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>Conifer Revenue Cycle Solutions, LLC</b> </br>4660 Communications Avenue</br></br>BOCA RATON, FL, 33431</td>
+            <td>01-30-19</td>
+            <td>04-05-19</br><i> thru </i> </br>07-26-19</td>
+            <td>99</td>
+            <td>Health Care and Social Assistance</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(1620);' /><input type = 'hidden' id = 'FPath1620' name = 'FPath1620' value = '%5c%5cdeo-wpdb005%5cReactFiles_P%5cConifer+Revenue+Cycle+Solutions%2c+LLC+-+Boca+Raton.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>Molina Healthcare of Florida, Inc.</b> </br>8300 N.W. 33rd Street, #400</br></br>MIAMI, FL, 33122</td>
+            <td>01-30-19</td>
+            <td>04-01-19</br><i> thru </i> </br>04-01-19</td>
+            <td>38</td>
+            <td>Health Care and Social Assistance</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(1621);' /><input type = 'hidden' id = 'FPath1621' name = 'FPath1621' value = '%5c%5cdeo-wpdb005%5cReactFiles_P%5cMolina+Healthcare+of+Florida%2c+Inc.+-+Miami.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>Sodexo, Inc.</b> </br>2100 N.W. 42nd Avenue</br></br>MIAMI, FL, 33126</td>
+            <td>01-22-19</td>
+            <td>03-31-19</br><i> thru </i> </br>01-31-19</td>
+            <td>149</td>
+            <td>Accommodation and Food Services</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(1622);' /><input type = 'hidden' id = 'FPath1622' name = 'FPath1622' value = '%5c%5cdeo-wpdb005%5cReactFiles_P%5cSodexo%2c+Inc.+-+Miami.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>Molina Healthcare of Florida, Inc.</b> </br>8300 NW 33rd St. #400</br></br>MIAMI, FL, 33122</td>
+            <td>01-22-19</td>
+            <td>03-15-19</br><i> thru </i> </br>03-15-19</td>
+            <td>5</td>
+            <td>Health Care and Social Assistance</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(1623);' /><input type = 'hidden' id = 'FPath1623' name = 'FPath1623' value = '%5c%5cdeo-wpdb005%5cReactFiles_P%5cMolina+Healthcare+of+Florida%2c+Inc.-5+-+Miami.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>Title365</b> </br>2475 Palm Bay Rd., NE #230</br></br>PALM BAY, FL, 32905</td>
+            <td>01-11-19</td>
+            <td>03-11-19</br><i> thru </i> </br>03-11-19</td>
+            <td>70</td>
+            <td>Professional, Scientific, and Technical Services</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(1624);' /><input type = 'hidden' id = 'FPath1624' name = 'FPath1624' value = '%5c%5cdeo-wpdb005%5cReactFiles_P%5cTitle365+-+Palm+Bay.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>Advantage Rent A Car</b> </br>2185 Red Cleveland Boulevard</br></br>SANFORD, FL, 32773</td>
+            <td>01-14-19</td>
+            <td>01-31-19</br><i> thru </i> </br>01-31-19</td>
+            <td>4</td>
+            <td>Real Estate and Rental and Leasing</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(1625);' /><input type = 'hidden' id = 'FPath1625' name = 'FPath1625' value = '%5c%5cdeo-wpdb005%5cReactFiles_P%5cAdvantage+Rent+A+Car+-+Sanford.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>Menzies Aviation</b> </br>Ft. Lauderdale-Hollywood Int'l. Airport</br></br>FORT LAUDERDALE, FL, 33315</td>
+            <td>01-11-19</td>
+            <td>03-05-19</br><i> thru </i> </br>03-08-19</td>
+            <td>50</td>
+            <td>Transportation and Warehousing</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(1626);' /><input type = 'hidden' id = 'FPath1626' name = 'FPath1626' value = '%5c%5cdeo-wpdb005%5cReactFiles_P%5cMenzies+Aviation-Ft.+Lauderdale-Hollywood+International+Airport-Ft.+Lauderdale.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>Hotelbeds</b> </br>5422 Carrier Drive, Suite 201</br></br>ORLANDO, FL, 32819</td>
+            <td>01-10-19</td>
+            <td>03-15-19</br><i> thru </i> </br>03-15-19</td>
+            <td>8</td>
+            <td>Accommodation and Food Services</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(1627);' /><input type = 'hidden' id = 'FPath1627' name = 'FPath1627' value = '%5c%5cdeo-wpdb005%5cReactFiles_P%5cHotelbeds-2+-+Orlando.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>Ultimate Survival Technologies, LLC</b> </br>7720 Philips Hwy</br></br>JACKSONVILLE, FL, 32256</td>
+            <td>01-10-19</td>
+            <td>03-10-19</br><i> thru </i> </br>06-30-19</td>
+            <td>45</td>
+            <td>Wholesale Trade</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(1628);' /><input type = 'hidden' id = 'FPath1628' name = 'FPath1628' value = '%5c%5cdeo-wpdb005%5cReactFiles_P%5cUltimate+Survival+Technologies%2c+LLC+-+Jacksonville.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>24-7 Intouch</b> </br>16120 US Highway 19 N.</br></br>CLEARWATER, FL, 33764</td>
+            <td>01-07-19</td>
+            <td>03-04-19</br><i> thru </i> </br>03-04-19</td>
+            <td>203</td>
+            <td>Administrative and Support and Waste Management and Remediation Services</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(1629);' /><input type = 'hidden' id = 'FPath1629' name = 'FPath1629' value = '%5c%5cdeo-wpdb005%5cReactFiles_P%5c24-7+Intouch+-+Clearwater.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>L&S Services, LLC</b> </br>Camp Rudder</br></br>FORT WALTON BEACH, FL, 32542</td>
+            <td>01-02-19</td>
+            <td>02-15-19</br><i> thru </i> </br>02-15-19</td>
+            <td>20</td>
+            <td>Accommodation and Food Services</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(1630);' /><input type = 'hidden' id = 'FPath1630' name = 'FPath1630' value = '%5c%5cdeo-wpdb005%5cReactFiles_P%5cL%26S+Services%2c+LLC-Camp+Rudder+-+Fort+Walton+Beach.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>Aramark Sports & Entertainment Svcs, LLC</b> </br>Raymond James Stadium</br>4201 N Dale Mabry Highway</br>TAMPA, FL, 33607</td>
+            <td>01-02-19</td>
+            <td>02-28-19</br><i> thru </i> </br>02-28-19</td>
+            <td>919</td>
+            <td>Accommodation and Food Services</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(1631);' /><input type = 'hidden' id = 'FPath1631' name = 'FPath1631' value = '%5c%5cdeo-wpdb005%5cReactFiles_P%5cAramark+Sports+and+Entertainment+Services%2c+LLC+-+Tampa.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>Convey Health Solutions</b> </br>4180 Okeechobee Road</br></br>FORT PIERCE, FL, 34947</td>
+            <td>01-02-19</td>
+            <td>03-01-19</br><i> thru </i> </br>03-15-19</td>
+            <td>123</td>
+            <td>Retail Trade</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(1632);' /><input type = 'hidden' id = 'FPath1632' name = 'FPath1632' value = '%5c%5cdeo-wpdb005%5cReactFiles_P%5cConvey+Health+Solutions+-+Fort+Pierce.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>DaVita Labs</b> </br>3951 S.W. 30th Avenue</br></br>FORT LAUDERDALE, FL, 33312</td>
+            <td>01-02-19</td>
+            <td>03-01-19</br><i> thru </i> </br>03-01-19</td>
+            <td>7</td>
+            <td>Health Care and Social Assistance</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(1633);' /><input type = 'hidden' id = 'FPath1633' name = 'FPath1633' value = '%5c%5cdeo-wpdb005%5cReactFiles_P%5cDaVita+Labs+-+Fort+Lauderdale.pdf' /></td>
+        </tr>
+    </tbody>
+    </table>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+</form><script type="text/javascript">
+    function DownloadFile(fileNo) {
+
+        var FileNumber = "FPath" + fileNo;
+        var fileName = $('input[name="'+FileNumber+'"]').val();
+        var filedata = new FormData();
+        //alert(fileName);
+        filedata.append("file", fileName);
+
+        $.ajax({
+            url: '/WarnList/Download',
+            type: "POST",
+            contentType: false,
+            processData: false,
+            data: filedata,
+            success: function (successValue)
+            {
+                //alert(successValue.responseText);
+                //alert(successValue.exactFileName);
+
+                if (successValue.success) {
+                    window.location = '/WarnList/DownloadAzureFile?file=' + successValue.exactFileName;
+                }
+                else {
+                    alert(successValue.responseText);
+                }
+            }
+        });
+    }
+</script>]

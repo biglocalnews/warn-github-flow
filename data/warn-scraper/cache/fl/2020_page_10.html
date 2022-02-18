@@ -1,0 +1,927 @@
+
+<head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="/Content/Site.css" rel="stylesheet" type="text/css" />
+    <link href="/Content/bootstrap.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.6/moment.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="/Scripts/jquery-3.3.1.min.js"></script>
+    <script src="/Scripts/jquery.validate.min.js"></script>
+
+</head>
+
+<br />
+<p align="center">
+    <font face="Arial Black" size="6">
+        2020 Worker Adjustment and Retraining Notification Notices
+    </font>
+</p>
+<br />
+
+<form action="/WarnList/Records" method="post">    <div class="container-fluid">
+        <div class="container">
+            <div class="panel panel-default" style="text-align: left">
+                <div class="panel-heading">
+                    <h3>Search</h3>
+                </div>
+
+                <div class="panel-body">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2  editor-label" style="text-align: right">
+                            <label for="CompanyName">Company Name</label>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2 editor-field" style="text-align: left">
+                            <input class="text-box single-line" id="CompanyName" name="CompanyName" type="text" value="" />
+                            <input id="CompanyName" name="CompanyName" type="hidden" value="" />
+                            <input data-val="true" data-val-number="The field Year must be a number." data-val-required="The Year field is required." id="Year" name="Year" type="hidden" value="2020" year="2020" />
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2  editor-label" style="text-align: right">
+                            <label for="LWDB">LWDB</label>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2 editor-field" style="text-align: left">
+                            <input class="text-box single-line" id="LWDB" name="LWDB" type="text" value="" />
+                            <input id="LWDB" name="LWDB" type="hidden" value="" />
+                        </div>
+                    </div>
+
+
+                    <br />
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="text-align: center">
+                            <button class="btn btn-primary" type="submit">Search</button>
+                            <input type="submit" value="Clear" class="btn btn-primary" id="btnClear" name="clearButton" />
+                        </div>
+                    </div>
+                </div>
+                <br />
+
+                <div id="DivGrid" style="text-align:center;">
+                            <div style="text-align:left;"><strong></strong> | 1338 <label for="Record_s__found">Record(s) found</label></div>
+    <table class="PGrid" id="DataTable">
+    <thead>
+        <tr class="Header">
+            <th scope="col">
+<a href="/WarnList/Records?year=2020&amp;sort=CompanyName&amp;sortdir=ASC">Company Name</a>            </th>
+            <th scope="col">
+<a href="/WarnList/Records?year=2020&amp;sort=WARNReceivedByStateDate&amp;sortdir=ASC">State Notification Date</a>            </th>
+            <th scope="col">
+<a href="/WarnList/Records?year=2020&amp;sort=LayOffDate&amp;sortdir=ASC">Layoff Date</a>            </th>
+            <th scope="col">
+<a href="/WarnList/Records?year=2020&amp;sort=EmpAffected&amp;sortdir=ASC">Employees Affected</a>            </th>
+            <th scope="col">
+<a href="/WarnList/Records?year=2020&amp;sort=Industry&amp;sortdir=ASC">Industry</a>            </th>
+            <th scope="col">
+<a href="/WarnList/Records?year=2020&amp;sort=Attachment&amp;sortdir=ASC">Attachment</a>            </th>
+        </tr>
+    </thead>
+    <tfoot>
+        <tr >
+            <td colspan="6"><a href="/WarnList/Records?year=2020&amp;page=9">&lt;</a> <a href="/WarnList/Records?year=2020&amp;page=8">8</a> <a href="/WarnList/Records?year=2020&amp;page=9">9</a> 10 <a href="/WarnList/Records?year=2020&amp;page=11">11</a> <a href="/WarnList/Records?year=2020&amp;page=12">12</a> <a href="/WarnList/Records?year=2020&amp;page=11">&gt;</a> </td>
+        </tr>
+    </tfoot>
+    <tbody>
+        <tr>
+            <td><b>Sunshine Fitness Management, LLC</b> </br>Planet Fitness</br>280 S. State Road 434</br>ALTAMONTE SPRINGS, FL, 32714</td>
+            <td>04-06-20</td>
+            <td>04-05-20</br><i> thru </i> </br>04-19-20</td>
+            <td>10</td>
+            <td>Arts, Entertainment, and Recreation</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(1044);' /><input type = 'hidden' id = 'FPath1044' name = 'FPath1044' value = '%5c%5cdeo-wpdb005%5cReactFiles_P%5cSunshine+Fitness+Management%2c+LLC+dba+Planet+Fitness.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>Sunshine Fitness Management, LLC</b> </br>Planet Fitness</br>1569 W. Orange Blossom Trail</br>APOPKA, FL, 32712</td>
+            <td>04-06-20</td>
+            <td>04-05-20</br><i> thru </i> </br>04-19-20</td>
+            <td>11</td>
+            <td>Arts, Entertainment, and Recreation</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(1045);' /><input type = 'hidden' id = 'FPath1045' name = 'FPath1045' value = '%5c%5cdeo-wpdb005%5cReactFiles_P%5cSunshine+Fitness+Management%2c+LLC+dba+Planet+Fitness.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>Sunshine Fitness Management, LLC</b> </br>Planet Fitness</br>368 Havendale Blvd</br>AUBURNDALE, FL, 33823</td>
+            <td>04-06-20</td>
+            <td>04-05-20</br><i> thru </i> </br>04-19-20</td>
+            <td>10</td>
+            <td>Arts, Entertainment, and Recreation</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(1046);' /><input type = 'hidden' id = 'FPath1046' name = 'FPath1046' value = '%5c%5cdeo-wpdb005%5cReactFiles_P%5cSunshine+Fitness+Management%2c+LLC+dba+Planet+Fitness.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>Sunshine Fitness Management, LLC</b> </br>Planet Fitness</br>5130 S. Conway Road</br>ORLANDO, FL, 32812</td>
+            <td>04-06-20</td>
+            <td>04-05-20</br><i> thru </i> </br>04-19-20</td>
+            <td>11</td>
+            <td>Arts, Entertainment, and Recreation</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(1047);' /><input type = 'hidden' id = 'FPath1047' name = 'FPath1047' value = '%5c%5cdeo-wpdb005%5cReactFiles_P%5cSunshine+Fitness+Management%2c+LLC+dba+Planet+Fitness.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>Sunshine Fitness Management, LLC</b> </br>Planet Fitness</br></br>BOYNTON BEACH, FL, 33436</td>
+            <td>04-06-20</td>
+            <td>04-05-20</br><i> thru </i> </br>04-19-20</td>
+            <td>11</td>
+            <td>Arts, Entertainment, and Recreation</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(1048);' /><input type = 'hidden' id = 'FPath1048' name = 'FPath1048' value = '%5c%5cdeo-wpdb005%5cReactFiles_P%5cSunshine+Fitness+Management%2c+LLC+dba+Planet+Fitness.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>Sunshine Fitness Management, LLC</b> </br>Planet Fitness</br>6221 N. US Hwy 1</br>COCOA, FL, 32927</td>
+            <td>04-06-20</td>
+            <td>04-05-20</br><i> thru </i> </br>04-19-20</td>
+            <td>7</td>
+            <td>Arts, Entertainment, and Recreation</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(1049);' /><input type = 'hidden' id = 'FPath1049' name = 'FPath1049' value = '%5c%5cdeo-wpdb005%5cReactFiles_P%5cSunshine+Fitness+Management%2c+LLC+dba+Planet+Fitness.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>Sunshine Fitness Management, LLC</b> </br>Planet Fitness</br>14550 S. Military Trail, Ste. A-14</br>DELRAY BEACH, FL, 33484</td>
+            <td>04-06-20</td>
+            <td>04-05-20</br><i> thru </i> </br>04-19-20</td>
+            <td>14</td>
+            <td>Arts, Entertainment, and Recreation</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(1050);' /><input type = 'hidden' id = 'FPath1050' name = 'FPath1050' value = '%5c%5cdeo-wpdb005%5cReactFiles_P%5cSunshine+Fitness+Management%2c+LLC+dba+Planet+Fitness.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>Miller’s Ale House</b> </br>101 Miracle Mile</br></br>CORAL GABLES, FL, 33134</td>
+            <td>04-21-20</td>
+            <td>03-21-20</br><i> thru </i> </br>03-21-20</td>
+            <td>48</td>
+            <td>Accommodation and Food Services</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(1051);' /><input type = 'hidden' id = 'FPath1051' name = 'FPath1051' value = '%5c%5cdeo-wpdb005%5cReactFiles_P%5cMiller%27s+Ale+House+-+Coral+Gables.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>Crystal Cruises</b> </br>1501 Biscayne Boulevard</br>Suite 501</br>MIAMI, FL, 33132</td>
+            <td>04-23-20</td>
+            <td>04-22-20</br><i> thru </i> </br>04-22-20</td>
+            <td>56</td>
+            <td>Administrative and Support and Waste Management and Remediation Services</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(1052);' /><input type = 'hidden' id = 'FPath1052' name = 'FPath1052' value = '%5c%5cdeo-wpdb005%5cReactFiles_P%5cCrystal+Cruises+-+Miami.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>Hard Rock Café Miami</b> </br>401 Biscayne Blvd.</br>R-200</br>MIAMI, FL, 33132</td>
+            <td>04-23-20</td>
+            <td>04-13-20</br><i> thru </i> </br>04-27-20</td>
+            <td>132</td>
+            <td>Accommodation and Food Services</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(1053);' /><input type = 'hidden' id = 'FPath1053' name = 'FPath1053' value = '%5c%5cdeo-wpdb005%5cReactFiles_P%5cWARN+Hard+Rock+Cafe+Miami-Bayside+Market+Place+-+Miami.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>Broder Bros., Co. d/b/a alphabroder</b> </br>10920 Boggy Creek Road</br></br>ORLANDO, FL, 32824</td>
+            <td>04-22-20</td>
+            <td>03-23-20</br><i> thru </i> </br>03-23-20</td>
+            <td>84</td>
+            <td>Wholesale Trade</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(1054);' /><input type = 'hidden' id = 'FPath1054' name = 'FPath1054' value = '%5c%5cdeo-wpdb005%5cReactFiles_P%5cBroder+Bros.%2c+Co.+dba+alphabroder+-+Orlando.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>Tropitone Furniture Co., Inc.</b> </br>1401 Commerce Boulevard</br></br>SARASOTA, FL, 34243</td>
+            <td>04-08-20</td>
+            <td>04-10-20</br><i> thru </i> </br>05-02-20</td>
+            <td>14</td>
+            <td>Manufacturing</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(1055);' /><input type = 'hidden' id = 'FPath1055' name = 'FPath1055' value = '%5c%5cdeo-wpdb005%5cReactFiles_P%5cTropitone+Furniture+Co.%2c+Inc.+-+Sarasota.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>Highgate Hotels, LP</b> </br>South Seas Hotel</br>1751 Collins Avenue Miami Beach, FL 33139</br>MIAMI BEACH, FL, 33139</td>
+            <td>04-07-20</td>
+            <td>03-27-20</br><i> thru </i> </br>03-27-20</td>
+            <td>42</td>
+            <td>Accommodation and Food Services</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(1056);' /><input type = 'hidden' id = 'FPath1056' name = 'FPath1056' value = '%5c%5cdeo-wpdb005%5cReactFiles_P%5cHighgate+Hotels+LP.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>Highgate Hotels, LP</b> </br>Richmond Hotel</br>1757 Collins Avenue Miami Beach, FL 33139</br>MIAMI BEACH, FL, 33139</td>
+            <td>04-07-20</td>
+            <td>03-27-20</br><i> thru </i> </br>03-27-20</td>
+            <td>5</td>
+            <td>Accommodation and Food Services</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(1057);' /><input type = 'hidden' id = 'FPath1057' name = 'FPath1057' value = '%5c%5cdeo-wpdb005%5cReactFiles_P%5cHighgate+Hotels+LP.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>CAI</b> </br>Central Repair Depot, Post 99</br>6401 Okeechobee Blvd.</br>NALCREST, FL, 33417</td>
+            <td>04-06-20</td>
+            <td>03-31-20</br><i> thru </i> </br>03-31-20</td>
+            <td>6</td>
+            <td>Professional, Scientific, and Technical Services</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(1058);' /><input type = 'hidden' id = 'FPath1058' name = 'FPath1058' value = '%5c%5cdeo-wpdb005%5cReactFiles_P%5cCAI+-+West+Palm+Bch.%2c+Palm+City%2c+Pompano+Bch.%2c+Milton%2c+Miami%2c+Orlando%2c+Boca+Raton%2c+Tampa%2c+Coconut+Creek.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>CAI</b> </br>Central Ticket Regional Tech Shop, Mile Post 133</br>3590 S.W. Martin Highway</br>PALM CITY, FL, 34990</td>
+            <td>04-06-20</td>
+            <td>03-31-20</br><i> thru </i> </br>03-31-20</td>
+            <td>12</td>
+            <td>Professional, Scientific, and Technical Services</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(1059);' /><input type = 'hidden' id = 'FPath1059' name = 'FPath1059' value = '%5c%5cdeo-wpdb005%5cReactFiles_P%5cCAI+-+West+Palm+Bch.%2c+Palm+City%2c+Pompano+Bch.%2c+Milton%2c+Miami%2c+Orlando%2c+Boca+Raton%2c+Tampa%2c+Coconut+Creek.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>CAI</b> </br>Coconut Creek Tech. Shop</br>Mile Post 67, Florida’s Turnpike</br>POMPANO BEACH, FL, 33069</td>
+            <td>04-06-20</td>
+            <td>03-31-20</br><i> thru </i> </br>03-31-20</td>
+            <td>7</td>
+            <td>Professional, Scientific, and Technical Services</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(1060);' /><input type = 'hidden' id = 'FPath1060' name = 'FPath1060' value = '%5c%5cdeo-wpdb005%5cReactFiles_P%5cCAI+-+West+Palm+Bch.%2c+Palm+City%2c+Pompano+Bch.%2c+Milton%2c+Miami%2c+Orlando%2c+Boca+Raton%2c+Tampa%2c+Coconut+Creek.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>CAI</b> </br>Florida Turnpike Services</br>Mile Post 65 Florida’s Turnpike</br>POMPANO BEACH, FL, 33069</td>
+            <td>04-06-20</td>
+            <td>03-31-20</br><i> thru </i> </br>03-31-20</td>
+            <td>6</td>
+            <td>Professional, Scientific, and Technical Services</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(1061);' /><input type = 'hidden' id = 'FPath1061' name = 'FPath1061' value = '%5c%5cdeo-wpdb005%5cReactFiles_P%5cCAI+-+West+Palm+Bch.%2c+Palm+City%2c+Pompano+Bch.%2c+Milton%2c+Miami%2c+Orlando%2c+Boca+Raton%2c+Tampa%2c+Coconut+Creek.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>CAI</b> </br>Garcon Point Plaza</br>555 Avalon Blvd.</br>MILTON, FL, 32583</td>
+            <td>04-06-20</td>
+            <td>03-31-20</br><i> thru </i> </br>03-31-20</td>
+            <td>2</td>
+            <td>Professional, Scientific, and Technical Services</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(1062);' /><input type = 'hidden' id = 'FPath1062' name = 'FPath1062' value = '%5c%5cdeo-wpdb005%5cReactFiles_P%5cCAI+-+West+Palm+Bch.%2c+Palm+City%2c+Pompano+Bch.%2c+Milton%2c+Miami%2c+Orlando%2c+Boca+Raton%2c+Tampa%2c+Coconut+Creek.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>CAI</b> </br>Miami Regional Tech. Shop, Mile Post 32</br>14201 W. Okeechobee Road</br>MIAMI, FL, 33018</td>
+            <td>04-06-20</td>
+            <td>03-31-20</br><i> thru </i> </br>03-31-20</td>
+            <td>4</td>
+            <td>Professional, Scientific, and Technical Services</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(1063);' /><input type = 'hidden' id = 'FPath1063' name = 'FPath1063' value = '%5c%5cdeo-wpdb005%5cReactFiles_P%5cCAI+-+West+Palm+Bch.%2c+Palm+City%2c+Pompano+Bch.%2c+Milton%2c+Miami%2c+Orlando%2c+Boca+Raton%2c+Tampa%2c+Coconut+Creek.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>CAI</b> </br>Orlando Regional Tech. Shop, Mile Post 254</br>9601 Turnpike Lane</br>ORLANDO, FL, 32823</td>
+            <td>04-06-20</td>
+            <td>03-31-20</br><i> thru </i> </br>03-31-20</td>
+            <td>10</td>
+            <td>Professional, Scientific, and Technical Services</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(1064);' /><input type = 'hidden' id = 'FPath1064' name = 'FPath1064' value = '%5c%5cdeo-wpdb005%5cReactFiles_P%5cCAI+-+West+Palm+Bch.%2c+Palm+City%2c+Pompano+Bch.%2c+Milton%2c+Miami%2c+Orlando%2c+Boca+Raton%2c+Tampa%2c+Coconut+Creek.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>CAI</b> </br>SunPass Facility</br>7941 Glades Rd.</br>BOCA RATON, FL, 33434</td>
+            <td>04-06-20</td>
+            <td>03-31-20</br><i> thru </i> </br>03-31-20</td>
+            <td>1</td>
+            <td>Professional, Scientific, and Technical Services</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(1065);' /><input type = 'hidden' id = 'FPath1065' name = 'FPath1065' value = '%5c%5cdeo-wpdb005%5cReactFiles_P%5cCAI+-+West+Palm+Bch.%2c+Palm+City%2c+Pompano+Bch.%2c+Milton%2c+Miami%2c+Orlando%2c+Boca+Raton%2c+Tampa%2c+Coconut+Creek.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>CAI</b> </br>SunWatch Operations Center</br>Mile Post 263, Florida’s Turnpike</br>ORLANDO, FL, 32835</td>
+            <td>04-06-20</td>
+            <td>03-31-20</br><i> thru </i> </br>03-31-20</td>
+            <td>15</td>
+            <td>Professional, Scientific, and Technical Services</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(1066);' /><input type = 'hidden' id = 'FPath1066' name = 'FPath1066' value = '%5c%5cdeo-wpdb005%5cReactFiles_P%5cCAI+-+West+Palm+Bch.%2c+Palm+City%2c+Pompano+Bch.%2c+Milton%2c+Miami%2c+Orlando%2c+Boca+Raton%2c+Tampa%2c+Coconut+Creek.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>CAI</b> </br>Tampa Regional Tech. Shop</br>15010 Veterans Expressway, Sugar wood Plaza</br>TAMPA, FL, 33625</td>
+            <td>04-06-20</td>
+            <td>03-31-20</br><i> thru </i> </br>03-31-20</td>
+            <td>11</td>
+            <td>Professional, Scientific, and Technical Services</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(1067);' /><input type = 'hidden' id = 'FPath1067' name = 'FPath1067' value = '%5c%5cdeo-wpdb005%5cReactFiles_P%5cCAI+-+West+Palm+Bch.%2c+Palm+City%2c+Pompano+Bch.%2c+Milton%2c+Miami%2c+Orlando%2c+Boca+Raton%2c+Tampa%2c+Coconut+Creek.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>CAI</b> </br>Turnpike Headquarters</br>Mile Post 263, Florida’s Turnpike</br>ORLANDO, FL, 32835</td>
+            <td>04-06-20</td>
+            <td>03-31-20</br><i> thru </i> </br>03-31-20</td>
+            <td>9</td>
+            <td>Professional, Scientific, and Technical Services</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(1068);' /><input type = 'hidden' id = 'FPath1068' name = 'FPath1068' value = '%5c%5cdeo-wpdb005%5cReactFiles_P%5cCAI+-+West+Palm+Bch.%2c+Palm+City%2c+Pompano+Bch.%2c+Milton%2c+Miami%2c+Orlando%2c+Boca+Raton%2c+Tampa%2c+Coconut+Creek.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>Sunshine Fitness Management, LLC</b> </br>860 Saxon Blvd.</br></br>ORANGE CITY, FL, 32763</td>
+            <td>04-06-20</td>
+            <td>04-05-20</br><i> thru </i> </br>04-19-20</td>
+            <td>12</td>
+            <td>Accommodation and Food Services</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(1069);' /><input type = 'hidden' id = 'FPath1069' name = 'FPath1069' value = '%5c%5cdeo-wpdb005%5cReactFiles_P%5cSunshine+Fitness+Management%2c+LLC+dba+Planet+Fitness.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>Perry Ellis International Inc.</b> </br>Perry Ellis International</br>3000 NW 107 Avenue</br>MIAMI, FL, 33172</td>
+            <td>04-15-20</td>
+            <td>04-24-20</br><i> thru </i> </br>04-24-20</td>
+            <td>201</td>
+            <td>Wholesale Trade</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(1070);' /><input type = 'hidden' id = 'FPath1070' name = 'FPath1070' value = '%5c%5cdeo-wpdb005%5cReactFiles_P%5cPerry+Ellis+International%2c+Inc..pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>Sunshine Fitness Management, LLC</b> </br>19 Alafaya Woods Blvd.</br></br>OVIEDO, FL, 32907</td>
+            <td>04-06-20</td>
+            <td>04-05-20</br><i> thru </i> </br>04-19-20</td>
+            <td>12</td>
+            <td>Arts, Entertainment, and Recreation</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(1071);' /><input type = 'hidden' id = 'FPath1071' name = 'FPath1071' value = '%5c%5cdeo-wpdb005%5cReactFiles_P%5cSunshine+Fitness+Management%2c+LLC+dba+Planet+Fitness.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>Sunshine Fitness Management, LLC</b> </br>160 Malabar Road</br></br>PALM BAY, FL, 32907</td>
+            <td>04-06-20</td>
+            <td>04-05-20</br><i> thru </i> </br>04-19-20</td>
+            <td>8</td>
+            <td>Arts, Entertainment, and Recreation</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(1072);' /><input type = 'hidden' id = 'FPath1072' name = 'FPath1072' value = '%5c%5cdeo-wpdb005%5cReactFiles_P%5cSunshine+Fitness+Management%2c+LLC+dba+Planet+Fitness.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>Perry Ellis International Inc.</b> </br>4902 West Waters Avenue</br></br>TAMPA, FL, 33634</td>
+            <td>04-15-20</td>
+            <td>04-24-20</br><i> thru </i> </br>04-24-20</td>
+            <td>127</td>
+            <td>Wholesale Trade</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(1073);' /><input type = 'hidden' id = 'FPath1073' name = 'FPath1073' value = '%5c%5cdeo-wpdb005%5cReactFiles_P%5cPerry+Ellis+International%2c+Inc..pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>Sunshine Fitness Management, LLC</b> </br>Planet Fitness</br>9930 Alt. A1A #905</br>PALM BEACH, FL, 32907</td>
+            <td>04-06-20</td>
+            <td>04-05-20</br><i> thru </i> </br>04-19-20</td>
+            <td>12</td>
+            <td>Arts, Entertainment, and Recreation</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(1074);' /><input type = 'hidden' id = 'FPath1074' name = 'FPath1074' value = '%5c%5cdeo-wpdb005%5cReactFiles_P%5cSunshine+Fitness+Management%2c+LLC+dba+Planet+Fitness.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>Sunshine Fitness Management, LLC</b> </br>Planet Fitness</br>5998 Mobile Hwy, Ste. #7</br>PENSACOLA, FL, 32526</td>
+            <td>04-06-20</td>
+            <td>04-05-20</br><i> thru </i> </br>04-19-20</td>
+            <td>10</td>
+            <td>Arts, Entertainment, and Recreation</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(1075);' /><input type = 'hidden' id = 'FPath1075' name = 'FPath1075' value = '%5c%5cdeo-wpdb005%5cReactFiles_P%5cSunshine+Fitness+Management%2c+LLC+dba+Planet+Fitness.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>Sunshine Fitness Management, LLC</b> </br>Planet Fitness</br>6241-B N. Davis Hwy.</br>PENSACOLA, FL, 32504</td>
+            <td>04-06-20</td>
+            <td>04-05-20</br><i> thru </i> </br>04-19-20</td>
+            <td>10</td>
+            <td>Arts, Entertainment, and Recreation</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(1076);' /><input type = 'hidden' id = 'FPath1076' name = 'FPath1076' value = '%5c%5cdeo-wpdb005%5cReactFiles_P%5cSunshine+Fitness+Management%2c+LLC+dba+Planet+Fitness.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>Sunshine Fitness Management, LLC</b> </br>Planet Fitness</br>235 E. Nine Mile Rad</br>PENSACOLA, FL, 32534</td>
+            <td>04-06-20</td>
+            <td>04-05-20</br><i> thru </i> </br>04-19-20</td>
+            <td>14</td>
+            <td>Arts, Entertainment, and Recreation</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(1077);' /><input type = 'hidden' id = 'FPath1077' name = 'FPath1077' value = '%5c%5cdeo-wpdb005%5cReactFiles_P%5cSunshine+Fitness+Management%2c+LLC+dba+Planet+Fitness.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>Sunshine Fitness Management, LLC</b> </br>Planet Fitness</br>3225 SW Port St. Lucie Blvd.</br>PORT SAINT LUCIE, FL, 34953</td>
+            <td>04-06-20</td>
+            <td>04-05-20</br><i> thru </i> </br>04-19-20</td>
+            <td>13</td>
+            <td>Arts, Entertainment, and Recreation</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(1078);' /><input type = 'hidden' id = 'FPath1078' name = 'FPath1078' value = '%5c%5cdeo-wpdb005%5cReactFiles_P%5cSunshine+Fitness+Management%2c+LLC+dba+Planet+Fitness.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>Sunshine Fitness Management, LLC</b> </br>Planet Fitness</br>6666 S. Federal Hwy. #2A</br>PORT SAINT LUCIE, FL, 34952</td>
+            <td>04-06-20</td>
+            <td>04-05-20</br><i> thru </i> </br>04-19-20</td>
+            <td>10</td>
+            <td>Arts, Entertainment, and Recreation</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(1079);' /><input type = 'hidden' id = 'FPath1079' name = 'FPath1079' value = '%5c%5cdeo-wpdb005%5cReactFiles_P%5cSunshine+Fitness+Management%2c+LLC+dba+Planet+Fitness.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>Sunshine Fitness Management, LLC</b> </br>Planet Fitness</br>10139 S. Federal Hwy.</br>PORT SAINT LUCIE, FL, 34952</td>
+            <td>04-06-20</td>
+            <td>04-05-20</br><i> thru </i> </br>04-19-20</td>
+            <td>11</td>
+            <td>Arts, Entertainment, and Recreation</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(1080);' /><input type = 'hidden' id = 'FPath1080' name = 'FPath1080' value = '%5c%5cdeo-wpdb005%5cReactFiles_P%5cSunshine+Fitness+Management%2c+LLC+dba+Planet+Fitness.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>Miller’s Ale House</b> </br>34906 Emerald Coast Pkwy.</br></br>DESTIN, FL, 32541</td>
+            <td>04-21-20</td>
+            <td>03-21-20</br><i> thru </i> </br>03-21-20</td>
+            <td>60</td>
+            <td>Accommodation and Food Services</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(1081);' /><input type = 'hidden' id = 'FPath1081' name = 'FPath1081' value = '%5c%5cdeo-wpdb005%5cReactFiles_P%5cMiller%27s+Ale+House+-+Destin.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>Sunshine Fitness Management, LLC</b> </br>Planet Fitness</br>505 Chickasaw Trail</br>ORLANDO, FL, 32825</td>
+            <td>04-06-20</td>
+            <td>04-05-20</br><i> thru </i> </br>04-19-20</td>
+            <td>10</td>
+            <td>Arts, Entertainment, and Recreation</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(1082);' /><input type = 'hidden' id = 'FPath1082' name = 'FPath1082' value = '%5c%5cdeo-wpdb005%5cReactFiles_P%5cSunshine+Fitness+Management%2c+LLC+dba+Planet+Fitness.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>Sunshine Fitness Management, LLC</b> </br>Planet Fitness</br>901 US Hwy. 27 South</br>SEBRING, FL, 33870</td>
+            <td>04-06-20</td>
+            <td>04-05-20</br><i> thru </i> </br>04-19-20</td>
+            <td>12</td>
+            <td>Arts, Entertainment, and Recreation</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(1083);' /><input type = 'hidden' id = 'FPath1083' name = 'FPath1083' value = '%5c%5cdeo-wpdb005%5cReactFiles_P%5cSunshine+Fitness+Management%2c+LLC+dba+Planet+Fitness.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>Sunshine Fitness Management, LLC</b> </br>Planet Fitness</br>2210 SE Federal Hwy.</br>STUART, FL, 34994</td>
+            <td>04-06-20</td>
+            <td>04-05-20</br><i> thru </i> </br>04-19-20</td>
+            <td>12</td>
+            <td>Arts, Entertainment, and Recreation</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(1084);' /><input type = 'hidden' id = 'FPath1084' name = 'FPath1084' value = '%5c%5cdeo-wpdb005%5cReactFiles_P%5cSunshine+Fitness+Management%2c+LLC+dba+Planet+Fitness.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>Sunshine Fitness Management, LLC</b> </br>Planet Fitness</br></br>VERO BEACH, FL, 32960</td>
+            <td>04-06-20</td>
+            <td>04-05-20</br><i> thru </i> </br>04-19-20</td>
+            <td>13</td>
+            <td>Arts, Entertainment, and Recreation</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(1085);' /><input type = 'hidden' id = 'FPath1085' name = 'FPath1085' value = '%5c%5cdeo-wpdb005%5cReactFiles_P%5cSunshine+Fitness+Management%2c+LLC+dba+Planet+Fitness.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>Sunshine Fitness Management, LLC</b> </br>Planet Fitness</br>7731 S. Dixie Highway</br>WEST PALM BEACH, FL, 33407</td>
+            <td>04-06-20</td>
+            <td>04-05-20</br><i> thru </i> </br>04-19-20</td>
+            <td>13</td>
+            <td>Arts, Entertainment, and Recreation</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(1086);' /><input type = 'hidden' id = 'FPath1086' name = 'FPath1086' value = '%5c%5cdeo-wpdb005%5cReactFiles_P%5cSunshine+Fitness+Management%2c+LLC+dba+Planet+Fitness.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>Sunshine Fitness Management, LLC</b> </br>Planet Fitness</br>5335 N. Military Trail</br>WEST PALM BEACH, FL, 33407</td>
+            <td>04-06-20</td>
+            <td>04-05-20</br><i> thru </i> </br>04-19-20</td>
+            <td>11</td>
+            <td>Arts, Entertainment, and Recreation</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(1087);' /><input type = 'hidden' id = 'FPath1087' name = 'FPath1087' value = '%5c%5cdeo-wpdb005%5cReactFiles_P%5cSunshine+Fitness+Management%2c+LLC+dba+Planet+Fitness.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>Sunshine Fitness Management, LLC</b> </br>Planet Fitness</br>4560 Forest Hill Blvd.</br>WEST PALM BEACH, FL, 33415</td>
+            <td>04-06-20</td>
+            <td>04-05-20</br><i> thru </i> </br>04-19-20</td>
+            <td>12</td>
+            <td>Arts, Entertainment, and Recreation</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(1088);' /><input type = 'hidden' id = 'FPath1088' name = 'FPath1088' value = '%5c%5cdeo-wpdb005%5cReactFiles_P%5cSunshine+Fitness+Management%2c+LLC+dba+Planet+Fitness.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>Global Widget, LLC</b> </br>8419 Sunstate St</br></br>TAMPA, FL, 33634</td>
+            <td>04-10-20</td>
+            <td>04-09-20</br><i> thru </i> </br>04-09-20</td>
+            <td>67</td>
+            <td>Wholesale Trade</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(1089);' /><input type = 'hidden' id = 'FPath1089' name = 'FPath1089' value = '%5c%5cdeo-wpdb005%5cReactFiles_P%5cWARN+Global+Widget.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>Interamerican Medical Center Group, Inc</b> </br>11348 Quail Roost Drive</br></br>MIAMI, FL, 33157</td>
+            <td>04-22-20</td>
+            <td>04-22-20</br><i> thru </i> </br>04-22-20</td>
+            <td>5</td>
+            <td>Health Care and Social Assistance</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(1090);' /><input type = 'hidden' id = 'FPath1090' name = 'FPath1090' value = '%5c%5cdeo-wpdb005%5cReactFiles_P%5cInteramerican+Medical+Center+Group%2c+Inc+-+Dade+County.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>Interamerican Medical Center Group, Inc.</b> </br>4155 SW 130 Ave.</br>Suite 201</br>MIAMI, FL, 33175</td>
+            <td>04-22-20</td>
+            <td>04-22-20</br><i> thru </i> </br>04-22-20</td>
+            <td>5</td>
+            <td>Health Care and Social Assistance</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(1091);' /><input type = 'hidden' id = 'FPath1091' name = 'FPath1091' value = '%5c%5cdeo-wpdb005%5cReactFiles_P%5cInteramerican+Medical+Center+Group%2c+Inc+-+Dade+County.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>Interamerican Medical Center Group, Inc.</b> </br>7900 NW 27th Ave.</br>Suite D-10</br>MIAMI, FL, 33147</td>
+            <td>04-22-20</td>
+            <td>04-22-20</br><i> thru </i> </br>04-22-20</td>
+            <td>3</td>
+            <td>Health Care and Social Assistance</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(1092);' /><input type = 'hidden' id = 'FPath1092' name = 'FPath1092' value = '%5c%5cdeo-wpdb005%5cReactFiles_P%5cInteramerican+Medical+Center+Group%2c+Inc+-+Dade+County.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>Circa 39 Hotel</b> </br>3900 Collins Ave.</br></br>MIAMI BEACH, FL, 33140</td>
+            <td>04-22-20</td>
+            <td>03-26-20</br><i> thru </i> </br>03-26-20</td>
+            <td>44</td>
+            <td>Accommodation and Food Services</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(1093);' /><input type = 'hidden' id = 'FPath1093' name = 'FPath1093' value = '%5c%5cdeo-wpdb005%5cReactFiles_P%5cCirca+39+Hotel+-+Miami+Beach.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>Interamerican Medical Center Group, Inc.</b> </br>8530 SW Eighth Street</br></br>MIAMI, FL, 33144</td>
+            <td>04-22-20</td>
+            <td>04-22-20</br><i> thru </i> </br>04-22-20</td>
+            <td>4</td>
+            <td>Health Care and Social Assistance</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(1094);' /><input type = 'hidden' id = 'FPath1094' name = 'FPath1094' value = '%5c%5cdeo-wpdb005%5cReactFiles_P%5cInteramerican+Medical+Center+Group%2c+Inc+-+Dade+County.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>Interamerican Medical Center Group, Inc.</b> </br>9193 SW 72nd St.</br>Suite 210</br>MIAMI, FL, 33173</td>
+            <td>04-22-20</td>
+            <td>04-22-20</br><i> thru </i> </br>04-22-20</td>
+            <td>4</td>
+            <td>Health Care and Social Assistance</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(1095);' /><input type = 'hidden' id = 'FPath1095' name = 'FPath1095' value = '%5c%5cdeo-wpdb005%5cReactFiles_P%5cInteramerican+Medical+Center+Group%2c+Inc+-+Dade+County.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>The Palms Hotel and Spa</b> </br>3025 Collins Ave.</br></br>MIAMI BEACH, FL, 33140</td>
+            <td>04-22-20</td>
+            <td>03-26-20</br><i> thru </i> </br>03-26-20</td>
+            <td>230</td>
+            <td>Accommodation and Food Services</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(1096);' /><input type = 'hidden' id = 'FPath1096' name = 'FPath1096' value = '%5c%5cdeo-wpdb005%5cReactFiles_P%5cThe+Palms+Hotel+and+Spa+-+Miami+Beach.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>Hard Rock Cafe Orlando</b> </br>6050 Universal Blvd.</br></br>ORLANDO, FL, 32819</td>
+            <td>04-23-20</td>
+            <td>04-13-20</br><i> thru </i> </br>04-13-20</td>
+            <td>510</td>
+            <td>Accommodation and Food Services</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(1097);' /><input type = 'hidden' id = 'FPath1097' name = 'FPath1097' value = '%5c%5cdeo-wpdb005%5cReactFiles_P%5cHard+Rock+Cafe+Orlando+-+Orlando.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>Sand Key Associates Limited Partnership dba Sheraton Sand Key Resort</b> </br>1160 Gulf Blvd</br></br>CLEARWATER, FL, 33767</td>
+            <td>04-21-20</td>
+            <td>03-21-20</br><i> thru </i> </br>03-30-20</td>
+            <td>231</td>
+            <td>Accommodation and Food Services</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(1098);' /><input type = 'hidden' id = 'FPath1098' name = 'FPath1098' value = '%5c%5cdeo-wpdb005%5cReactFiles_P%5cSand+Key+Associates+Limited+Partnership+dba+Sheraton+Sand+Key+Resort.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>Hard Rock Café Hollywood</b> </br>1 Seminole Way</br></br>HOLLYWOOD, FL, 33314</td>
+            <td>04-23-20</td>
+            <td>04-13-20</br><i> thru </i> </br>04-13-20</td>
+            <td>183</td>
+            <td>Accommodation and Food Services</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(1099);' /><input type = 'hidden' id = 'FPath1099' name = 'FPath1099' value = '%5c%5cdeo-wpdb005%5cReactFiles_P%5cHard+Rock+Cafe+Hollywood+-+Hollywood.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>Big Splash Kendall Corp.</b> </br>242 Miracle Mile</br></br>CORAL GABLES, FL, 33134</td>
+            <td>04-07-20</td>
+            <td>03-18-20</br><i> thru </i> </br>03-22-20</td>
+            <td>52</td>
+            <td>Accommodation and Food Services</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(1100);' /><input type = 'hidden' id = 'FPath1100' name = 'FPath1100' value = '%5c%5cdeo-wpdb005%5cReactFiles_P%5cBig+Splash+Kendall+Corp.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>Quick Weight Loss Center</b> </br>13424 Biscayne Blvd.</br></br>NORTH MIAMI, FL, 33181</td>
+            <td>04-01-20</td>
+            <td>03-25-20</br><i> thru </i> </br>03-27-20</td>
+            <td>4</td>
+            <td>Other Services (except Public Administration)</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(1101);' /><input type = 'hidden' id = 'FPath1101' name = 'FPath1101' value = '%5c%5cdeo-wpdb005%5cReactFiles_P%5cQuick+Weight+Loss+Center+-+North+Miami.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>Hard Rock Café Key West</b> </br>313 Duval Street</br></br>KEY WEST, FL, 33040</td>
+            <td>04-23-20</td>
+            <td>04-13-20</br><i> thru </i> </br>04-13-20</td>
+            <td>39</td>
+            <td>Accommodation and Food Services</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(1102);' /><input type = 'hidden' id = 'FPath1102' name = 'FPath1102' value = '%5c%5cdeo-wpdb005%5cReactFiles_P%5cHard+Rock+Cafe+Key+West+-+Key+West.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>Quick Weight Loss Center</b> </br>800 W. Oakland Park Blvd.</br>#103</br>WILTON MANORS, FL, 33311</td>
+            <td>04-01-20</td>
+            <td>03-25-20</br><i> thru </i> </br>03-27-20</td>
+            <td>3</td>
+            <td>Other Services (except Public Administration)</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(1103);' /><input type = 'hidden' id = 'FPath1103' name = 'FPath1103' value = '%5c%5cdeo-wpdb005%5cReactFiles_P%5cWARN+Quick+Weight+Loss+Center+-+Wilton+Manors.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>Sunshine Fitness Management, LLC</b> </br>Planet Fitness</br></br>LANTANA, FL, 33462</td>
+            <td>04-06-20</td>
+            <td>04-05-20</br><i> thru </i> </br>04-19-20</td>
+            <td>10</td>
+            <td>Arts, Entertainment, and Recreation</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(1104);' /><input type = 'hidden' id = 'FPath1104' name = 'FPath1104' value = '%5c%5cdeo-wpdb005%5cReactFiles_P%5cSunshine+Fitness+Management%2c+LLC+dba+Planet+Fitness.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>Sunshine Fitness Management, LLC</b> </br>Planet Fitness</br>5857 S. Congress Avenue</br>LANTANA, FL, 33462</td>
+            <td>04-06-20</td>
+            <td>04-05-20</br><i> thru </i> </br>04-19-20</td>
+            <td>10</td>
+            <td>Arts, Entertainment, and Recreation</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(1105);' /><input type = 'hidden' id = 'FPath1105' name = 'FPath1105' value = '%5c%5cdeo-wpdb005%5cReactFiles_P%5cSunshine+Fitness+Management%2c+LLC+dba+Planet+Fitness.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>Sunshine Fitness Management, LLC</b> </br>Planet Fitness</br>10463 Southern Blvd.</br>ROYAL PALM BEACH, FL, 33411</td>
+            <td>04-06-20</td>
+            <td>04-05-20</br><i> thru </i> </br>04-19-20</td>
+            <td>11</td>
+            <td>Arts, Entertainment, and Recreation</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(1106);' /><input type = 'hidden' id = 'FPath1106' name = 'FPath1106' value = '%5c%5cdeo-wpdb005%5cReactFiles_P%5cSunshine+Fitness+Management%2c+LLC+dba+Planet+Fitness.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>Sunshine Fitness Management, LLC</b> </br>Planet Fitness</br>4020 13th Street</br>SAINT CLOUD, FL, 34769</td>
+            <td>04-06-20</td>
+            <td>04-05-20</br><i> thru </i> </br>04-19-20</td>
+            <td>10</td>
+            <td>Arts, Entertainment, and Recreation</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(1107);' /><input type = 'hidden' id = 'FPath1107' name = 'FPath1107' value = '%5c%5cdeo-wpdb005%5cReactFiles_P%5cSunshine+Fitness+Management%2c+LLC+dba+Planet+Fitness.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>Miller’s Ale House</b> </br>477 East Altamonte Drive</br></br>ALTAMONTE SPRINGS, FL, 32701</td>
+            <td>04-17-20</td>
+            <td>03-21-20</br><i> thru </i> </br>03-21-20</td>
+            <td>93</td>
+            <td>Accommodation and Food Services</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(1108);' /><input type = 'hidden' id = 'FPath1108' name = 'FPath1108' value = '%5c%5cdeo-wpdb005%5cReactFiles_P%5cMiller%27s+Ale+House+-+Altamonte+Springs.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>Miller’s Ale House</b> </br>2610 West International Speedway Blvd.</br></br>DAYTONA BEACH, FL, 32114</td>
+            <td>04-17-20</td>
+            <td>03-21-20</br><i> thru </i> </br>03-21-20</td>
+            <td>64</td>
+            <td>Accommodation and Food Services</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(1109);' /><input type = 'hidden' id = 'FPath1109' name = 'FPath1109' value = '%5c%5cdeo-wpdb005%5cReactFiles_P%5cMiller%27s+Ale+House+-+Daytona+Beach+-+2610+W.+International+Speedway+Blvd..pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>Avis Budget Car Rental, LLC</b> </br>600 Terminal Drive, Suite 401</br></br>FORT LAUDERDALE, FL, 33315</td>
+            <td>04-13-20</td>
+            <td>03-20-20</br><i> thru </i> </br>03-20-20</td>
+            <td>93</td>
+            <td>Real Estate and Rental and Leasing</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(1110);' /><input type = 'hidden' id = 'FPath1110' name = 'FPath1110' value = '%5c%5cdeo-wpdb005%5cReactFiles_P%5cAvis+Budget+Car+Rental%2c+LLC+-+Ft.+Lauderdale.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>Leggett & Platt, Inc.</b> </br>15800 Hudson Avenue</br></br>SPRING HILL, FL, 34610</td>
+            <td>04-10-20</td>
+            <td>03-24-20</br><i> thru </i> </br>03-24-20</td>
+            <td>104</td>
+            <td>Manufacturing</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(1111);' /><input type = 'hidden' id = 'FPath1111' name = 'FPath1111' value = '%5c%5cdeo-wpdb005%5cReactFiles_P%5cLeggett+%26+Platt%2c+Inc.+-+Spring+Hill+and+Tampa.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>Leggett & Platt, Inc.</b> </br>4737 Distribution Drive</br></br>TAMPA, FL, 33619</td>
+            <td>04-10-20</td>
+            <td>03-24-20</br><i> thru </i> </br>03-24-20</td>
+            <td>9</td>
+            <td>Manufacturing</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(1112);' /><input type = 'hidden' id = 'FPath1112' name = 'FPath1112' value = '%5c%5cdeo-wpdb005%5cReactFiles_P%5cLeggett+%26+Platt%2c+Inc.+-+Spring+Hill+and+Tampa.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>Miller’s Ale House, Inc.</b> </br>11112 San Jose Bld.,</br></br>JACKSONVILLE, FL, 32223</td>
+            <td>04-20-20</td>
+            <td>03-21-20</br><i> thru </i> </br>03-21-20</td>
+            <td>59</td>
+            <td>Accommodation and Food Services</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(1113);' /><input type = 'hidden' id = 'FPath1113' name = 'FPath1113' value = '%5c%5cdeo-wpdb005%5cReactFiles_P%5cWARN+Miller%27s+Ale+House+Inc.+-+Jacksonville+(San+Jose+Blvd.).pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>Zuma Japanese Restaurant Miami, LLC dba Zuma Miami</b> </br>270 Biscayne Blvd.</br></br>MIAMI, FL, 33131</td>
+            <td>04-20-20</td>
+            <td>03-27-20</br><i> thru </i> </br>03-27-20</td>
+            <td>115</td>
+            <td>Accommodation and Food Services</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(1114);' /><input type = 'hidden' id = 'FPath1114' name = 'FPath1114' value = '%5c%5cdeo-wpdb005%5cReactFiles_P%5cZuma+Japanese+Restaurant+Miami%2c+LLC+dba+Zuma+Miami.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>Miller’s Ale House, Inc.</b> </br>1667 Florida Mall Ave</br></br>ORLANDO, FL, 32809</td>
+            <td>04-20-20</td>
+            <td>03-21-20</br><i> thru </i> </br>03-21-20</td>
+            <td>49</td>
+            <td>Accommodation and Food Services</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(1115);' /><input type = 'hidden' id = 'FPath1115' name = 'FPath1115' value = '%5c%5cdeo-wpdb005%5cReactFiles_P%5cMiller%27s+Ale+House+Inc.+-+Orlando+(Florida+Mall+Ave.).pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>Miller’s Ale House</b> </br>5906 North Davis Hwy.</br></br>PENSACOLA, FL, 32503</td>
+            <td>04-21-20</td>
+            <td>03-21-20</br><i> thru </i> </br>03-21-20</td>
+            <td>63</td>
+            <td>Accommodation and Food Services</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(1116);' /><input type = 'hidden' id = 'FPath1116' name = 'FPath1116' value = '%5c%5cdeo-wpdb005%5cReactFiles_P%5cMiller%27s+Ale+House+-+Pensacola.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>Miller’s Ale House, Inc.</b> </br>101 University Park Drive</br></br>WINTER PARK, FL, 32792</td>
+            <td>04-20-20</td>
+            <td>03-21-20</br><i> thru </i> </br>03-21-20</td>
+            <td>49</td>
+            <td>Accommodation and Food Services</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(1117);' /><input type = 'hidden' id = 'FPath1117' name = 'FPath1117' value = '%5c%5cdeo-wpdb005%5cReactFiles_P%5cMIller%27s+Ale+House+Inc.+-+Winter+Park.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>Miller’s Ale House, Inc.</b> </br>722 Apalachee Parkway</br></br>TALLAHASSEE, FL, 32301</td>
+            <td>04-20-20</td>
+            <td>03-21-20</br><i> thru </i> </br>03-21-20</td>
+            <td>68</td>
+            <td>Accommodation and Food Services</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(1118);' /><input type = 'hidden' id = 'FPath1118' name = 'FPath1118' value = '%5c%5cdeo-wpdb005%5cReactFiles_P%5cMiller%27s+Ale+House+-+Tallahassee.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>Miller’s Ale House, Inc.</b> </br>305 S.E. 17th Street</br></br>OCALA, FL, 34471</td>
+            <td>04-17-20</td>
+            <td>03-21-20</br><i> thru </i> </br>03-29-20</td>
+            <td>84</td>
+            <td>Accommodation and Food Services</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(1119);' /><input type = 'hidden' id = 'FPath1119' name = 'FPath1119' value = '%5c%5cdeo-wpdb005%5cReactFiles_P%5cMiller%27s+Ale+House+Inc.+-+Ocala.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>Miller's Ale House</b> </br>2881 Bass Pro Shops Blvd.</br></br>GAINESVILLE, FL, 32608</td>
+            <td>04-21-20</td>
+            <td>03-21-20</br><i> thru </i> </br>03-21-20</td>
+            <td>90</td>
+            <td>Accommodation and Food Services</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(1120);' /><input type = 'hidden' id = 'FPath1120' name = 'FPath1120' value = '%5c%5cdeo-wpdb005%5cReactFiles_P%5cMiller%27s+Ale+House+-+Gainesville.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>Buena Vista Construction Company</b> </br>3291 Wedway</br></br>LAKE BUENA VISTA, FL, 32830</td>
+            <td>03-25-20</td>
+            <td>03-15-20</br><i> thru </i> </br>03-15-20</td>
+            <td>1215</td>
+            <td>Construction</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(1121);' /><input type = 'hidden' id = 'FPath1121' name = 'FPath1121' value = '%5c%5cdeo-wpdb005%5cReactFiles_P%5cBuena+Vista+Construction+Company+-+Lake+Buena+Vista+(002).pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>Miller’s Ale House</b> </br>7901 Martin Luther King Street</br></br>SAINT PETERSBURG, FL, 33702</td>
+            <td>04-21-20</td>
+            <td>03-21-20</br><i> thru </i> </br>03-21-20</td>
+            <td>56</td>
+            <td>Accommodation and Food Services</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(1122);' /><input type = 'hidden' id = 'FPath1122' name = 'FPath1122' value = '%5c%5cdeo-wpdb005%5cReactFiles_P%5cMiller%27s+Ale+House+-+St.+Petersburg.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>Miller’s Ale House</b> </br>5650 South Florida Avenue</br></br>LAKELAND, FL, 33813</td>
+            <td>04-21-20</td>
+            <td>03-21-20</br><i> thru </i> </br>03-21-20</td>
+            <td>62</td>
+            <td>Accommodation and Food Services</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(1123);' /><input type = 'hidden' id = 'FPath1123' name = 'FPath1123' value = '%5c%5cdeo-wpdb005%5cReactFiles_P%5cMiller%27s+Ale+House+-+Lakeland.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>Miller’s Ale House, Inc.</b> </br>3860 West Columbus Drive</br></br>TAMPA, FL, 33607</td>
+            <td>04-21-20</td>
+            <td>03-21-20</br><i> thru </i> </br>03-21-20</td>
+            <td>58</td>
+            <td>Accommodation and Food Services</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(1124);' /><input type = 'hidden' id = 'FPath1124' name = 'FPath1124' value = '%5c%5cdeo-wpdb005%5cReactFiles_P%5cMiller%27s+Ale+House+-+Tampa+-+3860+W.+Columbus+Dr..pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>NewsLink</b> </br>Tampa International Airport</br>4100 George J Bean Pkwy</br>TAMPA, FL, 33607</td>
+            <td>04-21-20</td>
+            <td>04-20-20</br><i> thru </i> </br>04-20-20</td>
+            <td>57</td>
+            <td>Retail Trade</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(1125);' /><input type = 'hidden' id = 'FPath1125' name = 'FPath1125' value = '%5c%5cdeo-wpdb005%5cReactFiles_P%5cNewsLink-Tampa+International+Airport+-+Tampa.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>Sunshine Fitness Management, LLC</b> </br>Planet Fitness</br>8956 Turkey Lake Rd., Ste. 1000</br>ORLANDO, FL, 32819</td>
+            <td>04-06-20</td>
+            <td>04-05-20</br><i> thru </i> </br>04-19-20</td>
+            <td>12</td>
+            <td>Arts, Entertainment, and Recreation</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(1126);' /><input type = 'hidden' id = 'FPath1126' name = 'FPath1126' value = '%5c%5cdeo-wpdb005%5cReactFiles_P%5cSunshine+Fitness+Management%2c+LLC+dba+Planet+Fitness.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>Sunshine Fitness Management, LLC</b> </br>Planet Fitness</br>4526 S. Orange Blossom Trail</br>ORLANDO, FL, 32839</td>
+            <td>04-06-20</td>
+            <td>04-05-20</br><i> thru </i> </br>04-19-20</td>
+            <td>10</td>
+            <td>Arts, Entertainment, and Recreation</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(1127);' /><input type = 'hidden' id = 'FPath1127' name = 'FPath1127' value = '%5c%5cdeo-wpdb005%5cReactFiles_P%5cSunshine+Fitness+Management%2c+LLC+dba+Planet+Fitness.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>Sunshine Fitness Management, LLC</b> </br>Planet Fitness</br>12471 S. Orange Blossom Trail</br>ORLANDO, FL, 32837</td>
+            <td>04-06-20</td>
+            <td>04-05-20</br><i> thru </i> </br>04-19-20</td>
+            <td>10</td>
+            <td>Arts, Entertainment, and Recreation</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(1128);' /><input type = 'hidden' id = 'FPath1128' name = 'FPath1128' value = '%5c%5cdeo-wpdb005%5cReactFiles_P%5cSunshine+Fitness+Management%2c+LLC+dba+Planet+Fitness.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>SLS South Beach Hotel</b> </br>1701 Collins Avenue</br></br>MIAMI BEACH, FL, 33139</td>
+            <td>04-22-20</td>
+            <td>05-01-20</br><i> thru </i> </br>05-01-20</td>
+            <td>340</td>
+            <td>Accommodation and Food Services</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(1129);' /><input type = 'hidden' id = 'FPath1129' name = 'FPath1129' value = '%5c%5cdeo-wpdb005%5cReactFiles_P%5cSLS+South+Beach+Hotel+-+Miami+Beach.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>Sunshine Fitness Management, LLC</b> </br>Planet Fitness</br>3761 Military Trail</br>JUPITER, FL, 33458</td>
+            <td>04-06-20</td>
+            <td>04-05-20</br><i> thru </i> </br>04-19-20</td>
+            <td>12</td>
+            <td>Arts, Entertainment, and Recreation</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(1130);' /><input type = 'hidden' id = 'FPath1130' name = 'FPath1130' value = '%5c%5cdeo-wpdb005%5cReactFiles_P%5cSunshine+Fitness+Management%2c+LLC+dba+Planet+Fitness.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>Sunshine Fitness Management, LLC</b> </br>Planet Fitness</br>3831 W. Vine Street</br>KISSIMMEE, FL, 34741</td>
+            <td>04-06-20</td>
+            <td>04-05-20</br><i> thru </i> </br>04-19-20</td>
+            <td>12</td>
+            <td>Arts, Entertainment, and Recreation</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(1131);' /><input type = 'hidden' id = 'FPath1131' name = 'FPath1131' value = '%5c%5cdeo-wpdb005%5cReactFiles_P%5cSunshine+Fitness+Management%2c+LLC+dba+Planet+Fitness.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>Sunshine Fitness Management, LLC</b> </br>Planet Fitness</br>3005 W. Lake Mary Blvd., Ste. 105</br>LAKE MARY, FL, 32746</td>
+            <td>04-06-20</td>
+            <td>04-05-20</br><i> thru </i> </br>04-19-20</td>
+            <td>13</td>
+            <td>Arts, Entertainment, and Recreation</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(1132);' /><input type = 'hidden' id = 'FPath1132' name = 'FPath1132' value = '%5c%5cdeo-wpdb005%5cReactFiles_P%5cSunshine+Fitness+Management%2c+LLC+dba+Planet+Fitness.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>Sunshine Fitness Management, LLC</b> </br>Planet Fitness</br>6488 Lake Worth Road</br>LAKE WORTH, FL, 33463</td>
+            <td>04-06-20</td>
+            <td>04-05-20</br><i> thru </i> </br>04-19-20</td>
+            <td>13</td>
+            <td>Arts, Entertainment, and Recreation</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(1133);' /><input type = 'hidden' id = 'FPath1133' name = 'FPath1133' value = '%5c%5cdeo-wpdb005%5cReactFiles_P%5cSunshine+Fitness+Management%2c+LLC+dba+Planet+Fitness.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>Sunshine Fitness Management, LLC</b> </br>Planet Fitness</br>908 Lee Road</br>ORLANDO, FL, 32810</td>
+            <td>04-06-20</td>
+            <td>04-05-20</br><i> thru </i> </br>04-19-20</td>
+            <td>12</td>
+            <td>Arts, Entertainment, and Recreation</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(1134);' /><input type = 'hidden' id = 'FPath1134' name = 'FPath1134' value = '%5c%5cdeo-wpdb005%5cReactFiles_P%5cSunshine+Fitness+Management%2c+LLC+dba+Planet+Fitness.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>Sunshine Fitness Management, LLC</b> </br>Planet Fitness</br>735 North 14th Street</br>LEESBURG, FL, 34748</td>
+            <td>04-06-20</td>
+            <td>04-05-20</br><i> thru </i> </br>04-19-20</td>
+            <td>11</td>
+            <td>Arts, Entertainment, and Recreation</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(1135);' /><input type = 'hidden' id = 'FPath1135' name = 'FPath1135' value = '%5c%5cdeo-wpdb005%5cReactFiles_P%5cSunshine+Fitness+Management%2c+LLC+dba+Planet+Fitness.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>Sunshine Fitness Management, LLC</b> </br>Planet Fitness</br>2800-C Hwy. 71</br>MARIANNA, FL, 32446</td>
+            <td>04-06-20</td>
+            <td>04-05-20</br><i> thru </i> </br>04-19-20</td>
+            <td>11</td>
+            <td>Arts, Entertainment, and Recreation</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(1136);' /><input type = 'hidden' id = 'FPath1136' name = 'FPath1136' value = '%5c%5cdeo-wpdb005%5cReactFiles_P%5cSunshine+Fitness+Management%2c+LLC+dba+Planet+Fitness.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>Sunshine Fitness Management, LLC</b> </br>Planet Fitness</br>300 Mary Esther Blvd.</br>MARY ESTHER, FL, 32569</td>
+            <td>04-06-20</td>
+            <td>04-05-20</br><i> thru </i> </br>04-19-20</td>
+            <td>10</td>
+            <td>Arts, Entertainment, and Recreation</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(1137);' /><input type = 'hidden' id = 'FPath1137' name = 'FPath1137' value = '%5c%5cdeo-wpdb005%5cReactFiles_P%5cSunshine+Fitness+Management%2c+LLC+dba+Planet+Fitness.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>Sunshine Fitness Management, LLC</b> </br>Planet Fitness</br>5920 Metropolis Way</br>ORLANDO, FL, 32811</td>
+            <td>04-06-20</td>
+            <td>04-05-20</br><i> thru </i> </br>04-19-20</td>
+            <td>13</td>
+            <td>Arts, Entertainment, and Recreation</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(1138);' /><input type = 'hidden' id = 'FPath1138' name = 'FPath1138' value = '%5c%5cdeo-wpdb005%5cReactFiles_P%5cSunshine+Fitness+Management%2c+LLC+dba+Planet+Fitness.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>Sunshine Fitness Management, LLC</b> </br>Planet Fitness</br>10908 W. Colonial Dr.</br>OCOEE, FL, 34761</td>
+            <td>04-06-20</td>
+            <td>04-05-20</br><i> thru </i> </br>04-19-20</td>
+            <td>12</td>
+            <td>Arts, Entertainment, and Recreation</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(1139);' /><input type = 'hidden' id = 'FPath1139' name = 'FPath1139' value = '%5c%5cdeo-wpdb005%5cReactFiles_P%5cSunshine+Fitness+Management%2c+LLC+dba+Planet+Fitness.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>Cinepolis</b> </br>201 US-1</br></br>JUPITER, FL, 33477</td>
+            <td>04-17-20</td>
+            <td>04-04-20</br><i> thru </i> </br>04-04-20</td>
+            <td>27</td>
+            <td>Information</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(1140);' /><input type = 'hidden' id = 'FPath1140' name = 'FPath1140' value = '%5c%5cdeo-wpdb005%5cReactFiles_P%5cFlorida+Cinema+Investments+dba+Cinepolis+-+Jupiter.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>Cinepolis</b> </br>3984 W. Hillsboro Blvd.</br></br>DEERFIELD BEACH, FL, 33442</td>
+            <td>04-17-20</td>
+            <td>04-04-20</br><i> thru </i> </br>04-04-20</td>
+            <td>5</td>
+            <td>Information</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(1141);' /><input type = 'hidden' id = 'FPath1141' name = 'FPath1141' value = '%5c%5cdeo-wpdb005%5cReactFiles_P%5cCinepolis+-+Deerfield+Beach.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>Asbury Automotive Group, Inc.</b> </br>Coggin Ford</br>9650 Atlantic Blvd.</br>JACKSONVILLE, FL, 32225</td>
+            <td>04-07-20</td>
+            <td>04-03-20</br><i> thru </i> </br>04-03-20</td>
+            <td>30</td>
+            <td>Retail Trade</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(1142);' /><input type = 'hidden' id = 'FPath1142' name = 'FPath1142' value = '%5c%5cdeo-wpdb005%5cReactFiles_P%5cAsbury+Automotive+Group%2c+Inc..pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>Asbury Automotive Group, Inc.</b> </br>Coggin Nissan Atlantic</br>10600 Atlantic Blvd.</br>JACKSONVILLE, FL, 32246</td>
+            <td>04-07-20</td>
+            <td>04-03-20</br><i> thru </i> </br>04-03-20</td>
+            <td>34</td>
+            <td>Retail Trade</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(1143);' /><input type = 'hidden' id = 'FPath1143' name = 'FPath1143' value = '%5c%5cdeo-wpdb005%5cReactFiles_P%5cAsbury+Automotive+Group%2c+Inc..pdf' /></td>
+        </tr>
+    </tbody>
+    </table>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+</form><script type="text/javascript">
+    function DownloadFile(fileNo) {
+
+        var FileNumber = "FPath" + fileNo;
+        var fileName = $('input[name="'+FileNumber+'"]').val();
+        var filedata = new FormData();
+        //alert(fileName);
+        filedata.append("file", fileName);
+
+        $.ajax({
+            url: '/WarnList/Download',
+            type: "POST",
+            contentType: false,
+            processData: false,
+            data: filedata,
+            success: function (successValue)
+            {
+                //alert(successValue.responseText);
+                //alert(successValue.exactFileName);
+
+                if (successValue.success) {
+                    window.location = '/WarnList/DownloadAzureFile?file=' + successValue.exactFileName;
+                }
+                else {
+                    alert(successValue.responseText);
+                }
+            }
+        });
+    }
+</script>]
