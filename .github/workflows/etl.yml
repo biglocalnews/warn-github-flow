@@ -80,8 +80,6 @@ jobs:
         with:
           commit_message: Update ${{ matrix.state }}
           branch: ${{ matrix.state }}
-          skip_checkout: true
-          push_options: '--force'
           file_pattern: ./data/warn-scraper/*
  
       - name: Upload file to biglocalnews.org
@@ -122,7 +120,7 @@ jobs:
       - name: Download files
         run: pipenv run python -c "from warn_transformer import download; download.run()"
         env:
-            BLN_API_TOKEN: ${{ secrets.BLN_API_KEY }}
+            BLN_API_TOKEN: ${{ secrets.BLN_API_TOKEN }}
             WARN_TRANSFORMER_OUTPUT_DIR: ./data/warn-transformer/
 
       - name: Consolidate files
