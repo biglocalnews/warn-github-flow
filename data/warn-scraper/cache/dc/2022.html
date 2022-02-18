@@ -1,0 +1,3367 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML+RDFa 1.1//EN">
+<html lang="en" dir="ltr" version="HTML+RDFa 1.1"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><script type="text/javascript">(window.NREUM||(NREUM={})).init={ajax:{deny_list:["bam-cell.nr-data.net"]}};(window.NREUM||(NREUM={})).loader_config={licenseKey:"348872d504",applicationID:"496267014"};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var i=e[n]={exports:{}};t[n][0].call(i.exports,function(e){var i=t[n][1][e];return r(i||e)},i,i.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var i=0;i<n.length;i++)r(n[i]);return r}({1:[function(t,e,n){function r(){}function i(t,e,n,r){return function(){return s.recordSupportability("API/"+e+"/called"),o(t+e,[u.now()].concat(c(arguments)),n?null:this,r),n?void 0:this}}var o=t("handle"),a=t(10),c=t(11),f=t("ee").get("tracer"),u=t("loader"),s=t(4),d=NREUM;"undefined"==typeof window.newrelic&&(newrelic=d);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",v=l+"ixn-";a(p,function(t,e){d[e]=i(l,e,!0,"api")}),d.addPageAction=i(l,"addPageAction",!0),d.setCurrentRouteName=i(l,"routeName",!0),e.exports=newrelic,d.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(t,e){var n={},r=this,i="function"==typeof e;return o(v+"tracer",[u.now(),t,n],r),function(){if(f.emit((i?"":"no-")+"fn-start",[u.now(),r,i],n),i)try{return e.apply(this,arguments)}catch(t){throw f.emit("fn-err",[arguments,this,t],n),t}finally{f.emit("fn-end",[u.now()],n)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,e){m[e]=i(v,e)}),newrelic.noticeError=function(t,e){"string"==typeof t&&(t=new Error(t)),s.recordSupportability("API/noticeError/called"),o("err",[t,u.now(),!1,e])}},{}],2:[function(t,e,n){function r(t){if(NREUM.init){for(var e=NREUM.init,n=t.split("."),r=0;r<n.length-1;r++)if(e=e[n[r]],"object"!=typeof e)return;return e=e[n[n.length-1]]}}e.exports={getConfiguration:r}},{}],3:[function(t,e,n){var r=!1;try{var i=Object.defineProperty({},"passive",{get:function(){r=!0}});window.addEventListener("testPassive",null,i),window.removeEventListener("testPassive",null,i)}catch(o){}e.exports=function(t){return r?{passive:!0,capture:!!t}:!!t}},{}],4:[function(t,e,n){function r(t,e){var n=[a,t,{name:t},e];return o("storeMetric",n,null,"api"),n}function i(t,e){var n=[c,t,{name:t},e];return o("storeEventMetrics",n,null,"api"),n}var o=t("handle"),a="sm",c="cm";e.exports={constants:{SUPPORTABILITY_METRIC:a,CUSTOM_METRIC:c},recordSupportability:r,recordCustom:i}},{}],5:[function(t,e,n){function r(){return c.exists&&performance.now?Math.round(performance.now()):(o=Math.max((new Date).getTime(),o))-a}function i(){return o}var o=(new Date).getTime(),a=o,c=t(12);e.exports=r,e.exports.offset=a,e.exports.getLastTimestamp=i},{}],6:[function(t,e,n){function r(t){return!(!t||!t.protocol||"file:"===t.protocol)}e.exports=r},{}],7:[function(t,e,n){function r(t,e){var n=t.getEntries();n.forEach(function(t){"first-paint"===t.name?l("timing",["fp",Math.floor(t.startTime)]):"first-contentful-paint"===t.name&&l("timing",["fcp",Math.floor(t.startTime)])})}function i(t,e){var n=t.getEntries();if(n.length>0){var r=n[n.length-1];if(u&&u<r.startTime)return;var i=[r],o=a({});o&&i.push(o),l("lcp",i)}}function o(t){t.getEntries().forEach(function(t){t.hadRecentInput||l("cls",[t])})}function a(t){var e=navigator.connection||navigator.mozConnection||navigator.webkitConnection;if(e)return e.type&&(t["net-type"]=e.type),e.effectiveType&&(t["net-etype"]=e.effectiveType),e.rtt&&(t["net-rtt"]=e.rtt),e.downlink&&(t["net-dlink"]=e.downlink),t}function c(t){if(t instanceof y&&!w){var e=Math.round(t.timeStamp),n={type:t.type};a(n),e<=v.now()?n.fid=v.now()-e:e>v.offset&&e<=Date.now()?(e-=v.offset,n.fid=v.now()-e):e=v.now(),w=!0,l("timing",["fi",e,n])}}function f(t){"hidden"===t&&(u=v.now(),l("pageHide",[u]))}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var u,s,d,p,l=t("handle"),v=t("loader"),m=t(9),g=t(3),y=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){s=new PerformanceObserver(r);try{s.observe({entryTypes:["paint"]})}catch(h){}d=new PerformanceObserver(i);try{d.observe({entryTypes:["largest-contentful-paint"]})}catch(h){}p=new PerformanceObserver(o);try{p.observe({type:"layout-shift",buffered:!0})}catch(h){}}if("addEventListener"in document){var w=!1,b=["click","keydown","mousedown","pointerdown","touchstart"];b.forEach(function(t){document.addEventListener(t,c,g(!1))})}m(f)}},{}],8:[function(t,e,n){function r(t,e){if(!i)return!1;if(t!==i)return!1;if(!e)return!0;if(!o)return!1;for(var n=o.split("."),r=e.split("."),a=0;a<r.length;a++)if(r[a]!==n[a])return!1;return!0}var i=null,o=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var c=navigator.userAgent,f=c.match(a);f&&c.indexOf("Chrome")===-1&&c.indexOf("Chromium")===-1&&(i="Safari",o=f[1])}e.exports={agent:i,version:o,match:r}},{}],9:[function(t,e,n){function r(t){function e(){t(c&&document[c]?document[c]:document[o]?"hidden":"visible")}"addEventListener"in document&&a&&document.addEventListener(a,e,i(!1))}var i=t(3);e.exports=r;var o,a,c;"undefined"!=typeof document.hidden?(o="hidden",a="visibilitychange",c="visibilityState"):"undefined"!=typeof document.msHidden?(o="msHidden",a="msvisibilitychange"):"undefined"!=typeof document.webkitHidden&&(o="webkitHidden",a="webkitvisibilitychange",c="webkitVisibilityState")},{}],10:[function(t,e,n){function r(t,e){var n=[],r="",o=0;for(r in t)i.call(t,r)&&(n[o]=e(r,t[r]),o+=1);return n}var i=Object.prototype.hasOwnProperty;e.exports=r},{}],11:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,i=n-e||0,o=Array(i<0?0:i);++r<i;)o[r]=t[e+r];return o}e.exports=r},{}],12:[function(t,e,n){e.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(t,e,n){function r(){}function i(t){function e(t){return t&&t instanceof r?t:t?u(t,f,a):a()}function n(n,r,i,o,a){if(a!==!1&&(a=!0),!l.aborted||o){t&&a&&t(n,r,i);for(var c=e(i),f=m(n),u=f.length,s=0;s<u;s++)f[s].apply(c,r);var p=d[w[n]];return p&&p.push([b,n,r,c]),c}}function o(t,e){h[t]=m(t).concat(e)}function v(t,e){var n=h[t];if(n)for(var r=0;r<n.length;r++)n[r]===e&&n.splice(r,1)}function m(t){return h[t]||[]}function g(t){return p[t]=p[t]||i(n)}function y(t,e){l.aborted||s(t,function(t,n){e=e||"feature",w[n]=e,e in d||(d[e]=[])})}var h={},w={},b={on:o,addEventListener:o,removeEventListener:v,emit:n,get:g,listeners:m,context:e,buffer:y,abort:c,aborted:!1};return b}function o(t){return u(t,f,a)}function a(){return new r}function c(){(d.api||d.feature)&&(l.aborted=!0,d=l.backlog={})}var f="nr@context",u=t("gos"),s=t(10),d={},p={},l=e.exports=i();e.exports.getOrSetContext=o,l.backlog=d},{}],gos:[function(t,e,n){function r(t,e,n){if(i.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(o){}return t[e]=r,r}var i=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){i.buffer([t],r),i.emit(t,e,n)}var i=t("ee").get("handle");e.exports=r,r.ee=i},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,o,function(){return i++})}var i=1,o="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!P++){var t=M.info=NREUM.info,e=g.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&e))return u.abort();f(O,function(e,n){t[e]||(t[e]=n)});var n=a();c("mark",["onload",n+M.offset],null,"api"),c("timing",["load",n]);var r=g.createElement("script");0===t.agent.indexOf("http://")||0===t.agent.indexOf("https://")?r.src=t.agent:r.src=v+"://"+t.agent,e.parentNode.insertBefore(r,e)}}function i(){"complete"===g.readyState&&o()}function o(){c("mark",["domContent",a()+M.offset],null,"api")}var a=t(5),c=t("handle"),f=t(10),u=t("ee"),s=t(8),d=t(6),p=t(2),l=t(3),v=p.getConfiguration("ssl")===!1?"http":"https",m=window,g=m.document,y="addEventListener",h="attachEvent",w=m.XMLHttpRequest,b=w&&w.prototype,E=!d(m.location);NREUM.o={ST:setTimeout,SI:m.setImmediate,CT:clearTimeout,XHR:w,REQ:m.Request,EV:m.Event,PR:m.Promise,MO:m.MutationObserver};var x=""+location,O={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1215.min.js"},T=w&&b&&b[y]&&!/CriOS/.test(navigator.userAgent),M=e.exports={offset:a.getLastTimestamp(),now:a,origin:x,features:{},xhrWrappable:T,userAgent:s,disabled:E};if(!E){t(1),t(7),g[y]?(g[y]("DOMContentLoaded",o,l(!1)),m[y]("load",r,l(!1))):(g[h]("onreadystatechange",i),m[h]("onload",r)),c("mark",["firstbyte",a.getLastTimestamp()],null,"api");var P=0}},{}],"wrap-function":[function(t,e,n){function r(t,e){function n(e,n,r,f,u){function nrWrapper(){var o,a,s,p;try{a=this,o=d(arguments),s="function"==typeof r?r(o,a):r||{}}catch(l){i([l,"",[o,a,f],s],t)}c(n+"start",[o,a,f],s,u);try{return p=e.apply(a,o)}catch(v){throw c(n+"err",[o,a,v],s,u),v}finally{c(n+"end",[o,a,p],s,u)}}return a(e)?e:(n||(n=""),nrWrapper[p]=e,o(e,nrWrapper,t),nrWrapper)}function r(t,e,r,i,o){r||(r="");var c,f,u,s="-"===r.charAt(0);for(u=0;u<e.length;u++)f=e[u],c=t[f],a(c)||(t[f]=n(c,s?f+r:r,i,f,o))}function c(n,r,o,a){if(!v||e){var c=v;v=!0;try{t.emit(n,r,o,e,a)}catch(f){i([f,n,r,o],t)}v=c}}return t||(t=s),n.inPlace=r,n.flag=p,n}function i(t,e){e||(e=s);try{e.emit("internal-error",t)}catch(n){}}function o(t,e,n){if(Object.defineProperty&&Object.keys)try{var r=Object.keys(t);return r.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(o){i([o],n)}for(var a in t)l.call(t,a)&&(e[a]=t[a]);return e}function a(t){return!(t&&t instanceof Function&&t.apply&&!t[p])}function c(t,e){var n=e(t);return n[p]=t,o(t,n,s),n}function f(t,e,n){var r=t[e];t[e]=c(r,n)}function u(){for(var t=arguments.length,e=new Array(t),n=0;n<t;++n)e[n]=arguments[n];return e}var s=t("ee"),d=t(11),p="nr@original",l=Object.prototype.hasOwnProperty,v=!1;e.exports=r,e.exports.wrapFunction=c,e.exports.wrapInPlace=f,e.exports.argsToArray=u},{}]},{},["loader"]);</script>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no" />
+<meta name="description" content="Rapid Response posts WARNs submitted pursuant to the WARN Act when received. Please check this page periodically for WARNs filed in the District. Thank you. Notice Date Organization Name  Number toEmployees Affected " />
+<meta name="generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="https://does.dc.gov/page/industry-closings-and-layoffs-warn-notifications-2022" />
+<link rel="shortlink" href="https://does.dc.gov/page/industry-closings-and-layoffs-warn-notifications-2022" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:url" content="https://does.dc.gov/page/industry-closings-and-layoffs-warn-notifications-2022" />
+<meta name="twitter:title" content="Industry Closings and Layoffs WARN Notifications 2022" />
+<meta name="twitter:description" content="Rapid Response posts WARNs submitted pursuant to the WARN Act when received. Please check this page periodically for WARNs filed in the District. Thank you. Notice Date Organization Name  Number toEmployees Affected " />
+  <title>Industry Closings and Layoffs WARN Notifications 2022 | does</title>  
+  <link type="text/css" rel="stylesheet" href="https://does.dc.gov/sites/default/files/css/css_xE-rWrJf-fncB6ztZfd2huxqgxu4WO-qwma6Xer30m4.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://does.dc.gov/sites/default/files/css/css_EaUchZ8QznFuB8PSAXPvhpsqUT23n_3OZXMpwWFT4R8.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://does.dc.gov/sites/default/files/css/css_aN7JUBzlL2NtORSaseLNYl3Pqalpu5hdsfJyzHv1WTM.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://does.dc.gov/sites/default/files/css/css_47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://does.dc.gov/sites/default/files/css/css_jrePdT4kXwlRWStR2Y1vcNMTlY5R5WURQT_uwRZ3c3Y.css" media="all" />
+
+<!--[if (lt IE 9)&(!IEMobile)]>
+<link type="text/css" rel="stylesheet" href="https://does.dc.gov/sites/default/files/css/css_UPfSC23uHi1WjhLap-cVV2jqocXRwVehPksRwZLqmW8.css" media="all" />
+<![endif]-->
+
+<!--[if gte IE 9]><!-->
+<link type="text/css" rel="stylesheet" href="https://does.dc.gov/sites/default/files/css/css_Jixo0A85zHwXVxZq4Ofja8LwwHeIXL4wtDgyITyx4Qs.css" media="all" />
+<!--<![endif]-->
+  <script type="text/javascript" src="https://does.dc.gov/sites/default/files/js/js_wKyFX46tVKJtPKN12qNjRfS4aubW4G2u7LK22vlDiKo.js"></script>
+<script type="text/javascript" src="https://does.dc.gov/sites/default/files/js/js_xpcUaefRF16dGRM12CceyhwGxO2jTZMKo_3milCSqpk.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var text_resize_scope = "not-front #main, #zone-content";
+    var text_resize_minimum = "12";
+    var text_resize_maximum = "25";
+    var text_resize_line_height_allow = 1;
+    var text_resize_line_height_min = "16";
+    var text_resize_line_height_max = "36";
+//--><!]]>
+</script>
+<script type="text/javascript" src="https://does.dc.gov/sites/default/files/js/js_Eo5T__k7cT67RdWobG-2b-YrtvQ0lCM-iy2ivBhk9PY.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","//www.google-analytics.com/analytics.js","ga");ga("create", "UA-2638726-1", {"cookieDomain":"auto"});ga("send", "pageview");
+//--><!]]>
+</script>
+<script type="text/javascript" src="https://does.dc.gov/sites/default/files/js/js_EZPDFNECKQAflD2399FdP8q5qlxG-PXWffqI0_tY8iw.js"></script>
+<script type="text/javascript" src="https://does.dc.gov/sites/default/files/js/js_diWL3aQY3h6RRBatVIE0RJfaXsBie-hoJ861ArHzvB0.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"dc_agency_statehood","theme_token":"zAFvl5Uw0Vr-ZkiKwN3GHqaYl0ZlikOFZJA1HwQ6B-I","js":{"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery\/1.8\/jquery.min.js":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery-html-prefilter-3.5.0-backport.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/text_resize\/jquery.cookie.js":1,"0":1,"sites\/all\/modules\/text_resize\/text_resize.js":1,"sites\/all\/modules\/extlink\/extlink.js":1,"sites\/all\/modules\/google_analytics\/googleanalytics.js":1,"1":1,"sites\/all\/themes\/dc_agency_statehood\/js\/dcAgency.js":1,"sites\/all\/themes\/omega\/omega\/js\/omega-mediaqueries.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/book\/book.css":1,"modules\/comment\/comment.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"sites\/all\/modules\/date\/date_repeat_field\/date_repeat_field.css":1,"sites\/all\/modules\/domain\/domain_nav\/domain_nav.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/calendar\/css\/calendar_multiday.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ckeditor\/css\/ckeditor.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/contrib\/flickrgallery\/flickrgallery.css":1,"sites\/all\/modules\/panels\/css\/panels.css":1,"sites\/all\/modules\/rate\/rate.css":1,"sites\/all\/modules\/text_resize\/text_resize.css":1,"sites\/all\/modules\/extlink\/extlink.css":1,"sites\/all\/themes\/dc_agency_statehood\/css\/normalize.css":1,"sites\/all\/themes\/omega\/alpha\/css\/alpha-reset.css":1,"sites\/all\/themes\/omega\/alpha\/css\/alpha-mobile.css":1,"sites\/all\/themes\/omega\/omega\/css\/omega-text.css":1,"sites\/all\/themes\/omega\/omega\/css\/omega-branding.css":1,"sites\/all\/themes\/omega\/omega\/css\/omega-forms.css":1,"sites\/all\/themes\/dc_agency_statehood\/css\/global.css":1,"ie::normal::sites\/all\/themes\/dc_agency_statehood\/css\/dc-agency-statehood-alpha-default.css":1,"ie::normal::sites\/all\/themes\/dc_agency_statehood\/css\/dc-agency-statehood-alpha-default-normal.css":1,"ie::normal::sites\/all\/themes\/omega\/alpha\/css\/grid\/alpha_default\/normal\/alpha-default-normal-12.css":1,"ie::normal::sites\/all\/themes\/omega\/alpha\/css\/grid\/alpha_default\/normal\/alpha-default-normal-24.css":1,"narrow::sites\/all\/themes\/dc_agency_statehood\/css\/dc-agency-statehood-alpha-default.css":1,"narrow::sites\/all\/themes\/dc_agency_statehood\/css\/dc-agency-statehood-alpha-default-narrow.css":1,"sites\/all\/themes\/omega\/alpha\/css\/grid\/alpha_default\/narrow\/alpha-default-narrow-12.css":1,"sites\/all\/themes\/omega\/alpha\/css\/grid\/alpha_default\/narrow\/alpha-default-narrow-24.css":1,"normal::sites\/all\/themes\/dc_agency_statehood\/css\/dc-agency-statehood-alpha-default.css":1,"normal::sites\/all\/themes\/dc_agency_statehood\/css\/dc-agency-statehood-alpha-default-normal.css":1,"sites\/all\/themes\/omega\/alpha\/css\/grid\/alpha_default\/normal\/alpha-default-normal-12.css":1,"sites\/all\/themes\/omega\/alpha\/css\/grid\/alpha_default\/normal\/alpha-default-normal-24.css":1,"wide::sites\/all\/themes\/dc_agency_statehood\/css\/dc-agency-statehood-alpha-default.css":1,"wide::sites\/all\/themes\/dc_agency_statehood\/css\/dc-agency-statehood-alpha-default-wide.css":1,"sites\/all\/themes\/omega\/alpha\/css\/grid\/alpha_default\/wide\/alpha-default-wide-12.css":1,"sites\/all\/themes\/omega\/alpha\/css\/grid\/alpha_default\/wide\/alpha-default-wide-24.css":1}},"extlink":{"extTarget":"_blank","extClass":"ext","extSubdomains":1,"extExclude":"http[s]*:\/\/[a-zA-Z0-9\\-\\.]*dc.gov[\\\/a-zA-Z0-9\\-\\.\\?\\=]*","extInclude":"","extAlert":0,"extAlertText":"The District government has provided links as a courtesy and is not responsible for information on websites outside the DC portal. Inquiries should be made to the sponsoring organizations.","mailtoClass":"mailto"},"better_exposed_filters":{"views":{"agency_information":{"displays":{"block":{"filters":[]},"agency_director":{"filters":[]}}},"alerts":{"displays":{"emergency_alerts_block":{"filters":[]}}},"custom_headers_and_footers":{"displays":{"custom_agency_header":{"filters":[]},"custom_agency_footer1":{"filters":[]}}}}},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip"},"omega":{"layouts":{"primary":"normal","order":["narrow","normal","wide"],"queries":{"narrow":"all and (min-width: 740px) and (min-device-width: 740px), (max-device-width: 800px) and (min-width: 740px) and (orientation:landscape)","normal":"all and (min-width: 980px) and (min-device-width: 980px), all and (max-device-width: 1024px) and (min-width: 1024px) and (orientation:landscape)","wide":"all and (min-width: 1220px)"}}}});
+//--><!]]>
+</script>
+  <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+</head>
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-1577571 node-type-page domain-does-dc-gov i18n-en context-page">
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+  <div class="region region-page-top" id="region-page-top">
+  <div class="region-inner region-page-top-inner">
+      </div>
+</div>  <div class="page clearfix" id="page">
+      <header id="section-header" class="section section-header">
+  <div id="zone-branding-wrapper" class="zone-wrapper zone-branding-wrapper clearfix">  
+  <div id="zone-branding" class="zone zone-branding clearfix container-12">
+    <div class="grid-12 region region-branding" id="region-branding">
+  <div class="region-inner region-branding-inner">
+        <div class="branding-data clearfix">
+                        <hgroup class="site-name-slogan">        
+                                <h2 class="site-name"><a href="/" title="Home">does</a></h2>
+                                        <h6 class="site-slogan">Config</h6>
+              </hgroup>
+          </div>
+          </div>
+</div>  </div>
+</div><div id="zone-menu-wrapper" class="zone-wrapper zone-menu-wrapper clearfix">  
+  <div id="zone-menu" class="zone zone-menu clearfix container-12">
+    <div class="grid-12 region region-menu" id="region-menu">
+  <div class="region-inner region-menu-inner">
+          </div>
+</div>
+  </div>
+</div><div id="zone-header-wrapper" class="zone-wrapper zone-header-wrapper clearfix">  
+  <div id="zone-header" class="zone zone-header clearfix container-24">
+    <div class="grid-24 region region-header-first" id="region-header-first">
+  <div class="region-inner region-header-first-inner">
+    <div class="block block-views block-995d45b00eb29375765ad0295f641a94 block-views-995d45b00eb29375765ad0295f641a94 odd block-without-title" id="block-views-995d45b00eb29375765ad0295f641a94">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <div class="view view-custom-headers-and-footers view-id-custom_headers_and_footers view-display-id-custom_agency_header view-dom-id-43bc24cd1b93f964a33d9aa5c5f18b59">
+        
+  
+  
+      <div class="view-content">
+        <div>
+      
+          <link href="https://fonts.googleapis.com/css?family=Roboto:300i,400,500,700&amp;display=swap" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&amp;display=swap" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+<link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet" />
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" rel="stylesheet" /><script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/js/fontawesome.js"></script><!--script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/js/all.js" integrity="sha256-2JRzNxMJiS0aHOJjG+liqsEOuBb6++9cY4dSOyiijX4=" crossorigin="anonymous"></script-->
+<style type="text/css">* {
+                box-sizing: border-box;
+              }
+              nav {
+                background-color: #fff;
+                box-shadow: none;
+              }
+              .front h1#page-title.title {
+                display: none;
+              }
+              .zone-content-wrapper {
+                margin-top: 0;
+              }
+              .front .grid-12 {
+                text-align: left;
+              }
+              .zone-postscript-wrapper,
+              .front .zone-content-wrapper nav.node-links {
+                display: none;
+              }
+              #region-content {
+                width: 100%;
+                margin: 0 auto;
+              }
+              .container-24 .grid-24,
+              .container-24 .grid-8,
+              .container-24 {
+                width: 100%;
+                margin: 0;
+              }
+              #zone-footer-wrapper .container-12 .grid-12,
+              #zone-footer-wrapper .container-12 .grid-12,
+              #zone-footer.container-12 {
+                width: 100%;
+                margin: 0;
+              }
+        
+              body {
+                color: #4a4a4a;
+                font-family: "Roboto", sans-serif;
+                font-size: 16px;
+              }
+              a,
+              .blue-text {
+                color: #1f4f6c !important;
+              }
+              h1,
+              h2,
+              h3,
+              h4,
+              h5,
+              h6 {
+                font-family: "Roboto", sans-serif;
+                color: #1f4f6c !important;
+                letter-spacing: normal;
+              }
+              h1,
+              h2 {
+                font-family: "Roboto", sans-serif;
+                font-size: 1.7rem;
+                font-weight: 500;
+              }
+              h2.title {
+                margin: 50px 0 50px 0;
+              }
+              h3,
+              h4,
+              h5,
+              h6, .field-name-field-attachment .field-label{
+                font-size: 25px;
+font-weight:500;
+              }
+        
+              .center-section {
+                margin-top: 0;
+              }
+              .card .card-content p {
+                margin: 16px 0;
+              }
+              .blue {
+                background-color: #1f4f6c !important;
+              }
+        
+              .yellow {
+                background-color: #885500 !important;
+              }
+              .callout-list-section ol {
+                counter-reset: list-counter;
+                list-style: none;
+              }
+              .callout-list-section li {
+                /* margin: 0 0 1em 0;
+                      position: relative;
+                      padding-left: 5em;
+                      font-size: 1.2rem; */
+                margin: 0 0 0 20px;
+              }
+              .callout-list-section ul.collapsible > li {
+                margin: 0;
+              }
+              .callout-list-section ol li:before {
+                content: counter(list-counter);
+                counter-increment: list-counter;
+                width: 1.5em;
+                height: 1.5em;
+                /* padding: 0.3em; */
+                margin-right: 1em;
+                border-radius: 50%;
+                /* border: 0.25em solid #ccc; */
+                background: #1f4f6c;
+                color: #fff;
+                font-family: arial;
+                font-weight: bold;
+                text-align: center;
+                /* display: inline-block; */
+                font-size: 1.5rem;
+                /*position: absolute;*/
+                top: 50%;
+                transform: translate(-50%, -50%);
+                margin-left: -2em;
+                padding: 3px 10px;
+              }
+              .callout-title-section span:nth-of-type(1) {
+                flex: 2 !important;
+              }
+              .two-box-section {
+                display: block;
+              }
+        
+              .two-box-section .col {
+                flex: 1;
+                padding: 0;
+              }
+              /* .two-box-section .col .card {
+                                      height: 100%;
+                                    } */
+              
+              .lower-container {
+                /* background-image: url("./images/backgroundbottom.png"); */
+                background-size: cover;
+                background-repeat: no-repeat;
+                padding-bottom: 50px;
+              }
+              .logo {
+                /* padding: 50px 0 0 0; */
+                font-size: 2rem;
+                color: #fff;
+                text-transform: uppercase;
+        text-align:center;
+              }
+              .logo img {
+                width: 30%;
+              }
+              .main-callout-image img {
+                width: 100%;
+              }
+              .main-callout .main-callout-text {
+                flex: 3;
+                padding: 0 50px 0 0;
+              }
+              .main-callout-text .button a {
+                font-size: 15px;
+              }
+              .main-callout .main-callout-image {
+                flex: 2;
+              }
+              .center-section img {
+                width: 50px;
+              }
+              /* .top-section .button {
+                                      margin: 20px 0;
+                                    } */
+              .button a {
+                font-size: 1rem;
+              }
+              .btn {
+                text-transform: none;
+              }
+              .card .card-title {
+                font-weight: 700;
+                font-size: 25px;
+                color: #000;
+              }
+              .card-panel {
+                padding: 15px;
+                border-radius: 5px;
+              }
+              .btn-small {
+                border: 1px solid #1f4f6c;
+                box-shadow: none;
+                width: 100%;
+                padding: 20px;
+                line-height: normal;
+                height: auto;
+                font-size: 1rem;
+              }
+              .btn-small,
+              .btn-small:hover {
+                border: 0;
+              }
+              .resource-blocks {
+                display: grid;
+                grid: auto-flow / 1fr;
+                grid-gap: 30px;
+                z-index: 10;
+                position: RELATIVE;
+              }
+              .resource-blocks .card-panel {
+                justify-content: space-between;
+              }
+              .resource-blocks .white-text,
+              .faq {
+                font-size: 18px;
+                font-weight: 500;
+              }
+              .resource-blocks img {
+                height: 43px;
+                margin: 0 auto;
+              }
+              .resource-blocks .btn {
+                padding: 0 5px;
+              }
+              .bottom-message {
+                font-style: italic;
+                color: #4a4a4a;
+              }
+              .z-depth-3 {
+                box-shadow: 0 24px 38px 3px rgb(237, 235, 251),
+                  0 9px 46px 8px rgb(237, 235, 251), 0 11px 15px -7px rgb(237, 235, 251);
+              }
+              .z-depth-2 {
+                box-shadow: 0 4px 5px 0 rgb(237, 235, 251),
+                  0 1px 10px 0 rgb(237, 235, 251), 0 2px 4px -1px rgb(237, 235, 251);
+              }
+        
+              .collapsible-body {
+                background-color: #fff;
+              }
+              .faq {
+                /* position: absolute; */
+                z-index: 5;
+              }
+              .iconExpand {
+                display: inline-block;
+                width: 35px;
+                vertical-align: middle;
+              }
+        
+              .iconCollapse {
+                display: none !important;
+                width: 35px;
+                vertical-align: middle;
+                margin-right: 5px;
+              }
+        
+              li.active .collapsible-header .iconExpand {
+                display: none;
+              }
+        
+              li.active .collapsible-header .iconCollapse {
+                display: inline-block !important;
+              }
+              .resource-blocks .card-panel {
+                padding: 25px 5px;
+                text-align: center;
+                margin: 0;
+              }
+              header .top-header {
+                font-size: 0.7rem;
+              }
+              header .top-header {
+                padding: 10px 10px;
+              }
+              header img {
+               /* height: 20px;*/
+              }
+              header .row2 .menu-links {
+                display: grid;
+                justify-content: space-between;
+                align-items: center;
+                grid: auto-flow / 1fr 1fr 1fr;
+              }
+        
+              .sub-head {
+                font-size: 0.9rem;
+                background-color: #013c61;
+                padding: 25px 0;
+                text-transform: capitalize;
+                color: #fff;
+                padding: 15px 5%;
+                min-height: 45px;
+              }
+              .sub-head a {
+                color: #fff !important;
+                text-decoration: none;
+              }
+              .top-header .links a {
+                text-transform: capitalize;
+                text-decoration: none !important;
+                font-size: 0.9rem !important;
+                font-weight: 500;
+              }
+              .section-content .buttons {
+                display: flex;
+                justify-content: space-around;
+                flex-wrap: wrap;
+              }
+              .column-container {
+                display: flex;
+                flex-wrap: wrap;
+              }
+              .column-container > div {
+                /* flex: 1; */
+                margin: 10px;
+              }
+        
+              .content-grid {
+                display: grid;
+                margin: 20px 0;
+                column-gap: 10px;
+                grid-template-columns: 1fr;
+                grid-template-areas:
+                  " top-column-1 "
+                  " mid-column-1 "
+                  " mid2-column-1 "
+                  " bottom-column-1 "
+                  " top-column-2 "
+                  " mid-column-2 "
+                  " mid2-column-2 "
+                  " bottom-column-2 "
+                  " top-column-3 "
+                  " mid-column-3 "
+                  " mid2-column-3 "
+                  " bottom-column-3 ";
+              }
+              .content-grid > div:nth-child(1) {
+                grid-area: top-column-1;
+              }
+              .content-grid > div:nth-child(2) {
+                grid-area: top-column-2;
+              }
+              .content-grid > div:nth-child(3) {
+                grid-area: top-column-3;
+              }
+              .content-grid > div:nth-child(4) {
+                grid-area: mid-column-1;
+                border-bottom: 1px solid #ccc;
+              }
+              .content-grid > div:nth-child(5) {
+                grid-area: mid-column-2;
+                border-bottom: 1px solid #ccc;
+              }
+              .content-grid > div:nth-child(6) {
+                grid-area: mid-column-3;
+                border-bottom: 1px solid #ccc;
+              }
+              .content-grid > div:nth-child(7) {
+                grid-area: mid2-column-1;
+              }
+              .content-grid > div:nth-child(8) {
+                grid-area: mid2-column-2;
+              }
+              .content-grid > div:nth-child(9) {
+                grid-area: mid2-column-3;
+              }
+              .content-grid > div:nth-child(10) {
+                grid-area: bottom-column-1;
+                margin-bottom: 10px;
+              }
+              .content-grid > div:nth-child(11) {
+                grid-area: bottom-column-2;
+                margin-bottom: 10px;
+              }
+              .content-grid > div:nth-child(12) {
+                grid-area: bottom-column-3;
+                margin-bottom: 10px;
+              }
+              .top-border {
+                padding: 25px 5px;
+                border: 1px solid #ccc;
+                border-bottom: 0;
+                border-top-left-radius: 20px;
+                border-top-right-radius: 20px;
+                background-color: #fff;
+                padding: 15px !important;
+                text-align: center;
+              }
+              .middle-border {
+                border-left: 1px solid #ccc;
+                border-right: 1px solid #ccc;
+                padding: 15px !important;
+                background-color: #fff;
+              }
+              .bottom-border {
+                padding: 25px 5px;
+                border: 1px solid #ccc;
+                border-top: 0;
+                border-bottom-left-radius: 20px;
+                border-bottom-right-radius: 20px;
+                background-color: #fff;
+                padding: 15px !important;
+              }
+              a.pdf {
+                color: #033248 !important;
+              }
+              .button-dark-blue {
+                background-color: #033248 !important;
+              }
+              .button-light-blue {
+                background-color: #0097be !important;
+              }
+              a.link {
+                color: #0097be !important;
+              }
+              .button-red {
+                background-color: #c00626 !important;
+              }
+        
+              a.support {
+                color: #c00626 !important;
+              }
+              #slide-out {
+                font-size: 0.9rem;
+                background-color: #112c3b;
+                padding: 25px 0;
+                text-transform: uppercase;
+                color: #fff;
+              }
+              #slide-out a {
+                color: #fff !important;
+              }
+              #slide-out,
+              #slide-out li {
+                list-style-type: none;
+              }
+              .section-content .title {
+                margin-top: 30px;
+              }
+              .video-galley-container {
+                display: grid;
+                justify-content: space-between;
+                grid-template-columns: 1fr;
+                grid-gap: 10px;
+                padding: 10px;
+                margin: 0;
+              }
+              .image img {
+                width: 100%;
+              }
+              .two-box-section .material-icons {
+                font-size: 4rem;
+                color: #f32837;
+                font-weight: 700;
+                transform: rotate(90deg);
+              }
+              .two-box-section .col {
+                text-align: center;
+              }
+        .row .col.s12.block{height:100%;}
+        
+        /* Override statehood base theme */
+        .zone-postscript-wrapper,.front .zone-content-wrapper div.item-list{
+            display:block;
+        }
+        .front #block-system-main, span.ext{display:none;}
+
+              /* Narrow */
+              @media all and (min-device-width: 740px) and (min-width: 740px) and (orientation: landscape) {
+                .not-front h1,
+                .not-front h2 {
+                  font-size: 1.5rem;
+                }
+        
+                .resource-blocks {
+                  grid: auto-flow / 1fr 1fr;
+                }
+        
+                header .row2 .menu-links {
+                  display: flex;
+                  text-align: center;
+                }
+                .sub-head {
+                  font-size: 1.1rem;
+                  padding: 25px 100px;
+                }
+                .top-header .links a {
+                  text-transform: uppercase;
+                  text-decoration: none !important;
+                }
+                .section-content .buttons {
+                  display: flex;
+                  justify-content: space-around;
+                  flex-wrap: nowrap;
+                }
+                .top-section {
+                  margin-top: 82px;
+                }
+                .top-section .container {
+                  margin: 0;
+                  position: absolute;
+                  top: 50%;
+                  left: 50%;
+                  transform: translate(-50%, -50%);
+        width:70%;
+                }
+                header .top-header {
+                  padding: 10px 100px;
+                }
+                .sub-head a {
+                  padding: 5px;
+                }
+                .column-container {
+                  flex-wrap: nowrap;
+                }
+                .column-container > div {
+                  flex: 1;
+                }
+                .content-grid {
+                  grid-template-columns: 1fr 1fr 1fr;
+                  grid-template-areas:
+                    " top-column-1 top-column-2 top-column-3"
+                    " mid-column-1 mid-column-2 mid-column-3 "
+                    " mid2-column-1 mid2-column-2 mid2-column-3 "
+                    " bottom-column-1 bottom-column-2 bottom-column-3 ";
+                }
+                .section-content .title {
+                  /* margin-top: 100px; */
+                }
+                .video-galley-container {
+                  grid-template-columns: 1fr 1fr;
+                }
+                .video {
+                  text-align: center;
+                  overflow: hidden;
+                  /* padding-top: 56.25%; */
+                  position: relative;
+                }
+                .video iframe {
+                  height: 100%;
+                  left: 0;
+                  position: absolute;
+                  top: 0;
+                  width: 100%;
+                }
+                .video-caption {
+                  text-align: center;
+                }
+                .two-box-section .material-icons {
+                  transform: rotate(0deg);
+                  text-align: center;
+                }
+                .two-box-section {
+                  display: grid;
+                  grid-template-columns: 1fr 50px 1fr 50px 1fr;
+                  align-items: center;
+                }
+              }
+              /* Normal */
+              @media all and (min-width: 980px) and (min-device-width: 980px),
+                all and (max-device-width: 1024px) and (min-width: 1024px) and (orientation: landscape) {
+.container-24 .grid-6{
+width: 230px !important;
+}
+.form-item-sort-by {
+    right: -110px;
+    z-index: 1;
+}                
+.container {
+                  width: 65%;
+                }
+                /* .two-box-section {
+                        display: flex;
+                        flex-wrap: wrap;
+                      } */
+                .middle-section {
+                  margin-top: 50px;
+                }
+                .resource-blocks .white-text {
+                  font-size: 18px;
+                }
+        
+                .resource-blocks .white-text {
+                  font-size: 18px;
+                }
+                .resource-blocks {
+                  grid: auto-flow / 1fr 1fr 1fr;
+                }
+                header .top-header {
+                  font-size: 1rem;
+                }
+                header .top-header {
+                  padding: 5px 100px;
+                }
+        
+                .section-content ol {
+                  margin: 50px;
+                }
+              }
+              @media only screen and (min-width: 1220px) {
+                .container {
+                  width: 60%;
+                }
+                .resource-blocks .white-text {
+                  font-size: 22px;
+                }
+              }
+        
+              a:link,
+              a:visited {
+                text-decoration: none;
+              }
+              .front #zone-content .node {
+                display: block;
+              }
+              .front .region-inner h1#page-title.title {
+                display: none;
+              }
+              .front .zone-content-wrapper {
+                margin-top: 0;
+              }
+              #section-header,
+              #section-content {
+                padding: 0;
+              }
+#section-content, .zone-postscript-wrapper{
+    background-color: rgb(229, 231, 235);
+}
+.not-front #section-content, .not-front .zone-postscript-wrapper{
+background-color:#fff;
+}
+              header .row1 {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+              }
+        
+              .two-box-section img {
+                width: 40%;
+              }
+              .card,
+              .card-panel {
+                border-radius: 20px;
+                height: 100%;
+              }
+              .btn,
+              .btn-large,
+              .btn-small,
+              .btn-flat {
+                border-radius: 5px;
+font-size:20px;
+              }
+              .btn-floating.btn-large {
+                border-radius: 50%;
+                margin: 5px;
+    background-color: #f32837;
+              }
+              .sm-icon {
+                text-align: right;
+              }
+              .video {
+                text-align: center;
+              }
+              .resource-section i {
+                font-size: 45px;
+              }
+              section {
+                /* height:100vh; */
+                padding: 50px 0;
+              }
+              /* section:nth-child(odd) {
+                background-color: rgba(239, 239, 249, 0.54);
+              } */
+              .section-footer-text {
+                text-align: center;
+                margin: 10px;
+                font-size: 1.4rem;
+                font-style: italic;
+                background-color: #c00626 !important;
+                padding: 50px;
+                margin-top: 30px;
+                color: #fff;
+              }
+              .section-footer-text a {
+                color: #fff !important;
+              }
+              .section-content .title {
+               /* position: -webkit-sticky;
+                position: sticky;*/
+                top: 0;
+                padding: 5px;
+                z-index: 1;
+              }
+              h2.title/*,
+                    #get-ready*/ {
+                padding-top: 75px;
+              }
+        
+              .buttons .button,
+              .buttons .button a {
+                width: 100%;
+                margin: 10px;
+              }
+              header {
+                position: fixed;
+                top: 0;
+                z-index: 25;
+                width: 100%;
+              }
+              header .top-header {
+                text-transform: uppercase;
+                background-color: #fff;
+              }
+              header .octologo {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+              }
+              header.container {
+                width: 100%;
+              }
+        
+              header .top-header a {
+                text-decoration: underline;
+              }
+        
+              section {
+                position: relative;
+              }
+        
+              .card-panel:hover,
+              .button a:hover {
+                background-color: rgba(24, 103, 220, 0.1) !important;
+                /* border: 1px solid #1f4f6c; */
+              }
+              .button a:hover {
+                color: #1f4f6c !important;
+              }
+              .resource-blocks .card-panel:hover {
+                animation: iconHover 0.25s forwards 0s ease;
+              }
+              .resource-blocks .card-panel {
+                animation: iconHoverOut 0.25s forwards 0s ease;
+              }
+        
+              .logo {
+                animation: mainLogoAnimation 0.5s forwards 0s linear;
+              }
+        
+              .block-a a {
+                animation: yourAnimation 0.5s forwards 0s linear;
+              }
+              .block-b a {
+                animation: yourAnimation2 0.5s forwards 0s linear;
+              }
+              .video {
+                position: relative;
+                width: 100%;
+                height: 0;
+                padding-bottom: 56.25%;
+                margin: 50px 0;
+              }
+              .video iframe {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+              }
+              .top-section ul:not(.browser-default) {
+                list-style-type: none;
+                padding-left: 0;
+              }
+              ul:not(.browser-default) > li {
+                list-style-type: disc;
+              }
+        nav ul:not(.browser-default) > li{
+list-style-type:none;
+list-style-image: none;
+}
+              .bg-title {
+                background-color: #102d3b;
+                color: #fff;
+                padding: 5px;
+              }
+              .bg-shaded-section {
+                background-color: rgba(213, 218, 218, 0.42);
+              }
+              .column-container {
+                display: flex;
+              }
+              .column-container > div {
+                flex: 1;
+                margin: 10px;
+              }
+              ul:not(.browser-default) {
+                padding-left: 20px;
+              }
+              ul.collapsible,
+              ul.collapsible > li {
+                list-style-type: none;
+              }
+              ul.collapsible {
+                padding-left: 0;
+              }
+              .collapsible-header:focus,
+              li.active .collapsible-header {
+                background-color: #eee;
+              }
+              /* .branding-container {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+              } */
+              .branding {
+                font-size: 6rem;
+                color: red;
+                font-family: initial;
+                display: flex;
+                margin: 0 20px 0 0;
+              }
+              .dot {
+                font-weight: 700;
+              }
+              .card img {
+                width: 100%;
+                border-top-right-radius: 20px;
+                border-top-left-radius: 20px;
+              }
+              .card-content .button a.btn-flat {
+                border: 2px solid #000 !important;
+              }
+        
+         /****************************************************
+         *     BASE THEME OVERRIDES 
+        *****************************************************/
+         /*-------NARROW-------*/
+         /* @media all and (min-device-width: 740px) and (min-width: 740px) and (orientation: landscape) {
+            } */
+        
+            /*-------NORMAL-------*/
+            /* @media all and (min-width: 980px) and (min-device-width: 980px),
+                all and (max-device-width: 1024px) and (min-width: 1024px) and (orientation: landscape) {
+            } */
+            /*-------WIDE-------*/
+            /* @media only screen and (min-width: 1220px) {
+               
+            } */
+        
+              /*---------------------
+              LAYOUT OVERRIDES
+              ---------------------*/
+        
+              .view-display-id-homepage_d, .view-display-id-upcoming_events,  .quicktabs-wrapper, .front #zone-postscript-wrapper, .view-display-id-block_1{
+                 /* margin: 0 10%;*/
+                  /* border:10px solid green; */
+                  padding: 50px 10%;
+              }
+              .view-display-id-homepage_d{
+                  padding:0;
+min-height:150px;
+              }
+.view-display-id-homepage_d tr{
+                  border:0;
+              }
+              /* .container-24 .grid-24, .container-24 .grid-8, .container-24{
+                  width: auto;
+              } */
+              .zone-postscript-wrapper{
+                  padding:0;
+                  
+              }
+              .zone-postscript-wrapper tr {
+            border-bottom: 0;
+            }
+                /* .front #zone-postscript, .view-id-agency_home_responsive .view-content .views-row{
+                    display: flex;
+                }
+                .view-id-agency_home_responsive .view-content {} */
+        
+            .view-display-id-mobile_responsive_homepage_banner_full_rotator{
+                    display: none;
+            }
+            .block-views-features-blocks-homepage-a, .block-views-features-blocks-homepage-b{
+                border-right: 0;
+            }
+.block-views-features-blocks-upcoming-events{display:none;}
+.block-agency-home-responsive-block-1 .block-title {display:none;}
+.block-agency-home-responsive-block-1 a{color:#fff!important;font-size:20px;}
+.view-display-id-emergency_alerts_block, .view-display-id-emergency_alerts_block a{
+color:#fff!important;
+}
+#block-views-alerts-emergency-alerts-block{
+padding: 5px;
+  text-align: center;
+  font-size: 13px;
+background:rgb(16, 73, 137);
+}
+#google_translate_element{
+display: flex;
+justify-content: flex-end;
+margin: 0 20px;
+}
+.goog-te-gadget, a.goog-logo-link{
+    color:#fff!important;
+}
+.goog-te-combo{
+    color:#4a4a4a!important;
+}
+.goog-te-gadget{
+    display: flex;
+justify-content: space-between;
+align-items: center;
+flex-wrap:wrap;
+width: 150px;
+}
+.goog-logo-link{
+display: flex;
+align-items: flex-end;
+align-content: center;
+justify-content: space-between;
+}
+div#\:0\.targetLanguage{
+padding-right:10px;
+}
+.top-0 {
+  top: 40px;
+}
+.mt-4 {
+  margin-top: 0rem;
+}
+
+            /*-------NARROW-------*/
+@media all and (min-device-width: 740px) and (min-width: 740px) and (orientation: landscape) {
+
+.front #zone-postscript, 
+.block-agency-home-responsive-block-1 .view-content,
+.view-display-id-upcoming_events .view-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.block-agency-home-responsive-block-1 .view-content>div{
+ flex-grow: 1;
+  width: 33%;
+}
+.block-agency-home-responsive-block-1 .view-content>div>div>div{
+ display:flex;
+}
+
+            }
+        
+            /*-------NORMAL-------*/
+            @media all and (min-width: 980px) and (min-device-width: 980px),
+                all and (max-device-width: 1024px) and (min-width: 1024px) and (orientation: landscape) {
+            }
+            /*-------WIDE-------*/
+            @media only screen and (min-width: 1220px) {
+               
+            }
+        
+              /*------------------------------------------
+              *        COMMON STYLES 
+              ------------------------------------------*/
+            /*----------- FONTS-------- */
+#toolbar a{color:#fff!important;}
+              .block-views-features-blocks-homepage-a, .block-views-features-blocks-homepage-b, .block-views-features-blocks-homepage-c{
+                  color:#313131;
+              }
+              a, h2, h3, #desktop-main-menu > li ul.menu-sub a{
+                color:#313131!important;
+              }
+#desktop-main-menu > li ul.menu-sub a:hover, #desktop-main-menu > li ul.menu-sub li:hover a{color:#fff!important;}
+.not-front #zone-content a{
+color:#0062A0!important;
+}
+.not-front #zone-content a.text-white{
+color:#fff!important;}
+nav ul a:hover{
+background-color: transparent;
+}
+p, ul, h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 20px;
+}
+i {
+    color: inherit;
+    font-family: inherit;
+    font-size: inherit;
+}
+              /*----------- BUTTONS-------- */
+              .quicktabs-style-sky .view-footer, .view-id-agency_home_responsive .view-footer, .view-display-id-upcoming_events .view-footer a{
+                text-align: center;
+                margin: 20px auto;
+                width: max-content;
+                padding: 10px 20px;
+                border-radius: 10px;
+                background:transparent;    
+               }
+               .quicktabs-style-sky .view-footer{
+                border:2px solid #fff;
+               }
+               .view-id-agency_home_responsive .view-footer, .view-display-id-upcoming_events .view-footer a{
+                border:0;
+background-color:rgb(55, 132, 179);
+               }
+               .view-id-agency_home_responsive .view-footer h3{
+                   margin:0;
+    padding-left: 3rem;
+    padding-right: 3rem;
+font-size: 14px;
+               }
+               .view-footer{
+                   margin:20px auto;
+               }
+.nav i.material-icons{font-size:30px;}
+               /*----------- HEADINGS-------- */
+.block-views-features-blocks-homepage-a h2.views-field-title, .block-views-features-blocks-homepage-b h2.views-field-title, .block-views-features-blocks-homepage-c h2.views-field-title, .block-views-features-blocks-homepage-a h2.views-field-title-field, .block-views-features-blocks-homepage-b h2.views-field-title-field, .block-views-features-blocks-homepage-c h2.views-field-title-field{
+font-weight:700;
+display:none;
+}
+               .block-views-features-blocks-upcoming-events h2.block-title, h2.block-title, .block-agency-featured-news-home .block-title, h1#page-title.title{
+                display: block;
+                margin:0 auto;
+                width: fit-content;
+                font-size: 2rem;
+                color:#313131!important;
+               }
+        .block-menu-block h2.block-title{
+        font-size: 2rem;
+        }
+.front h2.block-title{
+font-size: 30px;
+}
+
+        h1#page-title.title{
+        font-family: "Roboto", sans-serif;
+        margin:0;
+        margin-top:115px;
+
+        }
+               h2.block-title{
+                /* margin-top:-10px; */
+                background-color: #fff;
+                padding:0 10px;
+                text-align: center;
+               }
+               .zone-postscript-wrapper h2.block-title{
+                padding:25px 0 50px 0;
+               }
+               .block-agency-featured-news-home .block-title{
+                   background-color:#173C66;
+                   color:#fff!important;
+                   z-index:2;
+               }
+        
+            .block-views-features-blocks-upcoming-events .front h2.block-title:after, .front h2.block-title:after, .block-agency-featured-news-home .block-title:after {
+                border-bottom: 2px solid #313131;
+                -webkit-box-shadow: 0 1px 0 0 #313131;
+                -moz-box-shadow: 0 1px 0 0 #313131;
+                box-shadow: 0 1px 0 0 #313131;
+                content: "";
+                margin: 0 auto; /* this centers the line to the full width specified */
+                position: absolute;
+                top: 75px; left: 0; right: 0;
+                width: 45%;
+                z-index: -1;
+            }
+            /* .block-agency-featured-news-home .block-title:after {
+                border-bottom: 2px solid #fff;
+                -webkit-box-shadow: 0 1px 0 0 #fff;
+                -moz-box-shadow: 0 1px 0 0 #fff;
+                box-shadow: 0 1px 0 0 #fff;
+                z-index: 1;
+            } */
+               
+               .block-agency-featured-news-home .block-title {
+                color: #fff!important;
+display:none;
+                }
+/*-------NORMAL-------*/
+            @media all and (min-width: 980px) and (min-device-width: 980px),
+                all and (max-device-width: 1024px) and (min-width: 1024px) and (orientation: landscape) {
+
+h1#page-title.title{
+        font-size: 3rem;
+       /* margin-top: 140px;*/
+               }
+}
+                /*----------- IMAGES-------- */
+        
+        .fullpage-banner-image img{
+        width:100%;
+        height:100%;
+        }
+        .fullpage-banner-image{
+        max-height: 450px;
+        overflow: hidden;
+        margin-top: 40px;
+        
+        }
+.fullpage-banner-image{
+   /* padding: 50px 10%;*/
+    background-color: #E4E4E4;
+    display: flex;
+flex-wrap:wrap;
+}
+#banner-title-text{
+flex: 3;
+background: #fff;
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+padding: 20px;
+}
+
+#banner-image{
+flex: 1 350px;
+    min-height: 300px;
+}
+.node-type-biography #banner-title-text{
+    flex: 4;
+}
+.node-type-biography #banner-image{
+flex: 1 50px;
+    min-height: auto;
+}
+
+.file-icon{
+/*height: 50px;*/
+margin: 10px;
+}
+.file{
+display: flex;
+align-items: center;
+}
+
+                /*----------- CARDS-------- */
+.callout-title-section.valign-wrapper {
+    margin-bottom: 20px;
+}
+                .view-display-id-upcoming_events .views-row{
+                box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
+                border-radius: 20px;
+                padding: 10px;
+                margin: 10px;
+                }
+        .region-agency-home-3col-a, .region-agency-home-3col-b, .region-agency-home-3col-c{
+        /*box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);*/
+        border-radius: 20px;
+        margin:20px 0!important;
+        }
+        
+                .view-display-id-upcoming_events .views-row{
+                    display: grid;
+            grid-template-columns: auto auto;
+            grid-column-gap: 10px;
+                }
+                .view-display-id-upcoming_events .views-row .more-link{
+                    grid-row-start: 2;
+                grid-column-start: 1;
+            grid-row-end: 3;
+            grid-column-end: 3;
+            text-align: center;
+            margin: 20px auto;
+            width: max-content;
+            padding: 10px 20px;
+            border-radius: 10px;
+            background: transparent;
+            border: 2px solid #313131;
+        
+                }
+                .block-views-features-blocks-homepage-a, .block-views-features-blocks-homepage-b, .block-views-features-blocks-homepage-c{
+                    padding:0;
+                }
+        
+                .container-24 .grid-8{
+                   width: 100%;
+                }
+        .region-agency-home-3col-a .views-view-grid td, .region-agency-home-3col-b .views-view-grid td, .region-agency-home-3col-c .views-view-grid td,
+        .zone-postscript .view-features-blocks .view-content{
+        padding:0;
+        }
+        .views-field-field-image-link-url img{
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+            width: 100%;
+            height:100%;
+        
+        }
+         .zone-postscript .views-field-title, .zone-postscript .views-field-body{
+             padding:0 20px;
+         }
+.front #zone-postscript {
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.container-24 .grid-8 {
+  /*  max-width: 295px;*/
+    text-align: center;
+    margin: 20px auto !important;
+}
+         /*-------NARROW-------*/
+         @media all and (min-device-width: 740px) and (min-width: 740px) and (orientation: landscape) {
+            .view-display-id-upcoming_events .views-row .more-link{
+                grid-row-start: 1;
+                grid-column-start: 2;
+        
+                }
+                .views-field-field-image-link-url img{
+
+           /* width: auto;
+            height:auto;*/
+        
+        }
+        .block-views-features-blocks-homepage-a, .block-views-features-blocks-homepage-b, .block-views-features-blocks-homepage-c{
+                    padding:0;
+                   /* width:295px;*/
+                }
+
+            
+            }
+              /*****************************************************
+              *    CONTAINER OVERRIDES
+              *****************************************************/
+            /* -------Header--------- */
+        
+            .header, .header nav{
+                  display: flex;
+                  justify-content: space-around;
+                  align-items: center;
+                  font-family: 'Montserrat', sans-serif;
+              }
+            .header-title, #desktop-head, .region-branding-inner form, .header-form, #search_form_header{
+                  display:none;
+              }
+            .header-icons, header-search{
+                  display:block;
+              }
+              .header .mmb-logo img{
+                  height:50px;
+              } 
+              .section-header, .header nav{
+                  background-color: #173C66;
+              }
+              .header-menu{
+margin-top:0;
+}
+nav{
+line-height: normal;
+}
+            /*-------NARROW-------*/
+          @media all and (min-device-width: 740px) and (min-width: 740px) and (orientation: landscape) {
+            .header-icons{
+margin-top:0;
+              }
+}
+        
+            /*-------NORMAL-------*/
+            @media all and (min-width: 980px) and (min-device-width: 980px),
+                all and (max-device-width: 1024px) and (min-width: 1024px) and (orientation: landscape) {
+             .header{
+                 min-height: 100px;
+    margin: 0 10%;
+             }
+.mmb-logo{
+flex-grow:4;
+}
+              .header-icons{
+                  display:none;
+              }
+              .header .mmb-logo img{
+                  height:100px;
+              }
+              .header-search{
+                  display: none;
+              }
+              .header-form, #desktop-head, #search_form_header{
+                  display:block;
+              }
+              .header a:link, .header a:visited{
+                color:#fff!important;
+    padding: 5px 15px;
+              }
+              #desktop-main-menu, .header nav{
+                  display: flex;
+                  margin-bottom: 0;
+align-items:center;
+font-size:20px;
+              }
+              .dcSearchButtonIcon{
+                  background:url('/sites/default/files/dc/shared_assets/MagGlass.png') no-repeat scroll 0px 0px / 17px 17px transparent;
+        
+              }
+              .header ul li.leaf{
+                  list-style: none;
+              }
+              .header input{
+                  color:#fff;
+              }
+             
+            }
+              
+        /*----------- MENU CSS-------- */
+
+#desktop-main-menu-container ul li.expanded,  #desktop-main-menu-container ul.menu-sub li.expanded, #desktop-main-menu-container ul:not(.browser-default) > li {
+    list-style-image: none;
+list-style-type: none;
+    /*padding: 5px 0;*/
+}
+#desktop-main-menu-container ul.menu-sub li {
+float:none;
+padding: 5px;
+text-align:left;
+}
+#desktop-head ul > li:hover {
+    /*border-bottom: 1px solid #fff;*/
+
+}
+#desktop-head ul > li{
+text-align:center;
+}
+
+        /*-------NARROW-------*/
+.sm\:px-40 {
+  padding-right: 1rem;
+padding-left: 1rem;
+}
+.md\:w-32 {
+  width: 5rem;
+}
+#region-agency-home-3col-a .sm\:px-40 {
+  padding: 1rem;
+}
+#block-domain-conf-domain-main-links ul.menu-sub {
+    margin-right: auto;
+    margin-left: auto;
+    width: 230px;
+    padding: 10px;
+}
+           #block-domain-conf-domain-main-links ul li.expanded .menu-sub{
+padding-bottom: 0;
+margin-bottom: 0;
+}
+
+#block-domain-conf-domain-main-links ul li.expanded .menu-sub li:first-child{
+display:none;
+}
+#block-domain-conf-domain-main-links ul li.expanded .menu-sub li{
+font-size: 14px;
+font-weight: 300;
+/*text-align:center;*/
+}
+#block-domain-conf-domain-main-links ul li.expanded:after{
+top: 7px;
+position: absolute;
+right: 10px;
+border: solid #fff;
+content: '+';
+font-size: 30px;
+border: 0;
+transform: none;
+margin: 0;
+padding: 0;
+}
+#block-domain-conf-domain-main-links ul li.expanded.dropdown:after{
+content: '-';
+}
+#block-domain-conf-domain-main-links{
+  background-color: #fff;
+}
+#block-domain-conf-domain-main-links li a, #block-domain-conf-domain-main-links li a:active, #block-domain-conf-domain-main-links li a:link, #block-domain-conf-domain-main-links li a:visited{
+  color:#10498A!important;
+}
+#block-domain-conf-domain-main-links ul li{
+ /* border-bottom: 1px solid #fff;*/
+position:relative;
+color: #10498A;
+font-size: 16px;
+font-weight: 600;
+}
+#block-domain-conf-domain-main-links #search_form{display:none;}
+#block-domain-conf-domain-main-links #search_form2{display:block;}
+#block-domain-conf-domain-main-links {
+    background-color: #fff;
+    /*width: 100%!important;*/
+  /*  border-top: 20px solid #31394F;*/
+}
+
+#block-domain-conf-domain-main-links ul li{
+  border-bottom:0;
+text-align:left;
+font-size:16px;
+}
+.closebtn{
+background-color:rgb(23, 60, 102);
+color:#fff!important;
+}
+            @media all and (min-device-width: 740px) and (min-width: 740px) and (orientation: landscape) {
+            }
+        /*-------NORMAL-------*/
+            @media all and (min-width: 980px) and (min-device-width: 980px),
+                all and (max-device-width: 1024px) and (min-width: 1024px) and (orientation: landscape) {
+                #desktop-main-menu > li ul.menu-sub{
+                    display: none;
+                    position: absolute;
+                    z-index: 1000;
+                    background-color: #fff;
+                    padding: 10px 0;
+                    text-align: left;
+                    border-radius: 0 0 10px 10px;
+    margin-top: 5px;
+box-shadow: rgba(0, 0, 0, 0.57) 1px 1px 16px 0px;
+}
+                }
+        
+                #desktop-main-menu li.expanded ul.menu-sub li:first-child{
+                    display:none;
+                }
+#desktop-main-menu li.expanded ul.menu-sub li:hover{
+background-color:#2071ce;
+}
+
+.region-sidebar-first  .block-menu-block h2.block-title{
+font-size:18px;
+margin:0;
+}
+.region-sidebar-first h2.block-title{text-align:left;}
+#block-menu-block-1{padding-top:0;}
+#nav-links ul.menu-sub{display:none;}
+#nav-links ul.menu-sub{
+position: absolute;
+    z-index: 1000;
+    background-color: #fff;
+    padding: 20px;
+    text-align: left;
+    border-radius: 0 0 10px 10px;
+    margin-top: 5px;
+    box-shadow: rgb(0 0 0 / 57%) 1px 5px 6px 0px;
+    margin-top: 0px;
+}
+#nav-links li ul.menu-sub li:hover a {
+    color: #fff!important;
+}
+
+#nav-links li ul.menu-sub li {
+    padding: 5px 0;
+}
+#nav-links li ul.menu-sub li a{
+/*padding:5px 10px;*/
+}
+#nav-links li ul.menu-sub li a:hover{
+    color: #fff!important;
+}
+
+#nav-links li.expanded ul.menu-sub li:hover {
+    background-color:rgb(16, 73, 137);
+}
+.menu-name-menu-does-nav-2 a.active-trail.active {
+    background-color: #ebebeb;
+    padding: 5px 5px;
+font-weight: 500;
+}
+
+         
+            }
+        /*-------WIDE-------*/
+            @media only screen and (min-width: 1220px) {
+               
+          }
+        /*----------- END MENU -------- */
+              /* -------Block D--------- */
+              #region-agency-home-main-content, .grid-24.region-agency-home-main-content{
+                width: 100%;
+                background-color: #fff;
+                box-shadow: none;
+                top: 0;
+                padding: 0;
+                margin: 0;
+                border:0;
+                /* background-color: #173C66; */
+              }
+              .block-views-features-blocks-homepage-d{
+                background-color: rgb(55, 132, 179);
+              }
+              table.views-view-grid{
+                  margin-bottom: 0;
+              }
+              .region-agency-home-main-content .view-display-id-homepage_d .views-field-body{
+                width: 100%;
+              }
+              .region-agency-home-main-content .views-field-field-image-link-url, .region-agency-home-main-content .views-field-field-external-link-url{
+                  display: none;
+              }
+              .social-media-section{
+                  /* display: flex; */
+                  justify-content: center;
+                  align-items: center;
+                  margin: 20px;
+                  color:#fff;
+                  text-align: center;
+              }
+              .social-media-section .sub-text{
+                text-transform: uppercase;
+            margin: 0 0 0 10px;
+            font-style: italic;
+              }
+              .social-media-section img{
+                  width:50px;
+                  margin:0 20px;
+              }
+              .social-media-section h2{
+                  font-size:3rem;
+                  margin: 0 0 10px 0;
+              }
+              .region-agency-home-main-content .view-display-id-homepage_d .views-field-body{
+                min-height: auto;
+            line-height: 100px;
+              }
+              .region-agency-home-main-content .view-display-id-homepage_d .views-field-body .field-content{
+                display: block;
+              }
+               /*-------NARROW-------*/
+            @media all and (min-device-width: 740px) and (min-width: 740px) and (orientation: landscape) {
+                .social-media-section{
+                  display: flex;
+                
+              }
+            }
+            /* ------- End Block D--------- */
+              
+            /* ------- Featured News--------- */
+               section.block-agency-featured-news-home{
+                /*background-color: #173C66;*/
+               }
+             
+               .quicktabs_main.quicktabs-style-sky{
+                   background: transparent;
+                   border:0;
+               }
+               ul.quicktabs-tabs.quicktabs-style-sky{
+                    display: flex;
+                    /*justify-content: space-between;*/
+               }
+ul.quicktabs-tabs.quicktabs-style-sky li.last{
+    padding-left:50px;
+}
+               ul.quicktabs-tabs.quicktabs-style-sky li.active a, ul.quicktabs-tabs.quicktabs-style-sky li.active a:visited, ul.quicktabs-tabs.quicktabs-style-sky li a{
+                   background: transparent;
+                   color:#313131!important;
+                   border:0;
+                   height: 3.35em;
+                   min-height: 3.35em;
+                line-height: 3.35em;
+                font-size:1.5rem;
+font-weight:900;
+               }
+               ul.quicktabs-tabs.quicktabs-style-sky li a:hover, ul.quicktabs-tabs.quicktabs-style-sky li.active a:hover{
+                border-color: transparent;
+            background: transparent;
+               }
+               ul.quicktabs-tabs.quicktabs-style-sky li a:hover{
+                   border-bottom:5px solid #B11029;
+               }
+ul.quicktabs-tabs.quicktabs-style-sky li a{
+font-weight:900;}
+               ul.quicktabs-tabs.quicktabs-style-sky li.active a{
+                   border-bottom:5px solid #B11029;
+               }
+               ul.quicktabs-tabs.quicktabs-style-sky li:first-child a{
+                   border-left:0;
+               }
+               ul.quicktabs-tabs.quicktabs-style-sky li{
+                margin: -0.3em 0 0 0;
+               }
+               body .quicktabs_main.quicktabs-style-sky{
+                   top:20px;
+               }
+               
+               #quicktabs-container-agency_featured_news_home .quicktabs-tabpage, .view-id-featured_news_home .view-content{
+                   height: 100%;
+                   min-height: 300px;
+               }
+               .quicktabs-tabpage a:link, .quicktabs-tabpage a:visited{
+                color:#fff!important;
+        font-size: 1.2rem;
+               }
+               .quicktabs-tabpage tr.even, .quicktabs-tabpage tr.odd{
+                   background-color: transparent;
+                   border:0;
+        
+               }
+               .views-align-left{
+                   display:flex;
+        align-items:center;
+    padding: 10px 5px;
+               }
+               .front span.date-display-single{
+                background: #B11029;
+                color: #fff;
+                padding: 10px;
+                display: block;
+                font-size: 1.5rem;
+        text-align:center;
+        min-width:64px;     
+               }
+.view-newsroom .views-field-field-date, .view-resources .views-field-field-date, .view-events-landing .views-field-field-date-time-rep{
+background-color:#B11029;
+}
+
+               .release_date_day{
+                font-weight: 600;
+            font-size: 1.7em;
+        }
+        .release_date_month{
+            font-size: 1.3rem;
+            line-height: .5px;
+            padding-bottom: 9px;
+        }
+               /*-------NARROW-------*/
+            @media all and (min-device-width: 740px) and (min-width: 740px) and (orientation: landscape) {
+
+                #quicktabs-container-agency_featured_news_home{
+                   margin:30px 0;
+               }
+            }
+            /* ------- End Featured News---------- */
+        
+             /* ------- Upcoming Events---------- */
+        
+            /* .view-display-id-upcoming_events .view-content{
+                display: flex;
+            } */
+            .view-display-id-upcoming_events .views-row{
+                border-bottom: 0;
+            }
+            .view-display-id-upcoming_events .views-field-field-date-time-rep{
+                float: none;
+            min-width: auto;
+            clear: none;
+            min-height: auto;
+            }
+            .view-display-id-upcoming_events{
+                text-align: left;
+                color:#313131;
+            }
+            .front .view-display-id-upcoming_events .views-field-title{
+                /* width:50%; */
+            }
+            .front .view-display-id-upcoming_events .view-footer{
+                text-align: center;
+            }
+             /* ------- End Upcoming Events---------- */
+        /* ------- Rotator---------- */
+        
+        .slide #text{
+                position: relative;
+                    left: auto;
+            transform: initial;
+                margin-top: 0;
+        }
+        
+        .owl-nav, .owl-dots{
+            display:none;
+        }
+        
+        .region-agency-home-rotator{
+            overflow: initial;
+            max-height: initial;
+        }
+        
+        
+        
+            .region-agency-home-rotator-inner .owl-carousel .owl-item img {
+                    max-height: 100%;
+             }
+.region-agency-home-rotator-inner .owl-carousel .owl-item:after{
+position: absolute;
+  	height: 100%;
+  	width: 100%;
+  	background-color: rgba(0,0,0,.5);
+  	top: 0;
+  	left: 0;
+  	display: block;
+  	content: "";
+}
+            
+             .view-id-agency_home_responsive .views-field-body .slide .item-list ul, .item-list ul li{
+                 margin:0;
+                 padding:0;
+             }
+             .slide{
+                 position: relative;
+             }
+             .branding-container, .arrow{
+                display: none;
+              }
+              .slide #text{
+                  padding:0;
+                      margin-top: 0;
+                      background-color: transparent;
+
+              }
+              .top-section {
+                background-size: cover;
+                background-repeat: no-repeat;
+                /* min-height: 620px;
+                margin-top: 45px; */
+        position:relative;
+              }
+              .zone-preface-wrapper{
+background-color: #173C66;
+}
+  .slide #text {
+            width: 100%;
+        }
+              
+        /*-------NARROW-------*/
+            @media all and (min-device-width: 740px) and (min-width: 740px) and (orientation: landscape) {
+        
+             .slide #text {
+                      margin: 0;
+            position: absolute;
+            top: 70%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 100%;
+           /* background-color: rgba(0,0,0,.4);*/
+            margin-top: -80px;
+        }
+        .region-agency-home-rotator {
+            max-height: 750px;
+             }
+             .region-agency-home-rotator{
+            overflow: hidden;
+        }
+        .branding-container {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+    visibility: hidden;
+              }
+        
+        .arrow{
+            display:block;
+        }
+        .top-section {
+               
+                min-height: 620px;
+                margin-top: 45px;
+              }
+            }
+
+            /*-------NORMAL-------*/
+            @media all and (min-width: 980px) and (min-device-width: 980px),
+                all and (max-device-width: 1024px) and (min-width: 1024px) and (orientation: landscape) {
+         
+                .slide #text {
+            margin-top: 0;
+    top: 45%;
+        }
+.lg\:w-10\/12 {
+  width: 95%;
+}
+.lg\:mt-6 {
+  margin-top: 7.5rem;
+}
+            }
+        /* ------- End Rotator---------- */
+        
+        /* ------- Featured Services---------- */
+#service-container .views-field.views-field-body {
+display: none;
+}
+        .block-agency-home-responsive-block-1 .views-field-field-icon .field-content, .views-field-field-icon .field-content {
+        padding: 0;
+        width: 80px;
+        margin:0 auto;
+        }
+        .views-field-field-icon .field-content, .view-resource-listing-views.field-content, .view-id-services.field-content{
+            margin: 10px;
+        /*background: #173C66;
+        border-radius: 50%;
+        -webkit-box-shadow: #ccc 0px 0 5px;
+        -moz-box-shadow: #ccc 0 0 5px;
+        box-shadow: #ccc 0 0 5px;
+        border: 2px solid #ffffff;*/
+        text-align: center;
+        }
+        .front .views-field-field-icon img{
+min-width:50px;
+max-width:51px;
+height:50px;
+}
+        #region-agency-home-main-content, .grid-24.region-agency-home-main-content{
+            text-align: left;
+            color:#313131!important;
+        }
+        .view-display-id-block_1 .view-content{
+            text-align: center;
+background-color: rgb(55, 132, 179);
+border-radius: 20px;
+padding: 50px;
+        }
+.view-display-id-block_1 h3{
+color:#fff;}
+#service-container .views-row {
+    min-height: 50px;
+display: flex;
+/*border: 1px dotted #eadede;*/
+padding: 0 20px;
+}
+#service-container .views-row > div > div {
+    display: flex;
+    align-items: center;
+}
+#service-container .views-row .views-field-field-icon {
+     margin-right: 10px; 
+}
+#service-container .views-field-field-icon .field-content {
+    width: auto;
+    margin: 0;
+}
+#service-container h3{
+margin-bottom:0;
+text-align:left;
+}
+.page-services .views-field-field-icon .field-content{
+    float: left;
+    background-color: rgb(16, 73, 137);
+border-radius: 50%;
+padding: 10px;
+-webkit-box-shadow: #ccc 0px 0 5px;
+}
+
+.view-id-services img, .view-id-biographies img {
+margin: 0 auto;
+}
+         /*-------NARROW-------*/
+         @media all and (min-device-width: 740px) and (min-width: 740px) and (orientation: landscape) {
+            .views-field-field-icon{
+           /* float:left;
+min-height: 120px;*/
+margin-right: 20px;
+        }
+        .view-display-id-block_1{
+            text-align: left;
+        }
+        .block-agency-home-responsive-block-1 .views-field-field-icon .field-content, .views-field-field-icon .field-content {
+       
+        }
+         }
+
+
+
+        /* ------- End Featured Services---------- */
+        
+        /*----------- INTERNAL PAGES CSS -------- */
+        .not-front .zone-content-wrapper{
+           /* padding: 0 10%;*/
+            /*margin-top: 130px;*/
+margin-top: 83px;
+margin-top: 50px;
+margin-bottom:50px;
+margin-left: auto !important;
+margin-right: auto !important;
+max-width: 1400px !important;
+        }
+        .page-services .zone-content-wrapper, .page-newsroom .zone-content-wrapper, .page-newsroom .zone-content-wrapper, .page-publications .zone-content-wrapper, .page-events .zone-content-wrapper {
+            margin-top: 150px;
+        }
+.page-newsroom .zone-content-wrapper{
+margin-top:50px;
+}
+        .not-front select{
+            display:block;
+        }
+        
+         /*-------NARROW-------*/
+         @media all and (min-device-width: 740px) and (min-width: 740px) and (orientation: landscape) {
+            .not-front .zone-content{
+        display:flex;
+        }
+        .region-sidebar-first {
+        border-right: 1px solid #000;
+        }
+        }
+        
+        /*-------NORMAL-------*/
+            @media all and (min-width: 980px) and (min-device-width: 980px),
+                all and (max-device-width: 1024px) and (min-width: 1024px) and (orientation: landscape) {
+        
+            .fullpage-banner-image{
+                max-height: 450px;
+                overflow: hidden;
+                margin-top: 94px;
+            }
+        .form-item-sort-by, .form-item-sort-order{
+top:0;
+}
+            }
+        /*-------WIDE-------*/
+            @media only screen and (min-width: 1220px) {
+.slide #text{
+    top: 375px;
+max-width:1200px;
+}
+h1.md\:flex-1 {
+  margin-bottom: 0px;
+}
+.gsc-input input {
+  height: 30px;
+}
+#text .lg\:mt-6 {
+  margin-top: 5.5rem;
+}
+              
+            }
+        /*----------- END INTERNAL PAGES CSS -------- */
+
+ #menu-toggle:checked + #menu{
+    display:block;
+  }
+.border-t-14 {
+    border-top-width: 14px;
+    border-top-style: solid;
+}
+.border-1 {
+    border-width: 1px;
+    border-style: solid;
+}
+.border-l-2{
+ border-top-width: 2px;
+    border-left-style: solid;
+}
+.border-does-blue {
+  border-color: rgb(55, 132, 179);
+}
+.bg-does-link-blue {
+  background-color: rgb(16, 73, 137);
+}
+.border-does-green {
+  border-color: rgb(120, 154, 113);
+}
+.bg-does-blue{
+background-color: rgb(55, 132, 179);
+}
+.does-orange{
+border-top-color:#C05D44;
+}
+.does-bg-orange{
+background-color:#C05D44;
+}
+.bg-does-green {
+    background-color: rgb(120, 154, 113);
+}
+.text-white{
+color:#fff!important
+}
+.quicktabs-tabpage a:link, .quicktabs-tabpage a:visited, ul.quicktabs-tabs.quicktabs-style-sky li.active a, ul.quicktabs-tabs.quicktabs-style-sky li.active a:visited, ul.quicktabs-tabs.quicktabs-style-sky li a{
+color:#313131!important;
+}
+.front span.date-display-single{
+color:#fff!;
+}
+#block-views-030168ee923767f404d1c07c056336f5{display:none;}
+.fab {
+    font-family: "Font Awesome 5 Brands";
+}
+.block-agency-home-responsive-block-1{display:none;}
+#service-container h3 a{
+font-size:20px;
+color:#fff!important;
+}
+hr {
+    border-top-width: 1px;
+    border-top-style: solid;
+}
+.slide .container{
+    width:100%;
+}
+
+.view-display-id-homepage_d, .view-display-id-upcoming_events, .quicktabs-wrapper, .front #zone-postscript-wrapper, .view-display-id-block_1, .zone-postscript .views-field-body{
+    padding: 0;
+    margin:0;
+}
+
+table.views-view-grid{
+    width:100%;
+}
+
+.block-views-features-blocks-homepage-a, .block-views-features-blocks-homepage-b, .block-views-features-blocks-homepage-c{
+    text-align:left;
+}
+.zone-postscript .view-display-id-homepage_c .view-content{
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 50px;
+}
+nav ul li.leaf{list-style-image:none;
+}
+.section-header li.expanded, .section-header li.collapsed, .section-header li.leaf{
+padding:1rem;
+}
+nav ul li.leaf a{
+/*padding:1rem;*/
+}
+.view-display-id-homepage_b{text-align:left;}
+.feature-cards img {
+  max-width: 30px;
+  width:30px;
+}
+.feature-cards a:hover{
+font-weight:500;
+}
+.field-name-field-gis-address .field-label, .node-address h2{
+display:none;
+}
+h1#page-title.title{
+        width: 100%;
+    color: #fff!important;
+    background-color: rgb(16, 73, 137);
+    padding: 20px 15% 20px 24%;
+    font-size: 32px;
+}
+
+.not-front article{
+   /* padding: 0 15%;*/
+padding:0 20px;
+}
+.node-address h2.node-title, .field-name-field-gis-address .field-label{display:none;}
+
+/*Service Contact Info Fields*/
+
+  .field-name-field-contact,
+        .field-name-field-email,
+        .field-name-field-phone,
+        .field-name-field-fax,
+        .field-name-field-tty,
+        .field-name-field-suite-number,
+        .field-name-field-office-hours,
+        .field-name-field-address{
+            position:absolute;
+            top:0;
+            left:-1000%;
+        }
+        #ServiceInfo .field-name-field-contact,
+        #ServiceInfo .field-name-field-email,
+        #ServiceInfo .field-name-field-phone,
+        #ServiceInfo .field-name-field-fax,
+        #ServiceInfo .field-name-field-tty,
+        #ServiceInfo .field-name-field-suite-number,
+        #ServiceInfo .field-name-field-office-hours,
+        #ServiceInfo .field-name-field-address{
+            position: relative;
+            left: 0;
+        }
+        #ServiceInfo{
+            border:1px solid #ccc;
+            /* border-radius: 20px; */
+            padding: 20px;
+            background-color: rgb(120, 154, 113);
+            margin:20px 0;
+            color:#fff;
+        }
+        #ServiceInfo .field-label{
+            float: left;
+            font-weight: 900;
+            min-width: 10px;
+            flex:1;
+        }
+        #ServiceInfo .field-items, #ServiceInfo .field-name-field-email{
+            flex:3;
+        }
+        .field-name-field-gis-address .field-label, #ServiceInfo h2.node-title{
+            display:none;
+        }
+        #ServiceInfo .field{
+            display:flex;
+            margin: 15px 0;
+        }
+        .field-name-field-address .node .field-label{
+            display: none;
+        }
+        #ServiceInfo .field-name-field-address .field{
+            display: block;
+            margin:0;
+        }
+        #ServiceInfo .field-name-field-gis-city, 
+        #ServiceInfo .field-name-field-gis-state, 
+        #ServiceInfo .field-name-field-gis-zip{
+            float: left;
+    margin-right: 5px!important;
+        }
+
+/* GSE Search CSS */
+#___gcse_0{
+margin-bottom: 20px;
+    width: 100%;
+    margin: 0 auto;
+}
+.gsc-control-cse{
+    background-color: transparent;
+    border: 0;
+}
+.gsc-input input{
+    background: 0 !important;
+    padding: 10px !important;
+color:#000;
+}
+.gsc-input table{
+    margin:0!important;
+}
+.gsc-search-button-v2, .gsc-search-button-v2:hover, .gsc-search-button-v2:focus{
+    padding: 11px!important;
+    background-color: #132460!important;
+    border-radius: 21px!important;
+}
+.gsc-search-button-v2{
+    border-color:transparent;
+}
+.gsc-input input:focus{
+    border:0;
+    outline: none;
+    box-shadow: none;
+}
+.gsc-search-box{
+    display:block!important;
+}
+.gsc-results-wrapper-overlay{
+    text-align:left;
+}
+#search_form{
+    display:none;
+}
+
+/* Normal */
+@media all and (min-width: 980px) and (min-device-width: 980px), all and (max-device-width: 1024px) and (min-width: 1024px) and (orientation:landscape){
+#___gcse_0{
+display:none;
+}
+#region-agency-home-3col-b{
+margin-bottom:0!important;
+}
+#region-agency-home-3col-c{
+margin-top:0!important;
+}
+
+}
+/***********  Max Layout adjustments  ***************/
+.region-content-inner,
+.region-agency-home-3col-a .region-inner,
+.region-agency-home-3col-b .region-inner,
+.region-agency-home-3col-c .region-inner,
+#search-container-wrapper, 
+.footer-wrapper{
+    margin-left: auto!important;
+    margin-right: auto!important;
+    max-width: 1400px!important;
+}
+#block-quicktabs-agency-featured-news-home{
+    padding:2.5rem;
+}
+.zone-footer-wrapper{
+    background-color: #4A4A4A!important;
+}
+.footer-wrapper{
+    padding:0!important;
+}
+
+
+
+#block-domain-conf-domain-main-links ul.menu-sub {
+    margin-right: auto;
+    margin-left: 0px;
+    width: 230px;
+    padding: 10px 10px 10px 0px;
+}
+
+
+      #block-domain-conf-domain-main-links li a, #block-domain-conf-domain-main-links li a:active, #block-domain-conf-domain-main-links li a:link, #block-domain-conf-domain-main-links li a:visited {
+    color: #10498A !important;
+    margin-left: 25px;
+}
+
+#block-domain-conf-domain-main-links ul li {
+    border-bottom: 0;
+text-align: left;
+    border-bottom: 1px solid #fff;
+    position: relative;
+    color: #10498A;
+    font-size: 16px;
+    font-weight: 600;
+    padding-left: 10px;
+}
+/* Responsive Table Styles */
+.not-front .region-content table tr th{
+  font-weight: bold;
+}
+.not-front .region-content table td, .not-front .region-content table th {
+  border: 1px solid #898989;
+}
+.region-content table th, .region-content table td{
+  padding: 3px;
+}
+</style>
+<!-- Google Translate -->
+<div id="google_translate_element">&nbsp;</div>
+<script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({pageLanguage: 'en', includedLanguages: 'am,zh-CN,fr,ko,es,vi,en'}, 'google_translate_element');
+}
+</script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+<div class="bg-white px-4 py-4 flex flex-wrap justify-end lg:justify-center md:items-center sm:px-40 ">
+<div class="absolute z-10 top-0 left-2 md:left-8 flex-1 flex items-center justify-between"><a alt="DOES Logo" href="/" title=""><img alt="" class="w-20 md:w-32 rounded-xl" src="/sites/default/files/dc/sites/does/DOES%20Color%20Vertical%20logo.png" /></a></div>
+<label class="pointer-cursor lg:hidden block" for="menu-toggle"><svg class="mt-4 fill-current border-does-link-blue border-2 p-1.5 rounded-3xl" height="40" viewbox="0 0 100 80" width="40"> <rect height="10" width="100"></rect> <rect height="10" width="100" y="30"></rect> <rect height="10" width="100" y="60"></rect> </svg> </label> <input class="hidden" id="menu-toggle" type="checkbox" />
+<div class="lg:mt-0 hidden lg:flex lg:items-center lg:w-auto w-full text-lg" id="menu">
+<div class="hidden"><!--GSE Search--><script async src="https://cse.google.com/cse.js?cx=1ca0ac106ed1f8a93"></script>
+<div class="gcse-search">&nbsp;</div>
+</div>
+
+<nav class="hidden lg:block mt-2 lg:mt-0 flex items-start lg:items-center justify-between">
+<ul class="lg:flex lg:items lg:w-auto w-full mb-0" id="nav-links"><!--<li><a class="block text-blue-900 py-4 font-semibold p-2 border-b-2 border-transparent hover:border-indigo-800" href="#">Job Seekers</a></li>
+	<li><a class="block  text-blue-900 py-4 font-semibold p-2 border-b-2 border-transparent hover:border-indigo-800" href="#">Unemployment</a></li>
+	<li><a class="block  text-blue-900 py-4 font-semibold p-2 border-b-2 border-transparent hover:border-indigo-800" href="#">File a Claim</a></li>
+	<li><a class="block  text-blue-900 py-4 font-semibold p-2 border-b-2 border-transparent hover:border-indigo-800" href="#">Employers</a></li>
+	<li><a class="block  text-blue-900 py-4 font-semibold p-2 border-b-2 border-transparent hover:border-indigo-800" href="#">Labor Statistics</a></li>
+	<li><a class="block  text-blue-900 py-4 font-semibold p-2 border-b-2 border-transparent hover:border-indigo-800" href="#">Media</a></li>
+	<li><a class="block  text-blue-900 py-4 font-semibold p-2 border-b-2 border-transparent hover:border-indigo-800" href="#">About DOES</a></li>-->
+</ul>
+<!-- <a class="bg-does-link-blue px-6 py-2 text-white rounded-md text-center inline-block font-semibold text-sm transition duration-500 ease-in-out  transform hover:-translate-y-1 hover:scale-110 absolute right-5" href="/page/does-spanish">DOES en espa&ntilde;ol</a> --></nav>
+</div>
+</div>
+<script>
+
+if(document.getElementById('block-views-alerts-emergency-alerts-block')){
+    const pageSection = document.getElementById('page');
+    const alertBlock = document.getElementById('block-views-alerts-emergency-alerts-block');
+    const headerSection = document.getElementById('section-header');
+    pageSection.insertAdjacentElement('afterbegin', alertBlock);
+    headerSection.style.position = 'relative';
+    headerSection.style.top = 'auto';
+
+}
+
+jQuery(document).ready(function() {
+// Add header banner image to top
+jQuery(".fullpage-banner-image").prependTo(".section-content");
+jQuery("#page-title").prependTo(".section-content");
+
+
+
+
+
+
+//Desktop Menu
+
+function checkresponsive() {
+    jQuery("#block-domain-conf-domain-main-links ul:first-child").children().each(function() {
+          jQuery(this).clone().appendTo('#nav-links');
+        });
+ 
+ //////////////   Menu dropdown script   //////////////////////
+
+
+
+jQuery('.region-header-first-inner #block-domain-conf-domain-main-links div.content > ul.menu-sub > li.expanded > a').click(function () {
+       console.log("link was clicked");
+       var list =  jQuery(this).children('ul');
+       console.log(list);
+       console.log(jQuery(this));
+       jQuery(this).parent().children('ul').slideToggle();
+       return false;
+});
+
+
+
+
+}//End function
+
+checkresponsive();
+
+ //Adds hover class to top navigation on hover and active secondary level until mouseout
+  jQuery("#nav-links > li").hover(function(){
+    jQuery(this).addClass("hover");
+    jQuery(this).children('ul').show();
+  }, function(){
+       jQuery(this).removeClass("hover");
+       jQuery("#nav-links li.expanded ul").hide();
+  });
+
+
+
+       
+         function openNav2() {
+             document.getElementById("block-domain-conf-domain-main-links").style.width = "250px";
+             document.getElementById("zone-preface-wrapper").style.opacity = ".3";
+             document.getElementById("zone-content-wrapper").style.opacity = ".3";
+             document.getElementById("zone-postscript-wrapper").style.opacity = ".3";
+           }
+       
+         function closeNav2() {
+             document.getElementById("block-domain-conf-domain-main-links").style.width = "0";
+             document.getElementById("zone-preface-wrapper").style.opacity = "1";
+             document.getElementById("zone-content-wrapper").style.opacity = "1";
+             document.getElementById("zone-postscript-wrapper").style.opacity = "1";
+         }
+         jQuery("#menu-toggle").click(openNav2);
+         jQuery("#search-btn").click(openNav2);
+         jQuery("#close-btn").click(closeNav2);
+       
+     
+
+
+
+
+
+
+})
+</script>    </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>    </div>
+  </div>
+</div><div class="block block-domain-conf block-domain-main-links block-domain-conf-domain-main-links even block-without-title" id="block-domain-conf-domain-main-links">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <ul class="menu-sub"><li class="first leaf"><a href="/" title="">Home</a></li>
+<li class="expanded"><a href="/page/unemployment-compensation">Unemployment</a><ul class="menu-sub"><li class="first leaf"><a href="/page/ui-benefits-claimants">UI Benefits for Claimants</a></li>
+<li class="leaf"><a href="/page/ui-tax-employers">UI Tax for Employers</a></li>
+<li class="leaf"><a href="/page/general-ui-information">General UI Information</a></li>
+<li class="leaf"><a href="/page/ui-taxes">UI Taxes</a></li>
+<li class="leaf"><a href="/page/frequently-requested-contact-information">Frequently Requested Contact Information</a></li>
+<li class="leaf"><a href="/page/appeals">Appeals</a></li>
+<li class="leaf"><a href="/page/benefit-accuracy-measurement">Benefit Accuracy Measurement</a></li>
+<li class="leaf"><a href="/page/what-unemployment-insurance-fraud">What Is Unemployment Insurance Fraud?</a></li>
+<li class="last leaf"><a href="/service/shared-work-unemployment-insurance-program">Shared Work Unemployment Insurance Program</a></li>
+</ul></li>
+<li class="leaf"><a href="/page/file-claim">File a Claim</a></li>
+<li class="leaf"><a href="https://does.dc.gov/services" title="">Services</a></li>
+<li class="expanded"><a href="/page/office-talent-client-services">Employers</a><ul class="menu-sub"><li class="first leaf"><a href="https://essp.does.dc.gov/" title="">DOES Self Service Portal</a></li>
+<li class="leaf"><a href="/page/foreign-labor-certification">Foreign Labor Certification</a></li>
+<li class="leaf"><a href="/page/job-bank-services">Job Bank Services</a></li>
+<li class="leaf"><a href="/page/office-of-first-source-employment-program">Office of First Source Compliance</a></li>
+<li class="leaf"><a href="/page/rapid-response">Rapid Response</a></li>
+<li class="leaf"><a href="/page/sides-e-response">SIDES E-Response</a></li>
+<li class="leaf"><a href="/service/trade-adjustment-assistance">Trade Adjustment Assistance</a></li>
+<li class="leaf"><a href="/page/work-opportunity-tax-credit">Work Opportunity Tax Credit</a></li>
+<li class="last leaf"><a href="/page/workers-compensation-does">Workers&#039; Compensation - DOES</a></li>
+</ul></li>
+<li class="collapsed"><a href="/page/labor-statistics">Labor Statistics</a></li>
+<li class="expanded"><a href="/page/media-inquiries-2">Media</a><ul class="menu-sub"><li class="first leaf"><a href="/page/articles">Articles</a></li>
+<li class="last leaf"><a href="https://does.dc.gov/newsroom" title="">News Room</a></li>
+</ul></li>
+<li class="last expanded"><a href="/page/about-does" title="">About DOES</a><ul class="menu-sub"><li class="first leaf"><a href="/biography/dr-unique-n-morris-hughes" title="">Director&#039;s Bio </a></li>
+<li class="leaf"><a href="/page/does-executive-team-biographies">DOES Executive Team Biographies</a></li>
+<li class="leaf"><a href="/page/does-local-job-training-quarterly-outcome-report-council-district-columbia">DOES Local Job Training Quarterly Outcome Report for the Council of the District of Columbia</a></li>
+<li class="leaf"><a href="/page/office-equal-employment-opportunity" title="">Office of Equal Employment Opportunity</a></li>
+<li class="leaf"><a href="/page/foia-requests-does" title="">Open Government and FOIA</a></li>
+<li class="leaf"><a href="/page/workforce-innovation-and-opportunity-act-wioa">Workforce Innovation and Opportunity Act (WIOA)</a></li>
+<li class="leaf"><a href="/page/grant-opportunities">Grant Opportunities</a></li>
+<li class="leaf"><a href="/page/does-career-opportunities" title="">DOES Career Opportunities</a></li>
+<li class="leaf"><a href="/page/bill-rights" title="">Bill of Rights</a></li>
+<li class="leaf"><a href="/page/does-organizational-chart">DOES Organizational Chart</a></li>
+<li class="last leaf"><a href="/page/data-performance-reports">Data &amp; Performance Reports</a></li>
+</ul></li>
+</ul>    </div>
+  </div>
+</div>  </div>
+</div>  </div>
+</div></header>    
+      <section id="section-content" class="section section-content">
+  <div id="zone-preface-wrapper" class="zone-wrapper zone-preface-wrapper clearfix">  
+  <div id="zone-preface" class="zone zone-preface clearfix container-24">
+      </div>
+</div><div id="zone-content-wrapper" class="zone-wrapper zone-content-wrapper clearfix">  
+  <div id="zone-content" class="zone zone-content clearfix container-24">    
+        
+        <aside class="grid-6 region region-sidebar-first" id="region-sidebar-first">
+  <div class="region-inner region-sidebar-first-inner">
+    <div class="block block-views block-agency-information-block block-views-agency-information-block odd block-without-title" id="block-views-agency-information-block">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <div class="view view-agency-information view-id-agency_information view-display-id-block view-dom-id-c0d93fff179bf67a8eb0cc51a219980a">
+        
+  
+  
+  
+  
+  
+  
+  
+  
+</div>    </div>
+  </div>
+</div><div class="block block-views block-d57ea9063772fb95c21cdfa73d7c2d80 block-views-d57ea9063772fb95c21cdfa73d7c2d80 even block-without-title" id="block-views-d57ea9063772fb95c21cdfa73d7c2d80">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <div class="view view-agency-information view-id-agency_information view-display-id-agency_director view-dom-id-2edf34ed65507df492a66bac6552c4dd">
+        
+  
+  
+  
+  
+  
+  
+  
+  
+</div>    </div>
+  </div>
+</div>  </div>
+</aside><div class="grid-12 region region-content" id="region-content">
+  <div class="region-inner region-content-inner">
+          <script src="//cdn1.readspeaker.com/script/6295/webReader/webReader.js?pids=wr" type="text/javascript"></script>
+            <style>
+        .readspeaker_button1 i {
+          color: #333
+        }
+        #rsbtn_scrollcontrols i {
+          color: #333;
+        }
+        .readspeaker_button1 {
+          display: none;
+        }
+      </style>
+      <div id="readspeaker_button1" class="readspeaker_button1 rs_skip rsbtn rs_preserve">
+        <a rel="nofollow" class="rsbtn_play" accesskey="L" title="Listen to this page using ReadSpeaker webReader" href="//app-na.readspeaker.com/cgi-bin/rsent?customerid=6295&amp;lang=en_us&amp;readid=content-start&amp;url=https://does.dc.gov/page/industry-closings-and-layoffs-warn-notifications-2022">
+          <span class="rsbtn_left rsimg rspart"><span class="rsbtn_text"><span>Listen</span></span></span>
+          <span class="rsbtn_right rsimg rsplay rspart"></span>
+        </a>
+      </div>
+    
+    <a id="main-content"></a>
+                  <h1 class="title" id="page-title">Industry Closings and Layoffs WARN Notifications 2022</h1>
+                          <div class="block block-system block-main block-system-main odd block-without-title" id="block-system-main">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <article about="/page/industry-closings-and-layoffs-warn-notifications-2022" typeof="foaf:Document" class="node node-page node-published node-not-promoted node-not-sticky author-parrishschoon odd clearfix" id="node-page-1577571">
+        <span property="dc:title" content="Industry Closings and Layoffs WARN Notifications 2022" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>    
+  <!-- Go to www.addthis.com/dashboard to customize your tools --> <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-4dc44024632b89e6"></script> 
+  <div class="content clearfix">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>Rapid Response posts WARNs submitted pursuant to the WARN Act when received. Please check this page periodically for WARNs filed in the District. Thank you.</p>
+
+<table border="1" cellpadding="1" cellspacing="1" height="144" width="744">
+	<thead>
+		<tr>
+			<th scope="col">Notice Date</th>
+			<th scope="col">Organization Name</th>
+			<th scope="col">
+			<p>Number toEmployees Affected&nbsp;</p>
+			</th>
+			<th scope="col">Effective Layoff Date</th>
+			<th scope="col">Code Type</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>January 14, 2022</td>
+			<td>ABM Industry Group, LLC</td>
+			<td>42</td>
+			<td>
+			<p>February 28, 2022</p>
+
+			<p>March 31, 2022</p>
+			</td>
+			<td>1</td>
+		</tr>
+	</tbody>
+</table>
+
+<p><strong>Legend:&nbsp;</strong>1 = Layoff &bull; 2 = Permanent Closures</p>
+
+<p>&nbsp;</p>
+
+<ul>
+	<li>
+	<p><a href="https://does.dc.gov/page/industry-closings-and-layoffs-warn-notifications-2021" name="WARN 2021" target="_blank" title="WARN 2021">Industry Closings and Layoffs Warn Notifications 2021</a></p>
+	</li>
+	<li>
+	<p><a href="https://does.dc.gov/node/1468786" name="Warn Notices" target="_blank" title="Warn Notices">Industry Closings and Layoffs Warn Notifications 2020</a></p>
+	</li>
+	<li>
+	<p><a href="https://does.dc.gov/node/445852" name="Industry Closings and Layoffs Warn Notifications 2019" target="_blank" title="Industry Closings and Layoffs Warn Notifications 2019">Industry Closings and Layoffs Warn Notifications 2019</a></p>
+	</li>
+	<li>
+	<p><a href="https://does.dc.gov/page/industry-closings-and-layoffs-warn-notifications-0" target="_blank" title="Warn Notice 2018">Industry Closings and Layoffs Warn Notifications 2018</a></p>
+	</li>
+	<li>
+	<p><a href="https://does.dc.gov/page/industry-closings-and-layoffs-warn-notifications-2017" target="_blank" title="industry Closing and layoffs WARN Notification 2017">Industry Closings and Layoffs WARN Notifications 2017</a></p>
+	</li>
+	<li>
+	<p><a href="https://does.dc.gov/page/industry-closings-and-layoffs-warn-notifications-2016" target="_blank" title="2016 WARN Layoffs Notifications">Industry Closings and Layoffs WARN Notifications 2016</a></p>
+	</li>
+	<li>
+	<p><a href="https://does.dc.gov/page/industry-closings-and-layoffs-warn-notifications-2015" target="_blank" title="WARN Notice 2015">Industry Closings and Layoffs WARN Notifications 2015</a></p>
+	</li>
+	<li>
+	<p><a href="https://does.dc.gov/page/industry-closings-and-layoffs-warn-notifications-0" target="_blank" title="Industy closings 2014">Industry Closings and Layoffs WARN Notifications 2014</a></p>
+	</li>
+	<li>
+	<p><a href="https://does.dc.gov/page/industry-closings-and-layoffs-warn-notifications-1" target="_blank" title="Industy Closings 2013">Industry Closings and Layoffs WARN Notifications 2013</a></p>
+	</li>
+	<li>
+	<p><a href="https://does.dc.gov/page/industry-closings-and-layoffs-warn-notifications-2" target="_blank" title="Industry Closings 2012">Industry Closings and Layoffs WARN Notifications 2012</a></p>
+	</li>
+</ul>
+</div></div></div><div class="field field-name-field-related field-type-node-reference field-label-above"><div class="field-label">Related Content:&nbsp;</div><div class="field-items"><div class="field-item even"><a href="/page/program-details-rapid-resonse">Rapid Response</a></div></div></div>  </div>
+  
+  <div class="clearfix">
+          <nav class="links node-links clearfix"></nav>
+    
+      </div>
+</article>
+    </div>
+  </div>
+</div>    
+  </div>
+</div>
+  </div>
+</div><div id="zone-postscript-wrapper" class="zone-wrapper zone-postscript-wrapper clearfix">  
+  <div id="zone-postscript" class="zone zone-postscript clearfix container-24">
+      </div>
+</div></section>    
+  
+      <footer id="section-footer" class="section section-footer">
+  <div id="zone-footer-wrapper" class="zone-wrapper zone-footer-wrapper clearfix">  
+  <div id="zone-footer" class="zone zone-footer clearfix container-12">
+    <div class="grid-12 region region-footer-first" id="region-footer-first">
+  <div class="region-inner region-footer-first-inner">
+    <div class="block block-views block-282b46b508c004bef35c3f43a1b5ee7b block-views-282b46b508c004bef35c3f43a1b5ee7b odd block-without-title" id="block-views-282b46b508c004bef35c3f43a1b5ee7b">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <div class="view view-custom-headers-and-footers view-id-custom_headers_and_footers view-display-id-custom_agency_footer1 view-dom-id-9276af7814b39afe1f4d70bc2d8089fb">
+        
+  
+  
+      <div class="view-content">
+        <div>
+      
+          <style type="text/css">.footer-wrapper {
+    background-color: #4A4A4A;
+    padding: 25px 10%;
+}
+
+.zone-footer-wrapper {
+    background-color: #fff;
+    color: #fff;
+    padding: 0;
+}
+.section-footer{
+    padding:0;
+}
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    color: #fff;
+    border-bottom: 1px solid #fff;
+    padding: 20px;
+flex-direction:column;
+}
+.zone-footer-wrapper a, .footer-links {
+    color: #fff!important;
+}
+.footer-icons img {
+    height: 25px;
+    padding: 0 5px;
+}
+.footer-text img {
+    height: 30px;
+}
+.agency-logo img{
+height:110px;
+}
+.footer-link ul{ 
+display:flex;
+padding: 0 10px;
+flex-wrap:wrap;
+}
+.footer-link ul:not(.browser-default) > li{
+list-style-type:none;
+}
+.footer-text.item {
+    padding: 10px;
+}
+.footer-content.last {
+    border: 0;
+}
+/* Normal */
+              @media all and (min-width: 980px) and (min-device-width: 980px),
+                all and (max-device-width: 1024px) and (min-width: 1024px) and (orientation: landscape) {
+.footer-content {
+flex-direction:row;}
+}
+</style>
+<div class="footer-wrapper footer" id="footer">
+<div class="footer-section lower">
+<div class="footer-content">
+<div class="item"><a href="https://es.does.dc.gov/" title="Spanish (Español)">Spanish (Espa&ntilde;ol)</a></div>
+
+<div class="item"><a href="/page/does-french-fran%C3%A7ais-1" title="French (Français)">French (Fran&ccedil;ais)</a></div>
+
+<div class="item"><a href="https://does.dc.gov/page/does-vietnamese-tiếng-việt-1" title="Vietnamese (Tiếng Việt)">Vietnamese (Tiếng Việt)</a></div>
+
+<div class="item"><a href="/page/amharic-አማርኛ" title="Amharic (አማርኛ)">Amharic (አማርኛ)</a></div>
+
+<div class="item"><a href="/page/DOES-chinese-中文-1" title="Chinese (中文)">Chinese (中文)</a></div>
+
+<div class="item"><a href="/page/does-korean-한국어-1" title="Korean (한국어)">Korean (한국어)</a></div>
+</div>
+</div>
+
+<div class="footer-section lower">
+<div class="footer-content"><!--div class="footer contact">&nbsp;</div>
+			<div class="footer-link item">
+				<ul class="link-list">
+					<li class="first list-item"><a href="https://dc.gov/node/298582">ACCESSIBILITY</a></li>
+					<li class="list-item"><a href="https://dc.gov/node/298592">PRIVACY AND SECURITY</a></li>
+					<li class="list-item"><a href="https://dc.gov/node/819092">ABOUT DC.GOV</a></li>
+					<li class="last list-item"><a href="https://dc.gov/node/900572">TERMS AND CONDITIONS</a></li>
+				</ul>
+			</div-->
+<div class="footer-text agency-logo"><!--img alt="DOES Logo" src="/sites/default/files/dc/sites/ddot/DDOT-Dot-White.png" style="border-width: 0px;" /--><img alt="" class="rounded-xl" src="/sites/default/files/dc/sites/does/DOES%20white%20Vertical%20logo.png" /></div>
+
+<div class="footer-text item"><img alt="Mayor Logo" src="/sites/default/files/dc/sites/dcra/MayorBlogo.png" /></div>
+
+<div class="footer-text item">
+<div class="footer-header">Office Hours</div>
+
+<div>Monday to Friday<br />
+8:30 am to 5 pm</div>
+</div>
+
+<div class="footer-text item">
+<div class="footer-header">Connect With Us</div>
+
+<div>4058 Minnesota Avenue, NE,<br />
+Washington, DC 20019<br />
+Phone: (202) 724-7000</div>
+</div>
+
+<div class="footer-text item">Fax: (202) 673-6993<br />
+TTY: (202) 698-4817<br />
+Email: <a href="/cdn-cgi/l/email-protection#b6d2d9d3c5f6d2d598d1d9c0" title="does@dc.gov"><span class="__cf_email__" data-cfemail="03676c66704367602d646c75">[email&#160;protected]</span></a></div>
+</div>
+</div>
+
+<div class="footer-section lower">
+<div class="footer-content last">
+<ul class="link-list">
+	<li class="first list-item"><a href="https://dcforms.dc.gov/webform/does-ask-director" title="ASK THE DIRECTOR">ASK THE DIRECTOR</a></li>
+	<li class="list-item"><a href="https://oca.dc.gov/node/160652" target="_blank" title="Agency Performance">AGENCY PERFORMANCE</a></li>
+	<li class="list-item"><a href="https://dc.gov/page/dcgov-accessibility-policy" title="ACCESSIBILITY">ACCESSIBILITY</a></li>
+	<li class="list-item"><a href="https://dc.gov/page/privacy-and-security" title="PRIVACY AND SECURITY">PRIVACY AND SECURITY</a></li>
+	<li class="list-item"><a href="https://dc.gov/page/about-district-government-website" title="ABOUT DC.GOV">ABOUT DC.GOV</a></li>
+	<li class="last list-item"><a href="https://dc.gov/page/terms-and-conditions-use" title="TERMS AND CONDITIONS">TERMS AND CONDITIONS</a></li>
+</ul>
+
+<div class="footer-link item">
+<div class="footer-icons">
+<div class="text-center mt-6 sm:mt-0 sm:mx-4 m:flex"><a href="https://www.facebook.com/DCDeptofEmploymentServices?ref=aymt_homepage_panel" target="_blank"><i class="fab fa-facebook-f text-white text-3xl font-extrabold px-4 pr-4 transition duration-500 ease-in-out bg-transparent hover:bg-transparent transform hover:-translate-y-2 hover:scale-110">&nbsp;</i></a> <a href="https://twitter.com/Does_DC" target="_blank"><i class="fab fa-twitter text-white text-3xl font-extrabold px-4 pr-4 transition duration-500 ease-in-out bg-transparent hover:bg-transparent transform hover:-translate-y-2 hover:scale-110">&nbsp;</i></a><a href="https://www.linkedin.com/company/dc-department-of-employment-services/" target="_blank"><i class="fab fa-linkedin text-white text-3xl font-extrabold px-4 pr-4 transition duration-500 ease-in-out bg-transparent hover:bg-transparent transform hover:-translate-y-2 hover:scale-110">&nbsp;</i></a></div>
+</div>
+</div>
+
+<div class="footer-text item">&copy; 2022 District of Columbia</div>
+</div>
+</div>
+</div>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+
+
+</script><!--
+DC Block configuration css/html/js
+-->
+<style type="text/css">.modal.open{
+    /* background-color:rgba(25, 25, 27, 0.5);
+    background-color: rgb(17, 24, 39)!important; */
+    width:100%;
+    height:100%;
+
+
+}
+.item.container{
+    font-family: Arial, Helvetica, sans-serif;
+   
+    /* padding: 10px; */
+
+    display:grid;
+    font-size: 18px;
+    grid-template-columns: 150px 400px;
+    position:absolute;
+    top:0;
+    /* padding:50px; */
+width: auto;
+height: 100%;
+align-items: center;
+background-color: rgb(17, 24, 39)!important;
+}
+.category{
+    
+    color:#fff;
+    padding:0 20px;
+    background-color: rgb(17, 24, 39)!important;
+
+}
+.category.first, .details.first{
+    font-size:28px;
+    color:#fff;
+}
+.details.first{
+   /* animation: blinkingText 2s infinite;*/
+}
+@keyframes blinkingText{
+		0%		{ color: #fff;}
+		50%		{ color: rgb(107, 114, 128);}
+		100%	{ color: #fff;}
+	}
+.category.last{
+    border-bottom-left-radius: 25px;
+    /* box-shadow: 5px 10px 18px #888888; */
+}
+.details.last{
+    border-bottom-right-radius: 25px;
+    font-color:#ccc;
+}
+.details{
+    /* background-color: #fff; */
+    color:rgb(107, 114, 128);
+    padding:0 20px;
+    /* border-right:1px solid #ccc; */
+    /* box-shadow: 5px 10px 18px #888888; */
+    background-color: rgb(17, 24, 39)!important;
+
+}
+.details a{
+    color:#fff!important;
+}
+.even{
+    /* background-color: rgba(237, 239, 243, 0.98); */
+}
+.config-btn{
+    background-color: grey;
+    padding: 10px;
+    width: fit-content;
+    color:#fff;
+    cursor: pointer;
+    background-color: rgb(17, 24, 39);
+    position: absolute;
+/*display:none*/
+margin-left: -40px;
+transition: all .75s ease-out;
+}
+.config-btn.open{
+margin-left:0
+}
+.not-logged-in .dc-block-config {display:none;}
+.config-btn:hover{
+  /*  background-color: rgb(54, 53, 53);*/
+background-color: rgb(255, 255, 255);
+}
+.config-btn i{font-size:20px;color:rgb(47, 255, 47);}
+.block-config{
+    position: absolute;
+    top:0;
+    /* display: none; */
+    width:100%;
+    height: 100%;
+    transition: all 1s ease-out;
+    margin-left:-1000%;
+    opacity: 0;
+}
+.block-config.open{
+    width:100%;
+    margin-left: 0;
+    opacity: 1;
+background: rgba(12, 14, 23, 0.7);
+    z-index: 10;
+    animation: blink-bg 2s infinite;
+}
+
+@keyframes blink-bg{
+		0%		{ background: rgba(12, 14, 23, 0.5);}
+		50%		{ background: rgba(12, 14, 23, 0.7);}
+		100%	{ background: rgba(12, 14, 23, 0.5);}
+	}
+
+
+.close{
+    font-size: 18px;
+    right:0;
+    position:absolute;
+    top:0;
+    color:rgb(17, 24, 39);
+    cursor: pointer;
+    font-weight: 900;
+    background-color: #fff;
+    padding: 10px;
+}
+.config-switch{
+    position: fixed;
+    top: 80px;
+left: -86px;
+background-color: rgb(17, 24, 39);
+color: #fff;
+padding: 0 10px;
+border-top-right-radius: 5px;
+z-index: 40;
+border-bottom-right-radius: 5px;
+transition: all .25s ease-out;
+font-size: 14px;
+border-top-left-radius: 0;
+border-bottom-left-radius: 0;
+display:none;
+cursor:pointer;
+}
+.config-switch:hover{
+    left: 0;   
+}
+.config-switch i{
+font-size:12px;
+color:red;}
+.config-switch i.green{
+    color:rgb(47, 255, 47);
+}
+.show{
+    display:block;
+}
+/*.label .off{
+display:none;
+}*/
+.label.off::after{
+content:'Show';
+}
+.label.on::after{
+content:'Hide';
+}
+</style>
+<div class="dc-block-config" id="dc-block-config-1">
+<div class="config-btn" id="config-btn-1" title="View Block Information"><i class="fa fa-ellipsis-v">&nbsp;</i></div>
+
+<div class="block-config" data-config="1">
+<div class="content">
+<div class="item container"><span class="close">X</span>
+
+<div class="category first">
+<p>Block:</p>
+</div>
+
+<div class="details first">
+<p>Featured Services Block</p>
+</div>
+
+<div class="category">
+<p>Edit Node:</p>
+</div>
+
+<div class="details even">
+<p><a href="/node/1516476/edit?destination=admin/domain/content/2236">/node/1516476/edit?destination=admin/domain/content/2236</a></p>
+</div>
+
+<div class="category last">
+<p>Description:</p>
+</div>
+
+<div class="details last">
+<p>This service listing is modified from the individual &quot;service content type&quot; node. Selecting &quot;promote to frontpage&quot; will add the service node to this block. There is a limit of 6 items.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="dc-block-config" id="dc-block-config-2">
+<div class="config-btn" id="config-btn-2" title="View Block Information"><i class="fa fa-ellipsis-v">&nbsp;</i></div>
+
+<div class="block-config" data-config="2">
+<div class="content">
+<div class="item container"><span class="close">X</span>
+
+<div class="category first">
+<p>Node:</p>
+</div>
+
+<div class="details first">
+<p>DOES Feature Content A</p>
+</div>
+
+<div class="category">
+<p>Edit Node:</p>
+</div>
+
+<div class="details even">
+<p><a href="/node/1516461/edit?destination=admin/domain/content/2236">/node/1516461/edit?destination=admin/domain/content/2236</a></p>
+</div>
+
+<div class="category last">
+<p>Description:</p>
+</div>
+
+<div class="details last">
+<p>This block contains 3 sections displayed as cards and is modified from feature content node &#39;A&#39;.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="dc-block-config" id="dc-block-config-3">
+<div class="config-btn" id="config-btn-3" title="View Block Information"><i class="fa fa-ellipsis-v">&nbsp;</i></div>
+
+<div class="block-config" data-config="3">
+<div class="content">
+<div class="item container"><span class="close">X</span>
+
+<div class="category first">
+<p>Node:</p>
+</div>
+
+<div class="details first">
+<p>DOES Feature Content D</p>
+</div>
+
+<div class="category">
+<p>Edit Node:</p>
+</div>
+
+<div class="details even">
+<p><a href="/node/1516481/edit?destination=admin/domain/content/2236">/node/1516481/edit?destination=admin/domain/content/2236</a></p>
+</div>
+
+<div class="category last">
+<p>Description:</p>
+</div>
+
+<div class="details last">
+<p>This block is modified from the individual &quot;feature content type&rdquo; node.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="dc-block-config" id="dc-block-config-4">
+<div class="config-btn" id="config-btn-4" title="View Block Information"><i class="fa fa-ellipsis-v">&nbsp;</i></div>
+
+<div class="block-config" data-config="4">
+<div class="content">
+<div class="item container"><span class="close">X</span>
+
+<div class="category first">
+<p>Node:</p>
+</div>
+
+<div class="details first">
+<p>DOES Feature Content B</p>
+</div>
+
+<div class="category">
+<p>Edit Node:</p>
+</div>
+
+<div class="details even">
+<p><a href="/node/1516466/edit?destination=admin/domain/content/2236">/node/1516466/edit?destination=admin/domain/content/2236</a></p>
+</div>
+
+<div class="category last">
+<p>Description:</p>
+</div>
+
+<div class="details last">
+<p>This block is modified from the individual &quot;feature content type&rdquo; node.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="dc-block-config" id="dc-block-config-5">
+<div class="config-btn" id="config-btn-5" title="View Block Information"><i class="fa fa-ellipsis-v">&nbsp;</i></div>
+
+<div class="block-config" data-config="5">
+<div class="content">
+<div class="item container"><span class="close">X</span>
+
+<div class="category first">
+<p>Node:</p>
+</div>
+
+<div class="details first">
+<p>DOES Feature Content C</p>
+</div>
+
+<div class="category">
+<p>Edit Node:</p>
+</div>
+
+<div class="details even">
+<p><a href="/node/1516471/edit?destination=admin/domain/content/2236">/node/1516471/edit?destination=admin/domain/content/2236</a></p>
+</div>
+
+<div class="category last">
+<p>Description:</p>
+</div>
+
+<div class="details last">
+<p>This block is modified from the individual &quot;feature content type&rdquo; node.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="btn config-switch"><span class="label off">&nbsp;</span> Block Config <i class="fas fa-ellipsis-v switch-icon">&nbsp;</i></div>
+<script>
+if(document.body.classList.contains('front')){
+
+    //Add Servies from featured service block to static rotator block
+    let services = document.querySelectorAll(".view-display-id-block_1 .view-content .views-row");
+    let servicesContainer = document.getElementById("service-container");
+    services.forEach((service)=>{
+        servicesContainer.appendChild(service);
+    })
+
+//Move postscript section under hero section
+ let zonePostscript = document.getElementById('zone-postscript-wrapper');
+    let zonePreface = document.getElementById('zone-preface-wrapper');
+    zonePreface.insertAdjacentElement('afterend', zonePostscript);
+
+//move social media section after blockA
+    let socialMediaDiv = document.getElementById('region-agency-home-main-content');
+    let blockA = document.getElementById('region-agency-home-3col-a');
+    blockA.insertAdjacentElement('afterend', socialMediaDiv);
+
+ //Add classes
+    let newsContainer = document.getElementById('block-quicktabs-agency-featured-news-home');
+    newsContainer.classList.add('sm:px-40');
+
+
+}
+
+
+if(document.body.classList.contains('logged-in') && document.body.classList.contains('front')){
+
+
+            
+console.log('logged-in and front');
+        
+        //move config blocks into place
+
+
+        let page = document.getElementById('page');
+let configSwitch = document.querySelector('.config-switch');
+configSwitch.classList.add('show');
+        let switchIcon = document.querySelector('.switch-icon');
+        let switchLabel = document.querySelector('.label');
+
+        let heroBlock = document.getElementById('text');
+let configBlockA = document.querySelector('.region-agency-home-3col-a .view-content');
+let configBlockB = document.querySelector('.region-agency-home-3col-b .view-content');
+let configBlockC = document.querySelector('.region-agency-home-3col-c .view-content');
+let configBlockD = document.querySelector('.block-features-blocks-homepage-d .view-content');
+
+        let dcBlockConfig1 = document.getElementById('dc-block-config-1');
+let dcBlockConfig2 = document.getElementById('dc-block-config-2');
+let dcBlockConfig3 = document.getElementById('dc-block-config-3');
+let dcBlockConfig4 = document.getElementById('dc-block-config-4');
+let dcBlockConfig5 = document.getElementById('dc-block-config-5');
+
+
+
+page.insertAdjacentElement('afterbegin', configSwitch);
+console.log('second ', configSwitch);
+        heroBlock.insertAdjacentElement('afterbegin', dcBlockConfig1);
+ configBlockA.insertAdjacentElement('afterbegin', dcBlockConfig2);
+ configBlockD.insertAdjacentElement('afterbegin', dcBlockConfig3);
+ configBlockB.insertAdjacentElement('afterbegin', dcBlockConfig4);
+ configBlockC.insertAdjacentElement('afterbegin', dcBlockConfig5);
+
+
+        let configBtns = document.querySelectorAll('.config-btn');
+        let blockInfo = document.querySelectorAll('.block-config');
+       // let modal = document.querySelector('.modal');
+        let closeBtns = document.querySelectorAll('.close');
+        
+
+        console.log(blockInfo);
+        configBtns.forEach((configBtn, index)=>{
+            console.log(index);
+           // modal.classList.add('open');
+            configBtn.addEventListener('click', ()=> {
+            blockInfo[index].classList.add('open');
+            })
+        })
+        
+
+        closeBtns.forEach((closeBtn, index)=>{
+            closeBtn.addEventListener('click', function(e) {
+            if (e.target.classList.contains('close')) {
+                blockInfo[index].classList.remove('open');
+            }
+            });
+        })
+
+// Toggle config switch using classes
+        configSwitch.addEventListener('click', ()=>{
+console.log('third ', configSwitch);
+            
+            if(switchIcon.classList.contains('green')){
+                switchIcon.classList.remove('green');
+            }else{
+                switchIcon.classList.add('green');
+            }
+
+if(switchLabel.classList.contains('off')){
+switchLabel.classList.remove('off')
+switchLabel.classList.add('on')
+}else{
+switchLabel.classList.add('off')
+switchLabel.classList.remove('on')
+}
+
+            configBtns.forEach((btn)=>{
+                 if(btn.classList.contains('open')){
+                btn.classList.remove('open')
+            }else{
+                btn.classList.add('open')
+            }
+            })
+
+            closeBtns.forEach((closeBtn, index)=>{
+            if (closeBtn.classList.contains('close')) {
+                blockInfo[index].classList.remove('open');
+            }
+            });
+        })
+
+       }     
+        
+
+
+
+ //Rewrite Dates
+if(document.body.classList.contains('front')){
+          document
+            .querySelectorAll(".date-display-single")
+            .forEach(function (element, index) {
+console.log(element.innerHTML);
+              let dcdate = new Date(Date.parse(element.innerHTML));
+              let month = dcdate.toUTCString().split(" ")[2];
+              let day = dcdate.getDate();
+console.log("dcdate", dcdate);              
+console.log("month", month);
+console.log("day", day);
+              console.log(element.innerHTML);
+              element.innerHTML =
+                "<div class='release_date_day'>" +
+                day +
+                "</div><div class='release_date_month'>" +
+                month +
+                "</div>";
+            });
+    }//end front-page check    
+        
+if(document.body.classList.contains('node-type-service')){
+  //GET SERVICE CONTACT FIELDS AND ADD TO NEW 'SERVICEINFO' DIV WRAPPER
+    let getSiblings = function (e) {
+        // for collecting siblings
+        let siblings = []; 
+        // if no parent, return no sibling
+        if(!e.parentNode) {
+            return siblings;
+        }
+        // first child of the parent node
+        let sibling  = e.parentNode.firstChild;
+        // collecting siblings
+        while (sibling) {
+            if (sibling.nodeType === 1 && sibling !== e) {
+                
+                siblings.push(sibling);
+            }
+            sibling = sibling.nextSibling;
+        }
+        return siblings;
+    };
+    let bodyEl =  document.querySelector('article');
+    let divEl =  document.createElement('div')
+    divEl.setAttribute('id', 'ServiceInfo');
+    bodyEl.insertAdjacentElement('afterend', divEl);
+    bodyEl.append(divEl);
+    let serviceInfo = document.getElementById('ServiceInfo');
+
+    let siblings = getSiblings(document.querySelector('.field-name-body'));
+    console.log(divEl);
+    let revSiblings = siblings.reverse();
+    siblingText = revSiblings.map(e => {
+       serviceInfo.insertAdjacentHTML('afterbegin', e.outerHTML);
+        
+    
+    });
+    console.log(siblingText);
+}
+
+
+
+    </script><script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script><script>
+    window.addEventListener('dfMessengerLoaded', function() {
+        var messenger = document.querySelector('df-messenger');
+        messenger.renderCustomCard([{type: 'info', title:'Welcome! I am DC DOES Virtual Agent. Please click here to get started.'}]);
+        messenger.showMinChat();
+    });
+</script>
+<style type="text/css">df-messenger {
+    --df-messenger-button-titlebar-color:  #2B4888;
+    --df-messenger-chat-background-color: #f2f2f2;
+    --df-messenger-font-color: black;
+    --df-messenger-input-font-color: black;
+    --df-messenger-input-placeholder-font-color: #929292;
+    --df-messenger-minimized-chat-close-icon-color:  #B10F29;
+    --df-messenger-send-icon: #2B4888;
+    --df-messenger-user-message: rgba(43,72,136,0.15);
+    --df-messenger-bot-message-font-color: #fff;
+    }
+</style>
+<df-messenger agent-id="4455af5d-49e8-412b-8b4f-89a740e97ff9" chat-icon="https://storage.googleapis.com/does-dc-chatbot-prod-icons/dc-chat-bot.png" chat-title="DC Dept. of Employment Services" custom="" intent="WELCOME" language-code="en"></df-messenger>    </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>    </div>
+  </div>
+</div>  </div>
+</div>  </div>
+</div></footer>
+<script async src=https://siteimproveanalytics.com/js/siteanalyze_6002505.js></script>
+  </div>  <div class="region region-page-bottom" id="region-page-bottom">
+  <div class="region-inner region-page-bottom-inner">
+      </div>
+</div><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam-cell.nr-data.net","licenseKey":"348872d504","applicationID":"496267014","transactionName":"YVYAZxQEC0EHBhVYWVgcI1ASDApcSQsOVVNpQwNUAzoTWwMS","queueTime":0,"applicationTime":516,"atts":"TREDEVweGE8=","errorBeacon":"bam-cell.nr-data.net","agent":""}</script><script defer src="https://static.cloudflareinsights.com/beacon.min.js/v652eace1692a40cfa3763df669d7439c1639079717194" integrity="sha512-Gi7xpJR8tSkrpF7aordPZQlW2DLtzUlZcumS8dMQjwDHEnw9I7ZLyiOj/6tZStRBGtGgN6ceN6cMH8z7etPGlw==" data-cf-beacon='{"rayId":"6dfaf9057ff305d6","token":"40173a06e921460ebb3fe70b55ba3d2f","version":"2021.12.0","si":100}' crossorigin="anonymous"></script>
+</body>
+</html>
