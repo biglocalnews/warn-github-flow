@@ -54,15 +54,6 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Checkout branch
-        env:
-          STATE: ${{ matrix.state }}
-        run: | 
-          git config user.name "WARN scraper bot"
-          git config user.email "actions@users.noreply.github.com"
-          (git show-branch ${{ env.STATE }} &>/dev/null) && (git checkout ${{ env.STATE }}) || (git checkout -b ${{ env.STATE }})
-          git pull origin main
-
       - id: install-pipenv
         name: Install pipenv
         run: pipx install pipenv
@@ -85,12 +76,11 @@ jobs:
         run: make scrape scraper=${{ env.STATE }}
 
       - name: Commit and push
-        env:
-          STATE: ${{ matrix.state }}
-        run: |-
-          git add ./data/warn-scraper
-          git commit -m "${{ env.STATE }}" || exit 0
-          git push origin ${{ env.STATE }}
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: Update ${{ matrix.state }}
+          branch: ${{ matrix.state }}
+          file_pattern: ./data/warn-scraper/*
  
       - name: Upload file to biglocalnews.org
         uses: biglocalnews/upload-files@v1
@@ -111,13 +101,6 @@ jobs:
         uses: actions/checkout@v2
         with:
           fetch-depth: 0
-
-      - name: Checkout branch
-        run: | 
-          git config user.name "WARN scraper bot"
-          git config user.email "actions@users.noreply.github.com"
-          (git show-branch transformer &>/dev/null) && (git checkout transformer) || (git checkout -b transformer)
-          git pull origin main
 
       - id: install-pipenv
         name: Install pipenv
@@ -146,12 +129,11 @@ jobs:
             WARN_TRANSFORMER_OUTPUT_DIR: ./data/warn-transformer/
 
       - name: Commit and push
-        env:
-          STATE: ${{ matrix.state }}
-        run: |-
-          git add ./data/warn-scraper
-          git commit -m "transformer update" || exit 0
-          git push origin transformer
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: Update transformer
+          branch: transformer
+          file_pattern: ./data/warn-transformer/*
 
       - name: Upload file to biglocalnews.org
         uses: biglocalnews/upload-files@v1
