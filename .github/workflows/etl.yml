@@ -69,7 +69,7 @@ jobs:
         name: Install Python dependencies
         run: pipenv install --skip-lock --dev
 
-      - id: checkut
+      - id: checkout
         name: Checkout branch
         run: |
             git checkout ${{ matrix.state }}
