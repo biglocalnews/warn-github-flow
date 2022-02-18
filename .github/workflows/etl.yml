@@ -69,6 +69,12 @@ jobs:
         name: Install Python dependencies
         run: pipenv install --skip-lock --dev
 
+      - id: checkut
+        name: Checkout branch
+        run: |
+            git checkout ${{ matrix.state }}
+            git pull origin main
+
       - name: Run scrapers
         env:
           STATE: ${{ matrix.state }}
@@ -80,6 +86,7 @@ jobs:
         with:
           commit_message: Update ${{ matrix.state }}
           branch: ${{ matrix.state }}
+          skip_checkout: true
           file_pattern: ./data/warn-scraper/*
  
       - name: Upload file to biglocalnews.org
