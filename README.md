@@ -13,13 +13,15 @@ The [extract, transform and load](https://github.com/biglocalnews/warn-github-fl
 flowchart LR
     subgraph Extract
     A[Scrape sources] --> B[Upload raw files]
+    B --> C[Commit to branches]
     end
     subgraph Transform
-    C[Download raw files] --> D[Consolidate into a single file]
-    D --> E[Upload consolidated file]
+    D[Download raw files] --> E[Consolidate into a single file]
+    E --> F[Commit to branch]
+    F --> G[Upload consolidated file]
     end
     subgraph Notify
-    F[Post to Slack]
+    H[Post to Slack]
     end
     Extract --> Transform
     Transform --> Notify
