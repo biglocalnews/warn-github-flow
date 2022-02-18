@@ -96,7 +96,7 @@ jobs:
       - name: Upload file to biglocalnews.org
         uses: biglocalnews/upload-files@v1
         with:
-          api-key: ${{ secrets.BLN_API_KEY }}
+          api-key: ${{ secrets.BLN_API_TOKEN }}
           project-id: ${{ secrets.BLN_PROJECT_ID }}
           path: ./data/warn-scraper/exports/${{ matrix.state }}.csv
 
@@ -158,7 +158,7 @@ jobs:
       - name: Upload file to biglocalnews.org
         uses: biglocalnews/upload-files@v1
         with:
-          api-key: ${{ secrets.BLN_API_KEY }}
+          api-key: ${{ secrets.BLN_API_TOKEN }}
           project-id: ${{ secrets.BLN_PROJECT_ID }}
           path: ./data/warn-transformer/processed/consolidated.csv
 
