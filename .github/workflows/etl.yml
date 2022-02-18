@@ -152,6 +152,7 @@ jobs:
         with:
           commit_message: Update transformer
           branch: transformer
+          skip_checkout: true
           file_pattern: ./data/warn-transformer/*
 
       - name: Upload file to biglocalnews.org
