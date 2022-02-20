@@ -4,8 +4,8 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-warn-scraper = "==1.1.15"
-warn-transformer = "==0.0.7"
+warn-scraper = "==1.1.17"
+warn-transformer = "==0.0.9"
 
 [dev-packages]
 
