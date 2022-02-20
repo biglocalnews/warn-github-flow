@@ -134,13 +134,13 @@ jobs:
             git pull origin main
 
       - name: Download files
-        run: pipenv run python -c "from warn_transformer import download; download.run()"
+        run: pipenv run warn-transformer download
         env:
             BLN_API_TOKEN: ${{ secrets.BLN_API_TOKEN }}
             WARN_TRANSFORMER_OUTPUT_DIR: ./data/warn-transformer/
 
       - name: Consolidate files
-        run: pipenv run python -c "from warn_transformer import consolidate; consolidate.run()"
+        run: pipenv run warn-transformer consolidate
         env:
             WARN_TRANSFORMER_OUTPUT_DIR: ./data/warn-transformer/
 
