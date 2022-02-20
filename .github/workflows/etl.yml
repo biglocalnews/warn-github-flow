@@ -105,7 +105,7 @@ jobs:
         uses: slackapi/slack-github-action@v1.18.0
         with:
           channel-id: ${{ secrets.SLACK_CHANNEL_ID }}
-          slack-message: "WARN Act Notice ETL scrape for ${{ matrix.state }} failed at https://github.com/biglocalnews/warn-github-flow/actions"
+          slack-message: "🚨 WARN Act Notice ETL scrape for ${{ matrix.state }} failed at https://github.com/biglocalnews/warn-github-flow/actions"
         env:
           SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
 
@@ -176,7 +176,7 @@ jobs:
         uses: slackapi/slack-github-action@v1.18.0
         with:
           channel-id: ${{ secrets.SLACK_CHANNEL_ID }}
-          slack-message: "WARN Act Notice ETL transformation failed at https://github.com/biglocalnews/warn-github-flow/actions"
+          slack-message: "🚨 WARN Act Notice ETL transformation failed at https://github.com/biglocalnews/warn-github-flow/actions"
         env:
           SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
 
@@ -190,6 +190,6 @@ jobs:
         uses: slackapi/slack-github-action@v1.18.0
         with:
           channel-id: ${{ secrets.SLACK_CHANNEL_ID }}
-          slack-message: "WARN Act Notice ETL finished at https://github.com/biglocalnews/warn-github-flow/actions"
+          slack-message: "👍 WARN Act Notice ETL finished at https://github.com/biglocalnews/warn-github-flow/actions"
         env:
           SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
