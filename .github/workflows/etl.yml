@@ -42,6 +42,7 @@ jobs:
             ri,
             sc,
             sd,
+            tn,
             tx,
             ut,
             va,
@@ -72,15 +73,6 @@ jobs:
         name: Install Python dependencies
         run: pipenv install --skip-lock --dev
 
-      - id: checkout
-        name: Checkout branch
-        run: |
-            git config --global user.email "actions@github.com"
-            git config --global user.name "GitHub Actions"
-            git config pull.rebase false
-            git checkout ${{ matrix.state }}
-            git pull origin main
-
       - name: Run scrapers
         env:
           STATE: ${{ matrix.state }}
@@ -88,11 +80,10 @@ jobs:
         run: make scrape scraper=${{ env.STATE }}
 
       - name: Commit and push
-        uses: stefanzweifel/git-auto-commit-action@v4
+        uses: stefanzweifel/git-auto-commit-action@master
         with:
           commit_message: Update ${{ matrix.state }}
           branch: ${{ matrix.state }}
-          skip_checkout: true
           file_pattern: ./data/warn-scraper/*
  
       - name: Upload file to biglocalnews.org
