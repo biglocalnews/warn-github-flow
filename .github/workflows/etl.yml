@@ -42,6 +42,7 @@ jobs:
             ri,
             sc,
             sd,
+            tn,
             tx,
             ut,
             va,
@@ -88,11 +89,10 @@ jobs:
         run: make scrape scraper=${{ env.STATE }}
 
       - name: Commit and push
-        uses: stefanzweifel/git-auto-commit-action@v4
+        uses: stefanzweifel/git-auto-commit-action@master
         with:
           commit_message: Update ${{ matrix.state }}
           branch: ${{ matrix.state }}
-          skip_checkout: true
           file_pattern: ./data/warn-scraper/*
  
       - name: Upload file to biglocalnews.org
