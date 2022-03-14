@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "4a5a53f9314a21ca400cc7fc69316cda150640d63b35435f4f15ea69669845ed"
+            "sha256": "d25900898bf0702c65885bde931dad013933f84a4a291c0fc166298226ba2b83"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -26,11 +26,11 @@
         },
         "bln": {
             "hashes": [
-                "sha256:0aaf843d1c883e18fb27c00bc6c358e7a32b506d22e9bff79ca8d4e17cc76242",
-                "sha256:8ed5ae828860d46f45d3fb7afad95cc672226a1b254dea00842c4a4f9ed302f9"
+                "sha256:86e05f29aebc99fe4bb1c5f11e8a5a5cfd3247d1dcd8d82cb3a0bc28f977765e",
+                "sha256:f0ad4509692c49ee1b5e8425c4d998fb67700e99f5d2077c70063eb8e737284c"
             ],
-            "markers": "python_version >= '3.6'",
-            "version": "==1.0.3"
+            "index": "pypi",
+            "version": "==2.0.1"
         },
         "bs4": {
             "hashes": [
@@ -176,11 +176,11 @@
         },
         "marshmallow": {
             "hashes": [
-                "sha256:04438610bc6dadbdddb22a4a55bcc7f6f8099e69580b2e67f5a681933a1f4400",
-                "sha256:4c05c1684e0e97fe779c62b91878f173b937fe097b356cd82f793464f5bc6138"
+                "sha256:2aaaab4f01ef4f5a011a21319af9fce17ab13bf28a026d1252adab0e035648d5",
+                "sha256:ff79885ed43b579782f48c251d262e062bce49c65c52412458769a4fb57ac30f"
             ],
-            "markers": "python_version >= '3.6'",
-            "version": "==3.14.1"
+            "markers": "python_version >= '3.7'",
+            "version": "==3.15.0"
         },
         "openpyxl": {
             "hashes": [
@@ -189,6 +189,14 @@
             ],
             "markers": "python_version >= '3.6'",
             "version": "==3.0.9"
+        },
+        "packaging": {
+            "hashes": [
+                "sha256:dd47c42927d89ab911e606518907cc2d3a1f38bbd026385970643f9c5b8ecfeb",
+                "sha256:ef103e05f519cdc783ae24ea4e2e0f508a9c99b2d4969652eed6a2e1ea5bd522"
+            ],
+            "markers": "python_version >= '3.6'",
+            "version": "==21.3"
         },
         "pdfminer.six": {
             "hashes": [
@@ -253,6 +261,14 @@
             ],
             "version": "==2.21"
         },
+        "pyparsing": {
+            "hashes": [
+                "sha256:18ee9022775d270c55187733956460083db60b37d0d0fb357445f3094eed3eea",
+                "sha256:a6c06a88f252e6c322f65faf8f418b16213b51bdfaece0524c1c1bc30c63c484"
+            ],
+            "markers": "python_version >= '3.6'",
+            "version": "==3.0.7"
+        },
         "requests": {
             "hashes": [
                 "sha256:68d7c56fd5a8999887728ef304a6d12edc7be74f1cfa47714fc8b414525c9a61",
@@ -302,11 +318,11 @@
         },
         "warn-scraper": {
             "hashes": [
-                "sha256:ac292a81a79feef8b30b991074b1444f2ed055d03f9a07baf5ffed7c8c9700e3",
-                "sha256:c5f050ff5593dc0d86d648d305636a0569451a2a2c01d7cf9cdc5cd4f7d00609"
+                "sha256:f099f37bbdbfd65ec50082c404f49e2a6a1fbad32b6948d439c8fe9f41b8e896",
+                "sha256:faf7f19364fcb381a7f3679ba457e80e26a091151166f3b169d7ffd8ac6e9a76"
             ],
             "index": "pypi",
-            "version": "==1.1.29"
+            "version": "==1.1.30"
         },
         "warn-transformer": {
             "hashes": [
