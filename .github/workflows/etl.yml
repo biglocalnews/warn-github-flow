@@ -71,7 +71,7 @@ jobs:
 
       - id: install-python-dependencies
         name: Install Python dependencies
-        run: pipenv install --skip-lock --dev
+        run: pipenv install --dev
 
       - id: checkout
         name: Checkout branch
@@ -135,7 +135,7 @@ jobs:
 
       - id: install-python-dependencies
         name: Install Python dependencies
-        run: pipenv install --skip-lock --dev
+        run: pipenv install --dev
 
       - id: checkout
         name: Checkout branch
