@@ -157,6 +157,11 @@ jobs:
         env:
             WARN_TRANSFORMER_OUTPUT_DIR: ./data/warn-transformer/
 
+      - name: Integrate files
+        run: pipenv run warn-transformer integrate
+        env:
+            WARN_TRANSFORMER_OUTPUT_DIR: ./data/warn-transformer/
+
       - name: Commit and push
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
@@ -171,7 +176,7 @@ jobs:
         with:
           api-key: ${{ secrets.BLN_API_TOKEN }}
           project-id: ${{ secrets.BLN_PROJECT_ID }}
-          path: ./data/warn-transformer/processed/consolidated.csv
+          path: ./data/warn-transformer/processed/
 
       - name: Fail alert
         id: slack
