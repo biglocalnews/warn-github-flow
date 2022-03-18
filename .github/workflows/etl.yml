@@ -147,18 +147,18 @@ jobs:
             git pull origin main
 
       - name: Download files
-        run: pipenv run warn-transformer download
+        run: pipenv run warn-transformer download -l DEBUG
         env:
             BLN_API_TOKEN: ${{ secrets.BLN_API_TOKEN }}
             WARN_TRANSFORMER_OUTPUT_DIR: ./data/warn-transformer/
 
       - name: Consolidate files
-        run: pipenv run warn-transformer consolidate
+        run: pipenv run warn-transformer consolidate -l DEBUG
         env:
             WARN_TRANSFORMER_OUTPUT_DIR: ./data/warn-transformer/
 
       - name: Integrate files
-        run: pipenv run warn-transformer integrate
+        run: pipenv run warn-transformer integrate -l DEBUG
         env:
             WARN_TRANSFORMER_OUTPUT_DIR: ./data/warn-transformer/
 
