@@ -23,7 +23,7 @@ flowchart LR
     H[Commit to `transformer` branch] --> I[Upload transformed files]
     end
     subgraph Notify
-    J[Post to Slack]
+    J[Post status report to Slack]
     end
     Extract --> Transform
     Transform --> Load
