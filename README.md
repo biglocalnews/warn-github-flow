@@ -15,16 +15,19 @@ flowchart LR
     A[Scrape sources] --> B[Upload raw files]
     B --> C[Commit to branches]
     end
-    subgraph Consolidate
+    subgraph Transform
     D[Download raw files] --> E[Consolidate into a single file]
-    E --> F[Commit to branch]
-    F --> G[Upload consolidated file]
+    E --> F[Integrate with current database]
+    end
+    subgraph Load
+    H[Commit to branch] --> I[Upload transformed files]
     end
     subgraph Notify
-    H[Post to Slack]
+    J[Post to Slack]
     end
-    Extract --> Consolidate
-    Consolidate --> Notify
+    Extract --> Transform
+    Transform --> Load
+    Load --> Notify
 ```
 
 ## About
