@@ -4,7 +4,7 @@ A GitHub Action workflow for automating a WARN Act notice ETL pipeline.
 
 The [extract, transform and load](https://github.com/biglocalnews/warn-github-flow/actions/workflows/etl.yml) Action runs daily. It does the following:
 
-- 🔪 Gather raw WARN Notices from all of our sources with [warn-scraper](https://github.com/biglocalnews/warn-scraper)
+- 🔪 Gather raw WARN Act notices from all of our sources with [warn-scraper](https://github.com/biglocalnews/warn-scraper)
 - 🪢 Consolidate the raw files into a single, standardized dataset with [warn-transformer](https://github.com/biglocalnews/warn-transformer)
 - ⏫ Upload the files to our archive on [biglocalnews.org](https://biglocalnews.org) with [upload-files](https://github.com/biglocalnews/upload-files)
 - 📟 Send a Slack alert
@@ -13,18 +13,21 @@ The [extract, transform and load](https://github.com/biglocalnews/warn-github-fl
 flowchart LR
     subgraph Extract
     A[Scrape sources] --> B[Upload raw files]
-    B --> C[Commit to branches]
+    B --> C[Commit to source-specific branches]
     end
     subgraph Transform
     D[Download raw files] --> E[Consolidate into a single file]
-    E --> F[Commit to branch]
-    F --> G[Upload consolidated file]
+    E --> F[Integrate with current database]
+    end
+    subgraph Load
+    H[Commit to `transformer` branch] --> I[Upload transformed files]
     end
     subgraph Notify
-    H[Post to Slack]
+    J[Post status report to Slack]
     end
     Extract --> Transform
-    Transform --> Notify
+    Transform --> Load
+    Load --> Notify
 ```
 
 ## About
