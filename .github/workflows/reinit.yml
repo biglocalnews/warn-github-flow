@@ -52,7 +52,7 @@ jobs:
           branch: transformer
           skip_checkout: true
           push_options: '--force'
-          file_pattern: ./data/warn-transformer/integrated.csv
+          file_pattern: ./data/warn-transformer/*
 
       - name: Upload file to biglocalnews.org
         uses: biglocalnews/upload-files@v1
