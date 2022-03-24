@@ -1,20 +1,500 @@
-notice_date,location,is_closure,effective_date,company,postal_code,jobs,hash_id,is_amendment,is_temporary
-2022-01-13,Scottsdale,,,Hyatt Corporation,AZ,152,755e59afca8e0c1b6f9a7cf823072f9d284d4fad42f8948431ab2302,False,
-2022-01-26,Yuma,,,Bed Bath Beyond California Limited,AZ,17,2203120c65f8a29c995cdb25bee964b6953f8b363614c21253708086,False,
-2022-02-03,Tempe,,,Hunter Douglas,AZ,111,0eff5bec2ce326aaf887daba2284b17ab491aa31acfd2a8a98e1dcbe,False,
-2022-02-08,New York,,,Peloton,AZ,52,ca4683f50a48c448a0427da016a1492ce4868f13b02e36bb34ae584b,False,
-2022-02-28,Yuma,,,Habitat for Humanity - ReStore,AZ,3,f78b7a905c4ca07193da15fa8d7b15a627f61822d3596e678d29760f,False,
-2022-03-17,800 N. State College Blvd.  Fullerton CA 92831,,2022-05-20,Aramark Educational Services LLC,CA,,0c6e5b0a165e273a0f7d6911a9e08d268a82a4b80eea483d0da4ead3,False,
-2022-03-15,Bicycle Lake Army Airfield 6201A Westbrook Ave.  Fort Irwin CA 92310,,2022-04-16,PULAU Corporation,CA,,6548ed3b12cf1cab9d45d8bcde49d0fff3230fa5e4c008b7ea2246a4,False,
-2022-03-15,Building 6100 Barstow Road  Fort Irwin CA 92310,,2022-04-16,PULAU Corporation,CA,,4d0006693affb59ed308b536181991fc678e4d6bc09a108f20367242,False,
-2022-03-18,5210 Pacific Concourse Drive  Los Angeles CA 90045,True,2022-06-30,Siemens Healthcare Diagnostics Inc.,CA,,19bcab38c9eb3a94288d1de2230ff498ff51e8c8170b9f9f8147e25f,False,
-2022-03-09,4000 Central Avenue  Camarillo CA 93010,True,2022-04-01,"Gama Berry Farms, LLC",CA,,216d7a46ebb23765fd3edea89dd4f7061044351828b34dc1da2fab25,False,
-2022-03-09,4110 Wood Road  Oxnard CA 93030,True,2022-04-01,"Gama Berry Farms, LLC",CA,,ea8b229137822e642cf26cc43d73d1eabf6c9d877e9f34b4828fa738,False,
-2022-03-21,"15400 Sherman Way, Suite 400  Van Nuys CA 91406",True,2022-05-27,"Interviewing Service of America, LLC",CA,,98c81b34f3e071bbad847f20a5cfa9856e57823db8abaf67d163caa8,False,
-2022-03-21,50 8th St  San Francisco CA 94103,,2022-04-10,Davidson Hotel Company LLC dba Pivot Hotels and Resorts,CA,,e2cad859d122de2d796f11c5f60c2a79a210bfbf1e4001ca8ce02bc0,False,
-2022-02-18,Meridian,,2022-02-16,Ready Responders,ID,1,cef36ed03a0333098fa66821159a59a4b6df0e083db40a280de923e4,False,
-2020-06-26,"2785 Beverly Road  Hoffman Estates, IL 60169",True,,"ADESA Illinois, LLC",IL,76,da81229ac01c689b2ed7527324bc92fd44281f89069b283c73a3648d,False,
-2022-03-22,"1233 North Wells Street  Chicago, IL 60610",True,,Plum Market,IL,121,e6c4749708d12f4c75a2231d770de6f255fed71a8c720c9dbfeebc45,False,
-2022-03-22,"6300 Muirfield Drive  Hanover Park, IL 60133-5462",True,,Wabtec Corporation,IL,58,7211cff8dda06ea4bbd44e1165471b8e8f8ef80d6b7df81736930f9a,False,
-2022-03-22,Cincinnati/Hamilton,,2022-07-01,Walmart Store #3656,OH,187,688aa3ea4c3344213d067d511e5a5d3697853b0a513fff69c12b3c76,False,
-2022-03-22,Tulsa,,,Honeywell Aerospace,OK,47,26ea6155ccc780248d3db29f40f5af9e74fecb9dd9e02481d56e24c2,False,
+notice_date,company,postal_code,is_closure,is_amendment,jobs,location,effective_date,is_temporary,hash_id
+2022-03-16,General Atomics,CA,,False,1,10880 Thornmint Rd.  San Diego CA 92127,2022-05-16,,2742b4bfb7be55bd81d48895747db794cc6c1d57d1576c87514b040e
+2022-03-16,General Atomics,CA,,False,1,11222 Flintkote Avenue  San Diego CA 92121,2022-05-16,,42b69c4e39d4fe2f0b21970dc3e7b55f05f636b9aab10aac600aaccc
+2022-03-16,General Atomics,CA,,False,3,16825 Via Del Campo Ct.  San Diego CA 92127,2022-05-16,,c2151d0f978edee77995673ddc3e86fba74e7a3d6dbc447f72c7e229
+2022-03-16,General Atomics,CA,,False,10,16510 Via Esprillo  San Diego CA 92127,2022-05-16,,96f5c72c5cd8eb94ebb9a1203eacc93f4afeacf5d40020202fb9071e
+2022-03-16,General Atomics,CA,,False,11,16761 Via Del Campo Ct.  San Diego CA 92127,2022-05-16,,abda87137a65b84eb010b416263833bee972e9e40c3f5b3c3846d83a
+2022-03-16,General Atomics,CA,,False,40,16530 Via Esprillo  San Diego CA 92127,2022-05-16,,438d577c4167ea3456257693e0861305617a069f559d22624278bf59
+2022-03-16,General Atomics,CA,,False,47,16969 Mesamint St.  San Diego CA 92127,2022-05-16,,b9459c7ff5fe125ac1625cca78c2c04469947abe8f80cc110f18885e
+2022-03-23,Azusa Pacific University,CA,,False,27,901 E. Alosta Ave.  Azusa CA 91702,2022-04-18,,7fc20aef50a402adc4be6b9c0381e2fa4680b68282d1f1865b979875
+2022-03-01,ON Semiconductor,ME,,False,19,South Portland,,,79e4499e7aa7bd915f4c5793d29e72dd7f3a49f28f6513dbb0cb14d7
+2022-01-11,Central Lake Armor Express Inc,MI,True,False,72,Central Lake,,,1173a1a2aa2fb180fd5940090e2a3fb5868e794be9955ca602bcf62e
+2022-01-25,Penske Logistics LLC,MI,True,False,146,Flint,,,f3088b6e98f91407665c92087aad1de4ea5305c09cf139cc1e41540d
+2022-01-28,Lear Corporation,MI,,False,71,Roscommon,,,056480cdc50be51271d8b196866ffc5e4b715e6a6226bbe75ccd5c1f
+2022-02-28,Peleton Inc,MI,,False,56,Warren,,,b002a82393e999b0069fe3a75276cbe6c9864146208b46666c41deb9
+2021-02-03,Sky Chefs,MI,True,False,334,Detroit,,,2c57ffad153ac2fc6a268d384b9f8d68512eb3eea1adfb080a6bb1cb
+2021-02-09,"Pitney Bowes Presort Services, Inc.",MI,True,False,62,Pontiac,,,1fa9ae979ac4a7239281ecb49f52f9ed68669a6589bdd3e753a86a18
+2021-03-08,JD NORMAN INDUSTRIES,MI,True,False,56,Leslie,,,2d5fe8b794ed20f6cf351f6778c427bd889a942eebdf81cc82a77156
+2021-04-26,SodexoMAGIC,MI,True,False,6,Saginaw,,,919bb3a709a7e79c0ff37746e84e7179186ec16648e581ef877fed27
+2021-05-06,Aramark Food & Supply Service,MI,,False,174,Mount Pleasant,,,bea6135df9370f37ae7f8c17ec9be2663df68a0fa66d83a9d768b613
+2021-05-11,FEDERAL MOGUL PISTON RINGS LLC,MI,True,False,78,Sparta,,,4ad8ca1c0b6c50abb59438b1eec7222b17ca882d9b4abaf4e0264b8a
+2021-06-04,"Progenity, Inc",MI,,False,110,Ann Arbor,,,f018b372f845099cc1d2b52f677ac2b47e5e81c372a943a29cd652ef
+2021-06-30,"Metaldyne Powertrain Components, LLC",MI,True,False,23,Litchfield,,,6f3dd6c099e834590cce2955de7a62d59d4acbe5b3e3fb1e870dd768
+2021-07-02,CHERRY CENTRAL COOPERATIVE INC,MI,True,False,70,Shelby,,,e41fb02b44ab8c35365c9079e015a19c16621df7c71b3e27cf378610
+2021-08-03,Great Lakes Coca-Cola Distribution,MI,True,False,131,Detroit,,,23412e03501416d5b477864bb938d9682cd19b333cfed2a21a9dc104
+2021-10-07,"FIRST NATION GROUP, LLC",MI,True,False,35,Detroit,,,7c1eec11d928b6fcf0303dad2156dbffb95f12cfd40225c38837992c
+2021-10-19,McKesson,MI,True,False,86,Livonia,,,22e924160b2b98c5e776602d7ac00e5483d02e51f7d7ddf8eefd430f
+2021-10-19,Champion Bus Facility,MI,True,False,102,Imlay City,,,70f7a3a930c93e7dd530da0881c308f9893fc05f901547b3c9e2f9af
+2021-12-01,CHANGE HEALTHCARE,MI,,False,108,Clinton Township,,,f3dbf64f1ee56107dea45aedbefce5726169fc6bcc1fe750bcf83633
+2020-01-14,"DST Industries, Inc.",MI,True,False,122,Romulus,,,1f84ae8ebe99d559095569dbeaa856cc00c9f98ed1198433714fd76b
+2020-01-21,Cameron Valves & Process Systems,MI,True,False,64,Muskegon,,,8b6144441d2d7937d1ca5d517066e60858338dca112a9c28b73875fc
+2020-01-24,Syncreon,MI,True,False,84,Warren,,,cb3b28fb8388c14b13c74544b7135ef89c35cad9502fe241917f29ed
+2020-01-27,Latcha And Associates L.L.C.,MI,,False,66,Farmington Hills,,,1bd8043a6fc90fc88700661b6116607bc78f6973845bf53d9b6b9162
+2020-01-28,Hemisphere Design Works,MI,True,False,42,Muskegon,,,e06b677ef5fff6f19a298da42fdb2a50c644f7e968baaf5be9c1044b
+2020-01-29,Gill Industries Inc.,MI,True,False,59,Grand Rapids,,,e15f13e3b80144b544305f0f854a1c6ba7ca1a6c0e0cd98a964438b8
+2020-01-30,GM-UAW Center for Human Resources,MI,,False,71,Detroit,,,242ec5d45ddabd8b56129e869750ec4b99937108fa66f01b6f7e6f0e
+2020-02-10,"Exel, Inc. DBA DHL Supply Chain (USA)",MI,True,False,144,Detroit,,,9f944edb0d753f49b09d2e95736dd469f60537baf6a2ef0666ef87a6
+2020-02-10,Gerdau-Jackson,MI,,False,140,Jackson,,,ea6fb651290bca77d0008103539459741e3137f8aac2b041a4fcb6d9
+2020-02-18,"Bear Down Logistics Michigan, Inc.",MI,True,False,110,Walker,,,00b5d313953603d072e1cdc3f2d9f95ab3f5af7bb8a0a40b419422c7
+2020-02-19,Alticor,MI,,False,209,Ada,,,f577eb7539d924e334abe605d7138583f79b01aacefc75ce9938f201
+2020-02-25,Penske Logistics,MI,True,False,121,Coldwater,,,f0d99a55f8b0b43eedb1aa5359702dfd05a4c2e8d11b7483791f2083
+2020-02-28,Peterson Spring,MI,True,False,60,Madison Heights,,,46631c07b8140791ee3bcafef073e32775038019250bc7fa8a49081a
+2020-03-02,"Shenandoah Growers, Inc.",MI,True,False,78,Shelbyville,,,f20f74ba54aeacc6b2b2f912047609d808ea780db941df3d30eff859
+2020-03-06,Art Van,MI,True,False,979,Statewide,,,9c536fb5b50bba4b0523c839686b660aa29e70db3b22b04b09bd8ee6
+2020-03-05,"Walmart, Inc.",MI,True,False,226,Ypsilanti,,,92b2c38c3a12293a1fc39a5c0111f081010b9a577016c30a190622fa
+2020-03-16,Alutiiq,MI,True,False,117,Detroit,,,56d8190a1a5d945ef57fdd139d70cb90a08ab18fe3516e3d33dd6bd5
+2020-03-20,DTW North Partners LLC,MI,True,False,85,Detroit,,,25b4214d8a03a6c00d4863fc25b058e80a8c200b37c60b726808af04
+2020-03-20,"HBF APU JV II, LLC",MI,,False,313,Detroit,,,2a9068cd6617b828f71bc2d187947796092916b03ef4fce8e236ec7e
+2020-03-19,Worthington Specialty Processing,MI,True,False,66,Canton,,,ac5364e161dbcadb0e5c58d8dd7b44e38938da53c62d44b55f5aa53d
+2020-03-23,Marriott Auburn Hills Pontiac at Centerpoint,MI,,False,134,Pontiac,,,5c2e614d722ae82d3411bacafd106fe58297337d6767c2e942833265
+2020-03-23,Rusty Bucket Restaurant & Tavern,MI,,False,260,Various,,,c32daf2aceb86164d3e161d2506eacdbbe0562814ea85bfd9baae90a
+2020-03-23,"Cameron Mitchell Restaurants, LLC",MI,,False,100,Troy,,,ff34b21ff379bd514f0e40e2f1fa19b0f65120a23178c02bacb579ab
+2020-03-24,Mann+Hummel,MI,,False,377,Portage,,,28aa8f7781c6533f34816c0c72d9a1335e446ecf3537ca2145bcd932
+2020-03-24,International Automotive Components (IAC),MI,True,False,311,Mendon,,,6f4cce3fa3d8e9eb08ad16df8b50df85af29456c1350cd6cc4bd0246
+2020-03-24,"IAC Alma, LLC",MI,,False,91,Alma,,,1000fe5d81d3a83a8d52bd29424e80c9cf5f77dd2b2dda01e85a592d
+2020-03-24,ZF Chassis Components,MI,,False,240,Lapeer,,,92134be2e1ab4a9874f57a0cc5649e0120c4e50a9a4e2ae9d5c4c940
+2020-03-26,Detroit Foundation Hotel,MI,,False,111,Detroit,,,0ac93a4f20a2d6f5cf3b277637acf5839109a768d33d19ccae468793
+2020-03-26,"Faith Plastics, Inc.",MI,,False,53,Marcellus,,,3ec6f47e39ee3039abe676ec28c23e2bd30cfdb904245333c31b399c
+2020-03-26,Bluebell Mattress Company,MI,True,False,80,Roseville,,,61dde7b1e4c2ff1f4850e7869e218d59302ccebf139993309aa366d7
+2020-03-26,YMCA of Metropolitan Detroit,MI,,False,1318,Various,,,733119bfc126aaa8244707d7a15ad39a8143f821ce2358a0847a7f09
+2020-03-24,Kirchhoff Automotive Tecumseh,MI,,False,338,Tecumseh,,,200d3d64d0a3e3d15fe1be75df570998771cd724ff147f7a8a0fe67e
+2020-03-26,ZF North America Inc.,MI,,False,60,Northville,,,5b80552929ac4c075f6ba6fe2c9d3905abe7c9bb8650162ac7c2fc29
+2020-03-24,The Rapid,MI,,False,270,Grand Rapids,,,e19419255e87d674b763d531505c5b32d1ed8789efb5d9ec5254e3f7
+2020-03-27,Jacobsen/Daniels,MI,,False,5,Ypsilanti,,,b1f08ebe0a7daf8b925cb6867b10c152b5433a3de4b9bf6a30b4d9e6
+2020-03-27,Fly Away Valet,MI,,False,24,Ypsilanti,,,1a9ef2b68b2be153d18f58cc2ce38ba9a81674849853aa086836ab62
+2020-03-26,HMS Host,MI,,False,202,Detroit,,,b2d92ea05d662847958066e7a1877ca02d602bb26fc6dc57403b93da
+2020-03-26,Thetford Corporation,MI,,False,59,Dexter,,,d78d85b2151e4f2b7e1263a11d78fc7a0ec92693bccc4874e227b7d5
+2020-03-26,MNM Entertainment DBA Art and Jakes,MI,,False,300,Shelby Township,,,a0bd3a642e6b9470f2c42744d3ed245b44ecc090072857a8f0071039
+2020-03-26,Gazelle Sports Inc.,MI,,False,164,Kalamazoo,,,9741f6fa071d73a9e817de085b2d5a6cf69cb8d182f7964b5a8569f6
+2020-03-30,Paper Source,MI,,False,27,Birmingham,,,a53337886d6eeac265d7bf2c6cb9af581fb579efe1ebcc2417680544
+2020-03-30,"Trott Law, P.C.",MI,,False,52,Farmington Hills,,,1a9351943a117f4782d4eddde48e3a01fb5536625f2ff45ed363091f
+2020-03-26,Convivial Brands,MI,,False,48,Grand Rapids,,,15e62878b17f1fdcbe2782aac8951bd8b821a9c56fda1ac3f2f947af
+2020-03-31,"Ken Garff Automotive, LLC",MI,,False,180,Various,,,185495fad2d5b6c276bed96b810f7e4eabf4eccb0e52684316840851
+2020-03-30,ZF Axle Drives Marysville,MI,True,False,800,Marysville,,,9e39f735b9d6d5df6a356ffa3ec166bbb465b21fa12177579d1282b8
+2020-03-30,"Collegiate Hotel Group, LLC",MI,,False,113,Ann Arbor,,,3bb883f1bfaad0ddc28b29cb80e3245712a8e8f83760c17294a2d665
+2020-03-30,La Grasso Bros. Produce,MI,,False,77,Detroit,,,2a7f9bd8825092cb79b65332dbfd1a5c87936ac1ab648140679af5d0
+2020-03-31,On-Board Companies,MI,,False,56,Mt. Clemens,,,5214de40e649286e4af1f0448f1759c4bef5db0333c587c16b31c85c
+2020-04-01,Aludyne,MI,True,False,115,Warren,,,fa8f11ab7746d700af1f0159c67fa15fa34fed0862a811630ce70e04
+2020-03-31,Benteler Automotive,MI,,False,160,Holland,,,be0305f12ae99139c7825d7fb1d958e8cb9aeb2cba70a034c5435c46
+2020-03-30,Benteler Automotive,MI,,False,185,Galesburg,,,66ed37075d3dca62075a28adb7e10112107bb9e80c2c6c26db8bb61d
+2020-03-31,Benteler Automotive,MI,,False,673,Grand Rapids,,,3e2b2478a2d8999ce0c520fe7c75c143a8ba3bb6fb8675897030ecd6
+2020-04-01,Great Wolf Lodge,MI,,False,317,Traverse City,,,9642f7e6c6f23972bad8b2a602bf52bf1193d1c99f8b599e17775434
+2020-04-01,Martin-Brower Company LLC,MI,,False,109,St. Johns,,,8bf8a7250fb8ed364835e1a70ee9fa32d1a3aaac5a45501a085f5457
+2020-04-01,"Trico Products, LLC",MI,,False,108,Rochester Hills,,,f5f0abb7557bd3af1bc441d75be16b99b486b29a033210b339593dcc
+2020-04-02,"Fram Group Operations, LLC",MI,,False,35,Rochester Hills,,,7fd0076bf6295d48d2eb1a36afa66aa16fcb2fa8ff9ac8395a29c3b7
+2020-03-30,YMCA of Greater Grand Rapids,MI,,False,1297,Grand Rapids,,,d75e1e19df700d713d0b341a6b9ed119086da0e6e2691a9d0eef8d3c
+2020-04-03,Barber Packaging,MI,,False,12,Bangor,,,83a4ec94b522696615d7fab10d0383c40b6cc744217c36d15de5575a
+2020-04-03,"H&R Wood Specialties, Inc.",MI,,False,8,Gobles,,,c37a3ceea1cc25075eb594689b2ff1219e84e67f495473708056adeb
+2020-04-03,"TriStar Molding, Inc",MI,,False,74,Marcellus,,,979f5963efaec998adb2c1356618055f423ac801aa5128707e2b5fd8
+2020-04-03,Maxwell’s International Inc,MI,True,False,79,Dearborn,,,5908350d234de93a4e11ea36a16a457d68e3b2b29a9751a7c5b117ea
+2020-04-03,Maxwell's International Inc.,MI,True,False,64,Northville,,,0ba68aec0232ec3577da08134a64a4f7651373c3143bfe0493098873
+2020-04-03,Maxwell's International Inc.,MI,True,False,56,Troy,,,127f7fc33143ec35d435c8f0850e551b902860872545c795ef652729
+2020-04-06,Spire Hospitality,MI,,False,65,Livonia,,,3ad46e6d37def157a44a0c3436a803c09c79279b9a73f476c5b14881
+2020-03-31,Schulte Companies,MI,,False,50,Grandville,,,70bb55ba247d63b4f81f4641f1a7794fabc0ddb9e9f7a22036e89365
+2020-03-31,DoubleTree Holland,MI,,False,55,Holland,,,3daf8c9dd8a08b3f8558f6504c270bb66c6f5090b4ce7fcb69b684ba
+2020-04-06,Fluid Routing Solutions,MI,,False,150,Big Rapids,,,fbcea907ab7dead5ee17bceee1fc147bf769c034b5060464668eec31
+2020-03-31,Embassy Suites Auburn Hills,MI,,False,47,Auburn Hills,,,520ab95c4216687c71e697d71d7f3611dce57a44e9c62cad7289fd48
+2020-03-31,Fairfield Inn Muskegon,MI,,False,13,Muskegon,,,e8da0a19778d8b564f5708a2e94e8616d604a4b33edfff940dc02fad
+2020-03-31,Graduate Ann Arbor,MI,,False,106,Ann Arbor,,,4695f42366d2b5c32fb0a94da62a261da334117e0f6d6c78b3d35247
+2020-03-31,Hampton Inn Ann Arbor North,MI,,False,21,Ann Arbor,,,295415e5e7f26b5041b8ecb1b01707187b6c1208b9fc2196d76cd9d1
+2020-03-31,Hampton Inn Grand Rapids,MI,,False,13,Grand Rapids,,,5d9437eef075e78e9115af1f5dc4b28d436da83acde24ceba3bda594
+2020-03-31,Hampton Inn Muskegon,MI,,False,13,Muskegon,,,a9918f298a6b0abd4fc3354ac8731153cdb1a765d3851ebf773c6297
+2020-03-31,Residence Inn Holland,MI,,False,13,Holland,,,c241517070187b68dd47fcdabe8ca895f1e92aacc4385c993388ba5c
+2020-03-31,Springhill Suites Grand Rapids,MI,,False,20,Grand Rapids,,,bbbec85db985af1f954c47de58e8b515a3269445ed9e0c162329dc80
+2020-04-03,Flint West 14,MI,True,False,38,Flint,,,38caa34f85a1ebf66366c8d5c8c558fca38887173fa744c22505917b
+2020-04-03,Ann Arbor 20,MI,True,False,73,Ypsilanti,,,b73804e43853ca795995f19ab359e802f4293ca83510ad0bdacfaf26
+2020-04-03,Cinemark Taylor,MI,True,False,51,Taylor,,,3d4cddad42af71b9f575157d45fb42ad0836e7328cb1e57ec1164a5c
+2020-04-06,Double Tree Grand Rapids Airport,MI,,False,95,Grand Rapids,,,86bd36bf7245c2b3c52151d37835b6a350b8e4bda000e1aeb2b22308
+2020-04-06,Americhem,MI,,False,17,Grand Rapids,,,cb853c04ce6c1e47f1c8445f6f1d6c15fa07bad1cf20fc6325e55f33
+2020-04-07,Eagle Industries Inc.,MI,True,False,225,Wixom,,,e7981bf26703f49b36c1a65daa581b81989db9ab6942d0af2052bf12
+2020-04-07,L.O. Eye Care,MI,,False,73,East Lansing,,,f0ff9486f1531f8e1343e5d166ccda6ceaa729aa975bfbebdd663b8e
+2020-04-07,Peak Workforce Solutions,MI,,False,30,Livonia,,,6deba4d2cfbc1f9b6b79289dadb90e1b0b9f037c2b601bcc27810df8
+2020-04-07,General Linen and Uniform Service,MI,,False,62,Detroit,,,0957d16c353dc767a344cd7a2fa9089c694479099fef56261a62e91d
+2020-04-08,SAS Automotive USA,MI,,False,293,Sterling Heights,,,b6a8e65f91bd4b5dc6c35bba121075a5fdc413a65244b543b5b673b8
+2020-04-08,"Vitro Automotive / Pittsburgh Glass Works, LLC",MI,True,False,125,Evart,,,3942881aaaf10ade375f1be3a1f08d9b588b00b863285f7cc42d1ac0
+2020-04-09,"Prospect Airport Services, Inc",MI,,False,132,Romulus,,,f2f199ac4adb07becd0f2e1719752affca9a02bf84b9f0fcc01d331d
+2020-04-09,Precision Vehicle Solutions,MI,,False,180,Wayne,,,0f19dc90c46bdaef38c94f31d662ec4e79b11debf526c2e23c55d77c
+2020-04-09,Morbark,MI,,False,183,Winn,,,0162ffcdce2b0df15f021e845491151ed8b1a226455d88203decbbc6
+2020-04-09,"Beasley Media Group, LLC",MI,,False,26,Ferndale,,,628a194364a2b4e168e1b5bf773bea045e15ed0eed3eb4f08efad639
+2020-04-10,"Quality Air Heating and Cooling, Inc.",MI,,False,212,Grand Rapids,,,4c449dbd27a7c755c3563658ce086dc8ddbe8a1278f4c31e9058a148
+2020-04-10,"Agrati, Inc.",MI,,False,15,Southfield,,,d2d731329dbfca1e26603f66a36283cb7907a9b4f0cd4c541a4266d2
+2020-04-08,"Pace Industries, Inc.",MI,,False,456,Muskegon,,,d80acfa3ae5ca0bcbd7b76e216f20f14f594dd144768ff4091e8f336
+2020-04-10,"Yazaki North America, Inc.",MI,,False,56,Canton,,,77d50ee9130443170b542d46cc84397e8c02f9ca115431b042c077fc
+2020-04-10,"Yazaki North America, Inc.",MI,,False,622,Canton,,,ee12e302eda874601a470115fa2df1ad7575784c8ef6230105b4217a
+2020-04-10,"Yazaki North America, Inc.",MI,,False,45,Canton,,,027b778e18e9d00969d7e43c91807b41e66413577d9afae5882621c4
+2020-04-10,Yazaki North America,MI,,False,126,Petoskey,,,a3606cd4d3ba87aababb3da01f3c66568a42f5a776c56f54efb60959
+2020-04-10,"ASC Industries, Inc.",MI,,False,5,Rochester Hills,,,5212ef28163bf18a7640a2f3e3df1de5b826eb625e204103a1f1246a
+2020-04-13,"G2 Secure Staff, LLC",MI,,False,68,Detroit,,,52603782437bb6ced897b4bfa201400fbf7708622f5e87e737c06938
+2020-04-13,Ameriwood Industries,MI,True,False,79,Dowagiac,,,2e7f364072b54ac8d8cd283f057578ed714f0a4e48850481e36ae26b
+2020-04-13,Pokagon Gaming Authority dba Four Winds Casinos,MI,,False,1489,New Buffalo,,,eb6159587ad58ae533c6d8691951370d6bc0b7cd73895074566462a8
+2020-04-13,"Hooters of America, LLC",MI,,False,85,Atlanta,,,cc8e94f160aa9a372e6054c25c18f4e62b106e6c0a496360c60a891b
+2020-04-13,"Gill Industries, Inc.",MI,,False,64,Walker,,,8866282dd570c1ea9816990d1f806f59fbb1aa09a49732a94363283f
+2020-04-13,"Samsung SDI America, Inc.",MI,,False,38,Auburn Hills,,,c05ef4cc2ccec87e6b38c476cdb175855a72016e6a37ddd9b84b7b93
+2020-04-13,Bear Down Logistics Walker East Facility,MI,True,False,24,Walker,,,efe83c58eaff3419e26770df734934a08eca28210722dd46da587833
+2020-04-14,Schafer Woodworks Inc.,MI,,False,25,Tecumseh,,,24b9d60901c5bb4e1068bcc3c85d90b7da58a6060b3d2695e7198121
+2020-04-15,Wolverine Corporation,MI,,False,58,St. Joseph,,,97f34baf87d0d3419e8738d50933ab83fcc96aef8ddc7eb5cd9ede75
+2020-04-15,Wolverine Corporation,MI,,False,12,Stevensville,,,bcf6b555877fbed1720694df0eb28a52a15b318b1bf934285a917737
+2020-04-16,The Tile Shop,MI,,False,55,Ottawa Lake,,,b07a9997e2bdbcc1703f7d99ee97f8120b5fc81244271e39eb15784c
+2020-04-17,"AVIS Budget Car Rental, LLC",MI,,False,159,Detroit,,,b3285fbb49ef0c4fbdff72bd23aaea7ede182c813d695c5136a98385
+2020-04-20,"Williams International, LLC.",MI,,False,224,Pontiac,,,6235b84ff260c91661c1747d3fa1ba201c00c7eb73bdba0992f7c479
+2020-04-20,"Williams International, LLC.",MI,,False,24,Commerce Township,,,36d73f1ac257b2798579f1dd285790972f1f0baf6ac90f29aaa7d387
+2020-04-20,Marsh Plating Corp.,MI,,False,73,Ypsilanti,,,49dd5cec5e464435d4a99fb45f2ceb2c486b37e57d04af78a69b1f1a
+2020-04-20,Marsh Plating-Willow Run,MI,,False,15,Ypsilanti,,,f19aa040b4a4eebcb23eeb21bbce2e7aaefdf0307ade6cdf0ad6c012
+2020-04-20,Finishing Services Inc.,MI,,False,9,Ypsilanti,,,02b623b70cd6b011c2a72b1e0b80eb736d78d51d0115a85ba21375df
+2020-04-20,"Avis Budget Car Rental, LLC",MI,,False,28,Grand Rapids,,,ca4511d05bad8b64cd6fd5a6c0593bec827796b69a266fc9ea639750
+2020-04-21,Tilden Mining Company LLC,MI,,False,687,Ishpeming,,,38ceb832a5eadd55aa4c4a5eabfa69bfea0cc0406a484281bb850a6e
+2020-04-21,Founders Grand Rapids Taproom and Company Store,MI,,False,111,Grand Rapids,,,bcb57bfbf69299b62a1da02ef9d4631614692552e79fc3881cd9fb30
+2020-04-21,Founders Detroit Taproom,MI,,False,52,Detroit,,,925cf8bf804f679d2e643ed980544b51c79c740671f4698cc5b1ff84
+2020-04-21,"Dura Automotive Systems, LLC - Auburn Hills",MI,True,False,212,Auburn Hills,,,3cf7816e2942b378656cf9c8e98045aee39cae6b75b52d97bdbb7b33
+2020-04-21,"Dura Automotive, LLC - Fremont",MI,True,False,118,Fremont,,,65759d1ee6e464fa90dc42b305cd646caf081e5a28b9ccd857cf37c1
+2020-04-22,Enterprise Holdings,MI,,False,114,Romulus,,,fffd6f413a30a4ab2816c1f6aa455f6a1d8bb92624b2ca18d521a731
+2020-04-23,Beaumont Health,MI,,False,2900,Southfield,,,dadae6f863c43179cb4b2726453fb42a79ff8f076c0d98194b75b99c
+2020-04-23,"Visionworks, Inc. - Taylor",MI,,False,2,Taylor,,,73a2491f3fe6cb3acf82caf4f94165f71cfe5810ad58040ad47fb6e2
+2020-04-23,"Visionworks, Inc. - Rochester Hills",MI,,False,4,Rochester Hills,,,0ca50e6efa4017b99aa50d97075a4f0e49b36ade756a70ab7cb9fdc2
+2020-04-23,"Visionworks, Inc. - Roseville",MI,,False,9,Roseville,,,3887e8fc23313c050b26f528d48033f189cf7ce459be8f73c7c3520a
+2020-04-23,"Visionworks, Inc. - Sterling Heights",MI,,False,5,Sterling Heights,,,d5304ff9835e09446ad1b3fb62f063dd94a6c5dae9f4067fee42aed7
+2020-04-23,"Visionworks, Inc. - Novi",MI,,False,5,Novi,,,8b5fa3cd7fe169b0ca3503b22eac1a76aa33927981c86594632d8e5b
+2020-04-23,"Visionworks, Inc. - Canton",MI,,False,3,Canton,,,828012bb55aebcab7e034e7dc22c449d43c171916631e96fccbf05c0
+2020-04-23,"Visionworks, Inc. - Lake Orion",MI,,False,1,Lake Orion,,,d3e9dfb6216e4b3cf57c16211ea71bf9bc70a91ee80f7a70a562c45e
+2020-04-23,"Visionworks, Inc. - Allen Park",MI,,False,3,Allen Park,,,4773fd286f6e15e71dbf52bff79668004554361d60078b1eb113e954
+2020-04-23,"Visionworks, Inc. - Ann Arbor",MI,,False,4,Ann Arbor,,,c50fb77cbd990d36dd38fd9f0dce1a541f5f138f20acc1e0e1774334
+2020-04-23,"Visionworks, Inc. - Southfield",MI,,False,3,Southfield,,,e2b28b785f7a194479ed053a36ab19f143110cb3af5f60bd8e713683
+2020-04-23,Punchbowl Social LLC,MI,,False,97,Detroit,,,eff13eb935b2adadbb94bdb8f8e69fe5a780d438cb9667235a3e4fdd
+2020-04-27,Michigan Maple Block Company,MI,True,False,56,Petoskey,,,10edc0375b3127a54ec863933cac2bd43a9a347b979e6f686a57e357
+2020-04-27,"Bloomin Brands, Inc.",MI,,False,2289,Various,,,a56dc5e2f9947ce4d1f5f486883ec114cc93e0834b99a54ad7579945
+2020-04-28,City of Grand Haven,MI,,False,74,Grand Haven,,,3f1897a4b681235fb63b661f9552521a3b59e9ef258aa14f74b77d76
+2020-04-28,ArcelorMittal,MI,,False,6,Southfield,,,ad4e976d11d44e7dddc8e774d5d6e15cb28d90f020933a7cf2e0c0f4
+2020-04-29,Country Fresh LLC,MI,,False,44,Livonia,,,d3a0ec86703d450449df16410bdedfd469e8f4d69710805426eb7885
+2020-04-30,Hertz,MI,,False,104,Detroit,,,48720de45b33e425e28ff8bfa89eaaf27272c990f4cb72186e1070fc
+2020-04-30,Aludyne,MI,,False,44,Benton Harbor,,,9237d4b439cc7dadd84f0b71579ae13d8405959562f5c9ab43d4d6e6
+2020-04-30,Flint Group Packaging Inks North America Holdings,MI,True,False,58,Three Rivers,,,9be1a6b465016456eb51b15748ff7e90fe933dfda2411946342162d8
+2020-05-04,AK Steel Dearborn Works,MI,True,False,343,Dearborn,,,876dbb2d484255b3c80d9470f40baf0ac8b470a19da92b9e1af6ecbe
+2020-05-04,GPI Midwest LLC,MI,True,False,100,White Pigeon,,,5ef7b9267e05c6b7e1b249148ae5c0a96c07023140737c26c881c244
+2020-04-30,Busche Performance Group,MI,,False,89,Southfield,,,c6b58d4431f3f9274b2023aadae738532babb7f8d54b074695d11d03
+2020-04-30,Busche Aluminum Technologies Fruitport,MI,,False,362,Fruitport,,,b0779c82235ca46f2181beeac5d651868b5f43b5eb093e39b7a3aeb8
+2020-05-05,Great Lakes Specialty Finance Inc.,MI,,False,62,Statewide,,,52adf96acde73d4daf486985fb9f0c6f0025bcc9e5600d45d1ebd942
+2020-05-05,MGM Grand Detroit,MI,,False,1561,Detroit,,,d9bd909bdc3b8ff02bea355714d9670bf0c18409564408e93347352d
+2020-05-05,"Aludyne, Inc.",MI,,False,82,Montague,,,7c6e329010ec6c64c7225bbd286b924270099156ea6ba3d999f71514
+2020-05-07,Moiron,MI,,False,96,Sparta,,,7151a626cea02c999e5e1d0032222c46c41bc4663ecb0211e9091f5b
+2020-05-07,Embassy Suites by Hilton,MI,,False,65,Troy,,,289c496ebfff00f2ba7e047d54483308676d6ee7a31cfa4d2b6a2ece
+2020-05-07,Marriott Detroit Southfield,MI,,False,61,Southfield,,,67131f7a4cac418cdf90e520726d9cda45e050931583e2bcf89ae78f
+2020-05-08,Akwel Automotive - Cadillac,MI,,False,109,Cadillac,,,1572e2f433891ea957929d460ad84a1e3baf6e46cd4d32f1fe5aac85
+2020-05-08,Akwel Automotive - Novi,MI,,False,12,Novi,,,f96fd2050f9cd502d287a5a67c3279fc505b91cb7c908849598cc069
+2020-05-11,"Sara Lee Frozen Bakery, LLC",MI,,False,210,Traverse City,,,86628d1b4659abe17412a36059a86e0e8168e9602f3d5459b357a10c
+2020-05-08,Pettibone/Traverse Lift LLC,MI,,False,36,Baraga,,,1bd1cb5ea8c47d51b95c88dc42503f22b6f46fef748c96f8dfde9e47
+2020-05-11,Atrium Hospitality,MI,,False,142,Southfield,,,8a5eb129333a75974aed529401b98d3ac5225d2c48b5d3c4962f4cc3
+2020-05-11,Cox Automotive,MI,,False,144,Carleton,,,6265bec8b46175ecb88623316f3f1c93e728c2ade11c55640a78e0f4
+2020-05-12,"Norma Group, Inc,",MI,True,False,82,Auburn Hills,,,a9c1a1b270e9cd1bc0bc517d86e53aa9b936b83178a988ffd9f63ce8
+2020-05-12,Enterprise Holdings,MI,,False,32,Farmington Hills,,,63d8e6980f4bc1e770501046efa39a51fe7927c753623a0711bab8a5
+2020-05-12,Marriott Detroit Livonia Hotel,MI,,False,60,Livonia,,,34f35c926294ba24b6db782d9dddee910d8f5ed8ccd2a4b375679213
+2020-05-11,Genesis Seating,MI,,False,203,Grand Rapids,,,8c6d5214dc9bd26c18dadbd431b9960393d090c73634586fa3f8f053
+2020-05-11,Davidson Plyforms,MI,,False,120,Grand Rapids,,,5e9c49c1973417e03bc3eaf251ef8656eb28a5a46e6e6b5428dd8177
+2020-05-18,Grand River Polishing,MI,,False,20,Spring Lake,,,3a20d062dfef521a6526bd1cf045935e11f61915684d4566aa468881
+2020-05-18,"Gill Industries, Inc.",MI,,False,84,Grand Rapids,,,7a5d972d2fe10200b62fefe32e4d5f5587dbe7a03bb8f412b1232c62
+2020-05-22,Marriott Auburn Hills Pontiac at Centerpoint,MI,,False,101,Pontiac,,,1e32dd8c9b207cc9b0f5c28973c55cb4b67ba66009ec7f0a60f5db9e
+2020-05-26,Aramark,MI,,False,83,Warren,,,045055a63546be108d72f586c29e0b41058e60b95074ff868abe609a
+2020-05-27,Walbro LLC,MI,,False,164,Cass City,,,818c07223e250d8d18a7f9a79635aec7b10025655e7adcec63f00dde
+2020-05-28,First Student,MI,True,False,87,Pontiac,,,8107605061dcb62f444681e85a3a0fcc50d3c2c7d373e72f04422aaf
+2020-05-28,The Townsend Hotel,MI,,False,60,Birmingham,,,18d220fa9cffd31896e66c3d59fc6afb6aefa1f06f1a4629272a9c26
+2020-06-01,Wireless Vision,MI,,False,37,Bloomfield Hills,,,6c305adb951908b1a0d80617217c54e63001eae50eee4e995045a6d7
+2020-06-02,Westin Detroit Metropolitan Airport,MI,,False,197,Detroit,,,5e917b35e431e9a20a4ea3e43295dad4ddc5e3cf19df0ae321f92550
+2020-06-03,Detroit Marriott Troy,MI,,False,134,Troy,,,28c46406aaaa09f8d948619d58691d933e7d0e95969628981e10dd83
+2020-06-03,Howmet Aerospace,MI,,False,625,Whitehall,,,377514f9703470aaebf359b985f7e7094cffb559f356af0b26900417
+2020-06-04,The Dearborn Inn,MI,,False,177,Dearborn,,,60d8a2bc4c584d12ddae286ec80bd29779b817799da152dcde9de21f
+2020-06-04,The Westin Book Cadillac Detroit,MI,,False,227,Detroit,,,1a992442c269dd8da4582aa3881ba7ea102ed430835adec38c290bd2
+2020-06-09,Courtyard by Mariott Detroit,MI,,False,54,Detroit,,,f5a7b32d08dabd0e4643f7d0fef9b6d191247d42979584204c7e7e2b
+2020-06-09,Marriott Detroit Renaissance Center,MI,,False,450,Detroit,,,9843db268ec8b46c439a7e8451182c9c0faad81c2e2be1dec3a9cd77
+2020-06-08,"Creative Dining Services, Inc.",MI,,False,123,Grand Rapids,,,b167a332c12056ee376babf4edca8585239159675723dc57fc65ae9a
+2020-06-15,Greektown Casino Hotel,MI,,False,912,Detroit,,,2823b48ff56f001a424a29e68c691eb36398dd86ee79ffa2d8a3dbe9
+2020-06-08,US Steel - Great Lakes Works,MI,True,False,220,Ecorse,,,d254a98345b398a53613e8f7605173ce690f8c37a6d7c4eeb82e06c4
+2020-06-08,"Glasstender, Inc.",MI,,False,,Saginaw,,,3c5ab9fe4b01ba4f531c8d5d538831b403701803ea6493420fb241e4
+2020-06-15,Marriott Ypsilanti At Eagle Crest,MI,,False,125,Ypsilanti,,,455fef1f85d76aae719cc2fbcb55d6a25c4f2affec8d25f55cfdf654
+2020-06-15,Jacobsen/Daniels,MI,,False,24,Ypsilanti,,,4dd6779a5b726d7137acd85c4420b87c2910500c8e2551e5b3ab4ca6
+2020-06-15,Continental,MI,,False,72,Troy,,,56cc0f520b94f197c40d5229cd96c0ebddbbf632a749ae2ebb94aba9
+2020-06-15,Continental,MI,,False,72,Van Buren,,,d6aec1c6fece26748d3bb70d39d51b96a4df26c55812e1815618679f
+2020-06-18,Staples,MI,,False,61,Livonia,,,7685be68ad589f611db03bf80b306a94c1326bcf40aa219a264fdd57
+2020-06-15,B.F. Saul Company Hospitality Group,MI,True,False,53,Auburn Hills,,,61cd1737c25d51c8505958eb0534ce7bbaf50b9870fb8b7fe1d2c833
+2020-06-15,"Jacobsen Daniels Enterprise, Inc.",MI,,False,6,Ypsilanti,,,3f016ca08d434d0d6461d2a57d7723d8a0f7b46baec8dd813b136cca
+2020-06-22,"Swissport SA USA, LLC",MI,,False,55,Grand Rapids,,,0fcced9f7a9d3a52ad9b6076f5d5daa28197279f6ab31c31d368fd7a
+2020-06-25,Adesa Flint,MI,,False,173,Flint,,,eca1062dbbbc06ef85414dc1f3b88e470396f85ae47e7d034ff6e192
+2020-07-01,Bon Appetit Management,MI,,False,129,Albion,,,313c8124196345c38f02642b8ce240f32623dcbbdf707a0e60ef8a2f
+2020-07-02,"LG Electronics Vehicle Components USA, LLC",MI,True,False,79,Hazel Park,,,7d99bea477a217506c5576b086e65d54164e59d99b11f2ca734b6533
+2020-07-06,McLaren Bay Region,MI,,False,74,Bay City,,,0c4f988f8afc2c135d1357e676a0233889629a8cffcbcb141b6d7c92
+2020-07-13,Delaware North,MI,,False,1696,Detroit,,,301efee3e61e0a53234e0c30c2786248714607481842c551b508857c
+2020-07-09,Delta Airlines,MI,,False,246,Detroit,,,2c5aee6cede980abecb9d88b7f4155f99c66c5210b1daa9aae642272
+2020-07-14,MAPAL Inc.,MI,,False,50,Port Huron,,,b1b6cd192a9849341b81fe1ebacc19679283fa6f24fca826d919d6e4
+2020-07-10,Hilton Garden Inn Hotel,MI,,False,39,Ann Arbor,,,d175c90d95e1751ad98e37591581d8a1893c438e51d4cf38cfc91cb4
+2020-07-16,Paradies Lagardere,MI,,False,,Detroit,,,9beccc2a8804085cb869992e976eeba90ae598998eccda210dd051e3
+2020-07-10,TownePlace Suites Hotel,MI,,False,14,Ann Arbor,,,708c869a07728101af48834b7cef4d1011e1eaed4cd19dbed0e32967
+2020-07-13,Holiday Inn Grand Rapids Downtown,MI,,False,18,Grand Rapids,,,137cf296bcda0616aed99f097661085872a5b6b5dc6b5f56c3c039dd
+2020-07-14,Amway Grand Plaza Hotel,MI,,False,355,Grand Rapids,,,452604482482d873cbd66b244c36ec22083bf81991f944672d5b316e
+2020-07-14,JW Marriott,MI,,False,144,Grand Rapids,,,8e37a10855232385c891f0659a47ff5c51ef8ec74d2927588e48e818
+2020-07-14,Courtyard by Marriott,MI,,False,50,Grand Rapids,,,c4e5a784990c8f1d5f7cd07aa9291450ba01b3058970119c4be1c0a4
+2020-07-14,AC Hotel,MI,,False,31,Grand Rapids,,,8900f3a8bc1620df7c2a7ff439785da382333e09ede4102642750f7c
+2020-07-22,Doubletree Suites,MI,,False,58,Detroit,,,3308509c92a38b0433c7c30f43c5faf907e0888d2a786e2975b89b16
+2020-07-16,"Advance Local Media, LLC",MI,True,False,71,Walker,,,1fe62b95828c0552e0ce50606e4495f7846c22a71cd7e60c34ceb52f
+2020-07-24,Marley Precision,MI,True,False,57,Battle Creek,,,136b7a839ad8f0c5ca219e1d878e45a2ab597aaca60e8d75e551adeb
+2020-07-27,Marelli Automotive Lighting,MI,True,False,228,Clarkston,,,f9542408d9141d29aab784a3ddcbc256fe52b6a43175f691f6fde7a2
+2020-07-27,MotorCity Casino Hotel,MI,,False,2554,Detroit,,,6658c8d62b54f289a0cd94c168c9c500a1db780bde53993b315a3a4a
+2020-07-20,Leadec Corp.,MI,,False,50,Romulus,,,eecb7fa82387707cb885569245dec2e94f2aa5780630928122b3db1e
+2020-07-30,Spirit Airlines,MI,,False,190,Detroit,,,5911feb76b99f392107cbcc618706850af6e35779de0f6a319b4c34b
+2020-07-30,Infinity Primary Care,MI,True,False,57,Novi,,,457f60aac45af07f59dba527c9fbfce15f079f2c4554a884e8ffe536
+2020-07-27,VitalCare and VitalCare HME,MI,True,False,236,Cheboygan,,,adb699935fd8f6b8cd1d41b9eb259b19507f3e313c2ae389a5e7329c
+2020-08-03,Hudson Group,MI,,False,48,Detroit,,,1a08015bec873e421b0b7f86de987149674a4e92e78d8c1b9f85defe
+2020-08-03,Cooper Standard,MI,,False,197,Oscoda,,,5cf148e7423c8548d9a185b29ec2d79f87e1ec938f4987ca0899bf97
+2020-08-11,DTW Wine Bar,MI,,False,6,Detroit,,,a6c3a3783882e8fb3a05955095b1c19fe8e9fe5a4937fed0801801de
+2020-08-11,"Sky Chefs, Inc.",MI,,False,102,Detroit,,,174b4ef8e057d7af4baaddfcc68c3268966011587931e362062aaf02
+2020-08-13,Maritz,MI,,False,5,Southfield,,,fd05a800b01df6b1671e9ed9716fcceb627c910e1d050c8049680e3b
+2020-08-18,HMSHost,MI,,False,82,Grand Rapids,,,642139636dd66e6b489771239a7388962acfd236b6490bcf1e617c2d
+2020-08-21,"Vetta, LLC",MI,True,False,73,Fowlerville,,,fab904adec696a91709ec98c6d1fe51328a884196583065276a46366
+2020-08-24,Ascension Technologies,MI,True,False,223,Troy,,,15753bd418326a318fabfdb408612aeea99bed2cd44f4690b084045f
+2020-08-26,Aramark,MI,,False,196,Warren,,,7219f18a3ab87929d8240a5f779264a086864b931a8857841d257faf
+2020-09-02,Orlans PC,MI,,False,,Troy,,,4f2a1fb1d7fb5357d86641767d4032de5cd376e5d2f3dce70de8d745
+2020-09-01,UAW-Chrysler National Training Center,MI,True,False,73,Warren,,,7162a7ecd21e9570caa77fa6587358b47f457d2409851dad5dfa915b
+2020-09-10,Dave & Buster's,MI,,False,111,Livonia,,,4cc26f70ed27e34b766145401f449b4c9ecbeba02044d1e35d1df567
+2020-09-23,Domtar,MI,True,False,200,Port Huron,,,b3dd706ca1427950ef2ae3c3e5e504979a266b047abb11e65829d731
+2020-09-24,SP+ Corporation,MI,,False,95,Detroit,,,b772d297dbfd8437856870d92cdfbefe62834b0e28f5bea348f9f85c
+2020-09-21,P.F. Changs China Bistro,MI,,False,75,Rochester,,,74c27e1d403e4fb4298450a9b63a7d324076cf5636d390ffe2af4fe3
+2020-09-21,P.F. Changs China Bistro,MI,,False,75,Grand Rapids,,,ab2ec0950c9273c44219c367ed80fc597077e787f691aef9a0e7fd14
+2020-09-21,P.F. Changs China Bistro,MI,,False,75,Troy,,,ff82b3388eea47437999e2bf74eca6d4e2496e75ca2919090842ae9d
+2020-09-21,P.F. Changs China Bistro,MI,,False,75,Clinton Township,,,d4d99eff8fab92c837cee708cdd0cbdc5af446be8f7a3068fb9730e7
+2020-09-21,P.F. Changs China Bistro,MI,,False,75,Ann Arbor,,,461fdb3c297bac58077f945c0068b9b869affa12017b6f38bb340723
+2020-09-21,P.F. Changs China Bistro,MI,,False,75,Lansing,,,755e0b5732ed959106fb5bf191f06e4e5bd06cc18a38be2752293328
+2020-09-21,P.F. Changs China Bistro,MI,,False,75,Livonia,,,79e850d7b771757eae37c1115bded7db357abaf29b77d3cf9a56002f
+2020-09-21,P.F. Changs China Bistro,MI,,False,75,Dearborn,,,9bd898d11714759c9e5cafd3987ec271b5584b8aca8f84980b8127e3
+2020-09-17,Federal Mogul - Tenneco,MI,True,False,121,Sparta,,,2a52c4bcdf68bb63bc97cf1d306290d108d7a5b980cf00e49018c5eb
+2020-10-02,Kroger Food Stores,MI,True,False,73,Sturgis,,,db9e4250fccaa0e3f3b07d3ecdd8c5f5602b19388eefc1120ec6a7b9
+2020-10-06,Select Specialty Hospital,MI,True,False,80,Muskegon,,,2ee60b76eb29ca278b10e610b35adf6590cef73d5855030deae9800a
+2020-10-06,Lansing Entertainment and Public Facilities,MI,,False,24,Lansing,,,0ded8e88235bdede966d1c50b8361e6efa0f05997f051bf0ab99074a
+2020-10-01,Le Tote Inc.,MI,True,False,46,Novi,,,a3bf77df53fa932199c5672b189b28c9386fe8ca62cdf0ced562f219
+2020-11-04,TPL Transition Services/Globe Fire Sprinkler Corp.,MI,True,False,154,Standish,,,61f71a650a4fee43c71de1d222c502f42ec82c3aa9f1bd25dfcbc0f4
+2020-11-16,Eastman Chemical Company,MI,True,False,75,Trenton,,,f6b1a84a1fcaf9f56aa6ade89f6ed2f9f491ca02063ff596a3493599
+2020-11-16,"Eurest (Compass Group USA, INC)",MI,,False,98,Auburn Hills,,,e6ba0bdb686ad7ba92d2b08eec1942e4ef079802d54490d47e68e7a2
+2020-11-23,Keihin Michigan Manufacturing,MI,True,False,4,Capac,,,14aef920a287c2044421fec82ba0ffb929a6f8809f9a00f9beaea206
+2020-12-07,Bartech Staffing,MI,,False,70,Southfield,,,f28152342ef0ca0bfd82aebe989fa09e6ae2233c3246c667b6534514
+2020-12-07,"Cameron Mitchell Restaurants, LLC",MI,,False,76,Troy,,,a48f668db9b6da207dfa7fa036901cad17b86d97ba5d14a2d426c555
+2020-12-08,Allied Universal,MI,,False,664,Statewide,,,14eb050c74f8e1d84ea78a69a35cb04583e70e5d87ebbc119f3722ea
+2020-12-15,Tech Mahindra Americas Inc.,MI,,False,81,Lansing,,,f638d632922d6ce27bd6a2bf50fb70512ad28614b5f62c93c087f2eb
+2020-12-15,Rusty Bucket Restaurant & Tavern,MI,,False,74,Various,,,fe8526bdd91a51f41579a9bbceaf1078bf703749c74dc20c60ef7227
+2020-09-21,Booking.com,MI,,False,63,Grand Rapids,,,104577b68c599f95bbcdd7aa0d3db46c67696f7f7ef173c78a72d7b2
+2020-12-22,NBHX Trim Corporation,MI,,False,76,Comstock Park,,,5f047fb16cfeca7728ac9796e0dceb92ec78f81c0e989c0f318288f5
+2019-01-10,Reprise Media,MI,,False,92,Birmingham,,,258ce8b97a4afe6670c874b14ee982144921c838e573c4781cb7d378
+2019-01-10,Universal McCann Worldwide Inc,MI,,False,116,Birmingham,,,666d32be1409662f738a1f29eac736f1791333aae28c77b90733e6ee
+2019-01-10,Mediabrands Worldwide Inc,MI,,False,5,Birmingham,,,a0821d931571f4d8790c828ec9127b8dd4cc5d80358c7c4fe7841435
+2019-01-19,WE Energies,MI,True,False,89,Marquette,,,54c03dc2a1101da4ed03b7f1b0c229edacafb7620db5ee2768047dac
+2019-01-29,Tribus Services,MI,True,False,87,Lansing,,,051efcab6fc07b675d953322f335c27dac0edfc905de94f082139443
+2019-01-29,Tribus Services,MI,True,False,97,Waterford,,,099c36fe6445e0c6322f2802877bd83abd1580d2a4bea8eefa696970
+2019-01-29,Trinity Health Senior Communities,MI,True,False,115,Ypsilanti,,,ef8ce2a2c8035b77c3485d5497914e5de72d64737ba93ccec620c034
+2019-02-01,Harsco Rail,MI,True,False,151,Ludington,,,b7e8c0eb598f786dcf64aa61d11957b4f33c40d22d56427b8a23aa48
+2019-02-04,Ford Motor Co. - Flat Rock,MI,,False,3100,Flat Rock,,,0a1b1c2f4e297b22bbfd8cecec6a29c979863f65d1970dfbba9b75d3
+2019-02-04,Monroe Bank & Trust,MI,,False,93,Monroe,,,604990a888faa18a7201922e7bf9028d468c9b14dd9ab2a580d38362
+2019-02-04,PPG Coating Services,MI,True,False,46,Livonia,,,881348e0092b693f0565474d52c5eb6c84ac64b089b5fa3feb0b669c
+2019-02-05,General Motors - Technical Center,MI,,False,1298,Warren,,,eada9c9b13c46fc01aa1d2cd14746d9f88f0df3fb6ade613dcdb7e71
+2019-02-06,"Dorma USA, Inc",MI,True,False,103,Madison Heights,,,d4b93bb44d6bd1985f2e89d57bcd84822213e19beb309a9232b73423
+2019-02-06,Integrated Manufacturing & Assembly,MI,,False,175,Detroit,,,7c3018c6466ee78503e202c08d3749cab09a67a9c5bae711c75bb8ef
+2019-02-19,Dakkota Integrated Systems,MI,,False,106,Brownstown,,,89f2bdcbbbf257674de27546d9667fed2bee1b5a06804b4c3b86509e
+2019-02-19,The RADGroup,MI,,False,9,Troy,,,9de06169e32447b3fd961310706cbd0cdb17501ac88e0df39f106862
+2019-02-25,Amstore Corporation,MI,True,False,145,Grand Rapids,,,f06ad0257449b8d1b1e7e60cacd959c69b672ec527411a0b5a5d288a
+2019-02-26,Target,MI,True,False,136,Sterling Heights,,,ca84135054111ac6b8377a2776bab4ff807d2e790bce7f4245e4384c
+2019-02-28,Kerry Incorporated,MI,True,False,107,Kentwood,,,4d6a81a7216dd4b1bc2f454c3493e6215959e979333f0194e4836c50
+2019-03-12,AMI Livonia LLC,MI,True,False,96,Livonia,,,dd3a0d9f47c1341dd7394d361994e3600cfb232a0c1423404c25db8a
+2019-03-12,Lapeer Industries Inc,MI,,False,160,Lapeer,,,351d18cc3fdfd464b468ba29bd19c10c58e770751fa68dfd5c419be3
+2019-03-21,Vibra Hospital,MI,True,False,89,Lincoln Park,,,90c721707b007535bcf3aec5ad56685ef2882861d5f8411155f8ef28
+2019-03-22,Fifth Third Bank,MI,,False,87,Ann Arbor,,,7d329e1745f37efe463655f3bba7c0684f35d250bcc5d9d5bbc67219
+2019-03-25,Thomson Shore,MI,,False,80,Dexter,,,5ba66955b9a83cf9f3991a1d724d6d9e52145cb8ea6c494829373f40
+2019-03-27,Kroger,MI,True,False,91,Mt Pleasant,,,4b0209c2c0c891587a659edec77732e98633c1f6273a6393f6470d4d
+2019-03-27,Detroit Renewable Power,MI,True,False,166,Detroit,,,b0233ae81e64e4b9b8b1afc18d8b7f27b9c6890a0b8637a4ded2f4c2
+2019-03-28,TreeHouse Private Brands,MI,True,False,75,Battle Creek,,,85f696cdbcaf98051f39fcb5d917ac6fbef2010cf750bccad8a5d170
+2019-04-01,Fiat Chrysler Automobiles (FCA),MI,True,False,703,Detroit,,,82da676ac6ca43164fdfcf49cce27ce0eb802a88cfbbbdfbdd5e1c6f
+2019-04-30,Falcon Transport Company,MI,True,False,84,Romulus,,,f4f1dae20702d3d129bd7d46ab1947cde6462a49bfdf6cdacf46d2b3
+2019-05-03,Amway,MI,,False,115,Ada,,,46b49044b3673ca239c9e32e3ff1292b7cb58448c5a6f8b69e870979
+2019-05-06,"Concerto of Michigan, Inc",MI,True,False,75,Kalamazoo,,,e3511e0de357aca3bd4241ac6b65730b445275baf8b8eecde44f93d5
+2019-05-06,"Concerto of Michigan, Inc",MI,True,False,10,Center Line,,,59010147d566a4b49862dfb98d0ffcf19d7d93bb19e8b1da6df8f2e9
+2019-05-02,"Concerto of Michigan, Inc",MI,True,False,54,Southfield,,,a5b43e3d87b9ce9c2f3e10abba29b0ba754ddd5024e41cc2198dab98
+2019-05-23,General Motors,MI,True,False,265,Warren,,,d0cd4c390c71667bec1496d2a9a4a3f87cfa95413f5a412c467b4f1d
+2019-05-28,Durham School Services LP,MI,True,False,86,Ypsilanti,,,812348b46aff1cd2df2b0c43856ef8a06b4c3bd2c18af0b829b3d20c
+2019-06-05,Lord & Taylor,MI,True,False,97,Sterling Heights,,,b107e54cb36349e3c5605f88b81e365a8527e75d88e9c6c53f60cf0b
+2019-06-10,Lear Corporation,MI,True,False,76,Taylor,,,fd0f522fccf2d45e7662de47f84935f87272ed49e6f9d1e2588f4463
+2019-06-13,Conifer Health Solutions;,MI,,False,65,Detroit,,,9370f84639d400f572c8a6ae4d2f85d37dab0659e6f99856eefde034
+2019-06-26,Concentrix Corporation,MI,True,False,100,Southfield,,,93e5d8509a981a841d9bd78779f260be3579323872a8f7e40583e298
+2019-07-01,Nordstrom,MI,True,False,106,Clinton Township,,,6ae503c0390293a8edfe0e4c68bb66775af334fa2b33d54284828380
+2019-07-03,"Graham Packaging Company, LP",MI,True,False,42,Holland,,,db495a29d13e2dbfaef9d04114f5826e948ce192760eeba476d9c7d5
+2019-07-24,Community Development Institute Head Start,MI,,False,49,Garden City,,,a31f1a5e6a9d2fbaaddeda8b137a87a39b3b224fb9ecbd7ec3f201b4
+2019-07-26,Alorica,MI,,False,130,Jackson,,,d689cade191c9582eb7d2e5826940b0816e03ccd7a59e1e1d38a4643
+2019-07-30,A123 Systems LLC - Livonia,MI,True,False,42,Livonia,,,c0448b0f79253c401356b16c08a6534d972ea2bc5ad7b88c13d51f90
+2019-08-05,Presbyterian Villages of Michigan,MI,,False,95,Southfield,,,1b8cdb018483250f3973926c0740b5d96c3080307dab8c0d07b31193
+2019-08-05,US Steel Corporation - Great Lakes Works,MI,,False,58,Ecorse,,,b6c97d51f842ec565c90f3bda39a3e13172e9096f8e585b734207c1b
+2019-08-16,Venchurs Inc,MI,True,False,40,Adrian,,,3b0d8bbccd0c1ad1608bf6f11b8a048eebc45960f562833b2039ff46
+2019-08-16,Venchurs Vehicle Systems LLC,MI,True,False,6,Adrian,,,1bb496b709a313b444c4774bd64b1c2e85d2147b78b02099f3eea996
+2019-09-09,Jack Entertainment,MI,True,False,92,Detroit,,,a91b7f88115c0dd482bc28c3edc11d272ea41c57a85d6360500ca26d
+2019-09-03,Nestle,MI,True,False,57,Plymouth,,,1d48f22f585ba16cfc1d29be45ad32df6251bd6e4e8cd5bbdc513a86
+2019-09-11,Amway,MI,,False,166,Ada,,,69fd4c53c4a15372d94d90e3e74cfaae772558fe40f1198e3331bfeb
+2019-09-20,Barber Steel Foundry,MI,True,False,61,Rothbury,,,fdb8d63f07099f978833457504a31d55a353bb517941a92751f0a23c
+2019-10-02,Tower International,MI,,False,115,Livonia,,,1c466e5184413373b9ab465ebed49ebb8f4b6366bab36b516ab11746
+2019-10-25,Alorica,MI,True,False,67,Jackson,,,6bf04a8750de2cccb8d05e588a1875bdf9e1387c840420bb5bb9338d
+2019-10-30,OakWood Worldwide (US) LP,MI,,False,3,Novi,,,779e763f0eecef48a1b72ed68ee812f15237206f9d53c3efcd0c97ab
+2019-10-29,Hemisphere Design Works,MI,True,False,68,Muskegon,,,fcf6e23407cb49df264851326b0819d8299e2bda795c26ff70ee1fa1
+2019-11-06,Nestle,MI,,False,7,Kalamazoo,,,573f992459a987b68230c974c653f1039b6a4cf47d1621b6e592f44f
+2019-11-12,AmCane Sugar,MI,True,False,73,Taylor,,,f58688fd5d794a93c9d8d2ce4052920c53915121941a680732c460f8
+2019-11-21,P&F Systems,MI,True,False,50,Auburn Hills,,,61a516d33342d408db1f9d6c2b1e21b4c02437224322af1e2f446f06
+2019-12-03,General Motors Detroit Hamtramck Assembly,MI,,False,,Detroit,,,1a2f1c239507ff9fdeacc27416f01e952be6826967e51248b30f6c84
+2019-12-09,Logistics Insight Corp.,MI,,False,,Detroit,,,e16e75dfbdf965a380d6bd8f21d60232996e1996b1a168786ef01a86
+2019-12-16,"Focus Hope Companies, Inc.",MI,True,False,58,Detroit,,,9b2fa19b089fa1cbe0d4a9c84a1b4c381164f53cc047e51f7cfaf0eb
+2019-12-26,Motus One (ESI),MI,,False,37,Troy,,,8cc5ae38f4b6590848f00a7cfea636fcf7d32445803be971f1a89095
+2019-12-23,U.S. Steel Corporation,MI,True,False,1286,Ecorse,,,48fcf80b862a782f6d90f3ad094c03e3194f762fbc15fcf14c47b5b2
+2018-01-11,Sam's Club #8137,MI,True,False,172,Lansing,,,60ed1cce1e4348255f89cbf2723d0a2ebb2c5139f7217f6167c858f7
+2018-01-11,Sam's Club #4812,MI,True,False,158,Farmington Hills,,,52bed7eb8a1882bd936bf4fb63fe2121efc7dae2e202af944cbe36d7
+2018-01-31,Bosal Industries,MI,,False,142,Ypsilanti,,,56f092f5fd3a743f1b9c0320519415227b5332a1b391e1f7699cdbc5
+2018-02-05,Elder-Beerman,MI,True,False,10,Adrian,,,a74cc29f5abb34e4fad0986b7c33e9efeb58e8cdeb1da2248478c329
+2018-02-05,Carson's,MI,True,False,50,Benton Harbor,,,938848a341c3eac381c3b7e09e6390b69eaf866f505696553a69a6b7
+2018-02-05,Compass Group,MI,True,False,396,Statewide,,,b84698199e5507334e7bf1f1995e441c735dd73b24335fbea5d2f31d
+2018-03-05,Integrated Manufacturing & Assembly,MI,,False,127,Highland Park,,,b54f9c8660af4617aa53ab8e583d91258d25677b5f68e9c8102b765a
+2018-03-08,"Quest Diagnostics, Inc",MI,True,False,57,Troy,,,4bc3206ee81962b30913456c5a87a99838f403e79e9c0bb98a8c93c8
+2018-03-14,Envoy,MI,True,False,114,Detroit,,,df43cc020e889fe0b6e8b1a7855cff039cb439a34217f0c6e2626cca
+2018-04-02,Live Nation - Filmore Detroit,MI,,False,180,Detroit,,,463c8ec771a604b5866f3c88d0ddc85fede14b64c195492b92adaeb7
+2018-04-09,Younkers,MI,True,False,70,Grandville,,,f1bdf6365771e20af66afae36958a3ee8a8c8c766fe0e70fffc48939
+2018-04-09,Carson's,MI,True,False,204,Livonia,,,f411d82401300be48fcda7bad4ba9ff2c12c81ad9453472b7eaa209c
+2018-04-09,Carson's,MI,True,False,130,Rochester Hills,,,92f271cc43c8c908f46ae9a45685cb4a34f88f33ba794dc6e8ca7e25
+2018-04-09,Carson's,MI,True,False,191,Clinton Twp.,,,1d3f833f76a7e8e3350dcb288ed3eff34f27573a90e95444338ed877
+2018-04-19,"Trinity Services Group, Inc.",MI,True,False,307,Statewide,,,053cae8820835626b2e7610982bc4f485be3b4c1ac16d1045b9bd153
+2018-04-23,Izzyplus,MI,True,False,72,Spring Lake,,,3d6fb375cb5ce86e97116af61a7708a2f16e9524bedbf22c1b31b74c
+2018-04-19,Carson's,MI,True,False,10,Fort Gratiot,,,57bc6898e8e750d616cdb927c7c2182b8a9294fa6b8d35eed78c8d4c
+2018-04-26,MB Financial Bank,MI,True,False,406,Ann Arbor,,,e97c09a9d7e47ccf51732c8a962c8e749b32fa61a0d8310891cfaceb
+2018-04-26,MB Financial Bank,MI,True,False,63,Milford,,,527934d6eb7c3e8ca63d1e022f2f56b2c134d2249d81463a903f5499
+2018-04-26,MB Financial Bank,MI,True,False,25,Farmington Hills,,,88a7f185daa5624f0daf399a231b2b52aae83dd3ca95d88250f984ae
+2018-04-26,MB Financial Bank,MI,True,False,25,Northville,,,8748c2d59d0f030a41ee6822914e9fc16a511d6103f90dc12f4acf52
+2018-04-26,MB Financial Bank,MI,True,False,25,Southfield,,,7329e09b3106c05a379e416ebc36e654916c3575670836c614142237
+2018-04-26,MB Financial Bank,MI,True,False,25,Taylor,,,85a4bf5651c797e3c7460f4d825752056962be41616c52d827045223
+2018-04-26,MB Financial Bank,MI,True,False,25,West Bloomfield,,,1e8517f034fd5921a7757f47613ee451a59d616de29e8bd8ab88d028
+2018-04-30,New Center Community Services,MI,True,False,66,Detroit,,,4538835282f2be917a3004dd75b945d7291a9c3aabc01925624eabe4
+2018-05-03,Sodexo,MI,True,False,34,Detroit,,,246de25a001fe60321d1c498a859e2d77334b24ce5d809e4bab92fc4
+2018-05-22,Microline Technology Corporation,MI,True,False,63,Traverse City,,,00ba27ba8227590b07daa42780cacdff92612ed0d6678d346c489836
+2018-06-04,Edwards Brothers Malloy Printing,MI,True,False,140,Ann Arbor,,,34ffb315ae0c134b635d16db6429c785c9600d78c6a60a9e68fe9daf
+2018-06-04,Edwards Brothers Malloy Printing,MI,True,False,142,Ann Arbor,,,a37140058bf35477e056e13711cf9e92880dbb6e2ab0e77e0eddb1a3
+2018-06-04,Gardens Alive! Farms,MI,True,False,295,Grand Haven,,,2d510bcd9f0f9c7c2012fcffc1f7ba8ec664c8740afd359745939941
+2018-06-08,SMART,MI,,False,318,Detroit,,,799f90210cdd85e9540badd7f1908d363a0c8e0c475a46060acfcaae
+2018-06-20,Country Fresh,MI,True,False,85,Livonia,,,b131e22cf724f99a03fa602368e723d40ed19486248d13bb884816eb
+2018-06-21,Teleperformance USA,MI,,False,91,Grand Rapids,,,f8760a56b0966f6462431e9c5ace870d5d81c59f0c6017b75b4450f3
+2018-06-29,"Dream Center Education Holdings, LLC",MI,True,False,116,Novi,,,60b4ba4091ad688187c8e62c94bbb6fceb75e39ccfd03e832a59c5c5
+2018-07-30,Kellogg,MI,,False,70,Battle Creek,,,611a96fd13f16aeb5682b3ccbdf7c637a0d092b4bc7f595ab06a9259
+2018-08-01,Charter Communications,MI,,False,51,Walker,,,d90bfadc23a7c69d4ba33aabc0beecc92e2cfa632526e2e2f75b2388
+2018-08-06,Charter Communications,MI,,False,60,Livonia,,,b8a15898947678c7432519bd48f0183ffa2d9a9d4b3f00fd528a634e
+2018-08-27,American Red Cross,MI,,False,284,Statewide,,,b13b54ba02c1ca524b62a2ff8c8b9e0f5cbc2cf61bb9524bf0f6d891
+2018-08-27,Polly's Country Market,MI,True,False,49,Dexter,,,ebb0df07e9bcc33f11add060a71d388093f4e4fe830ff933bc8ca301
+2018-09-07,Great Lakes Coca-Cola,MI,True,False,102,Kalamazoo,,,e54e79609ebdfa27825040cf43a75925d963b4d7fb173c15ae8cdf9b
+2018-09-14,Menzies Aviation,MI,,False,189,Detroit,,,f368a796f71aa52d867b67d62b9c39219ef539c6336fc0bfdf758810
+2018-09-19,LenderLive,MI,True,False,56,Madison Heights,,,31b2e072a51e9875bf35b760fa5b3387a216e52b9652ce2a3195edaf
+2018-10-04,StateFarm,MI,True,False,62,Livonia,,,323278ae52bd819c300c6c8595e8d53981b64d0afd5cfcb48b3f02ab
+2018-10-08,"Spectrum Industries Decorative Finishes, Inc",MI,True,False,26,Kentwood,,,9f8dbf1982ae10c1e3f49f5c4dc0bbdb204d9fcadc5cb65f877de76d
+2018-10-16,Ernest Industries,MI,True,False,70,Westland,,,80579cb57dbb80fb16fd5fbbb4a6df7ee818ab30e77fce566562da0c
+2018-10-23,Professional Educational Services Group,MI,True,False,18,Caledonia,,,50931c08eeb88f99639497d3e7a8022f49131bd0e85b1a23da0f192e
+2018-10-24,Bays Bakery,MI,True,False,50,Detroit,,,5981795707da7d62d9dad65b53da85f8d56480b66d1f98bf9a0a81f6
+2018-11-05,Lowe's - Store #761,MI,True,False,129,Burton,,,da3dd7b8168a73436b904bbef1c8a48502ec5c3140f04b24c482caaa
+2018-11-05,Lowe's - Store 669,MI,True,False,107,Flint,,,a1b9c41b0f98d22c235c5d3f835332c4d5a9afb78f6b0dfbe88440ba
+2018-11-05,Aunt Millie's,MI,True,False,74,Coldwater,,,ac7664414241796856b331673c47a96f8405fb1af15dd36a871e2b62
+2018-11-27,Hard Rock Cafï¿½ International,MI,True,False,60,Detroit,,,6104ceaf07b9728dd980205778b4ddb697f9ae5c43cee1788d106284
+2018-11-29,Alphi Manufacturing LLC,MI,,False,60,Jonesville,,,0dc61571ea817cadae407789b7841ebc2751a499c9fed075b833b00a
+2018-11-30,Cracker Barrel Old Country Store,MI,True,False,135,Kalamazoo,,,293bf6e229e0f414621e0a024192a3e215d1dc25e5ce2f28d626aa17
+2018-12-04,Alutiiq Professional Services,MI,,False,25,Flint,,,81b8ca999b4f90374cfaea6e00f670cc2af01e46f9d4837344611f08
+2018-12-05,RCO Engineering,MI,,False,68,Warren,,,8340017aa544bb6dabd29a599deaa86d8deb90bcbfb457db30041f2d
+2018-12-17,GM Detroit Hamtramck,MI,True,False,620,Detroit,,,2fecf235a129c6166427ece3bbeb7ab629810da2e5249bd09e0a02c6
+2018-12-17,GM Detroit Hamtramck LOC,MI,True,False,44,Detroit,,,026052f91b342a991a06302ff52da0cf74c4a252d0dfd1a98705ad61
+2018-12-17,GM Brownstown,MI,,False,50,Brownstown Township,,,2b76dac204e7a2aaa51c724abcde90d87c7d0bb3a04db5d36d2587b4
+2018-12-21,Adient USA LLC,MI,True,False,212,Charlotte,,,b102eb6cc9275d0cf89691af31ed5b1c8ba16c0968fa14780954199d
+2018-12-21,Bosal Industries,MI,,False,58,Ypsilanti,,,2640b1f4c07fdc9a5378925f9ac9fa7af26b7703dc3e65c99f4159c2
+2017-01-04,American Seating Company,MI,,False,80,Grand Rapids,,,f15b03f198b0b3f69cfa5ae843da08a9168c5b70e47ebc0b08ecd258
+2017-01-05,Macy's,MI,True,False,70,Statewide,,,17e575dae5f33b5f94762a6da3698939f4e1d1a68ab937640e92744b
+2017-01-05,Sears,MI,True,False,84,Statewide,,,72aaef5b8faac8d0d5755cbc8ec37ced428e9a2bdeedf6222630a3a0
+2017-01-05,Kmart,MI,True,False,194,Statewide,,,e13eb5a70623a0b5e10cc6232d4853f2f03288cc99c32cf2d47b4321
+2017-01-09,Focus: HOPE Companies Inc.,MI,,False,120,Detroit,,,8b468ec515a5bb7f280edd71042e9fc9f137edfe6fa5028a474a00e2
+2017-01-11,Weir Delta Industrial Valves,MI,True,False,56,Niles,,,a76cb06850466327282945a9d82bcaf2f78d2e88ef16e011ccf31421
+2017-05-26,Kellogg's Detroit Distribution Center,MI,True,False,211,New Hudson,,,31e3cf5122126e570fede984118559eb76e2123cde98aae49c708e9a
+2017-01-25,Android,MI,,False,10,Detroit,,,0ac1b867cae6883267b3f06157ab9d63b3345b70451d7b064cc2e7b4
+2017-01-26,Yanfeng,MI,,False,321,Monroe,,,c46146d3d93731a9c3a9e6c4fc0be76026684bd6949189d8836cc429
+2017-01-27,"Inovalon, Inc.",MI,True,False,118,Lansing,,,a9546636c594f9937a056e9c3a359b9f10ad116f0739c232147850b1
+2017-02-01,Alamo Drafthouse Cinema,MI,True,False,109,Kalamazoo,,,8d03fe7344cd7e985cd4ab7c3dac38d57e794bd2a2cc9afbc0cfe6f6
+2017-02-03,International Specialty Tube,MI,True,False,114,Detroit,,,37aba3d3362eec1f9afde79c6655e85731f6d340cfd1af0c3ba4a7b3
+2017-02-06,"Penske Vehicle Services, Inc.",MI,,False,166,Statewide,,,4a2c0f4b3049ba0e374a080cf613e4e38b7ccb8c90735ce75e2ef061
+2017-02-08,MC Sporting Goods,MI,True,False,250,Grand Rapids,,,7a4aead0e2ef6351fcddb52dd9db2fc944af9aa436bdcb52c52deb63
+2017-02-17,Yanfeng,MI,True,False,285,Delta Twp.,,,e94f8535deaca27f336325ff2a49262f6b43f0c337101f1be7a407b2
+2017-02-22,Inteva Products,MI,,False,160,Adrian,,,ae22eaadea818a8e2f8c40e3a4703d6de3664a4dc0d23d5f437e458b
+2017-02-24,Family Christian Bookstores,MI,True,False,170,Grand Rapids,,,cf44b38d05049c2470deca1bfb84aee3fa973bf96de89e51001e56a5
+2017-03-06,GM - Lansing Ass'y (Delta),MI,,False,1146,Lansing,,,950ded6dda75a21322ca65ce41203f69fc9bdc45e893d61fad083870
+2017-03-07,Miner's Inc. (Super One Foods),MI,True,False,75,Escanaba,,,076f5852f0252cbc0ec5de9c7e514e1d40b37f3c483ed3eb0afee4db
+2017-03-15,AT&T DSL Care Center,MI,True,False,53,Detroit,,,f7b4b2dae88b75c9a10dddef6bb8a7c205e3f30ece88e4f09a619626
+2017-03-16,Civil & Environmental Consultants (CEC),MI,True,False,8,Novi,,,f6b380ecf02c0c03ed684d9fa8bc5abb4bacfada2d84e36248e1e3e6
+2017-03-30,Suniva,MI,,False,59,Saginaw Twp.,,,fa9eec6368b016ab4bde40781ee0085757e4f7253415e576c6b8935f
+2017-03-31,RevSpring,MI,,False,52,Wixom,,,a31dea4a5e52a15fa5effa3316aa7112d07db071c570bba95aa5b625
+2017-04-03,A123 Systems,MI,,False,55,Romulus,,,6811a40225fc7c8ff606787f8b8a49a77175ae2025d2cd8cb1c9436b
+2017-04-03,A123 Systems,MI,,False,75,Livonia,,,8d9cb801e97528a4a8316cc1b053df79a2340b94c205b169ae9ae5ef
+2017-04-03,Sodexo,MI,,False,52,Detroit,,,df7cae1e979655c03c6be06755babfc39fa3f6e27701dbd75638e555
+2017-04-03,CEVA Logistics U.S.,MI,,False,188,Redford,,,f2d608491b056b6fa88d8ab8abe88567bd4318cf525ba195a81ab95d
+2017-04-03,Dollar Express,MI,True,False,185,Statewide,,,6833fec59d420185f8af6c11cc3414872d2aea3f6e88633e88b29ea3
+2017-04-24,Linear AMS,MI,,False,40,Livonia,,,5b927b600f1a9d9bb765893d20a65bb4b1dde2330f8d347725a7eb61
+2017-04-25,First Student,MI,True,False,61,Flat Rock,,,187a830144a0a65571fca72b4c93be01b652c4500767ffa83b0db53a
+2017-05-01,Woodward Academy,MI,True,False,65,Detroit,,,aa429147c0cced73aa1b585354882b4960d91d22505cee31fdba19ac
+2017-05-03,Sun Pharmaceutical Industries,MI,,False,25,Wixom,,,404ae52a2a2b0c1df9705c9b489061ec983afb9b9a5ec82457e1e01c
+2017-05-12,Huntington Bank,MI,True,False,115,Holland,,,7eb5b056ffc36b6b54796e7ca4396e3a97424da854644f8508ab4656
+2017-05-04,Durham School Services,MI,,False,118,Southfield,,,7b85800bc6ba0a6e40d37327b9294dffd1c7f3bcfcac556e1b50add4
+2017-05-23,Comcast,MI,True,False,72,Wixom,,,ca455aa54a913e532ee7b2c401bce6d7619c9bda74016ce1ab8ce4a2
+2017-05-26,Durham School Services,MI,,False,0,Romulus,,,a94d6282295e1797eddd58353d9327581dc3d9c85b0272ff01ed9954
+2017-06-01,B&B Bachrach,MI,True,False,5,Auburn Hills,,,61ab373d64ba080491a817ce2fb1896f71498bfabc75b8c737524d29
+2017-07-03,Dematic,MI,,False,204,Grand Rapids,,,0ab5e0c2c2be9819be526cdd581a761d503a722145cab2bbc06145c7
+2017-07-03,Fiat Chrysler Automobiles,MI,True,False,82,Detroit,,,264f05952b6653a28e3bb4096c9fb84e642105d62c7d1ab4a174ee1e
+2017-07-20,Kindred Hospital,MI,True,False,145,Detroit,,,f7e36956b7504ae652430247c2e975bd115dd6ce6da67479900a4694
+2017-07-31,DEX YP,MI,True,False,108,Madison Heights,,,e1fb4621bc3f2ecfd8f0deeda678e3c1552b439844a743013fe3d033
+2017-07-31,Adient USA,MI,True,False,129,Auburn Hills,,,f0da6886b9ce9f13a7746bb75a044cb74a8014c5c5ec635d8a64d67d
+2017-08-01,Molina Medical,MI,True,False,120,Dearborn,,,0629b366c6ea7d63638c2b649d84e03a51330e1e509240d3ebf5f2b6
+2017-08-14,Great Lakes Wine & Spirits,MI,True,False,101,Petoskey,,,1d6193d56022813605e7312f67256e84d4d75a8dc682eb64c899e8f9
+2017-08-15,Dairy Fresh Foods (Detroit City Dairy),MI,True,False,180,Taylor,,,e96670fff15e9566f6bccf184afafb4fd981b9399fc2f914fa8c2e8b
+2017-08-22,Genpact,MI,True,False,104,Farmington Hills,,,f28b07814af18692a040521060aaa76fdf2e48d1b58bc7ea84316b64
+2017-08-23,Arvato Digital Services,MI,True,False,72,Farmington Hills,,,348727d8072e41fc66920f218ab9c41ecbd540fbb370e58aec337a73
+2017-09-18,People's Bank - National Mortgage Business Division,MI,True,False,62,Southfield,,,c57c2dd0e1801a82725501a2bd55655c5766e28b0be37373942c0670
+2017-10-04,Thrift Books - Detroit Processing Center,MI,True,False,,Riverview,,,30c7a1d180176348ad626b15c64cfc73ba1ffcc26d2c28785d1d7f9e
+2017-10-16,Home Rehabilitative Services of Michigan,MI,True,False,113,Commerce Twp.,,,d85c6348cc8a42041ebd495952c7caec7ca94f5dfaaad75f1a8e2103
+2017-10-11,Automotive Components Carrier,MI,True,False,60,Flint,,,3f250bebff1540774ab63158a51e0776f0b4a0c8b75e442024a28f83
+2017-10-31,Southwest Solutions,MI,,False,,Detroit,,,1b3194013d0c117980961b6fe71cde7329429f499eb945ce3acbbef2
+2017-11-07,Zenith Education Group (Everest Institute),MI,True,False,70,Southfield,,,a6fe2ffa4c818f7316cac4e52efb61bb0c463618edd0d2946f5d8406
+2017-11-27,Yanfeng,MI,,False,345,Highland Park,,,49ea8764724aff33e698e907c68f7fdbe44e360e7f13645441e4c906
+2017-12-07,Datapak Services Corporation,MI,True,False,61,Howell,,,3a26c5213e9972a2a98fb2cf5e9ef042373c6c642f2c1748930173a4
+2016-01-07,Dematic,MI,,False,305,Grand Rapids,,,d3ed82f8af6b2b20a39d5b1807948d82a89906f9e0e8060876580ad9
+2016-01-11,"ViSalus, Inc.",MI,,False,87,Troy,,,2a6c7e8635ce845447ae9fa1457824ece1d2ae1296f46d52c3c49c80
+2016-01-12,Minacs Group,MI,,False,385,Farmington Hills,,,da25331febf6912ff565133f7ed7cc5643e3a2d5639d8f972b08c2da
+2016-01-15,Sam's Club,MI,True,False,122,Waterford,,,b67bbad9c5c70a024d6904c5c8321bb978c28cf97d0f723387578b69
+2016-01-15,WalMart,MI,True,False,0,Hartland,,,092a0c89781adec510f8a19c68eafc97be0a354827148b69aa173488
+2016-02-02,McLaren Medical Group,MI,,False,63,Statewide,,,3c03d52f5007a67e97858f3a6bfe17b2ce3a5a93c88f96568a79bc20
+2016-02-16,Bronson Precision Products,MI,True,False,125,Bronson,,,eb8ef3d1b3793f7202b8e0840eaba3879623da41f7bb63dbed91df1c
+2016-02-26,Grand Rapids Plastics,MI,,False,85,Grand Rapids,,,11c3e83a1e0e19a00428a228946c0590081f34e1fd6ff2e5745693f7
+2016-02-26,MidMichigan Health - Gladwin Pines,MI,True,False,85,Gladwin,,,859bac2084595a8d7964ce84fe0996d66001dc3b14fea4d95b33aa7f
+2016-02-26,MidMichigan Health - Stratford Village,MI,True,False,143,Midland,,,8b962bb93e769f5cb67acc20a0bdc5f18f72f692389b5e464dd162ef
+2016-03-03,Maslow Media Company,MI,True,False,1,Detroit,,,c3aa834fbc8ccca2131a3929013f1f42465661c96b557490f3f1c9b2
+2016-03-07,WKW Roof Rail Systems,MI,True,False,160,Battle Creek,,,fa0a21663c54863c91758d7886f24d408e2e30456f98eada24ea7fa7
+2016-04-07,Fiat Chrysler Automobiles,MI,,False,505,Sterling Heights,,,f70254acb15a17784e9eed59510b53721c73ac4a6677701f9c4cc83b
+2016-04-14,Cliffs Natural Resources,MI,True,False,318,Palmer,,,0115146d0e6c51400d1860fb5e1ee6bbbeee28997d885d42ab53b505
+2016-04-27,Faurecia Interior Systems,MI,,False,217,Sterling Heights,,,88ddcc7d4985a7f653ad28c1d01c4dfd9b2e8c1454ecef80debe8999
+2016-04-27,"Precision Motor Transport Group, LLC",MI,,False,24,Okemos,,,8781dddd236a431a6c9a6d0c5c64b0de27219d9631a67133d21b6ba5
+2016-04-29,Faurecia Interior Systems,MI,,False,47,Fraser,,,e1a6a6ec4bce5eb810c96af50bb40f0a8acbd064f238840a82d2b622
+2016-04-29,Faurecia Interior Systems,MI,,False,193,Fraser,,,f795e8cd473806d431d65428c9d20cb1d310f1d5cc7d100aba120a5b
+2016-05-03,Sodexo,MI,True,False,99,Rochester,,,d672fba003802cb07032d8730f4bcd5a8ae454e5af39824be74bfced
+2016-05-03,Ryder,MI,,False,160,Trenton,,,a059eea70ac9e193f5ced6e8adeae37717e9cd6a9a17b97f9d5bd891
+2016-05-06,Enviro-Clean,MI,,False,94,Troy,,,b3d78af2cee02ce27367b564acd5964292ad3008d95ac4ffb22a3e08
+2016-05-16,McLaren Flint Food & Nutrition Service,MI,,False,22,Flint,,,5a8d8fe783fd63a03585f1813c32f20e385b73e7fb6eb437b2a3b5f8
+2016-05-18,Bosch Emissions Systems US (BESU),MI,True,False,150,Kentwood,,,b2c9c57d167eef7882fa3c07a95e59c8374d58b5b056e60db6a8d3b3
+2016-05-27,Alphabroder,MI,True,False,92,Niles,,,f58b4fc3d18695fed4e48d8abd52d0bfb3d5c8256494e34883809d0f
+2016-06-01,Xalt Energy,MI,,False,100,Midland,,,f0e62cb78e72837fc2cd8874895c29b4094acd721ec575798af5b78d
+2016-06-01,Turning Point Youth Center,MI,True,False,120,St. Johns,,,8c84cbd36c3523e0c48a0cabacfd86afd9380a0d302fb44a3fa73e13
+2016-06-16,Frank W. Kerr,MI,True,False,60,Novi,,,5f319375d6bf6e9b71f1ccd312c924c42550cb1887f6134f1327baa4
+2016-06-28,Dow Chemical Company,MI,,False,700,Midland,,,ab89e4ce64acfd8a563db7385610f0898806b1b2b5427d5bdaad71f7
+2016-07-01,Martinrea Hot Stamping,MI,,False,68,Detroit,,,639cd189515579bfbd89a1166366addbe4c1206ec972df78f41e66af
+2016-07-12,Zelenka Farms,MI,True,False,300,Grand Haven,,,68a55698b27930a11c9c2804f0503b51a029f9dd19db2a7da35fc22a
+2016-07-18,PAE,MI,,False,58,Wayne,,,511ba1db4b51c38de6a26347db08d3b483ead4d31cace3bbe84f1c82
+2016-08-19,Dialog Direct (Nova 1),MI,True,False,106,Grand Rapids,,,69bfddfb6e6e0cd8ffae228463ebd52822260ca8e4256ee0834b0329
+2016-09-27,"ADP, LLC",MI,True,False,79,Ann Arbor,,,177baeebb778a612c0100004214b4d9627d2d67cb00eedaf57ea4e6d
+2016-09-27,Midwest Medical Management Services,MI,,False,0,Dearborn,,,74c9b2d8547c14a5262e34ba583fecaffcf8b8dfa45184fb4697f444
+2016-09-27,Midwest Medical Management Services,MI,,False,0,Detroit,,,d2f27e7f69f11d91527f857a36c28c238625080edccb6b78aa2de630
+2016-10-10,Faurecia Automotive Seating,MI,,False,98,Sterling Heights,,,a25fc5de7eaa8c0573e3669f72eba4bb70d38d38f764919c1b934268
+2016-11-07,Experience Works,MI,,False,,Statewide,,,9171703525089b250c3ede1e47fcf24eda87b6bf83c4a1b6bcfa0fe5
+2016-11-09,GM - Lansing Grand River Ass'y Plant,MI,,False,443,Lansing,,,aeb527005dd6b9bdf2edb6774e0ac3d1579466fba46eec936a2fc03e
+2016-11-09,"GM Subsystems Manufacturing, LLC",MI,,False,24,Lansing,,,4b065032b68898556c25771128fe602b3c322b661a86514361f2ab7c
+2016-11-30,Comprehensive Logistics,MI,True,False,144,"Lansing,",,,dc6a71832cbc6b2d0ec6fbc2578e99a19f76566efdfc9543731d98e1
+2016-12-19,GM - Detroit Hamtramck Assembly Plant,MI,,False,1270,Detroit,,,eb38404a323033cc165b86b9e118cae03a55c270bb28671f929e4bc3
