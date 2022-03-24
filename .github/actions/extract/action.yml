@@ -15,6 +15,7 @@ runs:
       - id: install-pipenv
         name: Install pipenv
         run: pipx install pipenv
+        shell: bash
 
       - id: install-python
         name: Install Python
@@ -26,6 +27,7 @@ runs:
       - id: install-python-dependencies
         name: Install Python dependencies
         run: pipenv install --dev
+        shell: bash
 
       - id: checkout
         name: Checkout branch
@@ -35,11 +37,13 @@ runs:
             git config pull.rebase false
             git checkout ${{ inputs.source }}
             git pull origin main
+        shell: bash
 
       - name: Run scrapers
         env:
           WARN_OUTPUT_DIR: ./data/warn-scraper/
         run: make scrape scraper=${{ inputs.source }}
+        shell: bash
 
       - name: Commit and push
         uses: stefanzweifel/git-auto-commit-action@master
