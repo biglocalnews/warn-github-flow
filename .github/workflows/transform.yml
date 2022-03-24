@@ -1,0 +1,23 @@
+name: Transform
+
+on:
+  workflow_dispatch:
+
+jobs:
+  transform:
+    name: Transform
+    runs-on: ubuntu-latest
+    steps:
+      - name: Clone repository
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+
+      - name: Install
+        uses: ./.github/actions/install
+
+      - name: Transform
+        uses: ./.github/actions/transform
+        with:
+          bln-api-key: ${{ secrets.BLN_API_TOKEN }}
+          bln-project-id: ${{ secrets.BLN_PROJECT_ID }}
