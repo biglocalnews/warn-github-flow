@@ -10,7 +10,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        state:
+        source:
           [
             al,
             ak,
@@ -59,49 +59,12 @@ jobs:
         with:
           fetch-depth: 0
 
-      - id: install-pipenv
-        name: Install pipenv
-        run: pipx install pipenv
-
-      - id: install-python
-        name: Install Python
-        uses: actions/setup-python@v2
+      - name: Extract
+        uses: ./.github/actions/extract
         with:
-          python-version: '3.9'
-          cache: 'pipenv'
-
-      - id: install-python-dependencies
-        name: Install Python dependencies
-        run: pipenv install --dev
-
-      - id: checkout
-        name: Checkout branch
-        run: |
-            git config --global user.email "actions@github.com"
-            git config --global user.name "GitHub Actions"
-            git config pull.rebase false
-            git checkout ${{ matrix.state }}
-            git pull origin main
-
-      - name: Run scrapers
-        env:
-          STATE: ${{ matrix.state }}
-          WARN_OUTPUT_DIR: ./data/warn-scraper/
-        run: make scrape scraper=${{ env.STATE }}
-
-      - name: Commit and push
-        uses: stefanzweifel/git-auto-commit-action@master
-        with:
-          commit_message: Update ${{ matrix.state }}
-          branch: ${{ matrix.state }}
-          file_pattern: ./data/warn-scraper/*
- 
-      - name: Upload file to biglocalnews.org
-        uses: biglocalnews/upload-files@v1
-        with:
-          api-key: ${{ secrets.BLN_API_TOKEN }}
-          project-id: ${{ secrets.BLN_PROJECT_ID }}
-          path: ./data/warn-scraper/exports/${{ matrix.state }}.csv
+          source: ${{ matrix.source }}
+          bln-api-key: ${{ secrets.BLN_API_TOKEN }}
+          bln-project-id: ${{ secrets.BLN_PROJECT_ID }}
 
       - name: Fail alert
         id: slack
@@ -109,7 +72,7 @@ jobs:
         uses: slackapi/slack-github-action@v1.18.0
         with:
           channel-id: ${{ secrets.SLACK_CHANNEL_ID }}
-          slack-message: "🚨 WARN Act Notice ETL scrape for `${{ matrix.state }}` failed at https://github.com/biglocalnews/warn-github-flow/actions"
+          slack-message: "🚨 WARN Act Notice ETL scrape for `${{ matrix.source }}` failed at https://github.com/biglocalnews/warn-github-flow/actions"
         env:
           SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
 
