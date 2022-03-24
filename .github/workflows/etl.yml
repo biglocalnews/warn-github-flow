@@ -54,6 +54,11 @@ jobs:
     name: Extract
     runs-on: ubuntu-latest
     steps:
+      - name: Clone repository
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+
       - name: Extract
         uses: ./.github/actions/extract
         with:

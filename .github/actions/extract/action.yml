@@ -12,11 +12,6 @@ inputs:
 runs:
     using: composite
     steps:
-      - name: Clone repository
-        uses: actions/checkout@v2
-        with:
-          fetch-depth: 0
-
       - id: install-pipenv
         name: Install pipenv
         run: pipx install pipenv
