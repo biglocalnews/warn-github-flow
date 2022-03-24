@@ -12,23 +12,6 @@ inputs:
 runs:
     using: composite
     steps:
-      - id: install-pipenv
-        name: Install pipenv
-        run: pipx install pipenv
-        shell: bash
-
-      - id: install-python
-        name: Install Python
-        uses: actions/setup-python@v2
-        with:
-          python-version: '3.9'
-          cache: 'pipenv'
-
-      - id: install-python-dependencies
-        name: Install Python dependencies
-        run: pipenv install --dev
-        shell: bash
-
       - id: checkout
         name: Checkout branch
         run: |
