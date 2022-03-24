@@ -17,22 +17,26 @@ runs:
             git config pull.rebase false
             git checkout transformer
             git pull origin main
+        shell: bash
 
       - name: Download files
         run: pipenv run warn-transformer download -l DEBUG
         env:
             BLN_API_TOKEN: ${{ inputs.bln-api-key }}
             WARN_TRANSFORMER_OUTPUT_DIR: ./data/warn-transformer/
+        shell: bash
 
       - name: Consolidate files
         run: pipenv run warn-transformer consolidate -l DEBUG
         env:
             WARN_TRANSFORMER_OUTPUT_DIR: ./data/warn-transformer/
+        shell: bash
 
       - name: Integrate files
         run: pipenv run warn-transformer integrate -l DEBUG
         env:
             WARN_TRANSFORMER_OUTPUT_DIR: ./data/warn-transformer/
+        shell: bash
 
       - name: Commit and push
         uses: stefanzweifel/git-auto-commit-action@v4
