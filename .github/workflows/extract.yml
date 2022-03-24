@@ -56,6 +56,9 @@ jobs:
         with:
           fetch-depth: 0
 
+      - name: Install
+        uses: ./.github/actions/install
+
       - name: Extract
         uses: ./.github/actions/extract
         with:
