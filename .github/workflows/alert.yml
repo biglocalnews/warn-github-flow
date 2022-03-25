@@ -4,8 +4,8 @@ on:
   workflow_dispatch:
 
 jobs:
-  transform:
-    name: Transform
+  alert:
+    name: Alert
     runs-on: ubuntu-latest
 
     permissions:
