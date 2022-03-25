@@ -28,21 +28,20 @@ jobs:
         name: Authenticate with Google Cloud
         uses: google-github-actions/auth@v0
         with:
-          token_format: access_token
           workload_identity_provider: ${{ secrets.GOOGLE_WORKLOAD_IDENTITY_PROVIDER }}
           service_account: ${{ secrets.GOOGLE_SERVICE_ACCOUNT }}
-          access_token_lifetime: 300s
+          create_credentials_file: true
 
-      - name: Login to Google Artifact Registry
-        uses: docker/login-action@v1
-        with:
-          registry: us-west2-python.pkg.dev
-          username: oauth2accesstoken
-          password: ${{ steps.auth-gcloud.outputs.access_token }}
+      - run: |
+          pip install keyring keyrings.google-artifactregistry-auth
+          keyring --list-backends
+        shell: bash
 
       - name: Install private dependencies
         run: pip install warn-bot==0.0.2 -vv --index-url https://us-west2-python.pkg.dev/big-local-news-267923/warn-bot/simple/ --extra-index-url https://pypi.org/simple/
         shell: bash
+        env:
+            GOOGLE_APPLICATION_CREDENTIALS: ${{ steps.auth-gcloud.outputs.credentials_file_path }}
 
       - name: Send alert
-        run: warn-bot --help
+        run: pipenv run warn-bot --help
