@@ -30,7 +30,7 @@ jobs:
           create_credentials_file: true
 
       - name: Install private dependencies
-        run: pipenv run pip install --index-url ${{ secrets.WARN_BOT_INDEX_URL }} warn-bot==0.0.2
+        run: pipenv run pip install -vv --index-url ${{ secrets.WARN_BOT_INDEX_URL }} warn-bot==0.0.2
         shell: bash
         env:
             GOOGLE_APPLICATION_CREDENTIALS: ${{ steps.auth-gcloud.outputs.credentials_file_path }}
