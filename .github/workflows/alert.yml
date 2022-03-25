@@ -27,7 +27,7 @@ jobs:
           create_credentials_file: true
 
       - name: Install private dependencies
-        run: pip install warn-bot -vv --extra-index-url https://us-west2-python.pkg.dev/big-local-news-267923/warn-bot/simple/
+        run: pip install warn-bot -vv --index-url https://us-west2-python.pkg.dev/big-local-news-267923/warn-bot/simple/ --extra-index-url https://pypi.org/simple/
         shell: bash
         env:
             GOOGLE_APPLICATION_CREDENTIALS: ${{ steps.auth-gcloud.outputs.credentials_file_path }}
