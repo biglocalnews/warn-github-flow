@@ -31,6 +31,9 @@ jobs:
           workload_identity_provider: ${{ secrets.GOOGLE_WORKLOAD_IDENTITY_PROVIDER }}
           service_account: ${{ secrets.GOOGLE_SERVICE_ACCOUNT }}
           create_credentials_file: true
+          token_format: 'access_token'
+
+      - run: echo '${{ steps.auth.outputs.access_token }}' | docker login -u oauth2accesstoken --password-stdin https://us-west2-docker.pkg.dev
 
       - name: Install private dependencies
         run: |
