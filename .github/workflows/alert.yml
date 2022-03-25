@@ -20,10 +20,9 @@ jobs:
 
       - id: install-python
         name: Install Python
-        uses: actions/setup-python@v2
+        uses: actions/setup-python@v3
         with:
           python-version: '3.9'
-          cache: 'pip'
 
       - id: auth-gcloud
         name: Authenticate with Google Cloud
