@@ -32,7 +32,8 @@ jobs:
           service_account: ${{ secrets.GOOGLE_SERVICE_ACCOUNT }}
           create_credentials_file: true
 
-      - run: |
+      - name: Install public dependencies
+        run: |
           pip install keyring keyrings.google-artifactregistry-auth
           keyring --list-backends
         shell: bash
@@ -44,4 +45,4 @@ jobs:
             GOOGLE_APPLICATION_CREDENTIALS: ${{ steps.auth-gcloud.outputs.credentials_file_path }}
 
       - name: Send alert
-        run: pipenv run warn-bot --help
+        run: warn-bot
