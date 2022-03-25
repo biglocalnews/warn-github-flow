@@ -20,12 +20,12 @@ jobs:
         name: Authenticate with Google Cloud
         uses: google-github-actions/auth@v0
         with:
-          workload_identity_provider: projects/990992937017/locations/global/workloadIdentityPools/warn-pool/providers/warn-provider
-          service_account: warn-service-account@big-local-news-267923.iam.gserviceaccount.com
+          workload_identity_provider: ${{ secrets.GOOGLE_WORKLOAD_IDENTITY_PROVIDER }}
+          service_account: ${{ secrets.GOOGLE_SERVICE_ACCOUNT }}
           create_credentials_file: true
 
       - name: Install private dependencies
-        run: pipenv install --index-url https://us-west2-python.pkg.dev/big-local-news-267923/warn-bot/ warn-bot
+        run: pipenv install --index-url ${{ secrets.WARN_BOT_INDEX_URL }} warn-bot
         shell: bash
         env:
             GOOGLE_APPLICATION_CREDENTIALS: ${{ steps.auth-gcloud.outputs.credentials_file_path }}
