@@ -27,7 +27,10 @@ jobs:
           create_credentials_file: true
 
       - name: Install private dependencies
-        run: pip install -vv warn-bot==0.0.2
+        run: |
+          rm Pipfile
+          rm Pipfile.lock
+          pip install -vv warn-bot==0.0.2
         shell: bash
         env:
             GOOGLE_APPLICATION_CREDENTIALS: ${{ steps.auth-gcloud.outputs.credentials_file_path }}
