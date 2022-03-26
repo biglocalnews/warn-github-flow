@@ -24,6 +24,7 @@ flowchart LR
     end
     subgraph Notify
     J[Post status report to Slack]
+    L[Send alerts to members]
     end
     Extract --> Transform
     Transform --> Load
