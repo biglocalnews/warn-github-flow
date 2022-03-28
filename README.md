@@ -10,25 +10,35 @@ The [extract, transform and load](https://github.com/biglocalnews/warn-github-fl
 - 📟 Send a Slack alert
 
 ```mermaid
-flowchart LR
+flowchart TB
     subgraph Extract
-    A[Scrape sources] --> B[Upload raw files]
-    B --> C[Commit to source-specific branches]
+    A[Scrape sources] --> B[Commit to source-specific branches]
+    B --> C[Upload raw files to biglocalnews.org]
     end
     subgraph Transform
-    D[Download raw files] --> E[Consolidate into a single file]
-    E --> F[Integrate with current database]
+    subgraph Consolidate
+    D[Download raw files from biglocalnews.org] --> E[Merge into a single file]
+    end
+    subgraph Integrate
+        F[Reconcile latest data with current database]
+        F --> G[Identify any additions and amendments]
+    end
     end
     subgraph Load
-    H[Commit to `transformer` branch] --> I[Upload transformed files]
+    H[Commit transformed files to `transformer` branch] --> I[Upload transformed files to biglocalnews.org]
     end
-    subgraph Notify
+    subgraph Alert
+    subgraph Members
+    L[Forward new notices via Slack]
+    end
+    subgraph Administrators
     J[Post status report to Slack]
-    L[Send alerts to members]
+    end
     end
     Extract --> Transform
+    Consolidate --> Integrate
     Transform --> Load
-    Load --> Notify
+    Load --> Alert
 ```
 
 ## About
