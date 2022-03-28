@@ -29,10 +29,10 @@ flowchart TB
     end
     subgraph Alert
     subgraph Members
-    L[Forward new notices via Slack]
+    L[Forward new notices via Slack bot]
     end
     subgraph Administrators
-    J[Post status report to Slack]
+    J[Post status report to Big Local News’s Slack]
     end
     end
     Extract --> Transform
