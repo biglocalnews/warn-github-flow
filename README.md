@@ -32,7 +32,7 @@ flowchart TB
     L[Forward new notices via Slack bot]
     end
     subgraph Administrators
-    J[Post status report to Big Local News’s Slack]
+    J[Post status report to Big Local News Slack]
     end
     end
     Extract --> Transform
