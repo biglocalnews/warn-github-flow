@@ -1,3 +1,5 @@
-hash_id,postal_code,jobs,effective_date,is_temporary,company,location,is_amendment,notice_date,is_closure
-612f087827805701fdb5e94124bbc90a2be2c3d2680ee019566f357e,GA,68,2022-04-01,,"CWU, INC.-Augusta",Augusta,False,,
-a494fa4e80ce40bba0ce79d577c8e29cef80e58a2f3c8e008ca3d89c,GA,75,2022-04-01,,"CWU, Inc.-Savannah",Savannah,False,,
+is_closure,is_temporary,is_amendment,hash_id,location,notice_date,postal_code,jobs,effective_date,company
+True,,False,61182f0d3b019cf6f0b989a2e47b31bca7766bed362edbb385ba90dd,2271 Cosmos Court  Carlsbad CA 92011,2022-03-25,CA,130,2022-06-03,Respironics California LLC
+True,,False,4fcf31f06f344255f7102b993f35959cdb7b1bf7bb5490ea294de697,1001 El Camino Ave  Corona CA 92879,2022-03-18,CA,198,2022-06-30,"McWane, Inc. dba Anaco"
+,,False,1016afc01388260905584c6d3a2d0803c676162e9db9b9678eb69a2f,"Serna Center, 5735 47th Avenue  Sacramento CA 95824",2022-03-28,CA,72,2022-05-30,"Vestra Labs, LLC"
+,,False,8550f91815693f3bd1b24441d1bfe518c4d73457543ff9d53ad39207,51 Rio Robles  San Jose CA 95134,2022-03-28,CA,89,2022-05-24,SunPower
