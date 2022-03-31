@@ -1,7 +1,2 @@
-is_closure,is_temporary,company,hash_id,is_amendment,notice_date,jobs,effective_date,location,postal_code
-True,,Respironics California LLC,61182f0d3b019cf6f0b989a2e47b31bca7766bed362edbb385ba90dd,False,2022-03-25,130,2022-06-03,2271 Cosmos Court  Carlsbad CA 92011,CA
-True,,"McWane, Inc. dba Anaco",4fcf31f06f344255f7102b993f35959cdb7b1bf7bb5490ea294de697,False,2022-03-18,198,2022-06-30,1001 El Camino Ave  Corona CA 92879,CA
-,,"Vestra Labs, LLC",1016afc01388260905584c6d3a2d0803c676162e9db9b9678eb69a2f,False,2022-03-28,72,2022-05-30,"Serna Center, 5735 47th Avenue  Sacramento CA 95824",CA
-,,SunPower,8550f91815693f3bd1b24441d1bfe518c4d73457543ff9d53ad39207,False,2022-03-28,89,2022-05-24,51 Rio Robles  San Jose CA 95134,CA
-True,,Illinois Central School Bus,2ea2cd1f75fa81c487868fa0edc8b3180d63c871cb01446d7f37d37e,False,2022-03-29,101,,"5552 Dial Drive  Granite City, IL 62040",IL
-,,Navistar Inc.,486acb3b1cbb1cf315f316977ad36b0208955a33594c2165536e9731,False,2022-03-28,79,2022-05-20,Knox County,TN
+hash_id,location,postal_code,jobs,is_amendment,is_temporary,notice_date,is_closure,effective_date,company
+f4afa562af7cd2c5e8f1697a730de902e8caa3375bbafa03d7e9b5f4,"500 East Monroe Street  Springfield, IL 62701",IL,1,False,,2022-03-30,,,Laid Off Worker General Outreach
