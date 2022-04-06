@@ -1,13 +1,2 @@
-notice_date,location,postal_code,effective_date,company,is_temporary,is_closure,jobs,is_amendment,hash_id
-2022-04-04,MIAMI,FL,2022-05-31,Borden Dairy,,,154,False,bee6f99a0f7660b3e4fe92cb78101090fe9469462dce4ed35505f452
-2022-03-31,"1141 N Swift Rd  Addison, IL 60101-6114",IL,,Veritiv Operating Company,,True,33,False,e58ba6b3e36405f3b7fe2a7daa07248c4860c166632eb1cd2a340572
-2022-03-30,"300 Keokuk St  Lincoln, IL 62656-1630",IL,,Lincoln University (inc),,True,250,False,a21ae3c1b62c849fb40e67ae0a61f15b02cce81c98c66205b21ffd84
-2022-02-18,Warren,MI,,Peloton Inc,,,56,False,5e2703487b083766944de9da74cea493c154cb62187f8efdddc03f63
-2022-03-16,Detroit,MI,,Assemble Rite LTD,,True,250,False,7298fd511f8bc9bf335bf7417db45ca01aeed127527641daa6eca77d
-2022-03-25,Ypsilanti,MI,,Pretium Packaging LLC,,True,53,False,1d9f3475813bacceb5099f15fa395faa8164e906e0159b0ff69a98d4
-2022-03-31,Ipswich,SD,,Avantara,,,51,False,1c20c5c30dc79b8b4744529eb67dc537138ade51b4f354de55cb196b
-2022-03-17,Brookings,SD,,Aramark – SDSU,,,278,False,5da014dda904844f955a58b9235d591213a8c3be1e2991c5b53a840a
-2022-03-17,Vermillion,SD,,Aramark – USD,,,233,False,ef7dfe16d6cb63fe533beb2a56a0937e048db80cadde158f1a2d345e
-2022-03-28,Victoria,TX,2022-05-31,Devereux Advanced Behavioral Health,,,122,False,28569bae1897cee9214a1b47a3b8476188d52ceb038f3dfa9fa73b36
-2022-07-15,Bellevue,WA,2022-07-15,Walmart,False,True,147,False,1dd5a3dc684581d3f9894f8648b1e3463b9e4be3b900e61c3a134b5f
-2022-04-01,Kent,WA,2022-04-01,"Kings Command Foods, LLC",False,True,92,False,814e035e649356b0768e9912c09a8554f579d738840e23d73eb82aa9
+jobs,is_closure,location,hash_id,is_temporary,postal_code,effective_date,is_amendment,company,notice_date
+79,,"309 Jackson St. Monroe, LA 71201",9ec117828b32ee043a41b56b08195e79ecea929477563e6fa5fd54da,,LA,2022-05-31,False,Morrison Healthcare Food Services,2022-03-23
