@@ -1,6 +1,168 @@
-notice_date,is_amendment,location,is_temporary,jobs,is_closure,company,effective_date,hash_id,postal_code
-2022-04-05,False,Rembrandt,,135,,"Rembrandt Enterprises, INC",2022-04-05,d885b77167e3c9c04acd68f4a0ba29b95f1650670efaebecdf4489bc,IA
-2022-03-31,False,"725 Pittman Road Curtis Bay, Md 21226",,30,,WestRock,2022-05-31,54b251c7672ba50473806fe2f666d9d6d45cdff88b5064f69af8cf2c,MD
-2022-04-01,False,"1681 Nelson Street Fort Detrick, MD 21702",,94,,"CACI, Inc.",2022-05-31,e90658da9274ed6363a1422ef555deb46d0897f13515bf4015cdc708,MD
-2022-04-05,False,Harrisonburg,,80,True,Lakeside Book Company,2022-06-03,e4a82c1e0a6db74553e4713eaf1c75fecb52e42fb268cf0da42820a7,VA
-2022-03-31,False,Smithfield,,85,,Packers Sanitation Services Inc. (PSSI),2022-03-03,f57f254546a3b8abc22e2ec58860911eb3894ca65c7b00c704733f63,VA
+jobs,is_amendment,effective_date,is_temporary,postal_code,hash_id,notice_date,is_closure,location,company
+67,False,,,DE,17002df104020a633da5b21f5bb340b183b7400ba83c6d6acf45e413,2021-01-12,,Wilmington,IKO Wilmington Plant
+62,False,,,DE,81713a33cfa5ff261da74c1ecc2953aea69fedf1f8f51bb077f3f1af,2021-04-15,,Dover,Wesley College
+132,False,,,DE,278fd0a1a3f245432067f63b8627e2cdbfd6c9e1de5daba0c881eccd,2021-06-24,,Dover,Aramark Educational Services@DSU
+20,False,,,DE,1207c904b7176f4c94767ea02e1cc023b5d77bac42dc2b119be93a73,2020-03-16,,,"Jakes Seafood II, Inc."
+457,False,,,DE,784c29e911d6bef098684460d2f75bfceaebf6fc32af25c6556e99ed,2020-03-16,,,Ashby Hospitality Group
+600,False,,,DE,bb05c762f9bcc4c7fe6fa26f3a5d89282a397221c8902683ac13c654,2020-03-16,,,Big Fish Restaurant Group
+408,False,,,DE,998a331a7ea5041d9722d39504970241bd5d0ef29517c29564a338c1,2020-03-16,,,Platinum Dining Group
+190,False,,,DE,da88b5d6f041ae250ed7e469ab3783b56f7356ccd3e6bb85e7ccfaec,2020-03-16,,,American Bread Company LLC
+267,False,,,DE,0e0a9b18e396f30eea0f48ae165d462cfbe88c02e4038601e8252579,2020-03-20,,,HMShost - Biden Welcome Center
+105,False,,,DE,77842de15c829e174d9f99dd97a57859a1bf4aede877ac80ac6c3c80,2020-03-20,,,MDavis
+30,False,,,DE,03ec5f443f7562f73d1e5eae858913344f8eb81b4efdaff5922755e5,2020-03-23,,,Six Paupers Restaurant
+50,False,,,DE,9a2a3ea86ca95827765a865e1f9d4b6bd1fb2dbff1099749c54c4b5f,2020-03-23,,,Ulysses American Gastropub
+46,False,,,DE,715de9bac57710d0242641e0bc24c11636a42118411fbde94d6cd0d7,2020-03-23,,,La Casa Pasta
+165,False,,,DE,557c209f5e9f53985d8a55a91d356f74d95353d9a3a7402504f61baa,2020-03-23,,,Grotto's Pizza
+17,False,,,DE,5d48368534e0ffae2229eb01ca9e464196908bb4855ef25f67d40509,2020-03-24,,,Market Street Funders
+5,False,,,DE,3c62263061fb60be71c3198ab8910c0d7a75c44296b07b76451d209b,2020-03-20,,,Go Fish Restaurant
+5,False,,,DE,32e10c19dd3d40b268a85d5da12be769d33c34778cb3045c551fa016,2020-03-20,,,Go Brit Restaurant
+99,False,,,DE,b1353421655cec390fc94b5f1589cb1b67f80fa814af1dc2c30ffcd6,2020-03-19,,Kieler,"Packers Sanitation Services, Inc."
+61,False,,,DE,922bb1b583fe41a2a12997076786166dc3b67af9a510deea079a2827,2020-04-09,,,"Koons of Wilmington, Inc."
+313,False,,,DE,0ecd31e6594ab360d6a8516d81b63b347f27cd725a965062e25520f3,2020-04-02,,,Dentsply Sirona
+86,False,,,DE,462742312917047c0dddcabe6f2d862f8b8835a84effd74ea96a88aa,2020-04-06,,,"Millers Ale House, Inc."
+46,False,,,DE,59a9aba318f56a8dec67ec765a8b40984b65f305d795c8524097a8af,2020-03-26,,,Doubletree Wilmington Legal District
+229,False,,,DE,a5afa39af68554a7c2efdeb414d6093313490decb425a34fc4e7e6d8,2020-05-04,,,Clarios Middletown DAP facility
+194,False,,,DE,90471a8a56f8e274e9018f16f3367f0950fad037e6c8c92bef304eea,2020-06-29,,,GE Aviation
+169,False,,,DE,cedbd27cee6eb4c69996cb477e9729d8f687d4f887663ecde7bc3a32,2020-07-21,,,Telamon Corporation Delaware Head Start Program
+100,False,,,DE,054eda89445157c6dfc5657f7fb4adb8e1006b3a76f33e4c9ec8d203,2020-09-30,,,Sallie Mae
+554,False,,,DE,096f71aa4522a654c0324da11b33bde8a4f11cd0ebb6b5a4dba7336c,2020-09-08,,,Aramark at University of Delaware
+525,False,,,DE,71c8ffdeb636cd5ccb266ffccd3d9cfbbc5e8f3cd8d601ee215a0e8c,2019-06-05,,,Barclays Services LLC
+10,False,,,DE,59c6f5be67bcc6b7eb99f046a72e9bb56b54f43d887b23c4d68af133,2019-09-16,,Newark,Plow & Hearth
+80,False,,,DE,a3006bfb3efbc1d9edc546712b5bc1c8c87f3b31d291266410b02cb8,2019-10-23,,Wilmington,"Fresh Grocer - Adams Market, LLC"
+40,False,,,DE,3858236a77373a5c879ac19603835b5cb77f2c6d15be6aa018f3bd33,2019-08-29,,,Kmart - Bear
+45,False,,,DE,6bbc1e3078ab914e38d8167a410073f60e8d9cb99ce3412956a65e3e,2019-08-29,,,Kmart - Pike Creek
+33,False,,,DE,9b6ad29302cac0f3403009446f79cb6466a5bcd16ed5e14195c91aae,2019-09-27,,,Nestle
+14,False,,,DE,aa12b2cb307abc062d7e5c45d7ed41b58e2ec309f6114b47a593369c,2018-12-05,,,Thomson Reuters
+66,False,,,DE,614f746e3c15931c338dd6cd21b7587f8369221d356f344c8e143274,2018-06-07,,,PPG Architectural Coatings
+86,False,,,DE,dd1e2bd5e2b0a52055b80229be0a54e56d93d0eb590ac6b69e728404,2018-01-04,,,Sears Holdings Prices Corner
+99,False,,,DE,8f069baaff5f0bda428ea2a59236b44fdfcecd0de64a8425c6cab430,2018-07-25,,,"Formosa Plastics Corp., USA"
+15,False,,,DE,255e83e8c5e5e034af7af87a7c2b64bb77ecf19575db75c96d187f17,2018-12-05,,,Thomson Reuters
+20,False,,,DE,50817ac42761696e15b255789edd3c9b3bed2f2db7ccf96a95685af0,2018-08-02,,,Hygience
+137,False,,,DE,c71eaf3bfccfa6761ea1d55030ffb133e80b53262a56f2033e5af773,2017-02-07,,,"BFRich Co., Inc"
+68,False,,,DE,3565bd97e0512a6b0476c334099e7e631e98ee8e835338c24e0a1aaf,2017-01-30,,,Burris Logistics
+51,False,,,DE,7e0c93dc625efd123bf5ab79fdbc6d175a05e18ccc37841838cb40a6,2017-10-03,,,CVS Health
+215,False,,,DE,c942f790d1532d527cf610fcd88d282fca1076f67f66720f2d50966e,2017-04-11,,,Barclays Bank Delaware
+138,False,,,DE,e0ac697e1c22b9e426ed0d2dbaa40fbbeec2760ff8b7fcb9c78d80b0,2017-11-02,,,UnitedHealth Group
+138,False,,,DE,f940933e94d2da38891bfe8dccd4a0f573d3e810567bd07e09a60477,2017-11-02,,,United Health Group
+137,False,,,DE,4a58d1993a4d148af15fca4490d8db2c71781c39b4ff3df268157ca4,2017-02-13,,,"BF Rich Co., Inc."
+54,False,,,DE,6eab2c5e2c67f63dc29518660bf48e554df7b15c712026cbf15abe36,2016-01-29,,,"Sodexo, Inc., Facility Engineering"
+57,False,,,DE,495a1d3465beae532075ada10f01bdd9030e20d798555f9bb654937c,2016-02-01,,,DynCorp
+109,False,,,DE,b8be86f28f3fc4b79c2e6cf697b0900eed81d9e82d997fa62259f46f,2016-02-03,,,Capital One - Mortgage Services
+151,False,,,DE,14aadddbb30ab940d027ccde6979d1305ceaefc8276078f4c5f0d215,2016-05-12,,,Foxfire Printing and Packaging
+120,False,,,DE,378997b196283170f8e306c45258db38d4e30093065bd9a20004a66f,2016-12-15,,,AstraZeneca
+122,False,,,DE,dc7412b2aa4de8efa78825675dd798045dda75fd3102cf8b2c50c940,2015-02-06,,,Legacy Supply Chain Services
+33,False,,,DE,1a60fdc3a3c69f284d44381d05dd320af41fc7314162837b55476b50,2015-03-06,,,OCI/Service Source
+131,False,,,DE,c8c541cbca4da59a52a41041e3d54a9b219968f8e00ed6db1149c901,2015-07-06,,974 Centre Road,Chemours
+203,False,,,DE,22038ac015ddffa6596ee5c116f1a8021524d2c67a23b62263ff0d48,2015-08-20,,,Chemours/Edge Moor Plant
+1700,False,,,DE,bee598dd7704bca02338aaa26349da1192842ac928e9c61c3e42da53,2015-12-29,,,DuPont
+58,False,,,DE,25261b79c2f23e0dc138b2b1b8d46ed8a1480a992bb65058bcc524ac,2014-11-05,,,JPMorgan Chase & Co
+95,False,,,DE,e2c57e390d8deb52121f2adb5d9111c0fda2fc52248572bc36287172,2013-10-10,,,"Color Box, LLC/Georgia Pacific"
+1200,False,,,DE,cdd84ed11c589ebc93887e458aa5342383ace203fe991e88bf236a17,2013-05-31,,,AstraZeneca
+375,False,,,DE,17d6e777276cac0b0a9608324d35a018d40e38393b362ac52a6b14d0,2013-10-14,,,Evraz
+40,False,,,DE,f16b8851aca1ff333a6e1487070fb956b1e60aff47ce0ca34620cfe7,2012-01-03,,,Access Group
+426,False,,,DE,bd5267b31bf6d241e95631c361c636dd33233d5dd79250678260dbf3,2012-07-31,,,"Pinnacle Foods Group, LLC"
+21,False,,,DE,58800b6f5ecd9e1a5724e60f0fa7f5032a44b5a25a45b87d9e671689,2012-11-13,,,Hostess Brands Inc
+0,False,,,DE,41a3ef555548d6230ee8751cb256b2cf86101e1f759c014a33bfb1c6,2012-09-14,,,"Sunoco Inc., R&M"
+530,False,,,DE,37d707ab45b93e7cef43bcb614ccfd7e7d891158ec9275a406638f77,2011-01-18,,,HSBC Card and Retail Services
+82,False,,,DE,9b5389d539d3fe16837ab8ac219b848757c30803a60e73a7c457a2de,2011-02-15,,,A&P/Pathmark
+721,False,,,DE,9ac2a0cf7aa311af14c7d1f91b39532587126e1a2836695690110cb6,2011-02-09,,,Wilmington Trust/M&T Bank
+150,False,,,DE,dd4bd112f2a9b32f6ca7bbe26cff3729fce517ee46edaa9506880e97,2011-12-11,,,Access Group
+450,False,,,DE,ba02ca7f4c9357885783222c12453d67bcafcbd9010bf0c312f1c482,2010-05-13,,,AstraZeneca
+150,False,,,DE,9b9b706bffdf567d7e9707a6e1b3f0f341129a667cb86736ef1cccd1,2010-04-28,,,Conectiv Energy
+71,False,,,DE,320c401c74e68b8d790897e5dff71c2bc8bd5d2163b5cdbf14de9a51,2009-03-31,,,Siemens Healthcare Diagnostics
+86,False,,,DE,764d46e7897ed66e77125128682d9a683e1acb9acc4f770aeb8be4c2,2009-03-13,,,GE Energy
+65,False,,,DE,a3cf383c965ad6ee35f998d46f70551955b7de21ba38245a97e41d02,2009-01-29,,,Teleplan International
+134,False,,,DE,be79c38dcef364d0fa2d0b35231ca7ba92aa56dd0d3b38f2fed65b70,2009-01-16,,,Circuit City
+94,False,,,DE,78e98de1d4f629e29e63e4f568bd0183be58ce7a2724447500f918de,2009-01-16,,,Circuit City
+34,False,,,DE,efa61e33d3f9585204141470ca8782e507958c36c448d1845a8755ab,2009-01-16,,,Circuit city
+4,False,,,DE,0fdc1f65067cc58342dcc0d0ccf993d3bc6785a1af7e86ea0d4b2be2,2009-02-16,,,American Heart Association
+8,False,,,DE,d08d38d4d7ee15c76ce30a7e171e9f8b179c99d60bb8320c878dd526,2009-04-13,,,Standard Retirement Services
+63,False,,,DE,fc0c8b328684581cccd8d1e23fea13c5a06eca31250ced37d7977110,2009-01-06,,,DHL Express
+450,False,,,DE,7c076e032c531e6c459b6de7d3707810dda49b6ebd29c339e526853b,2009-03-11,,,"Avon Products, Inc."
+41,False,,,DE,f599acf9c23390d117528c4750b19294e36fed300b13b4799de08b74,2009-03-20,,,A.I. DuPont Childrens Hospital
+590,False,,,DE,bddda8560443f0639b88d22a6f46ec847b5051c3b6717053fcf7c215,2009-06-01,,,General Motors
+34,False,,,DE,b59b07b638c4bd2f3040f5e332dfaf563942eb30a8fc6e75d31d9671,2009-06-05,,Birmingham,AllState Technical Services
+89,False,,,DE,f3fd49fd516f8cdac1bbfcee7ace530031290464a3844bc4925b1c8f,2009-06-05,,,BE & K Engineering
+5,False,,,DE,4f6c2bedd4dc8591f4e1dfabc113e81a7d94a5af7f3ab2258a433055,2009-03-26,,,WolfBlock LLP
+12,False,,,DE,0889ab0e4415230723685e5c6ceb2ed9355befcc1c000348ae315628,2009-06-23,,,Allied Automotive Group
+65,False,,,DE,995cce7d49d0c250c642cb201047b3399e5d2fe2323614539a461400,2009-08-28,,,Jacobson Companies
+12,False,,,DE,1334557d0b506e77ade4d3f7357631a35596863a88fbde9c230f9843,2009-06-16,,,HGA Quest
+20,False,,,DE,0b63bad21ab094a6c044de70c74f734115316333399b41ea325ac029,2009-06-22,,,Lyondell/Basell
+0,False,,,DE,dc0deca71302e7a10d0778c8eb391190dab0878c8d68a5320a58bfd2,2009-09-14,,,Valero Delaware City
+550,False,,,DE,51b19f1603b158e580f07f5025d179442a7ec514b67a5f5b8055b52c,2009-11-20,,,Valero Delaware City Refinery
+122,False,,,DE,5415c91232a7a24c75cb1c8c378875dd44f79b427913fe877e27da50,2009-07-01,,,HMSHost
+1125,False,,,DE,c582a85adfe202c479bd86142fd90522551b1d81c3fb775fd0c2c911,2008-10-28,,,Chrysler Corporation
+393,False,,,DE,837e2af70cf2157f5e1534573e098308641500aba0255e18f8fb3833,2008-10-21,,,General Motors
+227,False,,,DE,0098df631f3f9ff15c66e2d22fbe2e22791fd696b3d9ef9fc3708d50,2008-11-06,,,Mundy Services
+400,False,,,DE,93f85ec4f5ca55f3eef87ef9daa9fb8779c04a116c8c8f1f2b5db392,2008-12-08,,,Invista
+400,False,,,DE,a145bca85bca0a3c87ed7e62161dd0a35667f934df5538eb8cc360b8,2007-01-16,,,Avon Products
+,False,,,NY,6a85bd158943382f497aaf6dd73a756baf1f803c0139b21b55541b21,2022-01-27,,,Elmira Savings Bank - Southern Region
+,False,,,NY,3983d3ccf53bf1e2ef261d381c9bb529302fe7513c6740819d1000eb,2022-04-01,,,"Amazon (Amazon 4-star, Books, and Pop Up stores) - New York City Region"
+,False,,,NY,d85d0e6c98f84e383ded2ce78d6588e9f24d58111aacc19628710fff,2022-04-01,,,Weiss Instruments LLC - Long Island Region
+,False,,,NY,0747288c1a0a5a801205dc2d19499b8aa63400205e533701529744a0,2021-09-30,,,New York Air Brake - North Country Region
+,False,,,NY,77ddc0fa20b7f1c209f2b1ac6369c0c3f04d3c1f9904f21df0782d9f,2022-03-31,,,Slant/Fin Corporation - Long Island Region
+,False,,,NY,2cf8b2db7c57e1644e70d91db1ec0f8720741a8a62662d80aaf63440,2022-03-31,,,"G2 Secure Staff, LLC - New York City Region"
+,False,,,NY,31f10ff7d9f8fc3d82e035f1d9928940735c2de17419be3819d71923,2022-03-31,,,MC Packaging Corporation - Long Island Region
+,False,,,NY,b80a76199a74121d55a996c44998ddc8a24bc52f1cabfa097e072971,2022-03-31,,,"Sanofi US (Kadmon Holdings, Inc.) - New York City Region"
+,False,,,NY,0574d656b5ca159a80c3cfe80e608f3b88663e185229206ab7c5669c,2022-03-31,,,"Devachan Hair and Spa, Inc. - New York City Region"
+,False,,,NY,fc20517b1744ba53d5cb9170771ca881e052d87088de93825c1caed6,2022-03-31,,,Research Foundation of The City University of New York - Resource Navigator Corps (at the CUNY Graduate School of Public Health & Health Policy) - New York City Region
+,False,,,NY,178f8a47417efc8938802ff6a507d285edbcbeea7dc027f86ac9e4a2,2021-08-18,,,"Aclara Smart Grid Solutions, LLC - New York City Region"
+,False,,,NY,7b5be1bb80edf182d5be635ad02fa156e66f049e8281252627eb4240,2022-03-10,,,Fridge No More Inc. - New York City Region
+,False,,,NY,3cca2d133cc3deaaf8a1b8bb5865dae4c2beaa4efb5e2248090d2474,2022-02-18,,,"Ready Responders, Inc. - New York City Region"
+,False,,,NY,c00601cdfa289748abc2515cfecd95f74516064461f3d3d39387c396,2022-03-15,,,Portmore Delivery Service Corp. - New York City Region
+,False,,,NY,3a47ad10f2d07c017947c7f2a1ef546242d2bc5f659aea91d2e3a2d8,2021-12-22,,,Slant/Fin Corporation - Long Island Region
+,False,,,NY,c379ff7454d851d41f97e45c9d847964a9f9883051e556e4a6b14b5d,2022-03-07,,,"Key Food CS 3 LLC, dba Food Universe - New York City Region"
+,False,,,NY,47751dee9dadb42004affcf9736a1c7a62b3c38a6b3671f44ab3d425,2022-03-04,,,NYC Health + Hospitals - New York City Region
+,False,,,NY,96f3718cf5f173bfeb75567efb330be6b2c4bd9d09128ba16c802826,2022-02-14,,,Applegreen - Mohawk Valley Region & Finger Lakes Region
+,False,,,NY,cb258f846f457a03f9a8c8ac1c28f61d95694e5ce78296f7c97972ce,2022-02-22,,,WB Frozen US LLC (formerly Weston Foods US LLC) Frankfort Bakery - Mohawk Valley Region
+,False,,,NY,6b8012ca0059ca7c20f6d3fe0209a2466dd248db029546ceb99a9e3d,2022-02-08,,,Peloton Interactive Inc. - Mid-Hudson Region
+,False,,,NY,11e1c01f184787a846931a83558989fdbe370789470bedbc339ecccc,2022-02-08,,,Peloton Interactive Inc. - Long Island Region
+,False,,,NY,4fe2379aeef5cd2e248a21f89a60cc5be12dc1b712fbe02c90356618,2022-01-28,,,The Fund for the City of New York - Central Region
+,False,,,NY,49c4ab0bab3a3fc755c72176e280347f8a80653bcfa13824e4455d1b,2022-01-28,,,"Transit Management of Dutchess County (subsidiary of First Transit, Inc.) - Hudson Valley Region"
+,False,,,NY,d53791aeca6676d00d7e93908f6c35adeb53f63d9f87f9572c2ba76d,2022-01-28,,,The Fund for the City of New York - New York City Region
+,False,,,NY,376809a516285a40d3179483ffdf6aef7df5095868d679dd73243844,2022-01-28,,,The Fund for the City of New York - Long Island Region
+,False,,,NY,a620de69b1b99af020176137c148a0652c0f26c147099eed394913cf,2022-01-31,,,The Fund for the City of New York - Mid-Hudson Region
+,False,,,NY,81fcab9343f78c92467857ce47373efb12eb7450565c4bd2d35e1c39,2022-01-28,,,Slantco Manufacturing Co. Inc. - Long Island Region
+,False,,,NY,27918c55fbb8fcee498bb83cb292b4b935f16caf797773eff2b3a486,2022-01-25,,,Easter Seals NY Monticello site Project Excel - Mid-Hudson Region
+,False,,,NY,a43043c61207ab5d385e03b6e2e80b033cc40b5e8e228c5b166fbc85,2022-01-25,,,"City Carting of Westchester, Inc. - Mid-Hudson Region"
+,False,,,NY,2248b02f957d7c8691dee0a86e4fa69f2a8db7d4e238eb3a24793358,2021-12-29,,,"Brooklyn Food & Arts, LLC (at The Norm Restaurant inside the Brooklyn Museum) - New York City Region"
+,False,,,NY,857c52d61d2382dadbe19e0895937c8b68884c73fd43f25e518d4c0e,2022-01-11,,,Hillside Children’s Center - Stillwater Campus - Southern Region
+,False,,,NY,5851e7314ca7f270c1f8d7edf0969cb6b9950bc99ab413dfbac28398,2022-01-06,,,"Transportation Insight, LLC (Phase 3) - Western Region"
+,False,,,NY,f94d9823a049062e4d05afe29ab7b8df8f69815907fddcd0a52adb88,2021-09-28,,,"Transportation Insight, LLC (Phase 2) - Western Region"
+,False,,,NY,c572f5c26516e2a2bb27ef02486ccb7a5f6aeb0f921fe24ebefd2d2a,2021-12-06,,,Credit Suisse Securities (USA) LLC - New York City Region
+,False,,,NY,a4b0cad3b7c73b4f835e037b5e87b2b0692b714dad1967d210cadccf,2021-08-18,,,"Aclara Smart Grid Solutions, LLC and Aclara Technologies LLC - New York City Region"
+,False,,,NY,af81339fa2b7b7330247a4c46662bfe8ae9094ec4fd201bb5d0915aa,2021-09-28,,,"Transportation Insight, LLC - Western Region"
+,False,,,NY,12013060693fa2f9c6e21c44a65a75b5556a1d9d0f475cc385806e53,2021-08-13,,,"Transportation Insight, LLC - Western Region"
+,False,,,NY,56631bcf110cc3cac1d38b514156be40199dd4b2d6e1919b02e1175d,2021-12-07,,,"Silarx Pharmaceuticals, Inc., a Lannett Company - Mid-Hudson Region"
+,False,,,NY,814725e7395d3db53f7bf16820c8401bd1c8974cf3ecdd24c9f6516c,2021-11-29,,,ACCO Brands USA LLC - North Country Region
+,False,,,NY,f152567e73959a1bb6a17051212add3bb7b246c84d8e19b392f52bab,2021-11-26,,,"North Shore Linen, Inc. - Long Island Region"
+,False,,,NY,1bb13deed54e4d0d71b210c1c26dc3efc1e0d6aa002f62d82dbadea7,2021-11-23,,,The Princeton Club of New York - New York City Region
+,False,,,NY,c12644a366d7ab848e33c66eee2406bbb90352146bc255072e85810a,2021-08-19,,,Occidental Chemical Corporation - Western Region
+,False,,,NY,64e06f8c5e7f4fc9f637531cc5b6ab9ee2ea3f8d8c4ea6d354178b0b,2021-11-17,,,"CBA Insert Distribution System, Inc. - New York City Region"
+,False,,,NY,60a0bc0a3c38f10c2453216bf4566b7bf48098b924b5cef6439f3d1c,2021-11-15,,,"Jewish Board of Family & Children's Services, Inc. - Mid-Hudson Region"
+,False,,,NY,c0457540b8d924d2082eb0820321d348827a1af021ccbe8081f4d189,2021-09-08,,,ACCO Brands USA LLC - North Country Region
+,False,,,NY,c78c1432428a46efe942ab600c5c530601e8a28e5d569b64397317b2,2021-11-18,,,N26 Inc. - New York City Region
+,False,,,NY,1f309df6c0b3609654cafa9baf15a61d9f8fb6fcd53e9521c35a3429,2021-11-09,,,C'Ville Yoghurt d/b/a Byrne Hollow Farms - Central Region
+,False,,,NY,7883316f71d70c75864f5acf56431dd99cd63eac2d62cf4ef8db67c9,2021-11-08,,,Columbia University Irving Medical Center - New York City Region
+,False,,,NY,931cb2d1ccd1f4d6e5b660c690c26108a4047da5ae5eb5292b53ced1,2021-11-08,,,Weill Cornell Medicine - New York City Region
+,False,,,NY,f70a9c878317348defd6e323b9f539015fa04c1a7f514da9a76bf263,2021-09-07,,,"A.B.C. Carpet Co., Inc. (3 NYC sites) - New York City Region"
+,False,,,NY,fa447056d87f37beb09772b20a4170ba1bbb44f739c75e380fa704e6,2021-09-07,,,"A.B.C. Home Furnishings, Inc. (3 NYC sites) - New York City Region"
+,False,,,NY,7faeb74d40a75de143483baae96b25d4a2ea52eb58d983b529117580,2021-10-18,,,"DSW Shoe Warehouse, Inc. - New York City Region"
+,False,,,NY,ea9b52bea84bfb29d5cb6e057ac0d25d6028ea808bca0aa57fdc95a5,2021-08-30,,,Concordia College (Phase 6) - Mid-Hudson Region
+,False,,,NY,7cb08aa0b679297b6dc1e2b5667ce07eafc247150010a77168ec9610,2021-10-20,,,"Packard Pacifica, Inc. (at Holiday Inn LaGuardia Hotel) - New York City Region"
+,False,,,NY,d30ebaca76da563f5fc7eccd06f78cbf669b58563c99e747a67a5f43,2021-10-15,,,EmblemHealth - New York City Region
+,False,,,NY,786e425669228da67862958f8d76280bf07a91b21e8436cef8cc3045,2021-09-23,,,Crown Building Maintenance Co. d/b/a Able Building Maintenance at LEGOLAND New York - New York City Region
+,False,,,NY,3861a3d0b26da18ee9c7ddffeaba53e018334b4e0b4bf4002b89680c,2021-09-23,,,"Genius Media Group, Inc. - New York City Region"
+,False,,,NY,6272a3f4cf229986280984d481a97d8b4f13b47f85928a162d4075dd,2021-09-23,,,"LC Drives, Inc. - North Country Region / Capital Region"
+,False,,,NY,e5aae69773fd1598753446a99f2cf99390266a284c53f972217b4dd3,2021-09-14,,,Transform KM LLC (Unit# 04731 Kmart Convenience store inside Sears) - New York City Region
+,False,,,NY,b5ca8a9e1e672cee27fa0e6abc86cde16b427f6c22f03caf05018e09,2021-09-14,,,Transform SR LLC (Unit# 01114 Sears Retail Store and Unit# 06104 Sears Automotive Ctr) - New York City Region
+,False,,,NY,d43b8c9556344c0a3e7adac6236ad06d544fbcf2ec7903ea16f5b9a9,2021-08-30,,,Concordia College - Mid-Hudson Region
+,False,,,NY,da24a1c5e90b02ae9c8afef1840ec9f43bc3622471c3f5fc3a52b55c,2021-08-20,,,"BCS Automotive Interface Solutions U.S., LLC - Central Region"
+,False,,,NY,94f6c7714681461839bdd8e25bfa7b438d14cc8c6999b7441b369dd5,2021-08-23,,,"Creative Bath Products, Inc. - Long Island Region"
+,False,,,NY,a254bf9acc799cadbc1b4ead102c6f449a5ee4307d15088715236c74,2021-08-23,,,M & M Molding Corp. - Long Island Region
+,False,,,NY,fd947c3e76e97c6f28781d8c0ced7c9abc742b3fa65da11988c916fd,2021-08-18,,,Renaissance Westchester Hotel - Hudson Valley Region
+,False,,,NY,c2f79fb2de544605fe4df4e5c9d2740ccb865da9e0400e92e679f4bd,2021-08-13,,,"Transportation Insight, LLC (Phase 1) - Western Region"
+,False,,,NY,ae11e69ece315f8b31a75aa5401eafff10b11f4e281d83617967461f,2021-07-29,,,Garnet Health Medical Center - Catskills (Skilled Nursing Unit) - Mid-Hudson Region
+,False,,,NY,a26cb27eb20c51889f475f754d44b9fcfd63a03c55a4a3aed69fd682,2021-07-08,,,NoMad Hotels LLC - New York City Region
+,False,,,NY,8c376502b9b5abe3014c3fde702466329928f6253d1832db8ae82925,2021-07-09,,,"HI 57, LLC dba The Watson Hotel - New York City Region"
+,False,,,NY,14f170a27c52a15dfe174480ddbdcb217c8a15880f2589d941df5004,2021-07-06,,,ACHIEVE (CWS Contract Packaging Services) - Southern Region
