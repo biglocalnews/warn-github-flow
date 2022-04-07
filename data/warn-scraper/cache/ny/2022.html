@@ -1,0 +1,513 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/  dc: http://purl.org/dc/terms/  foaf: http://xmlns.com/foaf/0.1/  og: http://ogp.me/ns#  rdfs: http://www.w3.org/2000/01/rdf-schema#  schema: http://schema.org/  sioc: http://rdfs.org/sioc/ns#  sioct: http://rdfs.org/sioc/types#  skos: http://www.w3.org/2004/02/skos/core#  xsd: http://www.w3.org/2001/XMLSchema# ">
+  <head>
+    <meta charset="utf-8" /><script type="text/javascript">(window.NREUM||(NREUM={})).init={ajax:{deny_list:["bam-cell.nr-data.net"]}};(window.NREUM||(NREUM={})).loader_config={licenseKey:"a873d11659",applicationID:"680957368"};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var i=e[n]={exports:{}};t[n][0].call(i.exports,function(e){var i=t[n][1][e];return r(i||e)},i,i.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var i=0;i<n.length;i++)r(n[i]);return r}({1:[function(t,e,n){function r(){}function i(t,e,n,r){return function(){return s.recordSupportability("API/"+e+"/called"),o(t+e,[u.now()].concat(c(arguments)),n?null:this,r),n?void 0:this}}var o=t("handle"),a=t(10),c=t(11),f=t("ee").get("tracer"),u=t("loader"),s=t(4),d=NREUM;"undefined"==typeof window.newrelic&&(newrelic=d);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",v=l+"ixn-";a(p,function(t,e){d[e]=i(l,e,!0,"api")}),d.addPageAction=i(l,"addPageAction",!0),d.setCurrentRouteName=i(l,"routeName",!0),e.exports=newrelic,d.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(t,e){var n={},r=this,i="function"==typeof e;return o(v+"tracer",[u.now(),t,n],r),function(){if(f.emit((i?"":"no-")+"fn-start",[u.now(),r,i],n),i)try{return e.apply(this,arguments)}catch(t){throw f.emit("fn-err",[arguments,this,t],n),t}finally{f.emit("fn-end",[u.now()],n)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,e){m[e]=i(v,e)}),newrelic.noticeError=function(t,e){"string"==typeof t&&(t=new Error(t)),s.recordSupportability("API/noticeError/called"),o("err",[t,u.now(),!1,e])}},{}],2:[function(t,e,n){function r(t){if(NREUM.init){for(var e=NREUM.init,n=t.split("."),r=0;r<n.length-1;r++)if(e=e[n[r]],"object"!=typeof e)return;return e=e[n[n.length-1]]}}e.exports={getConfiguration:r}},{}],3:[function(t,e,n){var r=!1;try{var i=Object.defineProperty({},"passive",{get:function(){r=!0}});window.addEventListener("testPassive",null,i),window.removeEventListener("testPassive",null,i)}catch(o){}e.exports=function(t){return r?{passive:!0,capture:!!t}:!!t}},{}],4:[function(t,e,n){function r(t,e){var n=[a,t,{name:t},e];return o("storeMetric",n,null,"api"),n}function i(t,e){var n=[c,t,{name:t},e];return o("storeEventMetrics",n,null,"api"),n}var o=t("handle"),a="sm",c="cm";e.exports={constants:{SUPPORTABILITY_METRIC:a,CUSTOM_METRIC:c},recordSupportability:r,recordCustom:i}},{}],5:[function(t,e,n){function r(){return c.exists&&performance.now?Math.round(performance.now()):(o=Math.max((new Date).getTime(),o))-a}function i(){return o}var o=(new Date).getTime(),a=o,c=t(12);e.exports=r,e.exports.offset=a,e.exports.getLastTimestamp=i},{}],6:[function(t,e,n){function r(t){return!(!t||!t.protocol||"file:"===t.protocol)}e.exports=r},{}],7:[function(t,e,n){function r(t,e){var n=t.getEntries();n.forEach(function(t){"first-paint"===t.name?l("timing",["fp",Math.floor(t.startTime)]):"first-contentful-paint"===t.name&&l("timing",["fcp",Math.floor(t.startTime)])})}function i(t,e){var n=t.getEntries();if(n.length>0){var r=n[n.length-1];if(u&&u<r.startTime)return;var i=[r],o=a({});o&&i.push(o),l("lcp",i)}}function o(t){t.getEntries().forEach(function(t){t.hadRecentInput||l("cls",[t])})}function a(t){var e=navigator.connection||navigator.mozConnection||navigator.webkitConnection;if(e)return e.type&&(t["net-type"]=e.type),e.effectiveType&&(t["net-etype"]=e.effectiveType),e.rtt&&(t["net-rtt"]=e.rtt),e.downlink&&(t["net-dlink"]=e.downlink),t}function c(t){if(t instanceof y&&!w){var e=Math.round(t.timeStamp),n={type:t.type};a(n),e<=v.now()?n.fid=v.now()-e:e>v.offset&&e<=Date.now()?(e-=v.offset,n.fid=v.now()-e):e=v.now(),w=!0,l("timing",["fi",e,n])}}function f(t){"hidden"===t&&(u=v.now(),l("pageHide",[u]))}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var u,s,d,p,l=t("handle"),v=t("loader"),m=t(9),g=t(3),y=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){s=new PerformanceObserver(r);try{s.observe({entryTypes:["paint"]})}catch(h){}d=new PerformanceObserver(i);try{d.observe({entryTypes:["largest-contentful-paint"]})}catch(h){}p=new PerformanceObserver(o);try{p.observe({type:"layout-shift",buffered:!0})}catch(h){}}if("addEventListener"in document){var w=!1,b=["click","keydown","mousedown","pointerdown","touchstart"];b.forEach(function(t){document.addEventListener(t,c,g(!1))})}m(f)}},{}],8:[function(t,e,n){function r(t,e){if(!i)return!1;if(t!==i)return!1;if(!e)return!0;if(!o)return!1;for(var n=o.split("."),r=e.split("."),a=0;a<r.length;a++)if(r[a]!==n[a])return!1;return!0}var i=null,o=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var c=navigator.userAgent,f=c.match(a);f&&c.indexOf("Chrome")===-1&&c.indexOf("Chromium")===-1&&(i="Safari",o=f[1])}e.exports={agent:i,version:o,match:r}},{}],9:[function(t,e,n){function r(t){function e(){t(c&&document[c]?document[c]:document[o]?"hidden":"visible")}"addEventListener"in document&&a&&document.addEventListener(a,e,i(!1))}var i=t(3);e.exports=r;var o,a,c;"undefined"!=typeof document.hidden?(o="hidden",a="visibilitychange",c="visibilityState"):"undefined"!=typeof document.msHidden?(o="msHidden",a="msvisibilitychange"):"undefined"!=typeof document.webkitHidden&&(o="webkitHidden",a="webkitvisibilitychange",c="webkitVisibilityState")},{}],10:[function(t,e,n){function r(t,e){var n=[],r="",o=0;for(r in t)i.call(t,r)&&(n[o]=e(r,t[r]),o+=1);return n}var i=Object.prototype.hasOwnProperty;e.exports=r},{}],11:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,i=n-e||0,o=Array(i<0?0:i);++r<i;)o[r]=t[e+r];return o}e.exports=r},{}],12:[function(t,e,n){e.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(t,e,n){function r(){}function i(t){function e(t){return t&&t instanceof r?t:t?u(t,f,a):a()}function n(n,r,i,o,a){if(a!==!1&&(a=!0),!l.aborted||o){t&&a&&t(n,r,i);for(var c=e(i),f=m(n),u=f.length,s=0;s<u;s++)f[s].apply(c,r);var p=d[w[n]];return p&&p.push([b,n,r,c]),c}}function o(t,e){h[t]=m(t).concat(e)}function v(t,e){var n=h[t];if(n)for(var r=0;r<n.length;r++)n[r]===e&&n.splice(r,1)}function m(t){return h[t]||[]}function g(t){return p[t]=p[t]||i(n)}function y(t,e){l.aborted||s(t,function(t,n){e=e||"feature",w[n]=e,e in d||(d[e]=[])})}var h={},w={},b={on:o,addEventListener:o,removeEventListener:v,emit:n,get:g,listeners:m,context:e,buffer:y,abort:c,aborted:!1};return b}function o(t){return u(t,f,a)}function a(){return new r}function c(){(d.api||d.feature)&&(l.aborted=!0,d=l.backlog={})}var f="nr@context",u=t("gos"),s=t(10),d={},p={},l=e.exports=i();e.exports.getOrSetContext=o,l.backlog=d},{}],gos:[function(t,e,n){function r(t,e,n){if(i.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(o){}return t[e]=r,r}var i=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){i.buffer([t],r),i.emit(t,e,n)}var i=t("ee").get("handle");e.exports=r,r.ee=i},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,o,function(){return i++})}var i=1,o="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!P++){var t=M.info=NREUM.info,e=g.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&e))return u.abort();f(O,function(e,n){t[e]||(t[e]=n)});var n=a();c("mark",["onload",n+M.offset],null,"api"),c("timing",["load",n]);var r=g.createElement("script");0===t.agent.indexOf("http://")||0===t.agent.indexOf("https://")?r.src=t.agent:r.src=v+"://"+t.agent,e.parentNode.insertBefore(r,e)}}function i(){"complete"===g.readyState&&o()}function o(){c("mark",["domContent",a()+M.offset],null,"api")}var a=t(5),c=t("handle"),f=t(10),u=t("ee"),s=t(8),d=t(6),p=t(2),l=t(3),v=p.getConfiguration("ssl")===!1?"http":"https",m=window,g=m.document,y="addEventListener",h="attachEvent",w=m.XMLHttpRequest,b=w&&w.prototype,E=!d(m.location);NREUM.o={ST:setTimeout,SI:m.setImmediate,CT:clearTimeout,XHR:w,REQ:m.Request,EV:m.Event,PR:m.Promise,MO:m.MutationObserver};var x=""+location,O={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1215.min.js"},T=w&&b&&b[y]&&!/CriOS/.test(navigator.userAgent),M=e.exports={offset:a.getLastTimestamp(),now:a,origin:x,features:{},xhrWrappable:T,userAgent:s,disabled:E};if(!E){t(1),t(7),g[y]?(g[y]("DOMContentLoaded",o,l(!1)),m[y]("load",r,l(!1))):(g[h]("onreadystatechange",i),m[h]("onload",r)),c("mark",["firstbyte",a.getLastTimestamp()],null,"api");var P=0}},{}],"wrap-function":[function(t,e,n){function r(t,e){function n(e,n,r,f,u){function nrWrapper(){var o,a,s,p;try{a=this,o=d(arguments),s="function"==typeof r?r(o,a):r||{}}catch(l){i([l,"",[o,a,f],s],t)}c(n+"start",[o,a,f],s,u);try{return p=e.apply(a,o)}catch(v){throw c(n+"err",[o,a,v],s,u),v}finally{c(n+"end",[o,a,p],s,u)}}return a(e)?e:(n||(n=""),nrWrapper[p]=e,o(e,nrWrapper,t),nrWrapper)}function r(t,e,r,i,o){r||(r="");var c,f,u,s="-"===r.charAt(0);for(u=0;u<e.length;u++)f=e[u],c=t[f],a(c)||(t[f]=n(c,s?f+r:r,i,f,o))}function c(n,r,o,a){if(!v||e){var c=v;v=!0;try{t.emit(n,r,o,e,a)}catch(f){i([f,n,r,o],t)}v=c}}return t||(t=s),n.inPlace=r,n.flag=p,n}function i(t,e){e||(e=s);try{e.emit("internal-error",t)}catch(n){}}function o(t,e,n){if(Object.defineProperty&&Object.keys)try{var r=Object.keys(t);return r.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(o){i([o],n)}for(var a in t)l.call(t,a)&&(e[a]=t[a]);return e}function a(t){return!(t&&t instanceof Function&&t.apply&&!t[p])}function c(t,e){var n=e(t);return n[p]=t,o(t,n,s),n}function f(t,e,n){var r=t[e];t[e]=c(r,n)}function u(){for(var t=arguments.length,e=new Array(t),n=0;n<t;++n)e[n]=arguments[n];return e}var s=t("ee"),d=t(11),p="nr@original",l=Object.prototype.hasOwnProperty,v=!1;e.exports=r,e.exports.wrapFunction=c,e.exports.wrapInPlace=f,e.exports.argsToArray=u},{}]},{},["loader"]);</script>
+<script>(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","https://www.google-analytics.com/analytics.js","ga");ga("create", "UA-164543543-1", {"cookieDomain":"auto"});ga("set", "anonymizeIp", true);ga("send", "pageview");</script>
+<meta name="description" content="" />
+<link rel="icon" href="/profiles/custom/webny/themes/custom/webny_theme/favicon.ico" />
+<link rel="mask-icon" href="" />
+<link rel="icon" sizes="16x16" href="/profiles/custom/webny/themes/custom/webny_theme/icons/icon-16x16.png" />
+<link rel="icon" sizes="32x32" href="/profiles/custom/webny/themes/custom/webny_theme/icons/icon-32x32.png" />
+<link rel="icon" sizes="96x96" href="/profiles/custom/webny/themes/custom/webny_theme/icons/icon-96x96.png" />
+<link rel="icon" sizes="192x192" href="/profiles/custom/webny/themes/custom/webny_theme/icons/icon-192x192.png" />
+<link rel="apple-touch-icon" href="/profiles/custom/webny/themes/custom/webny_theme/icons/apple-touch/apple-touch-icon-60x60.png" />
+<link rel="apple-touch-icon" sizes="72x72" href="/profiles/custom/webny/themes/custom/webny_theme/icons/apple-touch/apple-touch-icon-72x72.png" />
+<link rel="apple-touch-icon" sizes="76x76" href="/profiles/custom/webny/themes/custom/webny_theme/icons/apple-touch/apple-touch-icon-76x76.png" />
+<link rel="apple-touch-icon" sizes="114x114" href="/profiles/custom/webny/themes/custom/webny_theme/icons/apple-touch/apple-touch-icon-114x114.png" />
+<link rel="apple-touch-icon" sizes="120x120" href="/profiles/custom/webny/themes/custom/webny_theme/icons/apple-touch/apple-touch-icon-120x120.png" />
+<link rel="apple-touch-icon" sizes="144x144" href="/profiles/custom/webny/themes/custom/webny_theme/icons/apple-touch/apple-touch-icon-144x144.png" />
+<link rel="apple-touch-icon" sizes="152x152" href="/profiles/custom/webny/themes/custom/webny_theme/icons/apple-touch/apple-touch-icon-152x152.png" />
+<link rel="apple-touch-icon" sizes="180x180" href="/profiles/custom/webny/themes/custom/webny_theme/icons/apple-touch/apple-touch-icon-180x180.png" />
+<link rel="apple-touch-icon-precomposed" href="/profiles/custom/webny/themes/custom/webny_theme/icons/apple-touch/apple-touch-icon-57x57-precomposed.png" />
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/profiles/custom/webny/themes/custom/webny_theme/icons/apple-touch/apple-touch-icon-72x72-precomposed.png" />
+<link rel="apple-touch-icon-precomposed" sizes="76x76" href="/profiles/custom/webny/themes/custom/webny_theme/icons/apple-touch/apple-touch-icon-76x76-precomposed.png" />
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/profiles/custom/webny/themes/custom/webny_theme/icons/apple-touch/apple-touch-icon-114x114-precomposed.png" />
+<link rel="apple-touch-icon-precomposed" sizes="120x120" href="/profiles/custom/webny/themes/custom/webny_theme/icons/apple-touch/apple-touch-icon-120x120-precomposed.png" />
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/profiles/custom/webny/themes/custom/webny_theme/icons/apple-touch/apple-touch-icon-144x144-precomposed.png" />
+<link rel="apple-touch-icon-precomposed" sizes="152x152" href="/profiles/custom/webny/themes/custom/webny_theme/icons/apple-touch/apple-touch-icon-152x152-precomposed.png" />
+<link rel="apple-touch-icon-precomposed" sizes="180x180" href="/profiles/custom/webny/themes/custom/webny_theme/icons/apple-touch/apple-touch-icon-180x180-precomposed.png" />
+<meta property="og:site_name" content="Department of Labor" />
+<meta property="og:title" content="WARN Notices" />
+<meta property="og:image:url" content="https://dol.ny.gov/profiles/custom/webny/themes/custom/webny_theme/images/nys-default.png" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:description" content="" />
+<meta name="Generator" content="Drupal 9 (https://www.drupal.org)" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="canonical" href="https://dol.ny.gov/warn-notices" />
+<link rel="shortlink" href="https://dol.ny.gov/node/17566" />
+
+    <title>WARN Notices | Department of Labor</title>
+    <link rel="stylesheet" media="all" href="/sites/g/files/oee1171/files/css/css_WCcvEmh7p0CCUHQF4G5vFZdekNq2H-56QtlNCnD3bAE.css" />
+<link rel="stylesheet" media="all" href="/sites/g/files/oee1171/files/css/css_QUD53mQkcgBoJe57ANApxXPoPf2WIG1EgsrZ9wORblo.css" />
+<link rel="stylesheet" media="print" href="/sites/g/files/oee1171/files/css/css_zMJSiCCVIgmvArV4vWSupHGzZ9mJKD5wKHkhSB2svT0.css" />
+<link rel="stylesheet" media="all" href="/sites/g/files/oee1171/files/css/css_hDsqhFadU1k4CFfjH-jKODJZVymHHy-DP3Eb2hcn4D4.css" />
+
+    <script src="/sites/g/files/oee1171/files/js/js_MVso1WGxGvqlxI3OBIGjQonJPKPBEZP7UVwlExH07u4.js"></script>
+
+  </head>
+  <body class="body-sidebars-none">
+        <div class="nygov-logo">
+      <img src="/profiles/custom/webny/themes/custom/webny_theme/images/nygov-logo.png" alt="nygov-logo" />
+    </div>
+    <a href="#main-content" class="visually-hidden focusable skip-to-main">
+      Skip to main content
+    </a>
+    
+
+<div id="nygov-universal-navigation" class="nygov-universal-container" data-iframe="true" data-updated="2014-11-07 08:30">
+    <noscript>
+        <iframe width="100%" height="86px" src="//static-assets.ny.gov/load_global_menu/ajax?iframe=true" frameborder="0" style="border:none; overflow:hidden; width:100%; height:86px;" scrolling="no">
+            Your browser does not support iFrames
+        </iframe>
+    </noscript>
+    <script type="text/javascript">
+        var _NY = {
+            HOST: "static-assets.ny.gov",
+            BASE_HOST: "www.ny.gov",
+            hideSettings: false,
+            hideSearch: false
+        };
+        (function (document, bundle, head) {
+            head = document.getElementsByTagName('head')[0];
+            bundle = document.createElement('script');
+            bundle.type = 'text/javascript';
+            bundle.async = true;
+            bundle.src = "//static-assets.ny.gov/sites/all/widgets/universal-navigation/js/dist/global-nav-bundle.js";
+            head.appendChild(bundle);
+        }(document));
+    </script>
+</div>
+      <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+    <div class="layout-container">
+
+  <header role="banner">
+                        <nav id="webny-global-header" class="webny-global-header horizontal stacked" aria-label="primary-site" >
+            <div class="nav-toggle">
+            <button id="webny-menu-control">Navigation Menu Toggle</button>
+        </div>
+            <h1><a href="/">Department of Labor</a></h1>
+        <ul class="gnav-ul"><li class="gnav-mitems gnav-topli" aria-expanded="false"><a href="/unemployment/unemployment-insurance-assistance">Unemployment Benefits</a><ul class="gnav-items-ul" aria-hidden="true"><li class="gnav-toplink"><a href="/unemployment/unemployment-insurance-assistance">Unemployment Benefits</a></li><li><a href="/unemployment/file-your-first-claim-benefits">File Your First Claim for Benefits</a></li><li><a href="/unemployment/certify-weekly-unemployment-insurance-benefits">Certify for Weekly Benefits</a></li><li><a href="/shared-work-program-0">Shared Work Program</a></li><li><a href="/unemployment/employer-unemployment-insurance-information">Employer Information</a></li><li><a href="/report-fraud">Report Fraud</a></li><li><a href="/unemployment/calculators">Calculators</a></li></ul></li><li class="gnav-mitems gnav-topli" aria-expanded="false"><a href="/jobs-and-careers">Jobs &amp; Careers</a><ul class="gnav-items-ul" aria-hidden="true"><li class="gnav-toplink"><a href="/jobs-and-careers">Jobs &amp; Careers</a></li><li><a href="/find-job-0">Find a Job</a></li><li><a href="/career-development">Career Development</a></li><li><a href="/apprenticeship/overview">Apprenticeships</a></li><li><a href="/youth">Youth</a></li></ul></li><li class="gnav-mitems gnav-topli" aria-expanded="false"><a href="/services-businesses">Business Support</a><ul class="gnav-items-ul" aria-hidden="true"><li class="gnav-toplink"><a href="/services-businesses">Business Support</a></li><li><a href="/recruit-your-workforce">Recruit Your Workforce</a></li><li><a href="/apprenticeship/overview">Apprenticeships</a></li><li><a href="/hiring-incentives-tax-credits-and-funding-opportunities">Hiring Incentives &amp; Tax Credits</a></li><li><a href="/services-agricultural-employers-0">Services for Agricultural Employers</a></li></ul></li><li class="gnav-mitems gnav-topli" aria-expanded="false"><a href="/workforce-protections">Workforce Protections</a><ul class="gnav-items-ul" aria-hidden="true"><li class="gnav-toplink"><a href="/workforce-protections">Workforce Protections</a></li><li><a href="/labor-standards-0">Labor Standards</a></li><li><a href="/minimum-wage-0">Minimum Wage</a></li><li><a href="/safety-and-health">Safety &amp; Health</a></li><li><a href="/legal">Legal</a></li><li><a href="/equal-opportunity">Equal Opportunity</a></li><li><a href="/public-work-and-prevailing-wage">Public Work</a></li><li><a href="/immigrant-policies-and-affairs-0">Immigrant Policies &amp; Affairs</a></li></ul></li><li class="gnav-mitems gnav-topli" aria-expanded="false"><a href="/labor-data">Labor Data</a><ul class="gnav-items-ul" aria-hidden="true"><li class="gnav-toplink"><a href="/labor-data">Labor Data</a></li><li><a href="/occupational-and-industry-data">Occupational and Industry Data</a></li><li><a href="/new-york-state-data-center">NYS Data Center</a></li><li><a href="/labor-market-analysts">Labor Market Analysts</a></li><li><a href="/unemployment-insurance-ui-data-sharing">Unemployment Insurance Data Sharing</a></li></ul></li><li class="gnav-mitems gnav-topli" aria-expanded="false"><a href="/resources">Resources</a><ul class="gnav-items-ul" aria-hidden="true"><li class="gnav-toplink"><a href="/resources">Resources</a></li><li><a href="/future-work" title="The Future of Work in NY">Future of Work</a></li><li><a href="/workforce-governance">Workforce Governance</a></li><li><a href="/forms-and-publications">Forms &amp; Publications</a></li><li><a href="/newsroom">Newsroom</a></li><li><a href="/contact-department-labor-1">Contact Us</a></li><li><a href="/worker-adjustment-and-retraining-notification-warn">WARN Notices</a></li><li><a href="/information-department-labor-employees">Information for DOL Employees</a></li></ul></li></ul>
+    </nav>
+
+
+
+  </header>
+
+  
+
+  
+
+  
+
+  
+
+  <main role="main">
+    <a id="main-content" tabindex="-1"></a>
+    <div class="layout-content">
+        <div>
+    <div data-drupal-messages-fallback class="hidden"></div>
+
+
+
+
+
+
+
+
+    
+
+
+                    
+
+    
+
+
+<article  data-history-node-id="17566" role="article" about="/warn-notices" class="title-layout">
+
+                    
+    
+    <div class="landing-title-area">
+
+        <!-- HEADLINE LABEL -->
+        <div class="landing-title">
+            <h1><span>WARN Notices</span>
+</h1>
+        </div>
+
+        <!-- SUBTITLE LABEL -->
+        <div class="landing-subtitle">
+            <span></span>
+        </div>
+
+    </div>
+
+                    
+    
+</article>
+
+
+<!-- Logic to Display or Not to Display the Hero section -->
+
+<div class="page-paragraphs landing-paragraphs">
+    <div class="page-paragraphs-in">
+    
+      <div>
+              <div>  <div class="paragraph paragraph--type--webny-wysiwyg-pgtype paragraph--view-mode--default">
+          
+            <div class="wysiwyg--field-webny-wysiwyg-title">Worker Adjustment and Retraining Notification</div>
+      
+            <div class="wysiwyg--field-webny-wysiwyg-headline">2022 WARN Notices</div>
+      
+            <div class="wysiwyg--field-webny-wysiwyg-body"><p>Click on the company name for further details.</p>
+
+<p> </p>
+
+<table><thead><tr><th>Company Name </th>
+			<th>Date Posted</th>
+			<th>Notice Dated</th>
+		</tr></thead><tbody><tr><td><a href="/warn-elmira-savings-bank-southern-2021-0044-4-6-2022">Elmira Savings Bank - Southern Region</a></td>
+			<td>4/6/2022</td>
+			<td>1/27/2022</td>
+		</tr><tr><td><a href="/warn-amazon-4-star-books-popups-nyc-2021-0069-4-5-2022">Amazon (Amazon 4-star, Books, and Pop Up stores) - New York City Region</a></td>
+			<td>4/5/2022</td>
+			<td>4/1/2022</td>
+		</tr><tr><td><a href="/warn-weiss-instruments-long-island-2021-0068-4-5-2022">Weiss Instruments LLC - Long Island Region</a></td>
+			<td>4/5/2022</td>
+			<td>4/1/2022</td>
+		</tr><tr><td><a href="/warn-new-york-air-break-north-country-2021-0023-4-5-2022-amended-3-30-2022">New York Air Brake - North Country Region</a></td>
+			<td>4/5/2022</td>
+			<td>9/30/2021 (Amended 3/30/2022)</td>
+		</tr><tr><td><a href="/warn-slantfin-corporation-long-island-2021-0067-4-4-2022">Slant/Fin Corporation - Long Island Region</a></td>
+			<td>4/4/2022</td>
+			<td>3/31/2022</td>
+		</tr><tr><td><a href="/warn-g2-secure-staff-nyc-2021-0066-4-4-2022">G2 Secure Staff, LLC - New York City Region</a></td>
+			<td>4/4/2022</td>
+			<td>3/31/2022</td>
+		</tr><tr><td><a href="/warn-mc-packaging-corporation-long-island-2021-0064-4-4-2022">MC Packaging Corporation - Long Island Region</a></td>
+			<td>4/4/2022</td>
+			<td>3/31/2022</td>
+		</tr><tr><td><a href="/warn-sanofi-us-kadmon-holdings-nyc-2021-0065-4-4-2022">Sanofi US (Kadmon Holdings, Inc.) - New York City Region</a></td>
+			<td>4/4/2022</td>
+			<td>3/31/2022</td>
+		</tr><tr><td><a href="/warn-devanchan-hair-spa-nyc-2021-0063-4-1-2022">Devachan Hair and Spa, Inc. - New York City Region</a></td>
+			<td>4/1/2022</td>
+			<td>3/31/2022</td>
+		</tr><tr><td><a href="/warn-research-foundation-cuny-resource-navigator-corps-nyc-2021-0062-4-1-2022">Research Foundation of The City University of New York - Resource Navigator Corps (at the CUNY Graduate School of Public Health &amp; Health Policy) - New York City Region</a></td>
+			<td>4/1/2022</td>
+			<td>3/31/2022</td>
+		</tr><tr><td><a href="/warn-aclara-smart-grid-solutions-nyc-2021-0009-3-31-2022-amended">Aclara Smart Grid Solutions, LLC - New York City Region</a></td>
+			<td>3/31/2022</td>
+			<td>8/18/2021 &amp; 8/26/2021 (Amended 3/30/2022)</td>
+		</tr><tr><td><a href="/warn-fridge-no-more-nyc-2021-0061-3-16-2022">Fridge No More Inc. - New York City Region</a></td>
+			<td>3/16/2022</td>
+			<td>3/10/2022</td>
+		</tr><tr><td><a href="/warn-ready-responders-nyc-2021-0060-3-16-2022">Ready Responders, Inc. - New York City Region</a></td>
+			<td>3/16/2022</td>
+			<td>2/18/2022</td>
+		</tr><tr><td><a href="/warn-portmore-delivery-service-corp-nyc-2021-0059-3-15-2022">Portmore Delivery Service Corp. - New York City Region</a></td>
+			<td>3/15/2022</td>
+			<td>3/15/2022</td>
+		</tr><tr><td><a href="/warn-slant-fin-corporation-long-island-2021-0037-amended-3-11-2022">Slant/Fin Corporation - Long Island Region</a></td>
+			<td>3/11/2022</td>
+			<td>12/22/2021 (Amended 3/11/2022)</td>
+		</tr><tr><td><a href="/warn-key-foods-cs3-food-universe-nyc-2021-0057-3-8-2022">Key Food CS 3 LLC, dba Food Universe - New York City Region</a></td>
+			<td>3/8/2022</td>
+			<td>3/7/2022</td>
+		</tr><tr><td><a href="/warn-nyc-health-hospitals-nyc-2021-0058-3-8-2022">NYC Health + Hospitals - New York City Region</a></td>
+			<td>3/8/2022</td>
+			<td>3/4/2022</td>
+		</tr><tr><td><a href="/warn-aclara-smart-grid-solutions-nyc-2021-0009-3-4-2022-amended-3-2-2022">Aclara Smart Grid Solutions, LLC - New York City Region</a></td>
+			<td>3/4/2022</td>
+			<td>8/18/2021 &amp; 8/26/2021 (Amended 3/2/2022)</td>
+		</tr><tr><td><a href="/warn-applegreen-mohawk-valley-finger-lakes-2021-0054-0055-3-2-2022">Applegreen - Mohawk Valley Region &amp; Finger Lakes Region</a></td>
+			<td>3/2/2022</td>
+			<td>2/14/2022, 2/16/2022</td>
+		</tr><tr><td><a href="/warn-wb-frozen-frankfort-bakery-mohawk-valley-2021-0056-2-23-2022">WB Frozen US LLC (formerly Weston Foods US LLC) Frankfort Bakery - Mohawk Valley Region</a></td>
+			<td>2/23/2022</td>
+			<td>2/22/2022</td>
+		</tr><tr><td><a href="/warn-peloton-interactive-mid-hudson-2021-0051-2-11-2022">Peloton Interactive Inc. - Mid-Hudson Region</a></td>
+			<td>2/11/2022</td>
+			<td>2/8/2022</td>
+		</tr><tr><td><a href="/warn-aclara-smart-grid-solutions-nyc-2021-0009-2-11-2022-amended-2-1-2022">Aclara Smart Grid Solutions, LLC - New York City Region</a></td>
+			<td>2/11/2022</td>
+			<td>8/18/2021 &amp; 8/26/2021 (Amended 2/1/2022)</td>
+		</tr><tr><td><a href="/warn-peloton-interactive-long-island-2021-0052-0053-2-8-2022">Peloton Interactive Inc. - Long Island Region</a></td>
+			<td>2/11/2022</td>
+			<td>2/8/2022</td>
+		</tr><tr><td><a href="/warn-fund-for-city-of-new-york-central-2021-0049-2-3-2022">The Fund for the City of New York - Central Region</a></td>
+			<td>2/3/2022</td>
+			<td>1/28/2022</td>
+		</tr><tr><td><a href="/warn-transit-management-dutchess-county-first-transit-2021-0050-2-2-2022">Transit Management of Dutchess County (subsidiary of First Transit, Inc.) - Hudson Valley Region</a></td>
+			<td>2/2/2022</td>
+			<td>1/28/2022</td>
+		</tr><tr><td><a href="/warn-fund-for-city-of-new-york-nyc-2021-0046-2-2-2022">The Fund for the City of New York - New York City Region</a></td>
+			<td>2/2/2022</td>
+			<td>1/28/2022</td>
+		</tr><tr><td><a href="/warn-fund-for-city-of-new-york-long-island-2021-0047-2-2-2022">The Fund for the City of New York - Long Island Region</a></td>
+			<td>2/2/2022</td>
+			<td>1/28/2022</td>
+		</tr><tr><td><a href="/warn-fund-for-city-of-new-york-mid-hudson-2021-0048-2-2-2022">The Fund for the City of New York - Mid-Hudson Region</a></td>
+			<td>2/2/2022</td>
+			<td>1/31/2022</td>
+		</tr><tr><td><a href="/warn-slantco-manufacturing-long-island-2021-0045-1-31-2022">Slantco Manufacturing Co. Inc. - Long Island Region</a></td>
+			<td>1/31/2022</td>
+			<td>1/28/2022</td>
+		</tr><tr><td><a href="/warn-slant-fin-corporation-long-island-2021-0037-1-28-2022-amended-1-28-2022">Slant/Fin Corporation - Long Island Region</a></td>
+			<td>1/28/2022</td>
+			<td>12/22/2021 (Amended 1/28/2022)</td>
+		</tr><tr><td><a href="/warn-easter-seals-monticello-project-excel-mid-hudson-2021-0043-1-27-2022">Easter Seals NY Monticello site Project Excel - Mid-Hudson Region</a></td>
+			<td>1/27/2022</td>
+			<td>1/25/2022</td>
+		</tr><tr><td><a href="/warn-city-carting-westchester-mid-hudson-2021-0042-1-26-2022">City Carting of Westchester, Inc. - Mid-Hudson Region</a></td>
+			<td>1/26/2022</td>
+			<td>1/25/2022</td>
+		</tr><tr><td><a href="/warn-brooklyn-food-arts-norm-restaurant-brooklyn-museum-nyc-2021-0041-1-20-2022">Brooklyn Food &amp; Arts, LLC (at The Norm Restaurant inside the Brooklyn Museum) - New York City Region</a></td>
+			<td>1/20/2022</td>
+			<td>12/29/2021</td>
+		</tr><tr><td><a href="/warn-hillside-childrens-center-stillwater-campus-southern-2021-0040-1-13-2022">Hillside Children’s Center - Stillwater Campus - Southern Region</a></td>
+			<td>1/13/2022</td>
+			<td>1/11/2022</td>
+		</tr><tr><td><a href="/warn-transportation-insight-phase-3-western-2021-0039-1-7-2022">Transportation Insight, LLC (Phase 3) - Western Region</a></td>
+			<td>1/7/2022</td>
+			<td>1/6/2022</td>
+		</tr><tr><td><a href="/warn-transportation-insight-phase-2-western-2021-0022-1-7-2022-amended-1-6-2022">Transportation Insight, LLC (Phase 2) - Western Region</a></td>
+			<td>1/7/2022</td>
+			<td>9/28/2021 (Amended 1/6/2022)</td>
+		</tr><tr><td><a href="/warn-credit-suisse-securities-usa-nyc-2021-0038-1-3-2022">Credit Suisse Securities (USA) LLC - New York City Region</a></td>
+			<td>1/3/2022</td>
+			<td>12/6/2021</td>
+		</tr></tbody></table></div>
+      
+      </div>
+</div>
+              <div>
+
+    <article  class="category-tiles-layout">
+
+                
+
+        <div class="category-tiles-layout paragraph paragraph--type--webny-category-tiles-frame paragraph--view-mode--default">
+                                                <div class="category-tiles-no-image category-tiles-landing" style="">
+                                                                                                <h2>
+                        <span class="frame-title">
+            <div>2016-2021 WARN Notices</div>
+      </span>
+                        <span class="frame-headline">
+            <div>Looking for a Past Notice?</div>
+      </span>
+                    </h2>
+                                                                                <div class="body-area">
+                        <div class="body-area-in">
+                            <div class="category-tiles-body">
+                                <span>
+            <div><p>Our WARN Database is currently undergoing a redesign and system upgrade to allow for more functionality.  Past WARN notices are posted below by year. If you would like to request the full documentation for any of the past notices, please email <a href="/cdn-cgi/l/email-protection#92c5f7f0daf7fee2d2fef3f0fde0bcfcebbcf5fde4"><span class="__cf_email__" data-cfemail="0b5c6e69436e677b4b676a696479256572256c647d">[email&#160;protected]</span></a>. Please include the name of the company and the date of the notice you are requesting.</p></div>
+      </span>
+                            </div>
+                        </div>
+                    </div>
+                                        <div class="category-tiles-link-content">
+                        <ul  class="category-tile-link-flex">
+            <li class="category-tiles-link--field-webny-cat-button-link">
+            <a title="2016" href="/2016-warn-notices">2016</a>
+        </li>
+            <li class="category-tiles-link--field-webny-cat-button-link">
+            <a title="2017" href="/2017-warn-notices">2017</a>
+        </li>
+            <li class="category-tiles-link--field-webny-cat-button-link">
+            <a title="2018" href="/2018-warn-notices">2018</a>
+        </li>
+            <li class="category-tiles-link--field-webny-cat-button-link">
+            <a title="2019" href="/2019-warn-notices">2019</a>
+        </li>
+            <li class="category-tiles-link--field-webny-cat-button-link">
+            <a title="2020" href="/2020-warn-notices">2020</a>
+        </li>
+            <li class="category-tiles-link--field-webny-cat-button-link">
+            <a title="2021" href="/warn-notices-2021">2021</a>
+        </li>
+    </ul>
+
+                    </div>
+                </div>
+
+        </div>
+                
+    </article>
+
+</div>
+          </div>
+  
+    </div>
+</div>
+
+<!-- VIEWFIELD -->
+
+  </div>
+
+    </div>
+    
+    
+  </main>
+
+  
+</div>
+  </div>
+
+     
+
+<div class="webny-global-footer">
+
+    <div id="block-sitebranding">
+        <div class="agency-name">
+            <a href="/" title="Home" rel="home">Department of Labor</a>
+        </div>
+    </div>
+    <nav id="block-global-footer-menu"  class="footer-menu footer-vertical">
+            
+        <ul class="global-footer-top-links">
+                        <li>
+                <span>About Us</span>
+                                                <ul class="global-footer-inner-links">
+                            <li>
+                <a href="/about-us-0" data-drupal-link-system-path="node/26571">Our Mission &amp; Services</a>
+                            </li>
+                    <li>
+                <a href="/newsroom" data-drupal-link-system-path="node/3166">Newsroom</a>
+                            </li>
+                    <li>
+                <a href="https://dol.ny.gov/dol-leadership-team">Commissioner</a>
+                            </li>
+                    <li>
+                <a href="/contract-bid-grant-opportunities" data-drupal-link-system-path="node/3581">Contract, Bid &amp; Grant Opportunities</a>
+                            </li>
+                    <li>
+                <a href="/contact-department-labor-1" data-drupal-link-system-path="node/4686">Contact Us</a>
+                            </li>
+            </ul>
+        
+                            </li>
+                    <li>
+                <span>Boards</span>
+                                                <ul class="global-footer-inner-links">
+                            <li>
+                <a href="/hazard-abatement-board" data-drupal-link-system-path="node/3391">Hazard Abatement Board</a>
+                            </li>
+                    <li>
+                <a href="http://industrialappeals.ny.gov/">Industrial Board of Appeals</a>
+                            </li>
+                    <li>
+                <a href="https://perb.ny.gov/">Public Employment Relations Board</a>
+                            </li>
+                    <li>
+                <a href="http://uiappeals.ny.gov/">Unemployment Insurance Appeal Board</a>
+                            </li>
+            </ul>
+        
+                            </li>
+                    <li>
+                <span>Initiatives</span>
+                                                <ul class="global-footer-inner-links">
+                            <li>
+                <a href="/apprenticeship/overview" data-drupal-link-system-path="node/4601">Apprenticeship</a>
+                            </li>
+                    <li>
+                <a href="https://www.ny.gov/programs/new-york-state-paid-family-leave">Paid Family Leave</a>
+                            </li>
+                    <li>
+                <a href="http://nyworks.ny.gov/">Regional Economic Development Councils</a>
+                            </li>
+                    <li>
+                <a href="/ride-safe-ny" data-drupal-link-system-path="node/3411">Ride Safe NY</a>
+                            </li>
+                    <li>
+                <a href="/shared-work-program-0" data-drupal-link-system-path="node/406">Shared Work</a>
+                            </li>
+                    <li>
+                <a href="https://twitter.com/nysdolenespanol">Twitter en español</a>
+                            </li>
+            </ul>
+        
+                            </li>
+                    <li>
+                <span>Resources</span>
+                                                <ul class="global-footer-inner-links">
+                            <li>
+                <a href="/accessibility" data-drupal-link-system-path="node/2986">Accessibility Policy</a>
+                            </li>
+                    <li>
+                <a href="/freedom-information-law-foil-requests" data-drupal-link-system-path="node/1791">Freedom of Information Law (FOIL)</a>
+                            </li>
+                    <li>
+                <a href="/privacy-policy" data-drupal-link-system-path="node/2991">Privacy Policy</a>
+                            </li>
+                    <li>
+                <a href="/report-fraud" data-drupal-link-system-path="node/4956">Report Fraud</a>
+                            </li>
+                    <li>
+                <a href="/nysdol-transparency-action-plan-oct-2021" data-drupal-link-system-path="node/24746">Transparency Action Plan</a>
+                            </li>
+            </ul>
+        
+                            </li>
+                    <li>
+                <span>Language Assistance</span>
+                                                <ul class="global-footer-inner-links">
+                            <li>
+                <a href="https://dol.ny.gov/search/espanol_spanish_">Español (Spanish)</a>
+                            </li>
+                    <li>
+                <a href="https://dol.ny.gov/search/fantizi_traditional_chinese_">中文 (Chinese)</a>
+                            </li>
+                    <li>
+                <a href="https://dol.ny.gov/search/russkiy_russian_">Русский (Russian)</a>
+                            </li>
+                    <li>
+                <a href="https://dol.ny.gov/search/italiano_italian_">Italiano (Italian)</a>
+                            </li>
+                    <li>
+                <a href="https://dol.ny.gov/search/kreyol_ayisyen_haitian_creole_">Kreyòl ayisyen (Haitian-Creole)</a>
+                            </li>
+                    <li>
+                <a href="https://dol.ny.gov/search/hangugeo_korean_">한국어 (Korean)</a>
+                            </li>
+                    <li>
+                <a href="https://dol.ny.gov/search/jezyk_polski_polish_">Polski (Polish)</a>
+                            </li>
+                    <li>
+                <a href="/language-access" data-drupal-link-system-path="node/1461">More Information</a>
+                            </li>
+            </ul>
+        
+                            </li>
+            </ul>
+        
+
+
+    </nav>
+
+        <nav id="block-global-footer-social-menu" class="social-media">
+        <h2>CONNECT WITH US</h2>
+        <ul><li><a class="imgico_facebook" href="https://www.facebook.com/nyslabor">FACEBOOK</a></li><li><a class="imgico_instagram" href="https://instagram.com/nyslabor">INSTAGRAM</a></li><li><a class="imgico_linkedin" href="https://www.linkedin.com/company/new-york-state-department-of-labor">LINKEDIN</a></li><li><a class="imgico_twitter" href="https://twitter.com/nyslabor">TWITTER</a></li><li><a class="imgico_youtube" href="https://www.youtube.com/user/NYSLabor">YOUTUBE</a></li></ul>
+    </nav>
+    
+</div>
+<!-- uNav interactive footer -->
+<div id="nygov-universal-footer">
+    <noscript>
+        <iframe width="100%" height="200px" src="//static-assets.ny.gov/load_global_footer/ajax?iframe=true" frameborder="0" style="border:none; overflow:hidden; width:100%; height:200px;" scrolling="no">
+            Your browser does not support iFrames
+        </iframe>
+    </noscript>
+</div>
+<!-- end uNav interactive footer -->
+
+
+                                
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","scriptPath":null,"pathPrefix":"","currentPath":"node\/17566","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"google_analytics":{"trackOutbound":true,"trackMailto":true,"trackDownload":true,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip"},"user":{"uid":0,"permissionsHash":"8fdff1b1c59578fc5204a97b2c3bf64a1e439d8f89151cc685dd1fb3a6e19901"}}</script>
+<script src="/sites/g/files/oee1171/files/js/js_ns_Bl2d_wHgjqbKFmSWviqFOpSy4p8CiCBFcsCsYl_w.js"></script>
+
+  <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam-cell.nr-data.net","licenseKey":"a873d11659","applicationID":"680957368,141443075","transactionName":"YANVY0BRC0tQW01fW1lJdlRGWQpWHnxLQ0RWCmtZXVQAZHJXV0JGWApbUkBsK1dVXW9fUUAlWFlGQgpUXV1LGwpBD1JA","queueTime":0,"applicationTime":286,"atts":"TERWFQhLGEU=","errorBeacon":"bam-cell.nr-data.net","agent":""}</script></body>
+</html>

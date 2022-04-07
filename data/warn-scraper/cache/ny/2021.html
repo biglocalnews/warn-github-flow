@@ -1,0 +1,1024 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/  dc: http://purl.org/dc/terms/  foaf: http://xmlns.com/foaf/0.1/  og: http://ogp.me/ns#  rdfs: http://www.w3.org/2000/01/rdf-schema#  schema: http://schema.org/  sioc: http://rdfs.org/sioc/ns#  sioct: http://rdfs.org/sioc/types#  skos: http://www.w3.org/2004/02/skos/core#  xsd: http://www.w3.org/2001/XMLSchema# ">
+  <head>
+    <meta charset="utf-8" /><script type="text/javascript">(window.NREUM||(NREUM={})).init={ajax:{deny_list:["bam-cell.nr-data.net"]}};(window.NREUM||(NREUM={})).loader_config={licenseKey:"a873d11659",applicationID:"680957368"};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var i=e[n]={exports:{}};t[n][0].call(i.exports,function(e){var i=t[n][1][e];return r(i||e)},i,i.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var i=0;i<n.length;i++)r(n[i]);return r}({1:[function(t,e,n){function r(){}function i(t,e,n,r){return function(){return s.recordSupportability("API/"+e+"/called"),o(t+e,[u.now()].concat(c(arguments)),n?null:this,r),n?void 0:this}}var o=t("handle"),a=t(10),c=t(11),f=t("ee").get("tracer"),u=t("loader"),s=t(4),d=NREUM;"undefined"==typeof window.newrelic&&(newrelic=d);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",v=l+"ixn-";a(p,function(t,e){d[e]=i(l,e,!0,"api")}),d.addPageAction=i(l,"addPageAction",!0),d.setCurrentRouteName=i(l,"routeName",!0),e.exports=newrelic,d.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(t,e){var n={},r=this,i="function"==typeof e;return o(v+"tracer",[u.now(),t,n],r),function(){if(f.emit((i?"":"no-")+"fn-start",[u.now(),r,i],n),i)try{return e.apply(this,arguments)}catch(t){throw f.emit("fn-err",[arguments,this,t],n),t}finally{f.emit("fn-end",[u.now()],n)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,e){m[e]=i(v,e)}),newrelic.noticeError=function(t,e){"string"==typeof t&&(t=new Error(t)),s.recordSupportability("API/noticeError/called"),o("err",[t,u.now(),!1,e])}},{}],2:[function(t,e,n){function r(t){if(NREUM.init){for(var e=NREUM.init,n=t.split("."),r=0;r<n.length-1;r++)if(e=e[n[r]],"object"!=typeof e)return;return e=e[n[n.length-1]]}}e.exports={getConfiguration:r}},{}],3:[function(t,e,n){var r=!1;try{var i=Object.defineProperty({},"passive",{get:function(){r=!0}});window.addEventListener("testPassive",null,i),window.removeEventListener("testPassive",null,i)}catch(o){}e.exports=function(t){return r?{passive:!0,capture:!!t}:!!t}},{}],4:[function(t,e,n){function r(t,e){var n=[a,t,{name:t},e];return o("storeMetric",n,null,"api"),n}function i(t,e){var n=[c,t,{name:t},e];return o("storeEventMetrics",n,null,"api"),n}var o=t("handle"),a="sm",c="cm";e.exports={constants:{SUPPORTABILITY_METRIC:a,CUSTOM_METRIC:c},recordSupportability:r,recordCustom:i}},{}],5:[function(t,e,n){function r(){return c.exists&&performance.now?Math.round(performance.now()):(o=Math.max((new Date).getTime(),o))-a}function i(){return o}var o=(new Date).getTime(),a=o,c=t(12);e.exports=r,e.exports.offset=a,e.exports.getLastTimestamp=i},{}],6:[function(t,e,n){function r(t){return!(!t||!t.protocol||"file:"===t.protocol)}e.exports=r},{}],7:[function(t,e,n){function r(t,e){var n=t.getEntries();n.forEach(function(t){"first-paint"===t.name?l("timing",["fp",Math.floor(t.startTime)]):"first-contentful-paint"===t.name&&l("timing",["fcp",Math.floor(t.startTime)])})}function i(t,e){var n=t.getEntries();if(n.length>0){var r=n[n.length-1];if(u&&u<r.startTime)return;var i=[r],o=a({});o&&i.push(o),l("lcp",i)}}function o(t){t.getEntries().forEach(function(t){t.hadRecentInput||l("cls",[t])})}function a(t){var e=navigator.connection||navigator.mozConnection||navigator.webkitConnection;if(e)return e.type&&(t["net-type"]=e.type),e.effectiveType&&(t["net-etype"]=e.effectiveType),e.rtt&&(t["net-rtt"]=e.rtt),e.downlink&&(t["net-dlink"]=e.downlink),t}function c(t){if(t instanceof y&&!w){var e=Math.round(t.timeStamp),n={type:t.type};a(n),e<=v.now()?n.fid=v.now()-e:e>v.offset&&e<=Date.now()?(e-=v.offset,n.fid=v.now()-e):e=v.now(),w=!0,l("timing",["fi",e,n])}}function f(t){"hidden"===t&&(u=v.now(),l("pageHide",[u]))}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var u,s,d,p,l=t("handle"),v=t("loader"),m=t(9),g=t(3),y=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){s=new PerformanceObserver(r);try{s.observe({entryTypes:["paint"]})}catch(h){}d=new PerformanceObserver(i);try{d.observe({entryTypes:["largest-contentful-paint"]})}catch(h){}p=new PerformanceObserver(o);try{p.observe({type:"layout-shift",buffered:!0})}catch(h){}}if("addEventListener"in document){var w=!1,b=["click","keydown","mousedown","pointerdown","touchstart"];b.forEach(function(t){document.addEventListener(t,c,g(!1))})}m(f)}},{}],8:[function(t,e,n){function r(t,e){if(!i)return!1;if(t!==i)return!1;if(!e)return!0;if(!o)return!1;for(var n=o.split("."),r=e.split("."),a=0;a<r.length;a++)if(r[a]!==n[a])return!1;return!0}var i=null,o=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var c=navigator.userAgent,f=c.match(a);f&&c.indexOf("Chrome")===-1&&c.indexOf("Chromium")===-1&&(i="Safari",o=f[1])}e.exports={agent:i,version:o,match:r}},{}],9:[function(t,e,n){function r(t){function e(){t(c&&document[c]?document[c]:document[o]?"hidden":"visible")}"addEventListener"in document&&a&&document.addEventListener(a,e,i(!1))}var i=t(3);e.exports=r;var o,a,c;"undefined"!=typeof document.hidden?(o="hidden",a="visibilitychange",c="visibilityState"):"undefined"!=typeof document.msHidden?(o="msHidden",a="msvisibilitychange"):"undefined"!=typeof document.webkitHidden&&(o="webkitHidden",a="webkitvisibilitychange",c="webkitVisibilityState")},{}],10:[function(t,e,n){function r(t,e){var n=[],r="",o=0;for(r in t)i.call(t,r)&&(n[o]=e(r,t[r]),o+=1);return n}var i=Object.prototype.hasOwnProperty;e.exports=r},{}],11:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,i=n-e||0,o=Array(i<0?0:i);++r<i;)o[r]=t[e+r];return o}e.exports=r},{}],12:[function(t,e,n){e.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(t,e,n){function r(){}function i(t){function e(t){return t&&t instanceof r?t:t?u(t,f,a):a()}function n(n,r,i,o,a){if(a!==!1&&(a=!0),!l.aborted||o){t&&a&&t(n,r,i);for(var c=e(i),f=m(n),u=f.length,s=0;s<u;s++)f[s].apply(c,r);var p=d[w[n]];return p&&p.push([b,n,r,c]),c}}function o(t,e){h[t]=m(t).concat(e)}function v(t,e){var n=h[t];if(n)for(var r=0;r<n.length;r++)n[r]===e&&n.splice(r,1)}function m(t){return h[t]||[]}function g(t){return p[t]=p[t]||i(n)}function y(t,e){l.aborted||s(t,function(t,n){e=e||"feature",w[n]=e,e in d||(d[e]=[])})}var h={},w={},b={on:o,addEventListener:o,removeEventListener:v,emit:n,get:g,listeners:m,context:e,buffer:y,abort:c,aborted:!1};return b}function o(t){return u(t,f,a)}function a(){return new r}function c(){(d.api||d.feature)&&(l.aborted=!0,d=l.backlog={})}var f="nr@context",u=t("gos"),s=t(10),d={},p={},l=e.exports=i();e.exports.getOrSetContext=o,l.backlog=d},{}],gos:[function(t,e,n){function r(t,e,n){if(i.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(o){}return t[e]=r,r}var i=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){i.buffer([t],r),i.emit(t,e,n)}var i=t("ee").get("handle");e.exports=r,r.ee=i},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,o,function(){return i++})}var i=1,o="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!P++){var t=M.info=NREUM.info,e=g.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&e))return u.abort();f(O,function(e,n){t[e]||(t[e]=n)});var n=a();c("mark",["onload",n+M.offset],null,"api"),c("timing",["load",n]);var r=g.createElement("script");0===t.agent.indexOf("http://")||0===t.agent.indexOf("https://")?r.src=t.agent:r.src=v+"://"+t.agent,e.parentNode.insertBefore(r,e)}}function i(){"complete"===g.readyState&&o()}function o(){c("mark",["domContent",a()+M.offset],null,"api")}var a=t(5),c=t("handle"),f=t(10),u=t("ee"),s=t(8),d=t(6),p=t(2),l=t(3),v=p.getConfiguration("ssl")===!1?"http":"https",m=window,g=m.document,y="addEventListener",h="attachEvent",w=m.XMLHttpRequest,b=w&&w.prototype,E=!d(m.location);NREUM.o={ST:setTimeout,SI:m.setImmediate,CT:clearTimeout,XHR:w,REQ:m.Request,EV:m.Event,PR:m.Promise,MO:m.MutationObserver};var x=""+location,O={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1215.min.js"},T=w&&b&&b[y]&&!/CriOS/.test(navigator.userAgent),M=e.exports={offset:a.getLastTimestamp(),now:a,origin:x,features:{},xhrWrappable:T,userAgent:s,disabled:E};if(!E){t(1),t(7),g[y]?(g[y]("DOMContentLoaded",o,l(!1)),m[y]("load",r,l(!1))):(g[h]("onreadystatechange",i),m[h]("onload",r)),c("mark",["firstbyte",a.getLastTimestamp()],null,"api");var P=0}},{}],"wrap-function":[function(t,e,n){function r(t,e){function n(e,n,r,f,u){function nrWrapper(){var o,a,s,p;try{a=this,o=d(arguments),s="function"==typeof r?r(o,a):r||{}}catch(l){i([l,"",[o,a,f],s],t)}c(n+"start",[o,a,f],s,u);try{return p=e.apply(a,o)}catch(v){throw c(n+"err",[o,a,v],s,u),v}finally{c(n+"end",[o,a,p],s,u)}}return a(e)?e:(n||(n=""),nrWrapper[p]=e,o(e,nrWrapper,t),nrWrapper)}function r(t,e,r,i,o){r||(r="");var c,f,u,s="-"===r.charAt(0);for(u=0;u<e.length;u++)f=e[u],c=t[f],a(c)||(t[f]=n(c,s?f+r:r,i,f,o))}function c(n,r,o,a){if(!v||e){var c=v;v=!0;try{t.emit(n,r,o,e,a)}catch(f){i([f,n,r,o],t)}v=c}}return t||(t=s),n.inPlace=r,n.flag=p,n}function i(t,e){e||(e=s);try{e.emit("internal-error",t)}catch(n){}}function o(t,e,n){if(Object.defineProperty&&Object.keys)try{var r=Object.keys(t);return r.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(o){i([o],n)}for(var a in t)l.call(t,a)&&(e[a]=t[a]);return e}function a(t){return!(t&&t instanceof Function&&t.apply&&!t[p])}function c(t,e){var n=e(t);return n[p]=t,o(t,n,s),n}function f(t,e,n){var r=t[e];t[e]=c(r,n)}function u(){for(var t=arguments.length,e=new Array(t),n=0;n<t;++n)e[n]=arguments[n];return e}var s=t("ee"),d=t(11),p="nr@original",l=Object.prototype.hasOwnProperty,v=!1;e.exports=r,e.exports.wrapFunction=c,e.exports.wrapInPlace=f,e.exports.argsToArray=u},{}]},{},["loader"]);</script>
+<script>(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","https://www.google-analytics.com/analytics.js","ga");ga("create", "UA-164543543-1", {"cookieDomain":"auto"});ga("set", "anonymizeIp", true);ga("send", "pageview");</script>
+<meta name="description" content="" />
+<link rel="icon" href="/profiles/custom/webny/themes/custom/webny_theme/favicon.ico" />
+<link rel="icon" sizes="16x16" href="/profiles/custom/webny/themes/custom/webny_theme/icons/icon-16x16.png" />
+<link rel="icon" sizes="32x32" href="/profiles/custom/webny/themes/custom/webny_theme/icons/icon-32x32.png" />
+<link rel="icon" sizes="96x96" href="/profiles/custom/webny/themes/custom/webny_theme/icons/icon-96x96.png" />
+<link rel="icon" sizes="192x192" href="/profiles/custom/webny/themes/custom/webny_theme/icons/icon-192x192.png" />
+<link rel="apple-touch-icon" href="/profiles/custom/webny/themes/custom/webny_theme/icons/apple-touch/apple-touch-icon-60x60.png" />
+<link rel="apple-touch-icon" sizes="72x72" href="/profiles/custom/webny/themes/custom/webny_theme/icons/apple-touch/apple-touch-icon-72x72.png" />
+<link rel="apple-touch-icon" sizes="76x76" href="/profiles/custom/webny/themes/custom/webny_theme/icons/apple-touch/apple-touch-icon-76x76.png" />
+<link rel="apple-touch-icon" sizes="114x114" href="/profiles/custom/webny/themes/custom/webny_theme/icons/apple-touch/apple-touch-icon-114x114.png" />
+<link rel="apple-touch-icon" sizes="120x120" href="/profiles/custom/webny/themes/custom/webny_theme/icons/apple-touch/apple-touch-icon-120x120.png" />
+<link rel="apple-touch-icon" sizes="144x144" href="/profiles/custom/webny/themes/custom/webny_theme/icons/apple-touch/apple-touch-icon-144x144.png" />
+<link rel="apple-touch-icon" sizes="152x152" href="/profiles/custom/webny/themes/custom/webny_theme/icons/apple-touch/apple-touch-icon-152x152.png" />
+<link rel="apple-touch-icon" sizes="180x180" href="/profiles/custom/webny/themes/custom/webny_theme/icons/apple-touch/apple-touch-icon-180x180.png" />
+<link rel="apple-touch-icon-precomposed" href="/profiles/custom/webny/themes/custom/webny_theme/icons/apple-touch/apple-touch-icon-57x57-precomposed.png" />
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/profiles/custom/webny/themes/custom/webny_theme/icons/apple-touch/apple-touch-icon-72x72-precomposed.png" />
+<link rel="apple-touch-icon-precomposed" sizes="76x76" href="/profiles/custom/webny/themes/custom/webny_theme/icons/apple-touch/apple-touch-icon-76x76-precomposed.png" />
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/profiles/custom/webny/themes/custom/webny_theme/icons/apple-touch/apple-touch-icon-114x114-precomposed.png" />
+<link rel="apple-touch-icon-precomposed" sizes="120x120" href="/profiles/custom/webny/themes/custom/webny_theme/icons/apple-touch/apple-touch-icon-120x120-precomposed.png" />
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/profiles/custom/webny/themes/custom/webny_theme/icons/apple-touch/apple-touch-icon-144x144-precomposed.png" />
+<link rel="apple-touch-icon-precomposed" sizes="152x152" href="/profiles/custom/webny/themes/custom/webny_theme/icons/apple-touch/apple-touch-icon-152x152-precomposed.png" />
+<link rel="apple-touch-icon-precomposed" sizes="180x180" href="/profiles/custom/webny/themes/custom/webny_theme/icons/apple-touch/apple-touch-icon-180x180-precomposed.png" />
+<meta property="og:site_name" content="Department of Labor" />
+<meta property="og:title" content="2021 WARN Notices" />
+<meta property="og:image:url" content="https://dol.ny.gov/profiles/custom/webny/themes/custom/webny_theme/images/nys-default.png" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:description" content="" />
+<meta name="Generator" content="Drupal 9 (https://www.drupal.org)" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="canonical" href="https://dol.ny.gov/warn-notices-2021" />
+<link rel="shortlink" href="https://dol.ny.gov/node/26156" />
+
+    <title>2021 WARN Notices | Department of Labor</title>
+    <link rel="stylesheet" media="all" href="/sites/g/files/oee1171/files/css/css_WCcvEmh7p0CCUHQF4G5vFZdekNq2H-56QtlNCnD3bAE.css" />
+<link rel="stylesheet" media="all" href="/sites/g/files/oee1171/files/css/css_QUD53mQkcgBoJe57ANApxXPoPf2WIG1EgsrZ9wORblo.css" />
+<link rel="stylesheet" media="print" href="/sites/g/files/oee1171/files/css/css_zMJSiCCVIgmvArV4vWSupHGzZ9mJKD5wKHkhSB2svT0.css" />
+<link rel="stylesheet" media="all" href="/sites/g/files/oee1171/files/css/css_hDsqhFadU1k4CFfjH-jKODJZVymHHy-DP3Eb2hcn4D4.css" />
+
+    <script src="/sites/g/files/oee1171/files/js/js_MVso1WGxGvqlxI3OBIGjQonJPKPBEZP7UVwlExH07u4.js"></script>
+
+  </head>
+  <body class="body-sidebars-none">
+        <div class="nygov-logo">
+      <img src="/profiles/custom/webny/themes/custom/webny_theme/images/nygov-logo.png" alt="nygov-logo" />
+    </div>
+    <a href="#main-content" class="visually-hidden focusable skip-to-main">
+      Skip to main content
+    </a>
+    
+
+<div id="nygov-universal-navigation" class="nygov-universal-container" data-iframe="true" data-updated="2014-11-07 08:30">
+    <noscript>
+        <iframe width="100%" height="86px" src="//static-assets.ny.gov/load_global_menu/ajax?iframe=true" frameborder="0" style="border:none; overflow:hidden; width:100%; height:86px;" scrolling="no">
+            Your browser does not support iFrames
+        </iframe>
+    </noscript>
+    <script type="text/javascript">
+        var _NY = {
+            HOST: "static-assets.ny.gov",
+            BASE_HOST: "www.ny.gov",
+            hideSettings: false,
+            hideSearch: false
+        };
+        (function (document, bundle, head) {
+            head = document.getElementsByTagName('head')[0];
+            bundle = document.createElement('script');
+            bundle.type = 'text/javascript';
+            bundle.async = true;
+            bundle.src = "//static-assets.ny.gov/sites/all/widgets/universal-navigation/js/dist/global-nav-bundle.js";
+            head.appendChild(bundle);
+        }(document));
+    </script>
+</div>
+      <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+    <div class="layout-container">
+
+  <header role="banner">
+                        <nav id="webny-global-header" class="webny-global-header horizontal stacked" aria-label="primary-site" >
+            <div class="nav-toggle">
+            <button id="webny-menu-control">Navigation Menu Toggle</button>
+        </div>
+            <h1><a href="/">Department of Labor</a></h1>
+        <ul class="gnav-ul"><li class="gnav-mitems gnav-topli" aria-expanded="false"><a href="/unemployment/unemployment-insurance-assistance">Unemployment Benefits</a><ul class="gnav-items-ul" aria-hidden="true"><li class="gnav-toplink"><a href="/unemployment/unemployment-insurance-assistance">Unemployment Benefits</a></li><li><a href="/unemployment/file-your-first-claim-benefits">File Your First Claim for Benefits</a></li><li><a href="/unemployment/certify-weekly-unemployment-insurance-benefits">Certify for Weekly Benefits</a></li><li><a href="/shared-work-program-0">Shared Work Program</a></li><li><a href="/unemployment/employer-unemployment-insurance-information">Employer Information</a></li><li><a href="/report-fraud">Report Fraud</a></li><li><a href="/unemployment/calculators">Calculators</a></li></ul></li><li class="gnav-mitems gnav-topli" aria-expanded="false"><a href="/jobs-and-careers">Jobs &amp; Careers</a><ul class="gnav-items-ul" aria-hidden="true"><li class="gnav-toplink"><a href="/jobs-and-careers">Jobs &amp; Careers</a></li><li><a href="/find-job-0">Find a Job</a></li><li><a href="/career-development">Career Development</a></li><li><a href="/apprenticeship/overview">Apprenticeships</a></li><li><a href="/youth">Youth</a></li></ul></li><li class="gnav-mitems gnav-topli" aria-expanded="false"><a href="/services-businesses">Business Support</a><ul class="gnav-items-ul" aria-hidden="true"><li class="gnav-toplink"><a href="/services-businesses">Business Support</a></li><li><a href="/recruit-your-workforce">Recruit Your Workforce</a></li><li><a href="/apprenticeship/overview">Apprenticeships</a></li><li><a href="/hiring-incentives-tax-credits-and-funding-opportunities">Hiring Incentives &amp; Tax Credits</a></li><li><a href="/services-agricultural-employers-0">Services for Agricultural Employers</a></li></ul></li><li class="gnav-mitems gnav-topli" aria-expanded="false"><a href="/workforce-protections">Workforce Protections</a><ul class="gnav-items-ul" aria-hidden="true"><li class="gnav-toplink"><a href="/workforce-protections">Workforce Protections</a></li><li><a href="/labor-standards-0">Labor Standards</a></li><li><a href="/minimum-wage-0">Minimum Wage</a></li><li><a href="/safety-and-health">Safety &amp; Health</a></li><li><a href="/legal">Legal</a></li><li><a href="/equal-opportunity">Equal Opportunity</a></li><li><a href="/public-work-and-prevailing-wage">Public Work</a></li><li><a href="/immigrant-policies-and-affairs-0">Immigrant Policies &amp; Affairs</a></li></ul></li><li class="gnav-mitems gnav-topli" aria-expanded="false"><a href="/labor-data">Labor Data</a><ul class="gnav-items-ul" aria-hidden="true"><li class="gnav-toplink"><a href="/labor-data">Labor Data</a></li><li><a href="/occupational-and-industry-data">Occupational and Industry Data</a></li><li><a href="/new-york-state-data-center">NYS Data Center</a></li><li><a href="/labor-market-analysts">Labor Market Analysts</a></li><li><a href="/unemployment-insurance-ui-data-sharing">Unemployment Insurance Data Sharing</a></li></ul></li><li class="gnav-mitems gnav-topli" aria-expanded="false"><a href="/resources">Resources</a><ul class="gnav-items-ul" aria-hidden="true"><li class="gnav-toplink"><a href="/resources">Resources</a></li><li><a href="/future-work" title="The Future of Work in NY">Future of Work</a></li><li><a href="/workforce-governance">Workforce Governance</a></li><li><a href="/forms-and-publications">Forms &amp; Publications</a></li><li><a href="/newsroom">Newsroom</a></li><li><a href="/contact-department-labor-1">Contact Us</a></li><li><a href="/worker-adjustment-and-retraining-notification-warn">WARN Notices</a></li><li><a href="/information-department-labor-employees">Information for DOL Employees</a></li></ul></li></ul>
+    </nav>
+
+
+
+  </header>
+
+  
+
+  
+
+  
+
+  
+
+  <main role="main">
+    <a id="main-content" tabindex="-1"></a>
+    <div class="layout-content">
+        <div>
+    <div data-drupal-messages-fallback class="hidden"></div>
+
+
+
+
+
+
+
+
+    
+
+
+                    
+
+    
+
+
+<article  data-history-node-id="26156" role="article" about="/warn-notices-2021" class="title-layout">
+
+                    
+    
+    <div class="landing-title-area">
+
+        <!-- HEADLINE LABEL -->
+        <div class="landing-title">
+            <h1><span>2021 WARN Notices</span>
+</h1>
+        </div>
+
+        <!-- SUBTITLE LABEL -->
+        <div class="landing-subtitle">
+            <span></span>
+        </div>
+
+    </div>
+
+                    
+    
+</article>
+
+
+<!-- Logic to Display or Not to Display the Hero section -->
+
+<div class="page-paragraphs landing-paragraphs">
+    <div class="page-paragraphs-in">
+    
+      <div>
+              <div>  <div class="paragraph paragraph--type--webny-wysiwyg-pgtype paragraph--view-mode--default">
+          
+            <div class="wysiwyg--field-webny-wysiwyg-title">Worker Adjustment and Retraining Notification</div>
+      
+            <div class="wysiwyg--field-webny-wysiwyg-headline">2021 WARN Notices</div>
+      
+            <div class="wysiwyg--field-webny-wysiwyg-body"><p>Click on the company name for further details.</p>
+
+<p> </p>
+
+<table><thead><tr><th>Company Name </th>
+			<th>Date Posted</th>
+			<th>Notice Dated</th>
+		</tr></thead><tbody><tr><td><a href="/warn-aclara-smart-grid-solutions-aclara-technologies-nyc-2021-0009-12-31-2021-amended-12-29-2021">Aclara Smart Grid Solutions, LLC and Aclara Technologies LLC - New York City Region</a></td>
+			<td>12/31/2021</td>
+			<td>8/18/2021 &amp; 8/26/2021 (Amended 12/29/2021)</td>
+		</tr><tr><td><a href="/warn-somos-healthcare-providers-nyc-2020-0441-12-31-2021-amended-12-29-2021">Somos Healthcare Providers, Inc. - New York City Region</a></td>
+			<td>12/31/2021</td>
+			<td>3/19/2021 (Amended 12/29/2021)</td>
+		</tr><tr><td><a href="/warn-slant-fin-corporation-long-island-2021-0037-12-24-2021">Slant/Fin Corporation - Long Island Region</a></td>
+			<td>12/24/2021</td>
+			<td>12/22/2021</td>
+		</tr><tr><td><a href="/warn-transportation-insight-llc-western-region-12232021-warn-notice-dated-9282021-amended-12222021" hreflang="en" title="Transportation Insight, LLC - Western Region">Transportation Insight, LLC - Western Region</a></td>
+			<td>12/23/2021</td>
+			<td>9/28/2021 (Amended 12/22/2021)</td>
+		</tr><tr><td><a href="/warn-transportation-insight-llc-western-region-12232021-warn-notice-dated-8132021-amended-12222021" hreflang="en" title="Transportation Insight, LLC - Western Region">Transportation Insight, LLC - Western Region</a></td>
+			<td>12/23/2021</td>
+			<td>8/13/2021 (Amended 12/22/2021)</td>
+		</tr><tr><td><a href="/warn-new-york-air-brake-north-country-2021-0023-12-23-2021-amended-12-20-2021">New York Air Brake - North Country Region</a></td>
+			<td>12/22/2021</td>
+			<td>9/30/2021 (Amended 12/20/2021)</td>
+		</tr><tr><td><a href="/warn-silarx-pharmaceuticals-inc-lannett-company-mid-hudson-region-1292021-warn-notice-dated-1272021">Silarx Pharmaceuticals, Inc., a Lannett Company - Mid-Hudson Region</a></td>
+			<td>12/9/2021</td>
+			<td>12/7/2021</td>
+		</tr><tr><td><a href="/warn-aclara-smart-grid-solutions-llc-new-york-city-region-1292021-warn-notice-dated-8182021-8262021">Aclara Smart Grid Solutions, LLC - New York City Region</a></td>
+			<td>12/9/2021</td>
+			<td>8/18/2021 &amp; 8/26/2021 (Amended 11/19/2021, 12/3/2021)</td>
+		</tr><tr><td><a href="/warn-acco-brands-usa-llc-north-country-region-1292021-warn-notice-dated-11292021" title="ACCO Brands USA LLC - WARN Notice">ACCO Brands USA LLC - North Country Region</a></td>
+			<td>12/9/2021</td>
+			<td>11/29/2021</td>
+		</tr><tr><td><a href="/warn-north-shore-linen-long-island-2021-0033-12-3-2021-rescinded-12-2-2021">North Shore Linen, Inc. - Long Island Region</a></td>
+			<td>12/3/2021</td>
+			<td>11/26/2021 (Rescinded 12/2/2021)</td>
+		</tr><tr><td><a href="/warn-princeton-club-of-new-york-nyc-2021-0034-12-1-2021">The Princeton Club of New York - New York City Region</a></td>
+			<td>12/1/2021</td>
+			<td>11/23/2021</td>
+		</tr><tr><td><a href="/warn-occidental-chemical-corporation-western-2021-0008-11-30-2021-amended-11-30-2021">Occidental Chemical Corporation - Western Region</a></td>
+			<td>11/30/2021</td>
+			<td>8/19/2021 (Amended 11/30/2021)</td>
+		</tr><tr><td><a href="/warn-north-shore-linen-long-island-2021-0033-11-26-2021">North Shore Linen, Inc. - Long Island Region</a></td>
+			<td>11/29/2021</td>
+			<td>11/26/2021</td>
+		</tr><tr><td><a href="/warn-cba-insert-distribution-system-nyc-2021-0032-11-17-2021">CBA Insert Distribution System, Inc. - New York City Region</a></td>
+			<td>11/24/2021</td>
+			<td>11/17/2021</td>
+		</tr><tr><td><a href="/warn-jewish-board-children-family-services-mid-hudson-2021-0030-11-15-2021">Jewish Board of Family &amp; Children's Services, Inc. - Mid-Hudson Region</a></td>
+			<td>11/23/2021</td>
+			<td>11/15/2021</td>
+		</tr><tr><td><a href="/warn-jewish-board-children-family-services-phase-2-nyc-2020-0488-11-23-2021-amended-11-15-2021">Jewish Board of Family &amp; Children's Services, Inc. - New York City Region</a></td>
+			<td>11/23/2021</td>
+			<td>6/30/2021 (Amended 11/15/2021)</td>
+		</tr><tr><td><a href="/warn-jewish-board-children-family-services-mid-hudson-2020-0487-11-23-2021-amended-11-15-2021">Jewish Board of Family &amp; Children's Services, Inc. - Mid-Hudson Region</a></td>
+			<td>11/23/2021</td>
+			<td>6/30/2021 (Amended 11/15/2021)</td>
+		</tr><tr><td><a href="/warn-concordia-college-phase-4-mid-hudson-2020-0472-11-23-2021-amended-11-22-2021">Concordia College - Mid-Hudson Region</a></td>
+			<td>11/23/2021</td>
+			<td>5/24/2021 (Amended 11/22/2021)</td>
+		</tr><tr><td><a href="/warn-acco-brands-usa-north-country-2021-0015-11-23-2021-amended-11-18-2021">ACCO Brands USA LLC - North Country Region</a></td>
+			<td>11/23/2021</td>
+			<td>9/8/2021 (Amended 11/18/2021)</td>
+		</tr><tr><td><a href="/warn-aclara-smart-grid-solutions-nyc-2021-0009-11-23-2021-amended-11-19-2021">Aclara Smart Grid Solutions, LLC - New York City Region</a></td>
+			<td>11/23/2021</td>
+			<td>8/18/2021 &amp; 8/26/2021 (Amended 11/19/2021)</td>
+		</tr><tr><td><a href="/warn-n26-inc-2021-0031-11-18-2021-nyc-region" title="N26 WARN">N26 Inc. - New York City Region</a></td>
+			<td>11/19/2021</td>
+			<td>11/18/2021</td>
+		</tr><tr><td><a href="/warn-michael-page-international-nyc-2019-1187-11-16-2021-amended-11-15-2021">Michael Page International Inc. - New York City Region</a></td>
+			<td>11/16/2021</td>
+			<td>4/8/2020 (Amended 11/15/2021)</td>
+		</tr><tr><td><a href="/warn-cville-yoghurt-byrne-hollow-farms-central-2021-0029-11-9-2021">C'Ville Yoghurt d/b/a Byrne Hollow Farms - Central Region</a></td>
+			<td>11/10/2021</td>
+			<td>11/9/2021</td>
+		</tr><tr><td><a href="/warn-columbia-university-irving-medical-center-nyc-2021-0028-11-8-2021">Columbia University Irving Medical Center - New York City Region</a></td>
+			<td>11/9/2021</td>
+			<td>11/8/2021</td>
+		</tr><tr><td><a href="/warn-weill-cornell-medicine-nyc-2021-0027-11-8-2021">Weill Cornell Medicine - New York City Region</a></td>
+			<td>11/9/2021</td>
+			<td>11/8/2021</td>
+		</tr><tr><td><a href="/warn-c&amp;s-wholesale-grocers-mid-hudson-2020-0485-11-4-2021-amended-11-3-2021">C &amp; S Wholesale Grocers, Inc. - Mid-Hudson Region</a></td>
+			<td>11/4/2021</td>
+			<td>6/30/2021 (Amended 11/3/2021)</td>
+		</tr><tr><td><a href="/warn-abc-carpet-3-sites-nyc-2021-0013-11-2-2021-amended-10-29-2021">A.B.C. Carpet Co., Inc. (3 NYC sites) - New York City Region</a></td>
+			<td>11/2/2021</td>
+			<td>9/7/2021 (Amended 10/29/2021)</td>
+		</tr><tr><td><a href="/warn-abc-home-furnishings-3-sites-nyc-2021-0014-11-2-2021-amended-10-28-2021">A.B.C. Home Furnishings, Inc. (3 NYC sites) - New York City Region</a></td>
+			<td>11/2/2021</td>
+			<td>9/7/2021 (Amended 10/28/2021)</td>
+		</tr><tr><td><a href="/warn-michael-page-international-nyc-2019-1187-11-2-2021-amended-10-29-2021">Michael Page International Inc. - New York City Region</a></td>
+			<td>11/2/2021</td>
+			<td>4/8/2020 (Amended 10/29/2021)</td>
+		</tr><tr><td><a href="/warn-dsw-shoe-warehouse-nyc-2021-0025-10-27-2021">DSW Shoe Warehouse, Inc. - New York City Region</a></td>
+			<td>11/2/2021</td>
+			<td>10/18/2021 - 10/27/2021</td>
+		</tr><tr><td><a href="/warn-concordia-college-phase-6-mid-hudson-2021-0012-10-27-2021-amendment-10-22-2021">Concordia College (Phase 6) - Mid-Hudson Region</a></td>
+			<td>10/27/2021</td>
+			<td>8/30/2021 (Amended 10/22/2021)</td>
+		</tr><tr><td><a href="/warn-concordia-college-phase-4-mid-hudson-2020-0472-10-27-2021-amendment-10-22-2021">Concordia College (Phase 4) - Mid-Hudson Region</a></td>
+			<td>10/27/2021</td>
+			<td>5/24/2020 (Amended 10/22/2021)</td>
+		</tr><tr><td><a href="/warn-flying-good-group-jfk-nyc-2020-0096-10-27-2021-amendment-10-4-2021">Flying Food Group, LLC (JFK International Airport) - New York City Region</a></td>
+			<td>10/27/2021</td>
+			<td>7/29/2020 (Amended 10/4/2021)</td>
+		</tr><tr><td><a href="/warn-packard-pacifica-nyc-2021-0025-10-27-2021">Packard Pacifica, Inc. (at Holiday Inn LaGuardia Hotel) - New York City Region</a></td>
+			<td>10/27/2021</td>
+			<td>10/20/2021</td>
+		</tr><tr><td><a href="/warn-emblemhealth-nyc-2021-0024-10-18-2021">EmblemHealth - New York City Region</a></td>
+			<td>10/18/2021</td>
+			<td>10/15/2021</td>
+		</tr><tr><td><a href="/warn-michael-page-international-nyc-2019-1187-10-15-2021-amended-10-14-2021">Michael Page International Inc. - New York City Region</a></td>
+			<td>10/15/2021</td>
+			<td>4/8/2020 (Amended 10/14/2021)</td>
+		</tr><tr><td><a href="/warn-c&amp;s-wholesale-grocers-mid-hudson-2020-0485-10-13-2021-amended-10-13-2021">C &amp; S Wholesale Grocers, Inc. - Mid-Hudson Region</a></td>
+			<td>10/13/2021</td>
+			<td>6/30/2021 (Amended 10/13/2021)</td>
+		</tr><tr><td><a href="/warn-somos-healthcare-providers-nyc-2020-0441-10-5-2021-amended-9-29-2021">Somos Healthcare Providers, Inc. - New York City Region</a></td>
+			<td>10/5/2021</td>
+			<td>3/19/2021 (Amended 9/29/2021)</td>
+		</tr><tr><td><a href="/warn-michael-page-international-nyc-2019-1187-10-1-2021-amended-9-30-2021">Michael Page International Inc. - New York City Region</a></td>
+			<td>10/1/2021</td>
+			<td>4/8/2020 (Amended 9/30/2021)</td>
+		</tr><tr><td><a href="/warn-new-york-air-brake-north-country-2021-0023-10-1-2021">New York Air Brake - North Country Region</a></td>
+			<td>10/1/2021</td>
+			<td>9/30/2021</td>
+		</tr><tr><td><a href="/warn-concordia-college-phase-6-mid-hudson-2021-0012-9-29-2021-amended-9-22-2021">Concordia College (Phase 6) - Mid-Hudson Region</a></td>
+			<td>9/29/2021</td>
+			<td>8/30/2021 (Amended 9/22/2021)</td>
+		</tr><tr><td><a href="/warn-concordia-college-phase-4-mid-hudson-2020-0472-9-29-2021-amended-9-22-2021">Concordia College (Phase 4) - Mid-Hudson Region</a></td>
+			<td>9/29/2021</td>
+			<td>5/24/2021 (Amended 9/22/2021)</td>
+		</tr><tr><td><a href="/warn-concordia-college-mid-hudson-2020-0427-9-29-2021-amended-9-22-2021">Concordia College - Mid-Hudson Region</a></td>
+			<td>9/29/2021</td>
+			<td>3/1/2021 (Amended 9/22/2021)</td>
+		</tr><tr><td><a href="/warn-transportation-insight-phase-2-western-2021-0022-9-28-2021">Transportation Insight, LLC (Phase 2) - Western Region</a></td>
+			<td>9/28/2021</td>
+			<td>9/28/2021</td>
+		</tr><tr><td><a href="/warn-crown-building-maintenance-able-legoland-nyc-2021-0021-9-28-2021">Crown Building Maintenance Co. d/b/a Able Building Maintenance at LEGOLAND New York - New York City Region</a></td>
+			<td>9/28/2021</td>
+			<td>9/23/2021</td>
+		</tr><tr><td><a href="/warn-genius-media-group-inc-nyc-2021-0020-9-28-2021">Genius Media Group, Inc. - New York City Region</a></td>
+			<td>9/28/2021</td>
+			<td>9/23/2021</td>
+		</tr><tr><td><a href="/warn-lc-drives-inc-north-country-capital-2021-0018-9-23-2021">LC Drives, Inc. - North Country Region / Capital Region</a></td>
+			<td>9/23/2021</td>
+			<td>9/23/2021</td>
+		</tr><tr><td><a href="/warn-michael-page-international-nyc-2019-1187-9-17-2021-amendment-9-16-2021">Michael Page International Inc. - New York City Region</a></td>
+			<td>9/17/2021</td>
+			<td>4/8/2020 (Amended 9/16/2021)</td>
+		</tr><tr><td><a href="/warn-transform-sr-llc-sears-nyc-2021-0017-9-16-2021">Transform KM LLC (Unit# 04731 Kmart Convenience store inside Sears) - New York City Region</a></td>
+			<td>9/16/2021</td>
+			<td>9/14/2021</td>
+		</tr><tr><td><a href="/warn-transform-sr-llc-sears-nyc-2021-0016-9-16-2021">Transform SR LLC (Unit# 01114 Sears Retail Store and Unit# 06104 Sears Automotive Ctr) - New York City Region</a></td>
+			<td>9/16/2021</td>
+			<td>9/14/2021</td>
+		</tr><tr><td><a href="/warn-acco-brands-usa-north-country-2021-0015-9-15-2021">ACCO Brands USA LLC - North Country Region</a></td>
+			<td>9/15/2021</td>
+			<td>9/8/2021</td>
+		</tr><tr><td><a href="/warn-abc-home-furnishings-nyc-2021-0014-9-9-2021">A.B.C. Home Furnishings, Inc. (3 NYC sites) - New York City Region</a></td>
+			<td>9/9/2021</td>
+			<td>9/7/2021</td>
+		</tr><tr><td><a href="/warn-abc-carpet-co-nyc-2021-0013-9-9-2021">A.B.C. Carpet Co., Inc. (3 NYC sites) - New York City Region</a></td>
+			<td>9/9/2021</td>
+			<td>9/7/2021</td>
+		</tr><tr><td><a href="/warn-aclara-smart-grid-solutions-nyc-2021-0009-9-8-2021-amendment-8-18-2021-8-26-2021">Aclara Smart Grid Solutions, LLC - New York City Region</a></td>
+			<td>9/8/2021</td>
+			<td>8/18/2021 &amp; 8/26/2021 (Amended 8/18/2021 through 8/26/2021)</td>
+		</tr><tr><td><a href="/warn-bcs-automotive-interface-solutions-central-2020-0358-9-8-2021-amendment-9-2-2021">BCS Automotive Interface Solutions U.S., LLC - Central Region</a></td>
+			<td>9/8/2021</td>
+			<td>11/11/2020 (Amended 9/2/2021)</td>
+		</tr><tr><td><a href="/warn-michael-page-international-nyc-2019-1187-9-3-2021-amendment-9-2-2021">Michael Page International Inc. - New York City Region</a></td>
+			<td>9/3/2021</td>
+			<td>4/8/2020 (Amended 9/2/2021)</td>
+		</tr><tr><td><a href="/warn-cantor-fitzgerald-securities-operations-division-nyc-2019-1786-9-1-2021-amendment-8-31-2021">Cantor Fitzgerald Securities (Operations Division) - New York City Region</a></td>
+			<td>9/1/2021</td>
+			<td>6/5/2020 (Amended 8/31/2021)</td>
+		</tr><tr><td><a href="/warn-concordia-college-mid-hudson-2021-0012-8-31-2021">Concordia College - Mid-Hudson Region</a></td>
+			<td>8/31/2021</td>
+			<td>8/30/2021</td>
+		</tr><tr><td><a href="/warn-concordia-college-mid-hudson-2020-0472-8-31-2021-amendment-8-30-2021">Concordia College - Mid-Hudson Region</a></td>
+			<td>8/31/2021</td>
+			<td>5/24/2021 (Amended 8/30/2021)</td>
+		</tr><tr><td><a href="/warn-bsc-automotive-interface-solutions-central-2020-0358-8-27-2021">BCS Automotive Interface Solutions U.S., LLC - Central Region</a></td>
+			<td>8/27/2021</td>
+			<td>8/20/2021 &amp; 8/27/2021</td>
+		</tr><tr><td><a href="/warn-aclara-smart-grid-solutions-2021-0009-8-24-2021">Aclara Smart Grid Solutions, LLC - New York City Region</a></td>
+			<td>8/24/2021</td>
+			<td>8/18/2021 &amp; 8/26/2021</td>
+		</tr><tr><td><a href="/warn-creative-bath-products-long-island-2021-0011-8-24-2021">Creative Bath Products, Inc. - Long Island Region</a></td>
+			<td>8/24/2021</td>
+			<td>8/23/2021</td>
+		</tr><tr><td><a href="/warn-m-m-molding-corp-long-island-2021-0010-8-24-2021">M &amp; M Molding Corp. - Long Island Region</a></td>
+			<td>8/24/2021</td>
+			<td>8/23/2021</td>
+		</tr><tr><td><a href="/warn-michael-page-international-nyc-2019-1187-8-24-2021-amendment-8-22-2021">Michael Page International Inc. - New York City Region</a></td>
+			<td>8/24/2021</td>
+			<td>4/8/2020 (Amended 8/22/2021)</td>
+		</tr><tr><td><a href="/warn-occidental-chemical-corporation-western-2021-0008-8-24-2021">Occidental Chemical Corporation - Western Region</a></td>
+			<td>8/24/2021</td>
+			<td>8/19/2021</td>
+		</tr><tr><td><a href="/renaissance-westchester-hotel-hudson-valley-region" title="Renaissance Westchester Hotel - Hudson Valley Region">Renaissance Westchester Hotel - Hudson Valley Region</a></td>
+			<td>8/21/2021</td>
+			<td>8/18/2021</td>
+		</tr><tr><td><a href="/warn-transportation-insight-phase-1-western-2021-0005-8-13-2021">Transportation Insight, LLC (Phase 1) - Western Region</a></td>
+			<td>8/16/2021</td>
+			<td>8/13/2021 (Amended 11/16/2021)</td>
+		</tr><tr><td><a href="/warn-biodex-medical-systems-long-island-2020-0470-6-24-2021-7-6-2021-8-5-2021-amendment">Biodex Medical Systems - Long Island Region</a></td>
+			<td>8/11/2021</td>
+			<td>5/6/2021 (Amended 6/24/2021, 7/6/2021 &amp; 8/5/2021)</td>
+		</tr><tr><td><a href="/warn-jewish-board-family-childrens-services-nyc-2020-0488-8-2-2021-amendment">Jewish Board of Family &amp; Children's Services, Inc. - New York City Region</a></td>
+			<td>8/10/2021</td>
+			<td>6/30/2021 (Amended 8/2/2021)</td>
+		</tr><tr><td><a href="/warn-jewish-board-family-childrens-services-mid-hudson-2020-0487-8-2-2021-amendment">Jewish Board of Family &amp; Children's Services, Inc. - Mid-Hudson Region</a></td>
+			<td>8/10/2021</td>
+			<td>6/30/2021 (Amended 8/2/2021)</td>
+		</tr><tr><td><a href="/warn-garnet-health-medical-center-catskills-skilled-nursing-unit-mid-hudson-2021-0004-7-30-2021">Garnet Health Medical Center - Catskills (Skilled Nursing Unit) - Mid-Hudson Region</a></td>
+			<td>7/30/2021</td>
+			<td>7/29/2021</td>
+		</tr><tr><td><a href="/warn-concordia-college-mid-hudson-2020-0472-7-28-2021-amendment">Concordia College - Mid-Hudson Region</a></td>
+			<td>7/29/2021</td>
+			<td>5/24/2021 (Amended 7/28/2021)</td>
+		</tr><tr><td><a href="/warn-concordia-college-mid-hudson-2020-0465-7-28-2021-amendment">Concordia College - Mid-Hudson Region</a></td>
+			<td>7/29/2021</td>
+			<td>4/29/2021 (Amended 7/28/2021)</td>
+		</tr><tr><td><a href="/warn-concordia-college-mid-hudson-2020-0427-7-28-2021-amendment">Concordia College - Mid-Hudson Region</a></td>
+			<td>7/29/2021</td>
+			<td>3/1/2021 (Amended 7/28/2021)</td>
+		</tr><tr><td><a href="/warn-bcs-automotive-interface-solutions-central-2020-0358-7-26-2021-amendment">BCS Automotive Interface Solutions U.S., LLC - Central Region</a></td>
+			<td>7/26/2021</td>
+			<td>11/11/2020 (Amended 7/26/2021)</td>
+		</tr><tr><td><a href="/warn-nomad-hotels-nyc-2021-0003-7-22-2021">NoMad Hotels LLC - New York City Region</a></td>
+			<td>7/22/2021</td>
+			<td>7/8/2021</td>
+		</tr><tr><td><a href="/warn-michael-page-international-nyc-2019-1187-7-16-2021-amendment">Michael Page International Inc. - New York City Region</a></td>
+			<td>7/16/2021</td>
+			<td>4/8/2020 (Amended 7/15/2021)</td>
+		</tr><tr><td><a href="/warn-cantor-fitzgerald-securities-operations-nyc-2019-1768-7-16-2021-amendment">Cantor Fitzgerald Securities (Operations Division) - New York City Region</a></td>
+			<td>7/16/2021</td>
+			<td>6/5/2020 (Amended 7/15/2021)</td>
+		</tr><tr><td><a href="/warn-jewish-board-of-family-children-services-phase-1-hudson valley-2020-0489-7-15-2021">Jewish Board of Family &amp; Children's Services, Inc. (Phase 1) - Hudson Valley Region</a></td>
+			<td>7/15/2021</td>
+			<td>5/4/2021</td>
+		</tr><tr><td><a href="/warn-hi-57-llc-dba-watson-hotel-new-york-city-region-07152021-warn-notice-dated-07092021">HI 57, LLC dba The Watson Hotel - New York City Region</a></td>
+			<td>7/15/2021</td>
+			<td>7/9/2021</td>
+		</tr><tr><td><a href="/warn-jewish-board-family-childrens-services-inc-ittleson-residential-treatment-facility-new-york">Jewish Board of Family &amp; Children's Services, Inc. (Ittleson Residential Treatment Facility) - New York City Region</a></td>
+			<td>7/15/2021</td>
+			<td>6/30/2021</td>
+		</tr><tr><td><a href="/warn-jewish-board-family-childrens-services-inc-mid-hudson-region-7152021-warn-notice-dated-6302021">Jewish Board of Family &amp; Children's Services, Inc - Mid-Hudson Region</a></td>
+			<td>7/15/2021</td>
+			<td>6/30/2021</td>
+		</tr><tr><td><a href="/warn-flying-food-group-jfk-nyc-2020-0096-7-8-2021-amendment-7-1-2021">Flying Food Group, LLC (JFK International Airport) - New York City Region</a></td>
+			<td>7/8/2021</td>
+			<td>7/29/2020 (Amended 7/1/2021)</td>
+		</tr><tr><td><a href="/warn-flying-food-group-jfk-nyc-2020-0361-7-8-2021-amendment-7-1-2021">Flying Food Group, LLC (at JFK International Airport) - New York City Region</a></td>
+			<td>7/8/2021</td>
+			<td>11/11/2020 (Amended 7/1/2021)</td>
+		</tr><tr><td><a href="/warn-achieve-cws-contract-packaging-services-southern-2021-0001-7-8-2021">ACHIEVE (CWS Contract Packaging Services) - Southern Region</a></td>
+			<td>7/8/2021</td>
+			<td>7/6/2021</td>
+		</tr><tr><td><a href="/warn-gbg-usa-global-brands-groups-nyc-2020-0486-7-6-2021">GBG USA Inc. (Global Brands Group) - New York City Region</a></td>
+			<td>7/6/2021</td>
+			<td>6/30/2021 and 7/1/2021</td>
+		</tr><tr><td><a href="/warn-jewish-board-family-childrens-services-mid-hudson-2020-0475-7-6-2021-rescission-6-24-2021">Jewish Board of Family &amp; Children's Services, Inc. - Mid-Hudson Region</a></td>
+			<td>7/6/2021</td>
+			<td>6/2/2021 (Rescinded 6/24/2021)</td>
+		</tr><tr><td><a href="/warn-michael-page-international-nyc-2019-1187-7-2-2021-amendment">Michael Page International Inc. - New York City Region</a></td>
+			<td>7/2/2021</td>
+			<td>4/8/2020 (Amended 7/1/2021)</td>
+		</tr><tr><td><a href="/warn-c&amp;s-wholesale-grocers-mid-hudson-2020-0484-7-1-2021">C &amp; S Wholesale Grocers, Inc. - Mid-Hudson Region</a></td>
+			<td>7/1/2021</td>
+			<td>6/30/2021</td>
+		</tr><tr><td><a href="/warn-somos-healthcare-providers-nyc-2020-0441-6-29-2021-amendment">Somos Healthcare Providers, Inc. - New York City Region</a></td>
+			<td>6/29/2021</td>
+			<td>3/19/2021 (Amended 6/24/2021)</td>
+		</tr><tr><td><a href="/warn-sky-chefs-nyc-2020-0484-6-29-2021">Sky Chefs Inc. - New York City Region</a></td>
+			<td>6/29/2021</td>
+			<td>6/24/2021</td>
+		</tr><tr><td><a href="/warn-concordia-college-mid-hudson-2020-0482-6-25-2021">Concordia College - Mid-Hudson Region</a></td>
+			<td>6/25/2021</td>
+			<td>6/24/2021</td>
+		</tr><tr><td><a href="/warn-concordia-college-mid-hudson-2020-0427-6-25-2021-amendment-6-24-2021">Concordia College - Mid-Hudson Region</a></td>
+			<td>6/25/2021</td>
+			<td>3/1/2021 (Amended 6/24/2021)</td>
+		</tr><tr><td><a href="/warn-pvh-corp-heritage-brands-nyc-2020-0483-6-25-2021">PVH Corp. (Heritage Brands) - New York City Region</a></td>
+			<td>6/25/2021</td>
+			<td>6/24/2021</td>
+		</tr><tr><td><a href="/warn-ctg-ibm-anthem-western-2020-0481-6-23-2021">CTG, Inc. (at IBM-Anthem site) - Western Region</a></td>
+			<td>6/23/2021</td>
+			<td>6/22/2021</td>
+		</tr><tr><td><a href="/warn-aramark-facility-servies-mercy-college-mid-hudson-2020-0480-6-22-2021">Aramark Facility Services, LLC (at Mercy College) - Mid-Hudson Region</a></td>
+			<td>6/22/2021</td>
+			<td>6/14/2021</td>
+		</tr><tr><td><a href="/warn-michael-page-international-nyc-2019-1187-6-21-2021-amended-6-18-2021">Michael Page International Inc. - New York City Region</a></td>
+			<td>6/21/2021</td>
+			<td>4/8/2020 (Amended 6/18/2021)</td>
+		</tr><tr><td><a href="/warn-bcs-automotive-interfact-solutions-central-2020-0358-6-18-2021-amended-6-16-2021">BCS Automotive Interface Solutions U.S., LLC - Central Region</a></td>
+			<td>6/18/2021</td>
+			<td>11/11/2020 (Amended 6/16/2021)</td>
+		</tr><tr><td><a href="/warn-united-helpers-nursing-home-ogdensburg-north-country-2020-0479-6-17-2021">United Helpers Nursing Home, Inc. d/b/a United Helpers Rehabilitation and Senior Care, Ogdensburg - North Country Region </a></td>
+			<td>6/17/2021</td>
+			<td>6/15/2021</td>
+		</tr><tr><td><a href="/warn-paragon-sports-nyc-2019-0904-6-17-2021-rescission-6-16-2021">Paragon Sports, LLC - New York City Region</a></td>
+			<td>6/17/2021</td>
+			<td>3/30/2020 (Rescinded 6/16/2021)</td>
+		</tr><tr><td><a href="/warn-urban-resource-institute-nyc-2020-0478-6-17-2021">Urban Resource Institute - New York City Region</a></td>
+			<td>6/17/2021</td>
+			<td>6/15/2021</td>
+		</tr><tr><td><a href="/warn-bouchard-transportation-company-western-2020-0477-6-9-2021">Bouchard Transportation Company, Inc. - Long Island Region</a></td>
+			<td>6/9/2021</td>
+			<td>6/8/2021</td>
+		</tr><tr><td><a href="/warn-sonwil-distribution-center-western-2020-0476-6-4-2021">Sonwil Distribution Center, Inc. - Western Region</a></td>
+			<td>6/4/2021</td>
+			<td>6/3/2021</td>
+		</tr><tr><td><a href="/warn-jewish-board-family-and-childrens-services-mid-hudson-2020-0475-6-4-2021">Jewish Board of Family &amp; Children's Services, Inc. - Mid-Hudson Region</a></td>
+			<td>6/4/2021</td>
+			<td>6/2/2021</td>
+		</tr><tr><td><a href="/warn-jewish-board-family-and-childrens-services-nyc-2020-0474-6-4-2021">Jewish Board of Family &amp; Children's Services, Inc. - New York City Region</a></td>
+			<td>6/4/2021</td>
+			<td>6/2/2021</td>
+		</tr><tr><td><a href="/warn-community-development-institute-head-start-nyc-2020-0473-6-2-2021">Community Development Institute Head Start - New York City Region</a></td>
+			<td>6/2/2021</td>
+			<td>5/24/2021</td>
+		</tr><tr><td><a href="/warn-michael-page-international-inc-new-york-city-region-5272021-warn-notice-dated-482020-amended">Michael Page International Inc. - New York City Region</a> </td>
+			<td>5/27/2021</td>
+			<td>4/8/2020 (Amended 5/27/2027)</td>
+		</tr><tr><td><a href="/warn-concordia-college-mid-hudson-region-5252021-warn-notice-dated-5242021">Concordia College - Mid-Hudson Region</a></td>
+			<td>5/25/2021</td>
+			<td>5/24/2021</td>
+		</tr><tr><td><a href="/warn-concordia-college-mid-hudson-region-5252021-warn-notice-dated-312021-amended-5242021">Concordia College - Mid-Hudson Region</a></td>
+			<td>5/25/2021</td>
+			<td>3/1/2021 (Amended 5/24/2021)</td>
+		</tr><tr><td><a href="/warn-amsterdam-printing-litho-inc-mohawk-valley-region-5252021-warn-notice-dated-872020-amended">Amsterdam Printing &amp; Litho, Inc. - Mohawk Valley Region</a></td>
+			<td>5/25/2021</td>
+			<td>8/7/2020 (Amended 12/7/2020 &amp; 5/21/2021)</td>
+		</tr><tr><td><a href="/warn-noamex-inc-clothing-operation-and-logistics-operation-new-york-city-region-5242021-warn-notice">Noamex Inc. (Clothing Operation and Logistics Operation) - New York City Region </a></td>
+			<td>5/24/2021</td>
+			<td>5/21/2021</td>
+		</tr><tr><td><a href="/warn-cantor-fitzgerald-securities-nyc-2019-1768-5-18-2021-amended-5-14-2021">Cantor Fitzgerald Securities (Operations Division) - New York City Region</a></td>
+			<td>5/18/2021</td>
+			<td>6/5/2020 (Amended 5/14/2021)</td>
+		</tr><tr><td><a href="/warn-michael-page-international-nyc-2019-1187-5-17-2021-amended-5-14-2021">Michael Page International Inc. - New York City Region</a></td>
+			<td>5/17/2021</td>
+			<td>4/8/2020 (Amended 5/14/2021)</td>
+		</tr><tr><td><a href="/warn-conrad-management-conrad-ny-midtown-nyc-2020-0037-5-14-2021-amended-4-13-2021">Conrad Management LLC dba Conrad New York Midtown - New York City Region</a></td>
+			<td>5/14/2021</td>
+			<td>7/13/2020 (Amended 4/13/2021)</td>
+		</tr><tr><td><a href="/warn-acitrezza-nyc-2020-0423-5-14-2021-amended-4-23-2021">Acitrezza, LLC (Agata &amp; Valentina store) - New York City Region</a></td>
+			<td>5/14/2021</td>
+			<td>2/11/2021 (Amended 4/23/2021)</td>
+		</tr><tr><td><a href="/warn-biodex-medical-systems-long-island-2020-0470-5-12-2021">Biodex Medical Systems - Long Island Region</a></td>
+			<td>5/12/2021</td>
+			<td>5/6/2021</td>
+		</tr><tr><td><a href="/warn-westcop-mid-hudson-2020-0469-5-6-2021">Westchester Community Opportunity Program (WestCOP) - Mid-Hudson Region</a></td>
+			<td>5/5/2021</td>
+			<td>4/28/2021</td>
+		</tr><tr><td><a href="/warn-greenburgh-central-school-district-headstart-mid-hudson-2020-0468-5-4-2021">Greenburgh Central School District (Head Start) - Mid-Hudson Region</a></td>
+			<td>5/4/2021</td>
+			<td>4/29/2021</td>
+		</tr><tr><td><a href="/warn-delaware-north-companies-travel-hospitality-services-finger-lakes-2020-0467-4-30-2021">Delaware North Companies Travel Hospitality Services, Inc. - Finger Lakes Region</a></td>
+			<td>4/30/2021</td>
+			<td>4/27/2021</td>
+		</tr><tr><td><a href="/warn-delaware-north-companies-travel-hospitality-services-western-2020-0466-4-30-2021">Delaware North Companies Travel Hospitality Services, Inc. - Western Region</a></td>
+			<td>4/30/2021</td>
+			<td>4/27/2021</td>
+		</tr><tr><td><a href="/warn-michael-page-international-nyc-2019-1187-4-30-2021-amendment-4-30-2021">Michael Page International Inc. - New York City Region</a></td>
+			<td>4/30/2021</td>
+			<td>4/8/2020 (Amended 4/30/2021)</td>
+		</tr><tr><td><a href="/warn-concordia-college-mid-hudson-2020-0465-4-29-2021">Concordia College - Mid-Hudson Region</a></td>
+			<td>4/29/2021</td>
+			<td>4/29/2021</td>
+		</tr><tr><td><a href="/warn-concordia-college-mid-hudson-2020-0427-4-29-2021-amendment-4-29-2021">Concordia College - Mid-Hudson Region</a></td>
+			<td>4/29/2021</td>
+			<td>3/1/2021 (Amended 4/29/2021)</td>
+		</tr><tr><td><a href="/warn-siemens-energy-olean-western-2020-0464-4-29-2021">Siemens Energy, Inc. (Olean) - Western Region</a></td>
+			<td>4/29/2021</td>
+			<td>4/29/2021</td>
+		</tr><tr><td><a href="/warn-hms-host-family-restaurants-inc-mid-hudson-region-mohawk-valley-region-capital-region-4282021">HMS Host Family Restaurants, Inc. -  Mid-Hudson Region / Mohawk Valley Region / Capital Region</a><a href="/warn-hms-host-family-restaurants-inc-mid-hudson-region-mohawk-valley-region-capital-region-4282021"> </a></td>
+			<td>4/28/2021</td>
+			<td>4/27/2021</td>
+		</tr><tr><td><a href="/warn-hms-host-family-restaurants-inc-mid-hudson-mohawk-valley-capital-region-finger-lakes-central">HMS Host Family Restaurants, Inc. -  Mid-Hudson Region / Mohawk Valley Region / Capital Region/ Finger Lakes Region / Central Region</a></td>
+			<td>4/28/2021</td>
+			<td>4/27/2021</td>
+		</tr><tr><td><a href="/warn-hawkfish-llc-new-york-city-region-4272021-warn-notice-dated-282021-amended-4262021">Hawkfish, LLC - New York City Region</a> </td>
+			<td>4/27/2021</td>
+			<td>2/8/2021 (Amended 4/26/2021)</td>
+		</tr><tr><td><a href="/warn-ss-cyril-and-methodius-school-long-island-region-4272021-warn-notice-dated-4232021">SS. Cyril and Methodius School - Long Island Region</a></td>
+			<td>4/27/2021</td>
+			<td>4/23/2021</td>
+		</tr><tr><td><a href="/warn-our-lady-providence-regional-school-long-island-region-4272021-warn-notice-dated-4232021" hreflang="en">Our Lady of Providence Regional School - Long Island Region</a></td>
+			<td>4/27/2021</td>
+			<td>4/23/2021</td>
+		</tr><tr><td><a href="/warn-mbj-south-nyc-2020-0453-4-23-2021">MBJ South Inc. (at New York City College of Technology) - NYC Region</a></td>
+			<td>4/23/2021</td>
+			<td>3/29/2021</td>
+		</tr><tr><td><a href="/warn-adesa-new-york-western-2020-0452-4-21-2021">ADESA New York, LLC - Western Region</a></td>
+			<td>4/21/2021</td>
+			<td>4/16/2021</td>
+		</tr><tr><td><a href="/warn-michael-page-international-nyc-2019-1187-4-19-2021-amendment-4-16-2021">Michael Page International Inc. - New York City Region</a></td>
+			<td>4/19/2021</td>
+			<td>4/8/2020 (Amended 4/16/2021)</td>
+		</tr><tr><td><a href="/warn-ymca-greater-rochester-finger-lakes-mohawk-valley-southern-tier-2019-1680-4-15-2021-amendment-3-31-2021">The YMCA of Greater Rochester - Finger Lakes Region / Mohawk Valley Region / Southern Tier</a></td>
+			<td>4/15/2021</td>
+			<td>5/18/2020 (Amended 3/31/2021)</td>
+		</tr><tr><td><a href="/warn-pret-a-manger-mid-hudson-2020-0050-4-14-2021-amendment-4-13-2021">Pret A Manger (USA) Ltd. - New York City Region</a></td>
+			<td>4/15/2021</td>
+			<td>7/17/2020 (Amended 4/13/2021)</td>
+		</tr><tr><td><a href="/warn-valley-staffco-mid-hudson-2020-0451-4-14-2021">Mid-Hudson Valley Staffco (assigned to North Road LHCSA, Inc.) - Mid-Hudson Region</a></td>
+			<td>4/14/2021</td>
+			<td>4/9/2021</td>
+		</tr><tr><td><a href="/warn-endo-par-pharmaceutical-mid-hudson-2020-0450-3-31-2021">Endo Par Pharmaceutical - Mid-Hudson Region</a></td>
+			<td>4/9/2021</td>
+			<td>3/31/2021</td>
+		</tr><tr><td><a href="/warn-concordia-college-mid-hudson-2020-0427-3-31-2021-amendment">Concordia College - Mid-Hudson Region</a></td>
+			<td>4/2/2021</td>
+			<td>3/1/2021 (Amended 3/31/2021)</td>
+		</tr><tr><td><a href="/warn-1661-goat-flight-club-nyc-2019-0933-3-31-2021-amendment">1661, Inc. dba GOAT and Flight Club New York, LLC - New York City Region</a></td>
+			<td>4/2/2021</td>
+			<td>3/30/2020 (Amended 3/31/2021)</td>
+		</tr><tr><td><a href="/warn-concordia-college-mid-hudson-2020-0449">Concordia College - Mid-Hudson Region</a></td>
+			<td>4/2/2021</td>
+			<td>3/31/2021</td>
+		</tr><tr><td><a href="/warn-durham-school-services-central-2020-0448">Durham School Services, L.P. - Central Region</a></td>
+			<td>4/1/2021</td>
+			<td>3/31/2021</td>
+		</tr><tr><td><a href="/catholic-charities-neighborhood-services-inc-new-york-city-region-4121-warn-notice-dated-3312021">Catholic Charities Neighborhood Services, Inc. - New York City Region</a></td>
+			<td>4/1/2021</td>
+			<td>3/31/2021</td>
+		</tr><tr><td><a href="/plaza-sahara-plaza-llc-new-york-city-region-33121-warn-notice-dated-3192020-amended-312021">The Plaza - Sahara Plaza LLC - New York City Region</a></td>
+			<td>3/31/2021</td>
+			<td>3/19/2020 (Amended 3/1/2021)</td>
+		</tr><tr><td><a href="/sofitel-new-york-normandy-llc-new-york-city-region-33121-warn-notice-dated-3172020-amended-2272021">The Sofitel New York - Normandy LLC - New York City Region</a></td>
+			<td>3/31/2021</td>
+			<td>3/17/2020 (Amended 2/27/2021)</td>
+		</tr><tr><td><a href="/genex-cooperative-southern-region-33121-warn-notice-dated-152021">Genex Cooperative - Southern Region</a></td>
+			<td>3/31/2021</td>
+			<td>1/5/2021</td>
+		</tr><tr><td><a href="/st-christopher-school-long-island-region-33021-warn-notice-dated-3232021">St. Christopher School - Long Island Region</a></td>
+			<td>3/30/2021</td>
+			<td>3/23/2021</td>
+		</tr><tr><td><a href="/st-raymond-school-long-island-region-33021-warn-notice-dated-3192021">St. Raymond School - Long Island Region</a></td>
+			<td>3/30/2021</td>
+			<td>3/19/2021</td>
+		</tr><tr><td><a href="/michael-page-international-inc-new-york-city-region-33021-warn-notice-dated-482020-amended-3292021">Michael Page International Inc. - New York City Region</a></td>
+			<td>3/30/2021</td>
+			<td>4/8/2020 (Amended 3/29/2021)</td>
+		</tr><tr><td><a href="/bcs-automotive-interface-solutions-us-llc-central-region-33021-warn-notice-dated-11112020-amended">BCS Automotive Interface Solutions U.S., LLC - Central Region</a></td>
+			<td>3/30/2021</td>
+			<td>11/11/2020 (Amended 3/11/2021)</td>
+		</tr><tr><td><a href="https://dol.ny.gov/system/files/documents/2021/03/warn-republic-airways-nyc-2020-0008-3-29-2021-rescission.pdf">Republic Airways Inc. - New York City Region</a></td>
+			<td>3/30/2021</td>
+			<td>7/30/2020 (Rescinded 1/11/2021)</td>
+		</tr><tr><td><a href="/warn-hebrew-academy-special-children">Hebrew Academy for Special Children</a></td>
+			<td>3/25/2021</td>
+			<td>3/24/2021</td>
+		</tr><tr><td><a href="/system/files/documents/2021/03/empire-stat-group-llc-new-york-city-region.pdf">Empire Stat Group, LLC - New York City Region</a></td>
+			<td>3/23/2021 </td>
+			<td> 3/15/2021</td>
+		</tr><tr><td><a href="/system/files/documents/2021/03/paragon-sports-llc-new-york-city-region-amendment-3-20-2021.pdf">Paragon Sports, LLC - New York City Region</a></td>
+			<td>3/22/2021</td>
+			<td>3/30/2020 - (Amended 3/20/2021)</td>
+		</tr><tr><td><a href="/system/files/documents/2021/03/crestview-management-llc-at-albany-marriott-capital-region-3-22-2021-warn-notice-dated-3162021.pdf">Crestview Management, LLC (at Albany Marriott) - Capital Region</a></td>
+			<td>3/22/2021</td>
+			<td>3/16/2021</td>
+		</tr><tr><td><a href="/system/files/documents/2021/03/crestview-management-llc-at-melville-marriott-long-island-region-3-22-2021-warn-notice-dated-3162021.pdf">Crestview Management, LLC (at Melville Marriott) - Long Island Region</a></td>
+			<td>3/22/2021</td>
+			<td>3/16/2021</td>
+		</tr><tr><td><a href="/system/files/documents/2021/03/st.-thomas-the-apostle-school-long-island-region-3-22-2021-warn-notice-dated-3192021.pdf">St. Thomas the Apostle School - Long Island Region</a></td>
+			<td>3/22/2021</td>
+			<td>3/19/2021</td>
+		</tr><tr><td><a href="/system/files/documents/2021/03/somos-healthcare-providers-inc.-new-york-city-region-3-22-2021-warn-notice-dated3192021.pdf">Somos Healthcare Providers, Inc. - New York City Region</a></td>
+			<td>3/22/2021</td>
+			<td>3/19/2021</td>
+		</tr><tr><td><a href="/system/files/documents/2021/03/geo-secure-services-llc-fka-geo-corrections-detention-llc-new-york-city-region-3-18-2021-warn-notice-dated-3162020.pdf">GEO Secure Services, LLC (fka GEO Corrections &amp; Detention LLC) - New York City Region</a></td>
+			<td>3/18/2021</td>
+			<td>3/16/2020</td>
+		</tr><tr><td><a href="/system/files/documents/2021/03/nordstrom-rack-long-island-region-3-18-2021-warn-notice-dated-3122021.pdf">Nordstrom Rack - Long Island Region</a></td>
+			<td>3/18/2021</td>
+			<td>3/12/2021</td>
+		</tr><tr><td><a href="/system/files/documents/2021/03/wework-companies-inc.-new-york-city-region-3-17-2021-warn-notice-dated-242021-332021.pdf">WeWork Companies, Inc. - New York City Region</a></td>
+			<td>3/17/2021</td>
+			<td>2/4/2021 - 3/3/2021</td>
+		</tr><tr><td><a href="/system/files/documents/2021/03/wework-companies-inc.-new-york-city-region-3-17-2021-warn-notice-dated-2232021.pdf">WeWork Companies, Inc. - New York City Region</a></td>
+			<td>3/17/2021</td>
+			<td>2/23/2021</td>
+		</tr><tr><td><a href="/system/files/documents/2021/03/wework-companies-inc.-new-york-city-region-3-17-2021-warn-notice-dated-2232021-2.pdf">WeWork Companies, Inc. - New York City Region</a></td>
+			<td>3/17/2021</td>
+			<td>2/23/2021</td>
+		</tr><tr><td><a href="/system/files/documents/2021/03/wework-companies-inc.-new-york-city-region-3-17-2021-warn-notice-dated-2222021.pdf">WeWork Companies, Inc. - New York City Region</a></td>
+			<td>3/17/2021</td>
+			<td>2/22/2021</td>
+		</tr><tr><td><a href="/system/files/documents/2021/03/michael-page-international-inc.-2019-1187-3-12-2021-amendment.pdf">Michael Page International Inc. - New York City Region</a></td>
+			<td>3/15/2021</td>
+			<td>4/8/2020 (Amended 3/12/2021)</td>
+		</tr><tr><td><a href="/system/files/documents/2021/03/nyu-grossman-school-of-medicine-faculty-group-practice-central-billing-office-2020-0431-3-5-2021.pdf">NYU Grossman School of Medicine - New York City Region</a></td>
+			<td>3/8/2021</td>
+			<td>3/5/2021</td>
+		</tr><tr><td><a href="/system/files/documents/2021/03/mbj-cafeteria-corp.-at-cuny-john-jay-college-of-criminal-justice-2020-0430-2-22-2021.pdf">MBJ Cafeteria Corp. (at CUNY John Jay College of Criminal Justice) - New York City Region</a></td>
+			<td>3/5/2021</td>
+			<td>2/22/2021</td>
+		</tr><tr><td><a href="/system/files/documents/2021/03/pret-a-manger-usa-ltd.-multiple-nyc-sites-mid-hudson-2020-0050-2020-0429-3-4-2021-amendment.pdf">Pret A Manger (USA) Ltd. (Multiple Locations) - New York City Region / Mid-Hudson Region</a></td>
+			<td>3/4/2021</td>
+			<td>7/17/2020 (Amended 3/4/2021)</td>
+		</tr><tr><td><a href="/system/files/documents/2021/03/becca-inc.-2020-0428-2-25-2021.pdf">Becca Inc. - New York City Region</a></td>
+			<td>3/3/2021</td>
+			<td>2/25/2021</td>
+		</tr><tr><td><a href="/system/files/documents/2021/03/concordia-college-2020-0427-3-2-2021-amendment.pdf">Concordia College - Mid-Hudson Region</a></td>
+			<td>3/3/2021</td>
+			<td>3/1/2021 (Amended 3/2/2021)</td>
+		</tr><tr><td><a href="/system/files/documents/2021/03/concordia-college-2020-0427-3-1-2021.pdf">Concordia College - Mid-Hudson Region</a></td>
+			<td>3/2/2021</td>
+			<td>3/1/2021</td>
+		</tr><tr><td><a href="/system/files/documents/2021/03/fred-c.-gloeckner-company-inc.-2020-0369-2-25-2021-amendment.pdf">Fred C. Gloeckner &amp; Company, Inc. - Mid-Hudson Region</a></td>
+			<td>3/1/2021</td>
+			<td>12/1/2020 (Amended 2/25/2021)</td>
+		</tr><tr><td><a href="/system/files/documents/2021/03/seven-seas-union-square-llc-dba-the-food-emporium-2020-0426-2-25-2021.pdf">Seven Seas Union Square LLC, dba The Food Emporium - New York City Region</a></td>
+			<td>3/1/2021</td>
+			<td>2/25/2021</td>
+		</tr><tr><td><a href="/system/files/documents/2021/03/michael-page-international-inc.-2019-1187-2-25-2021-amendment.pdf">Michael Page International Inc. - New York City Region</a></td>
+			<td>2/26/2021</td>
+			<td>4/8/2020 (Amended 2/25/2021)</td>
+		</tr><tr><td><a href="/warn-endo-par-pharmaceutical-mid-hudson-2020-0245-2-25-2021">Endo Par Pharmaceutical - Mid-Hudson Region</a></td>
+			<td>2/26/2021</td>
+			<td>2/25/2021</td>
+		</tr><tr><td><a href="/system/files/documents/2021/03/american-steamship-company-asc-2020-0424-2-19-2021.pdf">American Steamship Company (ASC) - Western Region</a></td>
+			<td>2/25/2021</td>
+			<td>2/19/2021</td>
+		</tr><tr><td><a href="/system/files/documents/2021/03/the-ymca-of-greater-rochester-finger-lakes-sites-corning-2019-1680-thru-2019-1701-amendment-2-19-2021.pdf">The YMCA of Greater Rochester - Finger Lakes Region / Mohawk Valley Region / Southern Tier Region</a></td>
+			<td>2/23/2021</td>
+			<td>5/18/2020 (Amended 2/19/2021)</td>
+		</tr><tr><td><a href="/system/files/documents/2021/03/flying-food-group-llc-jfk-international-airport-jamaica-2020-0096-1-29-2021-amendment.pdf">Flying Food Group, LLC (JFK International Airport) - New York City Region</a></td>
+			<td>2/18/2021</td>
+			<td>7/29/2020 (Amended 1/29/2021)</td>
+		</tr><tr><td><a href="/system/files/documents/2021/03/warn-maryhaven-center-of-hope-inc.-angel-guardian-home-west-babylon-2020-0422-2-12-2021.pdf">Maryhaven Center of Hope, Inc. (Angel Guardian Home) - Long Island Region</a></td>
+			<td>2/16/2021</td>
+			<td>2/12/2021</td>
+		</tr><tr><td><a href="/system/files/documents/2021/03/warn-michael-page-international-inc.-622-third-ave.-nyc-2019-1187-2-12-2021-amendment_0.pdf">Michael Page International Inc. - New York City Region</a></td>
+			<td>2/16/2021</td>
+			<td>4/8/2020 (Amended 2/12/2021)</td>
+		</tr><tr><td><a href="/system/files/documents/2021/03/norweigian-air-resources-us-formerly-osm-aviation-inc.-jfk-2019-0511-2-11-2021-amendment.pdf">Norwegian Air Resources US (formerly OSM Aviation, Inc.) - New York City Region</a></td>
+			<td>2/16/2021</td>
+			<td>3/18/2020 (Amended 2/11/2021)</td>
+		</tr><tr><td><a href="/system/files/documents/2021/03/warn-acitrezza-llc-agata-valentina-store-nyc-2020-0423-2-11-2021.pdf">Acitrezza, LLC (Agata &amp; Valentina store) - New York City Region</a></td>
+			<td>2/16/2021</td>
+			<td>2/11/2021</td>
+		</tr><tr><td><a href="/system/files/documents/2021/03/american-airlines-inc.-2020-0036-2-5-2021-amendment.pdf">American Airlines, Inc. - New York City Region</a></td>
+			<td>2 /12 /2021</td>
+			<td>7/15/2020 (Amended 2/5/2021)</td>
+		</tr><tr><td><a href="/system/files/documents/2021/03/warn-entergy-operations-inc.-entergy-services-llc-2020-0421.pdf">Entergy Nuclear Operations, Inc.; Entergy Services, LLCIndian Point Energy Center (IPEC) (owned by Entergy Nuclear Indian Point 2, LLC &amp; Entergy Nuclear Indian Point 3, LLC) - Mid-Hudson Region</a></td>
+			<td>2/12/2021</td>
+			<td>2/12/2021</td>
+		</tr><tr><td><a href="/system/files/documents/2021/03/rochester-drug-co-operative-inc.-2019-0294-12-17-2020-12-18-2020-12-22-2020-2-4-2021-amendment.pdf">Rochester Drug Co-Operative, Inc. - Finger Lakes Region</a></td>
+			<td>2/11/2021</td>
+			<td>2/13/2020 ( Amended 12/17/2020; 12/18/2020; 12/22/2020; 2/4/2021)</td>
+		</tr><tr><td><a href="/system/files/documents/2021/03/hawkfish-llc-2020-0420-2-8-2021.pdf">Hawkfish, LLC - New York City Region</a></td>
+			<td>2/10/2021</td>
+			<td>2/8/2021</td>
+		</tr><tr><td><a href="/system/files/documents/2021/03/envoy-air-inc.-2020-0039-2-4-2021-amendment.pdf">Envoy Air Inc. - New York City Region</a></td>
+			<td>2/8/2021</td>
+			<td>7/17/2020 (Amendment 2/4/2021)</td>
+		</tr><tr><td><a href="/system/files/documents/2021/03/cbre-white-plains-2020-0351-2-8-2021-amendment.pdf">CBRE - Mid-Hudson Region</a></td>
+			<td>2/8/2021</td>
+			<td>11/6/2020 (Amendment: 2/8/2021)</td>
+		</tr><tr><td><a href="/system/files/documents/2021/03/the-ymca-of-greater-rochester-finger-lakes-sites-corning-2019-1680-thru-2019-1701-amendment-2-3-2021.pdf">The YMCA of Greater Rochester - Finger Lakes Region / Mohawk Valley Region / Southern Tier Region</a></td>
+			<td>2/5/2021</td>
+			<td>5/18/2020 (Amended 2/3/21)</td>
+		</tr><tr><td><a href="/system/files/documents/2021/03/knotel-inc.-2020-0419-1-31-2021.pdf">Knotel, Inc. - New York City Region</a></td>
+			<td>2/4/2021</td>
+			<td>1/31/2021</td>
+		</tr><tr><td><a href="/system/files/documents/2021/03/paragon-sports-llc-2019-0904-2-2-2021-amendment.pdf">Paragon Sports, LLC - New York City Region</a></td>
+			<td>2/4/2021</td>
+			<td>3/30/2020 (Amended 2/2/2021)</td>
+		</tr><tr><td><a href="/system/files/documents/2021/03/warn-cantor-fitzgerald-securities-operations-division-3-nyc-sites-2019-1768-2019-1770-1-11-20212-3-2021-amendment.pdf">Cantor Fitzgerald Securities (Operations Division) - New York City Region</a></td>
+			<td>2/4/2021</td>
+			<td>6/5/2020 (Amended 1/11/2021 &amp; 2/3/2021)</td>
+		</tr><tr><td><a href="/system/files/documents/2021/03/gt-operating-company-llc-dba-gramercy-tavern-2019-1007-1-8-2021-1-22-2021-amendment.pdf">GT Operating Company LLC dba Gramercy Tavern - New York City Region</a></td>
+			<td>2/3/2021</td>
+			<td>3/31/2020 (Amended 1/8/2021, 1/22/2021)</td>
+		</tr><tr><td><a href="/system/files/documents/2021/03/union-square-cafe-ii-llc-dba-union-square-cafe-2019-1017-1-8-2021-1-22-2021.pdf">Union Square Cafe II, LLC dba Union Square Cafe - New York City Region</a></td>
+			<td>2/3/2021</td>
+			<td>3/31/2020 (1/8/2021, 1/22/2021)</td>
+		</tr><tr><td><a href="/system/files/documents/2021/03/transform-sr-llc-sears-store-01924-automotive-center-06134-2020-0418-1-28-2021.pdf">Transform SR LLC (Sears Store #01924 &amp; Automotive Center #06134) - Long Island Region</a></td>
+			<td>2/2/2021</td>
+			<td>1/28/2021</td>
+		</tr><tr><td><a href="/system/files/documents/2021/03/el-al-israeli-airlines-ltd.-jfk-nyc-office-2020-0417-1-29-2021.pdf">El Al Israeli Airlines LTD. (JFK) - New York City Region</a></td>
+			<td>2/1/2021</td>
+			<td>1/29/2021</td>
+		</tr><tr><td><a href="/system/files/documents/2021/03/michael-page-international-inc.-2019-1187-1-29-2021-amendment.pdf">Michael Page International Inc. - New York City Region</a></td>
+			<td>2/1/2021</td>
+			<td>4/8/2020 (Amended 1/29/2021)</td>
+		</tr><tr><td><a href="/system/files/documents/2021/03/wework-companies-inc.-avenue-of-the-americas-2020-0416-12-2-2020-12-22-2020-1-12-2021.pdf">WeWork Companies, Inc. - New York City Region</a></td>
+			<td>1/29/2021</td>
+			<td>12/2/2020; 12/22/2020; 1/12/2021</td>
+		</tr><tr><td><a href="/system/files/documents/2021/03/wework-companies-inc.-18th-st.-2020-0145-12-9-2020.pdf">WeWork Companies, Inc. - New York City Region</a></td>
+			<td>1/29/2021</td>
+			<td>12/9/2020</td>
+		</tr><tr><td><a href="/system/files/documents/2021/03/bcs-automotive-interface-solutions-u.s.-llc-2020-0358-1-26-2021-amendment.pdf">BCS Automotive Interface Solutions U.S., LLC - Central Region</a></td>
+			<td>1/27/2021</td>
+			<td>11/11/2020 (Amended 1/26/2020)</td>
+		</tr><tr><td><a href="/system/files/documents/2021/03/mid-state-raceway-inc.-dba-vernon-downs-casino-hotel-2020-0025-1-8-2021-amendment.pdf">Mid-State Raceway, Inc. dba Vernon Downs Casino Hotel - Mohawk Valley Region</a></td>
+			<td>1/26/2021</td>
+			<td>7/13/2020 (Amended 1/8/2021)</td>
+		</tr><tr><td><a href="/system/files/documents/2021/03/spot-company-of-manhattan-inc.-2020-0414-1-11-2021.pdf">Spot &amp; Company of Manhattan, Inc. - New York City Region</a></td>
+			<td>1/21/2021</td>
+			<td>1/11/2021</td>
+		</tr><tr><td><a href="/system/files/documents/2021/03/t.i.c.-akean-inc.-2019-1145-1-9-2021-amendment.pdf">T.I.C. Akean Inc. - New York City Region</a></td>
+			<td>1/20/2021</td>
+			<td>3/25/2020 (Amended 1/9/2021)</td>
+		</tr><tr><td><a href="/system/files/documents/2021/03/pret-a-manger-usa-ltd.-multiple-nyc-sites-2020-0050-1-15-2021amendment.pdf">Pret A Manger (USA) Ltd. - New York City Region</a></td>
+			<td>1/20/2021</td>
+			<td>7/17/2020 (Amended 1/15/2021)</td>
+		</tr><tr><td><a href="/system/files/documents/2021/03/best-buy-store-538-2020-0413-1-17-2021.pdf">Best Buy (Store #538) - Central Region</a></td>
+			<td>1/20/2021</td>
+			<td>1/17/2021</td>
+		</tr><tr><td><a href="/system/files/documents/2021/03/aramark-services-inc.-2020-0411-1-31-2021.pdf">Aramark Services, Inc. - New York City Region</a></td>
+			<td>1/19/2021</td>
+			<td>1/13/2021</td>
+		</tr><tr><td><a href="/system/files/documents/2021/03/paragon-sports-llc-2019-09041-15-2021-amendment.pdf">Paragon Sports, LLC - New York City Region</a></td>
+			<td>1/19/2021</td>
+			<td>3/30/2020 (Amended 1/15/2011)</td>
+		</tr><tr><td><a href="/system/files/documents/2021/03/breton-industries-inc.-military-products-and-commercial-lines-2020-0412-1-15-2021.pdf">Breton Industries, Inc. (Military Products and Commercial Lines) - Mohawk Valley Region</a></td>
+			<td>1/19/2021</td>
+			<td>1/15/2021</td>
+		</tr><tr><td><a href="/system/files/documents/2021/03/warn-cantor-fitzgerald-securities-operations-division-3-nyc-sites-2019-1768-2019-1770-1-11-2021-amendment.pdf">Cantor Fitzgerald Securities (Operations Division) - New York City Region</a></td>
+			<td>1/19/2021</td>
+			<td>6/5/2020 (Amended 1/11/2021)</td>
+		</tr><tr><td><a href="/system/files/documents/2021/03/michael-page-international-inc.-2019-1187-1-15-2021-amendment.pdf">Michael Page International Inc. - New York City Region</a></td>
+			<td>1/15/2021</td>
+			<td>4/8/2020 (Amended 1/15/2021)</td>
+		</tr><tr><td><a href="/system/files/documents/2021/03/southwest-airlines-co.-2020-0372-thru-2020-0376-1-11-2021-rescission.pdf">Southwest Airlines Co. - Capital Region / Long Island Region / New York City Region / Western Region / Finger Lakes Region</a></td>
+			<td>1/14/2021</td>
+			<td>12/3/2020 (Rescinded 1/11/2021)</td>
+		</tr><tr><td><a href="/system/files/documents/2021/03/tioga-downs-racetrack-llc-2020-0020-1-7-2021-amendment.pdf">Tioga Downs Racetrack, LLC - Southern Region</a></td>
+			<td>1/12/2021</td>
+			<td>7/13/2020 (Amended 1/7/2021)</td>
+		</tr><tr><td><a href="/system/files/documents/2021/03/maryhaven-center-of-hope-inc.-childrens-residential-program-boys-dormitory-young-mens-dormitory-center-dormitory-and-crp-house-a-and-c-2019-1712-1-6-2021-amendment.pdf">Maryhaven Center of Hope Inc. (Children's Residential Program, Boy's Dormitory, Young Men's Dormitory, Center Dormitory and CRP House A and C) - Long Island Region</a></td>
+			<td>1/11/2021</td>
+			<td>5/26/2020 (Amended 1/6/2021)</td>
+		</tr><tr><td><a href="/system/files/documents/2021/03/the-sake-club-inc.-dba-sakagura-2019-0759-12-31-2020-amendment.pdf">The Sake Club, Inc. dba Sakagura - New York City Region</a></td>
+			<td>1/11/2021</td>
+			<td>3/20/2020 (Amended 12/31/2020)</td>
+		</tr><tr><td><a href="/system/files/documents/2021/03/herald-square-enterprises-inc.-the-rag-trader-bo-peep-cocktail-and-highball-store-2019-0533-12-14-2020-amendment.pdf">Herald Square Enterprises Inc. - The Rag Trader &amp; Bo Peep Cocktail and Highball Store - New York City Region</a></td>
+			<td>1/11/2021</td>
+			<td>3/17/2020 (Amended 12/14/2020)</td>
+		</tr><tr><td><a href="/system/files/documents/2021/03/macys-inc.-white-plains-2020-0408-1-5-2021.pdf">Macy's Inc. - Mid-Hudson Region</a></td>
+			<td>1/7/2021</td>
+			<td>1/5/2021</td>
+		</tr><tr><td><a href="/system/files/documents/2021/03/macys-inc.new-hartford-2020-0407-1-5-2020.pdf">Macy's Inc. - Mohawk Valley Region</a></td>
+			<td>1/7/2021</td>
+			<td>1/5/2021</td>
+		</tr><tr><td><a href="/system/files/documents/2021/03/wv-hospitality-llc-leuca-westlight-william-vale-hotel-2019-06561-5-2021-amendment.pdf">WV Hospitality LLC Leuca/Westlight/William Vale Hotel - New York City Region</a></td>
+			<td>1/7/2021</td>
+			<td>3/26/2020 (Amended 1/5/2021)</td>
+		</tr><tr><td><a href="/system/files/documents/2021/03/rr-donnelley-go-creative-studio-presentation-content-strategy-proofreading-operation-2020-0409-1-6-2021.pdf">RR Donnelley (GO Creative Studio, Presentation, Content Strategy &amp; Proofreading operation) - New York City Region</a></td>
+			<td>1/7/2021</td>
+			<td>1/6/2021</td>
+		</tr><tr><td><a href="/system/files/documents/2021/03/saratoga-center-for-care-llc-dba-saratoga-center-for-rehabilitation-and-skilled-nursing-care-2020-0410-12-15-2020.pdf">Saratoga Center for Care LLC dba Saratoga Center for Rehabilitation and Skilled Nursing Care - Capital Region</a></td>
+			<td>1/7/2021</td>
+			<td>12/15/2020</td>
+		</tr><tr><td><a href="/system/files/documents/2021/03/hfz-capital-group-hfz-real-estate-development-llc-2020-0406-12-30-2020.pdf">HFZ Capital Group (HFZ Real Estate Development LLC) - New York City Region</a></td>
+			<td>1/6/2021</td>
+			<td>12/30/2020</td>
+		</tr><tr><td><a href="/system/files/documents/2021/03/fifty-second-street-hotel-associates-llc-the-novotel-new-york-times-square-hotel-2019-0448-12-18-2020-amendment.pdf">Fifty Second Street Hotel Associates, LLC dba Novotel New York Times Square Hotel - New York City Region</a></td>
+			<td>1/6/2021</td>
+			<td>3/18/2020 (Amended 12/18/2020)</td>
+		</tr><tr><td><a href="/system/files/documents/2021/03/michael-page-international-inc.-2019-1187-12-31-2020-amendment.pdf">Michael Page International Inc. - New York City Region</a></td>
+			<td>1/6/2021</td>
+			<td>4/8/2020 (Amended 12/31/2020)</td>
+		</tr><tr><td><a href="/system/files/documents/2021/03/pret-a-manager-usa-ltd.-amended-12-16-2020-1-5-2021.pdf">Pret A Manger (USA) Ltd. - New York City Region</a></td>
+			<td>1/6/2021</td>
+			<td>7/17/2020 (Amended 12/16/2020 &amp; 1/5/2021)</td>
+		</tr><tr><td><a href="/system/files/documents/2021/03/nobu-57-llc-dba-nobu-new-york-fifty-seven-2019-1213-12-14-2020-amendment.pdf">Nobu 57 LLC dba Nobu New York Fifty Seven - New York City Region</a></td>
+			<td>1/4/2021</td>
+			<td>4/8/2020 (Amended 12/14/2020)</td>
+		</tr><tr><td><a href="/system/files/documents/2021/03/nobu-195-llc-dba-nobu-new-york-downtown-2019-1212-12-14-2020-amendment.pdf">Nobu 195 LLC, dba Nobu New York Downtown - New York City Region</a></td>
+			<td>1/4/2021</td>
+			<td>4/8/2020 (Amended 12/14/2020)</td>
+		</tr><tr><td><a href="/system/files/documents/2021/03/warn-imagine-early-learning-centers-6-nyc-sites-2019-1463-12-31-2020-amendment.pdf">Imagine Early Learning Centers - New York City Region</a></td>
+			<td>1/4/2021</td>
+			<td>4/21/2020 (Amended 12/31/2020)</td>
+		</tr><tr><td><a href="/system/files/documents/2021/03/warn-imagine-early-learning-centers-3-li-sites-2019-1462-12-31-2020-amendment.pdf">Imagine Early Learning Centers - Long Island Region</a></td>
+			<td>1/4/2021</td>
+			<td>4/14/2020 (Amended 12/31/2020)</td>
+		</tr></tbody></table></div>
+      
+      </div>
+</div>
+          </div>
+  
+    </div>
+</div>
+
+<!-- VIEWFIELD -->
+
+  </div>
+
+    </div>
+    
+    
+  </main>
+
+  
+</div>
+  </div>
+
+     
+
+<div class="webny-global-footer">
+
+    <div id="block-sitebranding">
+        <div class="agency-name">
+            <a href="/" title="Home" rel="home">Department of Labor</a>
+        </div>
+    </div>
+    <nav id="block-global-footer-menu"  class="footer-menu footer-vertical">
+            
+        <ul class="global-footer-top-links">
+                        <li>
+                <span>About Us</span>
+                                                <ul class="global-footer-inner-links">
+                            <li>
+                <a href="/about-us-0" data-drupal-link-system-path="node/26571">Our Mission &amp; Services</a>
+                            </li>
+                    <li>
+                <a href="/newsroom" data-drupal-link-system-path="node/3166">Newsroom</a>
+                            </li>
+                    <li>
+                <a href="https://dol.ny.gov/dol-leadership-team">Commissioner</a>
+                            </li>
+                    <li>
+                <a href="/contract-bid-grant-opportunities" data-drupal-link-system-path="node/3581">Contract, Bid &amp; Grant Opportunities</a>
+                            </li>
+                    <li>
+                <a href="/contact-department-labor-1" data-drupal-link-system-path="node/4686">Contact Us</a>
+                            </li>
+            </ul>
+        
+                            </li>
+                    <li>
+                <span>Boards</span>
+                                                <ul class="global-footer-inner-links">
+                            <li>
+                <a href="/hazard-abatement-board" data-drupal-link-system-path="node/3391">Hazard Abatement Board</a>
+                            </li>
+                    <li>
+                <a href="http://industrialappeals.ny.gov/">Industrial Board of Appeals</a>
+                            </li>
+                    <li>
+                <a href="https://perb.ny.gov/">Public Employment Relations Board</a>
+                            </li>
+                    <li>
+                <a href="http://uiappeals.ny.gov/">Unemployment Insurance Appeal Board</a>
+                            </li>
+            </ul>
+        
+                            </li>
+                    <li>
+                <span>Initiatives</span>
+                                                <ul class="global-footer-inner-links">
+                            <li>
+                <a href="/apprenticeship/overview" data-drupal-link-system-path="node/4601">Apprenticeship</a>
+                            </li>
+                    <li>
+                <a href="https://www.ny.gov/programs/new-york-state-paid-family-leave">Paid Family Leave</a>
+                            </li>
+                    <li>
+                <a href="http://nyworks.ny.gov/">Regional Economic Development Councils</a>
+                            </li>
+                    <li>
+                <a href="/ride-safe-ny" data-drupal-link-system-path="node/3411">Ride Safe NY</a>
+                            </li>
+                    <li>
+                <a href="/shared-work-program-0" data-drupal-link-system-path="node/406">Shared Work</a>
+                            </li>
+                    <li>
+                <a href="https://twitter.com/nysdolenespanol">Twitter en español</a>
+                            </li>
+            </ul>
+        
+                            </li>
+                    <li>
+                <span>Resources</span>
+                                                <ul class="global-footer-inner-links">
+                            <li>
+                <a href="/accessibility" data-drupal-link-system-path="node/2986">Accessibility Policy</a>
+                            </li>
+                    <li>
+                <a href="/freedom-information-law-foil-requests" data-drupal-link-system-path="node/1791">Freedom of Information Law (FOIL)</a>
+                            </li>
+                    <li>
+                <a href="/privacy-policy" data-drupal-link-system-path="node/2991">Privacy Policy</a>
+                            </li>
+                    <li>
+                <a href="/report-fraud" data-drupal-link-system-path="node/4956">Report Fraud</a>
+                            </li>
+                    <li>
+                <a href="/nysdol-transparency-action-plan-oct-2021" data-drupal-link-system-path="node/24746">Transparency Action Plan</a>
+                            </li>
+            </ul>
+        
+                            </li>
+                    <li>
+                <span>Language Assistance</span>
+                                                <ul class="global-footer-inner-links">
+                            <li>
+                <a href="https://dol.ny.gov/search/espanol_spanish_">Español (Spanish)</a>
+                            </li>
+                    <li>
+                <a href="https://dol.ny.gov/search/fantizi_traditional_chinese_">中文 (Chinese)</a>
+                            </li>
+                    <li>
+                <a href="https://dol.ny.gov/search/russkiy_russian_">Русский (Russian)</a>
+                            </li>
+                    <li>
+                <a href="https://dol.ny.gov/search/italiano_italian_">Italiano (Italian)</a>
+                            </li>
+                    <li>
+                <a href="https://dol.ny.gov/search/kreyol_ayisyen_haitian_creole_">Kreyòl ayisyen (Haitian-Creole)</a>
+                            </li>
+                    <li>
+                <a href="https://dol.ny.gov/search/hangugeo_korean_">한국어 (Korean)</a>
+                            </li>
+                    <li>
+                <a href="https://dol.ny.gov/search/jezyk_polski_polish_">Polski (Polish)</a>
+                            </li>
+                    <li>
+                <a href="/language-access" data-drupal-link-system-path="node/1461">More Information</a>
+                            </li>
+            </ul>
+        
+                            </li>
+            </ul>
+        
+
+
+    </nav>
+
+        <nav id="block-global-footer-social-menu" class="social-media">
+        <h2>CONNECT WITH US</h2>
+        <ul><li><a class="imgico_facebook" href="https://www.facebook.com/nyslabor">FACEBOOK</a></li><li><a class="imgico_instagram" href="https://instagram.com/nyslabor">INSTAGRAM</a></li><li><a class="imgico_linkedin" href="https://www.linkedin.com/company/new-york-state-department-of-labor">LINKEDIN</a></li><li><a class="imgico_twitter" href="https://twitter.com/nyslabor">TWITTER</a></li><li><a class="imgico_youtube" href="https://www.youtube.com/user/NYSLabor">YOUTUBE</a></li></ul>
+    </nav>
+    
+</div>
+<!-- uNav interactive footer -->
+<div id="nygov-universal-footer">
+    <noscript>
+        <iframe width="100%" height="200px" src="//static-assets.ny.gov/load_global_footer/ajax?iframe=true" frameborder="0" style="border:none; overflow:hidden; width:100%; height:200px;" scrolling="no">
+            Your browser does not support iFrames
+        </iframe>
+    </noscript>
+</div>
+<!-- end uNav interactive footer -->
+
+
+                                
+    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","scriptPath":null,"pathPrefix":"","currentPath":"node\/26156","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"google_analytics":{"trackOutbound":true,"trackMailto":true,"trackDownload":true,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip"},"user":{"uid":0,"permissionsHash":"8fdff1b1c59578fc5204a97b2c3bf64a1e439d8f89151cc685dd1fb3a6e19901"}}</script>
+<script src="/sites/g/files/oee1171/files/js/js_ns_Bl2d_wHgjqbKFmSWviqFOpSy4p8CiCBFcsCsYl_w.js"></script>
+
+  <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam-cell.nr-data.net","licenseKey":"a873d11659","applicationID":"680957368,141443075","transactionName":"YANVY0BRC0tQW01fW1lJdlRGWQpWHnxLQ0RWCmtZXVQAZHJXV0JGWApbUkBsK1dVXW9fUUAlWFlGQgpUXV1LGwpBD1JA","queueTime":0,"applicationTime":167,"atts":"TERWFQhLGEU=","errorBeacon":"bam-cell.nr-data.net","agent":""}</script></body>
+</html>
