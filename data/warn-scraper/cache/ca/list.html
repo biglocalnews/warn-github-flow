@@ -210,6 +210,9 @@ Select a color scheme:
             </div>
             <div class="settings-links">
                 
+            <form class="mr-5">
+                <a href="#" data-toggle="modal" data-target="#languageChoice" style="text-decoration: none;"><span class="ca-gov-icon-globe"></span> <span id="LanguageOptions" class="ml-2">English</span></a>
+            </form>
 
 
                 <a href="/en" lang="en" onclick="gtag('event','click',{'event_category':'Header','event_label':'Utility Home'});">Home</a>
@@ -767,6 +770,38 @@ function toggleButton(element) {
 </div>
 
 
+        <div class="modal fade" id="languageChoice" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h2 class="modal-title" id="exampleModalLongTitle">Language Resources</h2>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close Dialog">
+                            <span aria-hidden="true">×</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="group">
+                            <div class="half">
+                                    <p><a href="/armenian/">Հայկական ռեսուրսներ (Armenian)</a></p>
+                                    <p><a href="/korean/">한국어 자료 (Korean)</a></p>
+                                    <p><a href="/punjabi/">ਪੰਜਾਬੀ ਸਰੋਤ (Punjabi)</a></p>
+                                    <p><a href="/russian/">Российские ресурсы (Russian)</a></p>
+                                    <p><a href="/simplified-chinese/">简体中文资源 (Simplified Chinese)</a></p>
+                                    <p><a href="/spanish/">Recursos en espa&#241;ol (Spanish)</a></p>
+                            </div>
+                                <div class="half">
+                                        <p><a href="/tagalog/">Mga Resource ng Tagalog (Tagalog)</a></p>
+                                        <p><a href="/traditional-chinese/">繁體中文資源 (Traditional Chinese)</a></p>
+                                        <p><a href="/vietnamese/">T&#224;i nguy&#234;n Việt Nam (Vietnamese)</a></p>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
 
 
     <script src="/Assets/js/external-links.js"></script>
