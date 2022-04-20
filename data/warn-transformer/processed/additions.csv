@@ -1,10 +1,3 @@
-effective_date,jobs,is_closure,postal_code,notice_date,hash_id,company,is_amendment,location,is_temporary
-2022-05-27,41,True,CA,2022-04-12,bb37fa05bb3b4e87d070f02aa199acfea09f41f0412796db8a91fe4c,Mag Parts Inc. dba CPP-Azusa,False,1545 W. Roosevelt St.  Azusa CA 91702,
-2022-06-15,1,,CA,2022-04-13,f3267d5a3531d7226a97737ec2e9b7f05fed7b980ebe904abed874d7,InterValley Health Plan,False,1601 Monte Vista Avenue Suite 275  Claremont CA 91711,
-2022-06-15,110,,CA,2022-04-13,e395816d123e2c4421cd08bf0a6edfb7848c122da49202d2538f2d28,InterValley Health Plan,False,300 S. Park Avenue Suite 300  Pomona CA 91766,
-2022-06-15,1,,CA,2022-04-13,91bb318f4c3a185a63c5a7f55454567b67b2752da5dbc0e110c2bd2b,InterValley Health Plan,False,300 S. Highland Springs Ave. Suite 10-J  Banning CA 92220,
-2022-06-15,2,,CA,2022-04-13,a54eefbd4dc95e6dc74dacb2aaa4fc293f0e34a6eb12724d67fff4cf,InterValley Health Plan,False,12209 Hesperia Road Suite E  Victorville CA 92395,
-2022-06-30,215,,CA,2022-04-15,dbf4ca8b22a16918e64b26721ae98a8392faa3cb8b52f9e97106c7cb,"Transdev Services, Inc.",False,6th 42210 Street  Lancaster CA 93534,
-2022-04-01,68,,MO,2022-04-08,3bcf976912132ac27b4175fa6215736d89d7c86daaef7806d0b7f722,Noble Health - Callaway Community Hospital,False,Fulton,
-2022-04-01,113,,MO,2022-04-08,e2dfbc02eaf8cbbbb9fec2b8d03daef75719875656ae808da6bc7d31,Noble Health - Audrain Community Hospital,False,Mexico,
-,,,NY,2022-04-15,ba07782324b74afce893c896945991ea4183dbc42572ada8e12a27e1,Housing Works Inc. (at Holiday Inn & Marriot Towne Suites) - New York City Region,False,,
+notice_date,hash_id,effective_date,jobs,is_temporary,postal_code,location,company,is_amendment,is_closure
+2022-04-18,61c07bbd6aca9dde34f8fb79d9fce9d15da4180dc588384d7c9228be,2022-07-01,110,,IN,Butler,CJ Automotive,False,True
+2022-03-15,597a076eaaf5619379582d101c7895cb3de2cdc4e6ae3d67adad4af3,2022-05-31,78,,IN,Evansville,"McDaniel Technical Services, Inc",False,True
