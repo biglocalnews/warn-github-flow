@@ -1,7 +1,4 @@
-hash_id,notice_date,is_amendment,postal_code,location,effective_date,jobs,is_closure,is_temporary,company
-79ab590328366e0eb0d107e0c802dd68be9ffab9c639dcd14d655bc4,2022-04-28,False,IN,Plainfield,2022-06-30,17,True,,Kuehne & Nagel
-ca84f1ae0f7872adaaa57e6a8b1a71b1fd4d61f6a2b62c70d19e04d3,2020-11-05,False,MD,"20250 Century Boulevard Germantown, MD 20874",2020-11-05,50,,,"Texas Instruments, Inc."
-7dff9353ea577ac3849d13f4bbcbfae845a6a93bbb22a02e87d3fc48,2020-11-16,False,MD,"9101 Yellow Brick Road Rosedale, MD 21237",2021-01-31,18,,,Penn Jersey Paper Company (PJP)
-4c302b9716b7f8401bb663f74fea74cf3a8b11cad52ead39e46aae1c,2022-04-26,False,ME,Warren,,5,,,Maine Natural Health
-337e56e714d5d729c158aa2fce026a184cc243428424e38d086cc3c6,2022-04-18,False,ME,Presque Isle,,3,,,Burrelle's
-6e043872111607766fd3199544365958985b228bd9a43cc41f3f0efd,2022-04-29,False,VA,Fredericksburg,2022-06-30,128,True,,SSB Manufacturing Company
+is_closure,is_temporary,is_amendment,hash_id,effective_date,jobs,notice_date,location,company,postal_code
+True,,False,b22deac657971f477d5f5802e78271245fe2b9826e198186951e3a8f,,67,2022-04-28,"1 N. State Street, 15th Floor  Chicago, IL 60602",Chartwells at Noble Charter Schools,IL
+True,,False,53cf54dbd9b37083cb48a65d874667331a64c53c45d94622e4225764,,102,2022-04-27,"22544 W 143rd Street  Plainfield, IL 60544",National Express,IL
+,,False,0ec830711e9f44c1c7d9ff006e62eac5aa19c5fb725579512d791847,,,2022-04-28,,"The Avo Shopping Company, Inc. - New York City Region",NY
