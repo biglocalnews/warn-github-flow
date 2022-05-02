@@ -1,0 +1,48 @@
+name: Alert
+
+on:
+  workflow_dispatch:
+
+jobs:
+  alert:
+    name: Alert
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: 'read'
+      id-token: 'write'
+
+    steps:
+      - name: Clone repository
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+
+      - id: install-python
+        name: Install Python
+        uses: actions/setup-python@v3
+        with:
+          python-version: '3.9'
+
+      - id: auth-gcloud
+        name: Authenticate with Google Cloud
+        uses: google-github-actions/auth@v0
+        with:
+          workload_identity_provider: ${{ secrets.GOOGLE_WORKLOAD_IDENTITY_PROVIDER }}
+          service_account: ${{ secrets.GOOGLE_SERVICE_ACCOUNT }}
+          create_credentials_file: true
+
+      - name: Install public dependencies
+        run: |
+          pip install keyring keyrings.google-artifactregistry-auth
+          keyring --list-backends
+        shell: bash
+
+      - name: Install private dependencies
+        run: pip install warn-bot -vv --index-url https://us-west2-python.pkg.dev/big-local-news-267923/warn-bot/simple/ --extra-index-url https://pypi.org/simple/
+        shell: bash
+        env:
+            GOOGLE_APPLICATION_CREDENTIALS: ${{ steps.auth-gcloud.outputs.credentials_file_path }}
+
+      - name: Send alert
+        run: warn-bot
