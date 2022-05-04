@@ -1,3 +1,13 @@
-company,effective_date,is_temporary,hash_id,notice_date,location,is_closure,postal_code,is_amendment,jobs
-Toyota Financial Services,2022-07-02,,29fb3214c4738af0743da48db6894b896d2733c647844d766b0f66e0,2022-05-02,Cedar Rapids,True,IA,False,322
-Blackhawk Services Corp,2022-05-14,,2a3c66585e43dd462fad2d914cf97e0b802a50ca55467df6bb83ddd3,2022-05-02,Burlington,,IA,False,57
+is_closure,location,hash_id,postal_code,jobs,is_amendment,effective_date,company,notice_date,is_temporary
+True,1601 E. Olympic Blvd. Suite 315-318  Los Angeles CA 90021,df98d2c01fa60ab797864361ee484e7e70f7fbd81082512d5a2b4e4a,CA,52,False,2022-06-24,S&H Packing and Sales Co. Inc.,2022-04-20,
+,85 Willow Road  Menlo Park CA 94025,8dfc1daa320727016f4c0be5f774729d0082d325945d58391699c69f,CA,100,False,2022-07-01,"Robinhood Markets, Inc.",2022-04-28,
+,1800 S. Grand Ave  Santa Ana CA 92705,111dcad9b8c9c18e37a3edc500740774ee8bba7ea147981ffa6d463a,CA,98,False,2022-06-30,Waste Management,2022-04-28,
+True,"18700 Ventura Boulevard, Suite #190  Tarzana CA 91356",62baba48c0192f1a384053e9ede6252a39fc43d2229f7222263a9a9d,CA,117,False,2022-05-06,Whole Foods Market,2022-04-29,
+True,110 South G Street  Perris CA 92570,dbb5457baf90b0e16cfc74d6a63067aa14b5cfba021e9a1f9eebf596,CA,97,False,2022-06-30,"Southland Transit, Inc.",2022-03-16,
+,5960 El Camino Real  Carlsbad CA 92008,871f4f19168229be89ee1f3c6995b6d66ba469ce817382c0d1df1b52,CA,76,False,2022-06-30,Waste Management,2022-04-28,
+True,"100 W Randolph Street  Chicago, IL 60601",463b344d091078fc90e6f73b2174347561238cfd6c534dc02cdd8cc1,IL,83,False,,ABC Manufacturing LLC,2022-04-22,
+True,"959 West Fullerton Ave.  Chicago, IL 60614",0b3fc0c9ed8b73bf92cd83c4a6710e8e1ac4f3ba919d460b56607aa1,IL,128,False,,Whole Foods,2022-05-02,
+,"500 Red Brook Boulevard Owings Mills, MD 21117",77dee171db203518a1f05093a4b8748af39a7db958fc3da7e584c216,MD,196,False,2022-07-01,Toyota Motor Credit Corporation d/b/a Toyota Financial Services,2022-05-02,
+,Trenton,3474ff49ebb3fb4d0d2223397ade76dd4123df23039d6f7d1cb98175,NJ,124,False,2022-06-30,GEO Reentry Services,,
+,Alamogordo,0091f88fdbc9adaa305d6f1ce8e8d0c52999d3d8c3566b98691a85ec,NM,128,False,2022-05-05,Amentum Hollomon AFB,2022-04-03,
+,Dublin/Franklin,63a7e25c3f5172bed114f2c6c9373e05f9e2c70658b819b8c0eff082,OH,90,False,2022-06-30,"Compass Group USA, Inc. - Chartwells - Dublin City Schools",2022-05-02,
