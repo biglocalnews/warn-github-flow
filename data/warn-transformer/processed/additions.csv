@@ -1,8 +1,5 @@
-location,postal_code,is_amendment,is_temporary,company,hash_id,notice_date,is_closure,effective_date,jobs
-PALM BEACH,FL,False,,The Colony Palm Beach,17bff3d3b356ef928bc2854da55ce8c390cd304a175f3f5af1604f44,2022-05-31,,2022-07-06,135
-HOLLYWOOD,FL,False,,"Avante Care of Hollywood, Inc.",1de8b45a7fc51d4c4938223749b1d4cb9a9ef90c359c794d638da754,2022-05-31,,2022-07-26,42
-LAUDERHILL,FL,False,,"Avante Care of Lauderhill, Inc.",dce76175e985d968d5cf80d742493573de2cd479b6d08fc8ff4bddcc,2022-05-31,,2022-07-26,91
-Gainesville,GA,False,,US Genomix Management LLC,169492ad024a3e3de97819b39dcc21914961b241e420bed1799d9cb1,,,2022-03-05,9
-Stone Mountain,GA,False,,Atlanta Evergreen Marriott Conference Resort,00967e8c5c67f26c61960023dd1075b75b585b54d674cca913275a6c,,,2022-07-31,221
-Stone Mountain,GA,False,,Stone Mountain Inn,ff45adc532b98f872216f6400134ef27e9c4ced8181c7426b9a9f54f,,,2022-07-31,5
-Colby,KS,False,,Sears,581b0be09ff0906ff2d51f80928208abc5c1751c0fe7a55d59989ace,2022-05-31,,,5
+company,is_temporary,jobs,is_closure,notice_date,is_amendment,postal_code,effective_date,location,hash_id
+Cox Farms,,30,,2022-05-31,False,KS,,Long Island,64f24a1eae53596ef0bbb58541dead9f142890ecf82ef5230b9edbff
+Sears,,3,,2022-05-31,False,KS,,Newton,3ed765ed8ff52c8ad76ac48aadece782f09c847ddcca1b67e3edecbc
+Party City,,4,,2022-04-28,False,KS,,Salina,e1dbb7c364a7609ff77064a85e93b84979b78273dd6b2baf5451110b
+VIPdesk Connect,,6,,2022-05-27,False,VA,2022-07-29,Alexandria,ef8ac1ca92de55c833a7eb122be621668cf9a6f16e4833e5d46bb620
