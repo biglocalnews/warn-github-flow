@@ -9,7 +9,6 @@ warn-transformer = "==1.2.2"
 bln = ">=2.0.1"
 
 [dev-packages]
-"keyrings.google-artifactregistry-auth" = "*"
 
 [requires]
 python_version = "3.9"
