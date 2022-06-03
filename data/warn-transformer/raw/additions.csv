@@ -1,2 +1,5 @@
-is_amendment,is_closure,hash_id,effective_date,company,postal_code,notice_date,is_temporary,location,jobs
-False,,a00b2e1bd1b6cd37400ae63d5c1055fa92613a016f6764d40aeb3e7a,2022-05-14,Greydale Global Logistics,GA,,,Smyrna,30
+is_temporary,effective_date,is_amendment,jobs,location,company,hash_id,notice_date,postal_code,is_closure
+,2022-07-29,False,91,199 Frank W. Circle  Stockton CA 95206,Aisin Electronics Inc.,62eac4c41a227487208b0e3769dfde199ba7fe8bbb4db23717ddc036,2022-05-25,CA,True
+,2022-08-31,False,12,4101 Well Tech Way  Bakersfield CA 93308,DistributionNOW,eee84ad93a4b5b0b1c4f96c3d1b27be858c5f590d9cc5e90fcd5a995,2022-05-27,CA,True
+,2022-07-29,False,12,14425 Clark Avenue  City of Industry CA 91745,Dacor,5c18a8f1e263e180bf5eb7f86e98f3850aeb481752021057be3bb108,2022-05-27,CA,
+,2022-07-27,False,111,"21684 8th Street East, Suite 400  Sonoma CA 95476",Artisan Bakers,71f0998aeada3cfa12c2a1d55034bda9d26ba67e153b6fb9930c3be4,2022-05-22,CA,
