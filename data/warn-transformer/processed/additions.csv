@@ -1,11 +1,3 @@
-company,jobs,is_temporary,effective_date,location,hash_id,postal_code,is_amendment,is_closure,notice_date
-Boyd Corporation,34,,,Cherokee,38289a99876f892ca6ca42d31e64a6d0857f50c209188671801e136f,SC,False,,2022-03-15
-Belk Fulfillment Center,310,,,Union,6324791e78f46636c547f648f6c477cd5d4791fac1a923fc35caa5a1,SC,False,,2022-04-30
-Borden Dairy,177,,,Charleston,5f585cacd8e7492b973d9f6f1e084458b658baff32712902d80abee2,SC,False,,2022-05-31
-Startek,161,,,Horry,f12822028b770a4a5d7a2aa746a077d0195536be7760ac707e3cb28b,SC,False,,2022-05-29
-Avara Pharmaceutical Services,93,,,Aiken,3ac276ecd47bdaada0540306f024236e3cc1ce9b1ac0f30348ab3a18,SC,False,,2022-07-18
-FirstBank/Real Genius,35,,,Richland,47298a03b5659efcfe1f6ee033f847eb003ee872404c8aac7d0a06bc,SC,False,,2022-07-15
-Sodexo,137,,,Charleston,d9be8dee7f6c8edb9f8ec54ca222e404c10176e0d69505ff21ebf8c3,SC,False,,2022-07-31
-Sodexo,63,,,Charleston,e3cedbb63d027176665a140c28121a640c18a5a2a68b8079f2ea0312,SC,False,,2022-07-31
-Sodexo,70,,,Charleston,7db8b6f2a90f6b8733673c9272ff4dda3578f4ff3c28bb6b411e5fa5,SC,False,,2022-07-31
-CEVA Logistics,131,,,Chesterfield,7964a45229d3209a18b9fd294f2f87890e8a3a8c33381b5bece75903,SC,False,,2022-08-06
+location,is_temporary,notice_date,hash_id,company,postal_code,effective_date,is_closure,is_amendment,jobs
+"642 Crystal Pkwy  Belvidere, IL 61008-4065",,2022-06-14,85a0474c263378de67e9bf3b6a2862695af523bb54645d3d329eb8dd,"Grupo Antolin Illinois, Inc.",IL,2022-07-19,,False,22
+"6650 Business Parkway Elkridge, MD 21075",,2022-06-13,a6cb3f27c913aff10960b6592e07f414dfab7da57100c4bb655371af,"Commercial Vehicle Group, Inc.",MD,2022-08-09,,False,57
