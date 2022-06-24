@@ -1,2 +1,5 @@
-is_closure,location,is_temporary,company,jobs,effective_date,hash_id,postal_code,is_amendment,notice_date
-,Yuma,,Kirkland's Home,6,,db00749b51a8dbc49706361a571ab6b3c6c39540aa62164b49307e8c,AZ,False,2022-06-22
+hash_id,is_amendment,jobs,effective_date,location,company,notice_date,is_temporary,postal_code,is_closure
+260baac39fbc5b57c91723947cd4071ff476e911e9351094e6601569,False,95,2022-08-22,"475 Brannan Street, Suite 230  San Francisco CA 94107","Yanka Industries, Inc. dba MasterClass",2022-06-21,,CA,
+65f28498ccadd3f104fa61d3c9f8ea521dec403e23146087b9338e76,False,53,2022-08-20,Polk City,Big Creek Nursing and Rehabilitation Community,2022-06-20,,IA,True
+ce2a47ac9d1a0eefb6498c5c6759db00240f6b8c767640d8faa0ffdc,False,49,2022-08-31,Council Bluffs,"Iowa Anesthesia Associates, PC",2022-06-22,,IA,
+6d809be8377187c20e4b634f5ec65a280839d9fdb4899567ff7c7e04,False,2,,Wichita,GreenAcres Market,2022-06-07,,KS,
