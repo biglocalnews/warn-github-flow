@@ -1,4 +1,3 @@
-effective_date,company,is_temporary,notice_date,hash_id,is_closure,is_amendment,jobs,location,postal_code
-2022-01-01,North Georgia Tire and Auto Care Center,,,2a96c70e37ca564bd174e878657303d04d49640548c8581330e443d0,,False,5,Cleveland,GA
-2022-06-30,Sodexo,,2022-06-21,d66c756fb0dc79d543410db745f1b71ffd96cd4973b5eb0194a8bd1c,True,False,98,"Roanoke, VA",VA
-,Jeld-Wen Windows & Doors,,2022-06-20,f19ece42ce04ad5d28bb39fca1381e0917a3afa200996cc5c513c548,,False,80,North Springfield,VT
+hash_id,is_temporary,is_amendment,notice_date,jobs,location,company,is_closure,postal_code,effective_date
+36d3e69c95d3ed4b52865a3776a3b7fdbd1dc5e96cd2ab1e5ba2f410,,False,2022-06-20,315,Green Valley,Santa Cruz Valley Regional Hospital (SCVRH),,AZ,
+6ec8e02dd3bf59be6af241ab48d88f1ce6dec1cf5da67e34e088b1c3,,False,2022-06-24,85,"920 S. Campbell Ave.  Chicago, IL 60612","Superior West Laundry, LLC",True,IL,
