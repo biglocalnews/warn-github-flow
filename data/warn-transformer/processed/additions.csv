@@ -1,3 +1,5 @@
-is_amendment,hash_id,is_temporary,notice_date,jobs,effective_date,company,postal_code,is_closure,location
-False,442cbeee9cefa8bf9fe251f1dab594caae2f3da4cb74e20fc1cc380b,,2022-06-29,43,2022-10-21,"VSP Optical Group, Inc.",FL,,FORT LAUDERDALE
-False,19b795dfd8a389240fc80414f3ee22c39fe5826bad2a93a05d301d37,,2022-06-21,,,"Sodexo, Inc. (at SUNY Polytechnic Institute) - Mohawk Valley Region",NY,,
+hash_id,company,effective_date,is_closure,notice_date,location,is_amendment,is_temporary,jobs,postal_code
+cba92e42b0a8682158a3e6e41762ce9f4500d1a32b55a27739d478a2,Factory 2U (Fallas Paredes),,,2022-06-30,San Luis,False,,9,AZ
+15b9063e3760da72fb6fc7e98c46161a695af2fb9972e69c07595e42,Lockheed Martin Corporation,2022-08-26,,2022-06-28,"911 Elkridge Landing Rd Linthicum, MD 21090",False,,35,MD
+9447d8dff33ec07590e3c3e9d95312e46679500519ce6eb270dee57c,"ReOpen Diagnostics, LLC d/b/a Pandemic Response Lab",2022-08-28,,2022-06-30,"9605 Medical Center Dr. Suite 220, Rockville, MD 20850",False,,24,MD
+a043d5e723550e0d4cee7830a8952831fb75e713ecf31a9f48b4bfc6,VSPOne Olympia,2022-07-29,True,2022-07-29,Lacey,False,False,55,WA
