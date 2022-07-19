@@ -1,3 +1,4 @@
-postal_code,is_amendment,is_closure,jobs,location,company,effective_date,is_temporary,notice_date,hash_id
-IA,False,True,23,Ida Grove,Morningside Care Center,2022-08-15,,2022-06-20,2628006ee6f781ec6d4762ff6e230001abc3bf3d418d4a2fe4dcc155
-SC,False,,2,Richland,Watsonville Community Hospital,,,2022-08-17,ac5b5541177bc669d76ab99ed1147bd3b1f9b811bba545125ed4e6d7
+is_closure,is_temporary,location,jobs,is_amendment,postal_code,company,notice_date,effective_date,hash_id
+,,"500 Red Brook Boulevard Owings Mills, MD 21117",4,False,MD,"Collabera, Inc.",2022-07-18,2022-08-31,5d9a3609d194fc60bb82c32da56336e088afd0a105fbfe25dcfde40a
+,,Baytown,83,False,TX,"S&B Fabrication Services,Ltd.",2022-07-06,2022-09-08,b49ece9bb23b8859ab625e112445c2fb196528565ac73ca996f7de73
+,,Dallas,45,False,TX,Multi Color Corporation,2022-07-05,2022-06-28,9e2c851b7a0cc0eda7bc3bf40ee17e302ae417414ce140dae98d3b8a
