@@ -9,7 +9,7 @@
     <title>
             Official Nebraska Department of Labor | Reemployment Services
     </title>
-    <link href="/Content/cssDOL?v=n2skVcqMFclRBWoQ0y0DbvgHrJe2ppb4cluUQQBN4Eg1" rel="stylesheet"/>
+    <link href="/Content/cssDOL?v=Wxf2SIYpTnK0xn0XBt7sQznNB-YjS9D89bfoullQA3c1" rel="stylesheet"/>
 
     
     <link href="/Content/SiteDOL.css" rel="stylesheet" type="text/css" />
@@ -43,15 +43,195 @@
 
     <div id="footer-fix">
         <a href="#skip" class="offscreen">Skip to Content</a>
-<div id="main-header-background">
+<link href="/Content/headerStyle.css" rel="stylesheet" type="text/css" />
+<script src="/Scripts/collapseMenu.js" type="text/javascript"></script>
+
+<div class="primaryColor">
+    <div class="flexHeader">
+        <div class="smallMargin">
+            <a href="https://www.nebraska.gov/" target="_blank">
+                <img src="/Images/NE_gov_branding_modified-white.png" alt="NE Official Government Website logo" class="officialLogo" />
+            </a>
+        </div>
+
+        <div>
+            <div class="inlineDisplay smallMargin">
+                <a href="#" id="bigger" name="increase text size" class="whiteText"><span style="font-size:smaller">A</span><span style="font-size:larger">A</span></a>
+                <a href="#" id="smaller" name="decrease text size" class="whiteText"><span style="font-size:larger">A</span><span style="font-size:smaller">A</span></a>
+                <div class="translate">
+                    <div id="google_translate_element">
+                        <div dir="ltr" class="skiptranslate goog-te-gadget">
+                            <div id=":0.targetLanguage"></div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="searchField">
+                        <input type="text" class="addsearch" disabled="disabled" />
+                        <span class="searchIcon">
+                            <span class="glyphicon glyphicon-search"></span>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <a href="/home/index" id="headerLogo" style="margin-left: 50px;">
+            <img src="/Images/DeptofLaborTagDeptREVYELLOWlockup.png" alt="Nebraska Department of Labor Logo" />
+        </a>
+    </div>
+
+    <div class="flexHeader">
+        <div class="mobileSearchField">
+            <span class="mobileSearchIcon">
+                <span class="glyphicon glyphicon-search"></span>
+            </span>
+            <input type="text" class="addsearch" disabled="disabled" />
+        </div>
+        <div>
+            <button type="button" class="navbar-toggle" id="collapseMenuButton" data-collapsed="true">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+    </div>
+
+    <nav class="navigationBar">
+        <ul class="flexHeader">
+            <li>
+                <a href="/ReemploymentServices">
+                    <div>REEMPLOYMENT<br />SERVICES</div>
+                </a>
+            </li>
+            <li>
+                <a href="/UIBenefits">
+                    <div>UNEMPLOYMENT</div>
+                </a>
+            </li>
+            <li>
+                <a href="https://neworks.nebraska.gov">
+                    <div>LABOR DATA</div>
+                </a>
+            </li>
+            <li>
+                <a href="/UITax">
+                    <div>BUSINESSES</div>
+                </a>
+            </li>
+            <li>
+                <a href="/LaborStandards">
+                    <div>LABOR<br />STANDARDS</div>
+                </a>
+            </li>
+            <li>
+                <a href="/LaborStandards/OnsiteSafetyandHealthConsultation/OnsiteConsultationProgramOverview">
+                    <div>WORKPLACE<br />SAFETY</div>
+                </a>
+            </li>
+            <li>
+                <a href="/ContactUs">
+                    <div>CONTACT US</div>
+                </a>
+            </li>
+            <li>
+                <a href="/PressRelease">
+                    <div>NEWS</div>
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <nav class="mobileNavigationBar" id="mobileNavigationBar">
+        <ul class="mobileNavigationList">
+            <li>
+                <a href="/ReemploymentServices">
+                    <div>REEMPLOYMENT SERVICES</div>
+                </a>
+            </li>
+            <li>
+                <a href="/UIBenefits">
+                    <div>UNEMPLOYMENT</div>
+                </a>
+            </li>
+            <li>
+                <a href="https://neworks.nebraska.gov">
+                    <div>LABOR DATA</div>
+                </a>
+            </li>
+            <li>
+                <a href="/UITax">
+                    <div>BUSINESSES</div>
+                </a>
+            </li>
+            <li>
+                <a href="/LaborStandards">
+                    <div>LABOR STANDARDS</div>
+                </a>
+            </li>
+            <li>
+                <a href="/LaborStandards/OnsiteSafetyandHealthConsultation/OnsiteConsultationProgramOverview">
+                    <div>WORKPLACE SAFETY</div>
+                </a>
+            </li>
+            <li>
+                <a href="/ContactUs">
+                    <div>CONTACT US</div>
+                </a>
+            </li>
+            <li>
+                <a href="/PressRelease">
+                    <div>NEWS</div>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</div>
+
+<script>
+    $(function () {
+        $('[data-toggle="tooltip"]').tooltip()
+    });
+
+    function googleTranslateElementInit() {
+        new google.translate.TranslateElement({
+            pageLanguage: 'en'
+        }, 'google_translate_element');
+    };
+
+    $('a').tooltip({
+        'delay': { show: 0, hide: 0 },
+        'html': { html: true }
+    });
+
+    $('#bigger').click(function () {
+        var fontSize = parseInt($("body").css("font-size"));
+        fontSize = fontSize + 1 + "px";
+        $("body").css({ 'font-size': fontSize });
+    });
+
+    $('#smaller').click(function () {
+        var fontSize = parseInt($("body").css("font-size"));
+        fontSize = fontSize - 1 + "px";
+        $("body").css({ 'font-size': fontSize });
+    });
+</script>
+
+<script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+<script type="text/javascript" src="https://addsearch.com/js/?key=09af1cf39d925b3ba3d1481fa2c2062a"></script>
+
+
+<!--<div id="main-header-background">
     <div id="optional-header-overlay">
         <div class="navbar navbar-default navbar-fixed-top" id="upper-nav">
-           
+
             <div class="wrapperhome" id="top-nav-container" style="margin-top: 15px;display:inline-flex;width:49%;float:left;">
                 <a href="https://www.nebraska.gov/" target="_blank">
-                    <img src="/Images/NE_gov_branding_modified-white.png" alt="NE Official Government Website logo" style="margin-left:2%;"  />
+                    <img src="~/Images/NE_gov_branding_modified-white.png" alt="NE Official Government Website logo" style="margin-left:2%;" />
                 </a>
-                </div>
+            </div>
             <div style="float: right;margin-top:15px">
 
                 <ul class="nav navbar-nav navbar-form navbar-right">
@@ -74,7 +254,7 @@
                             <div id="google_translate_element">
                                 <div dir="ltr" class="skiptranslate goog-te-gadget">
                                     <div id=":0.targetLanguage">
-                                       
+
                                     </div>
                                 </div>
                             </div>
@@ -91,90 +271,31 @@
                 </ul>
 
                 <!--/.nav-collapse -->
-            </div>
-        </div>
-        <div id="header-background">
-            <div class="wrapperhome" id="header-content">
-                <div class="row" style="margin-bottom:80px">
+<!--</div>
+</div>
+<div id="header-background">
+    <div class="wrapperhome" id="header-content">
+        <div class="row" style="margin-bottom:80px">
 
-                    <a href="/home/index" id="headerLogo">
-                        
-                        <img src="/Images/DeptofLaborTagDeptREVYELLOWlockup.png" alt="Nebraska Department of Labor Logo" class="img-responsive" style="margin-left:5%; " />
-                    </a>
-                    <a href="/home/index" id="headerLogoMb">
-                        
-                        <img src="/Images/DOLMobileLogo.png" alt="Nebraska Department of Labor Logo" class="img-responsive" style=" margin-left: auto; margin-right: auto; " />
+            <a href="/home/index" id="headerLogo">-->
+
+<!--<img src="~/Images/DeptofLaborTagDeptREVYELLOWlockup.png" alt="Nebraska Department of Labor Logo" class="img-responsive" style="margin-left:5%; " />
+</a>
+<a href="/home/index" id="headerLogoMb">-->
+
+<!--<img src="~/Images/DOLMobileLogo.png" alt="Nebraska Department of Labor Logo" class="img-responsive" style=" margin-left: auto; margin-right: auto; " />
                     </a>
                 </div>
-            
+
                 
             </div>
         </div>
     </div>
-</div>
+</div>-->
 
-<script>
-    $(function () {
-        $('[data-toggle="tooltip"]').tooltip()
-    })
-    $('a').tooltip({
-        'delay': { show: 0, hide: 0 },
-        'html': { html: true }
-    });
-</script>
-
-<script>
-    //var zoom = 0;
-    //var newSize = 100
-    //$('p *').each(function () {
-    //    var el = $(this),
-    //        size = parseInt(el.css('font-size'));
-    //    el.data('font-size', size);
-    //});
-    //$('#bigger').click(function () {
-    //    zoom--;
-    //    newSize += 10;
-    //    $('body').each(function () {
-    //        var el = $(this),
-    //            size = el.data('font-size');
-    //        el.css('font-size', Math.max(size + zoom, 0) + 'px');
-    //    });
-
-    //    $('body').css('font-size', newSize.toString() + '%');
-    //});
-    //$('#smaller').click(function () {
-    //    zoom++;
-    //    newSize -= 10;
-    //    $('p *').each(function () {
-    //        var el = $(this),
-    //            size = el.data('font-size');
-    //        el.css('font-size', Math.max(size + zoom, 0) + 'px');
-    //    });
-    //    $('body').css('font-size', newSize.toString() + '%');
-    //});
-    $('#bigger').click(function () {
-        var fontSize = parseInt($("body").css("font-size"));
-        fontSize = fontSize + 1 + "px";
-        $("body").css({ 'font-size': fontSize });
-    })
-    $('#smaller').click(function () {
-        var fontSize = parseInt($("body").css("font-size"));
-        fontSize = fontSize - 1 + "px";
-        $("body").css({ 'font-size': fontSize });
-    })
-</script>
-
-
-<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-
-
-
-<script type="text/javascript" src="https://addsearch.com/js/?key=09af1cf39d925b3ba3d1481fa2c2062a"></script>
-
-<script async src=https://siteimproveanalytics.com/js/siteanalyze_76944.js></script>
         
         <div class="wrapperhome" id="main-wrapper" style="background-color:white;">
-            <div class="navbar navbar-default navbar-static-top">
+            <!--<div class="navbar navbar-default navbar-static-top">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapse" aria-expanded="false" aria-controls="navbar">
                         <span class="sr-only">Toggle navigation</span>
@@ -194,9 +315,9 @@
                         <li style="width:14%;">
                             <a style="font-weight:bold;font-size:14px;border-top: hidden;padding-bottom:5px;" href="/UIBenefits">UNEMPLOYMENT</a>
                         </li>
-                        <li style="width:12%;">
+                        <li style="width:12%;">-->
                             
-                            <a style="font-weight:bold;font-size:14px;border-top: hidden;padding-bottom:5px;" href="https://neworks.nebraska.gov">LABOR&nbspDATA</a>
+                            <!--<a style="font-weight:bold;font-size:14px;border-top: hidden;padding-bottom:5px;" href="https://neworks.nebraska.gov">LABOR&nbspDATA</a>
                         </li>
                         <li style="width:11%;">
                             <a style="font-weight:bold;font-size:14px;border-top: hidden;padding-bottom:5px;" href="/UITax">BUSINESSES</a>
@@ -216,7 +337,7 @@
                     </ul>
 
                 </div>
-            </div>
+            </div>-->
 
             
             <div class="wrapperhome" id="main-wrapper" style="margin-top:15px;">
@@ -584,15 +705,7 @@
     
     
 
-    <script type="text/javascript">
-        /*<![CDATA[*/
-        (function () {
-            var sz = document.createElement('script'); sz.type = 'text/javascript'; sz.async = true;
-            sz.src = '//siteimproveanalytics.com/js/siteanalyze_76944.js';
-            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sz, s);
-        })();
-/*]]>*/
-    </script>
+    
 
     
     
