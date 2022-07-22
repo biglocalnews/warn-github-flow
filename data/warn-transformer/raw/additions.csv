@@ -1,3 +1,4 @@
-is_closure,location,hash_id,is_temporary,is_amendment,jobs,effective_date,notice_date,postal_code,company
-,ORLANDO,a2cd4995d75dc0a16b89f68237844a7259f1e076e896fcccf106d302,,False,243,2022-09-20,2022-07-21,FL,"Captel Service Specialists, LLC"
-,,76b843fbff83be39d156130eeedfd569e4018f07e96b8110d23109f5,,False,,,2022-07-14,NY,Prevost Car (US) Inc. - North Country Region
+is_amendment,hash_id,jobs,effective_date,location,company,postal_code,notice_date,is_temporary,is_closure
+False,940ad18ce0e9ad051e80edcecba1974ab0c778f7265cbc8e7a615d7f,104,2022-09-20,TAMPA,"Captel Service Specialists, LLC",FL,2022-07-21,,
+False,f98f828364303fceb21f3021afc49f767464b02c13c1c5b65e751cd9,202,,"4201 Medical Centre Dr.  McHenry, IL 60050",Savista at N'western Memorial Hospital,IL,2022-06-13,,
+False,61e3985bc3e906742bc9c1756a743f9e988869094ab093134d88b5e1,66,,"6451 Main St  Morton Grove, IL 60053-2633","Morton Grove Pharmaceuticals, Inc.",IL,2022-07-19,,True
