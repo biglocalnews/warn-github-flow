@@ -154,13 +154,23 @@
 
         <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 columns text-right">
             <div class="tn-headersearch"><div class="search">
-    <form method="get" action="/workforce/search-results.html">
-        <input type="text" class="search-box" name="q" placeholder="Search Labor and Workforce Development" aria-label="Search Labor and Workforce Development"/>
+    <form method="get" onsubmit="redirect(); return false" action="/workforce/search-results.html">
+        <input type="text" class="search-box" id="q" name="q" placeholder="Search Labor and Workforce Development" aria-label="Search Labor and Workforce Development"/>
         <input type="submit" value="Search" class="search-button"/>
-        <span class="icon-search"></span>
+        <span class="icon-search" data-urlPath="/workforce/search-results.html"></span>
     </form>
-</div>
-</div>
+    <script>
+    function redirect(){
+        var urlPath= $(".icon-search").attr("data-urlPath");
+        var queryParam = document.getElementById("q").value;
+        queryParam = queryParam.trim();
+        queryParam = encodeURIComponent(queryParam);
+        queryParam = queryParam.replaceAll('%20','+');
+        window.location.href=urlPath+"?q=" + queryParam + 
+            "#q=" +  encodeURIComponent(document.getElementById("q").value);
+    }
+   </script>
+</div></div>
         </div>
     </div>
 
@@ -631,7 +641,7 @@
     
     
     <div class="containers tn-accordion parbase">
-    <div class="panel-group" id="accordion-c37361f795844224a918c78f6db742ae">
+    <div class="panel-group" id="accordion-390544c4f46e4cbfb38ae26100835bc1">
         
         
             
@@ -640,10 +650,10 @@
                     
                         <div class="panel-heading">
                             <span class="panel-title">
-                                <a class="icon-angle-right collapsed" data-toggle="collapse" data-parent="#accordion-c37361f795844224a918c78f6db742ae" href="#collapsec37361f795844224a918c78f6db742ae-1">2021</a>
+                                <a class="icon-angle-right collapsed" data-toggle="collapse" data-parent="#accordion-390544c4f46e4cbfb38ae26100835bc1" href="#collapse390544c4f46e4cbfb38ae26100835bc1-1">2021</a>
                             </span>
                         </div>
-                        <div id="collapsec37361f795844224a918c78f6db742ae-1" class="panel-collapse collapse">
+                        <div id="collapse390544c4f46e4cbfb38ae26100835bc1-1" class="panel-collapse collapse">
                             <div class="panel-body">
                                 <div>
 
@@ -694,10 +704,10 @@
                     
                         <div class="panel-heading">
                             <span class="panel-title">
-                                <a class="icon-angle-right collapsed" data-toggle="collapse" data-parent="#accordion-c37361f795844224a918c78f6db742ae" href="#collapsec37361f795844224a918c78f6db742ae-2">2020</a>
+                                <a class="icon-angle-right collapsed" data-toggle="collapse" data-parent="#accordion-390544c4f46e4cbfb38ae26100835bc1" href="#collapse390544c4f46e4cbfb38ae26100835bc1-2">2020</a>
                             </span>
                         </div>
-                        <div id="collapsec37361f795844224a918c78f6db742ae-2" class="panel-collapse collapse">
+                        <div id="collapse390544c4f46e4cbfb38ae26100835bc1-2" class="panel-collapse collapse">
                             <div class="panel-body">
                                 <div>
 
@@ -1018,10 +1028,10 @@
                     
                         <div class="panel-heading">
                             <span class="panel-title">
-                                <a class="icon-angle-right collapsed" data-toggle="collapse" data-parent="#accordion-c37361f795844224a918c78f6db742ae" href="#collapsec37361f795844224a918c78f6db742ae-3">2019</a>
+                                <a class="icon-angle-right collapsed" data-toggle="collapse" data-parent="#accordion-390544c4f46e4cbfb38ae26100835bc1" href="#collapse390544c4f46e4cbfb38ae26100835bc1-3">2019</a>
                             </span>
                         </div>
-                        <div id="collapsec37361f795844224a918c78f6db742ae-3" class="panel-collapse collapse">
+                        <div id="collapse390544c4f46e4cbfb38ae26100835bc1-3" class="panel-collapse collapse">
                             <div class="panel-body">
                                 <div>
 
@@ -1113,10 +1123,10 @@
                     
                         <div class="panel-heading">
                             <span class="panel-title">
-                                <a class="icon-angle-right collapsed" data-toggle="collapse" data-parent="#accordion-c37361f795844224a918c78f6db742ae" href="#collapsec37361f795844224a918c78f6db742ae-4">2018</a>
+                                <a class="icon-angle-right collapsed" data-toggle="collapse" data-parent="#accordion-390544c4f46e4cbfb38ae26100835bc1" href="#collapse390544c4f46e4cbfb38ae26100835bc1-4">2018</a>
                             </span>
                         </div>
-                        <div id="collapsec37361f795844224a918c78f6db742ae-4" class="panel-collapse collapse">
+                        <div id="collapse390544c4f46e4cbfb38ae26100835bc1-4" class="panel-collapse collapse">
                             <div class="panel-body">
                                 <div>
 
@@ -1188,10 +1198,10 @@
                     
                         <div class="panel-heading">
                             <span class="panel-title">
-                                <a class="icon-angle-right collapsed" data-toggle="collapse" data-parent="#accordion-c37361f795844224a918c78f6db742ae" href="#collapsec37361f795844224a918c78f6db742ae-5">2017</a>
+                                <a class="icon-angle-right collapsed" data-toggle="collapse" data-parent="#accordion-390544c4f46e4cbfb38ae26100835bc1" href="#collapse390544c4f46e4cbfb38ae26100835bc1-5">2017</a>
                             </span>
                         </div>
-                        <div id="collapsec37361f795844224a918c78f6db742ae-5" class="panel-collapse collapse">
+                        <div id="collapse390544c4f46e4cbfb38ae26100835bc1-5" class="panel-collapse collapse">
                             <div class="panel-body">
                                 <div>
 
