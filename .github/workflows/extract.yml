@@ -5,7 +5,9 @@ on:
 
 jobs:
   extract:
+    continue-on-error: true
     strategy:
+      fail-fast: false
       matrix:
         source:
           [
@@ -13,6 +15,7 @@ jobs:
             ak,
             az,
             ca,
+            co,
             ct,
             dc,
             de,
