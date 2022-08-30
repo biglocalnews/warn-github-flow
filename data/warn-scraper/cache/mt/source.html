@@ -2369,16 +2369,17 @@ Helena, MT 59604</p>
 		</div>
 	  </div>
 	</div>
-<div id="boardtype" class="modal fade show" tabindex="-1" role="dialog" aria-hidden="false" aria-labelledby="myModalLabel">
+<div id="boardtype" class="modal fade show" tabindex="-1" role="dialog" aria-hidden="false" aria-labelledby="BSDBoards">
     <div class="modal-dialog modal-lg">
         <div class="modal-content">
             <div class="modal-header">
-                <h4 id="myModalLabel" class="modal-title">Choose a Board</h4>
+                <h4 id="BSDBoards" class="modal-title">Choose a Board</h4>
             </div>
             <div class="modal-body grt px-3 pt-2 m-auto">
                 <div class="row">
                     <div class="grt pt-2 px-4">
-                        <ol class="ml-0 boardLinks" style="column-count:2;column-gap:2rem;column-width:300px">
+                        <input class="form-control mt-2 mb-3 mx-2 w-100 rounded" type="search" placeholder="Search" id="fileSearch">
+                        <ol id="fileList" class="ml-0 boardLinks" style="column-count:2;column-gap:2rem;column-width:300px">
                                                                                     <li class="mb-4"><a href="https://boards.bsd.dli.mt.gov/alternative-health-care/index.html">Alternative Health Care</a></li>
                                                                                                                 <li class="mb-4"><a href="https://boards.bsd.dli.mt.gov/architects-landscape/index.html">Architects & Landscape Architects</a></li>
                                                                                                                 <li class="mb-4"><a href="https://boards.bsd.dli.mt.gov/athletic-trainers/index.html">Athletic Trainers</a></li>
@@ -2427,6 +2428,25 @@ Helena, MT 59604</p>
         </div>
     </div>
 </div>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+          let input, ul, li, a, i, txtValue, value;
+          input = document.querySelector("input#fileSearch");
+          input.addEventListener("input", (e) => {
+            value = e.target.value.toLowerCase();
+            fileList = document.querySelector("#fileList")
+            a = fileList.getElementsByTagName("a");
+          for (i = 0; i < a.length; i++) {
+            txtValue = a[i].textContent || a[i].innerText;
+            if (txtValue.toLowerCase().indexOf(value) > -1) {
+              a[i].parentElement.classList.remove("d-none");
+            } else {
+              a[i].parentElement.classList.add("d-none");
+            }
+          }
+          })
+    });
+</script>
 
 </body>
 </html>
