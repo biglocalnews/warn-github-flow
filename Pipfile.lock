@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "8f8d0ebecca0c46dda0129d5a5b6131767c1711b94235ce49b5f7866f3a393d0"
+            "sha256": "11fbfcfffd2479806fe30a995616d007ee4e62245beeb579765a6e223e8eaced"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -40,11 +40,11 @@
         },
         "certifi": {
             "hashes": [
-                "sha256:36973885b9542e6bd01dea287b2b4b3b21236307c56324fcc3f1160f2d655ed5",
-                "sha256:e232343de1ab72c2aa521b625c80f699e356830fd0e2c620b465b304b17b0516"
+                "sha256:0d9c601124e5a6ba9712dbc60d9c53c21e34f5f641fe83002317394311bdce14",
+                "sha256:90c1a32f1d68f940488354e36370f6cca89f0f106db09518524c88d6ed83f382"
             ],
             "markers": "python_version >= '3.6'",
-            "version": "==2022.9.14"
+            "version": "==2022.9.24"
         },
         "cffi": {
             "hashes": [
@@ -351,11 +351,11 @@
         },
         "tenacity": {
             "hashes": [
-                "sha256:43242a20e3e73291a28bcbcacfd6e000b02d3857a9a9fff56b297a27afdc932f",
-                "sha256:f78f4ea81b0fabc06728c11dc2a8c01277bfc5181b321a4770471902e3eb844a"
+                "sha256:35525cd47f82830069f0d6b73f7eb83bc5b73ee2fff0437952cedf98b27653ac",
+                "sha256:e48c437fdf9340f5666b92cd7990e96bc5fc955e1298baf4a907e3972067a445"
             ],
             "markers": "python_version >= '3.6'",
-            "version": "==8.0.1"
+            "version": "==8.1.0"
         },
         "urllib3": {
             "hashes": [
@@ -382,11 +382,11 @@
         },
         "warn-transformer": {
             "hashes": [
-                "sha256:6bd14bcb21fc270bb080dd8cfa5eefe611b34d31d9e4b9ce4dfa0f663c7a8baf",
-                "sha256:aebfa8eaffd20eb8b346bbeb7973b2bc6dd65acfa223ebefb1745fa555b12ce0"
+                "sha256:a2996a551d762f13308614c15df99dc67f2f7325ab37d87f8e83672acf46b265",
+                "sha256:d5f4fe6a4ad79005b6661b9a9930f37363339c5a93864a995ed653318bbb18d8"
             ],
             "index": "pypi",
-            "version": "==1.3.11"
+            "version": "==1.3.12"
         },
         "webencodings": {
             "hashes": [
