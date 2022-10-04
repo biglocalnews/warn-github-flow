@@ -9,17 +9,15 @@
     <title>
             Official Nebraska Department of Labor | Reemployment Services
     </title>
+
     <link href="/Content/cssDOL?v=cVguNjBorVqaQWlZqtYPG2TldJFsq2a1H0_rmeDHgK01" rel="stylesheet"/>
 
-    
-    <link href="/Content/SiteDOL.css" rel="stylesheet" type="text/css" />
+    <link href="/Content/themes/base/css?v=tQrQR7YaujlRoqNkW7oynieKb_Z45ymOMCPRWEFL8cQ1" rel="stylesheet"/>
+
     <link href="/Content/pageStyle.css" rel="stylesheet" type="text/css" />
     <script src="/bundles/modernizr?v=9s8su3JN4zP2Oh46I_ldS1nAywRwdchzkLSrE81sOEo1"></script>
 
     <script src="/bundles/jquery?v=v6NmRva6fCpJehjJ8qMh8aXJqg_gCvsYO9jEHs3K_xY1"></script>
-
-
-    <link href="/Content/themes/base/css?v=tQrQR7YaujlRoqNkW7oynieKb_Z45ymOMCPRWEFL8cQ1" rel="stylesheet"/>
 
     <script src="/bundles/bootstrap?v=eMSs9KdElgC9qsqeGtqCdUq_6XApDXw9VXWEsXJhBtY1"></script>
 
@@ -27,20 +25,31 @@
 
     <script src="/bundles/dolSiteJS?v=enLNlABz963ED9nTbSjMV2-mxvYjo2ewUMaAtx-vkvA1"></script>
 
-    
-    <script src="/Scripts/customJS.js" type="text/javascript"></script>
     <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Cabin' rel='stylesheet' type='text/css'>
-
-    
-    
 </head>
 
 <body data-spy="scroll" data-target="#scrollNav">
-    <div id="footer-fix">
-        
-<link href="/Content/headerStyle.css" rel="stylesheet" type="text/css" />
+    <div>
+        <link href="/Content/headerStyle.css" rel="stylesheet" type="text/css" />
 <script src="/Scripts/collapseMenu.js" type="text/javascript"></script>
+<script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+<script>
+    $(function () {
+        $('[data-toggle="tooltip"]').tooltip()
+    });
+
+    function googleTranslateElementInit() {
+        new google.translate.TranslateElement({
+            pageLanguage: 'en'
+        }, 'google_translate_element');
+    };
+
+    $('a').tooltip({
+        'delay': { show: 0, hide: 0 },
+        'html': { html: true }
+    });
+</script>
 
 <div class="primaryColor">
     <div class="flexHeader">
@@ -53,7 +62,6 @@
             </a>
         </div>
         <div class="inlineDisplay smallMargin">
-            
             <div class="translate">
                 <div id="google_translate_element">
                     <div dir="ltr" class="skiptranslate goog-te-gadget">
@@ -187,37 +195,8 @@
     </nav>
 </div>
 
-<script>
-    $(function () {
-        $('[data-toggle="tooltip"]').tooltip()
-    });
-
-    function googleTranslateElementInit() {
-        new google.translate.TranslateElement({
-            pageLanguage: 'en'
-        }, 'google_translate_element');
-    };
-
-    $('a').tooltip({
-        'delay': { show: 0, hide: 0 },
-        'html': { html: true }
-    });
-
-    $('#bigger').click(function () {
-        var fontSize = parseInt($("body").css("font-size"));
-        fontSize = fontSize + 1 + "px";
-        $("body").css({ 'font-size': fontSize });
-    });
-
-    $('#smaller').click(function () {
-        var fontSize = parseInt($("body").css("font-size"));
-        fontSize = fontSize - 1 + "px";
-        $("body").css({ 'font-size': fontSize });
-    });
-</script>
-
-<script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 <script type="text/javascript" src="https://addsearch.com/js/?key=09af1cf39d925b3ba3d1481fa2c2062a"></script>
+
 
 
 <!--<div id="main-header-background">
@@ -290,13 +269,9 @@
     </div>
 </div>-->
 
-        
-        <div class="wrapperhome" style="background-color:white;">
-            
-            
-            <div class="wrapperhome" id="main-wrapper" style="margin-top:15px;">
-                <div class="row no-margin">
-                    
+        <div class="wrapperhome" id="main-wrapper" style="margin-top: 15px; background-color: white;">
+            <div class="row no-margin">
+                
 
 
 
@@ -586,97 +561,9 @@
 
 
 <script src="/Scripts/pages.js"></script>
-                </div>
             </div>
         </div>
     </div>
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-<footer>
-    <div class="tint">
-        <div class="wrapper">
-            <div style="margin: 0 auto 0 auto;">
-                <div class="row">
-                    <div class="col-md-6">
-                        
-
-                        <div class="section">
-                            <img src="/Images/AJC-logo-web.png" alt="American Job Center Logo" class="img-responsive footer-logo" />
-                        </div>
-                        <div class="section">
-                            <p>
-                                Equal Opportunity Program/Employer TDD: 800.833.7352 <span style="border-left: 2px solid #ffc844; height: 60px;">&nbspTTY 402-471-0016 (For Assistance with Unemployment Insurance) Auxiliary aids and services are available upon request to individuals with disabilities.</span>
-                            </p>
-                        </div>
-                    </div>
-
-                    
-
-                    <div class="col-md-6">
-                        <div class="section">
-                            <h4 style="text-align:center">Our Policies</h4>
-                            <a href="/SitePolicy/AcceptableUse">Acceptable/Intended Use</a>
-                            <a style="border-left: 2px solid #ffc844; height: 60px;" href="/SitePolicy/Accessibility">&nbspAccessibility</a>
-                            
-                            <a style="border-left: 2px solid #ffc844; height: 60px;" href="/webdocs/getfile/41cdc3b2-8b6a-4e34-bbf6-cf9415d541a9" target="_blank">&nbspWIOA Equal Opportunity and Accessibility</a>
-                            <a style="border-left: 2px solid #ffc844; height: 60px;" href="/SitePolicy/Privacy">&nbspPrivacy Statement</a>
-                            <a style="border-left: 2px solid #ffc844; height: 60px;" href="/SitePolicy/Security">&nbspSecurity Information</a>
-                            <a style="border-left: 2px solid #ffc844; height: 60px;" href="mailto:ndol.webteam@nebraska.gov?subject=Technical Support">&nbspTechnical Support</a>
-                            <a style="border-left: 2px solid #ffc844; height: 60px;"</a> <a href="/EqualOpportunity">Equal Opportunity</a>
-                        </div>
-                        <div class="section">
-                            <!-- Add font awesome icons -->
-                            <a href="https://www.facebook.com/Nebraska.DOL" 
-                               aria-label="NDOL Facebook Link" 
-                               alt="NDOL Facebook Link" 
-                               class="fa fa-facebook" >
-                            </a>
-                            <a href="https://twitter.com/ne_dol" 
-                               aria-label="NDOL Twitter Link" 
-                               alt="NDOL Twitter Link" 
-                               class="fa fa-twitter" >
-                            </a>
-                            <a href="https://www.linkedin.com/company/nebraska-department-of-labor" 
-                               aria-label="NDOL LinkedIn Link" 
-                               alt="NDOL LinkedIn Link" 
-                               class="fa fa-linkedin" >
-                            </a>
-                            <a href="https://www.youtube.com/user/NEDeptOfLabor" 
-                               aria-label="NDOL YouTube Link" 
-                               alt="NDOL Youtube Link" 
-                               class="fa fa-youtube" >
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                
-            </div>
-        </div>
-    </div>
-</footer>
-
-
-<script>
-    (function (i, s, o, g, r, a, m) {
-        i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
-            (i[r].q = i[r].q || []).push(arguments)
-        }, i[r].l = 1 * new Date(); a = s.createElement(o),
-            m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
-    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
-
-    ga('create', 'UA-8622726-10', 'auto');
-    ga('send', 'pageview');
-
-</script>
-
-    
-    
-    
-    
-
-    
-
     
     
 
@@ -727,6 +614,68 @@
         };
     </script>
     <script type="text/javascript" async src="https://app-script.monsido.com/v2/monsido-script.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<footer>
+    <div class="tint">
+        <div class="wrapper">
+            <div style="margin: 0 auto 0 auto;">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="section">
+                            <img src="/Images/AJC-logo-web.png" alt="American Job Center Logo" class="img-responsive footer-logo" />
+                        </div>
+                        <div class="section">
+                            <p>
+                                Equal Opportunity Program/Employer TDD: 800.833.7352 <span style="border-left: 2px solid #ffc844; height: 60px;">&nbspTTY 402-471-0016 (For Assistance with Unemployment Insurance) Auxiliary aids and services are available upon request to individuals with disabilities.</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="section">
+                            <h4 style="text-align:center">Our Policies</h4>
+                            <a href="/SitePolicy/AcceptableUse">Acceptable/Intended Use</a>
+                            <a style="border-left: 2px solid #ffc844; height: 60px;" href="/SitePolicy/Accessibility">Accessibility</a>
+                            <a style="border-left: 2px solid #ffc844; height: 60px;" href="/webdocs/getfile/41cdc3b2-8b6a-4e34-bbf6-cf9415d541a9" target="_blank">WIOA Equal Opportunity and Accessibility</a>
+                            <a style="border-left: 2px solid #ffc844; height: 60px;" href="/SitePolicy/Privacy">Privacy Statement</a>
+                            <a style="border-left: 2px solid #ffc844; height: 60px;" href="/SitePolicy/Security">Security Information</a>
+                            <a style="border-left: 2px solid #ffc844; border-right: 2px solid #ffc844; padding-right: 5px; height: 60px;" href="mailto:ndol.webteam@nebraska.gov?subject=Technical Support">Technical Support</a>
+                            <a href="/EqualOpportunity">Equal Opportunity</a>
+                        </div>
+                        <div class="section">
+                            <!-- Add font awesome icons -->
+                            <a href="https://www.facebook.com/Nebraska.DOL"
+                               aria-label="NDOL Facebook Link"
+                               alt="NDOL Facebook Link"
+                               class="fa fa-facebook">
+                            </a>
+                            <a href="https://twitter.com/ne_dol"
+                               aria-label="NDOL Twitter Link"
+                               alt="NDOL Twitter Link"
+                               class="fa fa-twitter">
+                            </a>
+                            <a href="https://www.linkedin.com/company/nebraska-department-of-labor"
+                               aria-label="NDOL LinkedIn Link"
+                               alt="NDOL LinkedIn Link"
+                               class="fa fa-linkedin">
+                            </a>
+                            <a href="https://www.youtube.com/user/NEDeptOfLabor"
+                               aria-label="NDOL YouTube Link"
+                               alt="NDOL Youtube Link"
+                               class="fa fa-youtube">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+
 </body>
 <foot></foot>
 </html>
