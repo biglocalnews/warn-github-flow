@@ -27,11 +27,30 @@
 <!-- END OF MESSAGE HEADER -->
 
 
+<style type="text/css">
+.reciteMeButton{
+border:1px solid black;
+color:white;
+background-color:red;
+padding:5px;
+position:absolute;
+top:1em;
+//right:1em;
+border-radius:1em;
+text-decoration:none;
+margin-left: 50px;
+font-weight:800;
+z-index:1000;
+}
+</style>
+
 <div class="LWC_OutsideContainer">
 	<div class="LWC_InsideContainer">
 		<div class="LWC_HeaderPortal">
 			<div class="LWC_LeftHeader">
-				<a href="Homepage.asp"><img src="Images/Logo_WPPTW.gif" / id="LWC_MainLogo" alt="We put people to work"></a>
+				<a href="Homepage.asp"><img src="Images/Logo_WPPTW.gif" id="LWC_MainLogo" alt="We put people to work." width="180" height="85"></a>
+				&nbsp;&nbsp;
+				<a style="cursor: pointer" onclick="loadService();"><img src="Images/Accessibility_Tool.png" id="LWC_Accessibility_Tool" alt="Speech Accessibility Tool." width="80" height="85"></a>
 			</div>
 			<div class="LWC_RightHeader">
 				
@@ -635,6 +654,76 @@ function toggle(obj)
 
   ga('create', 'UA-48850306-1', 'laworks.net');
   ga('send', 'pageview');
+
+</script>
+<script type="text/javascript" src="Includes/jquery-1.11.0.min.js"></script>
+<script type="text/javascript">
+var serviceUrl = "//uswestapi.reciteme.com/asset/js?key=";
+var serviceKey =  "68341a786283e98d4b7dd81f079b3caa632cef61";
+var options = {
+        Docreader: {maxViews: 1}
+    };
+var autoLoad = false;
+var enableFragment = "#reciteEnable";
+
+var loaded=[],frag=!1;window.location.hash===enableFragment&&(frag=!0);function loadScript(c,b){var a=document.createElement("script");a.type="text/javascript";a.readyState?a.onreadystatechange=function(){if("loaded"==a.readyState||"complete"==a.readyState)a.onreadystatechange=null,void 0!=b&&b()}:void 0!=b&&(a.onload=function(){b()});a.src=c;document.getElementsByTagName("head")[0].appendChild(a)}function _rc(c){c+="=";for(var b=document.cookie.split(";"),a=0;a<b.length;a++){for(var d=b[a];" "==d.charAt(0);)d=d.substring(1,d.length);if(0==d.indexOf(c))return d.substring(c.length,d.length)}return null}function loadService(c){for(var b=serviceUrl+serviceKey,a=0;a<loaded.length;a++)if(loaded[a]==b)return;loaded.push(b);loadScript(serviceUrl+serviceKey,function(){"function"===typeof _reciteLoaded&&_reciteLoaded();"function"==typeof c&&c();Recite.load(options);Recite.Event.subscribe("Recite:load",function(){Recite.enable()})})}"true"==_rc("Recite.Persist")&&loadService();if(autoLoad&&"false"!=_rc("Recite.Persist")||frag)document.addEventListener?document.addEventListener("DOMContentLoaded",function(c){loadService()}):loadService();
+
+$('#adaPopupButton').unbind("click");
+$('#adaPopupButton').on("click", function(){
+loadService();
+});
+
+function _reciteLoaded(){
+    Recite.Event.subscribe("Controls:loaded", function() {
+        _handlePdfs();
+    })
+}
+function _handlePdfs() {
+    var docReaderLinks = document.querySelectorAll(".proxylink");
+
+    Recite.Util.each(docReaderLinks, function(id, ele) {
+        console.log(ele);
+        ele.addEventListener('click', function(evt, ele2) {
+            evt.preventDefault();
+            _getFile(this);
+        });
+    });
+}
+
+function _getFile(pdfFile) {
+    var blob = null
+    var xhr = new XMLHttpRequest()
+    xhr.open("GET", pdfFile)
+    xhr.responseType = "blob"
+    xhr.onload = function() {
+        blob = xhr.response
+        var formData = new FormData();
+        formData.append('file', blob);
+        _postPdf(formData);
+    }
+    xhr.send();
+}
+
+function _postPdf(formData) {
+
+    var docreader_url = "https://docreader.reciteme.com";
+    $.ajax(docreader_url + '/doc/upload', {
+        cache: false,
+        contentType: false,
+        processData: false,
+        type: 'POST',
+        data: formData,
+        success: function(data) {
+            if (data.error) {
+                alert(data.error);
+                clearMessages();
+            } else {
+                window.location.href = docreader_url + '/doc/view/id/' + data.id;
+            }
+        }
+    });
+}
+
 
 </script>
 <!-- END OF FOOTER -->
