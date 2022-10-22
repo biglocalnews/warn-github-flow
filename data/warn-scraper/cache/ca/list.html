@@ -30,7 +30,19 @@
 <!-- For all browsers -->
 <link rel="stylesheet" href="/Assets/css/cagov.core.min.css">
 
-<script src="/Assets/js/search.js"></script>
+<!-- Google Tag Manager -->
+<script>
+    (function (w, d, s, l, i) {
+        w[l] = w[l] || []; w[l].push({
+            'gtm.start':
+                new Date().getTime(), event: 'gtm.js'
+        }); var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-N8KVMBR');</script>
+<!-- End Google Tag Manager -->
+
+
 <!--
 Step 3
 Select a color scheme:
@@ -105,19 +117,27 @@ Select a color scheme:
 
 <!-- Include Google Analytics -->
 
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-3419582-31"></script>
+    <!-- Google Analytics tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-KF25MR5YHK"></script>
     <script>
-               window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
-    gtag('config', 'UA-3419582-2', { 'anonymize_ip': true }); // www.ca.gov
-    gtag('config', 'UA-3419582-31', { 'anonymize_ip': true }); //edd.ca.gov
-    </script>
-
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-KF25MR5YHK'); //GA4 edd.ca.gov ID
+        gtag('config', 'G-69TD0KNT0F'); // statewide GA4 ID
+        gtag('config', 'UA-3419582-2', { 'anonymize_ip': true }); // www.ca.gov UA ID
+        gtag('config', 'UA-3419582-31', { 'anonymize_ip': true }); // edd.ca.gov UA ID
+        </script>
 </head>
 
 <!-- possible body classes are "primary" and "two-column" -->
 <body class="primary">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N8KVMBR"
+                height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
     <header role="banner" id="header" class="global-header fixed">
         <div id="skip-to-content"><a href="#main-content">Skip to Main Content</a></div>
         
