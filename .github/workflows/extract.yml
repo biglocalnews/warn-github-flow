@@ -1,0 +1,70 @@
+name: Extract
+
+on:
+  workflow_dispatch:
+
+jobs:
+  extract:
+    continue-on-error: true
+    strategy:
+      fail-fast: false
+      matrix:
+        source:
+          [
+            al,
+            ak,
+            az,
+            ca,
+            co,
+            ct,
+            dc,
+            de,
+            fl,
+            ga,
+            ia,
+            id,
+            il,
+            in,
+            ks,
+            ky,
+            la,
+            md,
+            me,
+            mi,
+            mo,
+            mt,
+            ne,
+            nj,
+            nm,
+            ny,
+            oh,
+            ok,
+            or,
+            ri,
+            sc,
+            sd,
+            tn,
+            tx,
+            ut,
+            va,
+            vt,
+            wa,
+            wi,
+          ]
+    name: Extract
+    runs-on: ubuntu-latest
+    steps:
+      - name: Clone repository
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+
+      - name: Install
+        uses: ./.github/actions/install
+
+      - name: Extract
+        uses: ./.github/actions/extract
+        with:
+          source: ${{ matrix.source }}
+          bln-api-key: ${{ secrets.BLN_API_TOKEN }}
+          bln-project-id: ${{ secrets.BLN_PROJECT_ID }}

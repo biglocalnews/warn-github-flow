@@ -1,0 +1,55 @@
+inputs:
+  bln-api-key:
+    description: "The API key to the Big Local News site"
+    required: true
+  bln-project-id:
+    description: "The identifier of Big Local News project to upload the file"
+    required: true
+
+runs:
+    using: composite
+    steps:
+      - id: checkout
+        name: Checkout branch
+        run: |
+            git config --global user.email "actions@github.com"
+            git config --global user.name "GitHub Actions"
+            git config pull.rebase false
+            git checkout transformer
+            git pull origin main
+        shell: bash
+
+      - name: Download files
+        run: pipenv run warn-transformer download -l DEBUG
+        env:
+            BLN_API_TOKEN: ${{ inputs.bln-api-key }}
+            WARN_TRANSFORMER_OUTPUT_DIR: ./data/warn-transformer/
+        shell: bash
+
+      - name: Consolidate files
+        run: pipenv run warn-transformer consolidate -l DEBUG
+        env:
+            WARN_TRANSFORMER_OUTPUT_DIR: ./data/warn-transformer/
+        shell: bash
+
+      - name: Integrate files
+        run: pipenv run warn-transformer integrate -l DEBUG
+        env:
+            WARN_TRANSFORMER_OUTPUT_DIR: ./data/warn-transformer/
+        shell: bash
+
+      - name: Commit and push
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: Update transformer
+          branch: transformer
+          skip_checkout: true
+          push_options: '--force'
+          file_pattern: ./data/warn-transformer/*
+
+      - name: Upload file to biglocalnews.org
+        uses: biglocalnews/upload-files@v1
+        with:
+          api-key: ${{ inputs.bln-api-key }}
+          project-id: ${{ inputs.bln-project-id }}
+          path: ./data/warn-transformer/processed/

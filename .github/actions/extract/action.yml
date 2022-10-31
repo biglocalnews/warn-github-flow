@@ -1,0 +1,43 @@
+inputs:
+  source:
+    description: "The source to extract"
+    required: true
+  bln-api-key:
+    description: "The API key to the Big Local News site"
+    required: true
+  bln-project-id:
+    description: "The identifier of Big Local News project to upload the file"
+    required: true
+
+runs:
+    using: composite
+    steps:
+      - id: checkout
+        name: Checkout branch
+        run: |
+            git config --global user.email "actions@github.com"
+            git config --global user.name "GitHub Actions"
+            git config pull.rebase false
+            git checkout ${{ inputs.source }}
+            git pull origin main
+        shell: bash
+
+      - name: Run scrapers
+        env:
+          WARN_OUTPUT_DIR: ./data/warn-scraper/
+        run: make scrape scraper=${{ inputs.source }}
+        shell: bash
+
+      - name: Commit and push
+        uses: stefanzweifel/git-auto-commit-action@master
+        with:
+          commit_message: Update ${{ inputs.source }}
+          branch: ${{ inputs.source }}
+          file_pattern: ./data/warn-scraper/*
+ 
+      - name: Upload file to biglocalnews.org
+        uses: biglocalnews/upload-files@v1
+        with:
+          api-key: ${{ inputs.bln-api-key }}
+          project-id: ${{ inputs.bln-project-id }}
+          path: ./data/warn-scraper/exports/${{ inputs.source }}.csv

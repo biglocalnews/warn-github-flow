@@ -1,21 +1,23 @@
-name: Extract, transform and load
+name: Extract, transform and alert
 
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "0 0,12,18 * * *"
 
 jobs:
   extract:
+    continue-on-error: true
     strategy:
       fail-fast: false
       matrix:
-        state:
+        source:
           [
             al,
             ak,
             az,
             ca,
+            co,
             ct,
             dc,
             de,
@@ -26,9 +28,11 @@ jobs:
             il,
             in,
             ks,
+            ky,
             la,
             md,
             me,
+            mi,
             mo,
             mt,
             ne,
@@ -39,7 +43,9 @@ jobs:
             ok,
             or,
             ri,
+            sc,
             sd,
+            tn,
             tx,
             ut,
             va,
@@ -55,50 +61,15 @@ jobs:
         with:
           fetch-depth: 0
 
-      - id: install-pipenv
-        name: Install pipenv
-        run: pipx install pipenv
+      - name: Install
+        uses: ./.github/actions/install
 
-      - id: install-python
-        name: Install Python
-        uses: actions/setup-python@v2
+      - name: Extract
+        uses: ./.github/actions/extract
         with:
-          python-version: '3.9'
-          cache: 'pipenv'
-
-      - id: install-python-dependencies
-        name: Install Python dependencies
-        run: pipenv install --skip-lock --dev
-
-      - id: checkout
-        name: Checkout branch
-        run: |
-            git config --global user.email "actions@github.com"
-            git config --global user.name "GitHub Actions"
-            git config pull.rebase false
-            git checkout ${{ matrix.state }}
-            git pull origin main
-
-      - name: Run scrapers
-        env:
-          STATE: ${{ matrix.state }}
-          WARN_OUTPUT_DIR: ./data/warn-scraper/
-        run: make scrape scraper=${{ env.STATE }}
-
-      - name: Commit and push
-        uses: stefanzweifel/git-auto-commit-action@v4
-        with:
-          commit_message: Update ${{ matrix.state }}
-          branch: ${{ matrix.state }}
-          skip_checkout: true
-          file_pattern: ./data/warn-scraper/*
- 
-      - name: Upload file to biglocalnews.org
-        uses: biglocalnews/upload-files@v1
-        with:
-          api-key: ${{ secrets.BLN_API_TOKEN }}
-          project-id: ${{ secrets.BLN_PROJECT_ID }}
-          path: ./data/warn-scraper/exports/${{ matrix.state }}.csv
+          source: ${{ matrix.source }}
+          bln-api-key: ${{ secrets.BLN_API_TOKEN }}
+          bln-project-id: ${{ secrets.BLN_PROJECT_ID }}
 
       - name: Fail alert
         id: slack
@@ -106,7 +77,7 @@ jobs:
         uses: slackapi/slack-github-action@v1.18.0
         with:
           channel-id: ${{ secrets.SLACK_CHANNEL_ID }}
-          slack-message: "🚨 WARN Act Notice ETL scrape for `${{ matrix.state }}` failed at https://github.com/biglocalnews/warn-github-flow/actions"
+          slack-message: "🚨 WARN Act Notice ETL scrape for `${{ matrix.source }}` failed at https://github.com/biglocalnews/warn-github-flow/actions"
         env:
           SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
 
@@ -120,56 +91,14 @@ jobs:
         with:
           fetch-depth: 0
 
-      - id: install-pipenv
-        name: Install pipenv
-        run: pipx install pipenv
+      - name: Install
+        uses: ./.github/actions/install
 
-      - id: install-python
-        name: Install Python
-        uses: actions/setup-python@v2
+      - name: Transform
+        uses: ./.github/actions/transform
         with:
-          python-version: '3.9'
-          cache: 'pipenv'
-
-      - id: install-python-dependencies
-        name: Install Python dependencies
-        run: pipenv install --skip-lock --dev
-
-      - id: checkout
-        name: Checkout branch
-        run: |
-            git config --global user.email "actions@github.com"
-            git config --global user.name "GitHub Actions"
-            git config pull.rebase false
-            git checkout transformer
-            git pull origin main
-
-      - name: Download files
-        run: pipenv run warn-transformer download
-        env:
-            BLN_API_TOKEN: ${{ secrets.BLN_API_TOKEN }}
-            WARN_TRANSFORMER_OUTPUT_DIR: ./data/warn-transformer/
-
-      - name: Consolidate files
-        run: pipenv run warn-transformer consolidate
-        env:
-            WARN_TRANSFORMER_OUTPUT_DIR: ./data/warn-transformer/
-
-      - name: Commit and push
-        uses: stefanzweifel/git-auto-commit-action@v4
-        with:
-          commit_message: Update transformer
-          branch: transformer
-          skip_checkout: true
-          push_options: '--force'
-          file_pattern: ./data/warn-transformer/*
-
-      - name: Upload file to biglocalnews.org
-        uses: biglocalnews/upload-files@v1
-        with:
-          api-key: ${{ secrets.BLN_API_TOKEN }}
-          project-id: ${{ secrets.BLN_PROJECT_ID }}
-          path: ./data/warn-transformer/processed/consolidated.csv
+          bln-api-key: ${{ secrets.BLN_API_TOKEN }}
+          bln-project-id: ${{ secrets.BLN_PROJECT_ID }}
 
       - name: Fail alert
         id: slack
@@ -181,8 +110,8 @@ jobs:
         env:
           SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
 
-  slack-success:
-    name: Send Slack success alert
+  status-report:
+    name: Status report
     runs-on: ubuntu-latest
     needs: [transform]
     steps:
@@ -194,3 +123,47 @@ jobs:
           slack-message: "👍 WARN Act Notice ETL finished at https://github.com/biglocalnews/warn-github-flow/actions"
         env:
           SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
+
+  alert:
+    name: Alert
+    runs-on: ubuntu-latest
+    needs: [transform]
+
+    permissions:
+      contents: 'read'
+      id-token: 'write'
+
+    steps:
+      - name: Clone repository
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+
+      - id: install-python
+        name: Install Python
+        uses: actions/setup-python@v3
+        with:
+          python-version: '3.9'
+
+      - id: auth-gcloud
+        name: Authenticate with Google Cloud
+        uses: google-github-actions/auth@v0
+        with:
+          workload_identity_provider: ${{ secrets.GOOGLE_WORKLOAD_IDENTITY_PROVIDER }}
+          service_account: ${{ secrets.GOOGLE_SERVICE_ACCOUNT }}
+          create_credentials_file: true
+
+      - name: Install public dependencies
+        run: |
+          pip install keyring keyrings.google-artifactregistry-auth
+          keyring --list-backends
+        shell: bash
+
+      - name: Install private dependencies
+        run: pip install warn-bot -vv --index-url https://us-west2-python.pkg.dev/big-local-news-267923/warn-bot/simple/ --extra-index-url https://pypi.org/simple/
+        shell: bash
+        env:
+            GOOGLE_APPLICATION_CREDENTIALS: ${{ steps.auth-gcloud.outputs.credentials_file_path }}
+
+      - name: Send alert
+        run: warn-bot
