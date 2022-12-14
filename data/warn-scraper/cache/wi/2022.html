@@ -1,0 +1,405 @@
+ï»¿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=100"/>
+
+	<meta name="description" content="This is information about recently submitted WARN notices in the State of Wisconsin"/>
+
+	<title>2022 WARN Notices and Updates</title>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<link rel="stylesheet" type="text/css" href="/include/internet/css/bootstrap.min.css?v2"/>
+<link rel="stylesheet" type="text/css" href="/include/internet/css/fontawesome.min.css?v1" />
+<link rel="stylesheet" type="text/css" href="/include/internet/css/main.css?v1" />
+<link rel="stylesheet" media="print" href="/include/internet/css/print.css">
+
+
+	
+	<script type="text/javascript" src="/dislocatedworker/warn/include/default.js?v=2"></script>
+	<script src="https://sheets.googleapis.com/v4/spreadsheets/1cyZiHZcepBI7ShB3dMcRprUFRG24lbwEnEDRBMhAqsA/values/Updates?key=AIzaSyDP0OltIjcmRQ6-9TTmEVDZPIX6BSFcunw&callback=handler2"></script>
+	<script src="https://sheets.googleapis.com/v4/spreadsheets/1cyZiHZcepBI7ShB3dMcRprUFRG24lbwEnEDRBMhAqsA/values/Originals?key=AIzaSyDP0OltIjcmRQ6-9TTmEVDZPIX6BSFcunw&callback=handler"></script>
+<style>
+	table {border: none !important;color: #000000 !important;}
+	.updatedInfo {background-color:#D5EDFF !important;}
+	.old_browser_notify_bar {
+	background: url("../../images/ie.png") no-repeat 13px rgb(253, 242, 171); left: 0px; top: 0px; 
+	width: 100%; 
+	text-align: center; 
+	color: rgb(0, 0, 0);
+	font-family: Arial,Helvetica,sans-serif; 
+	font-size: 12px; 
+	border-bottom-color: rgb(162, 147, 48); 
+	border-bottom-width: 1px; 
+	border-bottom-style: solid; 
+	position: fixed; 
+	z-index: 111111; 
+	cursor: pointer;
+}
+.old_browser_notify_bar div {
+	padding: 5px 36px 5px 40px;
+}
+.old_browser_notify_bar_close {
+	padding: 5px 0px !important; 
+	top: -2px; 
+	width: 24px; 
+	height: 40px; 
+	right: 6px; 
+	font-size: 26px; 
+	font-weight: bold; 
+	position: absolute;
+}
+</style>
+</head>
+
+<body>
+	
+	<div class="old_browser_notify_bar" id="old_browser" style="display:none;">
+    <div>
+      <strong>Your browser (Internet Explorer) is out of date</strong>.  Please <a href="https://jobcenterofwisconsin.com/Presentation/SupportedBrowsers.aspx" target="_blank" style="font-weight: bolder;">update your browser</a>,
+      <br/>
+       for more security, comfort and the best experience on this site.
+      <br/>
+      Some features may not work properly until you <a href="https://jobcenterofwisconsin.com/Presentation/SupportedBrowsers.aspx" target="_blank" style="font-weight: bolder;">use a supported browser</a>.
+      <div class="old_browser_notify_bar_close" onclick="closeOldBrowser();">Ã</div>
+    </div>
+	</div>
+
+<script type="application/javascript">
+	function closeOldBrowser() {
+		document.getElementById("old_browser").style.display = "none";
+	}
+	if (navigator.userAgent.indexOf("MSIE") != -1  || navigator.userAgent.indexOf(".NET") != -1  ) {
+//		alert("You're using Internet Explorer, WHY?");
+		document.getElementById("old_browser").style.display = "block";
+		
+	} else {
+		document.getElementById("old_browser").outerHTML = "";
+//		alert(navigator.userAgent);
+	}
+</script>
+
+		<div id="update-browser" class="text-center"><p><span class="fs-140 important red-txt">Outdated or Unsupported Browser Detected</span><br><span>DWD's website uses the latest technology. This makes our site faster and easier to use across all devices. Unfortunatley, your browser is out of date and is not supported. An update is not required, but it is strongly recommended to improve your browsing experience. To update Internet Explorer to Microsoft Edge visit their <a href="https://support.microsoft.com/en-us/microsoft-edge/make-the-switch-from-internet-explorer-to-microsoft-edge-a6f7173e-e84a-36a3-9728-3df20ade9b3c">website</a>.</span></p></div>
+
+
+<div id="wigov-bar" class="w-100">
+			<div  class="container container-fluid-md">
+		
+				<div class="row py-2">
+					<div class="col">
+						<a href="https://wisconsin.gov/"><img id="wi-gov-logo" src="/images/internet/wigov-top-logo.png" alt="Wisconsin.gov Logo"></a>
+					</div>
+					
+					<div class="col text-right white-txt mt-2 mt-sm-0 hidden-xs">
+						<a href="/jobs/" class="me-3 align-middle">Jobs at DWD</a>
+						<a href="http://www.wisconsin.gov/Pages/AllAgencies.aspx" target="_blank" class="me-3 align-middle">Agency Directory</a>
+						<a href="http://www.wisconsin.gov/Pages/resident.aspx" target="_blank" class="align-middle">Online Services</a>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+		
+		<div id="banner" class="w-100">
+			<div  class="container container-fluid-md text-center text-md-left">
+				<div class="row align-items-center position-relative">
+					<div class="col-12 col-md-6 col-lg-7">
+						<a href="/"><img id="dwd-logo" src="/images/internet/dwd-banner-logo.png" class="my-2" alt="Department of Workforce Development Logo"></a>
+					</div>
+					
+					<div id="main-search-wrap" class="col-12 col-md-6 col-lg-5">
+						<form id="main-search-form" class="search-form" method="GET" name="default front end" action="/search.htm">
+							<label class="sr-only" for="main-search-input">Search DWD's Website</label>
+							<input id="main-search-input" class="search-input" placeholder="Search DWD's Website" title="Search DWD's Website" type="text" name="query" maxlength="256" onclick="this.value=''" title="Search DWD's Website">
+							<input class="search-icon d-none d-md-block" type="image" src="/images/internet/icon/search.png" alt="Search icon button">
+							<input class="search-icon d-md-none" type="image" src="/images/internet/icon/search-light.png" alt="Search icon button">
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	
+		<nav id="main-nav" class="navbar navbar-expand-lg navbar-dark py-0" role="navigation">	
+			<button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-wrap" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon navbar-dark"></span>
+			</button>
+			<div  class="collapse navbar-collapse" id="navbar-wrap">
+				<ul class="p-0 m-0 w-100">
+					<li class="lvl1-nav">
+						<a href="/ui/">UNEMPLOYMENT</a>
+						<a class="expand-collapse d-lg-none" data-bs-toggle="collapsed">+</a>
+						<ul class="dropdown">
+							<li><a href="/uiben/">Claimants</a></li>
+							<li><a href="/uitax/">Employers</a></li>
+							<li><a href="/uitax/esp-resource-page.htm">Service Providers</a></li>
+						</ul>
+					</li>
+					<li class="lvl1-nav">
+						<a href="/wc/">WORKPLACE INJURY</a>
+						<a class="expand-collapse d-lg-none" data-bs-toggle="collapsed">+</a>
+						<ul class="dropdown">
+						  <li><a href="/wc/workers/">Workers</a></li>
+						  <li><a href="/wc/employers/">Employers</a></li>
+							<li><a href="/wc/insurance/">Insurers</a></li>
+							<li><a href="/wc/medical/">Medical Providers</a></li>
+							<li><a href="/wc/safety/">Workplace Safety</a></li>
+							<li><a href="/wc/contact/">Contact Us</a></li>
+						</ul>
+					</li>
+					<li class="lvl1-nav">
+						<a href="/er/">EQUAL RIGHTS</a>
+						<a class="expand-collapse d-lg-none" data-bs-toggle="collapsed">+</a>
+						<ul class="dropdown">
+						  <li><a href="/er/laborstandards/">Labor Standards</a></li>
+						  <li><a href="/er/civilrights/">Civil Rights</a></li>
+						  <li><a href="/er/civilrights/fmla/">FMLA</a></li>
+						  <li><a href="/worker-classification/">Worker Classification</a></li>
+						  <li><a href="/er/tech/onlinecomplaint.htm">File a Complaint</a></li>
+						  <li><a href="/er/tech/caseportalguide.htm">Case Portal</a></li>
+						  <li><a href="/er/contacts.htm">Contact Us</a></li>
+						</ul>
+					</li>
+					<li class="lvl1-nav">
+						<a href="/det/">EMPLOYMENT & TRAINING</a>
+						<a class="expand-collapse d-lg-none" data-bs-toggle="collapsed">+</a>
+						<ul class="dropdown">
+							<li><a href="/det/jobseeker.htm">Job Seekers</a></li>
+							<li><a href="/det/employer.htm">Employers</a></li>
+							<li><a href="/veterans/">Veterans</a></li>
+							<li><a href="/det/partners.htm">Partners</a></li>
+							<li><a href="https://jobcenterofwisconsin.com/wisconomy/" target="_blank">WisConomy</a></li>
+							<li><a href="/det/civil-rights/">Civil Rights</a></li>
+							<li><a href="/det/contact.htm">Contact Us</a></li>
+						</ul>
+					</li>
+					<li class="lvl1-nav">
+						<a href="/dvr/">DISABILITY EMPLOYMENT</a>
+						<a class="expand-collapse d-lg-none" data-bs-toggle="collapsed">+</a>
+						<ul class="dropdown">
+						  <li><a href="/dvr/about/">About DVR</a></li>
+							<li><a href="/dvr/referral/">How to Apply</a></li>
+							<li><a href="/dvr/job-seekers/">For Job Seekers</a></li>
+							<li><a href="/dvr/business/">For Businesses</a></li>
+							<li><a href="/dvr/partners/">Our Partners</a></li>
+							<li><a href="/dvr/about/contacts.htm">Contact Us</a></li>
+						</ul>
+					</li>
+					<li class="lvl1-nav">
+						<a href="/dwd/about-dwd.htm">ABOUT DWD</a>
+						<a class="expand-collapse d-lg-none" data-bs-toggle="collapsed">+</a>
+						<ul class="dropdown">
+							<li><a href="/dwd/leadership.htm">Leadership </a></li>
+							<!--<li><a href="/dwd/aboutdwd.htm#divisions">Divisions</a></li>-->
+							<li><a href="/news/">News Room</a></li>
+							<li><a href="/news/publicmeetings/">Public Meetings</a></li>
+							<li><a href="/dwd/orgcharts/">Organization Chart</a></li>
+							<li><a href="/dwd/open-records/">Open Records</a></li>
+							<li><a href="/dwd/contact-us.htm">Contact Us</a></li>
+							<li><a href="/jobs/">Jobs at DWD</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</nav>
+
+
+		<div id="content-wrapper">
+			<div class="container-fluid">
+				
+				<!--********BREADCRUMBS*********-->
+				<ol class="breadcrumb">
+					<li><a href="/"><i class="fas fa-home me-2"></i></a></li>
+					<li class="breadcrumb-item"><a href="/det/">Employment &amp; Training</a></li>
+					<li class="breadcrumb-item"><a href="/det/jobseeker.htm">Job Seeker</a></li>
+					<li class="breadcrumb-item"><a href="/dislocatedworker/">Dislocated Worker</a></li>
+					<li class="breadcrumb-item active">WARN Notices</li>
+				</ol>
+				
+				<div class="float-end me-3">This page was last updated on November 29, 2022</div>
+				<h1>2022 Layoff Notices and Updates Filed with DWD</h1>
+				
+				<p>In certain circumstances, federal and/or state law requires businesses laying off workers employed in Wisconsin to provide the State's Department of Workforce Development (DWD) with advance written notice of the layoffs.</p>
+					
+				<p><a href="/dislocatedworker/employer/tools/notice/default.htm">More information about the federal and state notice laws</a></p>
+				
+				<p>One purpose of these laws is to give DWD the opportunity to provide pre-layoff transition assistance (aka rapid response) to workers and businesses affected by permanent worker layoffs. DWD coordinates with regional workforce partners to deliver rapid response services such as: on-site, pre-layoff information sessions; workshops on topics such as resume writing, interviewing, job search strategies, and budgeting; targeted job and resource fairs; and referrals to resources, including the Wisconsin Job Center network and <a href="http://JobCenterofWisconsin.com/">JobCenterofWisconsin.com</a>.</p>
+						
+				<p>The layoff notices DWD receives do not represent a complete list of potential or actual layoffs in the state. Written notice to DWD is not required for all layoffs. Additionally, the number of workers ultimately laid off may differ from the number provided in the written notice for a variety of reasons, and DWD may not receive notification of the change.</p>
+
+				<div class="row">
+					<div class="col-md-6 col-sm-12 mt-3 mt-3"><strong>General Contact</strong><br/>
+						<a href="mailto:WIOATitleI@dwd.wisconsin.gov?Subject=Question%20for%20the%20Dislocated%20Worker%20Unit">Bureau of Workforce Training, Program Administration Section<br/>WIOATitleI@dwd.wisconsin.gov</a><br/>
+						201 East Washington Avenue<br/>
+						Madison, WI 53707<br/>
+						<a href="tel:16082667406">(608) 405-4070</a></div>
+					
+					<div class="col-md-6 col-sm-12 mt-3"><strong>Media Contact</strong><br/>
+						<a href="mailto:communicationsoffice@dwd.wisconsin.gov">DWD Communications<br/>communicationsoffice@dwd.wisconsin.gov</a></div>
+				</div>
+				<div id="noticeTypeKey" class="float-start p-3 mb-3 mt-3" style="border:1px solid #000000;">
+					<h2 class="text-center">Legend</h2>
+					<p>
+						<strong>Original Notice Types</strong><br/>
+						CL	- Facility Closure<br/>
+						WR	- Workforce Reduction
+					</p>
+					<p>
+						<strong>Update Types</strong><br/>
+						AW	- Change to Number of Affected Workers<br/>
+						LS	- Change to Layoff Schedule<br/>
+						RN	- Rescission of Notice
+					</p>
+				</div>
+				
+				<div style="clear:both;"><strong>* In instances where there are one or more revisions to the original layoff notice, the most recent revision reflects the total number of workers affected, as reported by the employer.</strong></div>
+				
+				<hr style="clear:both"/>
+				<div>
+					<script type="text/javascript">outputArray2Page()</script>
+				</div>
+				<p class="mb-5" style="clear:left;"><br/>
+					<strong id="affectedWorkerTotal">Current 2022 Affected Worker Totals:&nbsp;4158</strong><br/> <!-- updated 11/29/22 KK -->
+					(Includes New Notices and Updates to Previous Notices)<br/>
+					<!-- em>This information is updated daily at 4:30 pm.</em --></p>
+					
+				<p><a href="/dislocatedworker/warn/2021/default.htm">2021 Layoff Notice Information</a></p>
+				
+				<p><a href="/dislocatedworker/warn/2020/default.htm">2020 Layoff Notice Information</a></p>
+				
+				<p><a href="/dislocatedworker/warn/2019/default.htm">2019 Layoff Notice Information</a></p>
+				
+				<p><a href="/dislocatedworker/warn/2018/default.htm">2018 Layoff Notice Information</a></p>
+
+				<p><a href="/dislocatedworker/warn/2017/default.htm">2017 Layoff Notice Information</a></p>
+
+				<p><a href="/dislocatedworker/warn/2016/default.htm">2016 Layoff Notice Information</a></p>
+ 
+ 				<p>Layoff notices from previous years may be requested from the <a href="mailto:askarchives@wisconsinhistory.org">Wisconsin Historical Society</a></p>
+			</div>
+		</div>
+
+		<div id="footer" class="white-txt">
+	<div class="container container-fluid-md">
+		<div class="row pt-3">
+			<div class="col-6 col-md-3 order-4 order-md-1">
+				<p class="mb-0 fs-initial">DWD Contact Information</p>
+				<hr>
+				<p>201 E. Washington Ave<br>
+				P.O. Box 7946<br>
+				Madison, WI 53707<br>
+				(608) 266-3131<br></p>
+				<a href="/dwd/contact-us.htm" class="btn btn-secondary mb-2">Contact Us</a>
+			</div>
+			
+			<div class="col-6 col-md-3 order-2">
+				<ul class="mb-1">
+					<li><a href="/dwd/admin-rules/">Administrative Rules</a></li>
+					<!--<li><a href="https://dwd.wisconsin.gov/gdl">Guidance Documents</a></li>-->
+					<li><a href="/jobs/">Jobs at DWD</a></li>
+					
+					<li><a href="https://www.wisconsin.gov/Pages/Policies.aspx">Legal/Acceptable Use</a></li>
+					<li><a href="/news/">News</a></li>
+					<li><a href="/news/publicmeetings/">Public Meeting &amp; Hearing Notices</a></li>
+					
+				</ul>
+			</div>
+			
+			<div class="col-6 col-md-3 order-3">
+				<ul>
+					<li><a href="/dwd/open-records/">Public Records</a></li>
+					<li><a href="/dwd/staff-partners.htm">Staff & Partners</a></li>
+					<li><a href="https://stateempdir.wi.gov/">State Employee Directory</a></li>
+					<li><a href="/dwd/topic-index.htm">Topic Index (Sitemap)</a></li>
+					<!--<li><a href="/dwd/pdf/translation-sample.pdf">Translate</a></li>-->
+					<li><a href="mailto:webfeed@dwd.wisconsin.gov">Website Support</a></li>
+				</ul>
+				<!--<ul class="mb-1">
+					<li><a href="/toolbox/allabbr/translate/translate.htm">Translate This Site</a></li>
+					<li><a href="/toolbox/allabbr/translate/translate.htm">Traducir el sitio de web</a></li>
+					<li><a href="/toolbox/allabbr/translate/translate.htm">ç¿»è­¯ç¶²ç«</a></li>
+					<li><a href="/toolbox/allabbr/translate/translate.htm">Website Ã¼bersetzen</a></li>
+					<li><a href="/toolbox/allabbr/translate/translate.htm">ØªØ±Ø¬ÙØ© Ø§ÙÙÙÙØ¹</a></li>
+					<li><a href="/toolbox/allabbr/translate/translate.htm">Txhais website</a></li>
+					<li><a href="/toolbox/allabbr/translate/translate.htm">ì¹ ì¬ì´í¸ ë²ì­</a></li>
+					<li><a href="/toolbox/allabbr/translate/translate.htm">ÐÐµÑÐµÐ²ÐµÑÑÐ¸ ÑÐ°Ð¹Ñ</a></li>
+				</ul>-->
+			
+			</div>
+			
+			<div class="col-6 col-md-3 text-center order-5">
+				<a href="https://www.wisconsin.gov/Pages/Home.aspx" target="_blank"><img src="/images/internet/wigov-logo.png" style="max-width:125px;" alt="Wisconsin.gov logo"></a>
+				<div class="row mt-3 g-0-xs">
+					<div class="col-3"><a href="https://www.instagram.com/wiworkforce/"><img class="img-fluid" src="/images/internet/icon/insta-icon.png" class="me-2 me-sm-0" alt="Instagram logo"></a></div>
+					<div class="col-3"><a href="https://www.youtube.com/user/wiworkforce"><img class="img-fluid" src="/images/internet/icon/youtube-icon.png" class="ms-1 ms-sm-0" alt="Youtube logo"></a></div>
+					<div class="col-3"><a href="https://www.facebook.com/WIWorkforce"><img class="img-fluid" src="/images/internet/icon/facebook-icon.png" class="mx-1" alt="Facebook logo"></a></div>
+					<div class="col-3"><a href="https://twitter.com/wiworkforce"><img class="img-fluid" src="/images/internet/icon/twitter-icon.png" class="ms-1" alt="Twitter logo"></a></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<p id="american-job-center">A proud partner of the <a href="https://www.careeronestop.org/" ><img src="/images/internet/american-job-center.jpg" alt="American Job Center logo"></a> network</p>
+</div>
+<script src="/include/internet/js/jquery-3.6.0.min.js"></script>
+<script src="/include/internet/js/popper.min.js?v1"></script>
+<script src="/include/internet/js/bootstrap.min.js?v2"></script>
+<script src="/include/internet/js/main.js?=v2"></script>
+
+<script type="text/javascript">
+
+		if(window.location.href.indexOf("acc.") == -1){	
+			//Google analytics code. 
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+			ga('create', 'UA-49143950-5', 'auto');
+			ga('send', 'pageview');
+		 
+			var links = $('a');
+			var htmregex = /^.*(\.htm)|(\.php)$/;
+			var aspregex = /^.*\.aspx*$/;
+			var isfile = /^.*\..{3}$/;
+			var clickedLink;
+			var clickedLinkHref
+			
+			links.click(function(){
+			
+				clickedLink = $(this);
+				clickedLinkHref = clickedLink.attr('href');
+				
+				ga('send', 'event', 'Click Event',  location.pathname, clickedLinkHref);
+
+			});
+		}
+	
+
+</script>
+
+
+<script type="text/javascript">  
+        function googleTranslateElementInit() {  
+            new google.translate.TranslateElement( 
+                {pageLanguage: 'en'},  
+                'google_translate_element' 
+            );  
+        }  
+		</script>  
+		  
+		<!--<script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>  -->
+
+		<script>
+			/*
+			2022-07-25 KK Took out because the updates won't calculate properly, will have to revisit.
+			let affectedWorkerTotal = 0;
+			document.querySelectorAll('[data-total]').forEach( total => {
+				affectedWorkerTotal += total.parentElement.classList.contains("updatedInfo") ? 0 : parseInt(total.innerText); 
+				//affectedWorkerTotal += parseInt(total.innerText);
+			});
+			document.querySelector("#affectedWorkerTotal").innerText += affectedWorkerTotal;
+			*/
+		</script>
+
+</body>
+</html>
