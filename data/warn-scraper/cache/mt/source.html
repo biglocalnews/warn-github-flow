@@ -65,22 +65,23 @@
 <script>
 document.addEventListener("DOMContentLoaded", function(){
         var hostname = window.location.hostname;
+        var montanaworksLogin = `https://login.montanaworks.gov/sso/XUI/?realm=mw#login`;
+        var montanaworksRegister = `https://login.montanaworks.gov/sso/XUI/?realm=mw#register/`;
+        var loginURL = "login";
         if(hostname.includes("dev.montanaworks")){
-            var loginURL = "logindev";
+                    montanaworksLogin = `https://oktapreview.loginmt.com`;
+            montanaworksRegister = `https://oktapreview.loginmt.com`;
         }
-        else if(hostname.includes("tst.montanaworks")){
-            var loginURL = "logintst";
+        if(hostname.includes("tst.montanaworks")){
+                    montanaworksLogin = `https://oktapreview.loginmt.com`;
+            montanaworksRegister = `https://oktapreview.loginmt.com`;
         }
-        else if(hostname.includes("trn.montanaworks")){
-            var loginURL = "logintrn";
-        }
-        else{
-            var loginURL = "login";
+        if(hostname.includes("trn.montanaworks")){
+                    montanaworksLogin = `https://oktapreview.loginmt.com`;
+            montanaworksRegister = `https://oktapreview.loginmt.com`;
         }
         
-        var montanaworksLogin = "https://"+loginURL+".montanaworks.gov/sso/XUI/?realm=mw#login";
-        var montanaworksRegister = "https://"+loginURL+".montanaworks.gov/sso/XUI/?realm=mw#register/";
-        var loginLinks = document.querySelectorAll("a[data-login]")
+                        var loginLinks = document.querySelectorAll("a[data-login]")
         var registerLinks = document.querySelectorAll("a[data-register]")
         
         loginLinks.forEach(function(a) {
@@ -137,22 +138,23 @@ document.addEventListener("DOMContentLoaded", function(){
 <script>
 document.addEventListener("DOMContentLoaded", function(){
         var hostname = window.location.hostname;
+        var montanaworksLogin = `https://login.montanaworks.gov/sso/XUI/?realm=mw#login`;
+        var montanaworksRegister = `https://login.montanaworks.gov/sso/XUI/?realm=mw#register/`;
+        var loginURL = "login";
         if(hostname.includes("dev.montanaworks")){
-            var loginURL = "logindev";
+                    montanaworksLogin = `https://oktapreview.loginmt.com`;
+            montanaworksRegister = `https://oktapreview.loginmt.com`;
         }
-        else if(hostname.includes("tst.montanaworks")){
-            var loginURL = "logintst";
+        if(hostname.includes("tst.montanaworks")){
+                    montanaworksLogin = `https://oktapreview.loginmt.com`;
+            montanaworksRegister = `https://oktapreview.loginmt.com`;
         }
-        else if(hostname.includes("trn.montanaworks")){
-            var loginURL = "logintrn";
-        }
-        else{
-            var loginURL = "login";
+        if(hostname.includes("trn.montanaworks")){
+                    montanaworksLogin = `https://oktapreview.loginmt.com`;
+            montanaworksRegister = `https://oktapreview.loginmt.com`;
         }
         
-        var montanaworksLogin = "https://"+loginURL+".montanaworks.gov/sso/XUI/?realm=mw#login";
-        var montanaworksRegister = "https://"+loginURL+".montanaworks.gov/sso/XUI/?realm=mw#register/";
-        var loginLinks = document.querySelectorAll("a[data-login]")
+                        var loginLinks = document.querySelectorAll("a[data-login]")
         var registerLinks = document.querySelectorAll("a[data-register]")
         
         loginLinks.forEach(function(a) {
@@ -172,22 +174,23 @@ document.addEventListener("DOMContentLoaded", function(){
 <script>
 document.addEventListener("DOMContentLoaded", function(){
         var hostname = window.location.hostname;
+        var montanaworksLogin = `https://login.montanaworks.gov/sso/XUI/?realm=mw#login`;
+        var montanaworksRegister = `https://login.montanaworks.gov/sso/XUI/?realm=mw#register/`;
+        var loginURL = "login";
         if(hostname.includes("dev.montanaworks")){
-            var loginURL = "logindev";
+                    montanaworksLogin = `https://oktapreview.loginmt.com`;
+            montanaworksRegister = `https://oktapreview.loginmt.com`;
         }
-        else if(hostname.includes("tst.montanaworks")){
-            var loginURL = "logintst";
+        if(hostname.includes("tst.montanaworks")){
+                    montanaworksLogin = `https://oktapreview.loginmt.com`;
+            montanaworksRegister = `https://oktapreview.loginmt.com`;
         }
-        else if(hostname.includes("trn.montanaworks")){
-            var loginURL = "logintrn";
-        }
-        else{
-            var loginURL = "login";
+        if(hostname.includes("trn.montanaworks")){
+                    montanaworksLogin = `https://oktapreview.loginmt.com`;
+            montanaworksRegister = `https://oktapreview.loginmt.com`;
         }
         
-        var montanaworksLogin = "https://"+loginURL+".montanaworks.gov/sso/XUI/?realm=mw#login";
-        var montanaworksRegister = "https://"+loginURL+".montanaworks.gov/sso/XUI/?realm=mw#register/";
-        var loginLinks = document.querySelectorAll("a[data-login]")
+                        var loginLinks = document.querySelectorAll("a[data-login]")
         var registerLinks = document.querySelectorAll("a[data-register]")
         
         loginLinks.forEach(function(a) {
@@ -2274,22 +2277,23 @@ document.addEventListener("DOMContentLoaded", function(){
 <script>
 document.addEventListener("DOMContentLoaded", function(){
         var hostname = window.location.hostname;
+        var montanaworksLogin = `https://login.montanaworks.gov/sso/XUI/?realm=mw#login`;
+        var montanaworksRegister = `https://login.montanaworks.gov/sso/XUI/?realm=mw#register/`;
+        var loginURL = "login";
         if(hostname.includes("dev.montanaworks")){
-            var loginURL = "logindev";
+                    montanaworksLogin = `https://oktapreview.loginmt.com`;
+            montanaworksRegister = `https://oktapreview.loginmt.com`;
         }
-        else if(hostname.includes("tst.montanaworks")){
-            var loginURL = "logintst";
+        if(hostname.includes("tst.montanaworks")){
+                    montanaworksLogin = `https://oktapreview.loginmt.com`;
+            montanaworksRegister = `https://oktapreview.loginmt.com`;
         }
-        else if(hostname.includes("trn.montanaworks")){
-            var loginURL = "logintrn";
-        }
-        else{
-            var loginURL = "login";
+        if(hostname.includes("trn.montanaworks")){
+                    montanaworksLogin = `https://oktapreview.loginmt.com`;
+            montanaworksRegister = `https://oktapreview.loginmt.com`;
         }
         
-        var montanaworksLogin = "https://"+loginURL+".montanaworks.gov/sso/XUI/?realm=mw#login";
-        var montanaworksRegister = "https://"+loginURL+".montanaworks.gov/sso/XUI/?realm=mw#register/";
-        var loginLinks = document.querySelectorAll("a[data-login]")
+                        var loginLinks = document.querySelectorAll("a[data-login]")
         var registerLinks = document.querySelectorAll("a[data-register]")
         
         loginLinks.forEach(function(a) {
