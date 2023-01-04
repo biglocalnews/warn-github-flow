@@ -17,7 +17,7 @@
 
 
 	
-	<script type="text/javascript" src="/dislocatedworker/warn/include/2022default.js?v=2"></script>
+	<script type="text/javascript" src="/dislocatedworker/warn/include/2022default.js?v=22"></script>
 	<script src="https://sheets.googleapis.com/v4/spreadsheets/1cyZiHZcepBI7ShB3dMcRprUFRG24lbwEnEDRBMhAqsA/values/Updates?key=AIzaSyDP0OltIjcmRQ6-9TTmEVDZPIX6BSFcunw&callback=handler2"></script>
 	<script src="https://sheets.googleapis.com/v4/spreadsheets/1cyZiHZcepBI7ShB3dMcRprUFRG24lbwEnEDRBMhAqsA/values/Originals?key=AIzaSyDP0OltIjcmRQ6-9TTmEVDZPIX6BSFcunw&callback=handler"></script>
 <style>
@@ -343,20 +343,16 @@
 <script src="/include/internet/js/popper.min.js?v1"></script>
 <script src="/include/internet/js/bootstrap.min.js?v2"></script>
 <script src="/include/internet/js/main.js?=v2"></script>
-
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-66BDZ3KKB5"></script>
 <script type="text/javascript">
-
 		if(window.location.href.indexOf("acc.") == -1){	
-			//Google analytics code. 
-			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-			ga('create', 'UA-49143950-5', 'auto');
-			ga('send', 'pageview');
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+			gtag('config', 'G-66BDZ3KKB5');
 		 
-			var links = $('a');
+			/*var links = $('a');
 			var htmregex = /^.*(\.htm)|(\.php)$/;
 			var aspregex = /^.*\.aspx*$/;
 			var isfile = /^.*\..{3}$/;
@@ -370,7 +366,7 @@
 				
 				ga('send', 'event', 'Click Event',  location.pathname, clickedLinkHref);
 
-			});
+			});*/
 		}
 	
 
