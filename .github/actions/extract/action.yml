@@ -36,7 +36,7 @@ runs:
           file_pattern: ./data/warn-scraper/*
  
       - name: Upload file to biglocalnews.org
-        uses: biglocalnews/upload-files@v1
+        uses: biglocalnews/upload-files@v2
         with:
           api-key: ${{ inputs.bln-api-key }}
           project-id: ${{ inputs.bln-project-id }}
