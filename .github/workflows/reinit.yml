@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Clone repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
         with:
           fetch-depth: 0
 
@@ -55,7 +55,7 @@ jobs:
           file_pattern: ./data/warn-transformer/*
 
       - name: Upload file to biglocalnews.org
-        uses: biglocalnews/upload-files@v1
+        uses: biglocalnews/upload-files@v2
         with:
           api-key: ${{ secrets.BLN_API_TOKEN }}
           project-id: ${{ secrets.BLN_PROJECT_ID }}
