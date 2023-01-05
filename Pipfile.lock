@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "69352f30e40e5082c6c6716d77b5188c4e8d6cc9cb04fa510795ce83a4560fa2"
+            "sha256": "ae9b5d8220bf5b0cef78927a8ee70be1582d1db0ab3144f99c8a58fe4d98c0e8"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -21,7 +21,7 @@
                 "sha256:58d5c3d29f5a36ffeb94f02f0d786cd53014cf9b3b3951d42e0080d8a9498d30",
                 "sha256:ad9aa55b65ef2808eb405f46cf74df7fcb7044d5cbc26487f96eb2ef2e436693"
             ],
-            "markers": "python_full_version >= '3.6.0'",
+            "markers": "python_version >= '3.6'",
             "version": "==4.11.1"
         },
         "bln": {
@@ -120,7 +120,7 @@
                 "sha256:5a3d016c7c547f69d6f81fb0db9449ce888b418b5b9952cc5e6e66843e9dd845",
                 "sha256:83e9a75d1911279afd89352c68b45348559d1fc0506b054b346651b5e7fee29f"
             ],
-            "markers": "python_full_version >= '3.6.0'",
+            "markers": "python_version >= '3.6'",
             "version": "==2.1.1"
         },
         "click": {
@@ -391,19 +391,19 @@
         },
         "warn-scraper": {
             "hashes": [
-                "sha256:300ba43e97abda96bdee3d888db408196e46ed2246869202a4acf5c94208bac9",
-                "sha256:3de2e6df4eaa13bdb071bf0d46d9cd3464fa1ad8070d563905377b4c7124c52c"
+                "sha256:339cff337b0b18679220630f62672070c6f47205ffcfff0ec02b549e2a389d48",
+                "sha256:a467d1403305fa7ba1b8a13d68896f7f30b249702ee41f80239fdddc42fb3ab3"
             ],
             "index": "pypi",
-            "version": "==1.2.23"
+            "version": "==1.2.24"
         },
         "warn-transformer": {
             "hashes": [
-                "sha256:bab1f30cd6af4fc50259e7266d2e3513e8d64676a8d5af77cd88e59efa9d95a2",
-                "sha256:ced67831940b39e628ca74e6d2ff5d2bb601209afc4cefe683aa3e381252b31c"
+                "sha256:8d9dab69af4c64b12166dae1bcd04fe06cc2fc17d009787bf214863675978546",
+                "sha256:f49cecae5ee7373a396c06b3cad62605208ee513f6e6f66aa1e918e22be2fb0e"
             ],
             "index": "pypi",
-            "version": "==1.3.22"
+            "version": "==1.3.25"
         },
         "webencodings": {
             "hashes": [
