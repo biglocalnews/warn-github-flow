@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "25d77f3ad46198b2932324024c56e88b8262a0bf1f697cbaf1f48b07bed270b4"
+            "sha256": "ae9b5d8220bf5b0cef78927a8ee70be1582d1db0ab3144f99c8a58fe4d98c0e8"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -21,7 +21,7 @@
                 "sha256:58d5c3d29f5a36ffeb94f02f0d786cd53014cf9b3b3951d42e0080d8a9498d30",
                 "sha256:ad9aa55b65ef2808eb405f46cf74df7fcb7044d5cbc26487f96eb2ef2e436693"
             ],
-            "markers": "python_full_version >= '3.6.0'",
+            "markers": "python_version >= '3.6'",
             "version": "==4.11.1"
         },
         "bln": {
@@ -120,7 +120,7 @@
                 "sha256:5a3d016c7c547f69d6f81fb0db9449ce888b418b5b9952cc5e6e66843e9dd845",
                 "sha256:83e9a75d1911279afd89352c68b45348559d1fc0506b054b346651b5e7fee29f"
             ],
-            "markers": "python_full_version >= '3.6.0'",
+            "markers": "python_version >= '3.6'",
             "version": "==2.1.1"
         },
         "click": {
@@ -384,18 +384,18 @@
         },
         "wand": {
             "hashes": [
-                "sha256:373f4a7f2866c868c31ce910e1f9b36a92d132640a20068ec17cea3284fedc57",
-                "sha256:ff69eeba36ec243d9a80dec31e738091653dcd01c2668a9c22dc3ff20392596b"
+                "sha256:1b77e25439ace57f665d1ccc6cff2766fad0834005b89ae3e7aaf3ba12b124b0",
+                "sha256:b661700da9f8f1e931e52726e4fc643a565b9514f5883d41b773e3c37c9fa995"
             ],
-            "version": "==0.6.10"
+            "version": "==0.6.11"
         },
         "warn-scraper": {
             "hashes": [
-                "sha256:63d81922ce249bec4a365db9874267c9f2d0365f4a9612ce55992b834d0ee3b0",
-                "sha256:9b82334d8c61d9d23acc92bb9e38153a0cf0446eaf450da4ab254986a6b70208"
+                "sha256:339cff337b0b18679220630f62672070c6f47205ffcfff0ec02b549e2a389d48",
+                "sha256:a467d1403305fa7ba1b8a13d68896f7f30b249702ee41f80239fdddc42fb3ab3"
             ],
             "index": "pypi",
-            "version": "==1.2.22"
+            "version": "==1.2.24"
         },
         "warn-transformer": {
             "hashes": [
