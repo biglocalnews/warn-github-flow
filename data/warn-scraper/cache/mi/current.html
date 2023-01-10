@@ -82,9 +82,8 @@
 			
     <header class="header" style="background-image:url('../_files/images/mackinac-bridge.png');">
         <div class="heading text-right p-3">
-                	        <span class="site-name">Michigan Bureau of Labor Market</span>
-    	            	                <span class="lead">Information and Strategic Initiatives</span>
-                	</div>
+                	        <span class="site-name">Michigan Labor Market Information</span>
+    	            	    	</div>
     </header>
 
 			<nav class="navbar navbar-expand-xl navbar-dark sticky-top">
@@ -102,6 +101,8 @@
                                                 <a class="dropdown-item      " href="../DataSearch/index">Data Search</a>
                                                                 <a class="dropdown-item" href="https://www.mcgi.state.mi.us/mieconomy/">MiEconomy</a>
                                                                 <a class="dropdown-item      " href="../Regional-Dashboard/index">Regional Dashboard</a>
+                                                                <a class="dropdown-item      " href="../DataSearch/Apprenticeship">Michigan Registered Apprenticeship Dashboard </a>
+                                                                <a class="dropdown-item      " href="../Publication/Online-Job-Ads/Prosperity-Region-Job-Demand-Snapshots">Online Job Ad Snapshots</a>
                                     </div>
     </li>
                                                             <li class="nav-item dropdown mega-menu-dropdown">
@@ -662,9 +663,11 @@ document.addEventListener("DOMContentLoaded", function() {
 <li class="nav-item"><a class="nav-link" href="http://milmi.org/Contact-Us">Contact</a></li>
 <li class="nav-item"><a class="nav-link" href="http://www.michigan.gov/policies">Policies</a></li>
 </ul>
-<p class="copyright" style="text-align: center;">Copyright <span id="copyright-year">2022</span> State of Michigan</p>
+<p class="copyright" style="text-align: center;">Copyright <span id="copyright-year">2023</span> State of Michigan</p>
 <script>// <![CDATA[
-$('#copyright-year').html(new Date().getFullYear())
+$( document ).ready(function() {
+$('#copyright-year').html(new Date().getFullYear());
+});
 // ]]></script>
     	            </div>
     </div>
