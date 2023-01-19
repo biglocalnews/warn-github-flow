@@ -110,12 +110,12 @@
 <script>
 document.addEventListener("DOMContentLoaded", function(){
         var hostname = window.location.hostname;
-        var montanaworksLogin = `https://login.montanaworks.gov/sso/XUI/?realm=mw#login`;
-        var montanaworksRegister = `https://login.montanaworks.gov/sso/XUI/?realm=mw#register/`;
+        var montanaworksLogin = `https://okta.loginmt.com/`;
+        var montanaworksRegister = `https://okta.loginmt.com/signin/register`;
         var loginURL = "login";
         if(hostname.includes("dev.montanaworks")){
-                    montanaworksLogin = `https://oktapreview.loginmt.com`;
-            montanaworksRegister = `https://oktapreview.loginmt.com`;
+                    montanaworksLogin = `https://okta.loginmt.com/`;
+            montanaworksRegister = `https://okta.loginmt.com/signin/register`;
         }
         if(hostname.includes("tst.montanaworks")){
                     montanaworksLogin = `https://oktapreview.loginmt.com`;
@@ -352,7 +352,7 @@ document.addEventListener("DOMContentLoaded", function(){
 				<a class="nav-link" href="https://www.careeronestop.org/JobSearch/FindJobs/find-jobs.aspx">Search for Jobs in Montana</a>
 			</li>
 			<li class="menu__item" role="menuitem">
-				<a class="nav-link openam" href="https://login.montanaworks.gov/sso/XUI/?realm=mw#register/">File for Unemployment Insurance</a>
+				<a class="nav-link openam" href="https://okta.loginmt.com/signin/register">File for Unemployment Insurance</a>
 			</li>
 			<li class="menu__item" role="menuitem">
 				<a class="nav-link" href="https://uid.dli.mt.gov/claimants/benefits-estimator.html">Estimate Your Benefits</a>
@@ -424,7 +424,7 @@ document.addEventListener("DOMContentLoaded", function(){
 		
 		<ul aria-label="Unemployment" class="menu__level" data-menu="submenu-2-1-2" id="submenu-2-1-2" role="menu" tabindex="-1">
 			<li class="menu__item" role="menuitem">
-				<a class="nav-link openam" href="https://login.montanaworks.gov/sso/XUI/?realm=mw#register/">File for Unemployment</a>
+				<a class="nav-link openam" href="https://okta.loginmt.com/signin/register">File for Unemployment</a>
 			</li>
 			<li class="menu__item" role="menuitem">
 				<a class="nav-link" href="http://survivingalayoff.mt.gov/">Surviving a Layoff</a>
@@ -2237,12 +2237,12 @@ document.addEventListener("DOMContentLoaded", function(){
 <script>
 document.addEventListener("DOMContentLoaded", function(){
         var hostname = window.location.hostname;
-        var montanaworksLogin = `https://login.montanaworks.gov/sso/XUI/?realm=mw#login`;
-        var montanaworksRegister = `https://login.montanaworks.gov/sso/XUI/?realm=mw#register/`;
+        var montanaworksLogin = `https://okta.loginmt.com/`;
+        var montanaworksRegister = `https://okta.loginmt.com/signin/register`;
         var loginURL = "login";
         if(hostname.includes("dev.montanaworks")){
-                    montanaworksLogin = `https://oktapreview.loginmt.com`;
-            montanaworksRegister = `https://oktapreview.loginmt.com`;
+                    montanaworksLogin = `https://okta.loginmt.com/`;
+            montanaworksRegister = `https://okta.loginmt.com/signin/register`;
         }
         if(hostname.includes("tst.montanaworks")){
                     montanaworksLogin = `https://oktapreview.loginmt.com`;
@@ -2295,9 +2295,9 @@ Helena, MT 59604</p>
 			<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 		  </div>
 		  <div class="modal-body text-white d-block" id="loginModalPanes">
-				<a data-login="" class="btn btn-primary raised openam" href="https://login.montanaworks.gov/sso/XUI/?realm=mw#login" role="button" onclick="_paq.push(['trackEvent', 'Login', 'Job Seeker']);"><span class="btn-label"><i class="clipboard svgbg"></i></span><span class="btn-text">Job Seeker|UI Claimant</span></a>
+				<a data-login="" class="btn btn-primary raised openam" href="https://okta.loginmt.com/" role="button" onclick="_paq.push(['trackEvent', 'Login', 'Job Seeker']);"><span class="btn-label"><i class="clipboard svgbg"></i></span><span class="btn-text">Job Seeker|UI Claimant</span></a>
                 <h6 class="btn text-secondary text-centers mb-0 p-0 d-block">Work Opportunity Tax Credit</h6>
-                <a data-login="" class="btn btn-primary raised openam" href="https://login.montanaworks.gov/sso/XUI/?realm=mw#login" onclick="_paq.push(['trackEvent', 'Login', 'WOTC Business or Consultant']);" role="button"><span class="btn-label"><i class="dollar-sign svgbg"></i></span><span class="btn-text">Business or Consultant</span></a>
+                <a data-login="" class="btn btn-primary raised openam" href="https://okta.loginmt.com/" onclick="_paq.push(['trackEvent', 'Login', 'WOTC Business or Consultant']);" role="button"><span class="btn-label"><i class="dollar-sign svgbg"></i></span><span class="btn-text">Business or Consultant</span></a>
           </div>
 		  <div class="modal-footer">
 			<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -2313,9 +2313,9 @@ Helena, MT 59604</p>
 			<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 		  </div>
 		  <div class="modal-body text-white" id="registerModalPanes">
-				<a data-register="" href="https://login.montanaworks.gov/sso/XUI/?realm=mw#register/" data-track-content="" data-content-name="Job Seeker" data-content-piece="Job Seeker Register Button" class="btn btn-dliGreen raised text-white openam" role="button" onclick="_paq.push(['trackEvent', 'Register', 'Job Seeker']);"><span class="btn-label"><i class="clipboard svgbg"></i></span><span class="btn-text">Job Seeker|UI Claimant</span></a>
+				<a data-register="" href="https://okta.loginmt.com/signin/register" data-track-content="" data-content-name="Job Seeker" data-content-piece="Job Seeker Register Button" class="btn btn-dliGreen raised text-white openam" role="button" onclick="_paq.push(['trackEvent', 'Register', 'Job Seeker']);"><span class="btn-label"><i class="clipboard svgbg"></i></span><span class="btn-text">Job Seeker|UI Claimant</span></a>
                 <h6 class="btn text-secondary text-centers mb-0 p-0 d-block">Work Opportunity Tax Credit</h6>
-                <a data-register="" class="btn btn-dliGreen text-white raised openam" href="https://login.montanaworks.gov/sso/XUI/?realm=mw#register/" onclick="_paq.push(['trackEvent', 'Create Account', 'WOTC Business or Consultant']);" role="button"><span class="btn-label"><i class="dollar-sign svgbg"></i></span><span class="btn-text">Business or Consultant</span></a>
+                <a data-register="" class="btn btn-dliGreen text-white raised openam" href="https://okta.loginmt.com/signin/register" onclick="_paq.push(['trackEvent', 'Create Account', 'WOTC Business or Consultant']);" role="button"><span class="btn-label"><i class="dollar-sign svgbg"></i></span><span class="btn-text">Business or Consultant</span></a>
           </div>
 		  <div class="modal-footer">
 			<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
