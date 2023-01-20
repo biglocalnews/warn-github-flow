@@ -112,9 +112,8 @@ document.addEventListener("DOMContentLoaded", function(){
         var hostname = window.location.hostname;
         var montanaworksLogin = `https://okta.loginmt.com/`;
         var montanaworksRegister = `https://okta.loginmt.com/signin/register`;
-        var loginURL = "login";
         if(hostname.includes("dev.montanaworks")){
-                    montanaworksLogin = `https://okta.loginmt.com/`;
+                    montanaworksLogin = `https://profile.montanaworks.gov/profile/profilewizard`;
             montanaworksRegister = `https://okta.loginmt.com/signin/register`;
         }
         if(hostname.includes("tst.montanaworks")){
@@ -126,7 +125,7 @@ document.addEventListener("DOMContentLoaded", function(){
             montanaworksRegister = `https://oktapreview.loginmt.com`;
         }
         
-                        var loginLinks = document.querySelectorAll("a[data-login]")
+        var loginLinks = document.querySelectorAll("a[data-login]")
         var registerLinks = document.querySelectorAll("a[data-register]")
         
         loginLinks.forEach(function(a) {
@@ -2239,9 +2238,8 @@ document.addEventListener("DOMContentLoaded", function(){
         var hostname = window.location.hostname;
         var montanaworksLogin = `https://okta.loginmt.com/`;
         var montanaworksRegister = `https://okta.loginmt.com/signin/register`;
-        var loginURL = "login";
         if(hostname.includes("dev.montanaworks")){
-                    montanaworksLogin = `https://okta.loginmt.com/`;
+                    montanaworksLogin = `https://profile.montanaworks.gov/profile/profilewizard`;
             montanaworksRegister = `https://okta.loginmt.com/signin/register`;
         }
         if(hostname.includes("tst.montanaworks")){
@@ -2253,7 +2251,7 @@ document.addEventListener("DOMContentLoaded", function(){
             montanaworksRegister = `https://oktapreview.loginmt.com`;
         }
         
-                        var loginLinks = document.querySelectorAll("a[data-login]")
+        var loginLinks = document.querySelectorAll("a[data-login]")
         var registerLinks = document.querySelectorAll("a[data-register]")
         
         loginLinks.forEach(function(a) {
