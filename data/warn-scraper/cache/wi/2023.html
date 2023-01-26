@@ -6,7 +6,7 @@
 
 	<meta name="description" content="This is information about recently submitted WARN notices in the State of Wisconsin"/>
 
-	<title>2023 WARN Notices and Updates</title>
+	<title>WARN Notices and Updates</title>
 	
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -17,9 +17,18 @@
 
 
 	
-	<script type="text/javascript" src="/dislocatedworker/warn/include/default2022old.js?v=2"></script>
+<!--
 	<script src="https://sheets.googleapis.com/v4/spreadsheets/1cyZiHZcepBI7ShB3dMcRprUFRG24lbwEnEDRBMhAqsA/values/Updates?key=AIzaSyDP0OltIjcmRQ6-9TTmEVDZPIX6BSFcunw&callback=handler2"></script>
 	<script src="https://sheets.googleapis.com/v4/spreadsheets/1cyZiHZcepBI7ShB3dMcRprUFRG24lbwEnEDRBMhAqsA/values/Originals?key=AIzaSyDP0OltIjcmRQ6-9TTmEVDZPIX6BSFcunw&callback=handler"></script>
+-->
+	<!-- Gets Updates first so they can be applied to all of the notices. -->
+	<!--
+	<script src="https://sheets.googleapis.com/v4/spreadsheets/1cyZiHZcepBI7ShB3dMcRprUFRG24lbwEnEDRBMhAqsA/values/Updates?key=AIzaSyDP0OltIjcmRQ6-9TTmEVDZPIX6BSFcunw&callback=processUpdates" defer></script>
+	--->
+	<!-- Gets original Notices and applied corresponding updates. -->
+	<!--
+	<script src="https://sheets.googleapis.com/v4/spreadsheets/1cyZiHZcepBI7ShB3dMcRprUFRG24lbwEnEDRBMhAqsA/values/Originals?key=AIzaSyDP0OltIjcmRQ6-9TTmEVDZPIX6BSFcunw&callback=processNotices" defer></script>
+	-->
 <style>
 	table {border: none !important;color: #000000 !important;}
 	.updatedInfo {background-color:#D5EDFF !important;}
@@ -213,11 +222,12 @@
 					<li class="breadcrumb-item"><a href="/det/">Employment &amp; Training</a></li>
 					<li class="breadcrumb-item"><a href="/det/jobseeker.htm">Job Seeker</a></li>
 					<li class="breadcrumb-item"><a href="/dislocatedworker/">Dislocated Worker</a></li>
-					<li class="breadcrumb-item active">WARN Notices</li>
+					<li class="breadcrumb-item"><a href="/dislocatedworker/warn/">WARN Notices</a></li>
+					<li class="breadcrumb-item active" id="noticePage"></li>
 				</ol>
 				
-				<div class="float-end me-3">This page was last updated on January 24, 2023</div>
-				<h1>2023 Layoff Notices and Updates Filed with DWD</h1>
+				<div class="float-end me-3">This page was last updated on <span id="lastUpdated"></span></div>
+				<h1 id="noticeYear">Layoff Notices and Updates Filed with DWD</h1>
 				
 				<p>In certain circumstances, federal and/or state law requires businesses laying off workers employed in Wisconsin to provide the State's Department of Workforce Development (DWD) with advance written notice of the layoffs.</p>
 					
@@ -255,19 +265,58 @@
 				<div style="clear:both;"><strong>* In instances where there are one or more revisions to the original layoff notice, the most recent revision reflects the total number of workers affected, as reported by the employer.</strong></div>
 				
 				<hr style="clear:both"/>
-				<div>
-					<script type="text/javascript">outputArray2Page()</script>
+
+				<style>
+					#progressBar {
+						background-color: #aaa;
+						-webkit-appearance: none;
+						-moz-appearance: none;
+						appearance: none;
+						accent-color: #003663;
+						height: 20px;
+						width: inherit;
+						border-radius: 10px;
+					}
+					#progressBar::-webkit-progress-bar {
+						background-color: #aaa;
+						border-radius: 10px;
+					}
+					#progressBar::-webkit-progress-value {
+						background-color: #003663;
+						transition: width 0.5s ease-in, background-color 0.5s ease-in;
+						-webkit-transition: width 0.5s ease-in, background-color 0.5s ease-in;
+						border-radius: 10px;
+					}
+					#progressBar::-moz-progress-bar {
+						background-color: #003663;
+						transition: width 0.5s ease-in, background-color 0.5s ease-in;
+						-webkit-transition: width 0.5s ease-in, background-color 0.5s ease-in;
+						border-radius: 10px;
+					}
+				</style>
+
+				<progress id="progressBar" style="width: 100%;" max="100" value="0" data-active="true"></progress>
+
+				<div id="warnNotices">
+					<!-- <script type="text/javascript">outputArray2Page()</script> -->
 				</div>
-				<p class="mb-4" style="clear:left;"><br/>
-					<strong id="affectedWorkerTotal">Current 2023 Affected Worker Totals:&nbsp;256</strong><br/> <!-- updated 1/24/23 MB -->
+			
+				<script type="text/javascript">
+					
+
+					
+				</script>
+			
+				<p class="mb-5" style="clear:left;"><br/>
+					<strong id="affectedWorkerTotal">Current 2022 Affected Worker Totals:&nbsp;</strong><br/> <!-- updated 11/29/22 KK -->
 					(Includes New Notices and Updates to Previous Notices)<br/>
 					<!-- em>This information is updated daily at 4:30 pm.</em --></p>
 
 				<ul style="padding: unset; line-height: 2rem; list-style-type: none;">
     <li><a href="/dislocatedworker/warn/">Current Layoff Notice Information</a></li>
-    <li><a href="/dislocatedworker/warn/2022/default.htm">2022 Layoff Notice Information</a></li>
-    <li><a href="/dislocatedworker/warn/2021/default.htm">2021 Layoff Notice Information</a></li>
-    <li><a href="/dislocatedworker/warn/2020/default.htm">2020 Layoff Notice Information</a></li>
+    <li><a href="/dislocatedworker/warn/default.htm?year=2022">2022 Layoff Notice Information</a></li>
+    <li><a href="/dislocatedworker/warn/default.htm?year=2021">2021 Layoff Notice Information</a></li>
+    <li><a href="/dislocatedworker/warn/default.htm?year=2020">2020 Layoff Notice Information</a></li>
     <li><a href="/dislocatedworker/warn/2019/default.htm">2019 Layoff Notice Information</a></li>
     <li><a href="/dislocatedworker/warn/2018/default.htm">2018 Layoff Notice Information</a></li>
     <li><a href="/dislocatedworker/warn/2017/default.htm">2017 Layoff Notice Information</a></li>
@@ -275,7 +324,7 @@
 </ul>
 
 <p>Layoff notices from previous years may be requested from the <a href="mailto:askarchives@wisconsinhistory.org">Wisconsin Historical Society</a>
- 
+				
 			</div>
 		</div>
 
@@ -369,7 +418,10 @@
 		  
 		<!--<script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>  -->
 
+		<script type="text/javascript" src="/dislocatedworker/warn/include/default.js?v=19"></script>
+
 		<script>
+			
 			/*
 			2022-07-25 KK Took out because the updates won't calculate properly, will have to revisit.
 			let affectedWorkerTotal = 0;
