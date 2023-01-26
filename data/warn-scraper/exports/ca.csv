@@ -697,13 +697,13 @@ notice_date,effective_date,received_date,company,city,num_employees,layoff_or_cl
 01/18/2023,03/19/2023,01/20/2023,Amazon,,20,Layoff Permanent,San Francisco County,525 Market St  San Francisco CA 94105,warn_report.xlsx
 01/18/2023,03/20/2023,01/20/2023,"8x8, Inc.",,61,Layoff Permanent,Santa Clara County,675 Creekside Way  Campbell CA 95008,warn_report.xlsx
 01/17/2023,01/16/2023,01/20/2023,EMCA Staff LLC/ACME Labor LLC,,2,Layoff Permanent,Santa Barbara County,133 E De La Guerra St  Santa Barbara CA 93101,warn_report.xlsx
-01/20/2023,03/31/2023,01/23/2023,Google,,22,Layoff Permanent,Los Angeles County,350 Main Street US-LAX-BIN2 Los Angeles CA 90291,warn_report.xlsx
-01/20/2023,03/31/2023,01/23/2023,Google,,6,Layoff Permanent,Los Angeles County,321 Hampton Drive US-LAX-BIN3 Los Angeles CA 90291,warn_report.xlsx
-01/20/2023,03/31/2023,01/23/2023,Google,,2,Layoff Permanent,Los Angeles County,300 Rose Avenue US-LAX-BIN4 Los Angeles CA 90291,warn_report.xlsx
-01/20/2023,03/31/2023,01/23/2023,Google,,4,Layoff Permanent,Los Angeles County,320 Hampton Drive US-LAX-BIN5 Los Angeles CA 90291,warn_report.xlsx
-01/20/2023,03/31/2023,01/23/2023,Google,,5,Layoff Permanent,Los Angeles County,248 Main Street US-LAX-BIN7 Los Angeles CA 90291,warn_report.xlsx
-01/20/2023,03/31/2023,01/23/2023,Google,,123,Layoff Permanent,Los Angeles County,5865 Campus Center Drive US-PLV-H15 Playa Vista CA 90094,warn_report.xlsx
-01/20/2023,03/31/2023,01/23/2023,Google,,1,Layoff Permanent,Los Angeles County,12422 West Bluff Creek Drive US-PLV-H17 Playa Vista CA 90094,warn_report.xlsx
+01/20/2023,03/31/2023,01/23/2023,Google LA 5,,22,Layoff Permanent,Los Angeles County,350 Main Street US-LAX-BIN2 Los Angeles CA 90291,warn_report.xlsx
+01/20/2023,03/31/2023,01/23/2023,Google LA 5,,6,Layoff Permanent,Los Angeles County,321 Hampton Drive US-LAX-BIN3 Los Angeles CA 90291,warn_report.xlsx
+01/20/2023,03/31/2023,01/23/2023,Google LA 2,,2,Layoff Permanent,Los Angeles County,300 Rose Avenue US-LAX-BIN4 Los Angeles CA 90291,warn_report.xlsx
+01/20/2023,03/31/2023,01/23/2023,Google LA 3,,4,Layoff Permanent,Los Angeles County,320 Hampton Drive US-LAX-BIN5 Los Angeles CA 90291,warn_report.xlsx
+01/20/2023,03/31/2023,01/23/2023,Google LA 1,,5,Layoff Permanent,Los Angeles County,248 Main Street US-LAX-BIN7 Los Angeles CA 90291,warn_report.xlsx
+01/20/2023,03/31/2023,01/23/2023,Google Playa 2,,123,Layoff Permanent,Los Angeles County,5865 Campus Center Drive US-PLV-H15 Playa Vista CA 90094,warn_report.xlsx
+01/20/2023,03/31/2023,01/23/2023,Google Playa 1,,1,Layoff Permanent,Los Angeles County,12422 West Bluff Creek Drive US-PLV-H17 Playa Vista CA 90094,warn_report.xlsx
 01/20/2023,03/31/2023,01/23/2023,Google,,20,Layoff Permanent,San Mateo County,1100 Grundy Lane  San Bruno CA 94066,warn_report.xlsx
 01/20/2023,03/31/2023,01/23/2023,Google,,31,Layoff Permanent,San Mateo County,900 Cherry Avenue  San Bruno CA 94066,warn_report.xlsx
 01/20/2023,03/31/2023,01/23/2023,Google,,40,Layoff Permanent,San Mateo County,901 Cherry Avenue  San Bruno CA 94066,warn_report.xlsx
@@ -721,6 +721,35 @@ notice_date,effective_date,received_date,company,city,num_employees,layoff_or_cl
 01/20/2023,03/31/2023,01/23/2023,Google,,32,Layoff Permanent,Orange County,19520 Jamboree Road  Irvine CA 92612,warn_report.xlsx
 12/19/2022,02/18/2023,01/23/2023,San Benito Health Care District dba Hazel Hawkins Memorial Hosptial,,741,Closure Permanent,San Benito County,911 Sunset Drive  Hollister CA 95023,warn_report.xlsx
 01/11/2023,01/11/2023,01/23/2023,Abzena (San Diego) Inc.,,66,Layoff Permanent,San Diego County,"8810 Rehco Rd, Suite E,  San Diego CA 92121",warn_report.xlsx
+12/28/2022,02/26/2023,01/24/2023,Radial,,339,Closure Permanent,Los Angeles County,2101 Flotilla St  Montebello CA 90640,warn_report.xlsx
+01/20/2023,03/29/2023,01/24/2023,"Stratasys Direct, Inc.",,85,Closure Permanent,Los Angeles County,28309 Avenue Crocker  Valencia CA 91355,warn_report.xlsx
+01/05/2023,03/06/2023,01/24/2023,"Fate Therapeutics, Inc.",,21,Layoff Permanent,San Mateo County,701 Gateway Blvd. Suite 300  South San Francisco CA 94080,warn_report.xlsx
+01/20/2023,03/31/2023,01/24/2023,Google,,140,Layoff Permanent,Santa Clara County,1201 Charleston Rd  Mountain View CA 94043,warn_report.xlsx
+01/20/2023,03/31/2023,01/24/2023,Google,,8,Layoff Permanent,Santa Clara County,1210 Charleston Road  Mountain View CA 94043,warn_report.xlsx
+01/20/2023,03/31/2023,01/24/2023,Google,,6,Layoff Permanent,Santa Clara County,1215 Charleston Road  Mountain View CA 94043,warn_report.xlsx
+01/20/2023,03/31/2023,01/24/2023,Google,,3,Layoff Permanent,Santa Clara County,1220 Charleston Rd  Mountain View CA 94043,warn_report.xlsx
+01/20/2023,03/31/2023,01/24/2023,Google,,21,Layoff Permanent,Santa Clara County,1225 Charleston Road  Mountain View CA 94043,warn_report.xlsx
+01/20/2023,03/31/2023,01/24/2023,Google,,17,Layoff Permanent,Santa Clara County,1230 Charleston Rd  Mountain View CA 94043,warn_report.xlsx
+01/20/2023,03/31/2023,01/24/2023,Google,,24,Layoff Permanent,Santa Clara County,1245 Charleston Road  Mountain View CA 94043,warn_report.xlsx
+01/20/2023,03/31/2023,01/24/2023,Google,,19,Layoff Permanent,Santa Clara County,1295 Charleston Road  Mountain View CA 94043,warn_report.xlsx
+01/13/2023,03/15/2023,01/24/2023,Intel Corporation,,42,Layoff Permanent,Santa Clara County,2200 Mission College Boulevard  Santa Clara CA 95054,warn_report.xlsx
+01/13/2023,03/15/2023,01/24/2023,Intel Corporation,,9,Layoff Permanent,Santa Clara County,2191 Laurelwood Rd  Santa Clara CA 95054,warn_report.xlsx
+01/13/2023,03/15/2023,01/24/2023,Intel Corporation,,101,Layoff Permanent,Santa Clara County,3600 Juliette Lane  Santa Clara CA 95054,warn_report.xlsx
+01/13/2023,03/15/2023,01/24/2023,Intel Corporation,,25,Layoff Permanent,Santa Clara County,2250 Mission College  Santa Clara CA 95054,warn_report.xlsx
+01/20/2023,03/31/2023,01/24/2023,Google,,8,Layoff Permanent,Santa Clara County,1300 Charleston Road  Mountain View CA 94043,warn_report.xlsx
+01/20/2023,03/31/2023,01/24/2023,Google,,18,Layoff Permanent,Santa Clara County,1350 Charleston Road  Mountain View CA 94043,warn_report.xlsx
+01/20/2023,03/31/2023,01/24/2023,Google,,8,Layoff Permanent,Santa Clara County,1395 Charleston Road  Mountain View CA 94043,warn_report.xlsx
+01/20/2023,03/31/2023,01/24/2023,Google,,20,Layoff Permanent,Santa Clara County,1600 Plymouth Street  Mountain View CA 94043,warn_report.xlsx
+01/20/2023,03/31/2023,01/24/2023,Google,,2,Layoff Permanent,Santa Clara County,1667 Plymouth Street  Mountain View CA 94043,warn_report.xlsx
+01/20/2023,03/31/2023,01/24/2023,Google,,4,Layoff Permanent,Santa Clara County,1708 North Shoreline Boulevard  Mountain View CA 94043,warn_report.xlsx
+01/20/2023,03/31/2023,01/24/2023,Google,,11,Layoff Permanent,Santa Clara County,1808 North Shoreline Boulevard  Mountain View CA 94043,warn_report.xlsx
+01/20/2023,03/31/2023,01/24/2023,Google,,31,Layoff Permanent,Santa Clara County,1842 North Shoreline Blvd  Mountain View CA 94043,warn_report.xlsx
+01/05/2023,03/06/2023,01/24/2023,"Fate Therapeutics, Inc.",,43,Layoff Permanent,San Diego County,"12121 Scripps Summit Drive, Suite 200  San Diego CA 92131",warn_report.xlsx
+01/05/2023,03/06/2023,01/24/2023,"Fate Therapeutics, Inc.",,34,Layoff Permanent,San Diego County,"3535 General Atomics Court, Suite 200  San Diego CA 92121",warn_report.xlsx
+01/05/2023,03/06/2023,01/24/2023,"Fate Therapeutics, Inc.",,217,Layoff Permanent,San Diego County,12278 Scripps Summit Drive  San Diego CA 92123,warn_report.xlsx
+01/16/2023,03/31/2023,01/25/2023,Spartronics,,74,Closure Permanent,Santa Clara County,1940 Milmont Drive  Milpitas CA 95035,warn_report.xlsx
+01/20/2023,03/31/2023,01/25/2023,"Delaware North Companies Travel Hospitality Services, Inc",,96,Layoff Permanent,San Bernardino County,1923 East Avian Street  Ontario CA 91761,warn_report.xlsx
+01/18/2023,03/20/2023,01/25/2023,"Liminex, Inc. dba GoGuardian",,86,Layoff Permanent,Los Angeles County,2030 East Maple Avenue  El Segundo CA 90245,warn_report.xlsx
 06/25/2021,07/31/2021,07/01/2021,Hotel Managers Group at the DoubleTree Hotel,,63,Layoff Permanent,Alameda County,,warn-report-for-7-1-2021-to-06-30-2022.pdf
 06/29/2021,07/29/2021,07/01/2021,IAP Worldwide Services Inc.,,108,Layoff Permanent,Fresno County,,warn-report-for-7-1-2021-to-06-30-2022.pdf
 06/28/2021,06/29/2021,07/01/2021,Farmgirl Flowers,,72,Closure Permanent,Santa Cruz County,,warn-report-for-7-1-2021-to-06-30-2022.pdf
