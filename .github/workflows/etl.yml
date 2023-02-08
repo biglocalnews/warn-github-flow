@@ -57,7 +57,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Clone repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
         with:
           fetch-depth: 0
 
@@ -77,7 +77,7 @@ jobs:
         uses: slackapi/slack-github-action@v1.18.0
         with:
           channel-id: ${{ secrets.SLACK_CHANNEL_ID }}
-          slack-message: "🚨 WARN Act Notice ETL scrape for `${{ matrix.source }}` failed at https://github.com/biglocalnews/warn-github-flow/actions"
+          slack-message: "🚨Layoff Watch ETL extraction run <https://github.com/biglocalnews/warn-github-flow/actions/runs/${{ github.run_id }}|#${{ github.run_id }}> for `${{ matrix.source }}` failed"
         env:
           SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
 
@@ -87,7 +87,7 @@ jobs:
     needs: [extract]
     steps:
       - name: Clone repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
         with:
           fetch-depth: 0
 
@@ -106,7 +106,7 @@ jobs:
         uses: slackapi/slack-github-action@v1.18.0
         with:
           channel-id: ${{ secrets.SLACK_CHANNEL_ID }}
-          slack-message: "🚨 WARN Act Notice ETL transformation failed at https://github.com/biglocalnews/warn-github-flow/actions"
+          slack-message: "🚨 Layoff Watch ETL tranformation run <https://github.com/biglocalnews/warn-github-flow/actions/runs/${{ github.run_id }}|#${{ github.run_id }}> failed"
         env:
           SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
 
@@ -120,7 +120,7 @@ jobs:
         uses: slackapi/slack-github-action@v1.18.0
         with:
           channel-id: ${{ secrets.SLACK_CHANNEL_ID }}
-          slack-message: "👍 WARN Act Notice ETL finished at https://github.com/biglocalnews/warn-github-flow/actions"
+          slack-message: "👍 Layoff Watch ETL run <https://github.com/biglocalnews/warn-github-flow/actions/runs/${{ github.run_id }}|#${{ github.run_id }}> finished successfully"
         env:
           SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
 
@@ -135,7 +135,7 @@ jobs:
 
     steps:
       - name: Clone repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
         with:
           fetch-depth: 0
 
@@ -160,7 +160,7 @@ jobs:
         shell: bash
 
       - name: Install private dependencies
-        run: pip install warn-bot==0.1.4 -vv --index-url https://us-west2-python.pkg.dev/big-local-news-267923/warn-bot/simple/ --extra-index-url https://pypi.org/simple/
+        run: pip install warn-bot==0.1.9 -vv --index-url https://us-west2-python.pkg.dev/big-local-news-267923/warn-bot/simple/ --extra-index-url https://pypi.org/simple/
         shell: bash
         env:
             GOOGLE_APPLICATION_CREDENTIALS: ${{ steps.auth-gcloud.outputs.credentials_file_path }}
