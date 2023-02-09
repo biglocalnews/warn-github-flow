@@ -618,14 +618,49 @@ function toggleButton(element) {
 
             </div>
         </div>
-        
+            <script type="text/javascript" src="https://www.astutebot.com/chat/script/AstuteBotLauncher.min.js"></script>
+    <script>
+        astuteBotLauncher.init({
+            secondsBeforeDisplaying: 3,
+            chatInitiallyVisible: false,
+            hideLauncherButtonWhenChatVisible: true,
+            autoGetStarted: true,
+            conversationServiceId: null,
+            persistConversationAcrossSession: true,
+            fullScreenMobile: true,
+            replyHeightPixels: 50,
+            initialContext: JSON.stringify([
+                {
+                    userInfo: {
+                        language: "en"
+                    },
+                }
+            ]),
+            toggleChatMarkup: 'Help',
+            titleMarkup: 'Help',
+            customCss:
+                'div.AstuteBotLauncher[data-launcher-visible="false"] { bottom: 0px; right: 0px; } ' +
+                'div.AstuteBotLauncher .ChatTitleBar { background-color: #046B99; } ' +
+                'div.AstuteBotLauncher .ChatTitleBar .TitleText { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }',
+
+            botUrl: 'https://astutebot.com/chat/index.aspx?aid=HwRjCKJU11dbHx091v6T3g',
+            callbacks: {
+                closingChat: function (callback) {
+                    if (confirm("Are you sure you want to exit?")) {
+                        callback();
+                    }
+                }
+            }
+        });
+    </script>
+
     </main>
 </div>
         <!-- End Main Content -->
 
     </div>
 
-    
+<div id="skip-to-chat"><a href="#AstuteBotToggleChatContainer">Skip to Virtual Chat</a></div>    
 
     <div lang="en" class="section section-impact p-b-lg">
         <div class="container">
