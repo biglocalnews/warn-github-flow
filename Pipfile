@@ -5,7 +5,7 @@ name = "pypi"
 
 [packages]
 bln = ">=2.3.0"
-warn-transformer = "==1.3.30"
+warn-transformer = "==1.3.34"
 warn-scraper = "==1.2.30"
 
 [dev-packages]
