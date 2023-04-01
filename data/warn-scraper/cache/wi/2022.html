@@ -294,36 +294,27 @@
 			<div class="col-6 col-md-3 order-2">
 				<ul class="mb-1">
 					<li><a href="/dwd/admin-rules/">Administrative Rules</a></li>
-					<!--<li><a href="https://dwd.wisconsin.gov/gdl">Guidance Documents</a></li>-->
 					<li><a href="/jobs/">Jobs at DWD</a></li>
 					
 					<li><a href="https://www.wisconsin.gov/Pages/Policies.aspx">Legal/Acceptable Use</a></li>
 					<li><a href="/news/">News</a></li>
 					<li><a href="/news/publicmeetings/">Public Meeting &amp; Hearing Notices</a></li>
-					
+					<li><a href="/dwd/open-records/">Public Records</a></li>
 				</ul>
 			</div>
 			
 			<div class="col-6 col-md-3 order-3">
-				<ul>
-					<li><a href="/dwd/open-records/">Public Records</a></li>
+				<ul class="mb-1">
+					
 					<li><a href="/dwd/staff-partners.htm">Staff & Partners</a></li>
 					<li><a href="https://stateempdir.wi.gov/">State Employee Directory</a></li>
 					<li><a href="/dwd/topic-index.htm">Topic Index (Sitemap)</a></li>
-					<!--<li><a href="/dwd/pdf/translation-sample.pdf">Translate</a></li>-->
 					<li><a href="mailto:webfeed@dwd.wisconsin.gov">Website Support</a></li>
+					
 				</ul>
-				<!--<ul class="mb-1">
-					<li><a href="/toolbox/allabbr/translate/translate.htm">Translate This Site</a></li>
-					<li><a href="/toolbox/allabbr/translate/translate.htm">Traducir el sitio de web</a></li>
-					<li><a href="/toolbox/allabbr/translate/translate.htm">ç¿»è­¯ç¶²ç«</a></li>
-					<li><a href="/toolbox/allabbr/translate/translate.htm">Website Ã¼bersetzen</a></li>
-					<li><a href="/toolbox/allabbr/translate/translate.htm">ØªØ±Ø¬ÙØ© Ø§ÙÙÙÙØ¹</a></li>
-					<li><a href="/toolbox/allabbr/translate/translate.htm">Txhais website</a></li>
-					<li><a href="/toolbox/allabbr/translate/translate.htm">ì¹ ì¬ì´í¸ ë²ì­</a></li>
-					<li><a href="/toolbox/allabbr/translate/translate.htm">ÐÐµÑÐµÐ²ÐµÑÑÐ¸ ÑÐ°Ð¹Ñ</a></li>
-				</ul>-->
-			
+				<div id="google_translate_element" class="w-auto"></div>
+				<a href="#" data-bs-toggle="modal" data-bs-target="#translate-disclaimer" style="font-size:11px;">Translation Disclaimer</a>
+				
 			</div>
 			
 			<div class="col-6 col-md-3 text-center order-5">
@@ -337,13 +328,46 @@
 			</div>
 		</div>
 	</div>
-	<p id="american-job-center">A proud partner of the <a href="https://www.careeronestop.org/" ><img src="/images/internet/american-job-center.jpg" alt="American Job Center logo"></a> network</p>
+	
+	
+	<p id="american-job-center">A proud partner of the <a href="https://www.careeronestop.org/" ><img src="/images/internet/american-job-center-logo-color.png" alt="American Job Center logo"></a> network</p>
+
+
+	
+	
 </div>
+
+	<!--TRANSLATION DISCLAIMER -->
+	<div class="modal fade" id="translate-disclaimer" tabindex="-1" aria-labelledby="translate-disclaimer" aria-modal="true" role="dialog">
+	  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable  modal-lg">
+		
+		<div class="modal-content">
+		  <div class="modal-header">
+				<h2 class="modal-title">Google Translate Disclaimer</h2>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+		  </div>
+		  <div class="modal-body fs-90">
+		  
+				<p>THIS SERVICE MAY CONTAIN TRANSLATIONS POWERED BY GOOGLE. GOOGLE DISCLAIMS ALL WARRANTIES RELATED TO THE TRANSLATIONS, EXPRESS OR IMPLIED, INCLUDING ANY WARRANTIES OF ACCURACY, RELIABILITY, AND ANY IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.</p>
+
+				<p>The Department of Workforce Development (DWD) website has been translated for your convenience using translation software powered by Google Translate. Reasonable efforts have been made to provide an accurate translation, however, no automated translation is perfect nor is it intended to replace human translators. Translations are provided as a service to users of the DWD website, and are provided "as is." No warranty of any kind, either expressed or implied, is made as to the accuracy, reliability, or correctness of any translations made from English into any other language. Some content (such as images, videos, Flash, etc.) may not be accurately translated due to the limitations of the translation software.</p>
+
+				<p>The official text is the English version of the website. Any discrepancies or differences created in the translation are not binding and have no legal effect for compliance or enforcement purposes. If any questions arise related to the accuracy of the information contained in the translated website, refer to the English version of the website which is the official version.</p>
+
+				<p>If you need an official translation of, or other meaningful access to, vital information on DWD's website, please contact the <a href="mailto:webfeed@dwd.wisconsin.gov">DWD WEB TEAM</a>.</p>
+		  </div>
+		  <div class="modal-footer">
+				<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+		  </div>
+		</div>
+	  </div>
+	</div>
+
 <script src="/include/internet/js/jquery-3.6.0.min.js"></script>
 <script src="/include/internet/js/popper.min.js?v1"></script>
 <script src="/include/internet/js/bootstrap.min.js?v2"></script>
 <script src="/include/internet/js/main.js?=v2"></script>
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-66BDZ3KKB5"></script>
+
 <script type="text/javascript">
 		if(window.location.href.indexOf("acc.") == -1){	
 
@@ -353,20 +377,15 @@
 			gtag('config', 'G-66BDZ3KKB5');
 		}
 	
+		function googleTranslateElementInit() {
+		  new google.translate.TranslateElement({pageLanguage: 'auto'}, 'google_translate_element');
+		}
 
 </script>
 
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
-<script type="text/javascript">  
-        function googleTranslateElementInit() {  
-            new google.translate.TranslateElement( 
-                {pageLanguage: 'en'},  
-                'google_translate_element' 
-            );  
-        }  
-		</script>  
-		  
-		<!--<script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>  -->
+
 
 		<script>
 			/*
