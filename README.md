@@ -2,12 +2,12 @@ A GitHub Action workflow for automating a WARN Act notice ETL pipeline.
 
 ## How it works
 
-The [extract, transform and load](https://github.com/biglocalnews/warn-github-flow/actions/workflows/etl.yml) Action runs daily. It does the following:
+The [extract, transform and load](https://github.com/biglocalnews/warn-github-flow/actions/workflows/etl.yml) Action runs every few hours. It does the following:
 
 - 🔪 Gather raw WARN Act notices from all of our sources with [warn-scraper](https://github.com/biglocalnews/warn-scraper)
 - 🪢 Consolidate the raw files into a single, standardized dataset with [warn-transformer](https://github.com/biglocalnews/warn-transformer)
 - ⏫ Upload the files to our archive on [biglocalnews.org](https://biglocalnews.org) with [upload-files](https://github.com/biglocalnews/upload-files)
-- 📟 Send Slack alerts
+- 📟 Send Slack and Teams alerts
 
 ```mermaid
 flowchart TB
@@ -29,7 +29,7 @@ flowchart TB
     end
     subgraph Alert
     subgraph Members
-    L[Forward new notices via Slack bot]
+    L[Forward new notices via Slack and Teams bots]
     end
     subgraph Administrators
     J[Post status report to Big Local News Slack]

@@ -8,12 +8,14 @@ runs:
 
       - id: install-python
         name: Install Python
-        uses: actions/setup-python@v2
+        uses: actions/setup-python@v4
         with:
           python-version: '3.9'
           cache: 'pipenv'
 
       - id: install-python-dependencies
         name: Install Python dependencies
-        run: pipenv install --dev
+        run: |
+          pipenv install --dev
+          pipenv run pip install certifi
         shell: bash
