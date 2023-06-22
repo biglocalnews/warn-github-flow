@@ -156,7 +156,7 @@
     
         
         
-        <div class="tn-header"><header id="header">
+        <div class="tn-headercoveo"><header id="header">
     <div class="row center-block top-nav">
         <a class="logo" href="https://www.tn.gov/" data-logo="state-government" style="background-image: url('/etc/clientlibs/tncore/main/img/logos/tn-logo.png')">
             <div>Home</div>
@@ -172,24 +172,84 @@
         </div>
 
         <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 columns text-right">
-            <div class="tn-headersearch"><div class="search">
-    <form method="get" onsubmit="redirect(); return false" action="/workforce/search-results.html">
-        <input type="text" class="search-box" id="q" name="q" placeholder="Search Labor and Workforce Development" aria-label="Search Labor and Workforce Development"/>
-        <input type="submit" value="Search" class="search-button"/>
-        <span class="icon-search" data-urlPath="/workforce/search-results.html"></span>
-    </form>
-    <script>
-    function redirect(){
-        var urlPath= $(".icon-search").attr("data-urlPath");
-        var queryParam = document.getElementById("q").value;
-        queryParam = queryParam.trim();
-        queryParam = encodeURIComponent(queryParam);
-        queryParam = queryParam.replaceAll('%20','+');
-        window.location.href=urlPath+"?q=" + queryParam + 
-            "#q=" +  encodeURIComponent(document.getElementById("q").value);
-    }
-   </script>
-</div></div>
+            <div class="tn-headersearchcoveo"><script type="module" src="https://static.cloud.coveo.com/atomic/v2.23/atomic.esm.js"></script> 
+
+<div>
+<script type="module">
+
+import {loadContextActions, buildTab} from 'https://static.cloud.coveo.com/atomic/v2.23/headless/headless.esm.js';
+
+      (async () => {
+
+		const searchHubStripped = "TNGov".trim();
+		const context = {};
+		context.userdiv = "";
+		context.userdept = "workforce";
+
+		await customElements.whenDefined('atomic-search-interface');
+		const searchInterface = document.querySelector('#searchbox');
+		searchInterface.setAttribute('search-hub', searchHubStripped);
+
+//Adding for Context to be used for Query Suggestions
+    const preProcessQuerySuggestionsRequest = (request) => {
+        if (context.userdiv) {
+            const body = JSON.parse(request.body);
+            body.mlParameters = {
+                filters: {
+                    c_context_userdept: context.userdept,
+                    c_context_userdiv: context.userdiv
+                }
+            };
+            request.body = JSON.stringify(body);
+        } else if (context.userdept) {
+            const body = JSON.parse(request.body);
+            body.mlParameters = {
+                filters: {
+                    c_context_userdept: context.userdept
+                }
+            };
+            request.body = JSON.stringify(body);
+        }
+        return request;
+    };
+
+        await searchInterface.initialize({ 
+         accessToken: "eyJhbGciOiJIUzI1NiJ9.eyJzZWFyY2hIdWIiOiJUTkdvdiIsInY4Ijp0cnVlLCJvcmdhbml6YXRpb24iOiJ0ZW5uZXNzZWVzdGF0ZWdvdmVybm1lbnRwcm9kdWN0aW9uNnBvNG01YjIiLCJ1c2VySWRzIjpbeyJ0eXBlIjoiVXNlciIsIm5hbWUiOiJhbm9ueW1vdXNfdXNlckBhbm9ueW1vdXMuY292ZW8uY29tIiwicHJvdmlkZXIiOiJFbWFpbCBTZWN1cml0eSBQcm92aWRlciJ9XSwicm9sZXMiOlsicXVlcnlFeGVjdXRvciJdLCJleHAiOjE2ODc0NjI4MjMsImlhdCI6MTY4NzM3NjQyM30.6vLCbUMozTWX0zpbzBAkXoPGaaOoR7DJdpYPLRJq1Mk".trim(),
+         organizationId: "tennesseestategovernmentproduction6po4m5b2".trim(),
+         renewAccessToken: function() {
+			location.reload();
+		 },
+         preprocessRequest: (request) => {
+              if (request.url.indexOf('querySuggest') >= 0) {
+                  return preProcessQuerySuggestionsRequest(request);
+              }
+              return request;
+         }
+        });
+
+		searchInterface.i18n.addResourceBundle('en', 'translation', {
+		search: "Search Labor and Workforce Development".trim(),
+		});
+
+		const engine = searchInterface.engine;
+		engine.dispatch(loadContextActions(engine).setContext(context));
+		})();
+</script>
+
+<atomic-search-interface id="searchbox">
+  <atomic-search-box clear-filters="false" redirection-url="/workforce/search-results.html" .trim()>
+		  
+	<atomic-search-box-recent-queries max-with-query="0" max-without-query="4">
+	</atomic-search-box-recent-queries>
+
+	<atomic-search-box-query-suggestions>
+	</atomic-search-box-query-suggestions>
+
+  </atomic-search-box>
+</atomic-search-interface>
+</div>
+
+</div>
         </div>
     </div>
 
@@ -668,7 +728,7 @@
     
     
     <div class="containers tn-accordion parbase">
-    <div class="panel-group" id="accordion-cff06fa7941246cf91c441faaf021392">
+    <div class="panel-group" id="accordion-a10c9a11491b40de8f1e17da8e0e2b4a">
         
         
             
@@ -677,10 +737,10 @@
                     
                         <div class="panel-heading">
                             <span class="panel-title">
-                                <a class="icon-angle-right collapsed" data-toggle="collapse" data-parent="#accordion-cff06fa7941246cf91c441faaf021392" href="#collapsecff06fa7941246cf91c441faaf021392-1">2022</a>
+                                <a class="icon-angle-right collapsed" data-toggle="collapse" data-parent="#accordion-a10c9a11491b40de8f1e17da8e0e2b4a" href="#collapsea10c9a11491b40de8f1e17da8e0e2b4a-1">2022</a>
                             </span>
                         </div>
-                        <div id="collapsecff06fa7941246cf91c441faaf021392-1" class="panel-collapse collapse">
+                        <div id="collapsea10c9a11491b40de8f1e17da8e0e2b4a-1" class="panel-collapse collapse">
                             <div class="panel-body" tabindex="0">
                                 <div>
 
@@ -721,10 +781,10 @@
                     
                         <div class="panel-heading">
                             <span class="panel-title">
-                                <a class="icon-angle-right collapsed" data-toggle="collapse" data-parent="#accordion-cff06fa7941246cf91c441faaf021392" href="#collapsecff06fa7941246cf91c441faaf021392-2">2021</a>
+                                <a class="icon-angle-right collapsed" data-toggle="collapse" data-parent="#accordion-a10c9a11491b40de8f1e17da8e0e2b4a" href="#collapsea10c9a11491b40de8f1e17da8e0e2b4a-2">2021</a>
                             </span>
                         </div>
-                        <div id="collapsecff06fa7941246cf91c441faaf021392-2" class="panel-collapse collapse">
+                        <div id="collapsea10c9a11491b40de8f1e17da8e0e2b4a-2" class="panel-collapse collapse">
                             <div class="panel-body" tabindex="0">
                                 <div>
 
@@ -775,10 +835,10 @@
                     
                         <div class="panel-heading">
                             <span class="panel-title">
-                                <a class="icon-angle-right collapsed" data-toggle="collapse" data-parent="#accordion-cff06fa7941246cf91c441faaf021392" href="#collapsecff06fa7941246cf91c441faaf021392-3">2020</a>
+                                <a class="icon-angle-right collapsed" data-toggle="collapse" data-parent="#accordion-a10c9a11491b40de8f1e17da8e0e2b4a" href="#collapsea10c9a11491b40de8f1e17da8e0e2b4a-3">2020</a>
                             </span>
                         </div>
-                        <div id="collapsecff06fa7941246cf91c441faaf021392-3" class="panel-collapse collapse">
+                        <div id="collapsea10c9a11491b40de8f1e17da8e0e2b4a-3" class="panel-collapse collapse">
                             <div class="panel-body" tabindex="0">
                                 <div>
 
@@ -1099,10 +1159,10 @@
                     
                         <div class="panel-heading">
                             <span class="panel-title">
-                                <a class="icon-angle-right collapsed" data-toggle="collapse" data-parent="#accordion-cff06fa7941246cf91c441faaf021392" href="#collapsecff06fa7941246cf91c441faaf021392-4">2019</a>
+                                <a class="icon-angle-right collapsed" data-toggle="collapse" data-parent="#accordion-a10c9a11491b40de8f1e17da8e0e2b4a" href="#collapsea10c9a11491b40de8f1e17da8e0e2b4a-4">2019</a>
                             </span>
                         </div>
-                        <div id="collapsecff06fa7941246cf91c441faaf021392-4" class="panel-collapse collapse">
+                        <div id="collapsea10c9a11491b40de8f1e17da8e0e2b4a-4" class="panel-collapse collapse">
                             <div class="panel-body" tabindex="0">
                                 <div>
 
@@ -1194,10 +1254,10 @@
                     
                         <div class="panel-heading">
                             <span class="panel-title">
-                                <a class="icon-angle-right collapsed" data-toggle="collapse" data-parent="#accordion-cff06fa7941246cf91c441faaf021392" href="#collapsecff06fa7941246cf91c441faaf021392-5">2018</a>
+                                <a class="icon-angle-right collapsed" data-toggle="collapse" data-parent="#accordion-a10c9a11491b40de8f1e17da8e0e2b4a" href="#collapsea10c9a11491b40de8f1e17da8e0e2b4a-5">2018</a>
                             </span>
                         </div>
-                        <div id="collapsecff06fa7941246cf91c441faaf021392-5" class="panel-collapse collapse">
+                        <div id="collapsea10c9a11491b40de8f1e17da8e0e2b4a-5" class="panel-collapse collapse">
                             <div class="panel-body" tabindex="0">
                                 <div>
 
@@ -1269,10 +1329,10 @@
                     
                         <div class="panel-heading">
                             <span class="panel-title">
-                                <a class="icon-angle-right collapsed" data-toggle="collapse" data-parent="#accordion-cff06fa7941246cf91c441faaf021392" href="#collapsecff06fa7941246cf91c441faaf021392-6">2017</a>
+                                <a class="icon-angle-right collapsed" data-toggle="collapse" data-parent="#accordion-a10c9a11491b40de8f1e17da8e0e2b4a" href="#collapsea10c9a11491b40de8f1e17da8e0e2b4a-6">2017</a>
                             </span>
                         </div>
-                        <div id="collapsecff06fa7941246cf91c441faaf021392-6" class="panel-collapse collapse">
+                        <div id="collapsea10c9a11491b40de8f1e17da8e0e2b4a-6" class="panel-collapse collapse">
                             <div class="panel-body" tabindex="0">
                                 <div>
 
