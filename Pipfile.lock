@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "6aa45e450d2237365cb7a03ba3d535199b107940c8502b9485c653e8a940484c"
+            "sha256": "2cbce955ad705031bb7385c8eb3ebb894754f8cdb16a49055e51ecb7388e0d6c"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -377,6 +377,7 @@
                 "sha256:00e65f5e822decd501e374b0650146063fbb30a7264b4d2744bdd7b913e0cab5",
                 "sha256:040586f7d37b34547153fa383f7f9aed68b738992380ac911447bb78f2abe530",
                 "sha256:0b6eb5502f45a60a3f411c63187db83a3d3107887ad0d036c13ce836f8a36f1d",
+                "sha256:1ce91b6ec08d866b14413d3f0bbdea7e24dfdc8e59f562bb77bc3fe60b6144ca",
                 "sha256:1f62406a884ae75fb2f818694469519fb685cc7eaff05d3451a9ebe55c646891",
                 "sha256:22c10cc517668d44b211717fd9775799ccec4124b9a7f7b3635fc5386e584992",
                 "sha256:3400aae60685b06bb96f99a21e1ada7bc7a413d5f49bce739828ecd9391bb8f7",
@@ -406,6 +407,7 @@
                 "sha256:9fb218c8a12e51d7ead2a7c9e101a04982237d4855716af2e9499306728fb485",
                 "sha256:a74ba0c356aaa3bb8e3eb79606a87669e7ec6444be352870623025d75a14a2bf",
                 "sha256:b4f69b3700201b80bb82c3a97d5e9254084f6dd5fb5b16fc1a7b974260f89f43",
+                "sha256:bc2ec7c7b5d66b8ec9ce9f720dbb5fa4bace0f545acd34870eff4a369b44bf37",
                 "sha256:c189af0545965fa8d3b9613cfdb0cd37f9d71349e0f7750e1fd704648d475ed2",
                 "sha256:c1fbe7621c167ecaa38ad29643d77a9ce7311583761abf7836e1510c580bf3dd",
                 "sha256:c7cf14a27b0d6adfaebb3ae4153f1e516df54e47e42dcc073d7b3d76111a8d86",
@@ -511,11 +513,11 @@
         },
         "warn-transformer": {
             "hashes": [
-                "sha256:bc7495308c6568dc7f29f5c8f5065bb6f0fab3344110dacb3ba664dbf68d9561",
-                "sha256:d31dbb930b3535b270db472e87ee5fbbc45408d297f8a8985cc9f3ddabd894db"
+                "sha256:b9e3ee1cff5c91985ff73083f1270ddd5d847e5241fe3e7512f503eb8f2b4d95",
+                "sha256:d5a67739eb4deb2371bc51fb61f5be43aa4855c0884368a2b9c15a62314c990c"
             ],
             "index": "pypi",
-            "version": "==1.3.49"
+            "version": "==1.3.50"
         },
         "webencodings": {
             "hashes": [
