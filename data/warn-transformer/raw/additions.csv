@@ -1,12 +1,13 @@
-notice_date,effective_date,jobs,is_amendment,location,is_temporary,company,hash_id,is_closure,postal_code
-2023-06-28,2023-09-01,102,False,3140 East Coronado Street  Anaheim CA 92806,,"TTM Technologies, Inc., subsidiary of TTM Technologies North America, LLC",a93de1dac4dc71417fe0df582df79a7a0aadae0f5c72a489b2ba98c1,True,CA
-2023-06-29,2023-07-03,158,False,2417 Michigan Avenue  Santa Monica CA 90404,,"Headspace, Inc.",d9b801d2b4f32e9542ef08c220479836087ef944fdbe32767688872e,,CA
-2023-06-28,2023-08-31,43,False,605 8th Street  San Fernando CA 91340,,"Scenario-Cockram USA, Inc.",17cc1c73f91a5ccf87d58595a5cdb92534091438a8d0b2339eb58cf8,,CA
-2023-06-28,2023-10-27,10,False,605 8th Street  San Fernando CA 91340,,"Scenario-Cockram USA, Inc.",f70837f8a2f5ba5050c6b5bed8cb413dfd18a71dc4efe6e207ab2948,,CA
-2023-06-28,2023-07-29,5,False,"350 10th Ave., Suite 400  San Diego CA 92101",,"RSN Co., LLC dba Bally Sports San Diego",4e7654af4370c26867edf3f28be50811b250269b8ea3ea436b7e6924,True,CA
-2023-06-29,2023-07-03,19,False,"595 Market St., Suite 700  San Francisco CA 94105",,"Ginger.io,. Inc.",1e478db8aba27c19c890d0a31bfb0faa48ab1787fe651eab332454bc,,CA
-2023-06-29,2023-08-31,80,False,800 W. Tower Ave  Alameda CA 94501,,Active Wellness LLC,c35ad54796dcfdc2bb29bb8868f38dd7be65d5748df5b05891c2ce72,,CA
-2023-06-29,2023-09-30,9,False,"3355 Mission Ave, Ste. 221  Oceanside CA 92057",,Comprehensive Autism Center,15f14a3e3f7fac95132daf706be0e1471c5a70a89e3dc53391c0053e,True,CA
-2023-07-31,2023-09-29,41,False,Hamilton County,,Eureka Foundry Company,288db7ccbc023c97d0404c0f683712f62f25d46e10811faca9bc6eef,,TN
-2023-07-31,2024-02-28,185,False,Knox County,,Red Stag Fulfillment,4adebd654dc33e742c9a55eb1877ac34775d01f76fb38d71636f2657,,TN
-2023-07-31,2023-10-01,60,False,Shelby County,,Valu Merchandisers Company,5d525d41cf9840ca05fc1422c9045f3ba9be8aa02d2a1d2c7a633f2f,,TN
+hash_id,postal_code,company,location,notice_date,effective_date,jobs,is_temporary,is_closure,is_amendment
+14f803b2c12460cc6b6a61876fc49b9ec1f07459dc1baf36d0dee960,AZ,Yellow Corporation,Phoenix,2023-08-01,,0,,,False
+3ba70b5725e5bdf3b140ee36f305355d871ba15ad7c381d6d3cefbc8,CO,Yellow Corporation & Operating Affiliates,Unknown,2023-07-30,2023-07-30,,,,False
+9bc9c7c7391828817b580307e01115f540a00a7e09e24c102a32d1ad,CO,YRC Inc dba YRC Freight,,2023-07-30,,,,,False
+785391edc940856c1146065c34ed3dd6ad9e4d91e90c878518634905,CO,USF Holland,,2023-07-30,,,,,False
+df4819101dc68ef176c0a1084535573e4342221cfce51c0a07f39dde,CO,New Penn Motor Express LLC,,2023-07-30,,,,,False
+32d7962818bc705cdea8a02078d29eb37cd261ea022b039096f09132,CO,"USF Reddaway, Inc.",,2023-07-30,,,,,False
+28e2c2e58689feabb664d7e390321312a6a243c963a8594302941627,IA,"General Mills Operations, LLC",Independence,2023-07-31,2023-10-06,211,,True,False
+cc59209eab954c4ebeb942809f2892ffaf154ae5387f622ea15d408c,IA,"General Mills Operations, LLC",Independence,2023-07-31,2023-12-01,6,,True,False
+417b8a49995114ec71defc84de0ec5de1a680e62219f91df42fce63b,IL,"Yrc Regional Transportation, Inc.","10990 Roe Ave  Overland Park, KS 66211-1213",2023-07-28,,3000,,True,False
+1c32df67bf191007a2515fad1538cdc48eeef7b69d686e534e354baa,IN,Yellow Corporation dba YRC Freight,Statewide,2023-07-30,2023-07-30,,,True,False
+3c9d9ed2f1c9a09ec2ea85b782a03ada32c5a88d26d13ce23ec687ac,MD,General Dynamics Information Technology,"1430 Veterans Drive Frederick, MD 21702",2023-08-01,2023-09-29,59,,,False
+5ae2c06e87dcecabef9703cba19687d6b6c7cc3574a0aa33eb404027,NY,Gamma North Corporation - Western New York,,2023-07-28,,,,,False
