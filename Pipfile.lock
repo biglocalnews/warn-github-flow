@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "0848b4e6bb0d167c84b25bac4fc97852f40dcb380d1cd6326f11d53a0698d08d"
+            "sha256": "adf91cc8df45b5196b60bcc9902fbf63dd6fcfcaa92449f5ff9d47173e37eb95"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -26,11 +26,11 @@
         },
         "bln": {
             "hashes": [
-                "sha256:2b93299574a3102b03cd4c50cc028b231aadf7c9fc68272d92d19f7fe58bb7bf",
-                "sha256:5e2d8bfe544a46480d58b82be5944ef60e31d7760f7803aed88a9ce5a4fc5004"
+                "sha256:c509318dc7b38e1fc671ec6f96bafccb14d33bc8acd54ba37096dde9426713e2",
+                "sha256:f56c70b07e6b95800c94726335ec55ef665e0e433fcf927405f3a10efa92e137"
             ],
             "index": "pypi",
-            "version": "==2.3.4"
+            "version": "==2.3.5"
         },
         "bs4": {
             "hashes": [
@@ -520,19 +520,19 @@
         },
         "warn-scraper": {
             "hashes": [
-                "sha256:355a054617f22bacd3328210b3d28e1f9151a13f770ea6aec65460f3b6b83c7c",
-                "sha256:6d395cb418115ea4d6e51aaf3bebce93c08d72995daa3264ef88b635f4a5463b"
+                "sha256:07d8c5d3a1b73e8c455a0f3daa9f18ce50d18f2c4d6562b86fd9114856072434",
+                "sha256:610777ed6d7c38427085cc5d6b52dd09d99cbe3737c5fcdefe9846fa8adea58b"
             ],
             "index": "pypi",
-            "version": "==1.2.37"
+            "version": "==1.2.38"
         },
         "warn-transformer": {
             "hashes": [
-                "sha256:59202ead5a236fb953c1df8402a49b38a7c599083a23232abf794c365fc45834",
-                "sha256:87f317982014f6c476d4d435d46fbf865398338a891b7b4727f2557e0556ef91"
+                "sha256:2abc7ae056bb470ad003fc1d38cb4e840f85d648c9a94d755ee45ccbb660d339",
+                "sha256:5a8c55952986f1aac4652cc9536fe8aefe63bfa47157c18c93aa7999a4dfa220"
             ],
             "index": "pypi",
-            "version": "==1.3.64"
+            "version": "==1.3.66"
         },
         "webencodings": {
             "hashes": [
