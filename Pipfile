@@ -12,3 +12,4 @@ warn-scraper = "==1.2.39"
 
 [requires]
 python_version = "3.9"
+pytest = ">=7.4"
