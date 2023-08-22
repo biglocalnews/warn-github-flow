@@ -67,19 +67,28 @@ function googleTranslateElementInit() {
 
         </div>
         <div class="col-sm-5">
-          <div class="header__search">
-          <form class="search__form" role="search" action="/search" method="get" id="views-exposed-form-acquia-search-fields-search-block" accept-charset="UTF-8">
-            <div class="form-group">
-              <div class="input-group">
-                <label for="edit-search">Search</label>
-                <input data-drupal-selector="edit-search" class="search__form--input" type="text" id="edit-search" name="search"/>
-                <div class="input-group-btn">
-                  <button data-drupal-selector="edit-submit-acquia-search-fields" class="search__form--button js-form-submit form-submit icon-before" type="submit" id="edit-submit-acquia-search-fields" value="Search" name="" aria-label="Search the website"><i aria-hidden="true" class="fa-solid fa-magnifying-glass"></i></button>
-                </div>
-              </div>
-            </div>
-          </form>            
-          </div>
+          <div class="header__search googlesearch">
+            <div class="search-block-form block block-search block-search-form-block" data-drupal-selector="search-block-form" id="block-searchform" role="search">
+  
+    
+      <form action="/search/search" method="get" id="search-block-form" accept-charset="UTF-8">
+  <div class="form-item js-form-item form-type-search js-form-type-search form-item-keys js-form-item-keys form-no-label form-group">
+      <label for="edit-keys" class="control-label sr-only">Search</label>
+  
+  
+  <div class="input-group"><input title="Enter the terms you wish to search for." data-drupal-selector="edit-keys" class="form-search form-control" placeholder="Search" type="search" id="edit-keys" name="keys" value="" size="15" maxlength="128" data-toggle="tooltip" /><span class="input-group-btn"><button  type="submit" value="Search" class="button js-form-submit form-submit btn-primary btn" name="" >Search</button></span></div>
+
+  
+  
+  </div>
+<div class="form-actions form-group js-form-wrapper form-wrapper" data-drupal-selector="edit-actions" id="edit-actions"></div>
+
+</form>
+
+  </div>
+
+
+                      </div>
         </div>
       </div>
     </div>
@@ -907,7 +916,7 @@ Denver, CO  80203<br /><a href="https://cdle.colorado.gov/unemployment/contact-
     </div>
 
     </div>
-    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","scriptPath":null,"pathPrefix":"","currentPath":"node\/11451","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"google_analytics":{"account":{},"trackOutbound":true,"trackMailto":true,"trackTel":true,"trackDownload":true,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip"},"ckeditorAccordion":{"accordionStyle":{"collapseAll":1,"keepRowsOpen":0}},"bootstrap":{"forms_has_error_value_toggle":1,"popover_enabled":1,"popover_animation":1,"popover_auto_close":1,"popover_container":"body","popover_content":"","popover_delay":"0","popover_html":0,"popover_placement":"right","popover_selector":"","popover_title":"","popover_trigger":"click","tooltip_enabled":1,"tooltip_animation":1,"tooltip_container":"body","tooltip_delay":"0","tooltip_html":0,"tooltip_placement":"auto left","tooltip_selector":"","tooltip_trigger":"hover"},"superfish":{"superfish-main":{"id":"superfish-main","sf":{"animation":{"opacity":"show","height":"show"},"speed":"fast","dropShadows":false},"plugins":{"smallscreen":{"mode":"window_width","breakpoint":1025,"title":"Menu"},"supposition":true}}},"user":{"uid":0,"permissionsHash":"ee26f7a526ae7ed1cecc45442d0ceae5c0c1612b639acb3f4a90140b5c0f9044"}}</script>
+    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","scriptPath":null,"pathPrefix":"","currentPath":"node\/11451","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"google_analytics":{"account":{},"trackOutbound":true,"trackMailto":true,"trackTel":true,"trackDownload":true,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip"},"ckeditorAccordion":{"accordionStyle":{"collapseAll":1,"keepRowsOpen":0}},"bootstrap":{"forms_has_error_value_toggle":1,"popover_enabled":1,"popover_animation":1,"popover_auto_close":1,"popover_container":"body","popover_content":"","popover_delay":"0","popover_html":0,"popover_placement":"right","popover_selector":"","popover_title":"","popover_trigger":"click","tooltip_enabled":1,"tooltip_animation":1,"tooltip_container":"body","tooltip_delay":"0","tooltip_html":0,"tooltip_placement":"auto left","tooltip_selector":"","tooltip_trigger":"hover"},"superfish":{"superfish-main":{"id":"superfish-main","sf":{"animation":{"opacity":"show","height":"show"},"speed":"fast","dropShadows":false},"plugins":{"smallscreen":{"mode":"window_width","breakpoint":1025,"title":"Menu"},"supposition":true}}},"ajaxTrustedUrl":{"\/search\/search":true},"user":{"uid":0,"permissionsHash":"f6472cf706421d024f9d33113c4f0f3cc064b5f6256cf8b70aeb685029e52402"}}</script>
 <script src="/sites/cdle/files/js/js_VgyhixM-03XgWxajW20HNjGQ9RMmAvlikVPguTijAHg.js"></script>
 
     <script type="text/javascript">
@@ -919,5 +928,5 @@ Denver, CO  80203<br /><a href="https://cdle.colorado.gov/unemployment/contact-
       })();
       /*]]>*/
     </script>
-  <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"NRJS-6432fa087dc615d7804","applicationID":"1375260825","transactionName":"ZAQDYBYHWEJRU0ILWV1OIFcQD1lfH0BXBVNsAgBXDAM=","queueTime":4,"applicationTime":55,"atts":"SEMAFl4dS0w=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+  <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"NRJS-6432fa087dc615d7804","applicationID":"1375260825","transactionName":"ZAQDYBYHWEJRU0ILWV1OIFcQD1lfH0BXBVNsAgBXDAM=","queueTime":2,"applicationTime":60,"atts":"SEMAFl4dS0w=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
   </html>
