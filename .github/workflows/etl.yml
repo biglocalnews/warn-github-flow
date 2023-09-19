@@ -3,7 +3,7 @@ name: Extract, transform and alert
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 0,12,18 * * *"
+    - cron: "0 15,19,23 * * *"
 
 jobs:
   extract:
@@ -74,7 +74,7 @@ jobs:
       - name: Fail alert
         id: slack
         if: ${{ failure() }}
-        uses: slackapi/slack-github-action@v1.18.0
+        uses: slackapi/slack-github-action@v1.24.0
         with:
           channel-id: ${{ secrets.SLACK_CHANNEL_ID }}
           slack-message: "🚨Layoff Watch ETL extraction run <https://github.com/biglocalnews/warn-github-flow/actions/runs/${{ github.run_id }}|#${{ github.run_id }}> for `${{ matrix.source }}` failed"
@@ -103,7 +103,7 @@ jobs:
       - name: Fail alert
         id: slack
         if: ${{ failure() }}
-        uses: slackapi/slack-github-action@v1.18.0
+        uses: slackapi/slack-github-action@v1.24.0
         with:
           channel-id: ${{ secrets.SLACK_CHANNEL_ID }}
           slack-message: "🚨 Layoff Watch ETL tranformation run <https://github.com/biglocalnews/warn-github-flow/actions/runs/${{ github.run_id }}|#${{ github.run_id }}> failed"
@@ -117,7 +117,7 @@ jobs:
     steps:
       - name: Post
         id: slack
-        uses: slackapi/slack-github-action@v1.18.0
+        uses: slackapi/slack-github-action@v1.24.0
         with:
           channel-id: ${{ secrets.SLACK_CHANNEL_ID }}
           slack-message: "👍 Layoff Watch ETL run <https://github.com/biglocalnews/warn-github-flow/actions/runs/${{ github.run_id }}|#${{ github.run_id }}> finished successfully"
@@ -141,7 +141,7 @@ jobs:
 
       - id: install-python
         name: Install Python
-        uses: actions/setup-python@v3
+        uses: actions/setup-python@v4
         with:
           python-version: '3.9'
 
@@ -160,7 +160,7 @@ jobs:
         shell: bash
 
       - name: Install private dependencies
-        run: pip install warn-bot==0.1.11 -vv --index-url https://us-west2-python.pkg.dev/big-local-news-267923/warn-bot/simple/ --extra-index-url https://pypi.org/simple/
+        run: pip install warn-bot==0.1.21 -vv --index-url https://us-west2-python.pkg.dev/big-local-news-267923/warn-bot/simple/ --extra-index-url https://pypi.org/simple/
         shell: bash
         env:
             GOOGLE_APPLICATION_CREDENTIALS: ${{ steps.auth-gcloud.outputs.credentials_file_path }}
