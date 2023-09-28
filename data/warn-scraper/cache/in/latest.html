@@ -53,8 +53,8 @@ subpage
                 <header data-sticky-container class="no-mobile-float">
     <div data-sticky data-margin-top="0" data-sticky-on="small">
         <div id="header_sliver" class="row expanded">
-            <div class="container_ingovlogo columns">
-                <a href="https://www.in.gov/" target="_blank">
+            <div id="header_sliver_logo_container" class="container_ingovlogo columns">
+                <a id="header_sliver_logo_link" href="https://www.in.gov/" target="_blank">
                     <svg id="in-gov-logo-svg" class="in-gov-logo-svg" alrt="IN.gov Logo" data-name="IN.gov Logo"
                         xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 32.26" height="18" width="68">
                         <defs>
@@ -70,14 +70,14 @@ subpage
                             transform="translate(0 0)"></path>
                     </svg>
                 </a>
-                <span>An official website <span class="small-hide">of the Indiana State Government</span></span>
+                <span id="header_sliver_official_text">An official website <span class="small-hide">of the Indiana State Government</span></span>
             </div>
             <div class="columns medium-hide medium-2 large-2 shrink">
-                <a href="javascript:void(0);" data-acsb-custom-trigger="true" role="button" data-acsb-clickable="true" data-acsb-navigable="true"><span class="fas fa-universal-access"></span> <span class="small-hide">Accessibility
+                <a id="header_sliver_accessibility_link" href="javascript:void(0);" data-acsb-custom-trigger="true" role="button" data-acsb-clickable="true" data-acsb-navigable="true"><span id="header_sliver_accessibility_icon" class="fas fa-universal-access"></span> <span id="header_sliver_accessibility_text" class="small-hide">Accessibility
                         Settings</span></a>
             </div>
             <div id="google_translate_element_header" class="small-hide columns medium-hide medium-2 large-2 shrink">
-                <span class="fas fa-globe-americas"></span><span class="small-hide">Language Translation</span>
+                <span id="header_sliver_translation_icon" class="fas fa-globe-americas"></span><span id="header_sliver_translation_text" class="small-hide">Language Translation</span>
             </div>
             <script type="text/javascript">
                 function googleTranslateElementInit() {
@@ -86,7 +86,7 @@ subpage
             </script>
             <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit" async></script>
             <div class="columns small-hide medium-2 large-2 shrink">
-                <a href="https://www.in.gov/gov" target="_blank"><span class="fas fa-external-link-alt"></span> <span>Governor Eric J. Holcomb</span></a>
+                <a id="header_sliver_governor_link" href="https://www.in.gov/gov" target="_blank"><span id="header_sliver_governor_icon" class="fas fa-external-link-alt"></span> <span id="header_sliver_governor_text">Governor Eric J. Holcomb</span></a>
             </div>
         </div>
         <div id="header_top" role="navigation" class="row expanded collapse">
@@ -194,9 +194,6 @@ subpage
 </li>
     <li class=" list-group-item list-group-item-nav" role="treeitem">
     <a   href="/dwd/indiana-unemployment/employers/forms-downloads" >Forms and Downloads</a>
-</li>
-    <li class=" list-group-item list-group-item-nav" role="treeitem">
-    <a   href="/dwd/about-dwd/ghwc" >Governor's Health Workforce Council</a>
 </li>
     <li class=" list-group-item list-group-item-nav" role="treeitem">
     <a   href="/dwd/business-services/etg" >NLJ Employer Training Grant</a>
@@ -404,9 +401,6 @@ subpage
     </li>
         <li class="list-group-item list-group-item-nav">
             <a  href="/dwd/indiana-unemployment/employers/forms-downloads">Forms and Downloads</a>
-    </li>
-        <li class="list-group-item list-group-item-nav">
-            <a  href="/dwd/about-dwd/ghwc">Governor's Health Workforce Council</a>
     </li>
         <li class="list-group-item list-group-item-nav">
             <a  href="/dwd/business-services/etg">NLJ Employer Training Grant</a>
