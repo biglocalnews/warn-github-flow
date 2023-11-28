@@ -29,19 +29,6 @@ if(window.location.href.indexOf("acc.") == -1){
 }
 </script>
 	
-<!--
-	<script src="https://sheets.googleapis.com/v4/spreadsheets/1cyZiHZcepBI7ShB3dMcRprUFRG24lbwEnEDRBMhAqsA/values/Updates?key=AIzaSyDP0OltIjcmRQ6-9TTmEVDZPIX6BSFcunw&callback=handler2"></script>
-	<script src="https://sheets.googleapis.com/v4/spreadsheets/1cyZiHZcepBI7ShB3dMcRprUFRG24lbwEnEDRBMhAqsA/values/Originals?key=AIzaSyDP0OltIjcmRQ6-9TTmEVDZPIX6BSFcunw&callback=handler"></script>
--->
-	<!-- Gets Updates first so they can be applied to all of the notices. -->
-	<!--
-	<script src="https://sheets.googleapis.com/v4/spreadsheets/1cyZiHZcepBI7ShB3dMcRprUFRG24lbwEnEDRBMhAqsA/values/Updates?key=AIzaSyDP0OltIjcmRQ6-9TTmEVDZPIX6BSFcunw&callback=processUpdates" defer></script>
-	--->
-	<!-- Gets original Notices and applied corresponding updates. -->
-	<!--
-	<script src="https://sheets.googleapis.com/v4/spreadsheets/1cyZiHZcepBI7ShB3dMcRprUFRG24lbwEnEDRBMhAqsA/values/Originals?key=AIzaSyDP0OltIjcmRQ6-9TTmEVDZPIX6BSFcunw&callback=processNotices" defer></script>
-	-->
-
 	<link href="include/default.css?v=23" type="text/css" rel="stylesheet" />
 </head>
 
@@ -272,24 +259,14 @@ if(window.location.href.indexOf("acc.") == -1){
 						-webkit-transition: width 0.5s ease-in, background-color 0.5s ease-in;
 						border-radius: 10px;
 					}
-
-					
 				</style>
 
 				<progress id="progressBar" style="width: 100%;" max="100" value="0" data-active="true"></progress>
 
-				<div id="warnNotices">
-					<!-- <script type="text/javascript">outputArray2Page()</script> -->
-				</div>
-			
-				<script type="text/javascript">
-					
-
-					
-				</script>
+				<div id="warnNotices"></div>
 			
 				<p class="mb-5" style="clear:left;"><br/>
-					<strong id="affectedWorkerTotal">Current 2022 Affected Worker Totals:&nbsp;</strong><br/> <!-- updated 11/29/22 KK -->
+					<strong id="affectedWorkerTotal"></strong><br/> <!-- updated 11/29/22 KK -->
 					(This total is calculated based on "New Notices" submitted by employers during the calendar year, and it includes changes based on any updates submitted during the calendar year or subsequent years.)<br/>
 					<!-- em>This information is updated daily at 4:30 pm.</em --></p>
 
@@ -425,20 +402,7 @@ if(window.location.href.indexOf("acc.") == -1){
 
 
 
-		<script type="text/javascript" src="/dislocatedworker/warn/include/default.js?v=15"></script>
-
-		<script>
-			
-			/*
-			2022-07-25 KK Took out because the updates won't calculate properly, will have to revisit.
-			let affectedWorkerTotal = 0;
-			document.querySelectorAll('[data-total]').forEach( total => {
-				affectedWorkerTotal += total.parentElement.classList.contains("updatedInfo") ? 0 : parseInt(total.innerText); 
-				//affectedWorkerTotal += parseInt(total.innerText);
-			});
-			document.querySelector("#affectedWorkerTotal").innerText += affectedWorkerTotal;
-			*/
-		</script>
+		<script type="module" src="/dislocatedworker/warn/include/default.js?v=28"></script>
 
 </body>
 </html>
