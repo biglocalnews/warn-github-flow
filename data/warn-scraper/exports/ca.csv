@@ -328,7 +328,7 @@ notice_date,effective_date,received_date,company,city,num_employees,layoff_or_cl
 08/28/2023,08/28/2023,10/04/2023,California Resources Corporation,,1,Layoff Permanent,Kern County,16223 S. Granite Road  Bakersfield CA 93308,warn_report1.xlsx
 08/28/2023,08/28/2023,10/04/2023,California Resources Corporation,,1,Layoff Permanent,Kern County,30565 Merced Avenue  Shafter CA 93263,warn_report1.xlsx
 09/01/2023,12/31/2023,10/04/2023,Jensen Enterprises Inc. dba Jensen Precast,,40,Closure Permanent,Sacramento County,5400 Raley Boulevard  Sacramento CA 95838,warn_report1.xlsx
-09/29/2023,09/29/2023,10/04/2023,Foundation for California Community Colleges,,259,Layoff Permanent,Sacramento County,"1102 Q Street, Suite 4800  Sacramento CA 95811",warn_report1.xlsx
+09/29/2023,12/29/2023,10/04/2023,Foundation for California Community Colleges,,298,Layoff Permanent,Sacramento County,"1102 Q Street, Suite 4800  Sacramento CA 95811",warn_report1.xlsx
 08/17/2023,10/16/2023,10/04/2023,"AppFolio, Inc.",,13,Layoff Permanent,San Diego County,"8620 Spectrum Center Blvd., 11th Floor  San Diego CA 92123",warn_report1.xlsx
 08/17/2023,10/16/2023,10/04/2023,"AppFolio, Inc.",,98,Layoff Permanent,Santa Barbara County,70 Castilian Drive  Goleta CA 93117,warn_report1.xlsx
 09/05/2023,11/04/2023,10/05/2023,"West Coast Industries, Inc.",,53,Closure Permanent,Los Angeles County,2779 E. El Presidio Street  Carson CA 90810,warn_report1.xlsx
@@ -561,6 +561,32 @@ notice_date,effective_date,received_date,company,city,num_employees,layoff_or_cl
 10/25/2023,12/29/2023,11/29/2023,SK hynix NAND Product Solutions Corp. dba Solidigm,,172,Layoff Permanent,Sacramento County,10951 White Rock Rd.  Rancho Cordova CA 95670,warn_report1.xlsx
 10/30/2023,12/31/2023,11/29/2023,St. John of God Health Care Services,,27,Layoff Permanent,San Bernardino County,13333 Palmdale Road  Victorville CA 92392,warn_report1.xlsx
 10/11/2023,12/31/2023,11/29/2023,"Alvarado Hospital, LLC dba Alvarado Hospital Medical Center",,808,Layoff Permanent,San Diego County,6655 Alvarado Road  San Diego CA 92120,warn_report1.xlsx
+10/24/2023,12/29/2023,11/30/2023,John Muir Health (JMH),,164,Layoff Permanent,Contra Costa County,2298 Pike Court  Concord CA 94520,warn_report1.xlsx
+11/03/2023,12/19/2023,11/30/2023,Command Security Service LP at Google/Bayview,,33,Layoff Permanent,Santa Clara County,100 Bay View Drive  Mountain View CA 94043,warn_report1.xlsx
+10/04/2023,10/11/2023,11/30/2023,"Becton, Dickinson, and Company",,38,Layoff Permanent,San Diego County,3750 Torrey View Court  San Diego CA 92130,warn_report1.xlsx
+10/04/2023,10/11/2023,11/30/2023,"Becton, Dickinson, and Company - Pacific",,27,Layoff Permanent,San Diego County,10020 Pacific Mesa Blvd.  San Diego CA 92121,warn_report1.xlsx
+10/04/2023,10/13/2023,11/30/2023,"Becton, Dickinson, and Company",,3,Layoff Permanent,San Diego County,3750 Torrey View Court  San Diego CA 92130,warn_report1.xlsx
+10/04/2023,10/16/2023,11/30/2023,"Becton, Dickinson, and Company",,1,Layoff Permanent,San Diego County,3750 Torrey View Court  San Diego CA 92130,warn_report1.xlsx
+10/04/2023,10/27/2023,11/30/2023,"Becton, Dickinson, and Company",,2,Layoff Permanent,San Diego County,3750 Torrey View Court  San Diego CA 92130,warn_report1.xlsx
+10/04/2023,10/30/2023,11/30/2023,"Becton, Dickinson, and Company",,26,Layoff Permanent,San Diego County,3750 Torrey View Court  San Diego CA 92130,warn_report1.xlsx
+10/04/2023,10/31/2023,11/30/2023,"Becton, Dickinson, and Company",,1,Layoff Permanent,San Diego County,3750 Torrey View Court  San Diego CA 92130,warn_report1.xlsx
+10/04/2023,11/02/2023,11/30/2023,"Becton, Dickinson, and Company",,1,Layoff Permanent,San Diego County,3750 Torrey View Court  San Diego CA 92130,warn_report1.xlsx
+10/04/2023,10/14/2023,11/30/2023,"Becton, Dickinson, and Company",,4,Layoff Permanent,San Diego County,10020 Pacific Mesa Blvd.  San Diego CA 92121,warn_report1.xlsx
+10/04/2023,10/23/2023,11/30/2023,"Becton, Dickinson, and Company",,1,Layoff Permanent,San Diego County,10020 Pacific Mesa Blvd.  San Diego CA 92121,warn_report1.xlsx
+10/04/2023,11/01/2023,11/30/2023,"Becton, Dickinson, and Company",,1,Layoff Permanent,San Diego County,10020 Pacific Mesa Blvd.  San Diego CA 92121,warn_report1.xlsx
+10/25/2023,12/25/2023,11/30/2023,Nestle USA,,86,Layoff Temporary,Stanislaus County,736 Garner Road  Modesto CA 95357,warn_report1.xlsx
+10/09/2023,10/20/2023,12/01/2023,"Cygnus Home Service, LLC dba Yelloh",,13,Closure Permanent,Kern County,320 Old Yard Drive  Bakersfield CA 93307,warn_report1.xlsx
+10/30/2023,12/31/2023,12/01/2023,Vertical Supply Group,,7,Closure Permanent,Los Angeles County,12519 Putman Street  Whittier CA 90602,warn_report1.xlsx
+10/09/2023,10/20/2023,12/01/2023,Yelloh,,7,Closure Permanent,Butte County,16 Bellarmine Court  Chico CA 95928,warn_report1.xlsx
+10/09/2023,10/20/2023,12/01/2023,Yelloh,,11,Closure Permanent,Butte County,19813 Hirsch Court  Anderson CA 96007,warn_report1.xlsx
+10/09/2023,10/20/2023,12/01/2023,"Cygnus Home Service, LLC dba Yelloh",,3,Closure Permanent,Riverside County,351 North Orange Street  Riverside CA 92501,warn_report1.xlsx
+10/09/2023,10/20/2023,12/01/2023,"Cygnus Home Service, LLC dba Yelloh",,7,Closure Permanent,Sacramento County,999 Kent Street  Elk Grove CA 95624,warn_report1.xlsx
+10/09/2023,10/20/2023,12/01/2023,"Cygnus Home Service, LLC dba Yelloh",,16,Closure Permanent,San Joaquin County,575 Industrial Park Drive  Manteca CA 95337,warn_report1.xlsx
+10/09/2023,10/20/2023,12/01/2023,"Cygnus Home Service, LLC dba Yelloh",,9,Closure Permanent,Sonoma County,440 East Todd Road  Santa Rosa CA 95407,warn_report1.xlsx
+10/28/2023,10/28/2023,12/04/2023,Bloom Energy Corporation,,47,Layoff Permanent,Alameda County,44408 Pacific Commons  Fremont CA 94538,warn_report1.xlsx
+10/28/2023,10/28/2023,12/04/2023,Bloom Energy Corporation,,1,Layoff Permanent,Alameda County,44370 Christy Street  Fremont CA 94538,warn_report1.xlsx
+10/28/2023,10/28/2023,12/04/2023,Bloom Energy Corporation,,13,Layoff Permanent,Santa Clara County,1252 Orleans Drive  Sunnyvale CA 94089,warn_report1.xlsx
+10/31/2023,12/31/2023,12/04/2023,"San Diego Imaging Management, Inc.",,52,Layoff Permanent,San Diego County,"8745 Aero Drive, Suite 200  San Diego CA 92123",warn_report1.xlsx
 06/15/2022,12/02/2022,07/08/2022,Amgen,,2,Closure Permanent,Alameda County,,warn-report-for-7-1-2022-to-06-30-2023.pdf
 06/24/2022,08/21/2022,07/08/2022,"Assembled Financial Technology, LLC",,13,Closure Permanent,Los Angeles County,,warn-report-for-7-1-2022-to-06-30-2023.pdf
 06/23/2022,08/23/2022,07/08/2022,Cue Health Inc.,,9,Layoff Permanent,San Diego County,,warn-report-for-7-1-2022-to-06-30-2023.pdf
