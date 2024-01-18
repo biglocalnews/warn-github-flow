@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "fc4a87acf70c0171f661529b863b585702520c2efff0ae735e007e4a358369fc"
+            "sha256": "0ca66a890bd6d36a607976928c17b4ea93bc258bffa3d7954cd7cbae8f989690"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -18,11 +18,11 @@
     "default": {
         "beautifulsoup4": {
             "hashes": [
-                "sha256:492bbc69dca35d12daac71c4db1bfff0c876c00ef4a2ffacce226d4638eb72da",
-                "sha256:bd2520ca0d9d7d12694a53d44ac482d181b4ec1888909b035a3dbf40d0f57d4a"
+                "sha256:74e3d1928edc070d21748185c46e3fb33490f22f52a3addee9aee0f4f7781051",
+                "sha256:b80878c9f40111313e55da8ba20bdba06d8fa3969fc68304167741bbf9e082ed"
             ],
             "markers": "python_full_version >= '3.6.0'",
-            "version": "==4.12.2"
+            "version": "==4.12.3"
         },
         "bln": {
             "hashes": [
@@ -34,9 +34,10 @@
         },
         "bs4": {
             "hashes": [
-                "sha256:36ecea1fd7cc5c0c6e4a1ff075df26d50da647b75376626cc186e2212886dd3a"
+                "sha256:a48685c58f50fe127722417bae83fe6badf500d54b55f7e39ffe43b798653925",
+                "sha256:abf8742c0805ef7f662dce4b51cca104cffe52b835238afc169142ab9b3fbccc"
             ],
-            "version": "==0.0.1"
+            "version": "==0.0.2"
         },
         "certifi": {
             "hashes": [
@@ -545,11 +546,11 @@
         },
         "warn-scraper": {
             "hashes": [
-                "sha256:2ad739709233101d441db3a607b261f6d9d412cde6c69920244ce1119f4def58",
-                "sha256:ff445c8c3a7501166dab6465b630a3609448233dfe7224aa8bf7d306f748c69c"
+                "sha256:e23b698543b1369203659670f6288e3cfe1104ad8a22a3ad29c11a76bfa2658c",
+                "sha256:e26a55fe1c08851ab897078590dfb4cc4fe9536ab3edf6e62d82e4d02e4a816e"
             ],
             "index": "pypi",
-            "version": "==1.2.56"
+            "version": "==1.2.57"
         },
         "warn-transformer": {
             "hashes": [
