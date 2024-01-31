@@ -443,7 +443,7 @@ notice_date,effective_date,received_date,company,city,num_employees,layoff_or_cl
 09/21/2023,12/25/2023,10/25/2023,Jabil Inc.,,84,Closure Temporary,Santa Clara County,6375 San Ignacio Avenue  San Jose CA 95119,warn_report1.xlsx
 09/29/2023,11/30/2023,10/26/2023,"FM Restaurants HQ, LLC dba El Torito Mexican Grill",,39,Closure Permanent,Orange County,24301 Avenida De La Carlota  Laguna Hills CA 92653,warn_report1.xlsx
 10/02/2023,12/01/2023,10/26/2023,"Stir Foods, LLC",,87,Closure Permanent,Riverside County,1851 N. Delilah St.  Corona CA 92879,warn_report1.xlsx
-09/26/2023,12/20/2023,10/26/2023,SCAT Enterprises LLC,,52,Closure Permanent,Los Angeles County,1400 Kingsdale AVenue  Redondo Beach CA 90278,warn_report1.xlsx
+09/26/2023,01/31/2024,10/26/2023,SCAT Enterprises LLC,,52,Closure Permanent,Los Angeles County,1400 Kingsdale AVenue  Redondo Beach CA 90278,warn_report1.xlsx
 09/13/2023,11/25/2023,10/30/2023,Google,,41,Layoff Permanent,San Francisco County,199 Fremont  San Francisco CA 94105,warn_report1.xlsx
 09/13/2023,11/25/2023,10/30/2023,Google,,34,Layoff Permanent,San Francisco County,215 Fremont St  San Francisco CA 94105,warn_report1.xlsx
 09/25/2023,01/03/2024,10/30/2023,Terre du Soleil dba Auberge du Soleil,,217,Layoff Temporary,Napa County,180 Rutherford Hill Road  Rutherford CA 94573,warn_report1.xlsx
@@ -897,6 +897,75 @@ notice_date,effective_date,received_date,company,city,num_employees,layoff_or_cl
 12/14/2023,02/17/2024,01/24/2024,Southern PacPizza dba Pizza Hut - 029228,,8,Layoff Permanent,Tulare County,250 S. Akers St.  Visalia CA 93291,warn_report1.xlsx
 12/14/2023,02/16/2024,01/24/2024,CalPac Pizza dba Pizza Hut,,5,Layoff Permanent,Tulare County,1304 E. Prosperity AVe.  Tulare CA 93274,warn_report1.xlsx
 12/12/2023,01/31/2024,01/24/2024,"DirectBuy Home Improvement, Inc. dba Z Gallerie",,15,Layoff Permanent,Marin County,"2175 E. Francisco Blvd, E, Suite B  San Rafael CA 94901",warn_report1.xlsx
+12/14/2023,02/12/2024,01/25/2024,TMG Hotel Figueroa F&B Venues,,144,Closure Permanent,Los Angeles County,939 S. Figueroa St. Sparrow Italia/Cafe Fig/Bar Magnolia/The Cafeteria/ La Casita at Driftwood Los Angeles CA 90015,warn_report1.xlsx
+01/09/2024,03/31/2024,01/25/2024,"NZXT, Inc.",,55,Closure Permanent,Los Angeles County,15736 E Valley Blvd  La Puente CA 91744,warn_report1.xlsx
+12/21/2023,03/01/2024,01/25/2024,Trove Recommerce,,60,Closure Permanent,San Mateo County,240 Valley Drive  Brisbane CA 94005,warn_report1.xlsx
+12/21/2023,04/01/2024,01/25/2024,Trove Recommerce,,62,Closure Permanent,San Mateo County,240 Valley Drive  Brisbane CA 94005,warn_report1.xlsx
+12/21/2023,05/01/2024,01/25/2024,Trove Recommerce,,2,Closure Permanent,San Mateo County,240 Valley Drive  Brisbane CA 94005,warn_report1.xlsx
+12/14/2023,02/12/2024,01/25/2024,Cepheid,,92,Layoff Permanent,Santa Clara County,904 Caribbean Drive  Sunnyvale CA 94089,warn_report1.xlsx
+01/10/2024,03/10/2024,01/25/2024,Google US-SVL-CRSM1225,,59,Layoff Permanent,Santa Clara County,1225 Crossman Avenue  Sunnyvale CA 94089,warn_report1.xlsx
+01/10/2024,03/10/2024,01/25/2024,Google US-SVL-CRSM1260,,11,Layoff Permanent,Santa Clara County,1260 Crossman Avenue  Sunnyvale CA 94089,warn_report1.xlsx
+01/10/2024,03/10/2024,01/25/2024,Google US-SVL-CRSM1265,,32,Layoff Permanent,Santa Clara County,1265 Crossman Avenue  Sunnyvale CA 94089,warn_report1.xlsx
+01/10/2024,03/10/2024,01/25/2024,Google US-SVL-HMBLT1,,2,Layoff Permanent,Santa Clara County,242 Humboldt Court  Sunnyvale CA 94089,warn_report1.xlsx
+01/10/2024,03/10/2024,01/25/2024,Google US-SVL-HMBLT3,,32,Layoff Permanent,Santa Clara County,227 Humboldt Court  Sunnyvale CA 94089,warn_report1.xlsx
+01/10/2024,03/10/2024,01/25/2024,Google US-SVL-HMBLT4,,25,Layoff Permanent,Santa Clara County,225 Humboldt Court  Sunnyvale CA 94089,warn_report1.xlsx
+01/10/2024,03/10/2024,01/25/2024,Google US-MTV-1900,,1,Layoff Permanent,Santa Clara County,1900 Charleston Road  Mountain View CA 94043,warn_report1.xlsx
+01/10/2024,03/10/2024,01/25/2024,Google US-MTV-1945,,5,Layoff Permanent,Santa Clara County,1945 Charleston Road  Mountain View CA 94043,warn_report1.xlsx
+01/10/2024,03/10/2024,01/25/2024,Google US-MTV-1950,,8,Layoff Permanent,Santa Clara County,1950 Charleston Road  Mountain View CA 94043,warn_report1.xlsx
+01/10/2024,03/10/2024,01/25/2024,Google US-MTV-1965,,14,Layoff Permanent,Santa Clara County,1965 Charleston Road  Mountain View CA 94043,warn_report1.xlsx
+01/10/2024,03/10/2024,01/25/2024,Google US-MTV-2000,,28,Layoff Permanent,Santa Clara County,2000 Charleston Road  Mountain View CA 94043,warn_report1.xlsx
+01/10/2024,03/10/2024,01/25/2024,Google US-MTV-40,,1,Layoff Permanent,Santa Clara County,"1600 Amphitheatre Parkway, Building 40  Mountain View CA 94043",warn_report1.xlsx
+01/10/2024,03/10/2024,01/25/2024,Google US-MTV-41,,80,Layoff Permanent,Santa Clara County,"1600 Amphitheatre Parkway, Building 41  Mountain View CA 94043",warn_report1.xlsx
+01/10/2024,03/10/2024,01/25/2024,Google US-MTV-42,,84,Layoff Permanent,Santa Clara County,"1600 Amphitheatre Parkway, Building 42  Mountain View CA 94043",warn_report1.xlsx
+01/10/2024,03/10/2024,01/25/2024,Google US-MTV-43,,12,Layoff Permanent,Santa Clara County,"1600 Amphitheatre Parkway, Building 43  Mountain View CA 94043",warn_report1.xlsx
+01/10/2024,03/10/2024,01/25/2024,Google US-MTV-CL2,,25,Layoff Permanent,Santa Clara County,1200 Crittenden Lane  Mountain View CA 94043,warn_report1.xlsx
+01/10/2024,03/10/2024,01/25/2024,Google US-MTV-CL3,,14,Layoff Permanent,Santa Clara County,1300 Crittenden Lane  Mountain View CA 94043,warn_report1.xlsx
+01/10/2024,03/10/2024,01/25/2024,Google US-MTV-CL4,,5,Layoff Permanent,Santa Clara County,1400 Crittenden Lane  Mountain View CA 94043,warn_report1.xlsx
+01/10/2024,03/10/2024,01/25/2024,Google US-MTV-CL5,,19,Layoff Permanent,Santa Clara County,1500 Crittenden Lane  Mountain View CA 94043,warn_report1.xlsx
+01/10/2024,03/10/2024,01/25/2024,Google US-MTV-STLN2027,,35,Layoff Permanent,Santa Clara County,2027 Stierlin Court  Mountain View CA 94043,warn_report1.xlsx
+01/10/2024,03/10/2024,01/25/2024,Google US-MTV-STLN2029,,2,Layoff Permanent,Santa Clara County,2029 Stierlin Court  Mountain View CA 94043,warn_report1.xlsx
+01/10/2024,03/10/2024,01/25/2024,Google US-MTV-STLN2051,,1,Layoff Permanent,Santa Clara County,2051 Stierlin Court  Mountain View CA 94043,warn_report1.xlsx
+01/10/2024,03/10/2024,01/25/2024,Google US-MTV-STLN2061,,28,Layoff Permanent,Santa Clara County,2061 Stierlin Court  Mountain View CA 94043,warn_report1.xlsx
+12/08/2023,12/31/2023,01/25/2024,"US Motor Works, LLC",,8,Layoff Permanent,Orange County,33 S. Hale Ave  Fullerton CA 92831,warn_report1.xlsx
+01/05/2024,05/31/2024,01/25/2024,"Technical Consumer Products, Inc.",,11,Closure Permanent,San Bernardino County,5700 E. Airport Drive Bldg A  Ontario CA 91761,warn_report1.xlsx
+01/02/2024,03/04/2024,01/25/2024,"Curio Employer LLC dba The Hotel del Coronado, Curio Collection by Hilton",,53,Layoff Temporary,San Diego County,1500 Orange Ave  Coronado CA 92118,warn_report1.xlsx
+01/09/2024,03/08/2024,01/25/2024,Unity Technologies SF,,120,Layoff Permanent,San Francisco County,30 3rd Street  San Francisco CA 94103,warn_report1.xlsx
+01/10/2024,03/10/2024,01/25/2024,Google US-SFO-1MST,,42,Layoff Permanent,San Francisco County,55 Spear Street  San Francisco CA 94105,warn_report1.xlsx
+01/10/2024,03/10/2024,01/25/2024,Google US-SFO-FRE215,,23,Layoff Permanent,San Francisco County,215 Fremont St  San Francisco CA 94105,warn_report1.xlsx
+01/10/2024,03/10/2024,01/25/2024,Google US-SFO-MKT1,,14,Layoff Permanent,San Francisco County,1 Market Street  San Francisco CA 94105,warn_report1.xlsx
+01/10/2024,03/10/2024,01/25/2024,Google US-SFO-SPE,,26,Layoff Permanent,San Francisco County,345 Spear Street  San Francisco CA 94105,warn_report1.xlsx
+01/03/2024,01/08/2024,01/26/2024,Xerxes Corporation,,106,Closure Permanent,Orange County,1210 North Tustin Ave  Anaheim CA 92807,warn_report1.xlsx
+01/05/2024,03/06/2024,01/26/2024,Los Angeles Times Communications LLC,,148,Closure Permanent,Los Angeles County,2000 East 8th Street  Los Angeles CA 90021,warn_report1.xlsx
+12/22/2023,02/20/2024,01/26/2024,Workforce Enterprises,,93,Closure Permanent,Los Angeles County,12252 Whittier Blvd  Whittier CA 90602,warn_report1.xlsx
+01/04/2024,03/05/2024,01/26/2024,Cue Health Inc.,,9,Layoff Permanent,San Diego County,4980 Carroll Canyon Rd. #100  San Diego CA 92121,warn_report1.xlsx
+01/04/2024,03/05/2024,01/26/2024,Cue Health Inc,,4,Layoff Permanent,San Diego County,4980 Carroll Canyon Rd. #110  San Diego CA 92121,warn_report1.xlsx
+01/04/2024,03/05/2024,01/26/2024,Cue Health Inc.,,7,Layoff Permanent,San Diego County,5501 Oberlin Drive #105  San Diego CA 92121,warn_report1.xlsx
+01/04/2024,03/05/2024,01/26/2024,Cue Health Inc.,,6,Layoff Permanent,San Diego County,4940 Carroll Canyon Rd. #120  San Diego CA 92121,warn_report1.xlsx
+01/04/2024,03/05/2024,01/26/2024,Cue Health Inc.,,1,Layoff Permanent,San Diego County,Nancy Ridge Dr. #107 & 108  San Diego CA 92121,warn_report1.xlsx
+01/04/2024,03/05/2024,01/26/2024,Cue Health Inc.,,9,Layoff Permanent,San Diego County,9877 Waples Street  San Diego CA 92121,warn_report1.xlsx
+01/04/2024,03/05/2024,01/26/2024,Cue Health Inc.,,11,Layoff Permanent,San Diego County,"2620 Commerce Way, Suite A/B  Vista CA 92081",warn_report1.xlsx
+12/21/2023,02/19/2024,01/26/2024,NEOTech,,76,Closure Permanent,San Diego County,6350 Palomar Oaks Court  Carlsbad CA 92011,warn_report1.xlsx
+01/11/2024,02/02/2024,01/26/2024,Discord Inc.,,160,Layoff Permanent,San Francisco County,444 De Haro Street #200  San Francisco CA 94107,warn_report1.xlsx
+01/10/2024,04/01/2024,01/26/2024,"Twitch Interactive, Inc. SFO19 Facility",,218,Layoff Permanent,San Francisco County,350 Bush St.  San Francisco CA 94104,warn_report1.xlsx
+01/10/2024,03/11/2024,01/26/2024,"ChargePoint, Inc.",,116,Layoff Permanent,Santa Clara County,240 E. Hacienda Avenue  Campbell CA 95008,warn_report1.xlsx
+01/03/2024,03/31/2024,01/26/2024,Silgan Containers Manufacturing Corporation,,64,Closure Permanent,Stanislaus County,4210 Yosemite Blvd.  Modesto CA 95357,warn_report1.xlsx
+01/10/2024,03/11/2024,01/26/2024,Gannett Publishing Services,,24,Layoff Permanent,Tulare County,330 N. West Street  Visalia CA 93291,warn_report1.xlsx
+01/10/2024,03/15/2024,01/29/2024,Rico Corp. dba D'Addario Woodwinds,,7,Layoff Permanent,Los Angeles County,8484 San Fernando Road  Sun Valley CA 91352,warn_report1.xlsx
+01/10/2024,03/11/2024,01/29/2024,Amazon,,98,Layoff Permanent,Los Angeles County,9336 W. Washington Blvd  Culver City CA 90232,warn_report1.xlsx
+01/10/2024,03/11/2024,01/29/2024,Amazon,,2,Layoff Permanent,Los Angeles County,9300 Culver Blvd  Culver City CA 90232,warn_report1.xlsx
+01/10/2024,03/11/2024,01/29/2024,Amazon,,13,Layoff Permanent,Los Angeles County,100 Corporate Pointe  Culver City CA 90230,warn_report1.xlsx
+01/05/2024,03/05/2024,01/29/2024,"Bridge Staffing, LLC",,115,Closure Permanent,Orange County,"23382 Mill Creek Drive, Suite 205  Laguna Hills CA 92653",warn_report1.xlsx
+01/08/2024,03/08/2024,01/29/2024,"Sega of America, Inc.",,12,Layoff Permanent,Orange County,"140 Progress, Suite 100  Irvine CA 92618",warn_report1.xlsx
+01/08/2024,03/08/2024,01/29/2024,"Sega of America, Inc.",,49,Layoff Permanent,Orange County,"6430 Oak Canyon Road, Suite 100  Irvine CA 92618",warn_report1.xlsx
+01/15/2024,04/05/2024,01/29/2024,"Imperial Bag & Paper Co. LLC, dba Imperial Dade",,20,Closure Permanent,Orange County,2815 Warner Avenue  Irvine CA 92606,warn_report1.xlsx
+01/11/2024,03/11/2024,01/29/2024,"Penske Logistics, LLC providing services for Aldi, Inc.",,95,Layoff Permanent,Riverside County,12661 Aldi Pl.  Moreno Valley CA 92555,warn_report1.xlsx
+12/20/2023,02/23/2024,01/29/2024,TE Connectivity,,61,Closure Permanent,San Bernardino County,1643 South Parco Ave  Ontario CA 91761,warn_report1.xlsx
+01/11/2024,03/12/2024,01/29/2024,"Illumina, Inc.",,111,Layoff Permanent,San Diego County,5200 Illumina Way  San Diego CA 92122,warn_report1.xlsx
+01/11/2024,04/26/2024,01/29/2024,Apple Inc.,,121,Layoff Permanent,San Diego County,4445 Eastgate Mall  San Diego CA 92121,warn_report1.xlsx
+01/12/2024,04/19/2024,01/29/2024,Walmart,,125,Closure Permanent,San Diego County,21221 Imperial Avenue  San Diego CA 92102,warn_report1.xlsx
+01/12/2024,04/19/2024,01/29/2024,Walmart,,232,Closure Permanent,San Diego County,605 Fletcher Parkway  El Cajon CA 92020,warn_report1.xlsx
+01/08/2024,03/08/2024,01/29/2024,Atara Biotherapeutics,,1,Layoff Permanent,Ventura County,2380 Conejo Spectrum Street #200  Thousand Oaks CA 91320,warn_report1.xlsx
+01/08/2024,03/08/2024,01/29/2024,Atara Biotherapeutics,,43,Layoff Permanent,Ventura County,1280 Rancho Conejo Blvd  Thousand Oaks CA 91320,warn_report1.xlsx
 06/15/2022,12/02/2022,07/08/2022,Amgen,,2,Closure Permanent,Alameda County,,warn-report-for-7-1-2022-to-06-30-2023.pdf
 06/24/2022,08/21/2022,07/08/2022,"Assembled Financial Technology, LLC",,13,Closure Permanent,Los Angeles County,,warn-report-for-7-1-2022-to-06-30-2023.pdf
 06/23/2022,08/23/2022,07/08/2022,Cue Health Inc.,,9,Layoff Permanent,San Diego County,,warn-report-for-7-1-2022-to-06-30-2023.pdf
