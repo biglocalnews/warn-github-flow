@@ -983,8 +983,8 @@ notice_date,effective_date,received_date,company,city,num_employees,layoff_or_cl
 12/01/2023,01/31/2024,01/30/2024,"Matheson Postal Services, Inc.",,18,Layoff Permanent,Sacramento County,455 Bannon St.  Sacramento CA 95811,warn_report1.xlsx
 01/12/2024,03/15/2024,01/30/2024,DI Overnite LLC/DI Express LLC dba Deliver-It,,29,Closure Permanent,San Bernardino County,732 E Carnegie Drive #150  San Bernardino CA 92408,warn_report1.xlsx
 12/01/2023,01/31/2024,01/30/2024,"Matheson Postal Services, Inc.",,13,Layoff Permanent,San Bernardino County,5th 27356 St.  Highland CA 92346,warn_report1.xlsx
-01/15/2024,03/15/2024,01/30/2024,"Spencer Construction, LLC",,139,Layoff Permanent,San Diego County,799 Forest Gate Road  Campo CA 91906,warn_report1.xlsx
-01/15/2024,03/15/2024,01/30/2024,"Spencer Construction, LLC",,1,Layoff Permanent,San Diego County,2671 Monument Road  San Diego CA 92154,warn_report1.xlsx
+01/15/2024,03/15/2024,01/30/2024,"Spencer Construction, LLC",,73,Layoff Permanent,San Diego County,799 Forrest Gate Road  Campo CA 91906,warn_report1.xlsx
+01/15/2024,03/15/2024,01/30/2024,"Spencer Construction, LLC",,32,Layoff Permanent,San Diego County,2671 Monument Road  San Diego CA 92154,warn_report1.xlsx
 01/04/2024,01/01/2025,01/30/2024,Safeway,,111,Closure Permanent,San Francisco County,1335 Webster Street  San Francisco CA 94115,warn_report1.xlsx
 01/12/2024,03/15/2024,01/30/2024,DI Overnite LLC/DI Express LLC dba Deliver-It,,22,Closure Permanent,Orange County,3117 W Alpine St.  Santa Ana CA 92704,warn_report1.xlsx
 01/18/2024,03/19/2024,01/30/2024,Macy's Simi Valley Town Center Store,,68,Closure Permanent,Ventura County,1475 Simi Town Center Way  Simi Valley CA 93065,warn_report1.xlsx
@@ -1072,7 +1072,7 @@ notice_date,effective_date,received_date,company,city,num_employees,layoff_or_cl
 02/02/2024,02/02/2024,02/05/2024,"Flexport, Inc.",,99,Layoff Permanent,San Francisco County,760 Market St. 8th Floor  San Francisco CA 94102,warn_report1.xlsx
 01/30/2024,03/30/2024,02/05/2024,PayPal,,311,Layoff Permanent,Santa Clara County,2211 N. First St.  San Jose CA 95131,warn_report1.xlsx
 02/01/2024,04/01/2024,02/05/2024,"CamelBak Products, LLC",,43,Layoff Permanent,Sonoma County,2000 S. McDowell Blvd. Ext. Suite 200 Petaluma CA 94954,warn_report1.xlsx
-02/01/2024,01/04/2024,02/05/2024,Pennymac,,1,Layoff Permanent,Ventura County,3043 Townsgate Road  Westlake Village CA 91361,warn_report1.xlsx
+02/01/2024,04/01/2024,02/05/2024,Pennymac,,1,Layoff Permanent,Ventura County,3043 Townsgate Road  Westlake Village CA 91361,warn_report1.xlsx
 01/16/2024,03/15/2024,02/06/2024,Pixelberry Studios,,120,Layoff Permanent,Santa Clara County,"4940 El Camino Real, Suite 150  Los Altos CA 94022",warn_report1.xlsx
 01/22/2024,03/04/2024,02/06/2024,Google US-MTV-RLS1,,57,Layoff Permanent,Santa Clara County,100 Mayfield Ave  Mountain View CA 94043,warn_report1.xlsx
 01/22/2024,03/04/2024,02/06/2024,Google US-MTV-RLS2,,16,Layoff Permanent,Santa Clara County,250 Mayfield Ave  Mountain View CA 94043,warn_report1.xlsx
@@ -1105,7 +1105,7 @@ notice_date,effective_date,received_date,company,city,num_employees,layoff_or_cl
 01/25/2024,04/01/2024,02/08/2024,Brookfield Properties (USA II) LLC,,1,Layoff Permanent,Santa Clara County,"545 San Antonio Road, Suite 314  Mountain View CA 94040",warn_report1.xlsx
 02/07/2024,04/08/2024,02/08/2024,"Grammarly, Inc.",,82,Layoff Permanent,San Francisco County,475 Sansome Street Floor 19  San Francisco CA 94111,warn_report1.xlsx
 02/09/2024,04/26/2024,02/09/2024,"Leggett & Platt, Incorporated",,55,Closure Permanent,Los Angeles County,4542 East Dunham Street  Commerce CA 90040,warn_report1.xlsx
-02/08/2024,05/08/2024,02/09/2024,Adventist Health Simi Valley,,55,Layoff Permanent,Ventura County,2975 Sycamore Drive  Simi Valley CA 93065,warn_report1.xlsx
+02/08/2024,05/08/2024,02/09/2024,Adventist Health Simi Valley,,53,Layoff Permanent,Ventura County,2975 Sycamore Drive  Simi Valley CA 93065,warn_report1.xlsx
 02/07/2024,04/07/2024,02/09/2024,California Institute of Technology,,521,Layoff Permanent,Los Angeles County,4800 Oak Grove Drive  La Canada Flintridge CA 91011,warn_report1.xlsx
 02/12/2024,04/12/2024,02/12/2024,Johnson & Johnson Consumer Inc. dba Kenvue,,84,Closure Permanent,Los Angeles County,6080 Center Drive  Los Angeles CA 90045,warn_report1.xlsx
 02/12/2024,04/14/2024,02/12/2024,City National Bank,,32,Layoff Permanent,Los Angeles County,555 S. Flower Street  Los Angeles CA 90071,warn_report1.xlsx
@@ -1122,6 +1122,44 @@ notice_date,effective_date,received_date,company,city,num_employees,layoff_or_cl
 02/14/2024,02/20/2024,02/15/2024,"Sorrento Therapeutics, Inc.",,15,Layoff Permanent,San Diego County,5340 Eastgate Mall  San Diego CA 92121,warn_report1.xlsx
 02/07/2024,04/07/2024,02/16/2024,The Rinks Foundation,,35,Closure Permanent,Orange County,13071 Springdale Street  Westminster CA 92683,warn_report1.xlsx
 02/14/2024,04/13/2024,02/16/2024,DXS Logistics LLC,,80,Closure Permanent,Orange County,6450 Katella Avenue  Cypress CA 90630,warn_report1.xlsx
+02/15/2024,04/30/2024,02/16/2024,AVMAC LLC,,153,Layoff Permanent,San Diego County,Marine Corps Air Station Miramar  San Diego CA 92145,warn_report1.xlsx
+02/08/2024,04/08/2024,02/20/2024,Ridgecrest Regional Hospital,,31,Layoff Permanent,Kern County,1081 N. China Lake Blvd.  Ridgecrest CA 93555,warn_report1.xlsx
+02/15/2024,04/19/2024,02/20/2024,Rico Corp. dba D'Addario Woodwinds,,6,Layoff Permanent,Los Angeles County,8484 San Fernando Road  Sun Valley CA 91352,warn_report1.xlsx
+02/15/2024,04/19/2024,02/20/2024,Paramount Global,,56,Layoff Permanent,Los Angeles County,1575 N. Gower Street  Los Angeles CA 90028,warn_report1.xlsx
+02/15/2024,04/19/2024,02/20/2024,Paramount Global,,85,Layoff Permanent,Los Angeles County,5555 Melrose Ave  Los Angeles CA 90038,warn_report1.xlsx
+02/15/2024,04/15/2024,02/20/2024,"TuSimple, Inc.",,6,Layoff Permanent,San Diego County,9191 Towne Center Drive  San Diego CA 92122,warn_report1.xlsx
+02/15/2024,04/19/2024,02/20/2024,Excalibur Pizza LLC dba Round Table Pizza,,4,Layoff Permanent,Placer County,"73 Lincoln Blvd., Suite A  Lincoln CA 95648",warn_report1.xlsx
+02/15/2024,04/19/2024,02/20/2024,Excalibur Pizza LLC dba Round Table Pizza,,4,Layoff Permanent,Placer County,6111 Horseshoe Bar Road  Loomis CA 95650,warn_report1.xlsx
+02/15/2024,04/19/2024,02/20/2024,Excalibur Pizza LLC dba Round Table Pizza,,7,Layoff Permanent,Sacramento County,5110 Laguna Blvd. Suite #119  Elk Grove CA 95758,warn_report1.xlsx
+02/15/2024,04/19/2024,02/20/2024,Excalibur Pizza LLC dba Round Table Pizza,,4,Layoff Permanent,Sacramento County,7700 Sunrise Blvd. Suite #1100  Citrus Heights CA 95610,warn_report1.xlsx
+02/15/2024,04/19/2024,02/20/2024,Excalibur Pizza LLC dba Round Table Pizza,,3,Layoff Permanent,Sacramento County,8795 Elk Grove Blvd  Elk Grove CA 95624,warn_report1.xlsx
+02/15/2024,04/19/2024,02/20/2024,Excalibur Pizza LLC,,4,Layoff Permanent,Sacramento County,3005 Freeport Blvd  Sacramento CA 95818,warn_report1.xlsx
+02/15/2024,04/19/2024,02/20/2024,Excalibur Pizza LLC dba Round Table Pizza,,5,Layoff Permanent,Sacramento County,4005 Manzanita Ave. Suite #46  Carmichael CA 95608,warn_report1.xlsx
+02/15/2024,04/19/2024,02/20/2024,Excalibur Pizza LLC dba Round Table Pizza,,9,Layoff Permanent,Sacramento County,"7909 Walerga Road, Suite #107  Antelope CA 95843",warn_report1.xlsx
+02/15/2024,04/19/2024,02/20/2024,Excalibur Pizza LLC dba Round Table Pizza,,1,Layoff Permanent,Sacramento County,1067 C Street Suite #144  Galt CA 95632,warn_report1.xlsx
+02/15/2024,04/19/2024,02/20/2024,Excalibur Pizza LLC dba Round Table Pizza,,3,Layoff Permanent,Sacramento County,4680 Natomas Blvd. Suite #170  Sacramento CA 95835,warn_report1.xlsx
+02/15/2024,04/19/2024,02/20/2024,Excalibur Pizza LLC dba Round Table Pizza,,4,Layoff Permanent,Sacramento County,10054 Bruceville Road  Elk Grove CA 95757,warn_report1.xlsx
+02/15/2024,04/19/2024,02/20/2024,Excalibur Pizza LLC dba Round Table Pizza,,4,Layoff Permanent,Sacramento County,3290 Arena Blvd. Suite #600  Sacramento CA 95834,warn_report1.xlsx
+02/15/2024,04/19/2024,02/20/2024,Excalibur Pizza LLC dba Round Table Pizza,,5,Layoff Permanent,Sacramento County,9138 Kiefer Blvd  Sacramento CA 95826,warn_report1.xlsx
+02/15/2024,04/19/2024,02/20/2024,Excalibur Pizza LLC dba Round Table Pizza,,5,Layoff Permanent,Sacramento County,8345 Elk Grove-Florin Road  Sacramento CA 95829,warn_report1.xlsx
+02/15/2024,04/19/2024,02/20/2024,Excalibur Pizza LLC dba Round Table Pizza,,8,Layoff Permanent,Yolo County,"421 Pioneer Ave, Suite F  Woodland CA 95776",warn_report1.xlsx
+01/12/2024,03/12/2024,02/21/2024,Carbon Health Medical Group,,1,Layoff Permanent,Los Angeles County,600 E Colorado Blvd #120  Pasadena CA 91101,warn_report1.xlsx
+01/12/2024,03/12/2024,02/21/2024,Carbon Health Medical Group,,1,Layoff Permanent,Los Angeles County,2110 Sunset Blvd Suite M  Los Angeles CA 90026,warn_report1.xlsx
+01/12/2024,03/12/2024,02/21/2024,Carbon Health Medical Group,,4,Layoff Permanent,Los Angeles County,6160 Laurel Canyon Boulevard Suite 160  North Hollywood CA 91606,warn_report1.xlsx
+01/12/2024,03/12/2024,02/21/2024,Carbon Health Medical Group,,2,Layoff Permanent,Los Angeles County,3032 Wilshire Blvd Suite A  Santa Monica CA 90403,warn_report1.xlsx
+01/12/2024,03/12/2024,02/21/2024,Carbon Health Medical Group,,6,Layoff Permanent,Los Angeles County,3559 E South St  Long Beach CA 90805,warn_report1.xlsx
+01/12/2024,03/12/2024,02/21/2024,Carbon Health Medical Group,,2,Layoff Permanent,Los Angeles County,415 N Pacific Coast Hwy Suite 101  Redondo Beach CA 90277,warn_report1.xlsx
+01/12/2024,03/12/2024,02/21/2024,Carbon Health Medical Group,,1,Layoff Permanent,Los Angeles County,13299 E South St  Cerritos CA 90703,warn_report1.xlsx
+01/12/2024,03/12/2024,02/21/2024,Carbon Health Medical Group,,10,Layoff Permanent,Marin County,411 3rd St  San Rafael CA 94901,warn_report1.xlsx
+01/12/2024,03/12/2024,02/21/2024,Carbon Health Medical Group,,4,Layoff Permanent,Orange County,705 East Birch Street  Brea CA 92821,warn_report1.xlsx
+01/12/2024,03/12/2024,02/21/2024,Carbon Health Medical Group,,5,Layoff Permanent,Orange County,1421 W MacArthur Blvd #E  Santa Ana CA 92704,warn_report1.xlsx
+01/12/2024,03/12/2024,02/21/2024,Carbon Health Medical Group,,2,Layoff Permanent,Riverside County,3955 Bedford Canyon Rd Ste 103  Corona CA 92883,warn_report1.xlsx
+01/12/2024,03/12/2024,02/21/2024,Carbon Health Medical Group,,5,Layoff Permanent,San Bernardino County,27811 Greenspot Rd.  Highland CA 92346,warn_report1.xlsx
+01/12/2024,03/12/2024,02/21/2024,Carbon Health Medical Group,,2,Layoff Permanent,San Bernardino County,7831 Monticello Avenue Suite 1102  Rancho Cucamonga CA 91739,warn_report1.xlsx
+01/12/2024,03/12/2024,02/21/2024,Carbon Health Medical Group,,2,Layoff Permanent,San Diego County,109 South Las Posas Road Suite 101  San Marcos CA 92078,warn_report1.xlsx
+01/12/2024,03/12/2024,02/21/2024,Carbon Health Medical Group,,2,Layoff Permanent,San Diego County,6971 El Camino Real #Suite 101  Carlsbad CA 92009,warn_report1.xlsx
+01/12/2024,03/12/2024,02/21/2024,Carbon Health Medical Group,,7,Layoff Permanent,San Francisco County,345 Spear Street Suite 120  San Francisco CA 94105,warn_report1.xlsx
+02/16/2024,04/19/2024,02/21/2024,"William Kreysler & Associates, Inc.",,25,Layoff Permanent,Solano County,105 E Street  Vallejo CA 94592,warn_report1.xlsx
 06/15/2022,12/02/2022,07/08/2022,Amgen,,2,Closure Permanent,Alameda County,,warn-report-for-7-1-2022-to-06-30-2023.pdf
 06/24/2022,08/21/2022,07/08/2022,"Assembled Financial Technology, LLC",,13,Closure Permanent,Los Angeles County,,warn-report-for-7-1-2022-to-06-30-2023.pdf
 06/23/2022,08/23/2022,07/08/2022,Cue Health Inc.,,9,Layoff Permanent,San Diego County,,warn-report-for-7-1-2022-to-06-30-2023.pdf
