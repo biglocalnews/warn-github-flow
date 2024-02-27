@@ -75,7 +75,7 @@ jobs:
       - name: Fail alert
         id: slack
         if: ${{ failure() }}
-        uses: slackapi/slack-github-action@v1.24.0
+        uses: slackapi/slack-github-action@v1.25.0
         with:
           channel-id: ${{ secrets.SLACK_CHANNEL_ID }}
           slack-message: "🚨Layoff Watch ETL extraction run <https://github.com/biglocalnews/warn-github-flow/actions/runs/${{ github.run_id }}|#${{ github.run_id }}> for `${{ matrix.source }}` failed"
@@ -104,10 +104,10 @@ jobs:
       - name: Fail alert
         id: slack
         if: ${{ failure() }}
-        uses: slackapi/slack-github-action@v1.24.0
+        uses: slackapi/slack-github-action@v1.25.0
         with:
           channel-id: ${{ secrets.SLACK_CHANNEL_ID }}
-          slack-message: "🚨 Layoff Watch ETL tranformation run <https://github.com/biglocalnews/warn-github-flow/actions/runs/${{ github.run_id }}|#${{ github.run_id }}> failed"
+          slack-message: "🚨 Layoff Watch ETL transformation run <https://github.com/biglocalnews/warn-github-flow/actions/runs/${{ github.run_id }}|#${{ github.run_id }}> failed"
         env:
           SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
 
@@ -118,7 +118,7 @@ jobs:
     steps:
       - name: Post
         id: slack
-        uses: slackapi/slack-github-action@v1.24.0
+        uses: slackapi/slack-github-action@v1.25.0
         with:
           channel-id: ${{ secrets.SLACK_CHANNEL_ID }}
           slack-message: "👍 Layoff Watch ETL run <https://github.com/biglocalnews/warn-github-flow/actions/runs/${{ github.run_id }}|#${{ github.run_id }}> finished successfully"
