@@ -39,7 +39,7 @@ runs:
         shell: bash
 
       - name: Commit and push
-        uses: stefanzweifel/git-auto-commit-action@v4
+        uses: stefanzweifel/git-auto-commit-action@master
         with:
           commit_message: Update transformer
           branch: transformer
@@ -48,7 +48,7 @@ runs:
           file_pattern: ./data/warn-transformer/*
 
       - name: Upload file to biglocalnews.org
-        uses: biglocalnews/upload-files@v3
+        uses: biglocalnews/upload-files@v5
         with:
           api-key: ${{ inputs.bln-api-key }}
           project-id: ${{ inputs.bln-project-id }}
