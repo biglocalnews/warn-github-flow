@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "c0160453ef182e4ae961e6ae6e394290933389d9f84896684fe9da4192b19b45"
+            "sha256": "382ad4ef251aee4fabcd658575c22edc6b1883d128f53b2dbccf139776790b57"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -384,19 +384,19 @@
         },
         "pdfminer.six": {
             "hashes": [
-                "sha256:1eaddd712d5b2732f8ac8486824533514f8ba12a0787b3d5fe1e686cd826532d",
-                "sha256:8448ab7b939d18b64820478ecac5394f482d7a79f5f7eaa7703c6c959c175e1d"
+                "sha256:6004da3ad1a7a4d45930cb950393df89b068e73be365a6ff64a838d37bcb08c4",
+                "sha256:e8d3c3310e6fbc1fe414090123ab01351634b4ecb021232206c4c9a8ca3e3b8f"
             ],
             "markers": "python_version >= '3.6'",
-            "version": "==20221105"
+            "version": "==20231228"
         },
         "pdfplumber": {
             "hashes": [
-                "sha256:1c83a4e1fe75525ce1f161fa55a8142209a2da69b45542ce2c45be879e804fd6",
-                "sha256:c8f200259703324cd39a5c93b181a0d2370a6b2b6da670c117e75c3da6aca4a4"
+                "sha256:be41686fe9515da5f54fad254e2b6941a723b9afe99eb92008df30880b6d61b3",
+                "sha256:e0027b8fc0ab98329cd8d445f5324d779078a6b58406471234e3e9c265dd8a48"
             ],
             "markers": "python_version >= '3.8'",
-            "version": "==0.10.4"
+            "version": "==0.11.0"
         },
         "pillow": {
             "hashes": [
@@ -555,11 +555,11 @@
         },
         "warn-scraper": {
             "hashes": [
-                "sha256:49ef6c913e779dd7f865c80ff351f837ead1651819875fa570ec2c81f38e4973",
-                "sha256:56c3b7b57a48fdb9f39e3444b9246cff237b80a02951e3bb2cf54fcccfb3e34a"
+                "sha256:7081c1d98086323b13a6efa565591e3e8607d61608f53a7b4321e48dd074c50f",
+                "sha256:b9ff59272ac29e38cdebe02f6694457227dd53550ea39c7c5922ee02a1733a88"
             ],
             "index": "pypi",
-            "version": "==1.2.64"
+            "version": "==1.2.66"
         },
         "warn-transformer": {
             "hashes": [
