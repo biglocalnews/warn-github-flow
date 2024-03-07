@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "56fbf57f4851314322a4bc799392829101a502dd6e70960f64aaf836635fe8f3"
+            "sha256": "382ad4ef251aee4fabcd658575c22edc6b1883d128f53b2dbccf139776790b57"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -360,11 +360,11 @@
         },
         "marshmallow": {
             "hashes": [
-                "sha256:20f53be28c6e374a711a16165fb22a8dc6003e3f7cda1285e3ca777b9193885b",
-                "sha256:e7997f83571c7fd476042c2c188e4ee8a78900ca5e74bd9c8097afa56624e9bd"
+                "sha256:4e65e9e0d80fc9e609574b9983cf32579f305c718afb30d7233ab818571768c3",
+                "sha256:f085493f79efb0644f270a9bf2892843142d80d7174bbbd2f3713f2a589dc633"
             ],
             "markers": "python_version >= '3.8'",
-            "version": "==3.21.0"
+            "version": "==3.21.1"
         },
         "openpyxl": {
             "hashes": [
@@ -384,19 +384,19 @@
         },
         "pdfminer.six": {
             "hashes": [
-                "sha256:1eaddd712d5b2732f8ac8486824533514f8ba12a0787b3d5fe1e686cd826532d",
-                "sha256:8448ab7b939d18b64820478ecac5394f482d7a79f5f7eaa7703c6c959c175e1d"
+                "sha256:6004da3ad1a7a4d45930cb950393df89b068e73be365a6ff64a838d37bcb08c4",
+                "sha256:e8d3c3310e6fbc1fe414090123ab01351634b4ecb021232206c4c9a8ca3e3b8f"
             ],
             "markers": "python_version >= '3.6'",
-            "version": "==20221105"
+            "version": "==20231228"
         },
         "pdfplumber": {
             "hashes": [
-                "sha256:1c83a4e1fe75525ce1f161fa55a8142209a2da69b45542ce2c45be879e804fd6",
-                "sha256:c8f200259703324cd39a5c93b181a0d2370a6b2b6da670c117e75c3da6aca4a4"
+                "sha256:be41686fe9515da5f54fad254e2b6941a723b9afe99eb92008df30880b6d61b3",
+                "sha256:e0027b8fc0ab98329cd8d445f5324d779078a6b58406471234e3e9c265dd8a48"
             ],
             "markers": "python_version >= '3.8'",
-            "version": "==0.10.4"
+            "version": "==0.11.0"
         },
         "pillow": {
             "hashes": [
@@ -555,19 +555,19 @@
         },
         "warn-scraper": {
             "hashes": [
-                "sha256:23575afcb8b712a066fe75a2a4c1e5ff974b5d0f31f2e51760f292c4cc5749bf",
-                "sha256:4e3329b83f649309bfb931e85a1ba3f909236ef18d8d7b71e321f62c9c3ef8c8"
+                "sha256:7081c1d98086323b13a6efa565591e3e8607d61608f53a7b4321e48dd074c50f",
+                "sha256:b9ff59272ac29e38cdebe02f6694457227dd53550ea39c7c5922ee02a1733a88"
             ],
             "index": "pypi",
-            "version": "==1.2.63"
+            "version": "==1.2.66"
         },
         "warn-transformer": {
             "hashes": [
-                "sha256:2efdf8c4dc8be66ecd71e737900b16b2d26474aa9f98768223d92f21bd8846eb",
-                "sha256:7f316f077484f223178311b1772687212363ef2d0bbdb9bd44832b59a305debd"
+                "sha256:21945b86a86e8b6d75d4a7531b379e20027371979e10810b444e67afa3c69dd7",
+                "sha256:c7e0f79d5e1bfa101925e34b94ef3ef0f6a91c8d51e84849305667fc02ef3653"
             ],
             "index": "pypi",
-            "version": "==1.3.110"
+            "version": "==1.3.111"
         },
         "webencodings": {
             "hashes": [
