@@ -4,10 +4,12 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-warn-scraper = "==1.1.15"
-warn-transformer = "==0.0.6"
+bln = "==2.3.9"
+warn-transformer = "==1.3.146"
+warn-scraper = "==1.2.73"
 
 [dev-packages]
+pytest = "*"
 
 [requires]
 python_version = "3.9"
