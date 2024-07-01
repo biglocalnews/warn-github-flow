@@ -44,10 +44,10 @@ WARN#,Company Name,Location,Layoff Date,Laid Off,Layoff Type,Received Date
 8622,"Divvy Homes, Inc","San Francisco, CA",2023-11-07 00:00:00,94,Reduction,2023-09-07 00:00:00
 8617,Walker Rd - Hillsboro,Hillsboro,2024-04-05 00:00:00,2,Reduction,2023-08-22 00:00:00
 8617,Walker Rd - Hillsboro,Hillsboro,2024-01-26 00:00:00,2,Reduction,2023-08-22 00:00:00
-8617,Bennett St. - Hillsboro,Hillsboro,2024-01-12 00:00:00,3,Reduction,2023-08-22 00:00:00
 8617,Walker Rd - Hillsboro,Hillsboro,2024-01-12 00:00:00,62,Large Layoff - 10 or more workers,2023-08-22 00:00:00
-8617,Walker Rd - Hillsboro,Hillsboro,2023-12-29 00:00:00,3,Reduction,2023-08-22 00:00:00
+8617,Bennett St. - Hillsboro,Hillsboro,2024-01-12 00:00:00,3,Reduction,2023-08-22 00:00:00
 8617,Bennett St. - Hillsboro,Hillsboro,2023-12-29 00:00:00,2,Reduction,2023-08-22 00:00:00
+8617,Walker Rd - Hillsboro,Hillsboro,2023-12-29 00:00:00,3,Reduction,2023-08-22 00:00:00
 8617,Walker Rd - Hillsboro,Hillsboro,2023-12-01 00:00:00,1,Reduction,2023-08-22 00:00:00
 8617,Walker Rd - Hillsboro,Hillsboro,2023-11-17 00:00:00,1,Reduction,2023-08-22 00:00:00
 8617,Walker Rd - Hillsboro,Hillsboro,2023-10-20 00:00:00,158,Large Layoff - 10 or more workers,2023-08-22 00:00:00
@@ -153,8 +153,8 @@ WARN#,Company Name,Location,Layoff Date,Laid Off,Layoff Type,Received Date
 7185,Alaska Airlines - Portland Internationa,Portland,2020-10-01 00:00:00,277,Reduction,2020-07-29 00:00:00
 7184,Embassy Suites Portland-Downtown,Portland,2020-03-20 00:00:00,70,Large Layoff - 10 or more workers,2020-07-31 00:00:00
 7171,"LSG Group - Sky Chefs, Inc",Portland,2020-10-01 00:00:00,193,Large Layoff - 10 or more workers,2020-07-31 00:00:00
-7162,Nike - Childcare  ,Beaverton,2020-10-01 00:00:00,192,Reduction,2020-07-23 00:00:00
 7162,Nike,Beaverton,2020-10-01 00:00:00,308,Reduction,2020-07-23 00:00:00
+7162,Nike - Childcare  ,Beaverton,2020-10-01 00:00:00,192,Reduction,2020-07-23 00:00:00
 7162,Nike,Beaverton,2020-07-23 00:00:00,700,Reduction,2020-07-23 00:00:00
 7151,American Queen Steamboat Company ,"New Albany, IN",2020-09-24 00:00:00,250,Large Layoff - 10 or more workers,2020-07-22 00:00:00
 7135,Vesta ,Lake Oswego,2020-07-22 00:00:00,20,Permanent closure,2020-07-22 00:00:00
@@ -176,8 +176,8 @@ WARN#,Company Name,Location,Layoff Date,Laid Off,Layoff Type,Received Date
 6967,Hyatt Regency - Portland,Portland,2020-03-20 00:00:00,181,Temporary Layoff,2020-06-19 00:00:00
 6964,The Bay Company - Portland,Tigard,2020-09-29 00:00:00,125,Other,2020-06-09 00:00:00
 6964,The Bay Company - Portland,Tigard,2020-04-15 00:00:00,289,Large Layoff - 10 or more workers,2020-06-09 00:00:00
-6963,Kimpton Riverplace Hotel,Portland,2020-03-13 00:00:00,79,Large Layoff - 10 or more workers,2020-06-12 00:00:00
 6963,Kimpton Hotel Monaco Portland,Portland,2020-03-13 00:00:00,147,Large Layoff - 10 or more workers,2020-06-12 00:00:00
+6963,Kimpton Riverplace Hotel,Portland,2020-03-13 00:00:00,79,Large Layoff - 10 or more workers,2020-06-12 00:00:00
 6963,Kimpton Hotel Vintage Portland,Portland,2020-03-01 00:00:00,94,Large Layoff - 10 or more workers,2020-06-12 00:00:00
 6935,ATI Albany Operations,Albany,2020-12-07 00:00:00,76,Permanent closure,2020-06-10 00:00:00
 6935,ATI Albany Operations,Albany,2020-10-26 00:00:00,135,Large Layoff - 10 or more workers,2020-06-10 00:00:00
@@ -377,8 +377,8 @@ WARN#,Company Name,Location,Layoff Date,Laid Off,Layoff Type,Received Date
 2251,Boyd's Coffee,Portland,2018-09-14 00:00:00,4,Permanent closure,2018-03-20 00:00:00
 2251,Boyd's Coffee,Portland,2018-09-07 00:00:00,3,Permanent closure,2018-03-20 00:00:00
 2251,Boyd's Coffee,Portland,2018-09-07 00:00:00,6,Permanent closure,2018-03-20 00:00:00
-2251,Boyd's Coffee,Portland,2018-08-31 00:00:00,20,Permanent closure,2018-03-20 00:00:00
 2251,Boyd's Coffee,Portland,2018-08-31 00:00:00,15,Permanent closure,2018-03-20 00:00:00
+2251,Boyd's Coffee,Portland,2018-08-31 00:00:00,20,Permanent closure,2018-03-20 00:00:00
 2251,Boyd's Coffee,Portland,2018-08-03 00:00:00,3,Permanent closure,2018-03-20 00:00:00
 2251,Boyd's Coffee,Portland,2018-07-31 00:00:00,8,Permanent closure,2018-03-20 00:00:00
 2251,Boyd Coffee Company - Eugene,Eugene,2018-05-23 00:00:00,72,Permanent closure,2018-03-20 00:00:00
@@ -520,11 +520,11 @@ WARN#,Company Name,Location,Layoff Date,Laid Off,Layoff Type,Received Date
 2024,Ringside Steakhouse,Portland,2015-01-01 00:00:00,57,Small Layoff  1 – 10 workers,2014-10-28 00:00:00
 2022,Umatilla Chemical Agent-URS,Hermiston,2014-10-09 00:00:00,26,Permanent closure,2014-08-08 00:00:00
 2020,Elks Rehab System,Ontario,2014-07-31 00:00:00,5,Temporary Layoff,2014-07-31 00:00:00
-2018,BFN Operations LLC,Cornelius,2014-09-30 00:00:00,100,Permanent closure,2014-06-30 00:00:00
 2000,West Linn Paper Co,West Linn,2014-03-19 00:00:00,41,Reduction,2014-08-22 00:00:00
 6692,Happy Guests Intl. - Salty's,Portland,,,Temporary Layoff,2020-05-14 00:00:00
 8470,BOISE CASCADE ELGIN PLYWOOD MILL       ,ELGIN                         ,,,Large Layoff - 10 or more workers,2022-12-14 00:00:00
 8592,"Rise Services, Inc.","Mesa, AZ",,,Permanent closure,2023-07-18 00:00:00
+2018,BFN Operations LLC,Cornelius,2014-09-30 00:00:00,100,Permanent closure,2014-06-30 00:00:00
 2017,Kmart Corporation,Albany,2014-09-14 00:00:00,64,Permanent closure,2014-06-12 00:00:00
 2015,"LAIKA, LLC",Hillsboro,2014-07-19 00:00:00,76,Permanent closure,2014-05-19 00:00:00
 2014,URS-Umatilla Chemical Agent Disposal,Hermiston,2014-07-17 00:00:00,25,Large Layoff - 10 or more workers,2014-05-14 00:00:00
