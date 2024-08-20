@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "ac5ffae9b2a98cd4e3be3d6bcdb6cb65e2c86a5d574f072452d6b9c8c81af712"
+            "sha256": "de2a282fb8f6b976fca9bc0aef94558c244a7a65705848a5bfccecfef760da0a"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -411,11 +411,11 @@
         },
         "pdfplumber": {
             "hashes": [
-                "sha256:43a3cac33d2135ce00ac59ad5bc3813a33afe0f513d9284c0e8cb6e447ed6e53",
-                "sha256:4f3e13795d18b2e53dfc4cd667a3bc2478cd6975fc9a188881376265d599c5a6"
+                "sha256:147b55cde2351fcb9523b46b09cc771eea3602faecfb60d463c6bf951694fbe8",
+                "sha256:6150f0678c7aaba974ac09839c17475d6c0c4d126b5f92cb85154885f31c6d73"
             ],
             "markers": "python_version >= '3.8'",
-            "version": "==0.11.3"
+            "version": "==0.11.4"
         },
         "pillow": {
             "hashes": [
@@ -595,11 +595,11 @@
         },
         "warn-transformer": {
             "hashes": [
-                "sha256:0b5ff27d66de5542c2d53d95140ff25aa1ef2767e3adf88de4bbc14eb0253767",
-                "sha256:85cbc24321f384c9291fdd0e3613d88636c5e8036b70cb3c2a5cce9156da63df"
+                "sha256:a7e7956410af262e3c8309505465a33a525f7fdc96f168748542ebae02751af3",
+                "sha256:b2219c1cc5007d8c4eef656800444ed1a8445533309c7b7388d299d3a106f3e8"
             ],
             "index": "pypi",
-            "version": "==1.3.158"
+            "version": "==1.3.159"
         },
         "webencodings": {
             "hashes": [
