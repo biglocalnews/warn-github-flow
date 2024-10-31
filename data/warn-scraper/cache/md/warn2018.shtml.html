@@ -205,6 +205,19 @@
     </div>
 </noscript>
     	
+		
+		
+<script type="text/javascript">
+ $(document).ready(function () {
+   if((window.location.href.indexOf("license") > -1) || (window.location.href.indexOf("pq") > -1))  {
+   $("#laboralert").prepend('<div role="alert" aria-live="polite" class="alert alert-dismissible alert-info" tabindex="-1"><div class="alert-icon"><i class="fas fa-circle-info" aria-hidden="true"></i></div><div class="alert-text"> <p>E-Licensing will be undergoing an upgrade starting Thursday, November 7, 2024, at 7:00 a.m. and completed by 11:00 a.m. We expect the system to be operational during this time period, however, if you experience any issues, please try again later in the day.</p></div></div>');
+  }
+});
+</script>
+
+
+<div id="laboralert"></div>
+		
 </div>
 
         <!-- Enterprise Header -->
