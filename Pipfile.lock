@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "0583a606523b58ea5663ef15e1abd36f2c41a2e033ac855d2b6de600df605f23"
+            "sha256": "85bd379916bfdd4aca898aad32374d98f65ae7185a4447e3d7f302a0c2585793"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -413,11 +413,11 @@
         },
         "packaging": {
             "hashes": [
-                "sha256:026ed72c8ed3fcce5bf8950572258698927fd1dbda10a5e981cdf0ac37f4f002",
-                "sha256:5b8f2217dbdbd2f7f384c41c628544e6d52f2d0f53c6d0c3ea61aa5d1d7ff124"
+                "sha256:09abb1bccd265c01f4a3aa3f7a7db064b36514d2cba19a2f694fe6150451a759",
+                "sha256:c228a6dc5e932d346bc5739379109d49e8853dd8223571c7c5b55260edc0b97f"
             ],
             "markers": "python_version >= '3.8'",
-            "version": "==24.1"
+            "version": "==24.2"
         },
         "pdfminer.six": {
             "hashes": [
@@ -608,11 +608,11 @@
         },
         "warn-transformer": {
             "hashes": [
-                "sha256:72a90b589b1bcd3c152a4121a9ff09b23065fa1ff4e9039cd5751f4b47bf4c4d",
-                "sha256:db05c44d4faf8943be5d7390a234d2380df1df37a59058d561256c215c5b82c5"
+                "sha256:0e5d65bd76d682982c32da6e0b695aaa75b113c7bcbaea3b9fda3fd2e385741c",
+                "sha256:266c2535cfeaf9c6bd1797c2c588f5035dbc77aca5a51d614255cb79c80230e2"
             ],
             "index": "pypi",
-            "version": "==1.3.188"
+            "version": "==1.3.189"
         },
         "webencodings": {
             "hashes": [
@@ -657,11 +657,11 @@
         },
         "packaging": {
             "hashes": [
-                "sha256:026ed72c8ed3fcce5bf8950572258698927fd1dbda10a5e981cdf0ac37f4f002",
-                "sha256:5b8f2217dbdbd2f7f384c41c628544e6d52f2d0f53c6d0c3ea61aa5d1d7ff124"
+                "sha256:09abb1bccd265c01f4a3aa3f7a7db064b36514d2cba19a2f694fe6150451a759",
+                "sha256:c228a6dc5e932d346bc5739379109d49e8853dd8223571c7c5b55260edc0b97f"
             ],
             "markers": "python_version >= '3.8'",
-            "version": "==24.1"
+            "version": "==24.2"
         },
         "pluggy": {
             "hashes": [
@@ -682,11 +682,11 @@
         },
         "tomli": {
             "hashes": [
-                "sha256:2ebe24485c53d303f690b0ec092806a085f07af5a5aa1464f3931eec36caaa38",
-                "sha256:d46d457a85337051c36524bc5349dd91b1877838e2979ac5ced3e710ed8a60ed"
+                "sha256:3f646cae2aec94e17d04973e4249548320197cfabdf130015d023de4b74d8ab8",
+                "sha256:a5c57c3d1c56f5ccdf89f6523458f60ef716e210fc47c4cfb188c5ba473e0391"
             ],
             "markers": "python_version < '3.11'",
-            "version": "==2.0.2"
+            "version": "==2.1.0"
         }
     }
 }
