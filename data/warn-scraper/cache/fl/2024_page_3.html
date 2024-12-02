@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>React System</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="/Content/Site.css" rel="stylesheet" type="text/css" />
+    <link href="/Content/bootstrap.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.6/moment.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="/Scripts/jquery-3.3.1.min.js"></script>
+    <script src="/Scripts/jquery.validate.min.js"></script>
+    <script src="/Scripts/jquery.validate.unobtrusive.js"></script>
+
+
+</head>
+<body>
+    <!-- Header-->
+    <div class="px-home-header-Image px-home-header">
+
+    </div>
+    <div class="px-nav-bar-header">
+        <ul class="top-nav-bar">
+            
+        </ul>
+    </div>
+
+    <!-- Body and Footer -->
+    <div class="page">
+        <header>
+            <div class="siteTitle">Rapid Response System</div>
+        </header>
+        <section id="mainBody">
+            
+<head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="/Content/Site.css" rel="stylesheet" type="text/css" />
+    <link href="/Content/bootstrap.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.6/moment.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="/Scripts/jquery-3.3.1.min.js"></script>
+    <script src="/Scripts/jquery.validate.min.js"></script>
+
+</head>
+
+<br />
+<p align="center">
+    <font face="Arial Black" size="6">
+        2024 Worker Adjustment and Retraining Notification Notices
+    </font>
+</p>
+<br />
+
+<form action="/WarnList/Records" method="post">    <div class="container-fluid">
+        <div class="container">
+            <div class="panel panel-default" style="text-align: left">
+                <div class="panel-heading">
+                    <h3>Search</h3>
+                </div>
+
+                <div class="panel-body">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2  editor-label" style="text-align: right">
+                            <label for="CompanyName">Company Name</label>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2 editor-field" style="text-align: left">
+                            <input class="text-box single-line" id="CompanyName" name="CompanyName" type="text" value="" />
+                            <input id="CompanyName" name="CompanyName" type="hidden" value="" />
+                            <input data-val="true" data-val-number="The field Year must be a number." data-val-required="The Year field is required." id="Year" name="Year" type="hidden" value="2024" year="2024" />
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2  editor-label" style="text-align: right">
+                            <label for="LWDB">LWDB</label>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2 editor-field" style="text-align: left">
+                            <input class="text-box single-line" id="LWDB" name="LWDB" type="text" value="" />
+                            <input id="LWDB" name="LWDB" type="hidden" value="" />
+                        </div>
+                    </div>
+
+
+                    <br />
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="text-align: center">
+                            <button class="btn btn-primary" type="submit">Search</button>
+                            <input type="submit" value="Clear" class="btn btn-primary" id="btnClear" name="clearButton" />
+                        </div>
+                    </div>
+                </div>
+                <br />
+
+                <div id="DivGrid" style="text-align:center;">
+                            <div style="text-align:left;"><strong></strong> | 227 <label for="Record_s__found">Record(s) found</label></div>
+    <table class="PGrid" id="DataTable">
+    <thead>
+        <tr class="Header">
+            <th scope="col">
+<a href="/WarnList/Records?year=2024&amp;sort=CompanyName&amp;sortdir=ASC">Company Name</a>            </th>
+            <th scope="col">
+<a href="/WarnList/Records?year=2024&amp;sort=WARNReceivedByStateDate&amp;sortdir=ASC">State Notification Date</a>            </th>
+            <th scope="col">
+<a href="/WarnList/Records?year=2024&amp;sort=LayOffDate&amp;sortdir=ASC">Layoff Date</a>            </th>
+            <th scope="col">
+<a href="/WarnList/Records?year=2024&amp;sort=EmpAffected&amp;sortdir=ASC">Employees Affected</a>            </th>
+            <th scope="col">
+<a href="/WarnList/Records?year=2024&amp;sort=Industry&amp;sortdir=ASC">Industry</a>            </th>
+            <th scope="col">
+<a href="/WarnList/Records?year=2024&amp;sort=Attachment&amp;sortdir=ASC">Attachment</a>            </th>
+        </tr>
+    </thead>
+    <tfoot>
+        <tr >
+            <td colspan="6"><a href="/WarnList/Records?year=2024&amp;page=2">&lt;</a> <a href="/WarnList/Records?year=2024&amp;page=1">1</a> <a href="/WarnList/Records?year=2024&amp;page=2">2</a> 3 </td>
+        </tr>
+    </tfoot>
+    <tbody>
+        <tr>
+            <td><b>OBXtek</b> </br>589 Independence Rd.</br></br>HURLBURT FIELD, FL, 32544</td>
+            <td>02-20-24</td>
+            <td>04-21-24</br><i> thru </i> </br>04-21-24</td>
+            <td>57</td>
+            <td>Professional, Scientific, and Technical Services</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(200);' /><input type = 'hidden' id = 'FPath200' name = 'FPath200' value = 'OBXtek.docx.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>LATAM Global Security Services</b> </br>2100 NW 42nd Ave</br></br>MIAMI, FL, 33142</td>
+            <td>02-19-24</td>
+            <td>04-14-24</br><i> thru </i> </br>04-14-24</td>
+            <td>166</td>
+            <td>Administrative and Support and Waste Management and Remediation Services</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(201);' /><input type = 'hidden' id = 'FPath201' name = 'FPath201' value = 'SKM_368e24021912590.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>TBI US Operations, Inc.</b> </br>2001 Red Cleveland Boulevard</br></br>SANFORD, FL, 32773</td>
+            <td>02-12-24</td>
+            <td>02-15-24</br><i> thru </i> </br>03-15-24</td>
+            <td>3</td>
+            <td>Finance and Insurance</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(202);' /><input type = 'hidden' id = 'FPath202' name = 'FPath202' value = 'TBI+US+Operations.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>New vison Pharmaceuticals, LLC (NVP)</b> </br>10200 NW 67th Street</br></br>TAMARAC, FL, 33321</td>
+            <td>02-12-24</td>
+            <td>02-09-24</br><i> thru </i> </br>02-09-24</td>
+            <td>88</td>
+            <td>Manufacturing</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(203);' /><input type = 'hidden' id = 'FPath203' name = 'FPath203' value = 'New+Vision+Pharmaceuticals+LLC+-++WARN+Notice.docx.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>Alto Operations Florida LLC</b> </br>3901 NW 28th Street</br></br>MIAMI, FL, 33142</td>
+            <td>02-12-24</td>
+            <td>04-12-24</br><i> thru </i> </br>04-12-24</td>
+            <td>121</td>
+            <td>Transportation and Warehousing</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(204);' /><input type = 'hidden' id = 'FPath204' name = 'FPath204' value = 'ALTO.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>Orlando Sanford International Airport</b> </br>1200 Red Cleveland Boulevard</br></br>SANFORD, FL, 32773</td>
+            <td>02-12-24</td>
+            <td>02-15-24</br><i> thru </i> </br>03-08-24</td>
+            <td>6</td>
+            <td>Transportation and Warehousing</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(205);' /><input type = 'hidden' id = 'FPath205' name = 'FPath205' value = 'Updated+OSI+WARN+notice.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>Coca Cola Company</b> </br>427 San Christopher Dr</br></br>DUNEDIN, FL, 34698</td>
+            <td>02-06-24</td>
+            <td>04-06-24</br><i> thru </i> </br>05-31-24</td>
+            <td>198</td>
+            <td>Manufacturing</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(206);' /><input type = 'hidden' id = 'FPath206' name = 'FPath206' value = 'Dunedin+WARN+Notice+for+Rapid+Response+(004).pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>Fence Outlet MDC, LLC</b> </br>4025 West Highway 60</br></br>LAKE WALES, FL, 33859</td>
+            <td>02-09-24</td>
+            <td>03-31-24</br><i> thru </i> </br>03-31-24</td>
+            <td>69</td>
+            <td>Retail Trade</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(207);' /><input type = 'hidden' id = 'FPath207' name = 'FPath207' value = 'Fence+Outlet+MDC%2c+LLC.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>BioDerm, Inc</b> </br>12320 73rd Court N</br></br>LARGO, FL, 33773</td>
+            <td>02-05-24</td>
+            <td>04-06-24</br><i> thru </i> </br>12-31-24</td>
+            <td>50</td>
+            <td>Manufacturing</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(208);' /><input type = 'hidden' id = 'FPath208' name = 'FPath208' value = 'Pinellas+County_WARN+Notice_02+05+2024+(002).pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>Corsair Gaming, Inc.</b> </br>12400 SW 134th Court</br>Suite 8</br>MIAMI, FL, 33186</td>
+            <td>02-01-24</td>
+            <td>04-02-24</br><i> thru </i> </br>04-16-24</td>
+            <td>55</td>
+            <td>Manufacturing</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(209);' /><input type = 'hidden' id = 'FPath209' name = 'FPath209' value = 'Corsair+Gaming%2c+Inc..pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>Los Angeles Times Communications LLC</b> </br>2300 E. Imperial Highway</br>El Segundo, CA 90245</br>MIAMI, FL, 33130</td>
+            <td>01-23-24</td>
+            <td>03-25-24</br><i> thru </i> </br>03-25-24</td>
+            <td>1</td>
+            <td>Information</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(210);' /><input type = 'hidden' id = 'FPath210' name = 'FPath210' value = 'Los+Angeles+Times+Communications+LLC.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>Fathom Manufacturing, LLC</b> </br>14000 N.W. 58th Court</br></br>MIAMI LAKES, FL, 33014</td>
+            <td>01-23-24</td>
+            <td>03-24-24</br><i> thru </i> </br>04-30-24</td>
+            <td>54</td>
+            <td>Professional, Scientific, and Technical Services</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(211);' /><input type = 'hidden' id = 'FPath211' name = 'FPath211' value = 'WARN+Notice+(extension)+-+Fathom+Manufacturing%2c+LLC.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>Lost Boys Interactive, LLC</b> </br>6417 Normandy Lane, Suite 201</br>Madison, WI 53719</br>DELTONA, FL, 32725</td>
+            <td>01-12-24</td>
+            <td>03-15-24</br><i> thru </i> </br>03-15-24</td>
+            <td>1</td>
+            <td>Professional, Scientific, and Technical Services</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(212);' /><input type = 'hidden' id = 'FPath212' name = 'FPath212' value = 'Lost+Boys+Interactive%2c+LLC.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>Lost Boys Interactive, LLC</b> </br>6417 Normandy Lane, Suite 201</br>Madison, WI 53719</br>MOUNT DORA, FL, 32756</td>
+            <td>01-12-24</td>
+            <td>03-15-24</br><i> thru </i> </br>03-15-24</td>
+            <td>1</td>
+            <td>Professional, Scientific, and Technical Services</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(213);' /><input type = 'hidden' id = 'FPath213' name = 'FPath213' value = 'Lost+Boys+Interactive%2c+LLC.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>Lost Boys Interactive, LLC</b> </br>6417 Normandy Lane, Suite 201</br>Madison, WI 53719</br>ORLANDO, FL, 32789</td>
+            <td>01-12-24</td>
+            <td>03-15-24</br><i> thru </i> </br>03-15-24</td>
+            <td>2</td>
+            <td>Professional, Scientific, and Technical Services</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(214);' /><input type = 'hidden' id = 'FPath214' name = 'FPath214' value = 'Lost+Boys+Interactive%2c+LLC.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>Lost Boys Interactive, LLC</b> </br>6417 Normandy Lane, Suite 201</br>Madison, WI 53719</br>PANAMA CITY, FL, 32401</td>
+            <td>01-12-24</td>
+            <td>03-15-24</br><i> thru </i> </br>03-15-24</td>
+            <td>1</td>
+            <td>Professional, Scientific, and Technical Services</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(215);' /><input type = 'hidden' id = 'FPath215' name = 'FPath215' value = 'Lost+Boys+Interactive%2c+LLC.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>Lost Boys Interactive, LLC</b> </br>6417 Normandy Lane, Suite 201</br>Madison, WI 53719</br>CAPE CORAL, FL, 33903</td>
+            <td>01-12-24</td>
+            <td>03-15-24</br><i> thru </i> </br>03-15-24</td>
+            <td>1</td>
+            <td>Professional, Scientific, and Technical Services</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(216);' /><input type = 'hidden' id = 'FPath216' name = 'FPath216' value = 'Lost+Boys+Interactive%2c+LLC.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>Fanatics, LLC</b> </br>5245 Commonwealth Ave</br></br>JACKSONVILLE, FL, 32254</td>
+            <td>01-11-24</td>
+            <td>04-01-24</br><i> thru </i> </br>08-01-24</td>
+            <td>218</td>
+            <td>Retail Trade</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(217);' /><input type = 'hidden' id = 'FPath217' name = 'FPath217' value = 'Fanatics%2c+LLC.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>G2 Secure Staff, LLC</b> </br>2100 NW 42nd Ave</br></br>MIAMI, FL, 33126</td>
+            <td>01-10-24</td>
+            <td>03-04-24</br><i> thru </i> </br>04-15-24</td>
+            <td>130</td>
+            <td>Administrative and Support and Waste Management and Remediation Services</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(218);' /><input type = 'hidden' id = 'FPath218' name = 'FPath218' value = 'G2+Secure+Staff%2c+LLC.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>West Fraser, Inc.</b> </br>6640 County Road 218</br></br>JACKSONVILLE, FL, 32234</td>
+            <td>01-09-24</td>
+            <td>03-19-24</br><i> thru </i> </br>03-19-24</td>
+            <td>79</td>
+            <td>Manufacturing</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(219);' /><input type = 'hidden' id = 'FPath219' name = 'FPath219' value = 'West+Fraser.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>GDI Services</b> </br>12340 Boggy Creek Road</br></br>ORLANDO, FL, 32824</td>
+            <td>01-05-24</td>
+            <td>03-05-24</br><i> thru </i> </br>03-05-24</td>
+            <td>106</td>
+            <td>Administrative and Support and Waste Management and Remediation Services</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(220);' /><input type = 'hidden' id = 'FPath220' name = 'FPath220' value = 'GDI+Services.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>GDI Services</b> </br>2600 N Normandy Blvd</br></br>DELTONA, FL, 32725</td>
+            <td>01-05-24</td>
+            <td>03-05-24</br><i> thru </i> </br>03-05-24</td>
+            <td>45</td>
+            <td>Administrative and Support and Waste Management and Remediation Services</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(221);' /><input type = 'hidden' id = 'FPath221' name = 'FPath221' value = 'GDI+Services.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>GDI Services</b> </br>14000 NW 37th Ave</br></br>OPA LOCKA, FL, 33054</td>
+            <td>01-05-24</td>
+            <td>03-05-24</br><i> thru </i> </br>03-05-24</td>
+            <td>99</td>
+            <td>Administrative and Support and Waste Management and Remediation Services</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(222);' /><input type = 'hidden' id = 'FPath222' name = 'FPath222' value = 'GDI+Services.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>GDI Services</b> </br>3350 Laurel Ridge Ave</br></br>RUSKIN, FL, 33570</td>
+            <td>01-05-24</td>
+            <td>03-05-24</br><i> thru </i> </br>03-05-24</td>
+            <td>101</td>
+            <td>Administrative and Support and Waste Management and Remediation Services</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(223);' /><input type = 'hidden' id = 'FPath223' name = 'FPath223' value = 'GDI+Services.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>GDI Services</b> </br>1760 County Line Rd</br></br>LAKELAND, FL, 33811</td>
+            <td>01-05-24</td>
+            <td>03-05-24</br><i> thru </i> </br>03-05-24</td>
+            <td>49</td>
+            <td>Administrative and Support and Waste Management and Remediation Services</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(224);' /><input type = 'hidden' id = 'FPath224' name = 'FPath224' value = 'GDI+Services.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>GDI Services</b> </br>676 C. Fred Jones Blvd</br></br>AUBURNDALE, FL, 33823</td>
+            <td>01-05-24</td>
+            <td>03-05-24</br><i> thru </i> </br>03-05-24</td>
+            <td>38</td>
+            <td>Administrative and Support and Waste Management and Remediation Services</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(225);' /><input type = 'hidden' id = 'FPath225' name = 'FPath225' value = 'GDI+Services.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>Percepta</b> </br>1320 S. Babcock St</br></br>MELBOURNE, FL, 32901</td>
+            <td>01-03-24</td>
+            <td>03-29-24</br><i> thru </i> </br>03-29-24</td>
+            <td>98</td>
+            <td>Administrative and Support and Waste Management and Remediation Services</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(228);' /><input type = 'hidden' id = 'FPath228' name = 'FPath228' value = 'Percepta.pdf' /></td>
+        </tr>
+    </tbody>
+    </table>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+</form><script type="text/javascript">
+    function DownloadFile(fileNo) {
+
+        var FileNumber = "FPath" + fileNo;
+        var fileName = $('input[name="'+FileNumber+'"]').val();
+        var filedata = new FormData();
+        //alert(fileName);
+        filedata.append("file", fileName);
+
+        $.ajax({
+            url: '/WarnList/Download',
+            type: "POST",
+            contentType: false,
+            processData: false,
+            data: filedata,
+            success: function (successValue)
+            {
+                //alert(successValue.responseText);
+                //alert(successValue.exactFileName);
+
+                if (successValue.success) {
+                    window.location = '/WarnList/DownloadAzureFile?file=' + successValue.exactFileName;
+                }
+                else {
+                    alert(successValue.responseText);
+                }
+            }
+        });
+    }
+</script>]
+
+        </section>
+    </div>
+    <br />
+    <br />
+    <div>
+        <footer>
+            <div style="height: 70px; width: 100%; background-color: #202452; position:fixed; bottom: 0;">
+    <div style="background: #202452;">
+        <div class="row">
+            <div class="col-md-12">
+                <img src="/Content/Image/floridacommerce-appfooter.jpg" /><br />
+            </div>
+        </div>
+    </div>
+</div>
+
+   
+        </footer>
+    </div>
+</body>
+</html>
+<script type="text/javascript">
+    $(function () {
+        $.ajaxSetup({
+            // ajaxSetup code here...
+        })
+        // Set the focus to the first textbox on every form in the app
+
+        $("input[type=text]").first().focus();
+    });
+</script>
