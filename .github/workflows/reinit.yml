@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Clone repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
@@ -46,7 +46,7 @@ jobs:
         shell: bash
 
       - name: Commit and push
-        uses: stefanzweifel/git-auto-commit-action@v4
+        uses: stefanzweifel/git-auto-commit-action@master
         with:
           commit_message: Update transformer
           branch: transformer
@@ -55,7 +55,7 @@ jobs:
           file_pattern: ./data/warn-transformer/*
 
       - name: Upload file to biglocalnews.org
-        uses: biglocalnews/upload-files@v3
+        uses: biglocalnews/upload-files@v5
         with:
           api-key: ${{ secrets.BLN_API_TOKEN }}
           project-id: ${{ secrets.BLN_PROJECT_ID }}
