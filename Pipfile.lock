@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "8450e598241cdfa8982f3c65da43e76da1e91a1c255d88b9b04a809beba1b8e6"
+            "sha256": "5240fb3f40d1d52d4b8e95e159bf3f845d405e2c419a4eb6ed0cbe10cd0a76aa"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -119,7 +119,7 @@
                 "sha256:f7f5baafcc48261359e14bcd6d9bff6d4b28d9103847c9e136694cb0501aef87",
                 "sha256:fc48c783f9c87e60831201f2cce7f3b2e4846bf4d8728eabe54d60700b318a0b"
             ],
-            "markers": "os_name == 'nt' and implementation_name != 'pypy'",
+            "markers": "platform_python_implementation != 'PyPy'",
             "version": "==1.17.1"
         },
         "charset-normalizer": {
@@ -565,6 +565,14 @@
             "markers": "python_version >= '3.8'",
             "version": "==2.22"
         },
+        "pyopenssl": {
+            "hashes": [
+                "sha256:49f7a019577d834746bc55c5fce6ecbcec0f2b4ec5ce1cf43a9a173b8138bb36",
+                "sha256:e474f5a473cd7f92221cc04976e48f4d11502804657a08a989fb3be5514c904a"
+            ],
+            "markers": "python_version >= '3.7'",
+            "version": "==24.3.0"
+        },
         "pypdfium2": {
             "hashes": [
                 "sha256:1a9e372bd4867ff223cc8c338e33fe11055dad12f22885950fc27646cc8d9122",
@@ -699,11 +707,11 @@
         },
         "warn-scraper": {
             "hashes": [
-                "sha256:985dc2ee1399ac0fe7993b3f8d8cee4bccc771b5a115a548bc825a034d1b0f27",
-                "sha256:dd5d9b12cc579bfe07ea2a3361d578304812bcde4564e4fb4aedd2d2875e52fa"
+                "sha256:3a8976db0a769b07a2cb9d9a2fe691c3fac96ca0c30fc85d9c3163d04b4bb4c6",
+                "sha256:60bc6a718117c6aed6d46121e56afef7016638a52cd5726079a18a3e4c172b75"
             ],
             "index": "pypi",
-            "version": "==1.2.90"
+            "version": "==1.2.91"
         },
         "warn-transformer": {
             "hashes": [
