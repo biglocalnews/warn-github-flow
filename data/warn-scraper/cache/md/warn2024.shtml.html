@@ -183,6 +183,14 @@
 });
 </script>
 
+<script type="text/javascript">
+ $(document).ready(function () {
+   if(document.title.indexOf("Division of Unemployment Insurance") > -1) {
+   $("#laboralert").prepend('<div role="alert" aria-live="polite" class="alert alert-dismissible alert-info" tabindex="-1"><div class="alert-icon"><i class="fas fa-circle-info" aria-hidden="true"></i></div><div class="alert-text"> <p>The building at 1100 N. Eutaw Street is closed for in-person unemployment insurance (UI) services, as the Maryland Division of Unemployment Insurance has relocated. This website will be updated with the new location for in-person UI services when all move details are finalized. For assistance, claimants may call 667-207-6520 (8:00 a.m. to 4:00 p.m., Monday to Friday) and employers may call 410-949-0033 (8:00 a.m. to 4:30 p.m., Monday to Friday).</p></div></div>');
+  }
+});
+</script>
+
 
 <div id="laboralert"></div>
 		
@@ -363,7 +371,7 @@
 
 ﻿<!--begin first secondary content area-->
                           <div class="row-fluid">
-                <div id="secondary_content_Block" class="clearfix">
+                <div id="secondary_content_Block" class="clearfix" style="padding-left: 10px;">
    
 
                   <div class="span12 clearfix">
