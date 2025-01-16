@@ -59,10 +59,10 @@
     
       <form action="/search/search" method="get" id="search-block-form" accept-charset="UTF-8">
   <div class="form-item js-form-item form-type-search js-form-type-search form-item-keys js-form-item-keys form-no-label form-group">
-      <label for="edit-keys--2" class="control-label sr-only">Search</label>
+      <label for="edit-keys" class="control-label sr-only">Search</label>
   
   
-  <div class="input-group"><input title="Enter the terms you wish to search for." data-drupal-selector="edit-keys" class="form-search form-control" placeholder="Search" type="search" id="edit-keys--2" name="keys" value="" size="15" maxlength="128" data-toggle="tooltip" /><span class="input-group-btn"><button  type="submit" value="Search" class="button js-form-submit form-submit btn" >Search</button></span></div>
+  <div class="input-group"><input title="Enter the terms you wish to search for." data-drupal-selector="edit-keys" class="form-search form-control" placeholder="Search" type="search" id="edit-keys" name="keys" value="" size="15" maxlength="128" data-toggle="tooltip" /><span class="input-group-btn"><button  type="submit" value="Search" class="button js-form-submit form-submit btn" >Search</button></span></div>
 
   
   
@@ -126,13 +126,37 @@
           <div  class="tbm-column span12">
   <div class="tbm-column-inner">
                <ul  class="tbm-subnav level-2 items-4" role="list">
-        <li  class="tbm-item level-3" aria-level="3">
+        <li  class="tbm-item level-3 tbm-item--has-flyout" aria-level="3">
       <div class="tbm-link-container color__brand-dark-blue">
-            <a href="/employers/myui-employer/resources"  class="tbm-link level-3">
+            <a href="/employers/myui-employer/resources"  class="tbm-link level-3 tbm-toggle" aria-expanded="false">
                 Resources
+          </a>
+                <button class="tbm-submenu-toggle always-show color__brand-dark-blue"><span class="visually-hidden">Toggle submenu</span></button>
+          </div>
+    <div  class="tbm-submenu tbm-item-child" role="list">
+      <div class="color__brand-dark-blue">
+  <div  class="tbm-row">
+          <div  class="tbm-column span12">
+  <div class="tbm-column-inner">
+               <ul  class="tbm-subnav level-3 items-1" role="list">
+        <li  class="tbm-item level-4" aria-level="4">
+      <div class="tbm-link-container color__brand-dark-blue">
+            <a href="/employers/myui-employer/resources/third-party-administrator-toolkit"  class="tbm-link level-4">
+                Third-Party Administrator Toolkit
           </a>
             </div>
     
+</li>
+
+  </ul>
+
+      </div>
+</div>
+
+      </div>
+</div>
+  </div>
+
 </li>
 
         <li  class="tbm-item level-3" aria-level="3">
