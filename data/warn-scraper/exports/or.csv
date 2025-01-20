@@ -88,10 +88,10 @@ WARN#,Company Name,Location,Layoff Date,Laid Off,Layoff Type,Received Date
 8622,"Divvy Homes, Inc","San Francisco, CA",2023-11-07 00:00:00,94,Reduction,2023-09-07 00:00:00
 8617,Walker Rd - Hillsboro,Hillsboro,2024-04-05 00:00:00,2,Reduction,2023-08-22 00:00:00
 8617,Walker Rd - Hillsboro,Hillsboro,2024-01-26 00:00:00,2,Reduction,2023-08-22 00:00:00
-8617,Bennett St. - Hillsboro,Hillsboro,2024-01-12 00:00:00,3,Reduction,2023-08-22 00:00:00
 8617,Walker Rd - Hillsboro,Hillsboro,2024-01-12 00:00:00,62,Large Layoff - 10 or more workers,2023-08-22 00:00:00
-8617,Walker Rd - Hillsboro,Hillsboro,2023-12-29 00:00:00,3,Reduction,2023-08-22 00:00:00
+8617,Bennett St. - Hillsboro,Hillsboro,2024-01-12 00:00:00,3,Reduction,2023-08-22 00:00:00
 8617,Bennett St. - Hillsboro,Hillsboro,2023-12-29 00:00:00,2,Reduction,2023-08-22 00:00:00
+8617,Walker Rd - Hillsboro,Hillsboro,2023-12-29 00:00:00,3,Reduction,2023-08-22 00:00:00
 8617,Walker Rd - Hillsboro,Hillsboro,2023-12-01 00:00:00,1,Reduction,2023-08-22 00:00:00
 8617,Walker Rd - Hillsboro,Hillsboro,2023-11-17 00:00:00,1,Reduction,2023-08-22 00:00:00
 8617,Walker Rd - Hillsboro,Hillsboro,2023-10-20 00:00:00,158,Large Layoff - 10 or more workers,2023-08-22 00:00:00
@@ -197,8 +197,8 @@ WARN#,Company Name,Location,Layoff Date,Laid Off,Layoff Type,Received Date
 7185,Alaska Airlines - Portland Internationa,Portland,2020-10-01 00:00:00,277,Reduction,2020-07-29 00:00:00
 7184,Embassy Suites Portland-Downtown,Portland,2020-03-20 00:00:00,70,Large Layoff - 10 or more workers,2020-07-31 00:00:00
 7171,"LSG Group - Sky Chefs, Inc",Portland,2020-10-01 00:00:00,193,Large Layoff - 10 or more workers,2020-07-31 00:00:00
-7162,Nike - Childcare  ,Beaverton,2020-10-01 00:00:00,192,Reduction,2020-07-23 00:00:00
 7162,Nike,Beaverton,2020-10-01 00:00:00,308,Reduction,2020-07-23 00:00:00
+7162,Nike - Childcare  ,Beaverton,2020-10-01 00:00:00,192,Reduction,2020-07-23 00:00:00
 7162,Nike,Beaverton,2020-07-23 00:00:00,700,Reduction,2020-07-23 00:00:00
 7151,American Queen Steamboat Company ,"New Albany, IN",2020-09-24 00:00:00,250,Large Layoff - 10 or more workers,2020-07-22 00:00:00
 7135,Vesta ,Lake Oswego,2020-07-22 00:00:00,20,Permanent closure,2020-07-22 00:00:00
@@ -419,10 +419,10 @@ WARN#,Company Name,Location,Layoff Date,Laid Off,Layoff Type,Received Date
 2251,Boyd's Coffee,Portland,2018-09-28 00:00:00,1,Permanent closure,2018-03-20 00:00:00
 2251,Boyd's Coffee,Portland,2018-09-28 00:00:00,16,Permanent closure,2018-03-20 00:00:00
 2251,Boyd's Coffee,Portland,2018-09-14 00:00:00,4,Permanent closure,2018-03-20 00:00:00
-2251,Boyd's Coffee,Portland,2018-09-07 00:00:00,6,Permanent closure,2018-03-20 00:00:00
 2251,Boyd's Coffee,Portland,2018-09-07 00:00:00,3,Permanent closure,2018-03-20 00:00:00
-2251,Boyd's Coffee,Portland,2018-08-31 00:00:00,15,Permanent closure,2018-03-20 00:00:00
+2251,Boyd's Coffee,Portland,2018-09-07 00:00:00,6,Permanent closure,2018-03-20 00:00:00
 2251,Boyd's Coffee,Portland,2018-08-31 00:00:00,20,Permanent closure,2018-03-20 00:00:00
+2251,Boyd's Coffee,Portland,2018-08-31 00:00:00,15,Permanent closure,2018-03-20 00:00:00
 2251,Boyd's Coffee,Portland,2018-08-03 00:00:00,3,Permanent closure,2018-03-20 00:00:00
 2251,Boyd's Coffee,Portland,2018-07-31 00:00:00,8,Permanent closure,2018-03-20 00:00:00
 2251,Boyd Coffee Company - Eugene,Eugene,2018-05-23 00:00:00,72,Permanent closure,2018-03-20 00:00:00
@@ -557,10 +557,10 @@ WARN#,Company Name,Location,Layoff Date,Laid Off,Layoff Type,Received Date
 2049,CP Medical Corporation,Portland,2015-09-30 00:00:00,14,Large Layoff - 10 or more workers,2015-03-04 00:00:00
 2048,Ambassadors Programs Inc.,"Spokane, WA",2015-04-27 00:00:00,1,Large Layoff - 10 or more workers,2015-02-25 00:00:00
 2039,Safeway Inc.,Clackamas,2015-03-31 00:00:00,91,Permanent closure,2015-01-29 00:00:00
-2038,Kaiser Permanente,Portland,2015-06-01 00:00:00,100,Large Layoff - 10 or more workers,2015-01-19 00:00:00
 6692,Happy Guests Intl. - Salty's,Portland,,,Temporary Layoff,2020-05-14 00:00:00
 8470,BOISE CASCADE ELGIN PLYWOOD MILL       ,ELGIN                         ,,,Large Layoff - 10 or more workers,2022-12-14 00:00:00
 8592,"Rise Services, Inc.","Mesa, AZ",,,Permanent closure,2023-07-18 00:00:00
+2038,Kaiser Permanente,Portland,2015-06-01 00:00:00,100,Large Layoff - 10 or more workers,2015-01-19 00:00:00
 2037,Cover Oregon,Durham,2015-03-10 00:00:00,62,Large Layoff - 10 or more workers,2015-01-08 00:00:00
 2026,Woodgrain Millwork,Prineville,2014-11-25 00:00:00,133,Large Layoff - 10 or more workers,2014-11-28 00:00:00
 2025,Lloyd Center Nordstrom,Portland,2015-01-10 00:00:00,172,Permanent closure,2014-10-29 00:00:00
