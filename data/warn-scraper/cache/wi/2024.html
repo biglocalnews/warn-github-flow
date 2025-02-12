@@ -63,7 +63,52 @@ if(window.location.href.indexOf("acc.") == -1){
 <div id="update-browser" class="text-center"><p><span class="fs-140 important red-txt">Outdated or Unsupported Browser Detected</span><br><span>DWD's website uses the latest technology. This makes our site faster and easier to use across all devices. Unfortunatley, your browser is out of date and is not supported. An update is not required, but it is strongly recommended to improve your browsing experience. To update Internet Explorer to Microsoft Edge visit their <a href="https://support.microsoft.com/en-us/microsoft-edge/make-the-switch-from-internet-explorer-to-microsoft-edge-a6f7173e-e84a-36a3-9728-3df20ade9b3c">website</a>.</span></p></div>
 
 
-<div id="wigov-bar" class="w-100">
+
+<div class="w-100 bg-danger">
+	<div  class="container container-fluid-md">
+		<div class="row py-1"> 
+			
+			<div class="col-12 text-center">
+				<i class="fas fa-2x fa-exclamation-triangle text-light d-inline-block mb-1 mb-md-0 me-2"></i>
+				<p class="text-light mb-0 m-sm-0 d-inline-block fs-90 text-center"><strong>Updated:</strong> Feb, 12, 2025 @ 3:20pm<br class="d-none d-md-block"> Due to inclement weather, some job centers will be closing early. 
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#weatherAlert" class="text-light text-decoration-underline">
+                        Click here to view the complete list of office closures</a>. </p>
+			</div>
+
+		</div>
+	</div>
+</div>
+
+<!-- Weather Modal -->
+<div class="modal fade" id="weatherAlert" tabindex="-1" aria-labelledby="weatherAlertLabel" aria-modal="true" role="dialog">
+  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+	
+	<div class="modal-content">
+	  <div class="modal-header">
+			<h2 class="modal-title text-danger" id="weatherAlertLabel">DWD Office Closures: February 12, 2025</h2>
+			<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+	  </div>
+	  <div class="modal-body fs-90">
+		<p class="fs-110">Due to inclement weather, the locations listed below are closed as indicated: </p>
+
+		<ul>
+			<li><strong>Racine County Job Center:</strong> 1717 Taylor Ave., Racine, WI 53403</li><br>
+			<li><strong>Kenosha County Job Center:</strong> 8600 Sheridan Road, Kenosha, WI 53143</li><br>
+			<li><strong>Walworth County Job Center:</strong> 400 County Road H, South Building Elkhorn, WI 53121</li><br>
+			
+		</ul>
+	  </div>
+	  <div class="modal-footer">
+			<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+	  </div>
+	</div>
+  </div>
+</div>
+
+
+
+
+<div id="wigov-bar" class="w-100"> 
 			<div  class="container container-fluid-md">
 		
 				<div class="row py-2">
