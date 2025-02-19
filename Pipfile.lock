@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "d5a83fda332eec148c4ed61179ca2d5b382cb8b67d1903d5a63e4951c6206d4a"
+            "sha256": "cfc47df9a87ae88b689cd95fdb3ec785556b61b4e2776e01afa62dfcf0cf83d7"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -667,19 +667,19 @@
         },
         "trio": {
             "hashes": [
-                "sha256:4e547896fe9e8a5658e54e4c7c5fa1db748cbbbaa7c965e7d40505b928c73c05",
-                "sha256:56d58977acc1635735a96581ec70513cc781b8b6decd299c487d3be2a721cd94"
+                "sha256:d8c463f1a9cc776ff63e331aba44c125f423a5a13c684307e828d930e625ba66",
+                "sha256:ea0d3967159fc130acb6939a0be0e558e364fee26b5deeecc893a6b08c361bdf"
             ],
             "markers": "python_version >= '3.9'",
-            "version": "==0.28.0"
+            "version": "==0.29.0"
         },
         "trio-websocket": {
             "hashes": [
-                "sha256:18c11793647703c158b1f6e62de638acada927344d534e3c7628eedcb746839f",
-                "sha256:520d046b0d030cf970b8b2b2e00c4c2245b3807853ecd44214acd33d74581638"
+                "sha256:608ec746bb287e5d5a66baf483e41194193c5cf05ffaad6240e7d1fcd80d1e6f",
+                "sha256:d55ccd4d3eae27c494f3fdae14823317839bdcb8214d1173eacc4d42c69fc91b"
             ],
-            "markers": "python_version >= '3.7'",
-            "version": "==0.11.1"
+            "markers": "python_version >= '3.8'",
+            "version": "==0.12.1"
         },
         "typing-extensions": {
             "hashes": [
@@ -710,11 +710,11 @@
         },
         "warn-transformer": {
             "hashes": [
-                "sha256:3597727aa24119354792ee4e1be32f832b0face71c8772a98541440345169360",
-                "sha256:d6fab22a787c710fbbaa79bf17f43b6d8007fa9d97bfdede4ee855f198a2853c"
+                "sha256:278ae73f228a48688cadb1765627f6e0ef42d8af165f7a63192abe05ec252059",
+                "sha256:64441a36ccfe3195db680c888f843ffd9fa7340e335429f29f5b285b1ccdef66"
             ],
             "index": "pypi",
-            "version": "==1.3.207"
+            "version": "==1.3.209"
         },
         "webdriver-manager": {
             "hashes": [
