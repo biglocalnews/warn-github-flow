@@ -1,584 +1,584 @@
-dropdown,reason,contact,location,permanent_job_losses,workforce_area,workforce_region,letter,fein,begin_date,email,reduced_hours,jobs,temporary_job_losses,naics,furloughs,end_date,received_date,notice_date,notes,at_the_location,occupations,phone,company
-,Closure / Acadia,,,132,Jefferson,,West Pines Behavioral Health,,3/31/25,,0,132,0,"62, 1330: Offices of Mental Health Practioners (Except Physicians)",0,3/31/25,1/8/25,1/8/25,,,Various (See WARN) Appendix A,,West Pines Behavioral Health
-,Closure,,,232,Pueblo,,Battelle,,3/17/25,,0,232,0,"56,2910: Remediation Services",0,12/31/2026,1/16/25,1/16/25,,,Various (See WARN),,Battelle
-,Closure/Mass Layoff,,,11,Weld,,Total Frac Solutions,,3/31/25,,0,11,0,"21,3112: Support activities for oil & gas operations",0,3/31/25,1/28/25,1/28/25,,,Various (See WARN),,Total Frac Solutions
-,Partial completion of PCAPP Project,,,40,Pueblo,,Amentum,,1/28/25,,0,40,0,"54,1330: Engineering Services",0,3/31/25,1/28/25,1/28/25,,,Supervisors/Managers/Technicians,,Amentum
-,Mass Layoff,,,1,Larimer,,QuantumScape,,1/28/25,,0,1,0,"33,591: Battery Manufacturing",0,1/29/25,1/28/25,1/28/25,,,Professional (See WARN),,QuantumScape Battery
-,Closure,,,158,Larimer,,Johnstown Heights Behavioral Health,,3/31/25,,0,158,0,"62, 1330: Offices of Mental Health Practioners",0,3/31/25,1/30/25,1/30/25,,,Various (See WARN),,Johnstown Heights Behavioral Health
-,Closure,,,45,Arapahoe/Douglas,,Sherwood Food Distributors,,2/18/25,,0,45,0,"42,4470: Meat & Meat Product Merchant Wholesalers",0,4/21/25,2/18/25,2/18/25,,,Not Specified,,"Sherwood Food Distributors, Harvest Meat Company, Western Boxed Meat Company"
-,Closure,,,187,Mesa,,West Springs Hospital,,3/10/25,,0,187,0,"62,2110 Healthcare & Social Services",0,3/10/25,2/24/25,2/24/25,,,Various (See WARN),,West Springs Hospital
-,Not stated,,,157,Arapahoe/Douglas,,Dish Network,,3/8/24,,0,157,0,Sector 51: Information,0,3/8/24,1/8/24,1/8/24,,,Multiple (See WARN),,Dish Network LLC
-,Not stated,,,4,"Multiple (Larimer, Jeffco, Adams)",,Lost Boys Interactive,,3/15/24,,0,4,0,"Sector  54: Professional, Scientifc, & Technical Srvs",0,3/15/24,1/13/24,1/11/24,,,Multiple (See WARN),,Lost Boys Interactive LLC
-,Loss of contract w/Amazon,,,94,Adams,,ABM Industry Group,,3/18/24,,0,94,0,Sector 23: Construction,0,3/18/24,1/18/24,1/18/24,,,Multiple (See WARN),,ABM Industry Group
-,Reduction in Force,,,9,Arapahoe/Douglas,,Dish Network 1-19-2024,,3/19/24,,0,9,0,Sector 51: Information,0,3/19/24,1/19/24,1/19/24,,,Multiple (See WARN),,Dish Network LLC
-,Facility closure,,,124,Boulder,,Flatirons Health & Rehab (Axiom Healthcare),,3/4/24,,0,124,0,Sector 62: Health Care and Social Assistance,0,3/4/24,1/25/24,1/4/24,,,Multiple (See WARN),,Flatirons Health and Rehabilitation (Axiom Healthcare Services).
-,Closure-Completion of PCAPP Milestones,,,45,Pueblo,,Amentum,,3/1/24,,0,45,0,"Sector: 56,2910: Remediation Services",0,3/31/24,1/30/24,1/30/24,,,Multiple (See WARN),,Amentum
-,Site Consolidation and Office Relocation,,,60,Arapahoe/Douglas,,IMI Norgren LLC,,4/1/24,,0,60,0,Sector: 31-33 Manufacturing,0,6/30/24,1/30/24,1/30/24,,,Unknown,,IMI Norgren LLC
-,Not Stated,,,13,Unknown (Remote Workers),,Block Inc,,3/30/24,,0,13,0,Sector 51: Information,0,3/30/24,1/30/21,1/30/24,,,Unknown,,Block Inc.
-,Change in current business opportunities,,,80,Larimer,,BillGO Inc.,,3/31/24,,0,80,0,Sector 52: Finance and Insurance,0,3/31/24,1/31/24,1/31/24,,,Multiple (See WARN),,BillGO Inc.
-,Not Stated,,,56,Denver,,SP+ Corporation,,1/31/24,,0,56,0,Sector 81--Other Services--81293 Parking Lots and Garages,0,1/31/24,1/31/24,1/31/24,,,Multiple (See WARN),,SP+ Corporation
-,Reduction in Force,,,53,Arapahoe/Douglas,,Dish Network 2-20-2024,,4/20/24,,0,53,0,Sector 51: Information,0,4/20/24,2/20/24,2/20/24,,,Multiple (See WARN),,Dish Network LLC
-,Loss of contract,,,75,Adams,,Daifuku Services-Thornton,,4/22/24,,0,75,0,Sector 33: Manufacturing,0,5/6/24,2/22/24,2/22/24,,,Multiple (See WARN),,Daifuku Services America Corporation (formerly Elite Line Services) -Thornton
-,Loss of contract,,,89,Pikes Peak-Colo Springs,,Daifuku Services-Colo Springs,,4/22/24,,0,89,0,Sector 33: Manufacturing,0,5/6/24,2/22/24,2/22/24,,,Multiple (See WARN),,Daifuku Services America Corporation -Colo Springs
-,Loss of contract,,,32,Arapahoe/Douglas,,Daifuku Services-Aurora,,4/22/24,,0,32,0,Sector 33: Manufacturing,0,5/6/24,2/22/24,2/22/24,,,Multiple (See WARN),,Daifuku Services America Corporation -Aurora
-,Facility closure,,,210,Weld,,Carestream Health Inc,,4/26/24,,0,210,0,Sector 33: Manufacturing,0,5/10/24,2/26/24,2/26/24,,,Multiple (See WARN),,Carestream Health Inc.
-,Loss of contract,,,175,Weld,,"Packers Sanitation Services, Inc",,4/18/24,,0,175,0,Sector 56: Waste Management and Remediation Services,0,4/18/24,2/27/24,2/27/24,,,Unknown,,"Packers Sanitation Services, Inc.’s (PSSI)"
-,Reduction in Force,,,5,Arapahoe/Douglas,,Dish Network LLC,,5/11/24,,0,5,0,Sector 51: Information,0,5/11/24,3/12/24,3/12/24,,,Multiple (See WARN),,Dish Network LLC
-,Reduction in Force,,,19,Weld,,Carestream Health Update,,5/24/24,,0,19,0,Sector 33: Manufacturing,0,5/24/24,3/21/24,3/20/24,,,See WARN Exhibit A,,Carestream Health Inc. - Update
-,Reduction in Force,,,40,Denver,,CommuteAir,,5/23/24,,0,40,0,Sector 48: Transportation and Warehousing,0,5/23/24,3/20/24,2/23/24,,,See WARN,,CommuteAir
-,Reduction in Force,,,76,San Diego (remote CO Workers),,Bionano Genomics Inc.,,5/24/24,,0,76,0,Sector 33: Manufacturing,0,5/24/24,3/22/24,3/21/24,,,See WARN,,Bionano Genomics Inc.
-,Reduction in Force,,,46,Jefferson,,DDRC,,6/30/24,,0,46,0,Sector 62: Healthcare and Social Assistance,0,6/30/24,3/28/24,3/11/24,,,See WARN,,Developmental Disabilities Resource Center
-,Closure,,,56,Denver,,Atrium Hospitality LP/Denver Crowne Plaza,,5/31/24,,0,56,0,Sector 72: Accommodation & Food Services,0,5/31/24,3/27/24,3/27/24,,,See WARN,,Atrium Hospitality LP/Denver Crowne Plaza
-,Closure,,,1,Not Stated,,Volta/Volta Charging Industries,,5/31/24,,0,1,0,Sector 33: Manufacturing,0,5/31/24,4/3/24,3/29/24,,,See WARN (Various Positions),,Volta/Volta Charging Industries
-,Reduction in Force,,,1,Arapahoe/Douglas,,HealthHelp,,6/2/24,,0,1,0,Sector  55: Management of Companies & Enterprises,0,8/2/24,4/9/24,4/3/24,,,Various (See WARN),,HealthHelp (a WNS Company)
-,Reduction in Force,,,92,Denver,,Checkr,,6/10/24,,0,92,0,"Sector: 56,  561611 Investigation Personal Background Check Services.",0,6/10/24,4/9/24,4/9/24,,,Various (See WARN),,Checkr
-,Closure (Cease Operations),,,65,Rural Consortium (Broomfield),,Wheels Up Partners LLC,,6/16/24,,0,65,0,Sector 48: Transportation and Warehousing,0,6/16/24,4/17/24,4/17/24,,,Various (See WARN),,Wheels Up Partners LLC
-,Reduction in Force,,,25,Weld,,Carestream Health,,6/28/24,,0,25,0,Sector 33: Manufacturing,0,6/28/24,4/25/24,4/25/24,,,Varous (See WARN),,Carestream Health
-,Contract with Sodexo,,,118,Denver,,University of Denver,,6/30/24,,0,118,0,Sector 61: Educational Services,0,6/30/24,4/30/24,4/30/24,,,Custodian positions,,University of Denver
-,Selling Customer Care Unit,,,84,Remote Workforce,,Radial,,6/28/24,,0,84,0,"Sector 54: Professional, Scientific & Technical Services",0,6/28/24,5/1/24,5/1/24,,,See WARN.,,Radial
-,Loss of state funding,,,330,Denver,,Rocky Mountain Crisis Partners,,6/30/24,,0,330,0,Sector 62: Healthccare & Social Assistance,0,6/30/24,5/1/24,5/1/24,,,All positions/ job titles not specified,,Rocky Mountain Crisis Partners
-,Reduction in Force,,,103,Arapahoe/Douglas,,NewRez LLC,,7/1/24,,0,103,0,Sector 52: Finance and Insurance,0,7/1/24,5/2/24,5/2/24,,,See WARN.,,Newrez LLC
-,Closure,,,141,Arapahoe/Douglas,,Walmart #6178,,6/7/24,,0,141,0,Sector 45: Retail Trade,0,6/7/24,5/13/24,5/13/24,,,Associates,,Walmart Store #6178
-,Reduction in Force,,,Not specified,Boulder,,Pfizer,,7/15/24,,0,Not specified,0,"Sector 32, 3254 - Pharmaceutical and Medicine Manufacturing.",0,8/24/2024,5/15/24,5/15/24,,,Not specified,,Pfizer Research
-,Closure (end of Milestone 7),,,11,Pueblo,,Amentum,,7/1/24,,0,11,0,"Sector: 56,2910: Remediation Services",0,7/31/24,5/21/24,5/21/24,,,See WARN,,Amentum
-,Reduction in Force,,,18,Weld,,Carestream,,7/22/24,,0,18,0,Sector 33: Manufacturing,0,8/5/24,5/21/24,5/21/24,,,See WARN.,,Carestream (Update)
-,Reduction in Force,,,65,Mesa,,Mindspring,,5/31/24,,0,71,6,Sector 62: Healthcare & Social Assistance,0,6/3/24,5/31/24,5/31/24,,,See WARN.,,Mindspring
-,Reduction in Force,,,49,Mesa,,See note below.,,6/4/24,,0,49,0,Sector 62: Healthcare & Social Assistance,0,6/4/24,6/4/24,6/4/24,,,See WARN. Updated from 65 to 49,,Mindspring (Update)
-,Reduction in Force,,,317,Arapahoe/Douglas,,NewRez LLC CORRECTION,,8/2/24,,0,317,0,Sector 52: Finance and Insurance,0,8/2/24,6/3/24,6/3/24,,,See WARN.,,NewRez LLC
-,Reduction in Force,,,3,Rural Southwest,,TSG Ski & Golf,,6/14/24,,0,63,47,"Sector 71: Arts, Entertainment & Recreation, (713920 Ski Facility)",13,12/1/24,6/14/24,6/14/24,,,"Bartenders, cooks, dishwashers, supervisor",,TSG Ski & Golf
-,End of Contract,,,131,Denver,,Saint Paul Health Ctr-Colvaria Hospitality Mgmt,,9/1/24,,0,131,0,Sector 62: Healthcare and Social Assistance,0,9/1/24,6/18/24,6/18/24,,,Various. See WARN.,,Saint Paul Health Center
-,Reduction in Force,,,80,Denver,,Wells Fargo,,8/1/24,,0,80,0,Sector 52: Finance and Insurance,0,12/21/24,6/18/24,6/18/24,,,Employees notified verbally. Specific job titles available in August when layoff letters go out.,,Wells Fargo
-,Reduction in Force,,,187,Arapahoe/Douglas,,NewRez LLC Update,,8/26/24,,0,187,0,Sector 52: Finance and Insurance,0,8/26/24,6/27/24,6/27/24,,,See WARN.,,Newrez LLC
-,Closure (Cease Operations),,,7,Pikes Peak,,Sodexo-St Francis Interquest,,8/4/24,,0,7,0,Sector 56:  Administrative and Support and Waste Management and Remediation Services,0,8/4/24,7/8/24,7/8/24,,,Various (See WARN),,Sodexo - St. Francis Interquest
-,Closure (Cease Operations),,,48,Pikes Peak,,Sodexo-St Francis Medical Center,,8/4/24,,0,48,0,Sector 56:  Administrative and Support and Waste Management and Remediation Services,0,8/4/24,7/8/24,7/8/24,,,Various (See WARN),,Sodexo - St. Francis Medical Center
-,Closure (Cease Operations),,,52,Pikes Peak,,Sodexo-Penrose Hospital,,8/4/24,,0,52,0,Sector 56:  Administrative and Support and Waste Management and Remediation Services,0,8/4/24,7/8/24,7/8/24,,,Various (See WARN),,Sodexo - Penrose Hospital
-,Reduction in Force (Cease Operations of Axon Operating Unit),,,80,RC: Broomfield,,LogRhythm,,9/9/24,,0,80,0,"Sector 54: Professional, Scientific & Technical Services",0,9/14/24,7/17/24,7/16/24,,,Not disclosed,,LogRhythm
-,Reduction in Force,,,21,Weld,,Carestream Health,,9/16/24,,0,21,0,Sector 33: Manufacturing,0,9/16/24,7/17/24,7/17/24,,,Various (See WARN),,Carestream Health
-,Closure (upon completion of project),,,72,Pueblo,,Amentum,,9/30/24,,0,72,0,"Sector 56,2910: Remediation Services",0,9/30/24,7/29/24,7/29/24,,,Various,,Amentum
-,Closure,,,79,Remote locations in CO,,Radial,,9/30/24,,0,79,0,"Sector 54: Professional, Scientific & Technical Services",0,9/30/24,7/30/24,7/30/24,,,Various,,Radial
-,Mass Layoff,,,85,Adams,,TPS Parking Mgmt,,9/30/24,,0,79,0,"Sector 81, 2930: Parking Lots and Garages",0,9/30/24,7/31/24,8/1/24,,,"Drivers, Parking Attendants, Greeters, Dispatchers",,TPS Parking Mgmt
-,Change in Business,,,49,Denver,,True Value,,9/6/24,,0,49,0,"Sector 44,4130: Hardware Stores",0,11/1/24,8/8/24,8/8/24,,,Merchandise Handlers,,True Value
-,Sale of Business,,,63,RC: Rural Resort,,Caseys Pond,,10/18/24,,0,63,0,Sector 62: Healthcare and Social Assistance,0,11/30/24,8/20/24,8/19/24,,,Not specified,,Casey's Pond
-,Not specified,,,70,Arapahoe Douglas,,Wells Fargo,,11/20/24,,0,70,0,"Sector 52,2110 Commercial Banking",0,12/31/24,8/20/24,8/20/24,,,Not specified,,Wells Fargo
-,See WARN.,,,25,Boulder,,ImmunityBio Inc,,10/29/24,,0,5,0,"Sector 54,541: Professional, Scientific, and Technical Services​​ Industries",0,10/29/24,8/30/24,8/30/24,,,See WARN,,ImmunityBio Inc.
-,See WARN.,,,3,RC: Boulder & Larimer,,Lost Boys Interactive,,9/9/24,,0,3,0,"Sector 54,541: Professional, Scientific, and Technical Services​​ Industries",0,9/9/24,9/9/24,9/6/24,,,See WARN,,Lost Boys Interactive LLC
-,See WARN.,,,55,Adams,,Sodexo Service West,,11/9/24,,0,55,0,"Sector 72,2319: Food Service Contractors",0,11/9/24,9/13/24,9/13/24,,,See WARN,,Sodexo Service West (SDH)
-,Restructure and Partial Closure-See WARN,,,85,Boulder,,"AGC Biologics, Inc.",,11/22/24,,0,85,0,Sector 541714: Research and Development in Biotechnology,0,11/22/24,9/18/24,9/18/24,,,Various (See WARN),,"AGC Biologics, Inc."
-,Closure,,,64,Colo Springs,,Sinton Dairy Foods Company,,12/30/26,,0,64,0,Sector 31-33: Manufacturing,0,12/30/26,9/26/24,9/26/24,,,Various (See WARN),,Sinton Dairy Foods Company
-,Medical Sales Specialist,,,1,Remote location in CO,,Kaleo Inc.,,11/30/24,,0,1,0,Sector 54-1720: Research & Development in Social Sciences/Humanities,0,11/30/24,9/30/24,9/30/24,,,See WARN,,Kaleo Inc.
-,Closure,,,112,Rural Consortium,,Thiess,,11/28/24,,0,112,0,"Sector 21,2230 - Copper, Nickel, Lead, and Zinc Mining",0,12/28/24,10/29/24,10/29/24,,,Predominately Heavy equipment operators,,Thiess
-,Discontinuing Operations,,,313,Denver,,Chord Energy,,11/4/24,,0,313,0,"Sector: 56,2910: Remediation Services",0,5/23/25,11/4/24,11/4/24,,,Various (See WARN),,Chord Energy
-,"Partial, Temporary Closure",,,404,Adams,,UPS,,1/15/25,,0,404,0,Sector:  492110: Couriers & Express Delivery Services,0,1/15/25,11/14/24,11/14/24,,,Not specified,,UPS
-,Not disclosed,,,62,"Arapahoe, Denver, El Paso",,Boeing,,1/17/25,,0,63,0,"Sector 33,6411: Aircraft Manufacturing",0,1/17/25,11/15/24,11/15/24,,,Not specified,,Boeing
-,Closure,,,121,Adams,,Brown Brothers Resources Holdings 12-2-24.pdf,,12/6/24,,0,121,0,Sector 23: Construction,0,12/31/24,12/2/24,12/2/24,,,Various,,Brown Brothers Resources Holding
-,Closure,,,109,Pueblo,,Russ Davis Wholesale,,1/31/25,,0,109,0,"Sector 42,4480: Fresh Fruit  Vegetable Merchant",0,2/1/25,12/2/24,12/2/24,,,Various,,Russ Davis Wholesale
-,Unforseen business circumstance,,,1,Denver,,Natural Fiber Welding,,2/8/25,,0,1,0,"Sector 31,314: Broadwoven Fabric Mills",0,2/8/25,12/10/24,12/10/24,,,Sr. Program Manager,,Natural Fiber Welding
-,Not specified,,,1,Arapahoe,,GetInsured,,2/19/25,,0,1,0,Sector 52: Finance and Insurance,0,2/19/25,12/20/24,12/20/24,,,Customer Service Representative I,,GetInsured
-,Sudden Contract Loss,,,666,Pueblo,,Wanzek Construction,,1/3/23,,0,Unknown,0,Sector 23: Construction,0,1/3/23,1/3/23,1/3/23,,,Various construction positions,,Wanzek Construction
-,Ceasing Operations in some areas of the company,,,67,Denver,,Gymshark,,3/10/23,,0,67,0,Sector 31: Manufacturing,0,3/24/23,1/16/23,1/9/23,,,Not Stated,,Gymshark
-,Downsizing,,,15,Boulder,,Specialized Bicycle Components,,1/13/23,,0,15,0,Sector 42: Wholesale Trade,0,1/13/23,1/1123,1/11/23,,,"Software developer, Acct Mgr, e-commerce, mktg, pgm mgr",,Specialized Bicycle Components
-,Not Stated,,,136,Denver,,DCP Midstream,,3/31/23,,0,136,0,Sector 22: Natural Gas Distribution,0,4/1/24,1/31/23,1/25/23,,,Not Stated,,DCP Midstream
-,RIF/Change in Business,,,47,Pueblo,,Curaleaf,,3/26/23,,0,47,0,Sector 32: Manufacturing,0,3/26/23,1/31/23,1/26/23,,,Various (see WARN letter),,Curaleaf
-,Restructuring & Reorganization,,,151,Denver,,Pinnacle Architectural Lighting,,6/30/23,,0,151,0,Sector  541490: Other Specialized Design Services,0,3/1/24,2/1/23,2/1/23,,,Electrical Assemblers & Varous,,Pinnacle Architectural Lighting Inc.
-,Closure,,,49,Arapahoe/Douglas,,Covercraft Industries,,4/14/23,,0,49,0,Sector 1: 314910: Textile Bag and Canvas Mills,0,4/14/23,2/14/23,2/9/23,,,Not Stated,,Covercraft Industries LLC
-,Unforseen Business Circumstances,,,62,Denver,,WiX 2-15-23,,2/15/23,,0,62,0,"Sector 51,5182: Data Processing Hosting & Related Services",0,2/15/23,2/15/23,2/15/23,,,See WARN,,WIX.com
-,Not Stated,,,5,Various,,Chipper Cash,,02/17/23,,0,5,0,Sector 51: Information,0,2/17/23,2/16/23,2/16/23,,,See WARN,,Chipper Cash
-,,,,,,,SSI Venture-Aspen Sports,,,,,4,,"Sector:45,451 : Sporting Goods",,,3/2/23,2/27/23,,,,,Aspen Sports Hyatt Retail Store
-,,,,,,,SSI Venture-Aspen Sports,,,,,13,,"Sector:45,451 : Sporting Goods",,,3/2/23,2/27/23,,,,,Aspen Sports Snowmass Mall
-,,,,,,,SSI Venture-Aspen Sports,,,,,9,,"Sector:45,451 : Sporting Goods",,,3/2/23,2/27/23,,,,,Aspen Sports St. Regis Retail
-,,,,,,,SSI Venture-Aspen Sports,,,,,4,,"Sector:45,451 : Sporting Goods",,,3/2/23,2/27/23,,,,,Aspen Sports Viewline Retail
-,,,,,,,SSI Venture-Aspen Sports,,,,,3,,"Sector:45,451 : Sporting Goods",,,3/2/23,2/27/23,,,,,Aspen Sports Snowmass Retail Store
-,,,,,,,SSI Venture-Aspen Sports,,,,,5,,"Sector:45,451 : Sporting Goods",,,3/2/23,2/27/23,,,,,Aspen Sports Demo
-,,,,,,,SSI Venture-Aspen Sports,,,,,6,,"Sector:45,451 : Sporting Goods",,,3/2/23,2/27/23,,,,,Aspen Sports Tune - Snowmass
-,,,,,,,SSI Venture-Aspen Sports,,,,,3,,"Sector:45,451 : Sporting Goods",,,3/2/23,2/27/23,,,,,Aspen Sports Valet - Snowmass
-,,,,,,,SSI Venture-Aspen Sports,,,,,5,,"Sector:45,451 : Sporting Goods",,,3/2/23,2/27/23,,,,,Burton Telluride Retail
-,,,,,,,SSI Venture-Aspen Sports,,,,,10,,"Sector:45,451 : Sporting Goods",,,3/2/23,2/27/23,,,,,Neve Sports - Telluride
-,,,,,,,SSI Venture-Aspen Sports,,,,,7,,"Sector:45,451 : Sporting Goods",,,3/2/23,2/27/23,,,,,Patagonia Snowmass
-,,,,,,,SSI Venture-Aspen Sports,,,,,8,,"Sector:45,451 : Sporting Goods",,,3/2/23,2/27/23,,,,,Telluride Sports Camel's Garden
-,,,,,,,SSI Venture-Aspen Sports,,,,,10,,"Sector:45,451 : Sporting Goods",,,3/2/23,2/27/23,,,,,Telluride Sports - Cimarron Lodge
-,,,,,,,SSI Venture-Aspen Sports,,,,,14,,"Sector:45,451 : Sporting Goods",,,3/2/23,2/27/23,,,,,Telluride Sports - Franz Klammer
-,,,,,,,SSI Venture-Aspen Sports,,,,,10,,"Sector:45,451 : Sporting Goods",,,3/2/23,2/27/23,,,,,Telluride Sports - Gondola Plaza
-,,,,,,,SSI Venture-Aspen Sports,,,,,16,,"Sector:45,451 : Sporting Goods",,,3/2/23,2/27/23,,,,,Telluride Sports Main Street
-,,,,,,,SSI Venture-Aspen Sports,,,,,4,,"Sector:45,451 : Sporting Goods",,,3/2/23,2/27/23,,,,,Telluride Sports - The Peaks
-,,,,,,,SSI Venture-Aspen Sports,,,,,6,,"Sector:45,451 : Sporting Goods",,,3/2/23,2/27/23,,,,,The North Face - Snowmass
-,,,,,,,SSI Venture-Aspen Sports,,,,,4,,"Sector:45,451 : Sporting Goods",,,3/2/23,2/27/23,,,,,The North Face - Telluride Retail
-,Reduction in Business,,,98,Rural Consortium (Alamosa) & Denver,,Friday Health Plans,,4/30/23,,0,98,0,"Sector 52,411: Direct Life, Health & Med Insurance",0,4/30/23,3/1/23,3/1/23,,,Various: See WARN,,Friday Health Plans
-,Restructing and streamlining,,,4 (of 178),"Denver, Broomfield",,Aspiration,,5/26/2023,,0,4,0,Sector:55 Management of Companies & Enterprises,0,6/1/23,3/24/23,3/24/23,,,Various (See WARN),,Aspiration Partners Inc.
-,Not stated,,,76,"Denver, Broomfield",,Laramar Group LLC,,P1: 6/1/23 P2: 7/14/23,,0,76,0,Sector 53: Real Estate and Rental & Leasing,0,P1: 6/15/23 & P2: 7/28/23,3/30/23,3/30/23,,,Various (See WARN),,Laramar Group LLC
-,Mass layoff,,,50,Jefferson,,Prescient LLC,,3/31/2023,,0,50,0,Sector 33: Manufacturing,0,12/31/23,4/2/23,3/31/23,,,Not Stated,,Prescient LLC
-,Bankrupcy,,,138,Multi area,,David's Bridal,,Multi Phase (See WARN),,0,138,0,Sector 44: Retail Trade,0,Multi phase (See WARN),4/14/23,4/14/23,,,Various (See WARN),,David's Bridal
-,Not specified,,,198,Denver,,MV Transportation,,6/30/23,,0,198,0,Sector 48: Transportation & Warehousing,0,6/30/23,4/28/23,4/27/23,,,"Drivers, Dispatchers, Admin, Utility Worker",,MV Transportation
-,Loss of Contract,,,120,Denver,,Via Mobility Services,,7/1/2023,,0,120,0,Sector 48: Transporation and Warehousing,0,7/1/23,5/22/23,5/1/23,,,"Administrative support, operatives,  & service workers.",,Via Mobility Services
-,Bankrupcy,,,138,Multi area,,Davids Bridal Update,,6/23/23,,0,138,0,Sector 44: Retail Trade,0,6/30/23,5/24/23,5/24/23,,,Various (See WARN),,Davids Bridal (Update)
-,Closure (Phase 1),,,19,Pueblo,,Amentum,,7/27/2023,,0,19,0,"Sector: 56,2910: Remediation Services",0,7/28/2023,5/26/23,5/26/23,,,"Engineers, Maintenace Planners/Supervisors, Technicans*",,Amentum
-,Closure,,,54,Denver,,Hard Rock Cafe,,7/29/2023,,0,54,0,Sector 72: Accommodation & Food Services,0,7/29/23,5/30/23,5/30/23,,,Restaurant workers,,Hard Rock Cafe International STD
-,Bankrupcy,,,138,Multi Area,,Davids Bridal Update,,8/20/2023,,0,138,0,Sector 44: Retail Trade,0,9/2/2023,6/12/23,6/12/23,,,Not disclosed,,Davids Bridal (Update)
-,Closure of production & distribution operations,,,50,Pueblo,,Gannett Pueblo Chieftain,,8/14/2023,,0,50,0,Sector 2022: Publishing,0,8/14/23,6/13/23,6/13/23,,,Production positions (see WARN),,Gannett (Pueblo Chieftian)
-,Mass layoff,,,13,Multi Area,,Bitwise Industries,,8/14/2023,,0,13,0,"Sector 54: Professional, Scientific, & Technical Services",0,8/14/23,6/14/23,6/14/23,,,Multiple (See WARN),,Bitwise Industries
-,Mass Layoff,,,323,"Rural Consortium, Denver",,Friday Health Plans Update 6-19-23,,6/23/2023,,0,323,0,"Sector 52, 411 Direct Life Health & Medical Insurance",0,7/6/23,6/19/23,6/19/23,,,Rural Consortium and Denver,,Friday Health Plans Update (6-19-23)
-,Mass Layoff,,,70,Weld,,Autism Home Support Srvs Greeley,,8/21/2023,,0,70,0,"Sector 62,1600: Home Healthcare Services",0,9/19/23,6/20/23,6/20/23,,,Multiple (See WARN),,Autism Home Support Services (Greeley)
-,Mass Layoff,,,68,Adams,,Autism Home Support Svs Westminster,,8/21/2023,,0,68,0,"Sector 62,1600: Home Healthcare Services",0,9/19/23,6/20/23,6/20/23,,,Multiple (See WARN),,Autism Home Support Services (Westminster)
-,Mass Layoff,,,101,ADWorks,,Autism Home Support Services Centennial,,8/21/2023,,0,101,0,"Sector: 62,1600 Home Healthcare Services",0,9/19/21,6/20/23,6/20/23,,,Multiple (See WARN),,Autism Home Support Services (Centennial)
-,Mass Layoff,,,138,Multi-Area,,Davids Bridal Update 6-29-23,,7/17/2023,,0,0,0,Sector 44: Retail Trade,0,7/31/23,6/29/23,6/29/23,,,Bankrupcy,,Davids Bridal Update 6-29-23
-,Mass Layoff,,,120,"Rural Consortium, Denver",,Community Development Institute Head Start,,8/31/2023,,0,120,0,Sector 62: Health Care and Social Assistance,0,8/31/33,6/30/23,6/30/23,,,Rural Consortium,,CDI HS (Community Development Institute Head Start)
-,Reduction in Force (End Project),,,27,Rural Consortium  (Pueblo),,Amentum,,8/31/2023,,0,27,0,"Sector: 56,2910: Remediation Services",0,8/31/23,7/3/23,7/3/23,,,Multiple (See WARN),,Amentum
-,Reduction in Force (End Project),,,56,Adams,,Bank of the West,,9/15/2023,,0,56,0,"Sector 52,2110: Commercial Banking",0,9/15/23,7/11/23,7/11/23,,,Not specified in WARN,,Bank of the West
-,Closure,,,64,Pikes Peak,,Namaste Alzheimer Center,,10/1/2023,,0,64,0,Sector: 62: Healthcare and Social Assistance,0,10/1/23,7/20/23,7/20/23,,,Medical Professionals (see WARN),,Namasté Alzheimer Center
-,"Reduction in Force Ending manufacuring, quality & distribution",,,15,Pikes Peak,,DePuy Spine Limited Partnership,,9/22/2023,,0,15,0,"Sector 42,2450: Medical, Dental, Hospital & Supplies Merchant Wholesaler",0,10/5/2023,7/24/23,7/24/23,,,"Materials Handling, Inspector, Operators",,DePuy Spine Limited Partnership (Johnson & Johnson)
-,Closure,,,Unknown,Unknown (possibly rural & remote),,Novembal,,9/30/2023,,0,Not Specified,0,"Sector 32: Manufacturing; 32,6121 Unlaminated Plastics Profile Shape Manufacturing",0,1/31/24,7/28/23,7/28/23,,,Unknown,,Novembal
-,Closure,,,"22,000*",Unknown,,Yellow Corporation,,7/30/2023,,0,331,0,"Sector 48,4121: General Freight Trucking Long Distance Truckload",0,7/30/23,8/1/23,7/30/23,,,Not specified in WARN,,Yellow Corporation & Operating Affiliates
-,,,,*,Unknown,,Yellow Corporation,,7/30/23,,0,Not Specified,0,"Sector 48,4121: General Freight Trucking Long Distance Truckload",0,,8/1/23,7/30/23,,,,,YRC Inc dba YRC Freight
-,,,,*,Unknown,,Yellow Corporation,,7/30/23,,0,Not Specified,0,"Sector 48,4121: General Freight Trucking Long Distance Truckload",0,,8/1/23,7/30/23,,,,,USF Holland
-,,,,*,Unknown,,Yellow Corporation,,7/30/23,,0,Not Specified,0,"Sector 48,4121: General Freight Trucking Long Distance Truckload",0,,8/1/23,7/30/23,,,,,New Penn Motor Express LLC
-,,,,*,Unknown,,Yellow Corporation,,7/30/23,,0,Not Specified,0,"Sector 48,4121: General Freight Trucking Long Distance Truckload",0,,8/1/23,7/30/23,,,,,"USF Reddaway, Inc."
-,Contract loss,,,24,Arapahoe/Douglas,,KeHE,,11/3/2023,,0,24,0,"Sector 42: Wholesale Trade, 42,4490 Merchant Wholesaler, Non Durable Goods",0,11/3/23,8/2/23,8/2/23,,,Not disclosed,,"KeHe Distributors, Inc."
-,Mass Layoff,,,10,Arapahoe/Douglas,,DePuy Spine Limited Partnership,,10/6/2023,,0,10,0,"Sector 42,2450: Medical, Dental, Hospital & Supplies Merchant Wholesaler",0,10/19/23,8/7/23,8/7/23,,,Material Handling Distribution Operators 2&3,,DePuy Spine Limited Partnership (Johnson & Johnson)
-,RIF,,,61,Unknown,,Astra Space Ops,,8/4/2023,,0,61,0,Sector 33: Manufacturing,0,8/4/23,8/7/23,8/7/23,,,See WARN for details.,,Astra Space Operations
-,Closure,,,94,Pikes Peak,,Federal Express,,11/3/2023,,0,94,0,Sector 49: Transportation and Warehousing,0,11/3/23,8/9/23,8/9/23,,,"Couriers, Service Agents, Handlers and Operations Leads",,Federal Express - Colorado Springs
-,Closure,,,53,Pueblo,,Federal Express,,11/3/2023,,0,53,0,Sector 49: Transportation and Warehousing,0,11/3/23,8/10/23,8/10/23,,,See WARN for details,,Federal Express  - Pueblo
-,Closure (completion of milestone),,,14,Pueblo,,Amentum,,10/12/2023,,0,14,0,"Sector: 56,2910: Remediation Services",0,10/12/23,8/11/23,8/11/23,,,See WARN for details,,Amentum
-,Closure,,,2,Arapahoe/Douglas,,Ouray Sportsware,,10/17/2023,,0,154,0,Sector 45: Retail Trade,0,12/31/23,8/18/23,8/18/23,-,,See WARN for details.,,Ouray Sportsware - L2 Brands
-,Streamline Operations,,,59,Unknown,,Immunity Bio Inc.,,10/17/2023,,0,unknown,0,"Sector 54: Professional, Scientific, & Technical Services",0,10/17/23,8/18/23,8/18/23,,,See WARN for details. (Note updated CO specifc # is 11 employees impacted).,,Immunity Bio Inc.
-,Restructuring following acquisition,,,Unknown,"Denver, Weld",,Chevron,,10/31/2023,,0,,0,"Sector 32,4110: Petroleum Refineries",0,10/31/23,8/25/23,8/25/23,Max * (most all will be offered jobs),,Not specified,,Chevron USA
-,Contract ending,,,110,Rural Consortium,,PSSI,,10/26/2023,,0,110,0,Sector: 562212 - Solid Waste Landfill,0,10/26/23,8/29/23,8/29/23,,,Not specified,,Packers Sanitation Services (PSSI)
-,,,,70,Larimer & Rural Consortium,,Aktiv Pharma,,8/25/23,,0,70,0,Sector 33: Manufacturing/Pharmaceuticals,0,8/25/23,8/29/23,8/29/23,-,,,,Aktiv Phama
-,Closure,,,60,Jefferson,,Prescient,,8/31/23,,0,60,0,Sector 33: Manufacturing,0,8/31/23,8/31/23,8/31/23,-,,Not specified,,Prescient LLC
-,Closure,,,25,Unspecified,,American Nursery Services,,12/31/23,,0,25,0,Sector 44: Retail Trade,0,12/31/23,9/12/23,9/5/23,,,Not specified,,American Nursery Services
-,,,,10,Unspecified,,Divvy Homes Inc.,,11/7/23,,0,,0,Sector 52: Finance & Insurance,0,11/7/23,9/8/23,9/7/23,,,"Sales asset Mgmt, escrow and engineer positions",,Divvy Homes Inc.
-,Completion of Project Milestone 4,,,21,Pueblo,,Amentum,,11/17/23,,0,31,0,"Sector: 56,2910: Remediation Services",0,11/17/23,9/15/23,9/15/23,,,"Operators, technicians, transporter coordinator, scheduler",,Amentum
-,Reduction in Force,,,2,Remote workers,,First Savings Bank,,11/30/23,,0,2,0,Sector: 52: Finance & Insurance,0,11/30/23,9/29/23,9/29/23,,,Mortgage Banking Outside Mortgate & Mortgage Banking Underwriter,,First Savings Bank
-,,,,Unknown,Unknown,,Gannett-Pueblo Chieftain Update,,,,,Unknown,,Sector 2022: Publishing,,,10/2/23,10/2/23,,,,,Gannett (Pueblo Chieftian) - Update
-,Reduction in Force,,,Not Stated,Boulder,,Pfizer,,12/4/23,,0,Unknown,0,Sector 32: Manufacturing,0,12/4/23,10/3/23,10/3/23,,,Not stated,,Pfizer
-,,,,84,Denver,,SMX Cargo LLC,,12/17/2023,,0,84,0,561320/ Temporary Help Services,0,12/17/2023,10/11/23,10/9/23,,,,,SMX Cargo LLC
-,Closure,,,51,"Pikes Peak, Arapahoe/Douglas, Denver, Larimer",,Cygnus Home Services dba Yelloh,,12/15/23,,0,51,0,"72,2330: Mobile Food Service",0,12/15/23,10/25/23,10/25/23,,,"Various including route sales people, material handlers, service operation",,Cygnus Home Service dba Yelloh
-,Closure,,,5,Pikes Peak (El Paso),,DePuy Spine LP,,12/29/23,,0,67,0,"Sector 42,2450: Medical, Dental, Hospital & Supplies Merchant Wholesaler",0,1/11/23,10/30/23,10/30/23,,,"Assembly/Packaging, Material Handling, Operations, Production, Warehouse",,Depuy Spine LP (Johnson & Johnson)
-,Reduction in Force,,,466,Arapahoe/Douglas,,Dish Network LLC,,1/7/24,,0,466,0,Sector 517111: Wired Telecommunications Carriers,0,7/21/24,11/8/23,11/8/23,,,Various (See WARN),,Dish Network LLC
-,Reduction in Force,,,33,Arapahoe/Douglas,,Dish Network Supplement,,1/8/24,,0,33,0,Sector 517111: Wired Telecommunications Carriers,0,7/22/23,11/9/23,11/9/23,,,Various (See WARN),,Dish Network LLC Supplement
-,Completion of PCAPP Milestones,,,54,Pueblo,,Amentum,,1/1/24,,0,54,0,"Sector: 56,2910: Remediation Services",0,1/31/2024,11/21/23,11/21/23,,,Various (See WARN),,Amentum
-,Merger Related,,,184,Broomfield,,Broadcomm - VM Ware,,1/26/24,,0,184,0,Sector: 334413 Semi Conductor & Related Device Manufacturing,0,1/26/24,11/27/23,11/27/23,,,Not specified,,Broadcom / VM Ware
-,Closure,,,60,Denver,,Matheson Flight Extenders Inc,,1/31/24,,0,60,0,Sector 49: Transportation and Warehousing,0,1/31/24,12/1/23,12/1/23,,,"Material Handlers, GSE Servicer, Station Manager, Supervisor",,Matheson Flight Extenders Inc.
-,Closure,,,1,Broomfield,,FSC Edge,,12/1/23,,0,1,0,Sector  51: Information,0,12/1/23,12/1/23,12/1/23,All employees hired by new owner,,Not specified,,FSC Edge
-,Unforseen - Contracts ending,,,149,Arapahoe/Douglas,,Ascent Classical Academies,,12/31/23,,0,149,0,Sector 61: Educational Services,0,12/31/23,12/28/23,12/28/23,All employees hired by new owner,,Not specified,,Ascent Classical Academy of Douglas County
-,Unforseen - Contracts ending,,,87,Larimer,,Ascent Classical Academies,,12/31/23,,0,87,0,Sector 61: Educational Services,0,12/31/23,12/28/23,12/28/23,All employees hired by new owner,,Not specified,,Ascent Classical Academy of Northern Colorado
-,Unforseen - Contracts ending,,,33,Adams,,Ascent Classical Academies,,12/31/23,,0,33,0,Sector 61: Educational Services,0,12/31/23,12/28/23,12/28/23,All employees hired by new owner,,Not specified,,Ascent Classical Academy of Norther Denver
-,Unforseen - Contracts ending,,,37,Mesa,,Ascent Classical Academies,,12/31/23,,0,37,0,Sector 61: Educational Services,0,12/31/23,12/28/23,12/28/23,All employees hired by new owner,,Not specified,,Ascent Classical Academy of Grand Junction
-,Unforseen - Contracts ending,,,7,Jefferson,,Ascent Classical Academies,,12/31/23,,0,7,0,Sector 61: Educational Services,0,12/31/23,12/28/23,12/28/23,All employees hired by new owner,,Not specified,,Ascent Classical Academies of Corporate Office
-,,,,,,,,,,,,,,,,,,,,,,,NOTE: 313 employees notified by Ascent Classical Academies were hired by the new vendor.
-,Loss of Service Contract,,,122,Adams,,DPI Specialty Foods,,5/10/22,,0,122,0,Sector 42: Wholesale Trade,0,5/10/22,,3/11/21,,,"Field Sales Reps, Merchandisers Vacation Relief Associates, Reset Specialist",,DPI Specialty Foods
-,Sale of Company,,,160,Pikes Peak/Teller,,513 Hotel Operating,,12/31/21,,0,160,0,Sector 72: Accomodation & Food Services,0,12/31/21,,12/30/21,,,Various,,513 Hotel Operating
-,Closure,,,143,Weld,,Good Samaritan,,3/5/22,,0,143,0,Sector 62: Healthcare & Social Assistance,0,3/5/22,,1/3/22,,,Healthcare workers,,Good Samaritan - Bonell Community
-,Not disclossed,,,87,Boulder,,Twitter Boulder,,1/4/2023,,0,87,0,Sector 51: Information 519290 Web Search Portals & Other Info Services,0,1/4/23,,1-4-22,,,"Various: First Mid line Mgrs (14), Professionals (70), Sales workers (1), Admin (2)",,Twitter (Boulder)
-,Unforeseeable business circumstances,,,194,AdWorks,,American Financing,,11/18/2022,,0,194,0,Sector 522310 : Mortgage and Nonmortgage Loan Brokers,0,12/23/22,,1-16-22,,,Not provided,,American Financing Company
-,Closure,,,36,ADWorks,,Zillow Group,,1/3/22,,0,36,0,Sector 53: Real Estate Rental & Leasing,0,3/21/22,,1/20/22,,,Not stated,,Zillow Group - Supplemental
-,Closure,,,39,ADWorks,,Zillow Group,,3/21/22,,0,39,0,Sector: 53: Real Estate Rental & Leasing,0,4/18/22,,2/17/22,,,Not stated,,Zillow Group - Supplemental
-,Not disclosed,,,1,Not Disclosed,,Ready Responders Inc.,,2/1/22,,0,1,0,Sector 62 Healthcare  & Social Services,0,2/16/22,,2/18/22,,,Director Product Security,,Ready Responders Inc.
-,Closure,,,Unknown,Rural Consortium (Salida),,Watsonville Community Hospital,,5/16/22,,0,Unknown,Unknown,Sector 62: Healthcare & Social Assistance,Unknown,5/23/22,,3-17-22,,,Not stated,,Watsonville Community Hospital
-,Closure,,,44,ADWorks,,Zillow Group,,1/2/22,,0,44,0,Sector 53: Real Estate Rental & Leasing,0,5/20/22,,3/21/22,,,Not stated,,Zillow Group - Supplemental
-,Closure,,,0,Pikes Peak/Teller,,Cripple Creek,,3/3/2022,,9,9,0,Sector 62: Healthcare & Social Assistance,0,7/30/2022,,4/15/2022,,,Health care professionals,,Cripple Creek Care Center
-,Closure (Temporary),,,0,Weld,,Sparboe Farms,,05/04/22,,0,95,95,"Sector: 11: Agriculture, forestry, fishing & hunting",0,6/2/22,,5/2/22,,,Various (See WARN),,Sparboe Farms
-,Closure (Sale of Business),,,658,Rural Consortium (Salida),,Watsonville Community Hospital,,7/14/22,,0,658,0,Sector 62: Healthcare & Social Assistance,0,7/21/22,,5/11/22,,,Various (See WARN),,Watsonville Community Hospital (Update)
-,COVID/Pandemic,,,10,Denver,,,,9/26/2024,,0,10,0,Sector 52: Finance and Insurance,0,9/26/22,,6/1/2022,,,Not stated,,All Money Financial Group
-,Lost funding,,,0,PikePeak/Teller,,Total Energy Solutions,,6/13/2022,,0,6,6,Sector 22: Utilities,0,6/24/22,,6/13/22,,,Not stated,,Total Energy Solutions
-,Closure,,,144,Pikes Peak/Teller,,Integrated Health,,8/22/2022,,0,144,0,Sector 62: Healthcare & Social Assistance,0,8/22/2022,,6/23/2022,,,Health care professionals,,"Integrated Health Services at Colorado Springs, Inc."
-,Closure,,,144,Pikes Peak/Teller,,Vivage,,8/22/2022,,0,144,0,Sector 62: Healthcare & Social Assistance,0,8/22/22,,6/23/22,,,"RN, LPN, C.N.A, Dining Aides, Activity Aides, Housekeepers, Laundry Aides, Central Supply, HR, Business Office Manager, AP Specialist",,Vivage
-,Closure (Sale of Business),,,673,Rural Consortium (Salida),,Watsonville Community Hospital (Update),,8/17/2022,,0,673,0,Sector 62: Healthcare & Social Assistance,0,8/31/2022,,7/11/2022,,,Various (See WARN),,Watsonville Community Hospital (Update)
-,Loss of Contract w/City of Denver,,,230,Denver,,HSS Inc.,,9/1/2022,,0,230,0,Sector 56: Administrative and Support and Waste Management and Remediation Services,0,9/30/22,,7/12/22,,,See WARN,,HSS Inc.
-,Unforseen Business Circumstance,,,60,Jefferson,,Metco Arvada,,7/28/22,,0,60,0,Sector 561730: Landscaping,0,7/28/22,,8/1/22,,,See WARN,,Metco Landscaping (Arvada)
-,Unforseen Business Circumstance,,,165,ADWorks,,Metco Aurora HQ,,7/28/22,,0,165,0,Sector 561730: Landscaping,0,7/28/22,,8/1/22,,,See WARN,,Metco Landscaping (Aurora HQ)
-,Unforseen Business Circumstance,,,44,ADWorks,,Metco Aurora,,7/28/22,,0,44,0,Sector 561730: Landscaping,0,7/28/22,,8/1/22,,,See WARN,,Metco Landscaping (Aurora)
-,Unforseen Business Circumstance,,,36,El Paso,,Metco Colo Springs,,7/28/22,,0,36,0,Sector 561730: Landscaping,0,7/28/22,,8/1/22,,,See WARN,,Metco Landscaping (Colo Springs)
-,Unforseen Business Circumstance,,,38,ADWorks,,Metco Englewood,,7/28/22,,0,38,0,Sector 561730: Landscaping,0,7/28/22,,8/1/22,,,See WARN,,Metco Landscaping (Englewood)
-,Merger wth Whiting & Oasis,,,104,Denver,,Chord Energy,,12/1/2022,,0,104,0,Sector: 22 Utilities 118 Other Electrical Power Generators,0,6/30/2023,,9/29/22,,,Various (See WARN),,Chord Energy
-,Closure - Cease Operations,,,121,"Denver, Boulder",,Platerra,,11/30/2022,,0,121,0,"Sector 31, 311: Food Manufacturing",0,12/20/22,,9/29/22,,,Not stated,,Platerra Foods
-,Business Changes,,,41,ADWorks,,Starry Inc.,,10/21/2022,,0,41,0,Sector 51: Information,0,10/21/22,,10/20/22,,,Various (See WARN),,Starry Inc.
-,Refocus business operations,,,1 (of 72 in CO),Pikes Peak/Teller,,Astra Space inc.,,11/9/2022,,0,72 (1 in CO),0,Sector 336414: Guided Missile and Space Vehicle Manufacturing,0,11/9/22,,11/9/22,,,Various (See WARN),,Astra Space Inc.
-,Unknown,,,1,Denver,,,,1/20/2023,,0,1,0,Sector 62:Healthcare & Social Assistance,0,1/20/23,,11/21/22,,,Trainer,,Rume Health
-,Voluntary Resignation,,,38 (resigned voluntarily),Boulder,,Twitter Supplemental,,1/20/2023,,0,38 (voluntarily resigned),0,Sector 51: Information 519290 Web Search Portals & Other Info Services,0,1/20/23,,11/25/22,,,Various (See WARN),,Twitter (Boulder) Supplemental
-,Closure/Reduction in Force,,,43,Boulder,,Inscripta,,,,0,43,0,"Sector 54: Professional, Scientific Services",0,,,12/2/22,,,Various (See WARN),,Inscripta
-,Closure of Retirement Center,,,55,Denver,,Centura Porter Place,,2/17/2023,,0,55,0,Sector 62: Healthcare & Social Assistance,0,2/17/23,,12/14/22,,,Various (See WARN),,Centura Porter Place
-,Cancellation of Contract,,,666,Pueblo,,Wanzek Construction,,1/3/2023,,0,666,0,Sector 23: Construction,0,1/3/23,,1/3/23,,,Unknown,,Wanzek Construction
-4,Other,,,3,,,,,4/21/2019,,,,2,Sector 81: Other services (except public administration),4,4/21/2021,,4/21/2019,,,SSDI,,SSDI
-Administrative,COVID/Pandemic Related,,,0,,,,,9/15/2020,,,,2,Sector 56: Administrative and support and waste management and remediation services,0,12/31/2020,,9/1/2020,,,Monkeys Avatar,,Monkey's Avatar
-House cleaning,COVID/Pandemic Related,,,1,,,,,10/1/2020,,,,0,"Sector 54: Professional, scientific and technical services",0,10/1/2021,,10/1/2020,,,Haley Jackson,,Haley A Jackson
-556 furloughs were rescinded,Layoffs Rescinded,,,0,,,,,N/A,,,,0,Sector 48: Transportation & Warehousing,0,N/A,,1/8/2021,,,Southwest Airlines Update,,Southwest Airlines - Update
-Various: See WARN,Closure due to sale,,,76,,,,,3/15/21,,,,0,Sector:53: Real Estate Rental & Leasing/531190,0,3/28/21,,1/14/21,,,Strive Communities Management,,Strive Communities Management
-Not dislclosed,Closure,,,107,,,,,3/31/21,,,,0,Sector 51: Information,0,3/31/21,,1/25/21,,,Concentrix,,Concentrix
-"Front line employees, management & administration positions",COVID-19 Decrease in air travel,,,10,,,,,3/31/21,,,,0,Sector 48: Transportation & Warehousing,983,3/31/21,,1/29/21,,,United Airlines,,United Airlines
-Not dislclosed,Reduction in Force,,,280,,,,,4/17/21,,,,0,Sector 22: Utilities/Wind Electric Power Generation,0,4/17/21,,2/17/21,,,Vestas Blades America,,Vestas Blades America Inc.
-Not disclosed,Change of Management Company,,,93,,,,,4/1/21,,,,0,Sector 53: Real Estate Rental & Leasing / 531311- Residential Property Managers,0,4/1/21,,2/18/21,,,Crestview Management LLC,,Crestview Management LLC/Columbia Sussex Management
-Not dislclosed,Closure,,,107,,,,,5/4/21,,,,0,Sector: 61 Educational Services,0,5/4/21,,2/18/21,,,Johnson & Wales University,,Johnson & Wales University
-Delivery Drivers,Other,,,87,,,,,12/27/2020,,,,2,Sector 48-49: Transportation and warehousing,0,2/27/2021,,2/22/2021,,,Orion Logistics,,Orion Logistics LLC - Amazon Delivery Service Partner
-Various:See WARN,RIF: Loss of contract,,,44,,,,,4/30/21,,,,0,Sector 42: Consumer Electronics & Computers Retail,0,4/30/21,,2/26/21,,,Pomeroy Technologies,,PomeroyTechnologies
-3,COVID/Pandemic Related,,,3,,,,,1/17/2019,,,,3,Sector 72: Accommodation and food services,3,3/11/2021,,3/11/2021,,,Hill,,Hill
-"Primarily collections agents, customer service representatives and management",Restructuring  & Closure,,,417,,,,,12/31/21,,,,0,Sector 55:  Management of companies & enterprises,0,12/31/21,,3/23/21,,,Santander Consumer USA,,Santander Consumer USA
-Not disclosed,Closure of facility,,,400,,,,,7/9/21,,,,0,Sector 32: Manufacturing/pharmaceutical preparation manufacturing,0,7/29/21,,3/24/21,,,Novartis,,"Novartis Gene Therapies, Inc."
-Hourly customer service positions,Closure,,,252,,,,,6/26/21,,,,0,Sector 51: Information,0,7/10/21,,4/13/21,,,TTECH Services Corporation,,TTECH Services Corporation
-"Asset Services, data services, and recovery agents",Loss of Business/COVID related,,,5,,,,,4/23/21,,,,0,Sector 56: Asset Adjusters,0,4/23/21,,4/23/21,,,ART Asset Adjusters,,ART Asset Adjusters
-"Cleaner, leads, floor techs, district manager, zone manager & administration positions",Loss of contract,,,233,,,,,5/31/21,,,,0,Sector 56: Facilities Support Services,0,5/31/21,,5/6/21,,,ABM,,ABM
-Various:See WARN,Other,,,287,,,,,8/1/21,,,,0,Sector 52: Investment Banking and Securities Dealing,0,8/1/21,,5/19/21,,,T. Rowe Price,,T. Rowe Price
-"Various: Project engineers, apprentices, carpenters, construction managers, Foremen",Closure,,,102,,,,,6/4/21,,,,0,Sector 23: Construction,0,8/5/21,,6/1/21,,,Katerra Inc.,,Katerra Inc.
-"Various: Project engineers, apprentices, carpenters, construction managers, Foremen",Seeking alternative financing that may impact layoffs,,,-,,,,,6/4/21,,,,0,Sector 23: Construction,0,8/5/21,,6/3/21,,,Katerra Inc. Supplemental,,Katerra Inc. Update Supplemental
-Unsure of total impact at this time - Government Budget impacts are not completely apparent,Other,,,0,,,,,8/5/2021,,,,50,Sector 23: Construction,50,8/6/2021,,6/4/2021,,,T&H Services LLC,,T&H Services LLC
-"Customer Service Representatives (85), Account Manager (1), Staff Support Manager (2), Director (1)",Other,,,89,,,,,8/31/2021,,,,0,"Sector 54: Professional, scientific and technical services",0,8/31/21,,6/22/2021,,,Computer Task Group,,"Computer Task Group, Inc"
-"Various: Project engineers, apprentices, carpenters, construction managers, Foremen",Seeking sale or purchase,,,-,,,,,6/4/21,,,,0,Sector 23: Construction,0,8/5/21,,7/2/21,,,Katerra Inc. Supplemental 2,,Katerra Inc. Update Supplemental2
-Not stated,Closure,,,85,,,,,7/23/21,,,,0,Sector 45: Retail Trade,0,10/8/21,,7/6/21,,,Walmart,,Walmart Store #6177
-Not disclosed,COVID/Pandemic Related,,,0,,,,,7/15/2021,,,,0,Sector 31-33: Manufacturing,2,12/31/2021,,7/15/2021,,,Process Solutions,,"Process Solutions of Durango, Inc."
-Food service workers,Outsourcing,,,434,,,,,10/19/21,,,,0,Sector 48: Transportation & Warehousing,0,11/2/21,,7/30/21,,,United Airlines Update,,United Airlines Update
-Direct Support Professional,Closure,,,8,,,,,10/2/2021,,,,0,Sector 81: Other services (except public administration),0,10/2/21,,8/2/2021,,,Continuum of Colorado,,Continuum of Colorado
-Gardeners and landscapers,COVID/Pandemic Related,,,4,,,,,7/20/2020,,,,2,Sector 81: Other services (except public administration),0,5/1/2021,,8/15/2021,,,Beez Kneez,,The beez kneez organic gardens
-Direct Support Professional,Closure,,,5,,,,,11/8/2021,,,,0,Sector 81: Other services (except public administration),0,11/8/21,,9/7/2021,,,Contiuum of Colorado,,Continuum of Colorado
-Direct Support Professionals,Closure,,,9,,,,,11/8/2021,,,,0,Sector 81: Other services (except public administration),0,11/8/21,,9/7/2021,,,Continuum of Colorado,,Continuum of Colorado
-All,Acquisition of Company,,,56,,,,,10/15/2021,,,,0,"Sector 21: Mining, quarrying and oil and gas extraction",0,10/15/2021,,9/9/2021,,,Crestone Peak Denver,,Crestone Peak Resources LLC
-All,Acquisition of Company,,,90,,,,,10/15/2021,,,,0,"Sector 21: Mining, quarrying and oil and gas extraction",0,10/15/2021,,9/9/2021,,,Crestone Peak Weld,,Crestone Peak Resources LLC
-All,Acquisition of Company,,,13,,,,,10/15/2021,,,,0,"Sector 21: Mining, quarrying and oil and gas extraction",0,10/15/2021,,9/9/2021,,,Crestone Peak ADW,,Crestone Peak Resources LLC
-Selling and building,COVID/Pandemic Related,,,3,,,,,9/13/2021,,,,0,Sector 23: Construction,3,9/13/2021,,9/13/2021,,,Moore Bros,,Moore Bros
-Unknown,Unforeseeable Business Circumstances,,,12,,,,,10/7/21,,,,0,Sector 42: Wholesale Trade Durable Goods,0,11/5/2021,,10/7/2021,,,First Nation,,First Nation Group
-Unknown,Eliminating Zillow Offers Line of Business,,,20,,,,,1/3/22,,,,0,Sector 53: Real Estate Rental & Leasing,0,12/31/22,,11/4/21,,,Zillow Group,,Zillow Group
-Unknown,Eliminating Zillow Offers Line of Business,,,1,,,,,1/17/22,,,,0,Sector 53: Real Estate Rental & Leasing,0,1/17/22,,11/18/21,,,Zillow Group Update 11-18-21,,Zillow Group Update 11-18-21
-"Mine, surface, maintenance, warehouse, mill accounting, technical, environmental",Unforeseeable Business Circumstances,,,83,,,,,12/22/21,,,,0,"Sector 21: Mining, Quarrying, and Oil & Gas Extraction",0,12/22/21,,11/22/21,,,Ouray Silver Mine,,Ouray Silver Mines
-"Security Agents and Officers, supervisors, and scheduler",Unforeseeable Business Circumstances,,,94,,,,,12/31/21,,,,0,Sector 62: Healthcare and Social Assistance,0,12/31/21,,11/29/21,,,HSS Inc.,,HSS Inc.
-Field Sales & Management,Eliminating Field Operations,,,"61 total, 4 in CO",,,,,10/10/21,,,,0,Sector 561621: Security Systems Services,0,10/10/21,,12/20/21,,,Monitronics International - Brinks Home,,Monitronics International- Brinks Home
-Various hotel staff (See WARN for details),Sale of Company,,,160,,,,,12/31/21,,,,0,Sector 72: Accomodation and food services,0,12/31/21,,12/30/21,,,513 Hotel Operating LLC,,513 Hotel Operating LLC
-,COVID 19 Extended Furlough,,,,ADW,,Avis Budget Group,,8/31/20,,,3,,53,3,,,8/31/2020,,,"Account Manager, Analyst Q&A, Local Sales Market Manager",,Avis Budget Group
-,COVID - Temporary,,,,Denver,,ABM,,4/10/2020,,,178,178,56,,,,6/30/2020,,,"Various: Supervisor, Administrative Assistant, Shuttle Driver and Bus Attendants",,ABM
-,"COVID 19 - 22 permanent, 23 temporary",,,22,Denver,,Airport Mgmt Services & Hudson Group,,10/1/20,,,45,23,48,,,,9/8/2020,,,"Service Associates including stock and warehouse, Supervisors; 22 permanent, 23 Temporary",,Airport Management Services & Hudson Group
-,COVID - Temporary,,,,Arapahoe/Douglas,,Alamo Drafthouse Littleton - Update,,8/17/20,,,87,72,72,,,,8/17/2020,,,Not disclosed,,Alamo Drafthouse Cinema Littleton - Update
-,COVID - Temporary,,,,Denver,,Alamo Drafthouse Sloans Lake Update,,8/17/20,,,87,87,72,,,,8/17/2020,,,Not disclosed,,Alamo Drafthouse Cinema Sloans Lake Update
-,COVID - Temporary,,,,Adams,,Alamo Westminster Update,,8/17/20,,,87,87,72,,,,8/17/2020,,,Not disclosed,,Alamo Drafthouse Cinema Westminster  - Update
-,Mass Layoff - Permanent,,,,Denver,,Alamo Rent-A-Car,,4/3020,,,67,67,53,,,,4/30/2020,,,"Various: Customer Service Agent, Service Agent, DOT Bus Driver, Exit Booth, Greeter",,Alamo Rent-A-Car
-,Furlough,,,,Denver,,Alsco,,3/20/20,,,85,,81,85,,,3/20/2020,,,"Production, Route Sales Representatives",,Alsco
-,"COVID-19 - 2 Permanent, 107 Temporary Fulough",,,2,Denver,,American Airlines,,10/1/20,,,109,,48,107,,,7/15/2020,,,Not Disclosed,,American Airlines
-,Permanent,,,154,Denver,,American Pathology Partners,,1/6/21,,,154,,62,,,,11/6/2020,,,"Logistics, histology, accessioning, molecular services, cytology, administration, sales, client relations, hospital services, clinical services",,American Pathology Partners and APP-UniPath
-,COVID - Permanent,,,58,Jefferson,,Ameristar - Update,,11/1/20,,,58,,72,,,,8/28/2020,,,Various,,Ameristar Casino Resort & Spa Black Hawk
-,Mass Layoff- Permanent,,,117,Gilpin/Jefferson,,Ameristar Casino Resort Spa,,9/15/2020,,,117,,72,,,,6/11/2020,,,Not disclosed,,Ameristar Casino Resort Spa
-,Sale of Company,,,71,Larimer,,Anheuser-Busch,,12/4/2020,,,71,,31,,,,9/29/2020,,,"Various: sales, drivers and more",,Anheuser- Busch - Loveland
-,Sale of Company,,,59,Pikes Peak,,Anheuser-Busch,,12/4/2020,,,59,,31,,,,9/29/2020,,,"Various: drivers, drivers, merchandiser, and more (see WARN)",,Anheuser-Busch - Colo springs
-,Sale of Company,,,220,Denver,,Anheuser-Busch,,12/4/2020,,,220,,31,,,,9/29/2020,,,"Various: analysts business development, marketing, driver, mechanics and more (see WARN)",,Anheuser-Busch - Denver
-,Sale of Company,,,50,Arapahoe/Works,,Anheuser-Busch,,12/4/2020,,,50,,31,,,,9/29/2020,,,"Various: analysts, drivers, sales, warehouse and more (see WARN)",,Anheuser-Busch - Littleton
-,"COVID 19 - 8 permanent, 20 temporary",,,8,Pikes Peak,,Antlers Wyndham Hotel,,9/10/20,,,28,20,72,,,,9/10/2020,,,"Sales admin, barista, line cook, restaruant manager, security officer, bartender, valet gift shop attendant, server, steward and others. 288 permanent, 20 temporary",,"Antlers, a Wyndham Hotel"
-,Furlough,,,,Weld,,Aqua,,3/26/20,,,10,,33,10,,,4/13/2020,,,Various,,Aqua Hot Heating Systems
-,COVID - Temporary,,,,Rural Resort,,Arabelle,,Not available,,,17,17,72,,,,5/4/2020,,,17 EMPLOYEES TOTALING 99,,Arabelle at Vail Square
-,COVID-Temporary,,,,Denver,,Aramark Coors Field,,Unknown,,,71,71,72,,,,10/16/2020,,,Various,,Aramark at Coors Field
-,COVID-Temporary,,,,Denver,,Aramark Mission Ballroom,,Unknown,,,904,904,72,,,,10/16/2020,,,Various,,Aramark at Mission Ballroom
-,Furlough,,,,Arapahoe/Dougless,,Arapahoe Fitness,,3/31/20,,,97,,71,97,,,3/31/2020,,,"Managers, Trainers, Front Desk, Member Sales, Instuctors",,Arapahoe Fitness LLC
-,COVID-19 Temporary Closure,,,,Rural Consortium,,Arrabelle at Vail,,4/6/20,,,82,82,72,,,,4/6/2020,,,Unspecified,,Arrabelle at Vail Square
-,Furlough,,,,Arapahoe/Dougless,,Aurora Health & Fitness,,3/31/20,,,52,,71,52,,,3/31/2020,,,"Managers, Trainers, Front Desk, Member Sales, Instuctors",,Aurora Health & Fitness
-,COVID 19 Extended Furlough,,,,ADW,,Avis Budget Group,,8/31/20,,,2,,53,2,,,8/31/2020,,,Technicians,,Avis Budget Group (ADW - Englewood)
-,COVID 19 Extended Furlough,,,,Denver,,Avis Budget Group,,8/31/20,,,2,,53,2,,,8/31/2020,,,"Sales Performance Manager, Territority Performance Manager",,Avis Budget Group (Denver)
-,Fulough and Permanent,,,260,Denver,,Avis Budget Group,,3/13/20,,,260,,53,,,,4/10/2020,,,"Agents, Customer Service Reps, Associate Rental Sales, Administrative, mechanic, shuttlers etc.",,Avis Budget Group/Avis Budget Car Rental
-,COVID-19: Mass Layoff,,,,Denver,,Barcelona Wine Bar,,3/18/20,,,69,69,72,,,,5/2/2020,,,Not Disclosed,,Barcelona Wine Bar
-,Mass Layoff- Temporary,,,,Boulder,,Bartaco,,3/21/20,,,53,53,72,,,,4/1/2020,,,Not disclosed,,Bartaco
-,Permanent,,,51,Rural Consortium - Eastern Sub-Area,,Basic Energy Srvs,,4/15/20,,,51,,21,,,,4/15/2020,,,Various: Managers & Supervisors,,Basic Energy Services
-,Permanent,,,26,Ft. Morgan,,Basic Energy Services,,4/23/20,,,26,,21,,,,4/23/2020,,,"Equipment Operators, Mechanics, Field Supervisor, Welder, Staff Assistant",,Basic Energy Services (Updated)
-,Permanent,,,26,Rural Consortium - Eastern,,Basic Energy Update,,4/23/20,,,26,,21,,,,4/23/2020,,,"Equipment Operators, Mechanic, Field Supervisor-Pumping Services, Machinist, Welder, Staff Assistant",,Basic Energy Services (Updated)
-,COVID-19 - Temporary Closure,,,,Rural Consortium,,Beaver Creek,,4/6/20,,,297,297,72,,,,4/6/2020,,,Unspecified,,Beaver Creek Resort
-,COVID - Temporary,,,,Rural Resort,,Beaver Creek Resort,,Not available,,,26,26,72,,,,5/4/2020,,,26 ADDITIONAL tOTALING 323,,Beaver Creek Resort
-,COVID-19 - Furloughs,,,,Araphaoe/Douglas,,Bed Bath & Beyond,,4/4/20,,,98,,44,98,,,4/17/2020,,,Not Disclosed,,Bed Bath & Beyond
-,COVID-19 - Temporary Closure,,,,"Multiple: A/D, Boulder, Rural Consortium",,Bicycle Village,,4/6/20,,,65,65,45,,,,4/6/2020,,,Unspecified,,Bicycle Village
-,COVID - Temporary,,,,Rural Resort,,Bicycle Village,,Not available,,,1,1,45,,,,5/4/2020,,,1 ADDITIONAL TOTALING 62,,Bicycle Village
-,Closure - Permanent,,,137,Denver,,Bluprint,,7/22/20,,,137,,54,,,,5/22/2020,,,"Various: Photographers, Product Managers, Customer Support, Engineers, Editors and Others",,Bluprint (3 locations)
-,COVID - Temporary,,,,Rural Resort,,Breckenridge Ski Resort,,Not available,,,24,24,71,,,,5/4/2020,,,24 ADDITIONAL TOTALING 129,,Breckenridge Ski Resort
-,COVID - Temporary,,,,Rural Resort,,Breckenridge SSBRK,,Not available,,,55,55,71,,,,5/4/2020,,,Not Disclosed,,Breckenridge SSBRK
-,COVID-19 - Temporary Closure,,,,Rural Consortium,,Breckenridge Ski,,4/6,,,105,105,71,,,,4/6/2020,,,Unspecfiied,,Brekenridge Ski Resort
-,COVID-19 Temporary,,,,Denver,,Brown Palace,,5/21/20,,,298,298,72,,,,5/21/2020,,,"Various: Cooks, Food Servers, Bussers, Laundry, Banquet Servers, Hostesses and more.",,Brown Palance Denver
-,COVID-19/Temporary Closure,,,,Adams,,Rusty Bucket,,3/16/20-3/20/20 and 3/21/20-3/31/20,,,65,65,72,,,,3/23/20,,,Not disclosed,,Calimira dba Rusty Bucket Restraunt & Tavern
-,COVID Temporary,,,,Arapahoe/Douglas,,Cameron Mitchell Restaurants AD,,11/20/20-11/30/20,,,56,56,72,,,,12/8/2020,,,"servers, bartenders, managers, cooks, chefs, home office employees, directors and executives",,Cameron Mitchell Restaurants - AD
-,COVID - Temporary,,,,Denver,,Cameron Mitchell Restaurants-Denver,,11/20/20-11/30/290,,,70,70,72,,,,12/8/2020,,,"servers, bartenders, managers, cooks, chefs, home office employees, directors and executives.",,Cameron Mitchell Restaurants-Denver
-,COVID - Temporary,,,,Denver,,Centerplate Sodexo,,12/16/20,,,276,276,42,,,,11/17/2020,,,Various,,Centerplate Sodexo
-,Furlough,,,,Weld,,Ft Lupton,,4/18/20,,,78,,92,78,,,4/8/2020,,,,,City of Fort Lupton
-,COVID-19/Temporary Closure,,,,ADWorks,,Clear Choice,,3/23/20,,,120,120,62,,,,3/23/2020,,,55 layoffs and 13 furloughs,,ClearChoice
-,COVID-19 - Temporary Closure,,,,Denver DIA,,Columbo,,3/29/20,,,21,21,72,,,,3/26/2020,,,undisclosed,,Colombo
-,Furlough,,,,Boulder,,Colo Athletic Boulder,,3/20/20,,,186,,79,186,,,3/30/2020,,,Not disclosed,,Colorado Athletic Club - Boulder
-,Furlough,,,,Arapahoe/Dougless,,Colorado Athletic - DTC,,3/20/20,,,115,,79,115,,,3/30/2020,,,Not disclosed,,Colorado Athletic Club - DTC
-,Furlough,,,,Boulder,,Colorado Athletic Flatiron,,3/20/20,,,115,,79,115,,,3/30/2020,,,Not disclosed,,Colorado Athletic Club - Flatiron
-,Furlough,,,,Arapahoe/Dougless,,Colorado Athletic Inverness,,3/20/20,,,135,,79,135,,,3/30/2020,,,Not disclosed,,Colorado Athletic Club - Inverness
-,Furlough,,,,Denver,,Colorado Athletic Monaco,,3/20/20,,,192,,79,192,,,3/30/2020,,,Not disclosed,,Colorado Athletic Club - Monaco
-,Furlough,,,,Denver,,Colo Athletic Tabor Ctr,,3/20/20,,,144,,79,144,,,3/30/2020,,,Not disclosed,,Colorado Athletic Club - Tabor Center
-,Furlough,,,,Denver,,Colorado Athletic Union Station,,3/20/20,,,88,,79,88,,,3/30/2020,,,Not disclosed,,Colorado Athletic Club - Union Station
-,Furlough,,,,Pikes Peak,,Col Fitness Holdings,,3/31/20,,,59,,79,59,,,3/31/2020,,,"Managers, Trainers, Front Desk, Member Sales, Instuctors",,Colorado Fitness Holdings
-,COVID-19 - Temporary Closure,,,,"Multiple: Rural Consortium, Denver",,CO Mtn Express,,4/6/20,,,198,198,48,,,,4/6/2020,,,Unspecified,,Colorado Mountain Express
-,COVID - Temporary,,,,Rural Resort,,Colorado Mtn Express,,Not available,,,13,13,48,,,,5/4/2020,,,Not Disclosed; 13 additional totaling 211,,Colorado Mountain Express
-,COID-19 - Temporary Closure,,,,"Multiple: A/D, Pikes Peak, Jeffco",,CO Ski & Golf,,4/6/20,,,133,133,45,,,,4/6/2020,,,Unspeficied,,Colorado Ski & Golf
-,COVID - Temporary,,,,Rural Resort,,Colorado Ski and Golf,,Not available,,,10,10,45,,,,5/4/2020,,,Not Disclosed; 10 additional totaling 143,,Colorado Ski & Golf
-,COVID - Temporary,,,,Arapahoe/Douglas,,Cox Automotive,,5-17-20,,,163,163,51,,,,5/8/2020,,,Not Disclosed,,Cox Automotive
-,COVID-19 - Temporary Closure,,,,Denver,,Curtis Hotel,,3/27/20,,,182,182,72,,,,3/27/2020,,,"Wait staff, bartenders, parking attendants, cooks, front desk, baristas, bellmen, room attendants",,Curtis Hotel
-,COVID Permanent,,,,Denver,,Curtis Hotel Update,,6/5/20 to 6/22/20,,,136,,72,136,,,7/6/2020,,,"Housekeeping, prep cooks, banquet service, baristas, wait staf, bellman,  and more.",,Curtis Hotel Update
-,COVID-Temporary,,,,Denver,,Czarnowski,,"5/22/20, 5/26/20, 5/29/20",,,53,53,54,,,,5/15/2020,,,"Various: 3D Designer, Account Mgr, Admin Graphics, Carpenters, Proj Mgr and more",,Czarnowski
-,Temporary furloughs,,,,Denver,,Czarnowski - Update,,"6/10/20, 6/17/20, 6/22/20, 6/26/20",,,9,,54,9,,,6/5/2020,,,"Various:  3D Designer, Account Manager, Inventory, Carpenter Inventory Control, CNC Operator, Warehouse, Rental",,Czarnowski - Update
-,COVID Temporary,,,,Denver,,Czarnowski Update,,7/18/20-8/11/20,,,20,20,54,,,,7/15/2020,,,"Account Managers, Carpenters, Accounting Assitants, CAD, data entry Rental CAD, Rental designer and more",,Czarnowski Update
-,COVID 19 Permanent,,,,Denver,,Dave & Busters Denver,,11/8/20,,,136,,72,136,,,9/8/2020,,,Not specified,,Dave and Busters Denver
-,COVID 19 Permanent,,,,Adams,,Dave & Busters Westminster,,11/8/20,,,98,,72,98,,,9/8/2020,,,Not specified,,Dave and Busters Westminster
-,COVID Temporary,,,,Denver,,Delaware North Company,,7/28/20,,,96,96,72,,,,7/28/2020,,,"Various: Bartenders Cocktail Servers, Cooks, Utility workers, Stand Attendants, and more",,Delaware North Company
-,Permanent Mass Layoff (Ending Contract),,,,Denver,,Deliverol Global,,8/10/20,,,53,,49,53,,,8/10/2020,,,"Various: Delivery Associates, Shift and Site Leads",,Deliverol Global
-,COVID-19-Temporary Closure,,,,Rural Consortium,,Del's Diner,,3/17/20,,,14,14,72,,,,3/17/2020,,,"cooks, waitresses, management",,Dels Diner
-,Mass Layoff -Temporary/Some Permanent,,,,Denver,,Denver Center for Performing Arts,,6/1/20,,,151,151,72,,,,5/27/2020,,,"Various: Ticket Agents, Stage Hands, Office Managers, Production Electricians and Ohters",,Denver Center for Performing Arts
-,Furloughs,,,,Denver,,Crown Plaza,,3/12/20,,,69,,72,69,,,5/8/2020,,,"Various: Banquet Servers & Setup, Accounting Clerk, Engineer, Barista, Event Sales, Front Desk and others",,Denver Crown Plaza
-,Furlough,,,,Denver,,Discovery,,4/8/20 - 5/1/20,,,28,,21,28,,,4/8/2020,,,Not disclosed,,Discovery Natural Resources
-,COVID Temporary,,,,Denver,,Doubletree 3203 Quebec,,7/31/20,,,103,103,72,,,,7/31/2020,,,Not disclosed,,Double Tree by Hilton Update -3203 Quebec
-,COVID-19 Temporary,,,,Pikes Peak,,Doubletree,,3/16/20,,,177,177,72,,,,5/15/2020,,,"Various: Accounting Personnel, Sales and Event Managers, Operations Managers, Front Line Supervisors, Shuttle drivers",,DoubleTree Colorado Springs
-,COVID-19 - Temporary Closure,,,,Arapahoe/Douglas,,Doubletree DTC,,3/13/20,,,87,87,72,,,,4/2/2020,,,Various: Request WARN for detail.,,Doubletree Denver Tech Center
-,COVID-Permanent,,,27,Denver,,Doubletree Denver,,10/22/20,,,27,,72,,,,10/20/2020,,,Not specified,,Doubletree Denver Tech Center
-,COVID-19 - Temporary Closure,,,,Mesa,,Doubletree GJ,,3/13/20,,,52,52,72,,,,4/2/2020,,,Various: Request WARN for detail.,,Doubletree Grand Junction
-,COVID 19- Temporary Closure,,,,Boulder,,Dynalectric,,3/13/20,,,2,2,23,,,,3/27/2020,,,undisclosed,,Dynalectric Company
-,COVID-19 - Temporary Closure,,,,Denver,,Dynalectric,,3/30/20,,,1,1,23,,,,4/2/2020,,,Various: Request WARN for detail.,,Dynalectric Company
-,Furlough,,,,Pikes Peak,,Dynalectric,,4/18/20,,,1,,23,1,,,4/10/2020,,,Not Disclosed,,Dynalectric Company
-,COVID-19 - Temporary Closure,,,,Denver & Arapahoe/Douglas,,Earls,,3/25/20,,,134,134,72,,,,3/25/2020,,,"servers, dishwashers, cook, bartender, prep, setter dining & lounge, host +",,Earls Restaurants USA Inc.
-,COVID-19 Temporary Closure,,,,Denver,,Embassy Suites,,3/19/20,,,118,118,72,,,,3/30/2020,,,Variety of positions - Request WARN for detail,,Ebassy Suites Denver Downtown
-,Mass Layoff- Permanent,,,,Grand Junction (Mesa),,EcoGen,,6/17/2020 - 7/1/2020,,,101,,33,101,,,6/19/2020,,,Variety of postions - Request WARN for detail,,EcoGen Laboratories
-,COVID Permanent,,,,Mesa,,EcoGen Labs - Update,,5/26/20-July/22/20,,,101,,33,101,,,7/23/2020,,,Not specified,,EcoGen Laboratories - Update
-,COVID Permanent,,,,Mesa,,Ecogen Update,,7/23/20,,,168,,33,168,,,7/23/2020,,,Not disclosed,,Ecogen Laboratories Update
-,COVID-19 - Temporary Closure,,,,Denver DIA,,Einstein Brothers,,3/29/20,,,34,34,72,,,,3/26/2020,,,undisclosed,,Einstein Brothers
-,COVID Furlough,,,,Boulder,,Electro Rent,,,,,1,,53,1,,,5/16/2019,,,"Electronic Tech, Digital Demand Generation, IT Tech Support, Test Equipment Operator, Equipment Support Techs, Production Operator",,Electro Rent
-,COVID Permanent,,,55,Denver,,Electro Rent Update,,7/1/20,,,55,,53,,,,7/1/2020,,,"Various: Equipment Support Techs, Electronic Techs, Customer Support Tech, Territory Account Mgrs, and more",,Electro Rent
-,COVID-19 Temporary Closure,,,,Araphaoe/Douglas,,Electronic Recyclers,,3/24/20,,,26,26,42,,,,3/25/2020,,,"Operators, environmental and Safety, production, truck driver, HR assistant, loss prevention",,Electronic Recyclers
-,COVID-19 - Temporary Closure,,,,Larimer,,Elizabeth Hotel,,3/27/20,,,111,111,72,,,,3/27/2020,,,"Wait staff, bartenders, parking attendants, cooks, front desk, baristas, bellmen, room attendants",,Elizabeth Hotel
-,COVID-19 - Temporary Closure,,,,Boulder,,,,3/27/20,,,126,126,72,,,,3/27/2020,,,Variety of positions - Request WARN for detail,,Embassy Suites & Hilton Garden Inn Boulder
-,Reinstate and COVID Temporary,,,,Boulder,,Embassy Suites Boulder,,6/13/20,,,61,61,72,,,,5/15/2020,,,"Various: Cooks, Laundry, Managers, Breakfrast Attendnance and others; REINSTATING 95 AND LAYING OFF 61",,Embassy Suites Boulder -Update
-,COVID-19 Permanent RIF,,,,Pikes Peak,,Embassy Suites Colo Springs,,7/1/20,,,57,,72,57,,,6/26/2020,,,"Various: Banquet Server, Bartenders, Comp Bar, Cooks, Sales, Front Desk, Housekeepers, Maintenance and others",,Embassy Suites by Hilton Colo Springs - Updated
-,COVID-19 Permanent RIF,,,,Denver,,Embassy Suites Denver,,7/1/20,,,56,,72,56,,,6/26/2020,,,"Various: Banquet Server, Bartenders, Comp Bar, Cooks, Sales, Front Desk, Housekeepers, Maintenance and others",,Embassy Suites by Hilton Denver Tech North  - Updated
-,COVID Permanent,,,,Denver,,Embassy Suites Denver Downtown Update,,6/29/20,,,112,,72,112,,,6/29/2020,,,"Banquet servers, sales managers, housekeeping room attendants, dishwashers, servers and more",,Embassy Suites Denver Downtown Update
-,Mass Layoff - Permanent,,,,Denver,,Enterprise and National Rent-A-Car,,4/30/20,,,83,,53,83,,,4/30/2020,,,"Various: DOT Bus Drivers, Drivers, Return Agents, Maintenance Techs and others",,Enterprise and National Rent-A-Car
-,Closure,,,,Boulder & Longmont,,,,3/22/19,,,210,,,,,,1/8/2019,,,"Quality Control, technicians, engineers & others",,AstraZeneca
-,Closure,,,,Boulder,,,,12/23/19,,,86,,,,,,10/23/2019,,,"Various: creative roles, management, engineers, product managers",,Backflip Studios
-,Loss of Contract/Closure,,,,Arapahoe/Douglas,,,,11/25/19 - 9/30/20,,,136,,,,,,9/23/2019,,,Various: CPAs CPAs Administrative positions related to investments,,Brown Brothers Harriman & Co.
-,Closure,,,,Boulder,,,,5/24/19 - 3/20/20,,,100,,,,,,2/5/19,,,Not reported,,"Conagra Brands, Inc."
-,Closure,,,,Arapahoe/Douglas,,,,6/30/19,,,283,,,,,,4/26/2019,,,"Housekeepers,  Admin, Operations, Patient Ambassadors",,Crothall Healthcare Environmental Services
-,Closure,,,,Larimer,,,,"10/30/2019, 11/8/2019, 11/22/2019, 11/29/2019",,,121,,,,,,10/30/2019,,,"Various: Construction, Maintenece, Admin",,"Energes Services, LLC"
-,Mass Layoff,,,,Pikes Peak (Colo Springs),,,,3/6/2020,,,196,,,,,,1/7/2020,,,"Various: Corrections Personnel (136), Rehabilitation Providers/Therapists (23), General Admin (17), Food Service (6), Medical (14)",,Geo Reentry Services LLC
-,Mass Layoff,,,,Mesa,,,,10/7/19,,,178,,,,,,10/7/2019,,,"Various: Drivers, Service Coordinators, Planners, Material Handlers, Mechanic Technicians, Parts Techs, Coordinators",,Halliburton Energy Services Inc.
-,Closure,,,,Pikes Peak,,,,1/1/20 to 1/14/20,,,229,,,,,,11-1-19 received 11/19/19 via Local Area/Suthers office,,,Various: Predominately Sales Consultants and Project Advisors,,HomeAdvisor
-,Downsizing,,,,Arapahoe/Douglas (Centennial),,,,5/25/19 (thru 18 mo following),,,850,,,,,,3/21/19 (received  3/22/19),,,Not disclosed in WARN,,Invesco (OppenheimerFunds OFI)
-,Closure/Sale of Company/Restructuring,,,,Denver,,,,Closure 1/10/20- 04/10/20,,,92,,,,,,12/10/2019,,,Various: Request WARN notification for specifics.,,Jagged Peak Energy Inc
-,Loss of Pepsi Center Contract,,,,Denver,,,,9/30/19,,,56,,,,,,9/30/2019,,,"Various Positions:  Servers (14), Cooks (13), Supervisors (6), Food Runners (4), Cashiers (3) and other positions",,Levy Premium Foodservice LP
-,Downsizing,,,,Denver,,,,12/31/19,,,300,,,,,,10/30/2019,,,Not disclosed in WARN,,Molson Coors
-,Closure,,,,Pikes Peak,,,,6/30/19,,,60,,,,,,3/1/19 (received on 3/22/19),,,"3 Managers and 57 hourly employees including General Manager, Saftety Manager/OPS, Drivers, Dispatchers, Dispatch Reservation Manager, Road Supervisors, Utility Workers, Scheduler, Reservationist",,National Express Transit (NEXT)
-,Restructuring/Closure of site,,,,Denver,,,,10/18/19-12/31/19,,,56,,,,,,8/16/2019,,,"Various: Sales, Delivery Drivers, Merchandisers, Warehouse",,Nestle USA Inc and Nestle Dreyer's Ice Cream
-,Mass Layoff,,,,Denver,,,,12/30/2019,,,1,,,,,,10/29/2019,,,Operations Manager,,Oakwood Worldwide
-,Loss of Contract with United Airlines,,,,Denver,,,,9/18/19,,,439,,,,,,7/15/19 (received 7/16/19),,,"Various positions: Cabin Appearance Staff (380), Inventory Control (17), Operations Managers, & other positions",,PrimeFlight Aviation Services Inc.
-,Closure,,,,Denver,,,,4/15/19,,,134,,,,,,1/18/2019,,,"Managers/Directors, therapists, instructors, & others",,Pura Vida Fitness & Spa
-,Loss of Contract,,,,Arapahoe/Douglas,,,,11/29/19 - 1/31/2020,,,40-60,,,,,,10/4/19,,,Unknown,,QCData
-,Merger,,,,Denver,,,,3/1/19,,,57,,,,,,1/15/2019,,,"Various: administration, engineers, & others",,Resolute Natural Resources Company LLC
-,Loss of Contract,,,,Pikes Peak,,,,Downsize 1/26/20,,,77,,,,,,1/26/2020,,,Various: IT positions,,S4 Inc.
-,Closure,,,,Broomfield,,,,5/18/19 - 6/1/19,,,56,,,,,,3/18/2019,,,"Management, Production Technicans, administrative, Material Handlers",,"Sandoz Inc, A Novartis Division (Next Phase)"
-,Closure,,,,Broomfield,,,,4/13/19-5/30/19,,,24,,,,,,1/7/19 & 4/6/2020,,,"Production Technicians, Chemists, & more",,"Sandoz Inc., A Novartis Division (Update)"
-,Closure,,,,Broomfield,,,,7/6/19 - 7/31/19,,,24,,,,,,7/6/19-7/31/19,,,"Lead Technicians (5), Equipment Maintenance Tech III (3), Production Technician III (16)",,Sandoz-Novartis
-,Closure,,,,Broomfield,,,,9/7/19 - 12/31/19,,,67,,,,,,7/8/2019,,,"Various positions: Administrative, Chemist, Supply Chain, Production, Quality, Techs, Logistics",,Sandoz-Novartis
-,Closure,,,,Broomfield,,,,10/5/19-12/31/19,,,37,,,,,,8/5/19,,,"Various Positions: Logistics Productioins Support, Compliance, Quality Engineer, HR Specialist, Trainer, Management",,Sandoz-Novartis
-,Closure,,,,Broomfield,,,,4/13/19 - 5/19/19,,,116,,,,,,2/11/2019,,,"Production technicians, chemists, process & others",,Sandoz/Novartis (2nd Wave of Layoffs)
-,Closure,,,,Denver,,,,12/31/19 to 3/26/20,,,68,,,,,,10/24/19,,,"Various: General Labor, Crew Leaders, Equipment Operators, Forklift Operations and others.",,Smithfield Fresh Meats Corporation
-,Divesting Product line/Sale to Acrotech Biopharma,,,,Denver,,,,4/12/19,,,3,,,,,,2/13/2019,,,"Application system analyst, data compliance officer, VP Sales",,Spectrum Pharmaceuticals
-,Closure (Temporary 18-24 mo),,,,Denver,,,,"3/3/19, 3/31/19",,,18,,,,,,1/2/2019,,,"Front office, housekeeping, exec office, engineering & others",,The Inn at Cherry Creek
-,Change in Business Circumstances,,,,Arapahoe/Douglas,,,,12/15/19,,,80,,,,,,8/29/2019,,,"Various: Consultative Sales, Managers, Store Support, Fulfillment Center, Cashier, Auto Technicians, Customer Service",,Transform SR LLC (060401 & 01141 Units)
-,Ending work-from-home ops,,,,Arapahoe/Douglas,,,,10/5/19,,,174,,,,,,10/5/2019,,,Primarily Customer Service Agents working in different locations across the U.S.,,TTEC Services Corporation
-,Closure,,,,Denver,,,,8/2/19 - 3/31/20,,,74,,,,,,5/10/2019,,,"Various postions: Manufacturing Technicians, scientists, engineers, technical services, instrument controls, operations",,Upsher-Smith Laboratories LLC
-,Closure,,,,Arapahoe/Douglas,,,,"3/25/19, 4/24/19, 5/24/19",,,61,,,,,,3/25/2019,,,"Production workers, auditors, technicians & others",,Westrock
-,Downsize,,,,Colorado Springs,,,,3/10/19  (184) & 5/31/19  (19),,,203,,,,,,1/9/2019,,,"Customer Advocates, Business Tech Sup, Sales Retention Specialists & more",,"WideOpenWest Networks LLC and WideOpenWest Illinois, LLC"
-,Reorganization and relocation,,,,Jefferson (Golden),,,,3/9/2020,,,54,,,,,,1/7/2020,,,"Various: Customer Care, CAD Scanners, Finishing Technicians, Machine Operators, Finishing Technicians & others",,Zahn Dental
-,Closure (Cease Operations),,,,,Arapahoe/Douglas,,,,,,272,,,,,,2/2/2019,,,,,"Advantage Logistics USA West LLC - Aurora, CO"
-,Closure (Cease Operations),,,,,Pikes Peak,,,,,,475,,,,,,2/2/2019,,,,,"Advantage Logistics USA West LLC - Fountain, CO"
-,Reorganization,,,,,Adams,,,,,,8,,,,,,8/9/2018,,,,,Ameritrade Holding Company
-,Closure,,,,,Boulder & Longmont,,,,,,210,,,,,,1/8/2019,,,,,AstraZeneca
-,Closure,,,,,Denver,,,,,,399,,,,,,6/29/2018,,,,,Chipotle Mexican Grill
-,Closure,,,,,Boulder,,,,,,100,,,,,,05/24/19 - 3/20/2020,,,,,"Conagra Brands, Inc."
-,Change in business conditions,,,,,Pikes Peak,,,,,,410,,,,,,8/10/2018,,,,,Conduent Commercial Solutions LLC
-,Closure,,,,,Mesa County,,,,,,51,,,,,,12/1/2018,,,,,Courtyard Care Center Nursing Home/Family Health West
-,Closure,,,,,Adams,,,,,,67,,,,,,3/6/2018,,,,,Covenant Care at Home
-,Closure,,,,,Arapahoe/Douglas,,,,,,79,,,,,,2/12/2018,,,,,CPI Card Group
-,Cease operations,,,,,Adams,,,,,,65,,,,,,10/22/2018,,,,,Crothall Healthcare/ Patient Transport Dept
-,Other,,,,,Jefferson,,,,,,41,,,,,,2/12/2018,,,,,Davita Clinical Research
-,Closure,,,,,Jefferson,,,,,,41,,,,,,6/1/2018,,,,,Davita Clinical Research
-,Closure,,,,,Denver,,,,,,55-59,,,,,,5/31/2018,,,,,DCT Industrial
-,Closure,,,,,Arapahoe/Douglas,,,,,,39,,,,,,7/27/2018,,,,,Dex YP
-,Closure,,,,,Denver,,,,,,160,,,,,,6/29/2018,,,,,Dream Center Education Holdings Inc/The Art Institute
-,Closure,,,,,Denver,,,,,,160,,,,,,7/20/2018,,,,,Dream Center Education Holdings LLC/Art Institute UPDATED to 12/31/18 closure date.
-,Reduction in Force,,,,,Arapahoe Douglas,,,,,,149,,,,,,1/2/2018,,,,,First Data - Update 1/2/18
-,Other-Loss of Contract,,,,,Boulder,,,,,,54,,,,,,1/22/2018,,,,,Fluor
-,Ceasing Operations on a contract,,,,,Pikes Peak,,,,,,75,,,,,,8/1/2018,,,,,General Dynamics
-,Ceasing operations on a contract,,,,,Colorado Springs,,,,,,75,,,,,,8/22/2018,,,,,General Dynamics Update 8-22-18 - Layoff date changed to 12/31/18
-,Closure,,,,,Denver,,,,,,370,,,,,,2/8/2018,,,,,Jackson National Life Insurance Company
-,Closure,,,,,Pikes Peak,,,,,,156,,,,,,8/13/2018,,,,,Jackson National Life Insurance Company
-,Downsize,,,,,Pikes Peak,,,,,,107,,,,,,9/28/2018,,,,,Media News Group dba Digital First
-,Downsize due to sale,,,,,Denver,,,,,,7,,,,,,1/26/2018,,,,,National Planning Holdings
-,Other-Loss of Contract,,,,,Pikes Peak,,,,,,38,,,,,,1/15/2018,,,,,Northrop Grumman - Update 1/15/18
-,Other - Loss of Contract,,,,,Pikes Peak,,,,,,85,,,,,,1/2/2018,,,,,Northrop Grumman - Updated 1/2/18
-,Terminate Operations,,,,,Larimer,,,,,,69,,,,,,1/7/19 & 4/6/2020,,,,,Peak Reliability
-,Closure,,,,,Denver,,,,,,134,,,,,,4/15/2019,,,,,Pura Vida Fitness & Spa
-,Closure,,,,,Broomfield,,,,,,65,,,,,,2/6/2018,,,,,Sandoz Inc.
-,Closure,,,,,Broomfield,,,,,,24,,,,,,1/7/19 & 4/6/2020,,,,,"Sandoz Inc., A Novartis Division (Update)"
-,Closure,,,,,Broomfield,,,,,,116,,,,,,2/11/2019,,,,,Sandoz/Novartis (2nd Wave of Layoffs)
-,Other - Loss of Contract,,,,,Arapahoe/Douglas,,,,,,119,,,,,,2/15/2018,,,,,Schneider National Carriers Inc.
-,Other,,,,,Adams,,,,,,63,,,,,,1/18/2018,,,,,Scottrade - Ameritrade
-,Downsize,,,,,Adams,,,,,,10,,,,,,5/3/2018,,,,,Scottrade - Ameritrade
-,Divesting Product line/Sale to Acrotech Biopharma,,,,,Denver,,,,,,3,,,,,,2/13/2019,,,,,Spectrum Pharmaceuticals
-,Downsize,,,,,Pueblo,,,,,,272,,,,,,3/8/2018,,,,,St. Mary Corwin Medical Center
-,Downsize,,,,,Pikes Peak,,,,,,261,,,,,,1/31/2018,,,,,Startek
-,Reduction in Force,,,,,Weld,,,,,,186,,,,,,8/17/2018,,,,,Startek Inc.
-,Closure,,,,,Boulder,,,,,,96,,,,,,10/24/2018,,,,,The Cheesecake Factory
-,Closure (Temporary 18-24 mo),,,,,Denver,,,,,,18,,,,,,1/2/2019,,,,,The Inn at Cherry Creek
-,Closure of Unit,,,,,Pikes Peak,,,,,,53,,,,,,8/23/2018,,,,,Wells Fargo/Consumer Lending Group Home Equity Fullfillment Group
-,Closure,,,,,Arapahoe/Douglas,,,,,,61,,,,,,3/25/2019,,,,,Westrock
-,Downsize,,,,,Colorado Springs,,,,,,203,,,,,,1/9/2019,,,,,"WideOpenWest Networks LLC and WideOpenWest Illinois, LLC"
-,Selling assets,,,,,Rural (Durango),,,,,,Unknown,,,,,,7/31/2018,,,,,Williams Field Services Group LLC
-,Loss of Contract,,,,,Adams,,,,,,Unknown - Previous submission 117,,,,,,7/27/2017,,,,,All Aboard Transit Services - Resubmission 07/27/2017
-,Closure,,,,,Pikes Peak,,,,,,288,,,,,,10/30/2017,,,,,Alorica
-,Loss of Contract/Downsize,,,,,Denver,,,,,,52,,,,,,12/4/2017,,,,,CA Concessions of Colorado
-,Closure,,,,,Pikes Peak,,,,,,60,,,,,,1/3/2017,,,,,Cardon Outreach
-,Downsize,,,,,Arapahoe Douglas,,,,,,244,,,,,,5/19/2017,,,,,Conduent Inc.
-,Closure,,,,,Various,,,,,,37,,,,,,3/30/2017,,,,,Dollar Express
-,Closure,,,,,Pueblo,,,,,,338,,,,,,2/22/2017,,,,,Express Scripts
-,Reduction in Force,,,,,Arapahoe Douglas,,,,,,201,,,,,,10/13/2017,,,,,First Data
-,Reduction in Force,,,,,Arapahoe Douglas,,,,,,149,,,,,,1/2/2018,,,,,First Data - Update 1/2/18
-,Closure,,,,,Pikes Peak,,,,,,81,,,,,,1/4/2018,,,,,K-Mart Corporation Store #04332
-,Reduction in Force,,,,,Pikes Peak,,,,,,79,,,,,,11/1/2017,,,,,Lockheed Martin
-,Closure,,,,,Arapahoe Douglas,,,,,,98,,,,,,7/25/2017,,,,,Multi Packaging Solutions
-,Reduction in Force,,,,,Boulder,,,,,,55,,,,,,11/6/2017,,,,,National Ecological Observatory Network dba Battelle Ecology
-,Sale of business/Reduction in Force,,,,,Denver,,,,,,13,,,,,,12/14/2017,,,,,National Planning Holdings Inc.
-,Sale of business/Reduction in Force,,,,,Denver,,,,,,42,,,,,,8/30/2017,,,,,National Planning Holdings Inc.
-,Reduction in Force,,,,,Pikes Peak,,,,,,50,,,,,,11/2/2017,,,,,Northrop Grumman
-,Other - Loss of Contract,,,,,Pikes Peak,,,,,,85,,,,,,1/2/2018,,,,,Northrop Grumman - Updated 1/2/18
-,Closure,,,,,Boulder,,,,,,27,,,,,,1/5/2017,,,,,Pinnacle Foods
-,Closure,,,,,Arapahoe Douglas,,,,,,62,,,,,,3/2/2017,,,,,Savers
-,Company Reorganization/Downsize,,,,,Adams,,,,,,84,,,,,,12/6/2017,,,,,TD Ameritrade Holding Corporation
-,Company Wide Reorganization,,,,,Adams,,,,,,32,,,,,,10/10/2017,,,,,TD Ameritrade Holding Corporation
-,Downsize,,,,,Arapahoe Douglas,,,,,,119,,,,,,2/15/2017,,,,,UnitedHealth Group
-,Loss of Contract/Closure,,,,,Tri-County,,,,,,78,,,,,,12/8/2017,,,,,UtiliQuest
-,Restructuring,,,,,Arapahoe Douglas,,,,,,49,,,,,,6/27/2017,,,,,Verizon/XO Communications
-,Corporate Restructuring,,,,,Pikes Peak,,,,,,61,,,,,,2/7/2017,,,,,Viavi Solutions Inc.
-,Closure,,,,,Denver,,,,,,68,,,,,,1/17/2017,,,,,WalMart
-,Closure,,,,,Jefferson,,,,,,153,,,,,,6/5/2017,,,,,Walmart Store #1208
-,Closure,,,,,Jefferson,,,,,,65,,,,,,6/5/2017,,,,,Walmart Store #3020
-,Closure,,,,,Boulder,,,,,,74,,,,,,5/23/2017,,,,,Walmart Store #3096
-,Closure - Move to other Company locations,,,,,Arapahoe Douglas,,,,,,113,,,,,,6/20/2017,,,,,XTO Energy Western Div Office
-,Closure,,,,,Adams,,,,,,27,,,,,,11/3/2017,,,,,Zenith Education Group
-,Closure,,,,,Pikes Peak,,,,,,26,,,,,,11/3/2017,,,,,Zenith Education Group
-,Closure,,,,,Arapahoe/Douglas,,,,,,70,,,,,,7/13/2017,,,,,Sports Authority - Lone Tree Store
-,Closure,,,,,Denver,,,,,,220,,,,,,12/31/2016,,,,,SMA America Production LLC
-,Closure,,,,,Jefferson,,,,,,54,,,,,,12/20/2016,,,,,Coleman
-,Closure,,,,,Mesa,,,,,,52,,,,,,10/21/2016,,,,,MV Public Transportation
-,Revision,,,,,Jefferson,,,,,,N/A,,,,,,10/11/2016,,,,,Climax Molybdenum Co - Henderson Mine & Mill - REV #5
-,Downsize,,,,,Denver,,,,,,187,,,,,,9/16/2016,,,,,Swissport
-,Revision,,,,,Jefferson,,,,,,200,,,,,,8/26/2016,,,,,Climax Molybdenum Co - Henderson Mine & Mill - REV #4
-,Closure,,,,,Arapahoe/Douglas,,,,,,144,,,,,,8/26/2016,,,,,Sports Authority - Store Support Center
-,Ceasing certain operations,,,,,Pikes Peak/Teller,,,,,,60,,,,,,8/18/2016,,,,,General Dynamics Information Technology
-,Closure,,,,,Jefferson,,,,,,60,,,,,,8/10/2016,,,,,Lake Region Medical - Layoffs 8-10-16
-,Downsize,,,,,Denver,,,,,,59,,,,,,8/4/2016,,,,,Integra
-,Potential Downsize,,,,,Pikes Peak/Teller,,,,,,210,,,,,,7/28/2016,,,,,Honeywell Technology Solutions Inc - REV
-,Closure,,,,,Adams,,,,,,70,,,,,,7/25/2016,,,,,Packaging Corporation of America
-,Closure,,,,,Arapahoe/Douglas,,,,,,80,,,,,,7/20/2016,,,,,Excelsior
-,Selling  Company,,,,,Denver,,,,,,65,,,,,,7/12/2016,,,,,Northwest Pipe Company
-,Closure,,,,,Western,,,,,,141,,,,,,7/5/2016,,,,,CCA- Kit Carson Correctional Facility
-,Other,,,,,Arapahoe/Douglas,,,,,,85,,,,,,6/27/2016,,,,,Xerox State Healthcare
-,Closure,,,,,Arapahoe/Douglas,,,,,,70,,,,,,6/23/2016,,,,,Sports Authority
-,Revision,,,,,Arapahoe/Douglas,,,,,,N/A,,,,,,6/15/2016,,,,,Sports Authority
-,Revision,,,,,Jefferson,,,,,,N/A,,,,,,6/14/2016,,,,,Climax Molybdenum Co - Henderson Mine & Mill - REV#3
-,Revision,,,,,Arapahoe/Douglas,,,,,,N/A,,,,,,6/10/2016,,,,,Sports Authority
-,Potential Downsize,,,,,Pikes Peak/Teller,,,,,,241,,,,,,6/2/2016,,,,,Honeywell Technology Solutions Inc.
-,Closure,,,,,Denver,,,,,,54,,,,,,5/31/2016,,,,,Sanjel
-,Closure,,,,,Weld,,,,,,101,,,,,,5/31/2016,,,,,Sanjel
-,Closing,,,,,Arapahoe/Douglas,,,,,,461,,,,,,5/25/2016,,,,,Sports Authority
-,Sale of Company,,,,,Boulder,,,,,,34,,,,,,5/11/2016,,,,,Gaiam Inc.
-,Downsize,,,,,Denver,,,,,,104,,,,,,5/3/2016,,,,,DAL Global Services
-,Closure,,,,,Pikes Peak/Teller,,,,,,107,,,,,,4/25/2016,,,,,XIO Technologies
-,Closure,,,,,Jefferson,,,,,,19,,,,,,4/11/2016,,,,,Lake Region Medical - Layoffs 4/21 and or 4/24/16
-,Closure,,,,,Jefferson,,,,,,26,,,,,,4/11/2016,,,,,Lake Region Medical - Layoffs 5/19 and/or 5/22/16
-,Closure,,,,,Jefferson,,,,,,31,,,,,,4/11/2016,,,,,Lake Region Medical - Layoffs 5/5 and/or 5/8/16
-,Closure,,,,,Jefferson,,,,,,28,,,,,,4/11/2016,,,,,Lake Region Medical - Layoffs 6/2 and/or 6/5/16
-,Closure,,,,,Arapahoe/Douglas,,,,,,106,,,,,,4/5/2016,,,,,Baxter Healthcare
-,Downsize,,,,,Pikes Peak/Teller,,,,,,328,,,,,,3/31/2016,,,,,Xerox Business Services
-,Potential Closure,,,,,Rural Resort,,,,,,7,,,,,,3/19/2016,,,,,Tubular Repair
-,N/A,,,,,Rural Resort,,,,,,N/A,,,,,,3/18/2016,,,,,Sky Hotel 39 Degrees Recinds Layoffs from 2/5/16 WARN
-,Closure,,,,,Arapahoe/Douglas,,,,,,2,,,,,,3/15/2016,,,,,MYCOM North America
-,Closure,,,,,Rural Resort,,,,,,208,,,,,,3/10/2016,,,,,WPX Energy
-,Downsize,,,,,Pikes Peak/Teller,,,,,,70,,,,,,2/29/2016,,,,,Jacobs Technology Inc - ETASS Group.
-,Idle,,,,,Western,,,,,,102,,,,,,2/26/2016,,,,,Bowie Resources LLC - Bowie Mine #2
-,Downsize,,,,,Jefferson,,,,,,N/A,,,,,,2/25/2016,,,,,Climax Molybdenum Co - Henderson Mine & Mill - REV#2
-,Closure,,,,,Denver,,,,,,72,,,,,,2/23/2016,,,,,Sports Authority
-,Job Attached,,,,,Rural Resort,,,,,,200,,,,,,2/17/2016,,,,,Vail Cascade
-,Downsize,,,,,Pikes Peak/Teller,,,,,,8,,,,,,2/12/2016,,,,,Honeywell
-,Downsize,,,,,Pikes Peak/Teller,,,,,,89,,,,,,2/10/2016,,,,,Startek
-,Closure,,,,,Pikes Peak/Teller,,,,,,62,,,,,,2/5/2016,,,,,Leggett and Platt
-,Closure,,,,,Rural Resort,,,,,,91,,,,,,2/5/2016,,,,,Sky Hotel 39 Degrees
-,Closure,,,,,Denver,,,,,,103,,,,,,2/3/2016,,,,,All Web Leads Inc.
-,Closure,,,,,Arapahoe/Douglas,,,,,,28,,,,,,1/31/2016,,,,,Jones International University
-,Downsize,,,,,Broomfield,,,,,,38,,,,,,1/26/2016,,,,,VMWare
-,Downsize,,,,,Pikes Peak/Teller,,,,,,48,,,,,,1/26/2016,,,,,VMWare
-,Downsize,,,,,Jefferson,,,,,,210,,,,,,1/25/2016,,,,,Climax Molybdenum Co - Henderson Mine & Mill - REV#1
-,Closure,,,,,Denver,,,,,,158,,,,,,1/25/2016,,,,,Republic Airways Holdings
-,Downsize,,,,,Arapahoe/Douglas,,,,,,247,,,,,,1/22/2016,,,,,Sprint
-,Closure,,,,,Boulder,,,,,,348,,,,,,1/18/2016,,,,,Concentrix
-,Closure,,,,,Arapahoe/Douglas,,,,,,65,,,,,,1/15/2016,,,,,Walmart Store #3021
-,Closure,,,,,Denver,,,,,,78,,,,,,1/15/2016,,,,,Walmart Store #5002
-,Closure,,,,,Denver,,,,,,98,,,,,,1/4/2016,,,,,Safeway
-,Job Attached,,,,,Jefferson,,,,,,200,,,,,,11/3/2015,,,,,Climax Molybdenum Co - Henderson Mine & Mill -
-,Closure,,,,,Mesa County,,,,,,38,,,,,,6/4/2015,,,,,Albertsons #632
-,Closure,,,,,Pikes Peak/Teller,,,,,,78,,,,,,3/24/2015,,,,,Albertsons #8584
-,Downsize,,,,,Denver,,,,,,1,,,,,,4/27/2015,,,,,Ambassadors Group
-,Downsize,,,,,Adams County,,,,,,17,,,,,,9/30/2015,,,,,Baker Hughes Inc.
-,Downsize,,,,,Adams County,,,,,,124,,,,,,8/12/2015,,,,,Baker Hughes Inc.
-,Downsize,,,,,Adams County,,,,,,2,,,,,,11/3/2015,,,,,"Baker Hughes, Inc."
-,Downsize,,,,,Weld,,,,,,250,,,,,,5/15/2015,,,,,Bayou Well Services
-,Downsize,,,,,Western,,,,,,78,,,,,,9/30/2015,,,,,Bowie Resources LLC
-,Downsize,,,,,Denver,,,,,,69,,,,,,4/3/2015,,,,,Capstone Logistics
-,Job Attached Layoff,,,,,Jefferson County,,,,,,200,,,,,,11/3/2015,,,,,Climax Molybdenum Company
-,Closure,,,,,Pikes Peak/Teller,,,,,,214,,,,,,1/30/2015,,,,,Corinthian Colleges Inc./Everest College
-,Closure,,,,,Denver,,,,,,224,,,,,,8/4/2015,,,,,Curian Capital
-,Downsize,,,,,Pikes Peak/Teller,,,,,,45,,,,,,7/28/2015,,,,,Diamond Wire Material Technologies
-,Downsize,,,,,Adams County,,,,,,137,,,,,,9/1/2015,,,,,ECMC Group
-,Closure,,,,,Denver,,,,,,60,,,,,,9/15/2015,,,,,EOS CCA
-,Closure,,,,,Denver,,,,,,106,,,,,,11/4/2015,,,,,Fidelity Exploration & Production Company
-,Closure,,,,,Mesa,,,,,,150,,,,,,4/30/2015,,,,,First Student
-,Closure,,,,,Denver,,,,,,1152,,,,,,1/16/2015,,,,,Frontier Airlines Inc.
-,Downsize,,,,,Arapahoe/Douglas,,,,,,59,,,,,,6/25/2015,,,,,Intuit
-,Downsize,,,,,Pueblo,,,,,,251,,,,,,1/2/2015,,,,,Iqor Inc.
-,Downsize,,,,,Pikes Peak/Teller,,,,,,70,,,,,,2/29/2016,,,,,Jacobs Technology Inc - ETASS Group.
-,Closure,,,,,Arapahoe/Douglas,,,,,,28,,,,,,1/31/2016,,,,,Jones International University
-,Closure,,,,,Adams County,,,,,,103,,,,,,1/6/2015,,,,,K-Mart-Sears Distribution Center
-,Downsize,,,,,Pikes Peak/Teller,,,,,,364,,,,,,7/30/2015,,,,,KIRA
-,Closure,,,,,Denver,,,,,,52,,,,,,4/15/2015,,,,,Linn Energy
-,Downsize,,,,,Pikes Peak/Teller,,,,,,126,,,,,,10/23/2015,,,,,Lockheed Martin
-,Downsize,,,,,Pikes Peak/Teller,,,,,,119,,,,,,7/20/2015,,,,,Lockheed Martin
-,Downsize,,,,,Pikes Peak/Teller,,,,,,130,,,,,,7/20/2015,,,,,Lockheed Martin
-,Downsize,,,,,Pikes Peak/Teller,,,,,,N/A,,,,,,8/6/2015,,,,,Lockheed Martin-Rev to 7/20/15 WARN
-,Closure,,,,,Glendale,,,,,,64,,,,,,3/25/2015,,,,,MMC
-,Closure,,,,,Jefferson County,,,,,,1,,,,,,7/31/2015,,,,,Moneygram Payment Systems Inc. (MPSI)
-,Closure,,,,,Jefferson County,,,,,,1,,,,,,6/14/2015,,,,,Moneygram Payment Systems Inc. (MPSI)
-,Closure,,,,,Jefferson County,,,,,,1,,,,,,5/31/2015,,,,,Moneygram Payment Systems Inc. (MPSI)
-,Closure,,,,,Jefferson County,,,,,,1,,,,,,5/17/2015,,,,,Moneygram Payment Systems Inc. (MPSI)
-,Closure,,,,,Jefferson County,,,,,,8,,,,,,5/2/2015,,,,,Moneygram Payment Systems Inc. (MPSI)
-,Closure,,,,,Jefferson County,,,,,,1,,,,,,5/1/2015,,,,,Moneygram Payment Systems Inc. (MPSI)
-,Closure,,,,,Jefferson County,,,,,,1,,,,,,4/30/2015,,,,,Moneygram Payment Systems Inc. (MPSI)
-,Closure,,,,,Jefferson County,,,,,,1,,,,,,4/1/2015,,,,,Moneygram Payment Systems Inc. (MPSI)
-,Closure,,,,,Jefferson County,,,,,,4,,,,,,3/30/2015,,,,,Moneygram Payment Systems Inc. (MPSI)
-,Closure,,,,,Jefferson County,,,,,,7,,,,,,1/27/2015,,,,,Moneygram Payment Systems Inc. (MPSI)
-,Closure,,,,,Jefferson County,,,,,,4,,,,,,1/6/2015,,,,,Moneygram Payment Systems Inc. (MPSI)
-,Closure,,,,,Denver,,,,,,91,,,,,,5/28/2015,,,,,Newfield Exploration Company
-,Closure,,,,,Denver,,,,,,65,,,,,,7/12/2016,,,,,Northwest Pipe Company
-,Job Attached Layoff,,,,,Western,,,,,,82,,,,,,8/4/2015,,,,,Ouray Silver Mines
-,Closure,,,,,Denver,,,,,,75,,,,,,5/4/2015,,,,,Pioneer Natural Resources
-,Downsize,,,,,Southeast,,,,,,102,,,,,,5/4/2015,,,,,Pioneer Natural Resources - Trinidad
-,Closure,,,,,Various Regions,,,,,,151,,,,,,8/27/2015,,,,,Quad/Graphics
-,Downsize,,,,,Boulder,,,,,,158,,,,,,9/17/2015,,,,,Qualcomm
-,Closure,,,,,Denver,,,,,,98,,,,,,1/4/2016,,,,,Safeway
-,Closure,,,,,Denver,,,,,,68,,,,,,9/25/2015,,,,,Select Medical
-,Downsize,,,,,Pikes Peak/Teller,,,,,,69,,,,,,1/21/2015,,,,,Serco-NA
-,Closure,,,,,Pikes Peak/Teller,,,,,,122,,,,,,3/16/2015,,,,,Sinton Dairy Foods Company/ Borden
-,Closure,,,,,Pikes Peak/Teller,,,,,,N/A,,,,,,7/20/2015,,,,,Sinton Dairy Foods Company/ Borden-Rev to 3/16/15
-,Closure,,,,,Pikes Peak/Teller,,,,,,N/A,,,,,,7/1/2015,,,,,Sinton Dairy Foods Company/ Borden-Rev to 3/16/15
-,Closure,,,,,Pikes Peak/Teller,,,,,,N/A,,,,,,5/15/2015,,,,,Sinton Dairy Foods Company/ Borden-Rev to 3/16/15
-,Closure,,,,,Pikes Peak/Teller,,,,,,N/A,,,,,,5/11/2015,,,,,Sinton Dairy Foods Company/ Borden-Rev to 3/16/15
-,Downsize,,,,,Arapahoe/Douglas,,,,,,247,,,,,,1/22/2016,,,,,Sprint
-,Closure,,,,,Arapahoe/Douglas,,,,,,59,,,,,,2/10/2015,,,,,Staples
-,Closure,,,,,Pikes Peak/Teller,,,,,,241,,,,,,11/13/2015,,,,,Target Corporation - TCC Cooking Company LLC
-,Other,,,,,Denver,,,,,,33,,,,,,2/17/2015,,,,,Trulia
-,Closure,,,,,Denver,,,,,,300,,,,,,11/16/2015,,,,,Union Pacific Company
-,Closure,,,,,Jefferson County,,,,,,265,,,,,,7/6/2015,,,,,Urban Fulfillment
-,Closure,,,,,Pikes Peak/Teller,,,,,,10,,,,,,7/17/2015,,,,,UTI
-,Downsize,,,,,Broomfield,,,,,,38,,,,,,1/26/2016,,,,,VMWare
-,Downsize,,,,,Pikes Peak/Teller,,,,,,48,,,,,,1/26/2016,,,,,VMWare
-,Closure,,,,,Arapahoe/Douglas,,,,,,65,,,,,,1/15/2016,,,,,Walmart Store #3021
-,Closure,,,,,Denver,,,,,,78,,,,,,1/15/2016,,,,,Walmart Store #5002
-,Downsize,,,,,Pikes Peak/Teller,,,,,,150,,,,,,9/2/2015,,,,,Western Forge
-,Closure,,,,,Denver,,,,,,142,,,,,,3/2/2015,,,,,WPX Energy
-,Closure,,,,,Denver,,,,,,2,,,,,,11/30/2015,,,,,WPX Energy-Rev to 3/2/15
-,Closure,,,,,Denver,,,,,,91,,,,,,7/9/2015,,,,,WPX Energy-Rev to 3/2/15
-,Downsize,,,,,Adams County,,,,,,152,,,,,,4/29/2015,,,,,Zenith Education Group
+notice_date,email,permanent_job_losses,naics,company,dropdown,occupations,end_date,furloughs,workforce_area,location,phone,received_date,jobs,workforce_region,contact,begin_date,letter,fein,at_the_location,temporary_job_losses,reason,reduced_hours,notes
+1/8/25,,132,"62, 1330: Offices of Mental Health Practioners (Except Physicians)",West Pines Behavioral Health,,Various (See WARN) Appendix A,3/31/25,0,Jefferson,,,1/8/25,132,,,3/31/25,West Pines Behavioral Health,,,0,Closure / Acadia,0,
+1/16/25,,232,"56,2910: Remediation Services",Battelle,,Various (See WARN),12/31/2026,0,Pueblo,,,1/16/25,232,,,3/17/25,Battelle,,,0,Closure,0,
+1/28/25,,11,"21,3112: Support activities for oil & gas operations",Total Frac Solutions,,Various (See WARN),3/31/25,0,Weld,,,1/28/25,11,,,3/31/25,Total Frac Solutions,,,0,Closure/Mass Layoff,0,
+1/28/25,,40,"54,1330: Engineering Services",Amentum,,Supervisors/Managers/Technicians,3/31/25,0,Pueblo,,,1/28/25,40,,,1/28/25,Amentum,,,0,Partial completion of PCAPP Project,0,
+1/28/25,,1,"33,591: Battery Manufacturing",QuantumScape Battery,,Professional (See WARN),1/29/25,0,Larimer,,,1/28/25,1,,,1/28/25,QuantumScape,,,0,Mass Layoff,0,
+1/30/25,,158,"62, 1330: Offices of Mental Health Practioners",Johnstown Heights Behavioral Health,,Various (See WARN),3/31/25,0,Larimer,,,1/30/25,158,,,3/31/25,Johnstown Heights Behavioral Health,,,0,Closure,0,
+2/18/25,,45,"42,4470: Meat & Meat Product Merchant Wholesalers","Sherwood Food Distributors, Harvest Meat Company, Western Boxed Meat Company",,Not Specified,4/21/25,0,Arapahoe/Douglas,,,2/18/25,45,,,2/18/25,Sherwood Food Distributors,,,0,Closure,0,
+2/24/25,,187,"62,2110 Healthcare & Social Services",West Springs Hospital,,Various (See WARN),3/10/25,0,Mesa,,,2/24/25,187,,,3/10/25,West Springs Hospital,,,0,Closure,0,
+1/8/24,,157,Sector 51: Information,Dish Network LLC,,Multiple (See WARN),3/8/24,0,Arapahoe/Douglas,,,1/8/24,157,,,3/8/24,Dish Network,,,0,Not stated,0,
+1/11/24,,4,"Sector  54: Professional, Scientifc, & Technical Srvs",Lost Boys Interactive LLC,,Multiple (See WARN),3/15/24,0,"Multiple (Larimer, Jeffco, Adams)",,,1/13/24,4,,,3/15/24,Lost Boys Interactive,,,0,Not stated,0,
+1/18/24,,94,Sector 23: Construction,ABM Industry Group,,Multiple (See WARN),3/18/24,0,Adams,,,1/18/24,94,,,3/18/24,ABM Industry Group,,,0,Loss of contract w/Amazon,0,
+1/19/24,,9,Sector 51: Information,Dish Network LLC,,Multiple (See WARN),3/19/24,0,Arapahoe/Douglas,,,1/19/24,9,,,3/19/24,Dish Network 1-19-2024,,,0,Reduction in Force,0,
+1/4/24,,124,Sector 62: Health Care and Social Assistance,Flatirons Health and Rehabilitation (Axiom Healthcare Services).,,Multiple (See WARN),3/4/24,0,Boulder,,,1/25/24,124,,,3/4/24,Flatirons Health & Rehab (Axiom Healthcare),,,0,Facility closure,0,
+1/30/24,,45,"Sector: 56,2910: Remediation Services",Amentum,,Multiple (See WARN),3/31/24,0,Pueblo,,,1/30/24,45,,,3/1/24,Amentum,,,0,Closure-Completion of PCAPP Milestones,0,
+1/30/24,,60,Sector: 31-33 Manufacturing,IMI Norgren LLC,,Unknown,6/30/24,0,Arapahoe/Douglas,,,1/30/24,60,,,4/1/24,IMI Norgren LLC,,,0,Site Consolidation and Office Relocation,0,
+1/30/24,,13,Sector 51: Information,Block Inc.,,Unknown,3/30/24,0,Unknown (Remote Workers),,,1/30/21,13,,,3/30/24,Block Inc,,,0,Not Stated,0,
+1/31/24,,80,Sector 52: Finance and Insurance,BillGO Inc.,,Multiple (See WARN),3/31/24,0,Larimer,,,1/31/24,80,,,3/31/24,BillGO Inc.,,,0,Change in current business opportunities,0,
+1/31/24,,56,Sector 81--Other Services--81293 Parking Lots and Garages,SP+ Corporation,,Multiple (See WARN),1/31/24,0,Denver,,,1/31/24,56,,,1/31/24,SP+ Corporation,,,0,Not Stated,0,
+2/20/24,,53,Sector 51: Information,Dish Network LLC,,Multiple (See WARN),4/20/24,0,Arapahoe/Douglas,,,2/20/24,53,,,4/20/24,Dish Network 2-20-2024,,,0,Reduction in Force,0,
+2/22/24,,75,Sector 33: Manufacturing,Daifuku Services America Corporation (formerly Elite Line Services) -Thornton,,Multiple (See WARN),5/6/24,0,Adams,,,2/22/24,75,,,4/22/24,Daifuku Services-Thornton,,,0,Loss of contract,0,
+2/22/24,,89,Sector 33: Manufacturing,Daifuku Services America Corporation -Colo Springs,,Multiple (See WARN),5/6/24,0,Pikes Peak-Colo Springs,,,2/22/24,89,,,4/22/24,Daifuku Services-Colo Springs,,,0,Loss of contract,0,
+2/22/24,,32,Sector 33: Manufacturing,Daifuku Services America Corporation -Aurora,,Multiple (See WARN),5/6/24,0,Arapahoe/Douglas,,,2/22/24,32,,,4/22/24,Daifuku Services-Aurora,,,0,Loss of contract,0,
+2/26/24,,210,Sector 33: Manufacturing,Carestream Health Inc.,,Multiple (See WARN),5/10/24,0,Weld,,,2/26/24,210,,,4/26/24,Carestream Health Inc,,,0,Facility closure,0,
+2/27/24,,175,Sector 56: Waste Management and Remediation Services,"Packers Sanitation Services, Inc.’s (PSSI)",,Unknown,4/18/24,0,Weld,,,2/27/24,175,,,4/18/24,"Packers Sanitation Services, Inc",,,0,Loss of contract,0,
+3/12/24,,5,Sector 51: Information,Dish Network LLC,,Multiple (See WARN),5/11/24,0,Arapahoe/Douglas,,,3/12/24,5,,,5/11/24,Dish Network LLC,,,0,Reduction in Force,0,
+3/20/24,,19,Sector 33: Manufacturing,Carestream Health Inc. - Update,,See WARN Exhibit A,5/24/24,0,Weld,,,3/21/24,19,,,5/24/24,Carestream Health Update,,,0,Reduction in Force,0,
+2/23/24,,40,Sector 48: Transportation and Warehousing,CommuteAir,,See WARN,5/23/24,0,Denver,,,3/20/24,40,,,5/23/24,CommuteAir,,,0,Reduction in Force,0,
+3/21/24,,76,Sector 33: Manufacturing,Bionano Genomics Inc.,,See WARN,5/24/24,0,San Diego (remote CO Workers),,,3/22/24,76,,,5/24/24,Bionano Genomics Inc.,,,0,Reduction in Force,0,
+3/11/24,,46,Sector 62: Healthcare and Social Assistance,Developmental Disabilities Resource Center,,See WARN,6/30/24,0,Jefferson,,,3/28/24,46,,,6/30/24,DDRC,,,0,Reduction in Force,0,
+3/27/24,,56,Sector 72: Accommodation & Food Services,Atrium Hospitality LP/Denver Crowne Plaza,,See WARN,5/31/24,0,Denver,,,3/27/24,56,,,5/31/24,Atrium Hospitality LP/Denver Crowne Plaza,,,0,Closure,0,
+3/29/24,,1,Sector 33: Manufacturing,Volta/Volta Charging Industries,,See WARN (Various Positions),5/31/24,0,Not Stated,,,4/3/24,1,,,5/31/24,Volta/Volta Charging Industries,,,0,Closure,0,
+4/3/24,,1,Sector  55: Management of Companies & Enterprises,HealthHelp (a WNS Company),,Various (See WARN),8/2/24,0,Arapahoe/Douglas,,,4/9/24,1,,,6/2/24,HealthHelp,,,0,Reduction in Force,0,
+4/9/24,,92,"Sector: 56,  561611 Investigation Personal Background Check Services.",Checkr,,Various (See WARN),6/10/24,0,Denver,,,4/9/24,92,,,6/10/24,Checkr,,,0,Reduction in Force,0,
+4/17/24,,65,Sector 48: Transportation and Warehousing,Wheels Up Partners LLC,,Various (See WARN),6/16/24,0,Rural Consortium (Broomfield),,,4/17/24,65,,,6/16/24,Wheels Up Partners LLC,,,0,Closure (Cease Operations),0,
+4/25/24,,25,Sector 33: Manufacturing,Carestream Health,,Varous (See WARN),6/28/24,0,Weld,,,4/25/24,25,,,6/28/24,Carestream Health,,,0,Reduction in Force,0,
+4/30/24,,118,Sector 61: Educational Services,University of Denver,,Custodian positions,6/30/24,0,Denver,,,4/30/24,118,,,6/30/24,University of Denver,,,0,Contract with Sodexo,0,
+5/1/24,,84,"Sector 54: Professional, Scientific & Technical Services",Radial,,See WARN.,6/28/24,0,Remote Workforce,,,5/1/24,84,,,6/28/24,Radial,,,0,Selling Customer Care Unit,0,
+5/1/24,,330,Sector 62: Healthccare & Social Assistance,Rocky Mountain Crisis Partners,,All positions/ job titles not specified,6/30/24,0,Denver,,,5/1/24,330,,,6/30/24,Rocky Mountain Crisis Partners,,,0,Loss of state funding,0,
+5/2/24,,103,Sector 52: Finance and Insurance,Newrez LLC,,See WARN.,7/1/24,0,Arapahoe/Douglas,,,5/2/24,103,,,7/1/24,NewRez LLC,,,0,Reduction in Force,0,
+5/13/24,,141,Sector 45: Retail Trade,Walmart Store #6178,,Associates,6/7/24,0,Arapahoe/Douglas,,,5/13/24,141,,,6/7/24,Walmart #6178,,,0,Closure,0,
+5/15/24,,Not specified,"Sector 32, 3254 - Pharmaceutical and Medicine Manufacturing.",Pfizer Research,,Not specified,8/24/2024,0,Boulder,,,5/15/24,Not specified,,,7/15/24,Pfizer,,,0,Reduction in Force,0,
+5/21/24,,11,"Sector: 56,2910: Remediation Services",Amentum,,See WARN,7/31/24,0,Pueblo,,,5/21/24,11,,,7/1/24,Amentum,,,0,Closure (end of Milestone 7),0,
+5/21/24,,18,Sector 33: Manufacturing,Carestream (Update),,See WARN.,8/5/24,0,Weld,,,5/21/24,18,,,7/22/24,Carestream,,,0,Reduction in Force,0,
+5/31/24,,65,Sector 62: Healthcare & Social Assistance,Mindspring,,See WARN.,6/3/24,0,Mesa,,,5/31/24,71,,,5/31/24,Mindspring,,,6,Reduction in Force,0,
+6/4/24,,49,Sector 62: Healthcare & Social Assistance,Mindspring (Update),,See WARN. Updated from 65 to 49,6/4/24,0,Mesa,,,6/4/24,49,,,6/4/24,See note below.,,,0,Reduction in Force,0,
+6/3/24,,317,Sector 52: Finance and Insurance,NewRez LLC,,See WARN.,8/2/24,0,Arapahoe/Douglas,,,6/3/24,317,,,8/2/24,NewRez LLC CORRECTION,,,0,Reduction in Force,0,
+6/14/24,,3,"Sector 71: Arts, Entertainment & Recreation, (713920 Ski Facility)",TSG Ski & Golf,,"Bartenders, cooks, dishwashers, supervisor",12/1/24,13,Rural Southwest,,,6/14/24,63,,,6/14/24,TSG Ski & Golf,,,47,Reduction in Force,0,
+6/18/24,,131,Sector 62: Healthcare and Social Assistance,Saint Paul Health Center,,Various. See WARN.,9/1/24,0,Denver,,,6/18/24,131,,,9/1/24,Saint Paul Health Ctr-Colvaria Hospitality Mgmt,,,0,End of Contract,0,
+6/18/24,,80,Sector 52: Finance and Insurance,Wells Fargo,,Employees notified verbally. Specific job titles available in August when layoff letters go out.,12/21/24,0,Denver,,,6/18/24,80,,,8/1/24,Wells Fargo,,,0,Reduction in Force,0,
+6/27/24,,187,Sector 52: Finance and Insurance,Newrez LLC,,See WARN.,8/26/24,0,Arapahoe/Douglas,,,6/27/24,187,,,8/26/24,NewRez LLC Update,,,0,Reduction in Force,0,
+7/8/24,,7,Sector 56:  Administrative and Support and Waste Management and Remediation Services,Sodexo - St. Francis Interquest,,Various (See WARN),8/4/24,0,Pikes Peak,,,7/8/24,7,,,8/4/24,Sodexo-St Francis Interquest,,,0,Closure (Cease Operations),0,
+7/8/24,,48,Sector 56:  Administrative and Support and Waste Management and Remediation Services,Sodexo - St. Francis Medical Center,,Various (See WARN),8/4/24,0,Pikes Peak,,,7/8/24,48,,,8/4/24,Sodexo-St Francis Medical Center,,,0,Closure (Cease Operations),0,
+7/8/24,,52,Sector 56:  Administrative and Support and Waste Management and Remediation Services,Sodexo - Penrose Hospital,,Various (See WARN),8/4/24,0,Pikes Peak,,,7/8/24,52,,,8/4/24,Sodexo-Penrose Hospital,,,0,Closure (Cease Operations),0,
+7/16/24,,80,"Sector 54: Professional, Scientific & Technical Services",LogRhythm,,Not disclosed,9/14/24,0,RC: Broomfield,,,7/17/24,80,,,9/9/24,LogRhythm,,,0,Reduction in Force (Cease Operations of Axon Operating Unit),0,
+7/17/24,,21,Sector 33: Manufacturing,Carestream Health,,Various (See WARN),9/16/24,0,Weld,,,7/17/24,21,,,9/16/24,Carestream Health,,,0,Reduction in Force,0,
+7/29/24,,72,"Sector 56,2910: Remediation Services",Amentum,,Various,9/30/24,0,Pueblo,,,7/29/24,72,,,9/30/24,Amentum,,,0,Closure (upon completion of project),0,
+7/30/24,,79,"Sector 54: Professional, Scientific & Technical Services",Radial,,Various,9/30/24,0,Remote locations in CO,,,7/30/24,79,,,9/30/24,Radial,,,0,Closure,0,
+8/1/24,,85,"Sector 81, 2930: Parking Lots and Garages",TPS Parking Mgmt,,"Drivers, Parking Attendants, Greeters, Dispatchers",9/30/24,0,Adams,,,7/31/24,79,,,9/30/24,TPS Parking Mgmt,,,0,Mass Layoff,0,
+8/8/24,,49,"Sector 44,4130: Hardware Stores",True Value,,Merchandise Handlers,11/1/24,0,Denver,,,8/8/24,49,,,9/6/24,True Value,,,0,Change in Business,0,
+8/19/24,,63,Sector 62: Healthcare and Social Assistance,Casey's Pond,,Not specified,11/30/24,0,RC: Rural Resort,,,8/20/24,63,,,10/18/24,Caseys Pond,,,0,Sale of Business,0,
+8/20/24,,70,"Sector 52,2110 Commercial Banking",Wells Fargo,,Not specified,12/31/24,0,Arapahoe Douglas,,,8/20/24,70,,,11/20/24,Wells Fargo,,,0,Not specified,0,
+8/30/24,,25,"Sector 54,541: Professional, Scientific, and Technical Services​​ Industries",ImmunityBio Inc.,,See WARN,10/29/24,0,Boulder,,,8/30/24,5,,,10/29/24,ImmunityBio Inc,,,0,See WARN.,0,
+9/6/24,,3,"Sector 54,541: Professional, Scientific, and Technical Services​​ Industries",Lost Boys Interactive LLC,,See WARN,9/9/24,0,RC: Boulder & Larimer,,,9/9/24,3,,,9/9/24,Lost Boys Interactive,,,0,See WARN.,0,
+9/13/24,,55,"Sector 72,2319: Food Service Contractors",Sodexo Service West (SDH),,See WARN,11/9/24,0,Adams,,,9/13/24,55,,,11/9/24,Sodexo Service West,,,0,See WARN.,0,
+9/18/24,,85,Sector 541714: Research and Development in Biotechnology,"AGC Biologics, Inc.",,Various (See WARN),11/22/24,0,Boulder,,,9/18/24,85,,,11/22/24,"AGC Biologics, Inc.",,,0,Restructure and Partial Closure-See WARN,0,
+9/26/24,,64,Sector 31-33: Manufacturing,Sinton Dairy Foods Company,,Various (See WARN),12/30/26,0,Colo Springs,,,9/26/24,64,,,12/30/26,Sinton Dairy Foods Company,,,0,Closure,0,
+9/30/24,,1,Sector 54-1720: Research & Development in Social Sciences/Humanities,Kaleo Inc.,,See WARN,11/30/24,0,Remote location in CO,,,9/30/24,1,,,11/30/24,Kaleo Inc.,,,0,Medical Sales Specialist,0,
+10/29/24,,112,"Sector 21,2230 - Copper, Nickel, Lead, and Zinc Mining",Thiess,,Predominately Heavy equipment operators,12/28/24,0,Rural Consortium,,,10/29/24,112,,,11/28/24,Thiess,,,0,Closure,0,
+11/4/24,,313,"Sector: 56,2910: Remediation Services",Chord Energy,,Various (See WARN),5/23/25,0,Denver,,,11/4/24,313,,,11/4/24,Chord Energy,,,0,Discontinuing Operations,0,
+11/14/24,,404,Sector:  492110: Couriers & Express Delivery Services,UPS,,Not specified,1/15/25,0,Adams,,,11/14/24,404,,,1/15/25,UPS,,,0,"Partial, Temporary Closure",0,
+11/15/24,,62,"Sector 33,6411: Aircraft Manufacturing",Boeing,,Not specified,1/17/25,0,"Arapahoe, Denver, El Paso",,,11/15/24,63,,,1/17/25,Boeing,,,0,Not disclosed,0,
+12/2/24,,121,Sector 23: Construction,Brown Brothers Resources Holding,,Various,12/31/24,0,Adams,,,12/2/24,121,,,12/6/24,Brown Brothers Resources Holdings 12-2-24.pdf,,,0,Closure,0,
+12/2/24,,109,"Sector 42,4480: Fresh Fruit  Vegetable Merchant",Russ Davis Wholesale,,Various,2/1/25,0,Pueblo,,,12/2/24,109,,,1/31/25,Russ Davis Wholesale,,,0,Closure,0,
+12/10/24,,1,"Sector 31,314: Broadwoven Fabric Mills",Natural Fiber Welding,,Sr. Program Manager,2/8/25,0,Denver,,,12/10/24,1,,,2/8/25,Natural Fiber Welding,,,0,Unforseen business circumstance,0,
+12/20/24,,1,Sector 52: Finance and Insurance,GetInsured,,Customer Service Representative I,2/19/25,0,Arapahoe,,,12/20/24,1,,,2/19/25,GetInsured,,,0,Not specified,0,
+1/3/23,,666,Sector 23: Construction,Wanzek Construction,,Various construction positions,1/3/23,0,Pueblo,,,1/3/23,Unknown,,,1/3/23,Wanzek Construction,,,0,Sudden Contract Loss,0,
+1/9/23,,67,Sector 31: Manufacturing,Gymshark,,Not Stated,3/24/23,0,Denver,,,1/16/23,67,,,3/10/23,Gymshark,,,0,Ceasing Operations in some areas of the company,0,
+1/11/23,,15,Sector 42: Wholesale Trade,Specialized Bicycle Components,,"Software developer, Acct Mgr, e-commerce, mktg, pgm mgr",1/13/23,0,Boulder,,,1/1123,15,,,1/13/23,Specialized Bicycle Components,,,0,Downsizing,0,
+1/25/23,,136,Sector 22: Natural Gas Distribution,DCP Midstream,,Not Stated,4/1/24,0,Denver,,,1/31/23,136,,,3/31/23,DCP Midstream,,,0,Not Stated,0,
+1/26/23,,47,Sector 32: Manufacturing,Curaleaf,,Various (see WARN letter),3/26/23,0,Pueblo,,,1/31/23,47,,,3/26/23,Curaleaf,,,0,RIF/Change in Business,0,
+2/1/23,,151,Sector  541490: Other Specialized Design Services,Pinnacle Architectural Lighting Inc.,,Electrical Assemblers & Varous,3/1/24,0,Denver,,,2/1/23,151,,,6/30/23,Pinnacle Architectural Lighting,,,0,Restructuring & Reorganization,0,
+2/9/23,,49,Sector 1: 314910: Textile Bag and Canvas Mills,Covercraft Industries LLC,,Not Stated,4/14/23,0,Arapahoe/Douglas,,,2/14/23,49,,,4/14/23,Covercraft Industries,,,0,Closure,0,
+2/15/23,,62,"Sector 51,5182: Data Processing Hosting & Related Services",WIX.com,,See WARN,2/15/23,0,Denver,,,2/15/23,62,,,2/15/23,WiX 2-15-23,,,0,Unforseen Business Circumstances,0,
+2/16/23,,5,Sector 51: Information,Chipper Cash,,See WARN,2/17/23,0,Various,,,2/16/23,5,,,02/17/23,Chipper Cash,,,0,Not Stated,0,
+2/27/23,,,"Sector:45,451 : Sporting Goods",Aspen Sports Hyatt Retail Store,,,,,,,,3/2/23,4,,,,SSI Venture-Aspen Sports,,,,,,
+2/27/23,,,"Sector:45,451 : Sporting Goods",Aspen Sports Snowmass Mall,,,,,,,,3/2/23,13,,,,SSI Venture-Aspen Sports,,,,,,
+2/27/23,,,"Sector:45,451 : Sporting Goods",Aspen Sports St. Regis Retail,,,,,,,,3/2/23,9,,,,SSI Venture-Aspen Sports,,,,,,
+2/27/23,,,"Sector:45,451 : Sporting Goods",Aspen Sports Viewline Retail,,,,,,,,3/2/23,4,,,,SSI Venture-Aspen Sports,,,,,,
+2/27/23,,,"Sector:45,451 : Sporting Goods",Aspen Sports Snowmass Retail Store,,,,,,,,3/2/23,3,,,,SSI Venture-Aspen Sports,,,,,,
+2/27/23,,,"Sector:45,451 : Sporting Goods",Aspen Sports Demo,,,,,,,,3/2/23,5,,,,SSI Venture-Aspen Sports,,,,,,
+2/27/23,,,"Sector:45,451 : Sporting Goods",Aspen Sports Tune - Snowmass,,,,,,,,3/2/23,6,,,,SSI Venture-Aspen Sports,,,,,,
+2/27/23,,,"Sector:45,451 : Sporting Goods",Aspen Sports Valet - Snowmass,,,,,,,,3/2/23,3,,,,SSI Venture-Aspen Sports,,,,,,
+2/27/23,,,"Sector:45,451 : Sporting Goods",Burton Telluride Retail,,,,,,,,3/2/23,5,,,,SSI Venture-Aspen Sports,,,,,,
+2/27/23,,,"Sector:45,451 : Sporting Goods",Neve Sports - Telluride,,,,,,,,3/2/23,10,,,,SSI Venture-Aspen Sports,,,,,,
+2/27/23,,,"Sector:45,451 : Sporting Goods",Patagonia Snowmass,,,,,,,,3/2/23,7,,,,SSI Venture-Aspen Sports,,,,,,
+2/27/23,,,"Sector:45,451 : Sporting Goods",Telluride Sports Camel's Garden,,,,,,,,3/2/23,8,,,,SSI Venture-Aspen Sports,,,,,,
+2/27/23,,,"Sector:45,451 : Sporting Goods",Telluride Sports - Cimarron Lodge,,,,,,,,3/2/23,10,,,,SSI Venture-Aspen Sports,,,,,,
+2/27/23,,,"Sector:45,451 : Sporting Goods",Telluride Sports - Franz Klammer,,,,,,,,3/2/23,14,,,,SSI Venture-Aspen Sports,,,,,,
+2/27/23,,,"Sector:45,451 : Sporting Goods",Telluride Sports - Gondola Plaza,,,,,,,,3/2/23,10,,,,SSI Venture-Aspen Sports,,,,,,
+2/27/23,,,"Sector:45,451 : Sporting Goods",Telluride Sports Main Street,,,,,,,,3/2/23,16,,,,SSI Venture-Aspen Sports,,,,,,
+2/27/23,,,"Sector:45,451 : Sporting Goods",Telluride Sports - The Peaks,,,,,,,,3/2/23,4,,,,SSI Venture-Aspen Sports,,,,,,
+2/27/23,,,"Sector:45,451 : Sporting Goods",The North Face - Snowmass,,,,,,,,3/2/23,6,,,,SSI Venture-Aspen Sports,,,,,,
+2/27/23,,,"Sector:45,451 : Sporting Goods",The North Face - Telluride Retail,,,,,,,,3/2/23,4,,,,SSI Venture-Aspen Sports,,,,,,
+3/1/23,,98,"Sector 52,411: Direct Life, Health & Med Insurance",Friday Health Plans,,Various: See WARN,4/30/23,0,Rural Consortium (Alamosa) & Denver,,,3/1/23,98,,,4/30/23,Friday Health Plans,,,0,Reduction in Business,0,
+3/24/23,,4 (of 178),Sector:55 Management of Companies & Enterprises,Aspiration Partners Inc.,,Various (See WARN),6/1/23,0,"Denver, Broomfield",,,3/24/23,4,,,5/26/2023,Aspiration,,,0,Restructing and streamlining,0,
+3/30/23,,76,Sector 53: Real Estate and Rental & Leasing,Laramar Group LLC,,Various (See WARN),P1: 6/15/23 & P2: 7/28/23,0,"Denver, Broomfield",,,3/30/23,76,,,P1: 6/1/23 P2: 7/14/23,Laramar Group LLC,,,0,Not stated,0,
+3/31/23,,50,Sector 33: Manufacturing,Prescient LLC,,Not Stated,12/31/23,0,Jefferson,,,4/2/23,50,,,3/31/2023,Prescient LLC,,,0,Mass layoff,0,
+4/14/23,,138,Sector 44: Retail Trade,David's Bridal,,Various (See WARN),Multi phase (See WARN),0,Multi area,,,4/14/23,138,,,Multi Phase (See WARN),David's Bridal,,,0,Bankrupcy,0,
+4/27/23,,198,Sector 48: Transportation & Warehousing,MV Transportation,,"Drivers, Dispatchers, Admin, Utility Worker",6/30/23,0,Denver,,,4/28/23,198,,,6/30/23,MV Transportation,,,0,Not specified,0,
+5/1/23,,120,Sector 48: Transporation and Warehousing,Via Mobility Services,,"Administrative support, operatives,  & service workers.",7/1/23,0,Denver,,,5/22/23,120,,,7/1/2023,Via Mobility Services,,,0,Loss of Contract,0,
+5/24/23,,138,Sector 44: Retail Trade,Davids Bridal (Update),,Various (See WARN),6/30/23,0,Multi area,,,5/24/23,138,,,6/23/23,Davids Bridal Update,,,0,Bankrupcy,0,
+5/26/23,,19,"Sector: 56,2910: Remediation Services",Amentum,,"Engineers, Maintenace Planners/Supervisors, Technicans*",7/28/2023,0,Pueblo,,,5/26/23,19,,,7/27/2023,Amentum,,,0,Closure (Phase 1),0,
+5/30/23,,54,Sector 72: Accommodation & Food Services,Hard Rock Cafe International STD,,Restaurant workers,7/29/23,0,Denver,,,5/30/23,54,,,7/29/2023,Hard Rock Cafe,,,0,Closure,0,
+6/12/23,,138,Sector 44: Retail Trade,Davids Bridal (Update),,Not disclosed,9/2/2023,0,Multi Area,,,6/12/23,138,,,8/20/2023,Davids Bridal Update,,,0,Bankrupcy,0,
+6/13/23,,50,Sector 2022: Publishing,Gannett (Pueblo Chieftian),,Production positions (see WARN),8/14/23,0,Pueblo,,,6/13/23,50,,,8/14/2023,Gannett Pueblo Chieftain,,,0,Closure of production & distribution operations,0,
+6/14/23,,13,"Sector 54: Professional, Scientific, & Technical Services",Bitwise Industries,,Multiple (See WARN),8/14/23,0,Multi Area,,,6/14/23,13,,,8/14/2023,Bitwise Industries,,,0,Mass layoff,0,
+6/19/23,,323,"Sector 52, 411 Direct Life Health & Medical Insurance",Friday Health Plans Update (6-19-23),,Rural Consortium and Denver,7/6/23,0,"Rural Consortium, Denver",,,6/19/23,323,,,6/23/2023,Friday Health Plans Update 6-19-23,,,0,Mass Layoff,0,
+6/20/23,,70,"Sector 62,1600: Home Healthcare Services",Autism Home Support Services (Greeley),,Multiple (See WARN),9/19/23,0,Weld,,,6/20/23,70,,,8/21/2023,Autism Home Support Srvs Greeley,,,0,Mass Layoff,0,
+6/20/23,,68,"Sector 62,1600: Home Healthcare Services",Autism Home Support Services (Westminster),,Multiple (See WARN),9/19/23,0,Adams,,,6/20/23,68,,,8/21/2023,Autism Home Support Svs Westminster,,,0,Mass Layoff,0,
+6/20/23,,101,"Sector: 62,1600 Home Healthcare Services",Autism Home Support Services (Centennial),,Multiple (See WARN),9/19/21,0,ADWorks,,,6/20/23,101,,,8/21/2023,Autism Home Support Services Centennial,,,0,Mass Layoff,0,
+6/29/23,,138,Sector 44: Retail Trade,Davids Bridal Update 6-29-23,,Bankrupcy,7/31/23,0,Multi-Area,,,6/29/23,0,,,7/17/2023,Davids Bridal Update 6-29-23,,,0,Mass Layoff,0,
+6/30/23,,120,Sector 62: Health Care and Social Assistance,CDI HS (Community Development Institute Head Start),,Rural Consortium,8/31/33,0,"Rural Consortium, Denver",,,6/30/23,120,,,8/31/2023,Community Development Institute Head Start,,,0,Mass Layoff,0,
+7/3/23,,27,"Sector: 56,2910: Remediation Services",Amentum,,Multiple (See WARN),8/31/23,0,Rural Consortium  (Pueblo),,,7/3/23,27,,,8/31/2023,Amentum,,,0,Reduction in Force (End Project),0,
+7/11/23,,56,"Sector 52,2110: Commercial Banking",Bank of the West,,Not specified in WARN,9/15/23,0,Adams,,,7/11/23,56,,,9/15/2023,Bank of the West,,,0,Reduction in Force (End Project),0,
+7/20/23,,64,Sector: 62: Healthcare and Social Assistance,Namasté Alzheimer Center,,Medical Professionals (see WARN),10/1/23,0,Pikes Peak,,,7/20/23,64,,,10/1/2023,Namaste Alzheimer Center,,,0,Closure,0,
+7/24/23,,15,"Sector 42,2450: Medical, Dental, Hospital & Supplies Merchant Wholesaler",DePuy Spine Limited Partnership (Johnson & Johnson),,"Materials Handling, Inspector, Operators",10/5/2023,0,Pikes Peak,,,7/24/23,15,,,9/22/2023,DePuy Spine Limited Partnership,,,0,"Reduction in Force Ending manufacuring, quality & distribution",0,
+7/28/23,,Unknown,"Sector 32: Manufacturing; 32,6121 Unlaminated Plastics Profile Shape Manufacturing",Novembal,,Unknown,1/31/24,0,Unknown (possibly rural & remote),,,7/28/23,Not Specified,,,9/30/2023,Novembal,,,0,Closure,0,
+7/30/23,,"22,000*","Sector 48,4121: General Freight Trucking Long Distance Truckload",Yellow Corporation & Operating Affiliates,,Not specified in WARN,7/30/23,0,Unknown,,,8/1/23,331,,,7/30/2023,Yellow Corporation,,,0,Closure,0,
+7/30/23,,*,"Sector 48,4121: General Freight Trucking Long Distance Truckload",YRC Inc dba YRC Freight,,,,0,Unknown,,,8/1/23,Not Specified,,,7/30/23,Yellow Corporation,,,0,,0,
+7/30/23,,*,"Sector 48,4121: General Freight Trucking Long Distance Truckload",USF Holland,,,,0,Unknown,,,8/1/23,Not Specified,,,7/30/23,Yellow Corporation,,,0,,0,
+7/30/23,,*,"Sector 48,4121: General Freight Trucking Long Distance Truckload",New Penn Motor Express LLC,,,,0,Unknown,,,8/1/23,Not Specified,,,7/30/23,Yellow Corporation,,,0,,0,
+7/30/23,,*,"Sector 48,4121: General Freight Trucking Long Distance Truckload","USF Reddaway, Inc.",,,,0,Unknown,,,8/1/23,Not Specified,,,7/30/23,Yellow Corporation,,,0,,0,
+8/2/23,,24,"Sector 42: Wholesale Trade, 42,4490 Merchant Wholesaler, Non Durable Goods","KeHe Distributors, Inc.",,Not disclosed,11/3/23,0,Arapahoe/Douglas,,,8/2/23,24,,,11/3/2023,KeHE,,,0,Contract loss,0,
+8/7/23,,10,"Sector 42,2450: Medical, Dental, Hospital & Supplies Merchant Wholesaler",DePuy Spine Limited Partnership (Johnson & Johnson),,Material Handling Distribution Operators 2&3,10/19/23,0,Arapahoe/Douglas,,,8/7/23,10,,,10/6/2023,DePuy Spine Limited Partnership,,,0,Mass Layoff,0,
+8/7/23,,61,Sector 33: Manufacturing,Astra Space Operations,,See WARN for details.,8/4/23,0,Unknown,,,8/7/23,61,,,8/4/2023,Astra Space Ops,,,0,RIF,0,
+8/9/23,,94,Sector 49: Transportation and Warehousing,Federal Express - Colorado Springs,,"Couriers, Service Agents, Handlers and Operations Leads",11/3/23,0,Pikes Peak,,,8/9/23,94,,,11/3/2023,Federal Express,,,0,Closure,0,
+8/10/23,,53,Sector 49: Transportation and Warehousing,Federal Express  - Pueblo,,See WARN for details,11/3/23,0,Pueblo,,,8/10/23,53,,,11/3/2023,Federal Express,,,0,Closure,0,
+8/11/23,,14,"Sector: 56,2910: Remediation Services",Amentum,,See WARN for details,10/12/23,0,Pueblo,,,8/11/23,14,,,10/12/2023,Amentum,,,0,Closure (completion of milestone),0,
+8/18/23,,2,Sector 45: Retail Trade,Ouray Sportsware - L2 Brands,,See WARN for details.,12/31/23,0,Arapahoe/Douglas,,,8/18/23,154,,,10/17/2023,Ouray Sportsware,,,0,Closure,0,-
+8/18/23,,59,"Sector 54: Professional, Scientific, & Technical Services",Immunity Bio Inc.,,See WARN for details. (Note updated CO specifc # is 11 employees impacted).,10/17/23,0,Unknown,,,8/18/23,unknown,,,10/17/2023,Immunity Bio Inc.,,,0,Streamline Operations,0,
+8/25/23,,Unknown,"Sector 32,4110: Petroleum Refineries",Chevron USA,,Not specified,10/31/23,0,"Denver, Weld",,,8/25/23,,,,10/31/2023,Chevron,,,0,Restructuring following acquisition,0,Max * (most all will be offered jobs)
+8/29/23,,110,Sector: 562212 - Solid Waste Landfill,Packers Sanitation Services (PSSI),,Not specified,10/26/23,0,Rural Consortium,,,8/29/23,110,,,10/26/2023,PSSI,,,0,Contract ending,0,
+8/29/23,,70,Sector 33: Manufacturing/Pharmaceuticals,Aktiv Phama,,,8/25/23,0,Larimer & Rural Consortium,,,8/29/23,70,,,8/25/23,Aktiv Pharma,,,0,,0,-
+8/31/23,,60,Sector 33: Manufacturing,Prescient LLC,,Not specified,8/31/23,0,Jefferson,,,8/31/23,60,,,8/31/23,Prescient,,,0,Closure,0,-
+9/5/23,,25,Sector 44: Retail Trade,American Nursery Services,,Not specified,12/31/23,0,Unspecified,,,9/12/23,25,,,12/31/23,American Nursery Services,,,0,Closure,0,
+9/7/23,,10,Sector 52: Finance & Insurance,Divvy Homes Inc.,,"Sales asset Mgmt, escrow and engineer positions",11/7/23,0,Unspecified,,,9/8/23,,,,11/7/23,Divvy Homes Inc.,,,0,,0,
+9/15/23,,21,"Sector: 56,2910: Remediation Services",Amentum,,"Operators, technicians, transporter coordinator, scheduler",11/17/23,0,Pueblo,,,9/15/23,31,,,11/17/23,Amentum,,,0,Completion of Project Milestone 4,0,
+9/29/23,,2,Sector: 52: Finance & Insurance,First Savings Bank,,Mortgage Banking Outside Mortgate & Mortgage Banking Underwriter,11/30/23,0,Remote workers,,,9/29/23,2,,,11/30/23,First Savings Bank,,,0,Reduction in Force,0,
+10/2/23,,Unknown,Sector 2022: Publishing,Gannett (Pueblo Chieftian) - Update,,,,,Unknown,,,10/2/23,Unknown,,,,Gannett-Pueblo Chieftain Update,,,,,,
+10/3/23,,Not Stated,Sector 32: Manufacturing,Pfizer,,Not stated,12/4/23,0,Boulder,,,10/3/23,Unknown,,,12/4/23,Pfizer,,,0,Reduction in Force,0,
+10/9/23,,84,561320/ Temporary Help Services,SMX Cargo LLC,,,12/17/2023,0,Denver,,,10/11/23,84,,,12/17/2023,SMX Cargo LLC,,,0,,0,
+10/25/23,,51,"72,2330: Mobile Food Service",Cygnus Home Service dba Yelloh,,"Various including route sales people, material handlers, service operation",12/15/23,0,"Pikes Peak, Arapahoe/Douglas, Denver, Larimer",,,10/25/23,51,,,12/15/23,Cygnus Home Services dba Yelloh,,,0,Closure,0,
+10/30/23,,5,"Sector 42,2450: Medical, Dental, Hospital & Supplies Merchant Wholesaler",Depuy Spine LP (Johnson & Johnson),,"Assembly/Packaging, Material Handling, Operations, Production, Warehouse",1/11/23,0,Pikes Peak (El Paso),,,10/30/23,67,,,12/29/23,DePuy Spine LP,,,0,Closure,0,
+11/8/23,,466,Sector 517111: Wired Telecommunications Carriers,Dish Network LLC,,Various (See WARN),7/21/24,0,Arapahoe/Douglas,,,11/8/23,466,,,1/7/24,Dish Network LLC,,,0,Reduction in Force,0,
+11/9/23,,33,Sector 517111: Wired Telecommunications Carriers,Dish Network LLC Supplement,,Various (See WARN),7/22/23,0,Arapahoe/Douglas,,,11/9/23,33,,,1/8/24,Dish Network Supplement,,,0,Reduction in Force,0,
+11/21/23,,54,"Sector: 56,2910: Remediation Services",Amentum,,Various (See WARN),1/31/2024,0,Pueblo,,,11/21/23,54,,,1/1/24,Amentum,,,0,Completion of PCAPP Milestones,0,
+11/27/23,,184,Sector: 334413 Semi Conductor & Related Device Manufacturing,Broadcom / VM Ware,,Not specified,1/26/24,0,Broomfield,,,11/27/23,184,,,1/26/24,Broadcomm - VM Ware,,,0,Merger Related,0,
+12/1/23,,60,Sector 49: Transportation and Warehousing,Matheson Flight Extenders Inc.,,"Material Handlers, GSE Servicer, Station Manager, Supervisor",1/31/24,0,Denver,,,12/1/23,60,,,1/31/24,Matheson Flight Extenders Inc,,,0,Closure,0,
+12/1/23,,1,Sector  51: Information,FSC Edge,,Not specified,12/1/23,0,Broomfield,,,12/1/23,1,,,12/1/23,FSC Edge,,,0,Closure,0,All employees hired by new owner
+12/28/23,,149,Sector 61: Educational Services,Ascent Classical Academy of Douglas County,,Not specified,12/31/23,0,Arapahoe/Douglas,,,12/28/23,149,,,12/31/23,Ascent Classical Academies,,,0,Unforseen - Contracts ending,0,All employees hired by new owner
+12/28/23,,87,Sector 61: Educational Services,Ascent Classical Academy of Northern Colorado,,Not specified,12/31/23,0,Larimer,,,12/28/23,87,,,12/31/23,Ascent Classical Academies,,,0,Unforseen - Contracts ending,0,All employees hired by new owner
+12/28/23,,33,Sector 61: Educational Services,Ascent Classical Academy of Norther Denver,,Not specified,12/31/23,0,Adams,,,12/28/23,33,,,12/31/23,Ascent Classical Academies,,,0,Unforseen - Contracts ending,0,All employees hired by new owner
+12/28/23,,37,Sector 61: Educational Services,Ascent Classical Academy of Grand Junction,,Not specified,12/31/23,0,Mesa,,,12/28/23,37,,,12/31/23,Ascent Classical Academies,,,0,Unforseen - Contracts ending,0,All employees hired by new owner
+12/28/23,,7,Sector 61: Educational Services,Ascent Classical Academies of Corporate Office,,Not specified,12/31/23,0,Jefferson,,,12/28/23,7,,,12/31/23,Ascent Classical Academies,,,0,Unforseen - Contracts ending,0,All employees hired by new owner
+,,,,NOTE: 313 employees notified by Ascent Classical Academies were hired by the new vendor.,,,,,,,,,,,,,,,,,,,
+3/11/21,,122,Sector 42: Wholesale Trade,DPI Specialty Foods,,"Field Sales Reps, Merchandisers Vacation Relief Associates, Reset Specialist",5/10/22,0,Adams,,,,122,,,5/10/22,DPI Specialty Foods,,,0,Loss of Service Contract,0,
+12/30/21,,160,Sector 72: Accomodation & Food Services,513 Hotel Operating,,Various,12/31/21,0,Pikes Peak/Teller,,,,160,,,12/31/21,513 Hotel Operating,,,0,Sale of Company,0,
+1/3/22,,143,Sector 62: Healthcare & Social Assistance,Good Samaritan - Bonell Community,,Healthcare workers,3/5/22,0,Weld,,,,143,,,3/5/22,Good Samaritan,,,0,Closure,0,
+1-4-22,,87,Sector 51: Information 519290 Web Search Portals & Other Info Services,Twitter (Boulder),,"Various: First Mid line Mgrs (14), Professionals (70), Sales workers (1), Admin (2)",1/4/23,0,Boulder,,,,87,,,1/4/2023,Twitter Boulder,,,0,Not disclossed,0,
+1-16-22,,194,Sector 522310 : Mortgage and Nonmortgage Loan Brokers,American Financing Company,,Not provided,12/23/22,0,AdWorks,,,,194,,,11/18/2022,American Financing,,,0,Unforeseeable business circumstances,0,
+1/20/22,,36,Sector 53: Real Estate Rental & Leasing,Zillow Group - Supplemental,,Not stated,3/21/22,0,ADWorks,,,,36,,,1/3/22,Zillow Group,,,0,Closure,0,
+2/17/22,,39,Sector: 53: Real Estate Rental & Leasing,Zillow Group - Supplemental,,Not stated,4/18/22,0,ADWorks,,,,39,,,3/21/22,Zillow Group,,,0,Closure,0,
+2/18/22,,1,Sector 62 Healthcare  & Social Services,Ready Responders Inc.,,Director Product Security,2/16/22,0,Not Disclosed,,,,1,,,2/1/22,Ready Responders Inc.,,,0,Not disclosed,0,
+3-17-22,,Unknown,Sector 62: Healthcare & Social Assistance,Watsonville Community Hospital,,Not stated,5/23/22,Unknown,Rural Consortium (Salida),,,,Unknown,,,5/16/22,Watsonville Community Hospital,,,Unknown,Closure,0,
+3/21/22,,44,Sector 53: Real Estate Rental & Leasing,Zillow Group - Supplemental,,Not stated,5/20/22,0,ADWorks,,,,44,,,1/2/22,Zillow Group,,,0,Closure,0,
+4/15/2022,,0,Sector 62: Healthcare & Social Assistance,Cripple Creek Care Center,,Health care professionals,7/30/2022,0,Pikes Peak/Teller,,,,9,,,3/3/2022,Cripple Creek,,,0,Closure,9,
+5/2/22,,0,"Sector: 11: Agriculture, forestry, fishing & hunting",Sparboe Farms,,Various (See WARN),6/2/22,0,Weld,,,,95,,,05/04/22,Sparboe Farms,,,95,Closure (Temporary),0,
+5/11/22,,658,Sector 62: Healthcare & Social Assistance,Watsonville Community Hospital (Update),,Various (See WARN),7/21/22,0,Rural Consortium (Salida),,,,658,,,7/14/22,Watsonville Community Hospital,,,0,Closure (Sale of Business),0,
+6/1/2022,,10,Sector 52: Finance and Insurance,All Money Financial Group,,Not stated,9/26/22,0,Denver,,,,10,,,9/26/2024,,,,0,COVID/Pandemic,0,
+6/13/22,,0,Sector 22: Utilities,Total Energy Solutions,,Not stated,6/24/22,0,PikePeak/Teller,,,,6,,,6/13/2022,Total Energy Solutions,,,6,Lost funding,0,
+6/23/2022,,144,Sector 62: Healthcare & Social Assistance,"Integrated Health Services at Colorado Springs, Inc.",,Health care professionals,8/22/2022,0,Pikes Peak/Teller,,,,144,,,8/22/2022,Integrated Health,,,0,Closure,0,
+6/23/22,,144,Sector 62: Healthcare & Social Assistance,Vivage,,"RN, LPN, C.N.A, Dining Aides, Activity Aides, Housekeepers, Laundry Aides, Central Supply, HR, Business Office Manager, AP Specialist",8/22/22,0,Pikes Peak/Teller,,,,144,,,8/22/2022,Vivage,,,0,Closure,0,
+7/11/2022,,673,Sector 62: Healthcare & Social Assistance,Watsonville Community Hospital (Update),,Various (See WARN),8/31/2022,0,Rural Consortium (Salida),,,,673,,,8/17/2022,Watsonville Community Hospital (Update),,,0,Closure (Sale of Business),0,
+7/12/22,,230,Sector 56: Administrative and Support and Waste Management and Remediation Services,HSS Inc.,,See WARN,9/30/22,0,Denver,,,,230,,,9/1/2022,HSS Inc.,,,0,Loss of Contract w/City of Denver,0,
+8/1/22,,60,Sector 561730: Landscaping,Metco Landscaping (Arvada),,See WARN,7/28/22,0,Jefferson,,,,60,,,7/28/22,Metco Arvada,,,0,Unforseen Business Circumstance,0,
+8/1/22,,165,Sector 561730: Landscaping,Metco Landscaping (Aurora HQ),,See WARN,7/28/22,0,ADWorks,,,,165,,,7/28/22,Metco Aurora HQ,,,0,Unforseen Business Circumstance,0,
+8/1/22,,44,Sector 561730: Landscaping,Metco Landscaping (Aurora),,See WARN,7/28/22,0,ADWorks,,,,44,,,7/28/22,Metco Aurora,,,0,Unforseen Business Circumstance,0,
+8/1/22,,36,Sector 561730: Landscaping,Metco Landscaping (Colo Springs),,See WARN,7/28/22,0,El Paso,,,,36,,,7/28/22,Metco Colo Springs,,,0,Unforseen Business Circumstance,0,
+8/1/22,,38,Sector 561730: Landscaping,Metco Landscaping (Englewood),,See WARN,7/28/22,0,ADWorks,,,,38,,,7/28/22,Metco Englewood,,,0,Unforseen Business Circumstance,0,
+9/29/22,,104,Sector: 22 Utilities 118 Other Electrical Power Generators,Chord Energy,,Various (See WARN),6/30/2023,0,Denver,,,,104,,,12/1/2022,Chord Energy,,,0,Merger wth Whiting & Oasis,0,
+9/29/22,,121,"Sector 31, 311: Food Manufacturing",Platerra Foods,,Not stated,12/20/22,0,"Denver, Boulder",,,,121,,,11/30/2022,Platerra,,,0,Closure - Cease Operations,0,
+10/20/22,,41,Sector 51: Information,Starry Inc.,,Various (See WARN),10/21/22,0,ADWorks,,,,41,,,10/21/2022,Starry Inc.,,,0,Business Changes,0,
+11/9/22,,1 (of 72 in CO),Sector 336414: Guided Missile and Space Vehicle Manufacturing,Astra Space Inc.,,Various (See WARN),11/9/22,0,Pikes Peak/Teller,,,,72 (1 in CO),,,11/9/2022,Astra Space inc.,,,0,Refocus business operations,0,
+11/21/22,,1,Sector 62:Healthcare & Social Assistance,Rume Health,,Trainer,1/20/23,0,Denver,,,,1,,,1/20/2023,,,,0,Unknown,0,
+11/25/22,,38 (resigned voluntarily),Sector 51: Information 519290 Web Search Portals & Other Info Services,Twitter (Boulder) Supplemental,,Various (See WARN),1/20/23,0,Boulder,,,,38 (voluntarily resigned),,,1/20/2023,Twitter Supplemental,,,0,Voluntary Resignation,0,
+12/2/22,,43,"Sector 54: Professional, Scientific Services",Inscripta,,Various (See WARN),,0,Boulder,,,,43,,,,Inscripta,,,0,Closure/Reduction in Force,0,
+12/14/22,,55,Sector 62: Healthcare & Social Assistance,Centura Porter Place,,Various (See WARN),2/17/23,0,Denver,,,,55,,,2/17/2023,Centura Porter Place,,,0,Closure of Retirement Center,0,
+1/3/23,,666,Sector 23: Construction,Wanzek Construction,,Unknown,1/3/23,0,Pueblo,,,,666,,,1/3/2023,Wanzek Construction,,,0,Cancellation of Contract,0,
+4/21/2019,,3,Sector 81: Other services (except public administration),SSDI,4,SSDI,4/21/2021,4,,,,,,,,4/21/2019,,,,2,Other,,
+9/1/2020,,0,Sector 56: Administrative and support and waste management and remediation services,Monkey's Avatar,Administrative,Monkeys Avatar,12/31/2020,0,,,,,,,,9/15/2020,,,,2,COVID/Pandemic Related,,
+10/1/2020,,1,"Sector 54: Professional, scientific and technical services",Haley A Jackson,House cleaning,Haley Jackson,10/1/2021,0,,,,,,,,10/1/2020,,,,0,COVID/Pandemic Related,,
+1/8/2021,,0,Sector 48: Transportation & Warehousing,Southwest Airlines - Update,556 furloughs were rescinded,Southwest Airlines Update,N/A,0,,,,,,,,N/A,,,,0,Layoffs Rescinded,,
+1/14/21,,76,Sector:53: Real Estate Rental & Leasing/531190,Strive Communities Management,Various: See WARN,Strive Communities Management,3/28/21,0,,,,,,,,3/15/21,,,,0,Closure due to sale,,
+1/25/21,,107,Sector 51: Information,Concentrix,Not dislclosed,Concentrix,3/31/21,0,,,,,,,,3/31/21,,,,0,Closure,,
+1/29/21,,10,Sector 48: Transportation & Warehousing,United Airlines,"Front line employees, management & administration positions",United Airlines,3/31/21,983,,,,,,,,3/31/21,,,,0,COVID-19 Decrease in air travel,,
+2/17/21,,280,Sector 22: Utilities/Wind Electric Power Generation,Vestas Blades America Inc.,Not dislclosed,Vestas Blades America,4/17/21,0,,,,,,,,4/17/21,,,,0,Reduction in Force,,
+2/18/21,,93,Sector 53: Real Estate Rental & Leasing / 531311- Residential Property Managers,Crestview Management LLC/Columbia Sussex Management,Not disclosed,Crestview Management LLC,4/1/21,0,,,,,,,,4/1/21,,,,0,Change of Management Company,,
+2/18/21,,107,Sector: 61 Educational Services,Johnson & Wales University,Not dislclosed,Johnson & Wales University,5/4/21,0,,,,,,,,5/4/21,,,,0,Closure,,
+2/22/2021,,87,Sector 48-49: Transportation and warehousing,Orion Logistics LLC - Amazon Delivery Service Partner,Delivery Drivers,Orion Logistics,2/27/2021,0,,,,,,,,12/27/2020,,,,2,Other,,
+2/26/21,,44,Sector 42: Consumer Electronics & Computers Retail,PomeroyTechnologies,Various:See WARN,Pomeroy Technologies,4/30/21,0,,,,,,,,4/30/21,,,,0,RIF: Loss of contract,,
+3/11/2021,,3,Sector 72: Accommodation and food services,Hill,3,Hill,3/11/2021,3,,,,,,,,1/17/2019,,,,3,COVID/Pandemic Related,,
+3/23/21,,417,Sector 55:  Management of companies & enterprises,Santander Consumer USA,"Primarily collections agents, customer service representatives and management",Santander Consumer USA,12/31/21,0,,,,,,,,12/31/21,,,,0,Restructuring  & Closure,,
+3/24/21,,400,Sector 32: Manufacturing/pharmaceutical preparation manufacturing,"Novartis Gene Therapies, Inc.",Not disclosed,Novartis,7/29/21,0,,,,,,,,7/9/21,,,,0,Closure of facility,,
+4/13/21,,252,Sector 51: Information,TTECH Services Corporation,Hourly customer service positions,TTECH Services Corporation,7/10/21,0,,,,,,,,6/26/21,,,,0,Closure,,
+4/23/21,,5,Sector 56: Asset Adjusters,ART Asset Adjusters,"Asset Services, data services, and recovery agents",ART Asset Adjusters,4/23/21,0,,,,,,,,4/23/21,,,,0,Loss of Business/COVID related,,
+5/6/21,,233,Sector 56: Facilities Support Services,ABM,"Cleaner, leads, floor techs, district manager, zone manager & administration positions",ABM,5/31/21,0,,,,,,,,5/31/21,,,,0,Loss of contract,,
+5/19/21,,287,Sector 52: Investment Banking and Securities Dealing,T. Rowe Price,Various:See WARN,T. Rowe Price,8/1/21,0,,,,,,,,8/1/21,,,,0,Other,,
+6/1/21,,102,Sector 23: Construction,Katerra Inc.,"Various: Project engineers, apprentices, carpenters, construction managers, Foremen",Katerra Inc.,8/5/21,0,,,,,,,,6/4/21,,,,0,Closure,,
+6/3/21,,-,Sector 23: Construction,Katerra Inc. Update Supplemental,"Various: Project engineers, apprentices, carpenters, construction managers, Foremen",Katerra Inc. Supplemental,8/5/21,0,,,,,,,,6/4/21,,,,0,Seeking alternative financing that may impact layoffs,,
+6/4/2021,,0,Sector 23: Construction,T&H Services LLC,Unsure of total impact at this time - Government Budget impacts are not completely apparent,T&H Services LLC,8/6/2021,50,,,,,,,,8/5/2021,,,,50,Other,,
+6/22/2021,,89,"Sector 54: Professional, scientific and technical services","Computer Task Group, Inc","Customer Service Representatives (85), Account Manager (1), Staff Support Manager (2), Director (1)",Computer Task Group,8/31/21,0,,,,,,,,8/31/2021,,,,0,Other,,
+7/2/21,,-,Sector 23: Construction,Katerra Inc. Update Supplemental2,"Various: Project engineers, apprentices, carpenters, construction managers, Foremen",Katerra Inc. Supplemental 2,8/5/21,0,,,,,,,,6/4/21,,,,0,Seeking sale or purchase,,
+7/6/21,,85,Sector 45: Retail Trade,Walmart Store #6177,Not stated,Walmart,10/8/21,0,,,,,,,,7/23/21,,,,0,Closure,,
+7/15/2021,,0,Sector 31-33: Manufacturing,"Process Solutions of Durango, Inc.",Not disclosed,Process Solutions,12/31/2021,2,,,,,,,,7/15/2021,,,,0,COVID/Pandemic Related,,
+7/30/21,,434,Sector 48: Transportation & Warehousing,United Airlines Update,Food service workers,United Airlines Update,11/2/21,0,,,,,,,,10/19/21,,,,0,Outsourcing,,
+8/2/2021,,8,Sector 81: Other services (except public administration),Continuum of Colorado,Direct Support Professional,Continuum of Colorado,10/2/21,0,,,,,,,,10/2/2021,,,,0,Closure,,
+8/15/2021,,4,Sector 81: Other services (except public administration),The beez kneez organic gardens,Gardeners and landscapers,Beez Kneez,5/1/2021,0,,,,,,,,7/20/2020,,,,2,COVID/Pandemic Related,,
+9/7/2021,,5,Sector 81: Other services (except public administration),Continuum of Colorado,Direct Support Professional,Contiuum of Colorado,11/8/21,0,,,,,,,,11/8/2021,,,,0,Closure,,
+9/7/2021,,9,Sector 81: Other services (except public administration),Continuum of Colorado,Direct Support Professionals,Continuum of Colorado,11/8/21,0,,,,,,,,11/8/2021,,,,0,Closure,,
+9/9/2021,,56,"Sector 21: Mining, quarrying and oil and gas extraction",Crestone Peak Resources LLC,All,Crestone Peak Denver,10/15/2021,0,,,,,,,,10/15/2021,,,,0,Acquisition of Company,,
+9/9/2021,,90,"Sector 21: Mining, quarrying and oil and gas extraction",Crestone Peak Resources LLC,All,Crestone Peak Weld,10/15/2021,0,,,,,,,,10/15/2021,,,,0,Acquisition of Company,,
+9/9/2021,,13,"Sector 21: Mining, quarrying and oil and gas extraction",Crestone Peak Resources LLC,All,Crestone Peak ADW,10/15/2021,0,,,,,,,,10/15/2021,,,,0,Acquisition of Company,,
+9/13/2021,,3,Sector 23: Construction,Moore Bros,Selling and building,Moore Bros,9/13/2021,3,,,,,,,,9/13/2021,,,,0,COVID/Pandemic Related,,
+10/7/2021,,12,Sector 42: Wholesale Trade Durable Goods,First Nation Group,Unknown,First Nation,11/5/2021,0,,,,,,,,10/7/21,,,,0,Unforeseeable Business Circumstances,,
+11/4/21,,20,Sector 53: Real Estate Rental & Leasing,Zillow Group,Unknown,Zillow Group,12/31/22,0,,,,,,,,1/3/22,,,,0,Eliminating Zillow Offers Line of Business,,
+11/18/21,,1,Sector 53: Real Estate Rental & Leasing,Zillow Group Update 11-18-21,Unknown,Zillow Group Update 11-18-21,1/17/22,0,,,,,,,,1/17/22,,,,0,Eliminating Zillow Offers Line of Business,,
+11/22/21,,83,"Sector 21: Mining, Quarrying, and Oil & Gas Extraction",Ouray Silver Mines,"Mine, surface, maintenance, warehouse, mill accounting, technical, environmental",Ouray Silver Mine,12/22/21,0,,,,,,,,12/22/21,,,,0,Unforeseeable Business Circumstances,,
+11/29/21,,94,Sector 62: Healthcare and Social Assistance,HSS Inc.,"Security Agents and Officers, supervisors, and scheduler",HSS Inc.,12/31/21,0,,,,,,,,12/31/21,,,,0,Unforeseeable Business Circumstances,,
+12/20/21,,"61 total, 4 in CO",Sector 561621: Security Systems Services,Monitronics International- Brinks Home,Field Sales & Management,Monitronics International - Brinks Home,10/10/21,0,,,,,,,,10/10/21,,,,0,Eliminating Field Operations,,
+12/30/21,,160,Sector 72: Accomodation and food services,513 Hotel Operating LLC,Various hotel staff (See WARN for details),513 Hotel Operating LLC,12/31/21,0,,,,,,,,12/31/21,,,,0,Sale of Company,,
+8/31/2020,,,53,Avis Budget Group,,"Account Manager, Analyst Q&A, Local Sales Market Manager",,3,ADW,,,,3,,,8/31/20,Avis Budget Group,,,,COVID 19 Extended Furlough,,
+6/30/2020,,,56,ABM,,"Various: Supervisor, Administrative Assistant, Shuttle Driver and Bus Attendants",,,Denver,,,,178,,,4/10/2020,ABM,,,178,COVID - Temporary,,
+9/8/2020,,22,48,Airport Management Services & Hudson Group,,"Service Associates including stock and warehouse, Supervisors; 22 permanent, 23 Temporary",,,Denver,,,,45,,,10/1/20,Airport Mgmt Services & Hudson Group,,,23,"COVID 19 - 22 permanent, 23 temporary",,
+8/17/2020,,,72,Alamo Drafthouse Cinema Littleton - Update,,Not disclosed,,,Arapahoe/Douglas,,,,87,,,8/17/20,Alamo Drafthouse Littleton - Update,,,72,COVID - Temporary,,
+8/17/2020,,,72,Alamo Drafthouse Cinema Sloans Lake Update,,Not disclosed,,,Denver,,,,87,,,8/17/20,Alamo Drafthouse Sloans Lake Update,,,87,COVID - Temporary,,
+8/17/2020,,,72,Alamo Drafthouse Cinema Westminster  - Update,,Not disclosed,,,Adams,,,,87,,,8/17/20,Alamo Westminster Update,,,87,COVID - Temporary,,
+4/30/2020,,,53,Alamo Rent-A-Car,,"Various: Customer Service Agent, Service Agent, DOT Bus Driver, Exit Booth, Greeter",,,Denver,,,,67,,,4/3020,Alamo Rent-A-Car,,,67,Mass Layoff - Permanent,,
+3/20/2020,,,81,Alsco,,"Production, Route Sales Representatives",,85,Denver,,,,85,,,3/20/20,Alsco,,,,Furlough,,
+7/15/2020,,2,48,American Airlines,,Not Disclosed,,107,Denver,,,,109,,,10/1/20,American Airlines,,,,"COVID-19 - 2 Permanent, 107 Temporary Fulough",,
+11/6/2020,,154,62,American Pathology Partners and APP-UniPath,,"Logistics, histology, accessioning, molecular services, cytology, administration, sales, client relations, hospital services, clinical services",,,Denver,,,,154,,,1/6/21,American Pathology Partners,,,,Permanent,,
+8/28/2020,,58,72,Ameristar Casino Resort & Spa Black Hawk,,Various,,,Jefferson,,,,58,,,11/1/20,Ameristar - Update,,,,COVID - Permanent,,
+6/11/2020,,117,72,Ameristar Casino Resort Spa,,Not disclosed,,,Gilpin/Jefferson,,,,117,,,9/15/2020,Ameristar Casino Resort Spa,,,,Mass Layoff- Permanent,,
+9/29/2020,,71,31,Anheuser- Busch - Loveland,,"Various: sales, drivers and more",,,Larimer,,,,71,,,12/4/2020,Anheuser-Busch,,,,Sale of Company,,
+9/29/2020,,59,31,Anheuser-Busch - Colo springs,,"Various: drivers, drivers, merchandiser, and more (see WARN)",,,Pikes Peak,,,,59,,,12/4/2020,Anheuser-Busch,,,,Sale of Company,,
+9/29/2020,,220,31,Anheuser-Busch - Denver,,"Various: analysts business development, marketing, driver, mechanics and more (see WARN)",,,Denver,,,,220,,,12/4/2020,Anheuser-Busch,,,,Sale of Company,,
+9/29/2020,,50,31,Anheuser-Busch - Littleton,,"Various: analysts, drivers, sales, warehouse and more (see WARN)",,,Arapahoe/Works,,,,50,,,12/4/2020,Anheuser-Busch,,,,Sale of Company,,
+9/10/2020,,8,72,"Antlers, a Wyndham Hotel",,"Sales admin, barista, line cook, restaruant manager, security officer, bartender, valet gift shop attendant, server, steward and others. 288 permanent, 20 temporary",,,Pikes Peak,,,,28,,,9/10/20,Antlers Wyndham Hotel,,,20,"COVID 19 - 8 permanent, 20 temporary",,
+4/13/2020,,,33,Aqua Hot Heating Systems,,Various,,10,Weld,,,,10,,,3/26/20,Aqua,,,,Furlough,,
+5/4/2020,,,72,Arabelle at Vail Square,,17 EMPLOYEES TOTALING 99,,,Rural Resort,,,,17,,,Not available,Arabelle,,,17,COVID - Temporary,,
+10/16/2020,,,72,Aramark at Coors Field,,Various,,,Denver,,,,71,,,Unknown,Aramark Coors Field,,,71,COVID-Temporary,,
+10/16/2020,,,72,Aramark at Mission Ballroom,,Various,,,Denver,,,,904,,,Unknown,Aramark Mission Ballroom,,,904,COVID-Temporary,,
+3/31/2020,,,71,Arapahoe Fitness LLC,,"Managers, Trainers, Front Desk, Member Sales, Instuctors",,97,Arapahoe/Dougless,,,,97,,,3/31/20,Arapahoe Fitness,,,,Furlough,,
+4/6/2020,,,72,Arrabelle at Vail Square,,Unspecified,,,Rural Consortium,,,,82,,,4/6/20,Arrabelle at Vail,,,82,COVID-19 Temporary Closure,,
+3/31/2020,,,71,Aurora Health & Fitness,,"Managers, Trainers, Front Desk, Member Sales, Instuctors",,52,Arapahoe/Dougless,,,,52,,,3/31/20,Aurora Health & Fitness,,,,Furlough,,
+8/31/2020,,,53,Avis Budget Group (ADW - Englewood),,Technicians,,2,ADW,,,,2,,,8/31/20,Avis Budget Group,,,,COVID 19 Extended Furlough,,
+8/31/2020,,,53,Avis Budget Group (Denver),,"Sales Performance Manager, Territority Performance Manager",,2,Denver,,,,2,,,8/31/20,Avis Budget Group,,,,COVID 19 Extended Furlough,,
+4/10/2020,,260,53,Avis Budget Group/Avis Budget Car Rental,,"Agents, Customer Service Reps, Associate Rental Sales, Administrative, mechanic, shuttlers etc.",,,Denver,,,,260,,,3/13/20,Avis Budget Group,,,,Fulough and Permanent,,
+5/2/2020,,,72,Barcelona Wine Bar,,Not Disclosed,,,Denver,,,,69,,,3/18/20,Barcelona Wine Bar,,,69,COVID-19: Mass Layoff,,
+4/1/2020,,,72,Bartaco,,Not disclosed,,,Boulder,,,,53,,,3/21/20,Bartaco,,,53,Mass Layoff- Temporary,,
+4/15/2020,,51,21,Basic Energy Services,,Various: Managers & Supervisors,,,Rural Consortium - Eastern Sub-Area,,,,51,,,4/15/20,Basic Energy Srvs,,,,Permanent,,
+4/23/2020,,26,21,Basic Energy Services (Updated),,"Equipment Operators, Mechanics, Field Supervisor, Welder, Staff Assistant",,,Ft. Morgan,,,,26,,,4/23/20,Basic Energy Services,,,,Permanent,,
+4/23/2020,,26,21,Basic Energy Services (Updated),,"Equipment Operators, Mechanic, Field Supervisor-Pumping Services, Machinist, Welder, Staff Assistant",,,Rural Consortium - Eastern,,,,26,,,4/23/20,Basic Energy Update,,,,Permanent,,
+4/6/2020,,,72,Beaver Creek Resort,,Unspecified,,,Rural Consortium,,,,297,,,4/6/20,Beaver Creek,,,297,COVID-19 - Temporary Closure,,
+5/4/2020,,,72,Beaver Creek Resort,,26 ADDITIONAL tOTALING 323,,,Rural Resort,,,,26,,,Not available,Beaver Creek Resort,,,26,COVID - Temporary,,
+4/17/2020,,,44,Bed Bath & Beyond,,Not Disclosed,,98,Araphaoe/Douglas,,,,98,,,4/4/20,Bed Bath & Beyond,,,,COVID-19 - Furloughs,,
+4/6/2020,,,45,Bicycle Village,,Unspecified,,,"Multiple: A/D, Boulder, Rural Consortium",,,,65,,,4/6/20,Bicycle Village,,,65,COVID-19 - Temporary Closure,,
+5/4/2020,,,45,Bicycle Village,,1 ADDITIONAL TOTALING 62,,,Rural Resort,,,,1,,,Not available,Bicycle Village,,,1,COVID - Temporary,,
+5/22/2020,,137,54,Bluprint (3 locations),,"Various: Photographers, Product Managers, Customer Support, Engineers, Editors and Others",,,Denver,,,,137,,,7/22/20,Bluprint,,,,Closure - Permanent,,
+5/4/2020,,,71,Breckenridge Ski Resort,,24 ADDITIONAL TOTALING 129,,,Rural Resort,,,,24,,,Not available,Breckenridge Ski Resort,,,24,COVID - Temporary,,
+5/4/2020,,,71,Breckenridge SSBRK,,Not Disclosed,,,Rural Resort,,,,55,,,Not available,Breckenridge SSBRK,,,55,COVID - Temporary,,
+4/6/2020,,,71,Brekenridge Ski Resort,,Unspecfiied,,,Rural Consortium,,,,105,,,4/6,Breckenridge Ski,,,105,COVID-19 - Temporary Closure,,
+5/21/2020,,,72,Brown Palance Denver,,"Various: Cooks, Food Servers, Bussers, Laundry, Banquet Servers, Hostesses and more.",,,Denver,,,,298,,,5/21/20,Brown Palace,,,298,COVID-19 Temporary,,
+3/23/20,,,72,Calimira dba Rusty Bucket Restraunt & Tavern,,Not disclosed,,,Adams,,,,65,,,3/16/20-3/20/20 and 3/21/20-3/31/20,Rusty Bucket,,,65,COVID-19/Temporary Closure,,
+12/8/2020,,,72,Cameron Mitchell Restaurants - AD,,"servers, bartenders, managers, cooks, chefs, home office employees, directors and executives",,,Arapahoe/Douglas,,,,56,,,11/20/20-11/30/20,Cameron Mitchell Restaurants AD,,,56,COVID Temporary,,
+12/8/2020,,,72,Cameron Mitchell Restaurants-Denver,,"servers, bartenders, managers, cooks, chefs, home office employees, directors and executives.",,,Denver,,,,70,,,11/20/20-11/30/290,Cameron Mitchell Restaurants-Denver,,,70,COVID - Temporary,,
+11/17/2020,,,42,Centerplate Sodexo,,Various,,,Denver,,,,276,,,12/16/20,Centerplate Sodexo,,,276,COVID - Temporary,,
+4/8/2020,,,92,City of Fort Lupton,,,,78,Weld,,,,78,,,4/18/20,Ft Lupton,,,,Furlough,,
+3/23/2020,,,62,ClearChoice,,55 layoffs and 13 furloughs,,,ADWorks,,,,120,,,3/23/20,Clear Choice,,,120,COVID-19/Temporary Closure,,
+3/26/2020,,,72,Colombo,,undisclosed,,,Denver DIA,,,,21,,,3/29/20,Columbo,,,21,COVID-19 - Temporary Closure,,
+3/30/2020,,,79,Colorado Athletic Club - Boulder,,Not disclosed,,186,Boulder,,,,186,,,3/20/20,Colo Athletic Boulder,,,,Furlough,,
+3/30/2020,,,79,Colorado Athletic Club - DTC,,Not disclosed,,115,Arapahoe/Dougless,,,,115,,,3/20/20,Colorado Athletic - DTC,,,,Furlough,,
+3/30/2020,,,79,Colorado Athletic Club - Flatiron,,Not disclosed,,115,Boulder,,,,115,,,3/20/20,Colorado Athletic Flatiron,,,,Furlough,,
+3/30/2020,,,79,Colorado Athletic Club - Inverness,,Not disclosed,,135,Arapahoe/Dougless,,,,135,,,3/20/20,Colorado Athletic Inverness,,,,Furlough,,
+3/30/2020,,,79,Colorado Athletic Club - Monaco,,Not disclosed,,192,Denver,,,,192,,,3/20/20,Colorado Athletic Monaco,,,,Furlough,,
+3/30/2020,,,79,Colorado Athletic Club - Tabor Center,,Not disclosed,,144,Denver,,,,144,,,3/20/20,Colo Athletic Tabor Ctr,,,,Furlough,,
+3/30/2020,,,79,Colorado Athletic Club - Union Station,,Not disclosed,,88,Denver,,,,88,,,3/20/20,Colorado Athletic Union Station,,,,Furlough,,
+3/31/2020,,,79,Colorado Fitness Holdings,,"Managers, Trainers, Front Desk, Member Sales, Instuctors",,59,Pikes Peak,,,,59,,,3/31/20,Col Fitness Holdings,,,,Furlough,,
+4/6/2020,,,48,Colorado Mountain Express,,Unspecified,,,"Multiple: Rural Consortium, Denver",,,,198,,,4/6/20,CO Mtn Express,,,198,COVID-19 - Temporary Closure,,
+5/4/2020,,,48,Colorado Mountain Express,,Not Disclosed; 13 additional totaling 211,,,Rural Resort,,,,13,,,Not available,Colorado Mtn Express,,,13,COVID - Temporary,,
+4/6/2020,,,45,Colorado Ski & Golf,,Unspeficied,,,"Multiple: A/D, Pikes Peak, Jeffco",,,,133,,,4/6/20,CO Ski & Golf,,,133,COID-19 - Temporary Closure,,
+5/4/2020,,,45,Colorado Ski & Golf,,Not Disclosed; 10 additional totaling 143,,,Rural Resort,,,,10,,,Not available,Colorado Ski and Golf,,,10,COVID - Temporary,,
+5/8/2020,,,51,Cox Automotive,,Not Disclosed,,,Arapahoe/Douglas,,,,163,,,5-17-20,Cox Automotive,,,163,COVID - Temporary,,
+3/27/2020,,,72,Curtis Hotel,,"Wait staff, bartenders, parking attendants, cooks, front desk, baristas, bellmen, room attendants",,,Denver,,,,182,,,3/27/20,Curtis Hotel,,,182,COVID-19 - Temporary Closure,,
+7/6/2020,,,72,Curtis Hotel Update,,"Housekeeping, prep cooks, banquet service, baristas, wait staf, bellman,  and more.",,136,Denver,,,,136,,,6/5/20 to 6/22/20,Curtis Hotel Update,,,,COVID Permanent,,
+5/15/2020,,,54,Czarnowski,,"Various: 3D Designer, Account Mgr, Admin Graphics, Carpenters, Proj Mgr and more",,,Denver,,,,53,,,"5/22/20, 5/26/20, 5/29/20",Czarnowski,,,53,COVID-Temporary,,
+6/5/2020,,,54,Czarnowski - Update,,"Various:  3D Designer, Account Manager, Inventory, Carpenter Inventory Control, CNC Operator, Warehouse, Rental",,9,Denver,,,,9,,,"6/10/20, 6/17/20, 6/22/20, 6/26/20",Czarnowski - Update,,,,Temporary furloughs,,
+7/15/2020,,,54,Czarnowski Update,,"Account Managers, Carpenters, Accounting Assitants, CAD, data entry Rental CAD, Rental designer and more",,,Denver,,,,20,,,7/18/20-8/11/20,Czarnowski Update,,,20,COVID Temporary,,
+9/8/2020,,,72,Dave and Busters Denver,,Not specified,,136,Denver,,,,136,,,11/8/20,Dave & Busters Denver,,,,COVID 19 Permanent,,
+9/8/2020,,,72,Dave and Busters Westminster,,Not specified,,98,Adams,,,,98,,,11/8/20,Dave & Busters Westminster,,,,COVID 19 Permanent,,
+7/28/2020,,,72,Delaware North Company,,"Various: Bartenders Cocktail Servers, Cooks, Utility workers, Stand Attendants, and more",,,Denver,,,,96,,,7/28/20,Delaware North Company,,,96,COVID Temporary,,
+8/10/2020,,,49,Deliverol Global,,"Various: Delivery Associates, Shift and Site Leads",,53,Denver,,,,53,,,8/10/20,Deliverol Global,,,,Permanent Mass Layoff (Ending Contract),,
+3/17/2020,,,72,Dels Diner,,"cooks, waitresses, management",,,Rural Consortium,,,,14,,,3/17/20,Del's Diner,,,14,COVID-19-Temporary Closure,,
+5/27/2020,,,72,Denver Center for Performing Arts,,"Various: Ticket Agents, Stage Hands, Office Managers, Production Electricians and Ohters",,,Denver,,,,151,,,6/1/20,Denver Center for Performing Arts,,,151,Mass Layoff -Temporary/Some Permanent,,
+5/8/2020,,,72,Denver Crown Plaza,,"Various: Banquet Servers & Setup, Accounting Clerk, Engineer, Barista, Event Sales, Front Desk and others",,69,Denver,,,,69,,,3/12/20,Crown Plaza,,,,Furloughs,,
+4/8/2020,,,21,Discovery Natural Resources,,Not disclosed,,28,Denver,,,,28,,,4/8/20 - 5/1/20,Discovery,,,,Furlough,,
+7/31/2020,,,72,Double Tree by Hilton Update -3203 Quebec,,Not disclosed,,,Denver,,,,103,,,7/31/20,Doubletree 3203 Quebec,,,103,COVID Temporary,,
+5/15/2020,,,72,DoubleTree Colorado Springs,,"Various: Accounting Personnel, Sales and Event Managers, Operations Managers, Front Line Supervisors, Shuttle drivers",,,Pikes Peak,,,,177,,,3/16/20,Doubletree,,,177,COVID-19 Temporary,,
+4/2/2020,,,72,Doubletree Denver Tech Center,,Various: Request WARN for detail.,,,Arapahoe/Douglas,,,,87,,,3/13/20,Doubletree DTC,,,87,COVID-19 - Temporary Closure,,
+10/20/2020,,27,72,Doubletree Denver Tech Center,,Not specified,,,Denver,,,,27,,,10/22/20,Doubletree Denver,,,,COVID-Permanent,,
+4/2/2020,,,72,Doubletree Grand Junction,,Various: Request WARN for detail.,,,Mesa,,,,52,,,3/13/20,Doubletree GJ,,,52,COVID-19 - Temporary Closure,,
+3/27/2020,,,23,Dynalectric Company,,undisclosed,,,Boulder,,,,2,,,3/13/20,Dynalectric,,,2,COVID 19- Temporary Closure,,
+4/2/2020,,,23,Dynalectric Company,,Various: Request WARN for detail.,,,Denver,,,,1,,,3/30/20,Dynalectric,,,1,COVID-19 - Temporary Closure,,
+4/10/2020,,,23,Dynalectric Company,,Not Disclosed,,1,Pikes Peak,,,,1,,,4/18/20,Dynalectric,,,,Furlough,,
+3/25/2020,,,72,Earls Restaurants USA Inc.,,"servers, dishwashers, cook, bartender, prep, setter dining & lounge, host +",,,Denver & Arapahoe/Douglas,,,,134,,,3/25/20,Earls,,,134,COVID-19 - Temporary Closure,,
+3/30/2020,,,72,Ebassy Suites Denver Downtown,,Variety of positions - Request WARN for detail,,,Denver,,,,118,,,3/19/20,Embassy Suites,,,118,COVID-19 Temporary Closure,,
+6/19/2020,,,33,EcoGen Laboratories,,Variety of postions - Request WARN for detail,,101,Grand Junction (Mesa),,,,101,,,6/17/2020 - 7/1/2020,EcoGen,,,,Mass Layoff- Permanent,,
+7/23/2020,,,33,EcoGen Laboratories - Update,,Not specified,,101,Mesa,,,,101,,,5/26/20-July/22/20,EcoGen Labs - Update,,,,COVID Permanent,,
+7/23/2020,,,33,Ecogen Laboratories Update,,Not disclosed,,168,Mesa,,,,168,,,7/23/20,Ecogen Update,,,,COVID Permanent,,
+3/26/2020,,,72,Einstein Brothers,,undisclosed,,,Denver DIA,,,,34,,,3/29/20,Einstein Brothers,,,34,COVID-19 - Temporary Closure,,
+5/16/2019,,,53,Electro Rent,,"Electronic Tech, Digital Demand Generation, IT Tech Support, Test Equipment Operator, Equipment Support Techs, Production Operator",,1,Boulder,,,,1,,,,Electro Rent,,,,COVID Furlough,,
+7/1/2020,,55,53,Electro Rent,,"Various: Equipment Support Techs, Electronic Techs, Customer Support Tech, Territory Account Mgrs, and more",,,Denver,,,,55,,,7/1/20,Electro Rent Update,,,,COVID Permanent,,
+3/25/2020,,,42,Electronic Recyclers,,"Operators, environmental and Safety, production, truck driver, HR assistant, loss prevention",,,Araphaoe/Douglas,,,,26,,,3/24/20,Electronic Recyclers,,,26,COVID-19 Temporary Closure,,
+3/27/2020,,,72,Elizabeth Hotel,,"Wait staff, bartenders, parking attendants, cooks, front desk, baristas, bellmen, room attendants",,,Larimer,,,,111,,,3/27/20,Elizabeth Hotel,,,111,COVID-19 - Temporary Closure,,
+3/27/2020,,,72,Embassy Suites & Hilton Garden Inn Boulder,,Variety of positions - Request WARN for detail,,,Boulder,,,,126,,,3/27/20,,,,126,COVID-19 - Temporary Closure,,
+5/15/2020,,,72,Embassy Suites Boulder -Update,,"Various: Cooks, Laundry, Managers, Breakfrast Attendnance and others; REINSTATING 95 AND LAYING OFF 61",,,Boulder,,,,61,,,6/13/20,Embassy Suites Boulder,,,61,Reinstate and COVID Temporary,,
+6/26/2020,,,72,Embassy Suites by Hilton Colo Springs - Updated,,"Various: Banquet Server, Bartenders, Comp Bar, Cooks, Sales, Front Desk, Housekeepers, Maintenance and others",,57,Pikes Peak,,,,57,,,7/1/20,Embassy Suites Colo Springs,,,,COVID-19 Permanent RIF,,
+6/26/2020,,,72,Embassy Suites by Hilton Denver Tech North  - Updated,,"Various: Banquet Server, Bartenders, Comp Bar, Cooks, Sales, Front Desk, Housekeepers, Maintenance and others",,56,Denver,,,,56,,,7/1/20,Embassy Suites Denver,,,,COVID-19 Permanent RIF,,
+6/29/2020,,,72,Embassy Suites Denver Downtown Update,,"Banquet servers, sales managers, housekeeping room attendants, dishwashers, servers and more",,112,Denver,,,,112,,,6/29/20,Embassy Suites Denver Downtown Update,,,,COVID Permanent,,
+4/30/2020,,,53,Enterprise and National Rent-A-Car,,"Various: DOT Bus Drivers, Drivers, Return Agents, Maintenance Techs and others",,83,Denver,,,,83,,,4/30/20,Enterprise and National Rent-A-Car,,,,Mass Layoff - Permanent,,
+1/8/2019,,,,AstraZeneca,,"Quality Control, technicians, engineers & others",,,Boulder & Longmont,,,,210,,,3/22/19,,,,,Closure,,
+10/23/2019,,,,Backflip Studios,,"Various: creative roles, management, engineers, product managers",,,Boulder,,,,86,,,12/23/19,,,,,Closure,,
+9/23/2019,,,,Brown Brothers Harriman & Co.,,Various: CPAs CPAs Administrative positions related to investments,,,Arapahoe/Douglas,,,,136,,,11/25/19 - 9/30/20,,,,,Loss of Contract/Closure,,
+2/5/19,,,,"Conagra Brands, Inc.",,Not reported,,,Boulder,,,,100,,,5/24/19 - 3/20/20,,,,,Closure,,
+4/26/2019,,,,Crothall Healthcare Environmental Services,,"Housekeepers,  Admin, Operations, Patient Ambassadors",,,Arapahoe/Douglas,,,,283,,,6/30/19,,,,,Closure,,
+10/30/2019,,,,"Energes Services, LLC",,"Various: Construction, Maintenece, Admin",,,Larimer,,,,121,,,"10/30/2019, 11/8/2019, 11/22/2019, 11/29/2019",,,,,Closure,,
+1/7/2020,,,,Geo Reentry Services LLC,,"Various: Corrections Personnel (136), Rehabilitation Providers/Therapists (23), General Admin (17), Food Service (6), Medical (14)",,,Pikes Peak (Colo Springs),,,,196,,,3/6/2020,,,,,Mass Layoff,,
+10/7/2019,,,,Halliburton Energy Services Inc.,,"Various: Drivers, Service Coordinators, Planners, Material Handlers, Mechanic Technicians, Parts Techs, Coordinators",,,Mesa,,,,178,,,10/7/19,,,,,Mass Layoff,,
+11-1-19 received 11/19/19 via Local Area/Suthers office,,,,HomeAdvisor,,Various: Predominately Sales Consultants and Project Advisors,,,Pikes Peak,,,,229,,,1/1/20 to 1/14/20,,,,,Closure,,
+3/21/19 (received  3/22/19),,,,Invesco (OppenheimerFunds OFI),,Not disclosed in WARN,,,Arapahoe/Douglas (Centennial),,,,850,,,5/25/19 (thru 18 mo following),,,,,Downsizing,,
+12/10/2019,,,,Jagged Peak Energy Inc,,Various: Request WARN notification for specifics.,,,Denver,,,,92,,,Closure 1/10/20- 04/10/20,,,,,Closure/Sale of Company/Restructuring,,
+9/30/2019,,,,Levy Premium Foodservice LP,,"Various Positions:  Servers (14), Cooks (13), Supervisors (6), Food Runners (4), Cashiers (3) and other positions",,,Denver,,,,56,,,9/30/19,,,,,Loss of Pepsi Center Contract,,
+10/30/2019,,,,Molson Coors,,Not disclosed in WARN,,,Denver,,,,300,,,12/31/19,,,,,Downsizing,,
+3/1/19 (received on 3/22/19),,,,National Express Transit (NEXT),,"3 Managers and 57 hourly employees including General Manager, Saftety Manager/OPS, Drivers, Dispatchers, Dispatch Reservation Manager, Road Supervisors, Utility Workers, Scheduler, Reservationist",,,Pikes Peak,,,,60,,,6/30/19,,,,,Closure,,
+8/16/2019,,,,Nestle USA Inc and Nestle Dreyer's Ice Cream,,"Various: Sales, Delivery Drivers, Merchandisers, Warehouse",,,Denver,,,,56,,,10/18/19-12/31/19,,,,,Restructuring/Closure of site,,
+10/29/2019,,,,Oakwood Worldwide,,Operations Manager,,,Denver,,,,1,,,12/30/2019,,,,,Mass Layoff,,
+7/15/19 (received 7/16/19),,,,PrimeFlight Aviation Services Inc.,,"Various positions: Cabin Appearance Staff (380), Inventory Control (17), Operations Managers, & other positions",,,Denver,,,,439,,,9/18/19,,,,,Loss of Contract with United Airlines,,
+1/18/2019,,,,Pura Vida Fitness & Spa,,"Managers/Directors, therapists, instructors, & others",,,Denver,,,,134,,,4/15/19,,,,,Closure,,
+10/4/19,,,,QCData,,Unknown,,,Arapahoe/Douglas,,,,40-60,,,11/29/19 - 1/31/2020,,,,,Loss of Contract,,
+1/15/2019,,,,Resolute Natural Resources Company LLC,,"Various: administration, engineers, & others",,,Denver,,,,57,,,3/1/19,,,,,Merger,,
+1/26/2020,,,,S4 Inc.,,Various: IT positions,,,Pikes Peak,,,,77,,,Downsize 1/26/20,,,,,Loss of Contract,,
+3/18/2019,,,,"Sandoz Inc, A Novartis Division (Next Phase)",,"Management, Production Technicans, administrative, Material Handlers",,,Broomfield,,,,56,,,5/18/19 - 6/1/19,,,,,Closure,,
+1/7/19 & 4/6/2020,,,,"Sandoz Inc., A Novartis Division (Update)",,"Production Technicians, Chemists, & more",,,Broomfield,,,,24,,,4/13/19-5/30/19,,,,,Closure,,
+7/6/19-7/31/19,,,,Sandoz-Novartis,,"Lead Technicians (5), Equipment Maintenance Tech III (3), Production Technician III (16)",,,Broomfield,,,,24,,,7/6/19 - 7/31/19,,,,,Closure,,
+7/8/2019,,,,Sandoz-Novartis,,"Various positions: Administrative, Chemist, Supply Chain, Production, Quality, Techs, Logistics",,,Broomfield,,,,67,,,9/7/19 - 12/31/19,,,,,Closure,,
+8/5/19,,,,Sandoz-Novartis,,"Various Positions: Logistics Productioins Support, Compliance, Quality Engineer, HR Specialist, Trainer, Management",,,Broomfield,,,,37,,,10/5/19-12/31/19,,,,,Closure,,
+2/11/2019,,,,Sandoz/Novartis (2nd Wave of Layoffs),,"Production technicians, chemists, process & others",,,Broomfield,,,,116,,,4/13/19 - 5/19/19,,,,,Closure,,
+10/24/19,,,,Smithfield Fresh Meats Corporation,,"Various: General Labor, Crew Leaders, Equipment Operators, Forklift Operations and others.",,,Denver,,,,68,,,12/31/19 to 3/26/20,,,,,Closure,,
+2/13/2019,,,,Spectrum Pharmaceuticals,,"Application system analyst, data compliance officer, VP Sales",,,Denver,,,,3,,,4/12/19,,,,,Divesting Product line/Sale to Acrotech Biopharma,,
+1/2/2019,,,,The Inn at Cherry Creek,,"Front office, housekeeping, exec office, engineering & others",,,Denver,,,,18,,,"3/3/19, 3/31/19",,,,,Closure (Temporary 18-24 mo),,
+8/29/2019,,,,Transform SR LLC (060401 & 01141 Units),,"Various: Consultative Sales, Managers, Store Support, Fulfillment Center, Cashier, Auto Technicians, Customer Service",,,Arapahoe/Douglas,,,,80,,,12/15/19,,,,,Change in Business Circumstances,,
+10/5/2019,,,,TTEC Services Corporation,,Primarily Customer Service Agents working in different locations across the U.S.,,,Arapahoe/Douglas,,,,174,,,10/5/19,,,,,Ending work-from-home ops,,
+5/10/2019,,,,Upsher-Smith Laboratories LLC,,"Various postions: Manufacturing Technicians, scientists, engineers, technical services, instrument controls, operations",,,Denver,,,,74,,,8/2/19 - 3/31/20,,,,,Closure,,
+3/25/2019,,,,Westrock,,"Production workers, auditors, technicians & others",,,Arapahoe/Douglas,,,,61,,,"3/25/19, 4/24/19, 5/24/19",,,,,Closure,,
+1/9/2019,,,,"WideOpenWest Networks LLC and WideOpenWest Illinois, LLC",,"Customer Advocates, Business Tech Sup, Sales Retention Specialists & more",,,Colorado Springs,,,,203,,,3/10/19  (184) & 5/31/19  (19),,,,,Downsize,,
+1/7/2020,,,,Zahn Dental,,"Various: Customer Care, CAD Scanners, Finishing Technicians, Machine Operators, Finishing Technicians & others",,,Jefferson (Golden),,,,54,,,3/9/2020,,,,,Reorganization and relocation,,
+2/2/2019,,,,"Advantage Logistics USA West LLC - Aurora, CO",,,,,,,,,272,Arapahoe/Douglas,,,,,,,Closure (Cease Operations),,
+2/2/2019,,,,"Advantage Logistics USA West LLC - Fountain, CO",,,,,,,,,475,Pikes Peak,,,,,,,Closure (Cease Operations),,
+8/9/2018,,,,Ameritrade Holding Company,,,,,,,,,8,Adams,,,,,,,Reorganization,,
+1/8/2019,,,,AstraZeneca,,,,,,,,,210,Boulder & Longmont,,,,,,,Closure,,
+6/29/2018,,,,Chipotle Mexican Grill,,,,,,,,,399,Denver,,,,,,,Closure,,
+05/24/19 - 3/20/2020,,,,"Conagra Brands, Inc.",,,,,,,,,100,Boulder,,,,,,,Closure,,
+8/10/2018,,,,Conduent Commercial Solutions LLC,,,,,,,,,410,Pikes Peak,,,,,,,Change in business conditions,,
+12/1/2018,,,,Courtyard Care Center Nursing Home/Family Health West,,,,,,,,,51,Mesa County,,,,,,,Closure,,
+3/6/2018,,,,Covenant Care at Home,,,,,,,,,67,Adams,,,,,,,Closure,,
+2/12/2018,,,,CPI Card Group,,,,,,,,,79,Arapahoe/Douglas,,,,,,,Closure,,
+10/22/2018,,,,Crothall Healthcare/ Patient Transport Dept,,,,,,,,,65,Adams,,,,,,,Cease operations,,
+2/12/2018,,,,Davita Clinical Research,,,,,,,,,41,Jefferson,,,,,,,Other,,
+6/1/2018,,,,Davita Clinical Research,,,,,,,,,41,Jefferson,,,,,,,Closure,,
+5/31/2018,,,,DCT Industrial,,,,,,,,,55-59,Denver,,,,,,,Closure,,
+7/27/2018,,,,Dex YP,,,,,,,,,39,Arapahoe/Douglas,,,,,,,Closure,,
+6/29/2018,,,,Dream Center Education Holdings Inc/The Art Institute,,,,,,,,,160,Denver,,,,,,,Closure,,
+7/20/2018,,,,Dream Center Education Holdings LLC/Art Institute UPDATED to 12/31/18 closure date.,,,,,,,,,160,Denver,,,,,,,Closure,,
+1/2/2018,,,,First Data - Update 1/2/18,,,,,,,,,149,Arapahoe Douglas,,,,,,,Reduction in Force,,
+1/22/2018,,,,Fluor,,,,,,,,,54,Boulder,,,,,,,Other-Loss of Contract,,
+8/1/2018,,,,General Dynamics,,,,,,,,,75,Pikes Peak,,,,,,,Ceasing Operations on a contract,,
+8/22/2018,,,,General Dynamics Update 8-22-18 - Layoff date changed to 12/31/18,,,,,,,,,75,Colorado Springs,,,,,,,Ceasing operations on a contract,,
+2/8/2018,,,,Jackson National Life Insurance Company,,,,,,,,,370,Denver,,,,,,,Closure,,
+8/13/2018,,,,Jackson National Life Insurance Company,,,,,,,,,156,Pikes Peak,,,,,,,Closure,,
+9/28/2018,,,,Media News Group dba Digital First,,,,,,,,,107,Pikes Peak,,,,,,,Downsize,,
+1/26/2018,,,,National Planning Holdings,,,,,,,,,7,Denver,,,,,,,Downsize due to sale,,
+1/15/2018,,,,Northrop Grumman - Update 1/15/18,,,,,,,,,38,Pikes Peak,,,,,,,Other-Loss of Contract,,
+1/2/2018,,,,Northrop Grumman - Updated 1/2/18,,,,,,,,,85,Pikes Peak,,,,,,,Other - Loss of Contract,,
+1/7/19 & 4/6/2020,,,,Peak Reliability,,,,,,,,,69,Larimer,,,,,,,Terminate Operations,,
+4/15/2019,,,,Pura Vida Fitness & Spa,,,,,,,,,134,Denver,,,,,,,Closure,,
+2/6/2018,,,,Sandoz Inc.,,,,,,,,,65,Broomfield,,,,,,,Closure,,
+1/7/19 & 4/6/2020,,,,"Sandoz Inc., A Novartis Division (Update)",,,,,,,,,24,Broomfield,,,,,,,Closure,,
+2/11/2019,,,,Sandoz/Novartis (2nd Wave of Layoffs),,,,,,,,,116,Broomfield,,,,,,,Closure,,
+2/15/2018,,,,Schneider National Carriers Inc.,,,,,,,,,119,Arapahoe/Douglas,,,,,,,Other - Loss of Contract,,
+1/18/2018,,,,Scottrade - Ameritrade,,,,,,,,,63,Adams,,,,,,,Other,,
+5/3/2018,,,,Scottrade - Ameritrade,,,,,,,,,10,Adams,,,,,,,Downsize,,
+2/13/2019,,,,Spectrum Pharmaceuticals,,,,,,,,,3,Denver,,,,,,,Divesting Product line/Sale to Acrotech Biopharma,,
+3/8/2018,,,,St. Mary Corwin Medical Center,,,,,,,,,272,Pueblo,,,,,,,Downsize,,
+1/31/2018,,,,Startek,,,,,,,,,261,Pikes Peak,,,,,,,Downsize,,
+8/17/2018,,,,Startek Inc.,,,,,,,,,186,Weld,,,,,,,Reduction in Force,,
+10/24/2018,,,,The Cheesecake Factory,,,,,,,,,96,Boulder,,,,,,,Closure,,
+1/2/2019,,,,The Inn at Cherry Creek,,,,,,,,,18,Denver,,,,,,,Closure (Temporary 18-24 mo),,
+8/23/2018,,,,Wells Fargo/Consumer Lending Group Home Equity Fullfillment Group,,,,,,,,,53,Pikes Peak,,,,,,,Closure of Unit,,
+3/25/2019,,,,Westrock,,,,,,,,,61,Arapahoe/Douglas,,,,,,,Closure,,
+1/9/2019,,,,"WideOpenWest Networks LLC and WideOpenWest Illinois, LLC",,,,,,,,,203,Colorado Springs,,,,,,,Downsize,,
+7/31/2018,,,,Williams Field Services Group LLC,,,,,,,,,Unknown,Rural (Durango),,,,,,,Selling assets,,
+7/27/2017,,,,All Aboard Transit Services - Resubmission 07/27/2017,,,,,,,,,Unknown - Previous submission 117,Adams,,,,,,,Loss of Contract,,
+10/30/2017,,,,Alorica,,,,,,,,,288,Pikes Peak,,,,,,,Closure,,
+12/4/2017,,,,CA Concessions of Colorado,,,,,,,,,52,Denver,,,,,,,Loss of Contract/Downsize,,
+1/3/2017,,,,Cardon Outreach,,,,,,,,,60,Pikes Peak,,,,,,,Closure,,
+5/19/2017,,,,Conduent Inc.,,,,,,,,,244,Arapahoe Douglas,,,,,,,Downsize,,
+3/30/2017,,,,Dollar Express,,,,,,,,,37,Various,,,,,,,Closure,,
+2/22/2017,,,,Express Scripts,,,,,,,,,338,Pueblo,,,,,,,Closure,,
+10/13/2017,,,,First Data,,,,,,,,,201,Arapahoe Douglas,,,,,,,Reduction in Force,,
+1/2/2018,,,,First Data - Update 1/2/18,,,,,,,,,149,Arapahoe Douglas,,,,,,,Reduction in Force,,
+1/4/2018,,,,K-Mart Corporation Store #04332,,,,,,,,,81,Pikes Peak,,,,,,,Closure,,
+11/1/2017,,,,Lockheed Martin,,,,,,,,,79,Pikes Peak,,,,,,,Reduction in Force,,
+7/25/2017,,,,Multi Packaging Solutions,,,,,,,,,98,Arapahoe Douglas,,,,,,,Closure,,
+11/6/2017,,,,National Ecological Observatory Network dba Battelle Ecology,,,,,,,,,55,Boulder,,,,,,,Reduction in Force,,
+12/14/2017,,,,National Planning Holdings Inc.,,,,,,,,,13,Denver,,,,,,,Sale of business/Reduction in Force,,
+8/30/2017,,,,National Planning Holdings Inc.,,,,,,,,,42,Denver,,,,,,,Sale of business/Reduction in Force,,
+11/2/2017,,,,Northrop Grumman,,,,,,,,,50,Pikes Peak,,,,,,,Reduction in Force,,
+1/2/2018,,,,Northrop Grumman - Updated 1/2/18,,,,,,,,,85,Pikes Peak,,,,,,,Other - Loss of Contract,,
+1/5/2017,,,,Pinnacle Foods,,,,,,,,,27,Boulder,,,,,,,Closure,,
+3/2/2017,,,,Savers,,,,,,,,,62,Arapahoe Douglas,,,,,,,Closure,,
+12/6/2017,,,,TD Ameritrade Holding Corporation,,,,,,,,,84,Adams,,,,,,,Company Reorganization/Downsize,,
+10/10/2017,,,,TD Ameritrade Holding Corporation,,,,,,,,,32,Adams,,,,,,,Company Wide Reorganization,,
+2/15/2017,,,,UnitedHealth Group,,,,,,,,,119,Arapahoe Douglas,,,,,,,Downsize,,
+12/8/2017,,,,UtiliQuest,,,,,,,,,78,Tri-County,,,,,,,Loss of Contract/Closure,,
+6/27/2017,,,,Verizon/XO Communications,,,,,,,,,49,Arapahoe Douglas,,,,,,,Restructuring,,
+2/7/2017,,,,Viavi Solutions Inc.,,,,,,,,,61,Pikes Peak,,,,,,,Corporate Restructuring,,
+1/17/2017,,,,WalMart,,,,,,,,,68,Denver,,,,,,,Closure,,
+6/5/2017,,,,Walmart Store #1208,,,,,,,,,153,Jefferson,,,,,,,Closure,,
+6/5/2017,,,,Walmart Store #3020,,,,,,,,,65,Jefferson,,,,,,,Closure,,
+5/23/2017,,,,Walmart Store #3096,,,,,,,,,74,Boulder,,,,,,,Closure,,
+6/20/2017,,,,XTO Energy Western Div Office,,,,,,,,,113,Arapahoe Douglas,,,,,,,Closure - Move to other Company locations,,
+11/3/2017,,,,Zenith Education Group,,,,,,,,,27,Adams,,,,,,,Closure,,
+11/3/2017,,,,Zenith Education Group,,,,,,,,,26,Pikes Peak,,,,,,,Closure,,
+7/13/2017,,,,Sports Authority - Lone Tree Store,,,,,,,,,70,Arapahoe/Douglas,,,,,,,Closure,,
+12/31/2016,,,,SMA America Production LLC,,,,,,,,,220,Denver,,,,,,,Closure,,
+12/20/2016,,,,Coleman,,,,,,,,,54,Jefferson,,,,,,,Closure,,
+10/21/2016,,,,MV Public Transportation,,,,,,,,,52,Mesa,,,,,,,Closure,,
+10/11/2016,,,,Climax Molybdenum Co - Henderson Mine & Mill - REV #5,,,,,,,,,N/A,Jefferson,,,,,,,Revision,,
+9/16/2016,,,,Swissport,,,,,,,,,187,Denver,,,,,,,Downsize,,
+8/26/2016,,,,Climax Molybdenum Co - Henderson Mine & Mill - REV #4,,,,,,,,,200,Jefferson,,,,,,,Revision,,
+8/26/2016,,,,Sports Authority - Store Support Center,,,,,,,,,144,Arapahoe/Douglas,,,,,,,Closure,,
+8/18/2016,,,,General Dynamics Information Technology,,,,,,,,,60,Pikes Peak/Teller,,,,,,,Ceasing certain operations,,
+8/10/2016,,,,Lake Region Medical - Layoffs 8-10-16,,,,,,,,,60,Jefferson,,,,,,,Closure,,
+8/4/2016,,,,Integra,,,,,,,,,59,Denver,,,,,,,Downsize,,
+7/28/2016,,,,Honeywell Technology Solutions Inc - REV,,,,,,,,,210,Pikes Peak/Teller,,,,,,,Potential Downsize,,
+7/25/2016,,,,Packaging Corporation of America,,,,,,,,,70,Adams,,,,,,,Closure,,
+7/20/2016,,,,Excelsior,,,,,,,,,80,Arapahoe/Douglas,,,,,,,Closure,,
+7/12/2016,,,,Northwest Pipe Company,,,,,,,,,65,Denver,,,,,,,Selling  Company,,
+7/5/2016,,,,CCA- Kit Carson Correctional Facility,,,,,,,,,141,Western,,,,,,,Closure,,
+6/27/2016,,,,Xerox State Healthcare,,,,,,,,,85,Arapahoe/Douglas,,,,,,,Other,,
+6/23/2016,,,,Sports Authority,,,,,,,,,70,Arapahoe/Douglas,,,,,,,Closure,,
+6/15/2016,,,,Sports Authority,,,,,,,,,N/A,Arapahoe/Douglas,,,,,,,Revision,,
+6/14/2016,,,,Climax Molybdenum Co - Henderson Mine & Mill - REV#3,,,,,,,,,N/A,Jefferson,,,,,,,Revision,,
+6/10/2016,,,,Sports Authority,,,,,,,,,N/A,Arapahoe/Douglas,,,,,,,Revision,,
+6/2/2016,,,,Honeywell Technology Solutions Inc.,,,,,,,,,241,Pikes Peak/Teller,,,,,,,Potential Downsize,,
+5/31/2016,,,,Sanjel,,,,,,,,,54,Denver,,,,,,,Closure,,
+5/31/2016,,,,Sanjel,,,,,,,,,101,Weld,,,,,,,Closure,,
+5/25/2016,,,,Sports Authority,,,,,,,,,461,Arapahoe/Douglas,,,,,,,Closing,,
+5/11/2016,,,,Gaiam Inc.,,,,,,,,,34,Boulder,,,,,,,Sale of Company,,
+5/3/2016,,,,DAL Global Services,,,,,,,,,104,Denver,,,,,,,Downsize,,
+4/25/2016,,,,XIO Technologies,,,,,,,,,107,Pikes Peak/Teller,,,,,,,Closure,,
+4/11/2016,,,,Lake Region Medical - Layoffs 4/21 and or 4/24/16,,,,,,,,,19,Jefferson,,,,,,,Closure,,
+4/11/2016,,,,Lake Region Medical - Layoffs 5/19 and/or 5/22/16,,,,,,,,,26,Jefferson,,,,,,,Closure,,
+4/11/2016,,,,Lake Region Medical - Layoffs 5/5 and/or 5/8/16,,,,,,,,,31,Jefferson,,,,,,,Closure,,
+4/11/2016,,,,Lake Region Medical - Layoffs 6/2 and/or 6/5/16,,,,,,,,,28,Jefferson,,,,,,,Closure,,
+4/5/2016,,,,Baxter Healthcare,,,,,,,,,106,Arapahoe/Douglas,,,,,,,Closure,,
+3/31/2016,,,,Xerox Business Services,,,,,,,,,328,Pikes Peak/Teller,,,,,,,Downsize,,
+3/19/2016,,,,Tubular Repair,,,,,,,,,7,Rural Resort,,,,,,,Potential Closure,,
+3/18/2016,,,,Sky Hotel 39 Degrees Recinds Layoffs from 2/5/16 WARN,,,,,,,,,N/A,Rural Resort,,,,,,,N/A,,
+3/15/2016,,,,MYCOM North America,,,,,,,,,2,Arapahoe/Douglas,,,,,,,Closure,,
+3/10/2016,,,,WPX Energy,,,,,,,,,208,Rural Resort,,,,,,,Closure,,
+2/29/2016,,,,Jacobs Technology Inc - ETASS Group.,,,,,,,,,70,Pikes Peak/Teller,,,,,,,Downsize,,
+2/26/2016,,,,Bowie Resources LLC - Bowie Mine #2,,,,,,,,,102,Western,,,,,,,Idle,,
+2/25/2016,,,,Climax Molybdenum Co - Henderson Mine & Mill - REV#2,,,,,,,,,N/A,Jefferson,,,,,,,Downsize,,
+2/23/2016,,,,Sports Authority,,,,,,,,,72,Denver,,,,,,,Closure,,
+2/17/2016,,,,Vail Cascade,,,,,,,,,200,Rural Resort,,,,,,,Job Attached,,
+2/12/2016,,,,Honeywell,,,,,,,,,8,Pikes Peak/Teller,,,,,,,Downsize,,
+2/10/2016,,,,Startek,,,,,,,,,89,Pikes Peak/Teller,,,,,,,Downsize,,
+2/5/2016,,,,Leggett and Platt,,,,,,,,,62,Pikes Peak/Teller,,,,,,,Closure,,
+2/5/2016,,,,Sky Hotel 39 Degrees,,,,,,,,,91,Rural Resort,,,,,,,Closure,,
+2/3/2016,,,,All Web Leads Inc.,,,,,,,,,103,Denver,,,,,,,Closure,,
+1/31/2016,,,,Jones International University,,,,,,,,,28,Arapahoe/Douglas,,,,,,,Closure,,
+1/26/2016,,,,VMWare,,,,,,,,,38,Broomfield,,,,,,,Downsize,,
+1/26/2016,,,,VMWare,,,,,,,,,48,Pikes Peak/Teller,,,,,,,Downsize,,
+1/25/2016,,,,Climax Molybdenum Co - Henderson Mine & Mill - REV#1,,,,,,,,,210,Jefferson,,,,,,,Downsize,,
+1/25/2016,,,,Republic Airways Holdings,,,,,,,,,158,Denver,,,,,,,Closure,,
+1/22/2016,,,,Sprint,,,,,,,,,247,Arapahoe/Douglas,,,,,,,Downsize,,
+1/18/2016,,,,Concentrix,,,,,,,,,348,Boulder,,,,,,,Closure,,
+1/15/2016,,,,Walmart Store #3021,,,,,,,,,65,Arapahoe/Douglas,,,,,,,Closure,,
+1/15/2016,,,,Walmart Store #5002,,,,,,,,,78,Denver,,,,,,,Closure,,
+1/4/2016,,,,Safeway,,,,,,,,,98,Denver,,,,,,,Closure,,
+11/3/2015,,,,Climax Molybdenum Co - Henderson Mine & Mill -,,,,,,,,,200,Jefferson,,,,,,,Job Attached,,
+6/4/2015,,,,Albertsons #632,,,,,,,,,38,Mesa County,,,,,,,Closure,,
+3/24/2015,,,,Albertsons #8584,,,,,,,,,78,Pikes Peak/Teller,,,,,,,Closure,,
+4/27/2015,,,,Ambassadors Group,,,,,,,,,1,Denver,,,,,,,Downsize,,
+9/30/2015,,,,Baker Hughes Inc.,,,,,,,,,17,Adams County,,,,,,,Downsize,,
+8/12/2015,,,,Baker Hughes Inc.,,,,,,,,,124,Adams County,,,,,,,Downsize,,
+11/3/2015,,,,"Baker Hughes, Inc.",,,,,,,,,2,Adams County,,,,,,,Downsize,,
+5/15/2015,,,,Bayou Well Services,,,,,,,,,250,Weld,,,,,,,Downsize,,
+9/30/2015,,,,Bowie Resources LLC,,,,,,,,,78,Western,,,,,,,Downsize,,
+4/3/2015,,,,Capstone Logistics,,,,,,,,,69,Denver,,,,,,,Downsize,,
+11/3/2015,,,,Climax Molybdenum Company,,,,,,,,,200,Jefferson County,,,,,,,Job Attached Layoff,,
+1/30/2015,,,,Corinthian Colleges Inc./Everest College,,,,,,,,,214,Pikes Peak/Teller,,,,,,,Closure,,
+8/4/2015,,,,Curian Capital,,,,,,,,,224,Denver,,,,,,,Closure,,
+7/28/2015,,,,Diamond Wire Material Technologies,,,,,,,,,45,Pikes Peak/Teller,,,,,,,Downsize,,
+9/1/2015,,,,ECMC Group,,,,,,,,,137,Adams County,,,,,,,Downsize,,
+9/15/2015,,,,EOS CCA,,,,,,,,,60,Denver,,,,,,,Closure,,
+11/4/2015,,,,Fidelity Exploration & Production Company,,,,,,,,,106,Denver,,,,,,,Closure,,
+4/30/2015,,,,First Student,,,,,,,,,150,Mesa,,,,,,,Closure,,
+1/16/2015,,,,Frontier Airlines Inc.,,,,,,,,,1152,Denver,,,,,,,Closure,,
+6/25/2015,,,,Intuit,,,,,,,,,59,Arapahoe/Douglas,,,,,,,Downsize,,
+1/2/2015,,,,Iqor Inc.,,,,,,,,,251,Pueblo,,,,,,,Downsize,,
+2/29/2016,,,,Jacobs Technology Inc - ETASS Group.,,,,,,,,,70,Pikes Peak/Teller,,,,,,,Downsize,,
+1/31/2016,,,,Jones International University,,,,,,,,,28,Arapahoe/Douglas,,,,,,,Closure,,
+1/6/2015,,,,K-Mart-Sears Distribution Center,,,,,,,,,103,Adams County,,,,,,,Closure,,
+7/30/2015,,,,KIRA,,,,,,,,,364,Pikes Peak/Teller,,,,,,,Downsize,,
+4/15/2015,,,,Linn Energy,,,,,,,,,52,Denver,,,,,,,Closure,,
+10/23/2015,,,,Lockheed Martin,,,,,,,,,126,Pikes Peak/Teller,,,,,,,Downsize,,
+7/20/2015,,,,Lockheed Martin,,,,,,,,,119,Pikes Peak/Teller,,,,,,,Downsize,,
+7/20/2015,,,,Lockheed Martin,,,,,,,,,130,Pikes Peak/Teller,,,,,,,Downsize,,
+8/6/2015,,,,Lockheed Martin-Rev to 7/20/15 WARN,,,,,,,,,N/A,Pikes Peak/Teller,,,,,,,Downsize,,
+3/25/2015,,,,MMC,,,,,,,,,64,Glendale,,,,,,,Closure,,
+7/31/2015,,,,Moneygram Payment Systems Inc. (MPSI),,,,,,,,,1,Jefferson County,,,,,,,Closure,,
+6/14/2015,,,,Moneygram Payment Systems Inc. (MPSI),,,,,,,,,1,Jefferson County,,,,,,,Closure,,
+5/31/2015,,,,Moneygram Payment Systems Inc. (MPSI),,,,,,,,,1,Jefferson County,,,,,,,Closure,,
+5/17/2015,,,,Moneygram Payment Systems Inc. (MPSI),,,,,,,,,1,Jefferson County,,,,,,,Closure,,
+5/2/2015,,,,Moneygram Payment Systems Inc. (MPSI),,,,,,,,,8,Jefferson County,,,,,,,Closure,,
+5/1/2015,,,,Moneygram Payment Systems Inc. (MPSI),,,,,,,,,1,Jefferson County,,,,,,,Closure,,
+4/30/2015,,,,Moneygram Payment Systems Inc. (MPSI),,,,,,,,,1,Jefferson County,,,,,,,Closure,,
+4/1/2015,,,,Moneygram Payment Systems Inc. (MPSI),,,,,,,,,1,Jefferson County,,,,,,,Closure,,
+3/30/2015,,,,Moneygram Payment Systems Inc. (MPSI),,,,,,,,,4,Jefferson County,,,,,,,Closure,,
+1/27/2015,,,,Moneygram Payment Systems Inc. (MPSI),,,,,,,,,7,Jefferson County,,,,,,,Closure,,
+1/6/2015,,,,Moneygram Payment Systems Inc. (MPSI),,,,,,,,,4,Jefferson County,,,,,,,Closure,,
+5/28/2015,,,,Newfield Exploration Company,,,,,,,,,91,Denver,,,,,,,Closure,,
+7/12/2016,,,,Northwest Pipe Company,,,,,,,,,65,Denver,,,,,,,Closure,,
+8/4/2015,,,,Ouray Silver Mines,,,,,,,,,82,Western,,,,,,,Job Attached Layoff,,
+5/4/2015,,,,Pioneer Natural Resources,,,,,,,,,75,Denver,,,,,,,Closure,,
+5/4/2015,,,,Pioneer Natural Resources - Trinidad,,,,,,,,,102,Southeast,,,,,,,Downsize,,
+8/27/2015,,,,Quad/Graphics,,,,,,,,,151,Various Regions,,,,,,,Closure,,
+9/17/2015,,,,Qualcomm,,,,,,,,,158,Boulder,,,,,,,Downsize,,
+1/4/2016,,,,Safeway,,,,,,,,,98,Denver,,,,,,,Closure,,
+9/25/2015,,,,Select Medical,,,,,,,,,68,Denver,,,,,,,Closure,,
+1/21/2015,,,,Serco-NA,,,,,,,,,69,Pikes Peak/Teller,,,,,,,Downsize,,
+3/16/2015,,,,Sinton Dairy Foods Company/ Borden,,,,,,,,,122,Pikes Peak/Teller,,,,,,,Closure,,
+7/20/2015,,,,Sinton Dairy Foods Company/ Borden-Rev to 3/16/15,,,,,,,,,N/A,Pikes Peak/Teller,,,,,,,Closure,,
+7/1/2015,,,,Sinton Dairy Foods Company/ Borden-Rev to 3/16/15,,,,,,,,,N/A,Pikes Peak/Teller,,,,,,,Closure,,
+5/15/2015,,,,Sinton Dairy Foods Company/ Borden-Rev to 3/16/15,,,,,,,,,N/A,Pikes Peak/Teller,,,,,,,Closure,,
+5/11/2015,,,,Sinton Dairy Foods Company/ Borden-Rev to 3/16/15,,,,,,,,,N/A,Pikes Peak/Teller,,,,,,,Closure,,
+1/22/2016,,,,Sprint,,,,,,,,,247,Arapahoe/Douglas,,,,,,,Downsize,,
+2/10/2015,,,,Staples,,,,,,,,,59,Arapahoe/Douglas,,,,,,,Closure,,
+11/13/2015,,,,Target Corporation - TCC Cooking Company LLC,,,,,,,,,241,Pikes Peak/Teller,,,,,,,Closure,,
+2/17/2015,,,,Trulia,,,,,,,,,33,Denver,,,,,,,Other,,
+11/16/2015,,,,Union Pacific Company,,,,,,,,,300,Denver,,,,,,,Closure,,
+7/6/2015,,,,Urban Fulfillment,,,,,,,,,265,Jefferson County,,,,,,,Closure,,
+7/17/2015,,,,UTI,,,,,,,,,10,Pikes Peak/Teller,,,,,,,Closure,,
+1/26/2016,,,,VMWare,,,,,,,,,38,Broomfield,,,,,,,Downsize,,
+1/26/2016,,,,VMWare,,,,,,,,,48,Pikes Peak/Teller,,,,,,,Downsize,,
+1/15/2016,,,,Walmart Store #3021,,,,,,,,,65,Arapahoe/Douglas,,,,,,,Closure,,
+1/15/2016,,,,Walmart Store #5002,,,,,,,,,78,Denver,,,,,,,Closure,,
+9/2/2015,,,,Western Forge,,,,,,,,,150,Pikes Peak/Teller,,,,,,,Downsize,,
+3/2/2015,,,,WPX Energy,,,,,,,,,142,Denver,,,,,,,Closure,,
+11/30/2015,,,,WPX Energy-Rev to 3/2/15,,,,,,,,,2,Denver,,,,,,,Closure,,
+7/9/2015,,,,WPX Energy-Rev to 3/2/15,,,,,,,,,91,Denver,,,,,,,Closure,,
+4/29/2015,,,,Zenith Education Group,,,,,,,,,152,Adams County,,,,,,,Downsize,,
