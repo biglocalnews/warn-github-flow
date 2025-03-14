@@ -172,6 +172,14 @@
     </div>
 </noscript>
 
+<script type="text/javascript">
+ $(document).ready(function () {
+   if(window.location.href.indexOf("cpa") > -1 ) {
+   $("#laboralert").prepend('<div role="alert" aria-live="polite" class="alert alert-dismissible alert-warning" tabindex="-1"><div class="alert-icon"><i class="fas fa-exclamation-triangle" aria-hidden="true"></i></div><div class="alert-text"> <p><b>Due to temporary technical challenges, the Board of Public Accountancy is currently unable to fulfill requests for original or duplicate wall certificates.</b><br>This applies to licensees who obtained their Maryland CPA License during or after September 2024, as well as those who requested a duplicate wall certificate, or CPA\'s who mailed their original certificates back in due to an error, during the same period. While resolving the technical issue requires the assistance and support of third parties and other external factors, the Board will provide all relevant updates here on the homepage of our website. Once resolved, requests will be fulfilled in chronological order beginning with those submitted in September 2024.</p></div></div>');
+  }
+});
+</script>
+
 <div id="laboralert"></div>
 		
 </div>
