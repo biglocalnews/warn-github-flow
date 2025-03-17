@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "37fb04b74d2e4b09de33c954bc44f3e050802ee501b334245635d5333157f456"
+            "sha256": "dfe72e06d91d06a59559b5c68795a33e282a2761e1cf3794c4567e7f3e4e14c9"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -233,7 +233,7 @@
                 "sha256:08695f5cb7ed6e0531a20572697297273c47b8cae5a63ffc6d6ed5c201be6e44",
                 "sha256:4f1d9991f5acc0ca119f9d443620b77f9d6b33703e51011c16baf57afb285fc6"
             ],
-            "markers": "platform_system == 'Windows'",
+            "markers": "python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3, 3.4, 3.5, 3.6'",
             "version": "==0.4.6"
         },
         "cryptography": {
@@ -275,11 +275,11 @@
         },
         "decorator": {
             "hashes": [
-                "sha256:637996211036b6385ef91435e4fae22989472f9d571faba8927ba8253acbc330",
-                "sha256:b8c3f85900b9dc423225913c5aace94729fe1fa9763b38939a95226f02d37186"
+                "sha256:65f266143752f734b0a7cc83c46f4618af75b8c5911b00ccb61d0ac9b6da0360",
+                "sha256:d316bb415a2d9e2d2b3abcc4084c6502fc09240e292cd76a76afc106a1c8e04a"
             ],
-            "markers": "python_version >= '3.5'",
-            "version": "==5.1.1"
+            "markers": "python_version >= '3.8'",
+            "version": "==5.2.1"
         },
         "et-xmlfile": {
             "hashes": [
@@ -710,11 +710,11 @@
         },
         "warn-transformer": {
             "hashes": [
-                "sha256:ad2b80a0ebe1b05566d47b8334e52ca060df76a1f092476726041a84ead587d0",
-                "sha256:fc7283b35a5a343b6b237d6a0b3866048a581a245687c2f9d66fc08e3ca9e0e9"
+                "sha256:50ef8ff83ae204311a2931e9206b08c7f392e4bf29d62bc7c85582a51c4565e3",
+                "sha256:a58715a2f596fa9da5d6c2ee8cd08d558487fe3cae042fc466510c6b97449ee5"
             ],
             "index": "pypi",
-            "version": "==1.3.208"
+            "version": "==1.3.214"
         },
         "webdriver-manager": {
             "hashes": [
