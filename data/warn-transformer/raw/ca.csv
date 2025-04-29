@@ -1170,6 +1170,9 @@ notice_date,effective_date,received_date,company,city,num_employees,layoff_or_cl
 04/14/2025,06/14/2025,04/15/2025,"Jones Lang LaSalle Americas, Inc.",,64,Layoff Permanent,Tulare County,8817 W Kibler Ave.  Visalia CA 93291,warn_report1.xlsx
 04/16/2025,06/16/2025,04/16/2025,"GMRI, Inc. d/b/a Eddie V's",,61,Closure Permanent,Orange County,1370 Bison Avenue  Newport Beach CA 92660,warn_report1.xlsx
 04/16/2025,06/15/2025,04/16/2025,"Case Paper Co., Inc.",,18,Closure Permanent,San Bernardino County,9168 Hermosa Avenue  Rancho Cucamonga CA 91730,warn_report1.xlsx
+04/16/2025,04/16/2025,04/17/2025,"Cruise, LLC - 333",,14,Layoff Permanent,San Francisco County,333 Brannan Street  San Francisco CA 94107,warn_report1.xlsx
+04/16/2025,04/16/2025,04/17/2025,"Cruise, LLC - 1201",,9,Layoff Permanent,San Francisco County,1201 Bryant Street  San Francisco CA 94103,warn_report1.xlsx
+04/16/2025,04/16/2025,04/17/2025,"Cruise, LLC - 840",,1,Layoff Permanent,Santa Clara County,840 W California Avenue  Sunnyvale CA 94086,warn_report1.xlsx
 04/17/2025,06/16/2025,04/17/2025,"Illumina, Inc. Worldwide Headquarters",,172,Layoff Permanent,San Diego County,5200 Illumina Way  San Diego CA 92122,warn_report1.xlsx
 04/07/2025,04/25/2025,04/17/2025,"Stem, Inc.",,4,Closure Permanent,San Francisco County,4 Embarcadero Center  San Francisco CA 94111,warn_report1.xlsx
 04/11/2025,06/30/2025,04/17/2025,The Coca-Cola Company,,135,Closure Permanent,Napa County,120 Commerce Blvd.  American Canyon CA 94503,warn_report1.xlsx
@@ -1184,12 +1187,12 @@ notice_date,effective_date,received_date,company,city,num_employees,layoff_or_cl
 04/15/2025,05/03/2025,04/21/2025,Boston Scientific Corporation,,63,Closure Permanent,Santa Clara County,1213 Innsbruck Drive  Sunnyvale CA 94089,warn_report1.xlsx
 04/21/2025,06/23/2025,04/21/2025,B&P Plastics DBA Advance Plastics,,77,Closure Permanent,San Diego County,225 West 30th Street  National City CA 91950,warn_report1.xlsx
 04/21/2025,05/01/2025,04/22/2025,Blue Shield of California,,24,Layoff Permanent,Alameda County,601 12th St  Oakland CA 94607,warn_report1.xlsx
-04/21/2025,05/01/2025,04/22/2025,Blue Shield of California,,17,Layoff Permanent,El Dorado County,"4203 Town Center Blvd., Building C  El Dorado Hills CA 95762",warn_report1.xlsx
-04/21/2025,05/01/2025,04/22/2025,Blue Shield of California,,18,Layoff Permanent,El Dorado County,"4205 Town Center Blvd., Building B  El Dorado Hills CA 95762",warn_report1.xlsx
+04/21/2025,05/01/2025,04/22/2025,Blue Shield of California _ Building C,,17,Layoff Permanent,El Dorado County,"4203 Town Center Blvd., Building C  El Dorado Hills CA 95762",warn_report1.xlsx
+04/21/2025,05/01/2025,04/22/2025,Blue Shield of California _ Building B,,18,Layoff Permanent,El Dorado County,"4205 Town Center Blvd., Building B  El Dorado Hills CA 95762",warn_report1.xlsx
 04/21/2025,05/01/2025,04/22/2025,Blue Shield of California,,16,Layoff Permanent,Los Angeles County,3840 Kilroy Airport Way  Long Beach CA 90806,warn_report1.xlsx
 04/21/2025,05/01/2025,04/22/2025,Blue Shield of California,,10,Layoff Permanent,Los Angeles County,6300 Canoga Avenue  Woodland Hills CA 91367,warn_report1.xlsx
-04/21/2025,05/01/2025,04/22/2025,Blue Shield of California,,10,Layoff Permanent,Sacramento County,"3300 Zinfandel Drive, Building A  Rancho Cordova CA 95670",warn_report1.xlsx
-04/21/2025,05/01/2025,04/22/2025,Blue Shield of California,,3,Layoff Permanent,Sacramento County,"3300 Zinfandel Drive, Building B  Rancho Cordova CA 95670",warn_report1.xlsx
+04/21/2025,05/01/2025,04/22/2025,Blue Shield of California _ Building A,,10,Layoff Permanent,Sacramento County,"3300 Zinfandel Drive, Building A  Rancho Cordova CA 95670",warn_report1.xlsx
+04/21/2025,05/01/2025,04/22/2025,Blue Shield of California _ Building B,,3,Layoff Permanent,Sacramento County,"3300 Zinfandel Drive, Building B  Rancho Cordova CA 95670",warn_report1.xlsx
 04/21/2025,05/01/2025,04/22/2025,Blue Shield of California,,5,Layoff Permanent,San Diego County,"3131 Camino Del Rio, Suite #1300  San Diego CA 92108",warn_report1.xlsx
 04/21/2025,05/01/2025,04/22/2025,Blue Shield of California,,7,Layoff Permanent,San Joaquin County,3021 Reynolds Ranch Parkway  Lodi CA 95240,warn_report1.xlsx
 04/21/2025,05/01/2025,04/22/2025,Blue Shield of California,,3,Layoff Permanent,Shasta County,4700 Bechelli Lane  Redding CA 92108,warn_report1.xlsx
@@ -1198,24 +1201,48 @@ notice_date,effective_date,received_date,company,city,num_employees,layoff_or_cl
 04/17/2025,06/16/2025,04/22/2025,"Bronco Wine Company, Bivio Transport and Logistics Company, LLC an WC Ag Services, Inc.",,146,Layoff Permanent,Stanislaus County,6342 Bysrum Rd.  Ceres CA 95307,warn_report1.xlsx
 04/17/2025,06/16/2025,04/22/2025,"Barrel Ten Quarter Circle, Inc.",,8,Layoff Permanent,Napa County,33 Harlow Ct.  Napa CA 94558,warn_report1.xlsx
 04/22/2025,06/15/2026,04/23/2025,"Spreckels Sugar Company, Inc.",,394,Closure Permanent,Imperial County,395 W Keystone Road  Brawley CA 92227,warn_report1.xlsx
-04/21/2025,04/21/2025,04/23/2025,Kaiser Foundation Hospitals,,14,Layoff Permanent,Alameda County,One Kaiser Plaza  Oakland CA 94612,warn_report1.xlsx
-04/21/2025,04/21/2025,04/23/2025,Kaiser Foundation Hospitals,,1,Layoff Permanent,Alameda County,5820 Owens Dr.  Pleasanton CA 94588,warn_report1.xlsx
-04/21/2025,04/21/2025,04/23/2025,Kaiser Foundation Hospitals,,1,Layoff Permanent,Alameda County,1950 Franklin Street  Oakland CA 94612,warn_report1.xlsx
-04/21/2025,04/21/2025,04/23/2025,Kaiser Foundation Hospitals,,1,Layoff Permanent,Los Angeles County,9400 Rosecrans Avenue  Bellflower CA 90706,warn_report1.xlsx
-04/21/2025,04/21/2025,04/23/2025,Kaiser Foundation Hospitals,,2,Layoff Permanent,Los Angeles County,1515 N. Vermont Avenue  Los Angeles CA 90027,warn_report1.xlsx
-04/21/2025,04/21/2025,04/23/2025,Kaiser Foundation Hospitals,,1,Layoff Permanent,Los Angeles County,6041 Cadillac Avenue  Los Angeles CA 90034,warn_report1.xlsx
-04/21/2025,04/21/2025,04/23/2025,Kaiser Foundation Hospitals,,4,Layoff Permanent,Los Angeles County,9521 Dalen Street  Downey CA 90242,warn_report1.xlsx
-04/21/2025,04/21/2025,04/23/2025,Kaiser Foundation Hospitals,,2,Layoff Permanent,Los Angeles County,9333 Imperial Highway  Downey CA 90242,warn_report1.xlsx
-04/21/2025,04/21/2025,04/23/2025,Kaiser Foundation Hospitals,,7,Layoff Permanent,Los Angeles County,393 E.  Walnut Street  Pasadena CA 91188,warn_report1.xlsx
-04/21/2025,04/21/2025,04/23/2025,Kaiser Foundation Hospitals,,1,Layoff Permanent,Los Angeles County,199 S. Los Robles  Pasadena CA 91101,warn_report1.xlsx
-04/21/2025,04/21/2025,04/23/2025,Kaiser Foundation Hospitals,,3,Layoff Permanent,Los Angeles County,99 S. Oakland Avenue  Pasadena CA 91101,warn_report1.xlsx
-04/21/2025,04/21/2025,04/23/2025,Kaiser Foundation Hospitals,,1,Layoff Permanent,Los Angeles County,5601 De Soto Avenue  Woodland Hills CA 91367,warn_report1.xlsx
-04/21/2025,04/21/2025,04/23/2025,Kaiser Foundation Hospitals,,2,Layoff Permanent,Solano County,975 Sereno Dr.  Vallejo CA 94589,warn_report1.xlsx
+04/21/2025,04/21/2025,04/23/2025,Kaiser Foundation Hospitals - 94612,,14,Layoff Permanent,Alameda County,One Kaiser Plaza  Oakland CA 94612,warn_report1.xlsx
+04/21/2025,04/21/2025,04/23/2025,Kaiser Foundation Hospitals - 94588,,1,Layoff Permanent,Alameda County,5820 Owens Dr.  Pleasanton CA 94588,warn_report1.xlsx
+04/21/2025,04/21/2025,04/23/2025,Kaiser Foundation Hospitals - 94612,,1,Layoff Permanent,Alameda County,1950 Franklin Street  Oakland CA 94612,warn_report1.xlsx
+04/21/2025,04/21/2025,04/23/2025,Kaiser Foundation Hospitals - 90706,,1,Layoff Permanent,Los Angeles County,9400 Rosecrans Avenue  Bellflower CA 90706,warn_report1.xlsx
+04/21/2025,04/21/2025,04/23/2025,Kaiser Foundation Hospitals 90027,,2,Layoff Permanent,Los Angeles County,1515 N. Vermont Avenue  Los Angeles CA 90027,warn_report1.xlsx
+04/21/2025,04/21/2025,04/23/2025,Kaiser Foundation Hospitals - 90034,,1,Layoff Permanent,Los Angeles County,6041 Cadillac Avenue  Los Angeles CA 90034,warn_report1.xlsx
+04/21/2025,04/21/2025,04/23/2025,Kaiser Foundation Hospitals - 90242,,4,Layoff Permanent,Los Angeles County,9521 Dalen Street  Downey CA 90242,warn_report1.xlsx
+04/21/2025,04/21/2025,04/23/2025,Kaiser Foundation Hospitals - 90242,,2,Layoff Permanent,Los Angeles County,9333 Imperial Highway  Downey CA 90242,warn_report1.xlsx
+04/21/2025,04/21/2025,04/23/2025,Kaiser Foundation Hospitals - 91188,,7,Layoff Permanent,Los Angeles County,393 E.  Walnut Street  Pasadena CA 91188,warn_report1.xlsx
+04/21/2025,04/21/2025,04/23/2025,Kaiser Foundation Hospitals - 91101,,1,Layoff Permanent,Los Angeles County,199 S. Los Robles  Pasadena CA 91101,warn_report1.xlsx
+04/21/2025,04/21/2025,04/23/2025,Kaiser Foundation Hospitals - 91101,,3,Layoff Permanent,Los Angeles County,99 S. Oakland Avenue  Pasadena CA 91101,warn_report1.xlsx
+04/21/2025,04/21/2025,04/23/2025,Kaiser Foundation Hospitals - 91367,,1,Layoff Permanent,Los Angeles County,5601 De Soto Avenue  Woodland Hills CA 91367,warn_report1.xlsx
+04/21/2025,04/21/2025,04/23/2025,Kaiser Foundation Hospitals - 94589,,2,Layoff Permanent,Solano County,975 Sereno Dr.  Vallejo CA 94589,warn_report1.xlsx
 04/23/2025,07/01/2025,04/23/2025,"MMCI Acquisition, LLC dba Mortech Manufacturing Company",,19,Closure Permanent,Los Angeles County,411 Aerojet Avenue  Azusa CA 91702,warn_report1.xlsx
 04/23/2025,06/30/2025,04/23/2025,"TransitAmerica Services, Inc.",,17,Layoff Permanent,San Bernardino County,"9130 Anaheim Place, Suite 230  Rancho Cucamonga CA 91730",warn_report1.xlsx
 04/10/2025,06/20/2025,04/23/2025,RTX,,1,Layoff Permanent,Los Angeles County,2022 East El Segundo Boulevard  El Segundo CA 90245,warn_report1.xlsx
 04/10/2025,06/20/2025,04/23/2025,RTX,,2,Layoff Permanent,Los Angeles County,2000 East El Segundo Boulevard Building E01  El Segundo CA 90245,warn_report1.xlsx
 04/10/2025,06/20/2025,04/23/2025,RTX,,1,Layoff Permanent,Los Angeles County,2006 East El Segundo Boulevard Building E04  El Segundo CA 90245,warn_report1.xlsx
+04/23/2025,06/22/2025,04/24/2025,Metropolitan Animal Specialty Hospital,,187,Closure Permanent,Los Angeles County,6565 Santa Monica Boulevard  Los Angeles CA 90038,warn_report1.xlsx
+04/23/2025,06/22/2025,04/24/2025,Metropolitan Animal Specialty Hospital,,3,Closure Permanent,Los Angeles County,1120 North Hudson Avenue  Los Angeles CA 90038,warn_report1.xlsx
+04/23/2025,06/22/2025,04/24/2025,Metropolitan Animal Specialty Hospital,,3,Closure Permanent,Los Angeles County,1122 North Hudson Avenue  Los Angeles CA 90038,warn_report1.xlsx
+04/23/2025,06/22/2025,04/24/2025,Metropolitan Animal Specialty Hospital,,2,Closure Permanent,Los Angeles County,6567-6585 Santa Monica Boulevard  Los Angeles CA 90038,warn_report1.xlsx
+04/23/2025,06/22/2025,04/24/2025,Metropolitan Animal Specialty Hospital,,1,Closure Permanent,Los Angeles County,6611 Santa Monica Boulevard  Los Angeles CA 90038,warn_report1.xlsx
+04/18/2025,06/17/2025,04/24/2025,"Primo Brands, Inc.",,33,Closure Permanent,Los Angeles County,"4500 York Blvd., Building C  Los Angeles CA 90041",warn_report1.xlsx
+04/18/2025,06/17/2025,04/24/2025,"Primo Brands, Inc.",,11,Closure Permanent,Los Angeles County,1449 N. Avenue 46  Los Angeles CA 90041,warn_report1.xlsx
+04/24/2025,06/27/2025,04/24/2025,Centene Management Company,,10,Closure Permanent,Los Angeles County,3302 Garfield Avenue  Los Angeles CA 90040,warn_report1.xlsx
+04/24/2025,06/24/2025,04/24/2025,Raytheon,,97,Layoff Permanent,Los Angeles County,2000 E El Segundo Blvd  El Segundo CA 90245,warn_report1.xlsx
+04/24/2025,06/27/2025,04/25/2025,The Model Z Modular LLC,,102,Layoff Permanent,Los Angeles County,740 E 111TH PL.  Los Angeles CA 90059,warn_report1.xlsx
+04/25/2025,06/30/2025,04/25/2025,PULAU Corporation,,1,Layoff Permanent,San Bernardino County,"Building 1308, 2nd Street  Fort Irwin CA 92310",warn_report1.xlsx
+04/25/2025,06/30/2025,04/25/2025,PULAU Corporation,,17,Layoff Permanent,San Bernardino County,"Building 650A, 5th Street  Fort Irwin CA 92310",warn_report1.xlsx
+04/25/2025,06/30/2025,04/25/2025,PULAU Corporation,,25,Layoff Permanent,San Bernardino County,"Building 820, 5th Street  Fort Irwin CA 92310",warn_report1.xlsx
+04/25/2025,06/30/2025,04/25/2025,PULAU Corporation,,8,Layoff Permanent,San Bernardino County,Building 6222 Barstow Road  Fort Irwin CA 92310,warn_report1.xlsx
+04/25/2025,06/30/2025,04/25/2025,PULAU Corporation,,3,Layoff Permanent,San Bernardino County,GMDT on Avenue B  Fort Irwin CA 92310,warn_report1.xlsx
+04/25/2025,06/30/2025,04/25/2025,PULAU Corporation,,43,Layoff Permanent,San Bernardino County,Building 827 South Loop Road  Fort Irwin CA 92310,warn_report1.xlsx
+04/25/2025,06/30/2025,04/25/2025,PULAU Corporation,,4,Layoff Permanent,San Bernardino County,Building 863 Depot Road  Fort Irwin CA 92310,warn_report1.xlsx
+04/25/2025,06/30/2025,04/25/2025,PULAU Corporation,,32,Layoff Permanent,San Bernardino County,Building 891 5th Street  Fort Irwin CA 92310,warn_report1.xlsx
+04/25/2025,06/30/2025,04/28/2025,"Building Robotics, Inc.",,48,Closure Permanent,Alameda County,46897 Bayside Parkway  Fremont CA 94538,warn_report1.xlsx
+04/28/2025,06/30/2025,04/28/2025,MV Transportation,,19,Layoff Permanent,Monterey County,4512 Joe Lloyd Way  Seaside CA 93955,warn_report1.xlsx
+04/28/2025,06/30/2025,04/28/2025,MV Transportation,,81,Layoff Permanent,Monterey County,4499 Joe Lloyd Way  Seaside CA 93955,warn_report1.xlsx
+04/28/2025,06/30/2025,04/28/2025,T. Marzetti,,78,Closure Permanent,Santa Clara County,876 Yosemite Drive  Milpitas CA 95035,warn_report1.xlsx
+04/28/2025,06/27/2025,04/28/2025,"Primo Brands, Inc.",,51,Closure Permanent,Santa Clara County,485 Vista Way  Milpitas CA 95035,warn_report1.xlsx
+04/28/2025,06/28/2025,04/28/2025,Cardinal,,45,Layoff Permanent,San Bernardino County,1800 S. Wineville Ave  Ontario CA 91761,warn_report1.xlsx
 04/25/2023,09/02/2023,07/03/2023,"David&rsquo;s Bridal, LLC",,29,Layoff Permanent,Contra Costa County,,warn-report-for-7-1-2023-to-06-30-2024.pdf
 04/25/2023,09/02/2023,07/03/2023,"David&rsquo;s Bridal, LLC",,31,Layoff Permanent,Fresno County,,warn-report-for-7-1-2023-to-06-30-2024.pdf
 04/25/2023,09/02/2023,07/03/2023,"David&rsquo;s Bridal, LLC",,47,Layoff Permanent,Placer County,,warn-report-for-7-1-2023-to-06-30-2024.pdf
