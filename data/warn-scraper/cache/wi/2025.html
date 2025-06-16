@@ -328,8 +328,8 @@ if(window.location.href.indexOf("acc.") == -1){
 			<div class="col-6 col-md-3 order-2">
 				<ul class="mb-1">
 					<li><a href="/dwd/admin-rules/">Administrative Rules</a></li>
+					<li><a href="https://wi.accessgov.com/dwd-ext/Forms/Page/8bebfc6d-5e59-4093-81a4-b4f52e713411/adm-20015-e/">Invite DWD to Your Event</a></li>
 					<li><a href="/jobs/">Jobs at DWD</a></li>
-					
 					<li><a href="https://www.wisconsin.gov/Pages/Policies.aspx">Legal/Acceptable Use</a></li>
 					<li><a href="/mywisconsinid/">MyWisconsin ID</a></li>
 					<li><a href="/news/">News</a></li>
@@ -344,7 +344,6 @@ if(window.location.href.indexOf("acc.") == -1){
 					<li><a href="/dwd/staff-partners.htm">Staff & Partners</a></li>
 					<li><a href="https://stateempdir.wi.gov/">State Employee Directory</a></li>
 					<li><a href="mailto:webfeed@dwd.wisconsin.gov">Website Support</a></li>
-					
 				</ul>
 				<div id="google_translate_element" class="w-auto"></div>
 				<a href="#" data-bs-toggle="modal" data-bs-target="#translate-disclaimer" style="font-size:11px;">Translation Disclaimer</a>
@@ -422,7 +421,7 @@ if(window.location.href.indexOf("acc.") == -1){
 <script type="text/javascript">
 			
 		function googleTranslateElementInit() {
-		  new google.translate.TranslateElement({pageLanguage: 'auto'}, 'google_translate_element');
+		  new google.translate.TranslateElement({pageLanguage: 'auto', title: 'tester', autoDisplay: false}, 'google_translate_element');
 		}
 
 </script>
@@ -435,9 +434,37 @@ if(window.location.href.indexOf("acc.") == -1){
 	$("body").on("change", "#google_translate_element select", function (e) {
 		var disclaimerModal = $('#translate-disclaimer');
 		bsModal = new bootstrap.Modal(disclaimerModal);
-		checkPopupCookie();		
+		checkPopupCookie();	
 	});
+	
+	function setTranslateIframeTitle() {
+		// Select iframe with an ID that ends with `.container`
+		const iframe = document.querySelector('iframe[id$=".container"]');
+		if (iframe) {
+		  iframe.setAttribute('title', 'Google Translate language selection');
+		  iframe.setAttribute('aria-label', 'Google Translate language selection');
+		}
+	  }
+	 
+	  function observeForIframe() {
+		const observer = new MutationObserver((mutations, obs) => {
+		  const iframe = document.querySelector('iframe[id$=".container"]');
+		  if (iframe) {
+			setTranslateIframeTitle();
+			obs.disconnect(); // Stop watching once done
+		  }
+		});
+	 
+		observer.observe(document.body, {
+		  childList: true,
+		  subtree: true
+		});
+	  }
+	 
+	  document.addEventListener('DOMContentLoaded', observeForIframe);
+		
 </script>
+
 
 
 
