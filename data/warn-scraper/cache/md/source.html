@@ -172,7 +172,13 @@
     </div>
 </noscript>
 
-
+<script type="text/javascript">
+ $(document).ready(function () {
+   if((window.location.href.indexOf("license") > -1) || (window.location.href.indexOf("pq") > -1))  {
+   $("#laboralert").prepend('<div role="alert" aria-live="polite" class="alert alert-dismissible alert-warning" tabindex="-1"><div class="alert-icon"><i class="fas fa-exclamation-triangle" aria-hidden="true"></i></div><div class="alert-text"> <p>The payment processing vendor for the E-Licensing system is experiencing a problem with debit/check card holders who are attempting to use a debit/check to complete their transaction. If possible, please use a credit card to complete your transaction. The payment processor is actively working to resolve the issue for debit/check card holders. We apologize for the inconvenience and appreciate your patience as we work through this.</p></div></div>');
+  }
+});
+</script>
 
 <div id="laboralert"></div>
 		
