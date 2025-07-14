@@ -2,14 +2,12 @@
 <html class='no-js' lang='en'>
 <head>
 <meta charset='utf-8'>
-<script>window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"NRJS-771174c03df2d515310","applicationID":"1113022817","transactionName":"cw0IQxAOXQhSRxZHVlEQBV9NFlAWWWpVW1xbFxZoEQRQFlRdXEccQwoJQA==","queueTime":0,"applicationTime":67,"agent":""}</script>
-<script>(window.NREUM||(NREUM={})).init={ajax:{deny_list:["bam.nr-data.net"]}};(window.NREUM||(NREUM={})).loader_config={licenseKey:"NRJS-771174c03df2d515310",applicationID:"1113022817"};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var i=e[n]={exports:{}};t[n][0].call(i.exports,function(e){var i=t[n][1][e];return r(i||e)},i,i.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var i=0;i<n.length;i++)r(n[i]);return r}({1:[function(t,e,n){function r(){}function i(t,e,n,r){return function(){return s.recordSupportability("API/"+e+"/called"),o(t+e,[u.now()].concat(c(arguments)),n?null:this,r),n?void 0:this}}var o=t("handle"),a=t(10),c=t(11),f=t("ee").get("tracer"),u=t("loader"),s=t(4),d=NREUM;"undefined"==typeof window.newrelic&&(newrelic=d);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",v=l+"ixn-";a(p,function(t,e){d[e]=i(l,e,!0,"api")}),d.addPageAction=i(l,"addPageAction",!0),d.setCurrentRouteName=i(l,"routeName",!0),e.exports=newrelic,d.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(t,e){var n={},r=this,i="function"==typeof e;return o(v+"tracer",[u.now(),t,n],r),function(){if(f.emit((i?"":"no-")+"fn-start",[u.now(),r,i],n),i)try{return e.apply(this,arguments)}catch(t){throw f.emit("fn-err",[arguments,this,t],n),t}finally{f.emit("fn-end",[u.now()],n)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,e){m[e]=i(v,e)}),newrelic.noticeError=function(t,e){"string"==typeof t&&(t=new Error(t)),s.recordSupportability("API/noticeError/called"),o("err",[t,u.now(),!1,e])}},{}],2:[function(t,e,n){function r(t){if(NREUM.init){for(var e=NREUM.init,n=t.split("."),r=0;r<n.length-1;r++)if(e=e[n[r]],"object"!=typeof e)return;return e=e[n[n.length-1]]}}e.exports={getConfiguration:r}},{}],3:[function(t,e,n){var r=!1;try{var i=Object.defineProperty({},"passive",{get:function(){r=!0}});window.addEventListener("testPassive",null,i),window.removeEventListener("testPassive",null,i)}catch(o){}e.exports=function(t){return r?{passive:!0,capture:!!t}:!!t}},{}],4:[function(t,e,n){function r(t,e){var n=[a,t,{name:t},e];return o("storeMetric",n,null,"api"),n}function i(t,e){var n=[c,t,{name:t},e];return o("storeEventMetrics",n,null,"api"),n}var o=t("handle"),a="sm",c="cm";e.exports={constants:{SUPPORTABILITY_METRIC:a,CUSTOM_METRIC:c},recordSupportability:r,recordCustom:i}},{}],5:[function(t,e,n){function r(){return c.exists&&performance.now?Math.round(performance.now()):(o=Math.max((new Date).getTime(),o))-a}function i(){return o}var o=(new Date).getTime(),a=o,c=t(12);e.exports=r,e.exports.offset=a,e.exports.getLastTimestamp=i},{}],6:[function(t,e,n){function r(t){return!(!t||!t.protocol||"file:"===t.protocol)}e.exports=r},{}],7:[function(t,e,n){function r(t,e){var n=t.getEntries();n.forEach(function(t){"first-paint"===t.name?l("timing",["fp",Math.floor(t.startTime)]):"first-contentful-paint"===t.name&&l("timing",["fcp",Math.floor(t.startTime)])})}function i(t,e){var n=t.getEntries();if(n.length>0){var r=n[n.length-1];if(u&&u<r.startTime)return;var i=[r],o=a({});o&&i.push(o),l("lcp",i)}}function o(t){t.getEntries().forEach(function(t){t.hadRecentInput||l("cls",[t])})}function a(t){var e=navigator.connection||navigator.mozConnection||navigator.webkitConnection;if(e)return e.type&&(t["net-type"]=e.type),e.effectiveType&&(t["net-etype"]=e.effectiveType),e.rtt&&(t["net-rtt"]=e.rtt),e.downlink&&(t["net-dlink"]=e.downlink),t}function c(t){if(t instanceof y&&!w){var e=Math.round(t.timeStamp),n={type:t.type};a(n),e<=v.now()?n.fid=v.now()-e:e>v.offset&&e<=Date.now()?(e-=v.offset,n.fid=v.now()-e):e=v.now(),w=!0,l("timing",["fi",e,n])}}function f(t){"hidden"===t&&(u=v.now(),l("pageHide",[u]))}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var u,s,d,p,l=t("handle"),v=t("loader"),m=t(9),g=t(3),y=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){s=new PerformanceObserver(r);try{s.observe({entryTypes:["paint"]})}catch(h){}d=new PerformanceObserver(i);try{d.observe({entryTypes:["largest-contentful-paint"]})}catch(h){}p=new PerformanceObserver(o);try{p.observe({type:"layout-shift",buffered:!0})}catch(h){}}if("addEventListener"in document){var w=!1,b=["click","keydown","mousedown","pointerdown","touchstart"];b.forEach(function(t){document.addEventListener(t,c,g(!1))})}m(f)}},{}],8:[function(t,e,n){function r(t,e){if(!i)return!1;if(t!==i)return!1;if(!e)return!0;if(!o)return!1;for(var n=o.split("."),r=e.split("."),a=0;a<r.length;a++)if(r[a]!==n[a])return!1;return!0}var i=null,o=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var c=navigator.userAgent,f=c.match(a);f&&c.indexOf("Chrome")===-1&&c.indexOf("Chromium")===-1&&(i="Safari",o=f[1])}e.exports={agent:i,version:o,match:r}},{}],9:[function(t,e,n){function r(t){function e(){t(c&&document[c]?document[c]:document[o]?"hidden":"visible")}"addEventListener"in document&&a&&document.addEventListener(a,e,i(!1))}var i=t(3);e.exports=r;var o,a,c;"undefined"!=typeof document.hidden?(o="hidden",a="visibilitychange",c="visibilityState"):"undefined"!=typeof document.msHidden?(o="msHidden",a="msvisibilitychange"):"undefined"!=typeof document.webkitHidden&&(o="webkitHidden",a="webkitvisibilitychange",c="webkitVisibilityState")},{}],10:[function(t,e,n){function r(t,e){var n=[],r="",o=0;for(r in t)i.call(t,r)&&(n[o]=e(r,t[r]),o+=1);return n}var i=Object.prototype.hasOwnProperty;e.exports=r},{}],11:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,i=n-e||0,o=Array(i<0?0:i);++r<i;)o[r]=t[e+r];return o}e.exports=r},{}],12:[function(t,e,n){e.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(t,e,n){function r(){}function i(t){function e(t){return t&&t instanceof r?t:t?u(t,f,a):a()}function n(n,r,i,o,a){if(a!==!1&&(a=!0),!l.aborted||o){t&&a&&t(n,r,i);for(var c=e(i),f=m(n),u=f.length,s=0;s<u;s++)f[s].apply(c,r);var p=d[w[n]];return p&&p.push([b,n,r,c]),c}}function o(t,e){h[t]=m(t).concat(e)}function v(t,e){var n=h[t];if(n)for(var r=0;r<n.length;r++)n[r]===e&&n.splice(r,1)}function m(t){return h[t]||[]}function g(t){return p[t]=p[t]||i(n)}function y(t,e){l.aborted||s(t,function(t,n){e=e||"feature",w[n]=e,e in d||(d[e]=[])})}var h={},w={},b={on:o,addEventListener:o,removeEventListener:v,emit:n,get:g,listeners:m,context:e,buffer:y,abort:c,aborted:!1};return b}function o(t){return u(t,f,a)}function a(){return new r}function c(){(d.api||d.feature)&&(l.aborted=!0,d=l.backlog={})}var f="nr@context",u=t("gos"),s=t(10),d={},p={},l=e.exports=i();e.exports.getOrSetContext=o,l.backlog=d},{}],gos:[function(t,e,n){function r(t,e,n){if(i.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(o){}return t[e]=r,r}var i=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){i.buffer([t],r),i.emit(t,e,n)}var i=t("ee").get("handle");e.exports=r,r.ee=i},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,o,function(){return i++})}var i=1,o="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!P++){var t=M.info=NREUM.info,e=g.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&e))return u.abort();f(O,function(e,n){t[e]||(t[e]=n)});var n=a();c("mark",["onload",n+M.offset],null,"api"),c("timing",["load",n]);var r=g.createElement("script");0===t.agent.indexOf("http://")||0===t.agent.indexOf("https://")?r.src=t.agent:r.src=v+"://"+t.agent,e.parentNode.insertBefore(r,e)}}function i(){"complete"===g.readyState&&o()}function o(){c("mark",["domContent",a()+M.offset],null,"api")}var a=t(5),c=t("handle"),f=t(10),u=t("ee"),s=t(8),d=t(6),p=t(2),l=t(3),v=p.getConfiguration("ssl")===!1?"http":"https",m=window,g=m.document,y="addEventListener",h="attachEvent",w=m.XMLHttpRequest,b=w&&w.prototype,E=!d(m.location);NREUM.o={ST:setTimeout,SI:m.setImmediate,CT:clearTimeout,XHR:w,REQ:m.Request,EV:m.Event,PR:m.Promise,MO:m.MutationObserver};var x=""+location,O={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1215.min.js"},T=w&&b&&b[y]&&!/CriOS/.test(navigator.userAgent),M=e.exports={offset:a.getLastTimestamp(),now:a,origin:x,features:{},xhrWrappable:T,userAgent:s,disabled:E};if(!E){t(1),t(7),g[y]?(g[y]("DOMContentLoaded",o,l(!1)),m[y]("load",r,l(!1))):(g[h]("onreadystatechange",i),m[h]("onload",r)),c("mark",["firstbyte",a.getLastTimestamp()],null,"api");var P=0}},{}],"wrap-function":[function(t,e,n){function r(t,e){function n(e,n,r,f,u){function nrWrapper(){var o,a,s,p;try{a=this,o=d(arguments),s="function"==typeof r?r(o,a):r||{}}catch(l){i([l,"",[o,a,f],s],t)}c(n+"start",[o,a,f],s,u);try{return p=e.apply(a,o)}catch(v){throw c(n+"err",[o,a,v],s,u),v}finally{c(n+"end",[o,a,p],s,u)}}return a(e)?e:(n||(n=""),nrWrapper[p]=e,o(e,nrWrapper,t),nrWrapper)}function r(t,e,r,i,o){r||(r="");var c,f,u,s="-"===r.charAt(0);for(u=0;u<e.length;u++)f=e[u],c=t[f],a(c)||(t[f]=n(c,s?f+r:r,i,f,o))}function c(n,r,o,a){if(!v||e){var c=v;v=!0;try{t.emit(n,r,o,e,a)}catch(f){i([f,n,r,o],t)}v=c}}return t||(t=s),n.inPlace=r,n.flag=p,n}function i(t,e){e||(e=s);try{e.emit("internal-error",t)}catch(n){}}function o(t,e,n){if(Object.defineProperty&&Object.keys)try{var r=Object.keys(t);return r.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(o){i([o],n)}for(var a in t)l.call(t,a)&&(e[a]=t[a]);return e}function a(t){return!(t&&t instanceof Function&&t.apply&&!t[p])}function c(t,e){var n=e(t);return n[p]=t,o(t,n,s),n}function f(t,e,n){var r=t[e];t[e]=c(r,n)}function u(){for(var t=arguments.length,e=new Array(t),n=0;n<t;++n)e[n]=arguments[n];return e}var s=t("ee"),d=t(11),p="nr@original",l=Object.prototype.hasOwnProperty,v=!1;e.exports=r,e.exports.wrapFunction=c,e.exports.wrapInPlace=f,e.exports.argsToArray=u},{}]},{},["loader"]);</script>
 <meta content='width=device-width, initial-scale=1.0' name='viewport'>
 <title>Penny&#39;s Caravan
  WARN Notice
  - KANSASWORKS</title>
-<link rel="stylesheet" media="screen, print" href="https://www.kansasworks.com/assets/application-7503d940927793eca478b9c2221043ea4c8958615a609e182d1984fa34502fe1.css" />
-<link rel="stylesheet" media="screen, print" href="https://www.kansasworks.com/packs/css/application-0bee86e0.css" />
+<link rel="stylesheet" media="screen, print" href="https://www.kansasworks.com/assets/application-b9cb5b2ab1b410fde34c8af6e7d9367993af45a4697483ad21cc7269bae6a450.css" />
+<link rel="stylesheet" media="screen, print" href="https://www.kansasworks.com/packs/css/application-97e3ff7c.css" />
 
 <link rel="stylesheet" media="print" href="https://www.kansasworks.com/assets/print-939a3e3343651fc5cd54c8caf49d6d48a3099c3c7dc092e8d52124f2b32e8b65.css" />
 <meta content='https://www.kansasworks.com/assets/state_customization/kansas/kansas_logo-5697f351b0e4c78165b7c37d9055637b5c93fa96d731345e24f7ea84a4626c66.png' property='og:image'>
@@ -18,7 +16,7 @@
 <link rel="shortcut icon" type="image/png" href="https://www.kansasworks.com/assets/state_customization/kansas/favicon-32x32-36e5ecc3cfd77934a6cd6c6bacdda3b088304bb9cf3e11e9164b091c3a4d3455.png" sizes="32x32" />
 <link rel="shortcut icon" type="image/png" href="https://www.kansasworks.com/assets/state_customization/kansas/favicon-16x16-ecf09bcb73295486506bf61236a08e4db74b705f8e142a5943498ed6c9b8b5cb.png" sizes="16x16" />
 <meta name="csrf-param" content="authenticity_token" />
-<meta name="csrf-token" content="WwNWybq0KDBV9srqSqjA0pDLufSGWMk/4HRRAWb9+MIfjIMUmca2qGH++y0V6xzoITS/AXDnQJmbRFfrFBhPtQ==" />
+<meta name="csrf-token" content="JDUfxas8mX_f0h3NIm-akBXhEQ4ww3A97nnhHJ5TwpVgAtm5uSzfSKZVYdIHt-GjWfQ4b-lB04KNMLAH6PBqtw" />
 </head>
 <body class='l-logged-out'>
 <a class="skip focusable" id="skip_to_main" href="#content__main">Skip to main content</a>
@@ -39,7 +37,7 @@
 
 <ul class='dropdown dropdown--primary dropdown--user' id='primary-user_menu'>
 <li class='dropdown__menu-item dropdown--primary__menu-item'>
-<a class="dropdown__link dropdown--primary__link" id="navigation_item_user_login_47221697416980" href="/usr/sign_in">Log In
+<a class="dropdown__link dropdown--primary__link" id="navigation_item_user_login_148435340" href="/usr/sign_in">Log In
 </a></li>
 </ul>
 
@@ -47,69 +45,66 @@
 <nav aria-label='Primary Menu' class='menu--global'>
 <ul class='dropdown dropdown--primary dropdown--global' id='primary-global_menu'>
 <li class='dropdown__menu-item dropdown--primary__menu-item dropdown--primary__menu-item--has-children dropdown--has-children'>
-<a class="dropdown__link dropdown--primary__link" id="navigation_item_marketing_job_seeker_47221698579540" href="/job_seeker">Job Seekers
+<a class="dropdown__link dropdown--primary__link" id="navigation_item_marketing_job_seeker_148435380" href="/job_seeker">Job Seekers
 </a><a class="dropdown__expand" aria-label="Expand Job Seekers" aria-controls="primary-global_menu" aria-haspopup="true" aria-expanded="false" href=""></a>
-<ul class='dropdown--child menu--child'>
+<ul class='dropdown--child menu--child' id=''>
 <li class='dropdown--child__list-item'>
-<a class="dropdown--child__link" id="navigation_item_searches_job_47221698579540" href="/search/jobs"><span class="icon-search_jobs" aria-hidden="true"></span>
+<a class="dropdown--child__link" id="navigation_item_searches_job_148435380" href="/search/jobs?search_job_search%5Bjob_location_state%5D=Kansas"><span class="icon-search_jobs" aria-hidden="true"></span>
 Job Search
 </a></li>
 <li class='dropdown--child__list-item'>
-<a class="dropdown--child__link" id="navigation_item_registrations_job_seeker_47221698579540" href="/jobseeker/registrations/new">Create an Account
+<a class="dropdown--child__link" id="navigation_item_registrations_job_seeker_148435380" href="/jobseeker/registrations/new">Create an Account
 </a></li>
 <li class='dropdown--child__list-item'>
-<a class="dropdown--child__link" id="navigation_item_marketing_anchor_job_seeker_upcoming_events_47221698579540" href="/job_seeker#upcoming_events">Upcoming Events
-</a></li>
-<li class='dropdown--child__list-item'>
-<a class="dropdown--child__link" id="navigation_item_marketing_anchor_job_seeker_resources_47221698579540" href="/job_seeker#resources">Resources
+<a class="dropdown--child__link" id="navigation_item_marketing_anchor_job_seeker_resources_148435380" href="/job_seeker#resources">Resources
 </a></li>
 </ul>
 
 </li>
 <li class='dropdown__menu-item dropdown--primary__menu-item dropdown--primary__menu-item--has-children dropdown--has-children'>
-<a class="dropdown__link dropdown--primary__link" id="navigation_item_marketing_employer_47221698579540" href="/employer">Employers
+<a class="dropdown__link dropdown--primary__link" id="navigation_item_marketing_employer_148435380" href="/employer">Employers
 </a><a class="dropdown__expand" aria-label="Expand Employers" aria-controls="primary-global_menu" aria-haspopup="true" aria-expanded="false" href=""></a>
-<ul class='dropdown--child menu--child'>
+<ul class='dropdown--child menu--child' id=''>
 <li class='dropdown--child__list-item'>
-<a class="dropdown--child__link" id="navigation_item_searches_resume_47221698579540" href="/search/resumes"><span class="icon-search_resumes" aria-hidden="true"></span>
+<a class="dropdown--child__link" id="navigation_item_searches_resume_148435380" href="/search/resumes"><span class="icon-search_resumes" aria-hidden="true"></span>
 Resume Search
 </a></li>
 <li class='dropdown--child__list-item'>
-<a class="dropdown--child__link" id="navigation_item_registrations_employer_47221698579540" href="/employer_policy">Create an Account
+<a class="dropdown--child__link" id="navigation_item_registrations_employer_148435380" href="/employer_policy">Create an Account
 </a></li>
 <li class='dropdown--child__list-item'>
-<a class="dropdown--child__link" id="navigation_item_marketing_anchor_employer_resources_47221698579540" href="/employer#resources">Resources
+<a class="dropdown--child__link" id="navigation_item_marketing_anchor_employer_resources_148435380" href="/employer#resources">Resources
 </a></li>
 </ul>
 
 </li>
 <li class='dropdown__menu-item dropdown--primary__menu-item dropdown--primary__menu-item--has-children dropdown--has-children'>
-<a class="dropdown__link dropdown--primary__link" id="navigation_item_marketing_training_provider_47221698579540" href="/training">Training Providers
+<a class="dropdown__link dropdown--primary__link" id="navigation_item_marketing_training_provider_148435380" href="/training">Training Providers
 </a><a class="dropdown__expand" aria-label="Expand Training Providers" aria-controls="primary-global_menu" aria-haspopup="true" aria-expanded="false" href=""></a>
-<ul class='dropdown--child menu--child'>
+<ul class='dropdown--child menu--child' id=''>
 <li class='dropdown--child__list-item'>
-<a class="dropdown--child__link" id="navigation_item_searches_training_program_47221698579540" href="/search/programs"><span class="icon-search_training" aria-hidden="true"></span>
+<a class="dropdown--child__link" id="navigation_item_searches_training_program_148435380" href="/search/programs"><span class="icon-search_training" aria-hidden="true"></span>
 Search for Programs
 </a></li>
 <li class='dropdown--child__list-item'>
-<a class="dropdown--child__link" id="navigation_item_registrations_trainer_47221698579540" href="/trainer/fein_searches/new">Create an Account
+<a class="dropdown--child__link" id="navigation_item_registrations_trainer_148435380" href="/trainer/fein_searches/new">Create an Account
 </a></li>
 <li class='dropdown--child__list-item'>
-<a class="dropdown--child__link" id="navigation_item_marketing_anchor_training_provider_resources_47221698579540" href="/training#resources">Resources
+<a class="dropdown--child__link" id="navigation_item_marketing_anchor_training_provider_resources_148435380" href="/training#resources">Resources
 </a></li>
 </ul>
 
 </li>
 <li class='dropdown__menu-item dropdown--primary__menu-item dropdown--primary__menu-item--has-children dropdown--has-children'>
-<a class="dropdown__link dropdown--primary__link" id="navigation_item_marketing_contact_us_47221698579540" href="/contact">Contact Us
+<a class="dropdown__link dropdown--primary__link" id="navigation_item_marketing_contact_us_148435380" href="/contact">Contact Us
 </a><a class="dropdown__expand" aria-label="Expand Contact Us" aria-controls="primary-global_menu" aria-haspopup="true" aria-expanded="false" href=""></a>
-<ul class='dropdown--child menu--child'>
+<ul class='dropdown--child menu--child' id=''>
 <li class='dropdown--child__list-item'>
-<a class="dropdown--child__link" id="navigation_item_marketing_contact_location_47221698579540" href="/contact"><span class="icon-general_location" aria-hidden="true"></span>
+<a class="dropdown--child__link" id="navigation_item_marketing_contact_location_148435380" href="/contact"><span class="icon-general_location" aria-hidden="true"></span>
 Workforce Centers
 </a></li>
 <li class='dropdown--child__list-item'>
-<a class="dropdown--child__link" id="navigation_item_marketing_contact_phone_47221698579540" href="tel:877-509-6757"><span class="icon-contact_phone" aria-hidden="true"></span>
+<a class="dropdown--child__link" id="navigation_item_marketing_contact_phone_148435380" href="tel:877-509-6757"><span class="icon-contact_phone" aria-hidden="true"></span>
 877-509-6757
 </a></li>
 </ul>
@@ -125,6 +120,7 @@ Workforce Centers
 <div class='content-wrapper invisible-focus' data-behavior='vue' id='content__main' tabindex='-1'>
 <main class='content' tabindex='-1'>
 
+<div class='visually-hidden' id='dynamic_flash'></div>
 
 
 <header class='content__header'>
@@ -152,8 +148,8 @@ Workforce Centers
 <h3 class='definition-list__title'>Number of Employees Affected</h3>
 <p class='definition-list__definition'>10</p>
 </div>
-<nav aria-label='Page controls' class='form__nav' data-sticky-container id='form_nav_44b385f4-dfa2-44d2-8a9c-23b99723dda3'>
-<div class='button-group' data-btm-anchor='form_nav_44b385f4-dfa2-44d2-8a9c-23b99723dda3:bottom' data-margin-bottom='0' data-stick-to='bottom' data-sticky data-sticky-on='small'>
+<nav aria-label='Page controls' class='form__nav' data-sticky-container id='form_nav_ca712420-2f81-4b49-801b-5591fd0898b9'>
+<div class='button-group' data-btm-anchor='form_nav_ca712420-2f81-4b49-801b-5591fd0898b9:bottom' data-margin-bottom='0' data-stick-to='bottom' data-sticky data-sticky-on='small'>
 <a role="button" data-allow-html="true" tabindex="0" class="button button--secondary
       
       
@@ -182,7 +178,7 @@ Workforce Centers
 </h2>
 <div class='social-links'>
 <a aria-label="Kansas Facebook page" href="https://www.facebook.com/KANSASWORKS"><span class="icon-social_facebook" role="presentation"></span></a>
-<a aria-label="Kansas LinkedIn page" href="https://www.linkedin.com/groups/2096280/"><span class="icon-social_linkedin" role="presentation"></span></a>
+<a aria-label="Kansas LinkedIn page" href="https://www.linkedin.com/company/kansasworks/"><span class="icon-social_linkedin" role="presentation"></span></a>
 <a aria-label="Kansas Instagram page" href="https://www.instagram.com/kansasworks/"><span class="icon-social_instagram" role="presentation"></span></a>
 <a aria-label="Kansas Youtube page" href="https://www.youtube.com/channel/UCqyQ0JN0vD5ZJEtWMt9vHfQ"><span class="icon-social_youtube" role="presentation"></span></a>
 <a aria-label="Kansas Twitter page" href="https://twitter.com/KansasWorkforce"><span class="icon-social_twitter" role="presentation"></span></a>
@@ -244,8 +240,8 @@ Workforce Centers
 <script src="https://www.kansasworks.com/assets/vendor/translate_config-8cf6f4efee7622a2c49c8ebeb96cb2fe5bf9d2a0eb8b9d3d964ee46bf753b076.js"></script>
 <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 </div>
-<strong>Build: 3aeb99d1b6943716bb1ad7ba6463e305c663ed45
-, 1.15.2
+<strong>Build: 9943546759259c161d178643f7bff5aaab8b67ce
+, 1.38.1
 </strong>
 <div>DISCLAIMER: By using or accessing this website, I agree to its Terms of Use and all other Policies. I acknowledge and agree that all links to external sources are provided purely as a courtesy to me as a website user or visitor. Neither the state, nor the state labor agency are responsible for or endorse in any way any materials, information, goods, or services available through third-party linked sites, any privacy policies, or any other practices of such sites. I acknowledge and agree that the Terms of Use and all other Policies for this Website are available to me, and I have read the <a href="/disclaimer">Full Disclaimer</a>.
 </div>
@@ -265,14 +261,21 @@ Workforce Centers
 
 </footer>
 
+<div class='reveal-overlay spinner-container'>
+<div class='reveal'>
+<img alt="Please Wait ..." src="https://www.kansasworks.com/assets/spinner-5cd42c80561bd3ce67bd0937d7144757860f1256268947bff4c7b267998e1d87.svg" />
+<div class='msg'></div>
+</div>
+</div>
+
 <div aria-hidden='true' id='overlay'></div>
 <div aria-live='polite' class='visually-hidden' id='liveRegion' readcaptions='false' role='alert'></div>
-<script src="https://www.kansasworks.com/assets/application-b3c0194f40889d0ac8bfda4e9c28654526f65a62f4e5e8ca6117e369a1db4345.js"></script>
+<script src="https://www.kansasworks.com/assets/application-2b5cf057672fca152d76c7b538f685def9edae7ff3d4d722570bd5088125e7ff.js"></script>
 
-<script src="https://www.kansasworks.com/packs/js/application-137dcbe18cf77dbb91dd.js"></script>
+<script src="https://www.kansasworks.com/packs/js/application-28376d243bc0d420c590.js"></script>
 <script src="https://analytics.ajla.net/piwik.js" defer="defer" asynch="true"></script>
 <noscript>
-<img alt='' src='https://analytics.ajla.net/piwik.php?idsite=10&rec=1' style='border:0;'>
+<img alt='' src='https://analytics.ajla.net/piwik.php?idsite=10&amp;rec=1' style='border:0;'>
 </noscript>
 
 </body>
