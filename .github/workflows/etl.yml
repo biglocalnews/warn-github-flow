@@ -8,6 +8,7 @@ on:
 jobs:
   extract:
     continue-on-error: true
+    timeout-minutes: 30 # Sets a 30-minute timeout for this specific job
     strategy:
       fail-fast: false
       matrix:
@@ -84,6 +85,7 @@ jobs:
 
   transform:
     name: Transform
+    timeout-minutes: 30 # Sets a 30-minute timeout for this specific job
     runs-on: ubuntu-latest
     needs: [extract]
     steps:
@@ -113,6 +115,7 @@ jobs:
 
   status-report:
     name: Status report
+    timeout-minutes: 30 # Sets a 30-minute timeout for this specific job
     runs-on: ubuntu-latest
     needs: [transform]
     steps:
@@ -127,6 +130,7 @@ jobs:
 
   alert:
     name: Alert
+    timeout-minutes: 30 # Sets a 30-minute timeout for this specific job
     runs-on: ubuntu-latest
     needs: [transform]
 
