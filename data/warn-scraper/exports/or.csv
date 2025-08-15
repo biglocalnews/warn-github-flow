@@ -94,11 +94,11 @@ WARN#,Company Name,Location,Layoff Date,Laid Off,Layoff Type,Received Date
 8742,Interfor U.S. Inc,Philomath,2024-02-15 00:00:00,42,Large Layoff - 10 or more workers,2024-02-15 00:00:00
 8742,Philomath Division - Industrial Way Mil,Philomath,2024-02-15 00:00:00,58,Large Layoff - 10 or more workers,2024-02-15 00:00:00
 8725,Remote Workers - Oregon,,2024-03-30 00:00:00,46,Large Layoff - 10 or more workers,2024-01-30 00:00:00
+8723,RNDC - Medford Location #2,Medford,2024-03-31 00:00:00,3,Permanent closure,2024-01-30 00:00:00
 8723,RNDC - Eugene Location,Eugene,2024-03-31 00:00:00,3,Permanent closure,2024-01-30 00:00:00
 8723,RNDC - Portland Location,Portland,2024-03-31 00:00:00,67,Permanent closure,2024-01-30 00:00:00
 8723,RNDC - Bend Location,Bend,2024-03-31 00:00:00,4,Permanent closure,2024-01-30 00:00:00
 8723,RNDC - Medford Location #1,Medford,2024-03-31 00:00:00,1,Permanent closure,2024-01-30 00:00:00
-8723,RNDC - Medford Location #2,Medford,2024-03-31 00:00:00,3,Permanent closure,2024-01-30 00:00:00
 8708,Oregon - Remote Employees,,2024-03-15 00:00:00,4,Reduction,2024-01-11 00:00:00
 8708,"Lost Boys Interactive, LLC","Madison, WI",2024-03-15 00:00:00,121,Large Layoff - 10 or more workers,2024-01-11 00:00:00
 8671,Portland - Site,Portland,2024-01-31 00:00:00,62,Permanent closure,2023-12-01 00:00:00
@@ -120,12 +120,12 @@ WARN#,Company Name,Location,Layoff Date,Laid Off,Layoff Type,Received Date
 8617,Walker Rd - Hillsboro,Hillsboro,2024-01-26 00:00:00,2,Reduction,2023-08-22 00:00:00
 8617,Walker Rd - Hillsboro,Hillsboro,2024-01-12 00:00:00,62,Large Layoff - 10 or more workers,2023-08-22 00:00:00
 8617,Bennett St. - Hillsboro,Hillsboro,2024-01-12 00:00:00,3,Reduction,2023-08-22 00:00:00
-8617,Walker Rd - Hillsboro,Hillsboro,2023-12-29 00:00:00,3,Reduction,2023-08-22 00:00:00
 8617,Bennett St. - Hillsboro,Hillsboro,2023-12-29 00:00:00,2,Reduction,2023-08-22 00:00:00
+8617,Walker Rd - Hillsboro,Hillsboro,2023-12-29 00:00:00,3,Reduction,2023-08-22 00:00:00
 8617,Walker Rd - Hillsboro,Hillsboro,2023-12-01 00:00:00,1,Reduction,2023-08-22 00:00:00
 8617,Walker Rd - Hillsboro,Hillsboro,2023-11-17 00:00:00,1,Reduction,2023-08-22 00:00:00
-8617,Bennett St. - Hillsboro,Hillsboro,2023-10-20 00:00:00,71,Large Layoff - 10 or more workers,2023-08-22 00:00:00
 8617,Walker Rd - Hillsboro,Hillsboro,2023-10-20 00:00:00,158,Large Layoff - 10 or more workers,2023-08-22 00:00:00
+8617,Bennett St. - Hillsboro,Hillsboro,2023-10-20 00:00:00,71,Large Layoff - 10 or more workers,2023-08-22 00:00:00
 8612,BOISE CASCADE ELGIN PLYWOOD MILL       ,ELGIN                         ,2023-10-14 00:00:00,1,Other,2023-08-16 00:00:00
 8609,Centerra ,"Herndon, VA",2023-09-30 00:00:00,52,Permanent closure,2023-08-10 00:00:00
 8606,Cascades Tissue Group - St Helens Paper,St. Helens,2023-10-14 00:00:00,72,Permanent closure,2023-08-10 00:00:00
@@ -250,8 +250,8 @@ WARN#,Company Name,Location,Layoff Date,Laid Off,Layoff Type,Received Date
 6967,Hyatt Regency - Portland,Portland,2020-03-20 00:00:00,181,Temporary Layoff,2020-06-19 00:00:00
 6964,The Bay Company - Portland,Tigard,2020-09-29 00:00:00,125,Other,2020-06-09 00:00:00
 6964,The Bay Company - Portland,Tigard,2020-04-15 00:00:00,289,Large Layoff - 10 or more workers,2020-06-09 00:00:00
-6963,Kimpton Hotel Monaco Portland,Portland,2020-03-13 00:00:00,147,Large Layoff - 10 or more workers,2020-06-12 00:00:00
 6963,Kimpton Riverplace Hotel,Portland,2020-03-13 00:00:00,79,Large Layoff - 10 or more workers,2020-06-12 00:00:00
+6963,Kimpton Hotel Monaco Portland,Portland,2020-03-13 00:00:00,147,Large Layoff - 10 or more workers,2020-06-12 00:00:00
 6963,Kimpton Hotel Vintage Portland,Portland,2020-03-01 00:00:00,94,Large Layoff - 10 or more workers,2020-06-12 00:00:00
 6935,ATI Albany Operations,Albany,2020-12-07 00:00:00,76,Permanent closure,2020-06-10 00:00:00
 6935,ATI Albany Operations,Albany,2020-10-26 00:00:00,135,Large Layoff - 10 or more workers,2020-06-10 00:00:00
@@ -451,8 +451,8 @@ WARN#,Company Name,Location,Layoff Date,Laid Off,Layoff Type,Received Date
 2251,Boyd's Coffee,Portland,2018-09-14 00:00:00,4,Permanent closure,2018-03-20 00:00:00
 2251,Boyd's Coffee,Portland,2018-09-07 00:00:00,3,Permanent closure,2018-03-20 00:00:00
 2251,Boyd's Coffee,Portland,2018-09-07 00:00:00,6,Permanent closure,2018-03-20 00:00:00
-2251,Boyd's Coffee,Portland,2018-08-31 00:00:00,20,Permanent closure,2018-03-20 00:00:00
 2251,Boyd's Coffee,Portland,2018-08-31 00:00:00,15,Permanent closure,2018-03-20 00:00:00
+2251,Boyd's Coffee,Portland,2018-08-31 00:00:00,20,Permanent closure,2018-03-20 00:00:00
 2251,Boyd's Coffee,Portland,2018-08-03 00:00:00,3,Permanent closure,2018-03-20 00:00:00
 2251,Boyd's Coffee,Portland,2018-07-31 00:00:00,8,Permanent closure,2018-03-20 00:00:00
 2251,Boyd Coffee Company - Eugene,Eugene,2018-05-23 00:00:00,72,Permanent closure,2018-03-20 00:00:00
@@ -573,10 +573,10 @@ WARN#,Company Name,Location,Layoff Date,Laid Off,Layoff Type,Received Date
 2068,Woodgrain Millwork,Prineville,2015-12-28 00:00:00,55,Permanent closure,2015-10-23 00:00:00
 2067,WestRock,Newberg,2015-11-15 00:00:00,171,Permanent closure,2015-10-20 00:00:00
 2066,Haggen Food & Pharmacy,"Bellingham, WA",2015-11-24 00:00:00,416,Permanent closure,2015-09-25 00:00:00
-2065,Haggen Food and Pharmacy,"Bellingham, WA",2015-10-14 00:00:00,331,Permanent closure,2015-08-14 00:00:00
 6692,Happy Guests Intl. - Salty's,Portland,,,Temporary Layoff,2020-05-14 00:00:00
 8470,BOISE CASCADE ELGIN PLYWOOD MILL       ,ELGIN                         ,,,Large Layoff - 10 or more workers,2022-12-14 00:00:00
 8592,"Rise Services, Inc.","Mesa, AZ",,,Permanent closure,2023-07-18 00:00:00
+2065,Haggen Food and Pharmacy,"Bellingham, WA",2015-10-14 00:00:00,331,Permanent closure,2015-08-14 00:00:00
 2064,Capital One,Portland,2016-01-01 00:00:00,4,Permanent closure,2015-07-24 00:00:00
 2064,Capital One,Portland,2015-12-07 00:00:00,818,Permanent closure,2015-07-24 00:00:00
 2064,Capital One,Portland,2015-11-01 00:00:00,22,Permanent closure,2015-07-24 00:00:00
