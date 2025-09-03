@@ -69,3 +69,5 @@ jobs:
           source: ${{ matrix.source }}
           bln-api-key: ${{ secrets.BLN_API_TOKEN }}
           bln-project-id: ${{ secrets.BLN_PROJECT_ID }}
+        env:
+          ZYTE_API_KEY: ${{ secrets.ZYTE_API_KEY }}
