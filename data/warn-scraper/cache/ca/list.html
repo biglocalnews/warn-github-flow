@@ -27,18 +27,21 @@
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap" rel="stylesheet">
 <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700&display=swap' rel='stylesheet' type='text/css'>
 
-<link href="/bundles/css?v=6KWdIOH6DWbDNH47g6Ain8jjYc8a0A-5pbGGGPzxYs41" rel="stylesheet"/>
+<link href="/bundles/css?v=p3GCBqEu_Zj1L19WmrKeNP6Z40UU-UqzpNb00G6GpOk1" rel="stylesheet"/>
 
 
-<script>
-    (function (w, d, s, l, i) {
-        w[l] = w[l] || []; w[l].push({
-            'gtm.start':
-                new Date().getTime(), event: 'gtm.js'
-        }); var f = d.getElementsByTagName(s)[0],
-            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
-                'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
-    })(window, document, 'script', 'dataLayer', 'GTM-N8KVMBR');</script>
+
+
+    <script>
+        (function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-N8KVMBR');
+    </script>
 
 <script src="https://code.jquery.com/jquery-3.4.1.min.js"
         integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
@@ -94,6 +97,7 @@
 
 <body class="primary">
     <div id='ZN_9HxZEDQ06FHFeTk'><!--DO NOT REMOVE-CONTENTS PLACED HERE--></div>
+
 
     <noscript>
         <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N8KVMBR" height="0" width="0" style="display:none;visibility:hidden"></iframe>
@@ -240,6 +244,7 @@
     </a>
 
     <button class="mobile-nav-toggle" aria-controls="mobile-nav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="hidden">Open menu</span>
         <svg xmlns="http://www.w3.org/2000/svg" width="53" height="53" viewBox="0 0 53 53" fill="none" class="hamburger-icon">
             <g clip-path="url(#clip0)" transform="translate(0 6)">
                 <path class="line line1" d="M3.34174 3.15038H49.6583" stroke="currentColor" stroke-width="2" />
@@ -1647,102 +1652,103 @@ function toggleButton(element) {
 
 
 
-       <script>
-    document.addEventListener('DOMContentLoaded', () => {
-        const alertBanner = document.querySelector('.alert-banner');
-        const alertCloseBtn = alertBanner?.querySelector('.close');
-        const mainContent = document.querySelector('.main-content');
-        const headerEl = document.querySelector('header');
-        const mobileNav = document.querySelector('.mobile-nav');
-        const mobileNavToggle = document.querySelector('.mobile-nav-toggle');
-        const scrollHideThresh = 100;
-        let alertHidden = false;
-        let offset = headerEl.offsetHeight;
-        function adjustContentOffset() {
-            let contentOffset = offset;
-            mobileNav.style.paddingTop = `${offset}px`;
-            mainContent.style.marginTop = `${offset}px`;
-            if (mobileNav.classList.contains('open') && window.innerWidth <= 992) {
-                contentOffset = 130;
-            }
-            mainContent.style.marginTop = `${contentOffset}px`;
-        }
-        adjustContentOffset();
-        window.addEventListener('resize', () => {
-            offset = headerEl.offsetHeight;
-            adjustContentOffset();
-        });
-        mobileNavToggle?.addEventListener('click', adjustContentOffset);
-        alertCloseBtn?.addEventListener('click', () => {
-            setTimeout(() => {
-                offset = headerEl.offsetHeight;
-                adjustContentOffset();
-            }, 200);
-        });
-        // Hide/show alert on scroll and re-adjust
-        if (alertBanner) {
-            window.addEventListener('scroll', () => {
-                const y = window.scrollY;
-                if (!alertHidden && y > scrollHideThresh) {
-                    alertBanner.style.transition = 'max-height 0.4s ease, opacity 0.4s ease';
-                    alertBanner.style.transition = 'all 0.4s ease';
-                    alertBanner.style.maxHeight = '0';
-                    alertBanner.style.opacity = '0';
-                    alertBanner.style.overflow = 'hidden';
-                    alertBanner.style.margin = '0';
-                    alertBanner.style.padding = '0';
-                    alertHidden = true;
-                } else if (alertHidden && y <= scrollHideThresh) {
-                    alertBanner.style.maxHeight = '';
-                    alertBanner.style.opacity = '1';
-                    alertBanner.style.overflow = '';
-                    alertBanner.style.margin = '';
-                    alertBanner.style.padding = '';
-                    alertHidden = false;
-                }
-            });
-        }
-    });
-</script>
-
-        <script defer src="/Assets/js/external-links.js"></script>
-        <script defer src="/Assets/js/cagov.core.wm1.min.js"></script>
-
-        <!--BEGIN QUALTRICS WEBSITE FEEDBACK SNIPPET-->
-        <script type='text/javascript'>
-            (function () {
-                var g = function (e, h, f, g) {
-
-                    this.get = function (a) { for (var a = a + "=", c = document.cookie.split(";"), b = 0, e = c.length; b < e; b++) { for (var d = c[b]; " " == d.charAt(0);)d = d.substring(1, d.length); if (0 == d.indexOf(a)) return d.substring(a.length, d.length) } return null };
-
-                    this.set = function (a, c) { var b = "", b = new Date; b.setTime(b.getTime() + 6048E5); b = "; expires=" + b.toGMTString(); document.cookie = a + "=" + c + b + "; path=/; " };
-
-                    this.check = function () { var a = this.get(f); if (a) a = a.split(":"); else if (100 != e) "v" == h && (e = Math.random() >= e / 100 ? 0 : 100), a = [h, e, 0], this.set(f, a.join(":")); else return !0; var c = a[1]; if (100 == c) return !0; switch (a[0]) { case "v": return !1; case "r": return c = a[2] % Math.floor(100 / c), a[2]++, this.set(f, a.join(":")), !c }return !0 };
-
-                    this.go = function () { if (this.check()) { var a = document.createElement("script"); a.type = "text/javascript"; a.src = g; document.body && document.body.appendChild(a) } };
-
-                    this.start = function () { var t = this; "complete" !== document.readyState ? window.addEventListener ? window.addEventListener("load", function () { t.go() }, !1) : window.attachEvent && window.attachEvent("onload", function () { t.go() }) : t.go() };
-                };
-
-                try { (new g(100, "r", "QSI_S_ZN_9HxZEDQ06FHFeTk", "https://zn9hxzedq06fhfetk-caedd.siteintercept.qualtrics.com/SIE/?Q_ZID=ZN_9HxZEDQ06FHFeTk")).start() } catch (i) { }
-            })();</script>
-        <!--END WEBSITE FEEDBACK SNIPPET-->
-
-        <script async src="https://cse.google.com/cse.js?cx=17efe8f5a2906421d"></script>
-
-        <script async src="https://siteimproveanalytics.com/js/siteanalyze_6058657.js"></script>
-
         <script>
-            document.addEventListener('DOMContentLoaded', function () {
-                document
-                    .querySelectorAll('.main-primary > .section')
-                    .forEach(function (section) {
-                        var wrapper = section.closest('div.wrapper');
-                        if (wrapper) {
-                            wrapper.classList.remove('wrapper');
+            document.addEventListener('DOMContentLoaded', () => {
+                const alertBanner = document.querySelector('.alert-banner');
+                const alertCloseBtn = alertBanner?.querySelector('.close');
+                const mainContent = document.querySelector('.main-content');
+                const headerEl = document.querySelector('header');
+                const mobileNav = document.querySelector('.mobile-nav');
+                const mobileNavToggle = document.querySelector('.mobile-nav-toggle');
+                const scrollHideThresh = 100;
+                let alertHidden = false;
+                let offset = headerEl.offsetHeight;
+                function adjustContentOffset() {
+                    let contentOffset = offset;
+                    mobileNav.style.paddingTop = `${offset}px`;
+                    mainContent.style.marginTop = `${offset}px`;
+                    if (mobileNav.classList.contains('open') && window.innerWidth <= 992) {
+                        contentOffset = 130;
+                    }
+                    mainContent.style.marginTop = `${contentOffset}px`;
+                }
+                adjustContentOffset();
+                window.addEventListener('resize', () => {
+                    offset = headerEl.offsetHeight;
+                    adjustContentOffset();
+                });
+                mobileNavToggle?.addEventListener('click', adjustContentOffset);
+                alertCloseBtn?.addEventListener('click', () => {
+                    setTimeout(() => {
+                        offset = headerEl.offsetHeight;
+                        adjustContentOffset();
+                    }, 200);
+                });
+                // Hide/show alert on scroll and re-adjust
+                if (alertBanner) {
+                    window.addEventListener('scroll', () => {
+                        const y = window.scrollY;
+                        if (!alertHidden && y > scrollHideThresh) {
+                            alertBanner.style.transition = 'max-height 0.4s ease, opacity 0.4s ease';
+                            alertBanner.style.transition = 'all 0.4s ease';
+                            alertBanner.style.maxHeight = '0';
+                            alertBanner.style.opacity = '0';
+                            alertBanner.style.overflow = 'hidden';
+                            alertBanner.style.margin = '0';
+                            alertBanner.style.padding = '0';
+                            alertHidden = true;
+                        } else if (alertHidden && y <= scrollHideThresh) {
+                            alertBanner.style.maxHeight = '';
+                            alertBanner.style.opacity = '1';
+                            alertBanner.style.overflow = '';
+                            alertBanner.style.margin = '';
+                            alertBanner.style.padding = '';
+                            alertHidden = false;
                         }
                     });
+                }
             });
         </script>
-    </body>
+
+    <script defer src="/Assets/js/navigation-tracking.js"></script>
+    <script defer src="/Assets/js/external-links.js"></script>
+    <script defer src="/Assets/js/cagov.core.wm1.min.js"></script>
+
+    <!--BEGIN QUALTRICS WEBSITE FEEDBACK SNIPPET-->
+    <script type='text/javascript'>
+        (function () {
+            var g = function (e, h, f, g) {
+
+                this.get = function (a) { for (var a = a + "=", c = document.cookie.split(";"), b = 0, e = c.length; b < e; b++) { for (var d = c[b]; " " == d.charAt(0);)d = d.substring(1, d.length); if (0 == d.indexOf(a)) return d.substring(a.length, d.length) } return null };
+
+                this.set = function (a, c) { var b = "", b = new Date; b.setTime(b.getTime() + 6048E5); b = "; expires=" + b.toGMTString(); document.cookie = a + "=" + c + b + "; path=/; " };
+
+                this.check = function () { var a = this.get(f); if (a) a = a.split(":"); else if (100 != e) "v" == h && (e = Math.random() >= e / 100 ? 0 : 100), a = [h, e, 0], this.set(f, a.join(":")); else return !0; var c = a[1]; if (100 == c) return !0; switch (a[0]) { case "v": return !1; case "r": return c = a[2] % Math.floor(100 / c), a[2]++, this.set(f, a.join(":")), !c }return !0 };
+
+                this.go = function () { if (this.check()) { var a = document.createElement("script"); a.type = "text/javascript"; a.src = g; document.body && document.body.appendChild(a) } };
+
+                this.start = function () { var t = this; "complete" !== document.readyState ? window.addEventListener ? window.addEventListener("load", function () { t.go() }, !1) : window.attachEvent && window.attachEvent("onload", function () { t.go() }) : t.go() };
+            };
+
+            try { (new g(100, "r", "QSI_S_ZN_9HxZEDQ06FHFeTk", "https://zn9hxzedq06fhfetk-caedd.siteintercept.qualtrics.com/SIE/?Q_ZID=ZN_9HxZEDQ06FHFeTk")).start() } catch (i) { }
+        })();</script>
+    <!--END WEBSITE FEEDBACK SNIPPET-->
+
+    <script async src="https://cse.google.com/cse.js?cx=17efe8f5a2906421d"></script>
+
+    <script async src="https://siteimproveanalytics.com/js/siteanalyze_6058657.js"></script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            document
+                .querySelectorAll('.main-primary > .section')
+                .forEach(function (section) {
+                    var wrapper = section.closest('div.wrapper');
+                    if (wrapper) {
+                        wrapper.classList.remove('wrapper');
+                    }
+                });
+        });
+    </script>
+</body>
 </html>
