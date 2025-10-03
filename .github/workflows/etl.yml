@@ -54,10 +54,6 @@ jobs:
             vt,
             wa,
             wi,
-          ],
-        real-browser:
-          [             
-             va,
           ]
     name: Extract
     runs-on: ubuntu-latest
