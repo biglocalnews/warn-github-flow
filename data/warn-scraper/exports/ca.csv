@@ -340,12 +340,12 @@ notice_date,effective_date,received_date,company,city,num_employees,layoff_or_cl
 09/16/2025,11/08/2025,09/17/2025,Azure Acres Treatment Center - 5665,,1,Closure Permanent,Sonoma County,5665 Burnside Road  Sebastopol CA 95472,warn_report1.xlsx
 09/16/2025,11/08/2025,09/17/2025,Azure Acres Treatment Center - 11740,,5,Closure Permanent,Sonoma County,11740 Occidental Rd.  Sebastopol CA 95472,warn_report1.xlsx
 09/22/2025,12/01/2025,09/22/2025,"MMCI Acquisition, LLC dba Mortech Manufacturing Company",,46,Closure Permanent,Los Angeles County,411 Aerojet Avenue  Azusa CA 91702,warn_report1.xlsx
-09/24/2025,11/23/2025,09/24/2025,Dreyer's Grand Ice Cream's,,214,Closure Temporary,Kern County,7301 District Boulevard  Bakersfield CA 93313,warn_report1.xlsx
+09/24/2025,11/23/2025,09/24/2025,"Randstad Inhouse Services, LLC",,214,Closure Temporary,Kern County,7301 District Boulevard  Bakersfield CA 93313,warn_report1.xlsx
 09/23/2025,09/22/2025,09/24/2025,"Point Quest, Inc.",,66,Layoff Permanent,Sacramento County,9510 Elk Grove Florin Rd.  Elk Grove CA 95624,warn_report1.xlsx
 09/23/2025,09/22/2025,09/24/2025,"Point Quest, Inc.",,100,Layoff Permanent,Sacramento County,5735 47th Avenue  Sacramento CA 95824,warn_report1.xlsx
 09/24/2025,11/21/2025,09/24/2025,"Valyria, LLC",,25,Closure Permanent,Solano County,1050 Aviator Drive  Vacaville CA 95688,warn_report1.xlsx
 09/23/2025,11/24/2025,09/24/2025,Dreyer's Grand Ice Cream,,188,Layoff Temporary,Tulare County,970 E. Continental  Tulare CA 93274,warn_report1.xlsx
-09/24/2025,11/24/2025,09/24/2025,Dreyer's Grand Ice Cream's,,110,Closure Temporary,Tulare County,970 E. Continental Ave.  Tulare CA 93274,warn_report1.xlsx
+09/24/2025,11/24/2025,09/24/2025,"Randstad Inhouse Services, LLC",,110,Closure Temporary,Tulare County,970 E. Continental Ave.  Tulare CA 93274,warn_report1.xlsx
 09/24/2025,11/23/2025,09/25/2025,Palo Verde Healthcare District,,94,Closure Permanent,Riverside County,250 N First Street  Blythe CA 92225,warn_report1.xlsx
 09/24/2025,11/23/2025,09/25/2025,"Eclipse Advantage, LLC",,58,Layoff Permanent,San Bernardino County,5540 E. 4th Street  Ontario CA 91764,warn_report1.xlsx
 09/24/2025,11/24/2025,09/25/2025,Jabil Inc.,,393,Closure Temporary,Santa Clara County,30 Great Oaks Boulevard  San Jose CA 95119,warn_report1.xlsx
@@ -410,6 +410,27 @@ notice_date,effective_date,received_date,company,city,num_employees,layoff_or_cl
 10/03/2025,08/09/2025,10/06/2025,Paramount Global (5555),,49,Layoff Permanent,Los Angeles County,5555 Melrose Avenue  Los Angeles CA 90038,warn_report1.xlsx
 09/05/2025,09/05/2025,10/06/2025,"rPlanet Earth Los Angeles, LLC",,178,Closure Permanent,Los Angeles County,5300 S. Boyle Ave.  Los Angeles CA 90058,warn_report1.xlsx
 10/06/2025,11/21/2025,10/06/2025,"SAP America, Inc.",,82,Layoff Permanent,Santa Clara County,3410 Hillview Avenue  Palo Alto CA 94304,warn_report1.xlsx
+10/06/2025,09/17/2025,10/07/2025,Kaiser Foundation Hospitals (One),,6,Layoff Permanent,Alameda County,One Kaiser Plaza  Oakland CA 94612,warn_report1.xlsx
+10/06/2025,09/17/2025,10/07/2025,Kaiser Foundation Hospitals (3600),,74,Layoff Permanent,Alameda County,3600 Broadway  Oakland CA 94611,warn_report1.xlsx
+10/06/2025,09/17/2025,10/07/2025,Kaiser Foundation Hospitals (4460),,43,Layoff Permanent,Alameda County,"4460 Hacienda Dr., Bldg. A.  Pleasanton CA 94588",warn_report1.xlsx
+10/06/2025,09/17/2025,10/07/2025,Kaiser Foundation Hospitals (2500),,40,Layoff Permanent,Alameda County,2500 Merced St.  San Leandro CA 94577,warn_report1.xlsx
+10/06/2025,09/17/2025,10/07/2025,Kaiser Foundation Hospitals (501),,1,Layoff Permanent,Contra Costa County,501 Lennon Ln.  Walnut Creek CA 94598,warn_report1.xlsx
+10/07/2025,12/31/2025,10/07/2025,"The Academy of Magical Arts, Inc.",,174,Layoff Permanent,Los Angeles County,7001 Franklin Avenue  Los Angeles CA 90028,warn_report1.xlsx
+10/06/2025,09/17/2025,10/07/2025,Kaiser Foundation Hospitals (4841),,1,Layoff Permanent,Los Angeles County,4841 Hollywood Blvd.  Los Angeles CA 90027,warn_report1.xlsx
+10/06/2025,09/17/2025,10/07/2025,Kaiser Foundation Hospitals (12254),,2,Layoff Permanent,Los Angeles County,12254 Bellflower Blvd.  Downey CA 90242,warn_report1.xlsx
+10/06/2025,09/17/2025,10/07/2025,Kaiser Foundation Hospitals (9521),,1,Layoff Permanent,Los Angeles County,9521 Dalen St.  Downey CA 90242,warn_report1.xlsx
+10/06/2025,09/17/2025,10/07/2025,Kaiser Foundation Hospitals (99),,7,Layoff Permanent,Los Angeles County,99 S. Oakland Ave.  Pasadena CA 91101,warn_report1.xlsx
+10/06/2025,09/17/2025,10/07/2025,Kaiser Foundation Hospitals (393),,1,Layoff Permanent,Los Angeles County,393 E. Walnut St.  Pasadena CA 91188,warn_report1.xlsx
+10/06/2025,09/17/2025,10/07/2025,Kaiser Foundation Hospitals (74),,15,Layoff Permanent,Los Angeles County,74 N. Pasadena Ave  Pasadena CA 91103,warn_report1.xlsx
+10/06/2025,09/17/2025,10/07/2025,Kaiser Foundation Hospitals (75),,1,Layoff Permanent,Los Angeles County,75 N. Fair Oaks Ave.  Pasadena CA 91103,warn_report1.xlsx
+10/06/2025,09/17/2025,10/07/2025,Kaiser Foundation Hospitals (1830),,2,Layoff Permanent,Riverside County,1830 California Ave.  Corona CA 92881,warn_report1.xlsx
+10/06/2025,09/17/2025,10/07/2025,Kaiser Foundation Hospitals (1850),,1,Layoff Permanent,Riverside County,1850 California Ave.  Corona CA 92881,warn_report1.xlsx
+10/06/2025,09/17/2025,10/07/2025,Kaiser Foundation Hospitals (8954),,1,Layoff Permanent,San Diego County,8954 Rio San Diego Dr.  San Diego CA 92108,warn_report1.xlsx
+10/06/2025,09/17/2025,10/07/2025,Kaiser Foundation Hospitals (1100),,20,Layoff Permanent,San Mateo County,1100 Veteran Blvd.  Redwood City CA 91103,warn_report1.xlsx
+10/07/2025,12/05/2025,10/07/2025,"Polymer Technology Systems, Inc.",,56,Closure Permanent,Santa Clara County,510 Oakmead Parkway  Sunnyvale CA 94085,warn_report1.xlsx
+10/08/2025,12/15/2025,10/08/2025,Ballast Point Brewing Company - Miramar Location,,29,Closure Permanent,San Diego County,9405 Carroll Way  San Diego CA 92121,warn_report1.xlsx
+10/08/2025,12/15/2025,10/08/2025,Ballast Point Brewing Company - Little Italy Location,,8,Closure Permanent,San Diego County,2215 India Street  San Diego CA 92121,warn_report1.xlsx
+10/08/2025,12/07/2025,10/08/2025,"CRST Lincoln Sales, Inc. dba CRST Equipment Solutions, Inc.",,21,Closure Permanent,San Joaquin County,2577 W Yosemite Ave.  Manteca CA 95337,warn_report1.xlsx
 07/01/2024,06/30/2024,07/01/2024,Lockheed Martin,,57,Layoff Permanent,Los Angeles County,,warn-report-for-7-1-2024-to-06-30-2025.pdf
 06/30/2024,08/29/2024,07/01/2024,"Delta Apparel, Inc.",,5,Closure Permanent,Orange County,,warn-report-for-7-1-2024-to-06-30-2025.pdf
 07/02/2024,09/01/2024,07/02/2024,Cargill Meat Solutions Corporation,,20,Layoff Permanent,Fresno County,,warn-report-for-7-1-2024-to-06-30-2025.pdf
