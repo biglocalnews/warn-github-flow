@@ -7,9 +7,9 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="HandheldFriendly" content="True">
 <meta name="MobileOptimized" content="320">
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
 <meta name="Author" content="Employment Development Department" />
-<meta name="theme-color" content="#00587C">
+<meta name="theme-color" content="#046B98">
 
     <meta name="keywords" content="Worker Adjustment and Retraining Notification (WARN) Act, WARN Notice, WARN laws, Worker Adjustment and Retraining Notification, WARN" />
 
@@ -19,7 +19,7 @@
 
 <link rel="stylesheet" href="/Assets/css/cagov.core.min-6-30-25.css">
 <link rel="stylesheet" href="/Assets/css/colorscheme-oceanside.css">
-<link rel="stylesheet" href="/Assets/css/customCss/header.css" />
+<link rel="stylesheet" href="/Assets/css/customCss/googleSearch.css" />
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -27,7 +27,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap" rel="stylesheet">
 <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700&display=swap' rel='stylesheet' type='text/css'>
 
-<link href="/bundles/css?v=p3GCBqEu_Zj1L19WmrKeNP6Z40UU-UqzpNb00G6GpOk1" rel="stylesheet"/>
+<link href="/bundles/css?v=-olV1qp1ibvo6oT8ua1Z32cMHB5UIgQzQ5hrX8A3jHQ1" rel="stylesheet"/>
 
 
 
@@ -42,6 +42,26 @@
                 'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
     })(window,document,'script','dataLayer','GTM-N8KVMBR');
     </script>
+
+<script>
+    (function () {
+        var id = 'global-alert-649ae30a-9f3d-41cf-9c11-74ebf32649e1';
+        var name = 'alert-' + id;
+
+        function hasCookie(n) {
+            return document.cookie.split(';').some(function (c) {
+                return c.trim().indexOf(n + '=') === 0;
+            });
+        }
+
+        if (!hasCookie(name)) {
+            document.addEventListener('DOMContentLoaded', function () {
+                var el = document.querySelector('.alert-banner[data-alert-id="' + id + '"]');
+                if (el) el.classList.remove('prehide');
+            });
+        }
+    })();
+</script>
 
 <script src="https://code.jquery.com/jquery-3.4.1.min.js"
         integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
@@ -113,14 +133,14 @@
     
 
 
-<header class="site-header">
+<header class="site-header" role="banner">
 
 
 
 
-    <div class="alert alert-severe alert-dismissible  alert-banner" data-alert-id="global-alert-649ae30a-9f3d-41cf-9c11-74ebf32649e1">
+    <div class="prehide alert alert-severe alert-dismissible  alert-banner" data-alert-id="global-alert-649ae30a-9f3d-41cf-9c11-74ebf32649e1" role="status">
         <div class="container">
-                <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <button type="button" class="close" data-dismiss="alert" aria-label="Close alert"><span aria-hidden="true">&times;</span></button>
             <span class="alert-text"><p class="mt-2">If you recently lost your job as a federal employee, you may be eligible for unemployment benefits.<a class="alert-link btn btn-default btn-xs" href="/link/ed2a191e1eb14ccd9142b71dc7622f43.aspx">Learn More</a></p></span>
         </div>
     </div>
@@ -191,10 +211,12 @@
 </script>
 
 
-    <div class="site-utility-header">
+    <div class="site-utility-header" role="navigation" aria-label="Utility">
         <div class="container utility-header-inner">
                 <div class="utility-logo">
-                    <a href="https://ca.gov" lang="en" onclick="ga('send', 'event', 'Header', 'Utility Click', 'Utility CAGov')"><span class="sr-only">CA.gov</span><img src="/siteassets/images/edd-branding/ca-logo.svg" class="utility-header-logo" alt="CA.gov logo" aria-hidden="true" /></a>
+                    <a href="https://ca.gov" lang="en" onclick="ga('send', 'event', 'Header', 'Utility Click', 'Utility CAGov')">
+                        <img src="/siteassets/images/edd-branding/ca-logo.svg" class="utility-header-logo" alt="CA.gov logo" />
+                    </a>
                 </div>
 
                 <ul class="utility-header-link-container">
@@ -225,7 +247,7 @@
                         </li>
                 </ul>
 
-            <div class="utility-search">
+            <div class="utility-search" role="search">
                 <div class="gcse-searchbox-only" data-resultsUrl="/en/Search"></div>
             </div>
         </div>
@@ -612,499 +634,318 @@
         </div>
     </div>
 
-    <script>
-        document.addEventListener('DOMContentLoaded', function () {
-            // ======== Mobile Main Nav Toggle ========
-            const toggle = document.querySelector('.mobile-nav-toggle');
-            const mobileNav = document.getElementById('mobile-nav');
-            const hamburgerIcon = toggle?.querySelector('.hamburger-icon');
-
-            if (toggle && mobileNav && hamburgerIcon) {
-                toggle.addEventListener('click', function () {
-                    const expanded = toggle.getAttribute('aria-expanded') === 'true';
-                    toggle.setAttribute('aria-expanded', String(!expanded));
-                    hamburgerIcon.classList.toggle('open', !expanded);
-                    mobileNav.classList.toggle('open', !expanded);
-                    mobileNav.hidden = expanded;
-                    if (!expanded) {
-                        window.scrollTo(0, 0);
-                    }
-                });
-            }
-
-            // ======== Mobile Submenu Logic ========
-            const mobileButtons = document.querySelectorAll('.mobile-nav-link');
-
-            mobileButtons.forEach(function (btn) {
-                const submenuId = btn.getAttribute('aria-controls');
-                const submenu = document.getElementById(submenuId);
-
-                btn.addEventListener('click', function (e) {
-                    const isOpen = btn.classList.contains('active');
-
-                    // Close all other submenus
-                    mobileButtons.forEach(function (otherBtn) {
-                        const otherSubmenu = document.getElementById(otherBtn.getAttribute('aria-controls'));
-                        otherBtn.classList.remove('active');
-                        otherBtn.setAttribute('aria-expanded', 'false');
-                        if (otherSubmenu) otherSubmenu.hidden = true;
-                    });
-
-                    // Open this one if it wasn’t already open and auto-scroll into view
-                    if (!isOpen) {
-                        btn.classList.add('active');
-                        btn.setAttribute('aria-expanded', 'true');
-                        if (submenu) submenu.hidden = false;
-                        btn.scrollIntoView({ behavior: "smooth" });
-                    }
-
-                    e.stopPropagation();
-                });
-            });
-
-            // Close all mobile submenus on outside click
-            document.addEventListener('click', function (e) {
-                if (!e.target.closest('#mobile-nav') && !e.target.closest('.mobile-nav-toggle')) {
-                    mobileButtons.forEach(function (btn) {
-                        const submenu = document.getElementById(btn.getAttribute('aria-controls'));
-                        btn.classList.remove('active');
-                        btn.setAttribute('aria-expanded', 'false');
-                        if (submenu) submenu.hidden = true;
-                    });
-                }
-            });
-
-            // ======== Desktop Nav Submenu Logic ========
-            function closeSubmenu(item) {
-                const toggleBtn = item.querySelector('.main-nav-link');
-                const submenu = item.querySelector('.submenu');
-
-                item.classList.remove('subnav-open');
-                item.classList.add('subnav-closed');
-                toggleBtn?.setAttribute('aria-expanded', 'false');
-                if (submenu) submenu.hidden = true;
-            }
-
-            const navItems = document.querySelectorAll('.main-nav-item.has-submenu');
-
-            function closeAllSubmenus(except = null) {
-                navItems.forEach(function (item) {
-                    if (item === except) return;
-
-                    const toggleBtn = item.querySelector('.main-nav-link');
-                    const submenu = item.querySelector('.submenu');
-
-                    item.classList.remove('subnav-open');
-                    item.classList.add('subnav-closed');
-                    toggleBtn?.setAttribute('aria-expanded', 'false');
-                    if (submenu) submenu.hidden = true;
-                });
-            }
-
-            navItems.forEach(function (item, index) {
-                const toggleBtn = item.querySelector('.main-nav-link');
-                const submenu = item.querySelector('.submenu');
-
-                if (index >= navItems.length - 3) {
-                    item.classList.add('align-submenu-right');
-                }
-
-                if (!toggleBtn || !submenu) return;
-
-                item.addEventListener('click', function (e) {
-                    if (e.target.closest('ul.submenu a')) return;
-
-                    const isOpen = item.classList.contains('subnav-open');
-                    closeAllSubmenus(isOpen ? null : item);
-
-                    const shouldOpen = !isOpen;
-                    toggleBtn.setAttribute('aria-expanded', String(shouldOpen));
-                    submenu.hidden = !shouldOpen;
-
-                    item.classList.toggle('subnav-open', shouldOpen);
-                    item.classList.toggle('subnav-closed', !shouldOpen);
-
-                    e.stopPropagation();
-                });
-
-                toggleBtn.addEventListener('keydown', function (e) {
-                    const key = e.key;
-                    const links = submenu.querySelectorAll('a');
-
-                    switch (key) {
-                        case 'ArrowDown':
-                            e.preventDefault();
-                            if (links.length) links[0].focus();
-                            break;
-
-                        case 'ArrowUp':
-                            e.preventDefault();
-                            if (links.length) links[links.length - 1].focus();
-                            break;
-
-                        case 'ArrowRight':
-                            e.preventDefault();
-                            const next = navItems[(index + 1) % navItems.length];
-                            next.querySelector('.main-nav-link')?.focus();
-                            break;
-
-                        case 'ArrowLeft':
-                            e.preventDefault();
-                            const prev = navItems[(index - 1 + navItems.length) % navItems.length];
-                            prev.querySelector('.main-nav-link')?.focus();
-                            break;
-
-                        case 'Enter':
-                        case ' ':
-                            e.preventDefault();
-                            toggleBtn.click();
-                            break;
-
-                        case 'Escape':
-                            e.preventDefault();
-                            closeAllSubmenus();
-                            toggleBtn.focus();
-                            break;
-                    }
-                });
-
-                const lastLink = submenu.querySelector('a:last-child');
-                lastLink?.addEventListener('keydown', function (e) {
-                    if (e.key === 'Tab' && !e.shiftKey) {
-                        setTimeout(() => {
-                            if (!item.contains(document.activeElement)) {
-                                closeSubmenu(item);
-                            }
-                        }, 0);
-                    }
-                });
-            });
-
-            document.addEventListener('click', function (e) {
-                if (!e.target.closest('.main-nav-list')) {
-                    closeAllSubmenus();
-                }
-            });
-
-            document.addEventListener('keydown', function (e) {
-                if (e.key === 'Escape') {
-                    closeAllSubmenus();
-                }
-            });
-        });
-    </script>
-
-</header>
-
-<!-- Mobile Menu -->
-<div id="mobile-nav" class="mobile-nav" hidden>
+    <!-- Mobile Menu -->
+    <div id="mobile-nav" class="mobile-nav" hidden>
 
 
-    <div class="mobile-search">
-        <div class="gcse-searchbox-only" data-resultsUrl="/en/Search"></div>
+        <div class="mobile-search" role="search">
+            <div class="gcse-searchbox-only" data-resultsUrl="/en/Search"></div>
+        </div>
+
+        <ul class="mobile-nav-list container">
+            <li class="mobile-nav-item mobile-nav-link">
+                <a href="https://myedd.edd.ca.gov/s/" role="menuitem">myEDD Login</a>
+            </li>
+            <li class="mobile-nav-item mobile-nav-link">
+                <a href="/en/about_edd/employer_services_online/" role="menuitem">Employer Login</a>
+            </li>
+
+                <li class="mobile-nav-item has-submenu">
+                    <button class="mobile-nav-link" aria-expanded="false" aria-controls="submenu-mobile-nav-35589" id="toggle-mobile-nav-35589">
+                        Unemployment
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="29" viewBox="0 0 16 29" fill="none">
+                            <g clip-path="url(#clip0_392_3183)">
+                                <path d="M1.5 1.50001L14.35 14.35L1.5 27.2" stroke="#046B98" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_392_3183">
+                                    <rect width="28.7" height="15.85" fill="white" transform="translate(0 28.7) rotate(-90)" />
+                                </clipPath>
+                            </defs>
+                        </svg>
+                    </button>
+
+                        <ul id="submenu-mobile-nav-35589" class="mobile-submenu" role="menu" aria-labelledby="toggle-mobile-nav-35589" hidden>
+                                <li role="none" class="mobile-submenu-item">
+                                    <a href="/en/unemployment/" role="menuitem">Unemployment Benefits</a>
+                                </li>
+                                <li role="none" class="mobile-submenu-item">
+                                    <a href="/en/unemployment/step-1-get-your-information-in-order/" role="menuitem">Step 1: Get Your Information in Order</a>
+                                </li>
+                                <li role="none" class="mobile-submenu-item">
+                                    <a href="/en/unemployment/step-2-apply/" role="menuitem">Step 2: Apply</a>
+                                </li>
+                                <li role="none" class="mobile-submenu-item">
+                                    <a href="/en/unemployment/step-3-register-in-caljobs/" role="menuitem">Step 3: Register in CalJOBS</a>
+                                </li>
+                                <li role="none" class="mobile-submenu-item">
+                                    <a href="/en/unemployment/step-4-review-benefit-documents/" role="menuitem">Step 4: Review Benefit Documents</a>
+                                </li>
+                                <li role="none" class="mobile-submenu-item">
+                                    <a href="/en/unemployment/step-5-certify-for-benefits-to-avoid-delays/" role="menuitem">Step 5: Certify for Benefits</a>
+                                </li>
+                                <li role="none" class="mobile-submenu-item">
+                                    <a href="/en/unemployment/step-6-receive-your-first-payment/" role="menuitem">Step 6: Receive Your First Payment</a>
+                                </li>
+                                <li role="none" class="mobile-submenu-item">
+                                    <a href="/en/unemployment/step-7-continue-to-certify/" role="menuitem">Step 7: Continue to Certify</a>
+                                </li>
+                                <li role="none" class="mobile-submenu-item">
+                                    <a href="/en/unemployment/step-8-end-your-benefits/" role="menuitem">Step 8: End Your Benefits</a>
+                                </li>
+                                <li role="none" class="mobile-submenu-item">
+                                    <a href="/en/unemployment/claim-status/" role="menuitem">Determinations and Eligibility</a>
+                                </li>
+                                <li role="none" class="mobile-submenu-item">
+                                    <a href="/en/unemployment/appeals/" role="menuitem">Appeals</a>
+                                </li>
+                                <li role="none" class="mobile-submenu-item">
+                                    <a href="/en/unemployment/overpayments-and-penalties/" role="menuitem">Overpayments and Penalties</a>
+                                </li>
+                        </ul>
+                </li>
+                <li class="mobile-nav-item has-submenu">
+                    <button class="mobile-nav-link" aria-expanded="false" aria-controls="submenu-mobile-nav-35590" id="toggle-mobile-nav-35590">
+                        Disability
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="29" viewBox="0 0 16 29" fill="none">
+                            <g clip-path="url(#clip0_392_3183)">
+                                <path d="M1.5 1.50001L14.35 14.35L1.5 27.2" stroke="#046B98" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_392_3183">
+                                    <rect width="28.7" height="15.85" fill="white" transform="translate(0 28.7) rotate(-90)" />
+                                </clipPath>
+                            </defs>
+                        </svg>
+                    </button>
+
+                        <ul id="submenu-mobile-nav-35590" class="mobile-submenu" role="menu" aria-labelledby="toggle-mobile-nav-35590" hidden>
+                                <li role="none" class="mobile-submenu-item">
+                                    <a href="/en/disability/disability_insurance/" role="menuitem">Disability Insurance Benefits</a>
+                                </li>
+                                <li role="none" class="mobile-submenu-item">
+                                    <a href="/en/disability/step-1-get-your-information-in-order/" role="menuitem">Step 1: Get Your Information in Order</a>
+                                </li>
+                                <li role="none" class="mobile-submenu-item">
+                                    <a href="/en/disability/step-2-apply/" role="menuitem">Step 2: Apply</a>
+                                </li>
+                                <li role="none" class="mobile-submenu-item">
+                                    <a href="/en/disability/step-3-have-a-medical-certification-completed/" role="menuitem">Step 3: Have a Medical Certification Completed</a>
+                                </li>
+                                <li role="none" class="mobile-submenu-item">
+                                    <a href="/en/disability/step-4-review-benefit-documents/" role="menuitem">Step 4: Review Benefit Documents</a>
+                                </li>
+                                <li role="none" class="mobile-submenu-item">
+                                    <a href="/en/disability/step-5-receive-your-first-payment/" role="menuitem">Step 5: Receive Your First Payment</a>
+                                </li>
+                                <li role="none" class="mobile-submenu-item">
+                                    <a href="/en/disability/step-6-manage-benefits/" role="menuitem">Step 6: Manage Benefits</a>
+                                </li>
+                                <li role="none" class="mobile-submenu-item">
+                                    <a href="/en/disability/step-7-end-your-benefits/" role="menuitem">Step 7: End Your Benefits</a>
+                                </li>
+                                <li role="none" class="mobile-submenu-item">
+                                    <a href="/en/disability/Am_I_Eligible_for_DI_Benefits/" role="menuitem">Eligibility Requirements</a>
+                                </li>
+                                <li role="none" class="mobile-submenu-item">
+                                    <a href="/en/disability/appeals/" role="menuitem">Appeals</a>
+                                </li>
+                                <li role="none" class="mobile-submenu-item">
+                                    <a href="/en/about_edd/events-and-seminars/" role="menuitem">Events and Educational Webinars</a>
+                                </li>
+                        </ul>
+                </li>
+                <li class="mobile-nav-item has-submenu">
+                    <button class="mobile-nav-link" aria-expanded="false" aria-controls="submenu-mobile-nav-35591" id="toggle-mobile-nav-35591">
+                        Paid Family Leave
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="29" viewBox="0 0 16 29" fill="none">
+                            <g clip-path="url(#clip0_392_3183)">
+                                <path d="M1.5 1.50001L14.35 14.35L1.5 27.2" stroke="#046B98" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_392_3183">
+                                    <rect width="28.7" height="15.85" fill="white" transform="translate(0 28.7) rotate(-90)" />
+                                </clipPath>
+                            </defs>
+                        </svg>
+                    </button>
+
+                        <ul id="submenu-mobile-nav-35591" class="mobile-submenu" role="menu" aria-labelledby="toggle-mobile-nav-35591" hidden>
+                                <li role="none" class="mobile-submenu-item">
+                                    <a href="/en/disability/paid-family-leave/" role="menuitem">Paid Family Leave Benefits</a>
+                                </li>
+                                <li role="none" class="mobile-submenu-item">
+                                    <a href="/en/disability/paid-family-leave/step-1-get-your-information-in-order/" role="menuitem">Step 1: Get Your Information in Order</a>
+                                </li>
+                                <li role="none" class="mobile-submenu-item">
+                                    <a href="/en/disability/paid-family-leave/step-2-apply/" role="menuitem">Step 2: Apply</a>
+                                </li>
+                                <li role="none" class="mobile-submenu-item">
+                                    <a href="/en/disability/paid-family-leave/step-3-submit-required-documents/" role="menuitem">Step 3: Submit Required Documents</a>
+                                </li>
+                                <li role="none" class="mobile-submenu-item">
+                                    <a href="/en/disability/paid-family-leave/step-4-review-benefit-documents/" role="menuitem">Step 4: Review Benefit Documents</a>
+                                </li>
+                                <li role="none" class="mobile-submenu-item">
+                                    <a href="/en/disability/paid-family-leave/step-5-receive-your-first-payment/" role="menuitem">Step 5: Receive Your First Payment</a>
+                                </li>
+                                <li role="none" class="mobile-submenu-item">
+                                    <a href="/en/disability/paid-family-leave/step-6-manage-benefits/" role="menuitem">Step 6: Manage Benefits</a>
+                                </li>
+                                <li role="none" class="mobile-submenu-item">
+                                    <a href="/en/disability/paid-family-leave/step-7-end-your-benefits/" role="menuitem">Step 7: End Your Benefits</a>
+                                </li>
+                                <li role="none" class="mobile-submenu-item">
+                                    <a href="/en/disability/Am_I_Eligible_for_PFL_Benefits/" role="menuitem">Eligibility Requirements</a>
+                                </li>
+                                <li role="none" class="mobile-submenu-item">
+                                    <a href="/en/disability/appeals/" role="menuitem">Appeals</a>
+                                </li>
+                                <li role="none" class="mobile-submenu-item">
+                                    <a href="/en/disability/paid-family-leave/Physicians-and-Practitioners/" role="menuitem">Physicians and Practitioners</a>
+                                </li>
+                                <li role="none" class="mobile-submenu-item">
+                                    <a href="/en/disability/paid-family-leave/Employers/" role="menuitem">Employers</a>
+                                </li>
+                                <li role="none" class="mobile-submenu-item">
+                                    <a href="/en/about_edd/events-and-seminars/" role="menuitem">Events and Educational Webinars</a>
+                                </li>
+                        </ul>
+                </li>
+                <li class="mobile-nav-item has-submenu">
+                    <button class="mobile-nav-link" aria-expanded="false" aria-controls="submenu-mobile-nav-35595" id="toggle-mobile-nav-35595">
+                        Employers
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="29" viewBox="0 0 16 29" fill="none">
+                            <g clip-path="url(#clip0_392_3183)">
+                                <path d="M1.5 1.50001L14.35 14.35L1.5 27.2" stroke="#046B98" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_392_3183">
+                                    <rect width="28.7" height="15.85" fill="white" transform="translate(0 28.7) rotate(-90)" />
+                                </clipPath>
+                            </defs>
+                        </svg>
+                    </button>
+
+                        <ul id="submenu-mobile-nav-35595" class="mobile-submenu" role="menu" aria-labelledby="toggle-mobile-nav-35595" hidden>
+                                <li role="none" class="mobile-submenu-item">
+                                    <a href="/en/employers/" role="menuitem">Employers Portal</a>
+                                </li>
+                                <li role="none" class="mobile-submenu-item">
+                                    <a href="/en/payroll_taxes/" role="menuitem">Payroll Taxes</a>
+                                </li>
+                                <li role="none" class="mobile-submenu-item">
+                                    <a href="/en/payroll_taxes/payroll-tax-webinars/" role="menuitem">Payroll Tax Webinars</a>
+                                </li>
+                                <li role="none" class="mobile-submenu-item">
+                                    <a href="/en/payroll_taxes/Due_Dates_Calendar/" role="menuitem">Calendar – Payroll Tax Due Dates</a>
+                                </li>
+                                <li role="none" class="mobile-submenu-item">
+                                    <a href="/en/payroll_taxes/forms_and_publications/" role="menuitem">Payroll Taxes – Forms and Publications</a>
+                                </li>
+                                <li role="none" class="mobile-submenu-item">
+                                    <a href="/en/unemployment/work_sharing_program/" role="menuitem">Work Sharing</a>
+                                </li>
+                                <li role="none" class="mobile-submenu-item">
+                                    <a href="/en/jobs_and_training/Work_Opportunity_Tax_Credit/" role="menuitem">Work Opportunity Tax Credit</a>
+                                </li>
+                                <li role="none" class="mobile-submenu-item">
+                                    <a href="/en/jobs_and_training/Employer_Information/" role="menuitem">Hiring and Training Services for Employers</a>
+                                </li>
+                                <li role="none" class="mobile-submenu-item">
+                                    <a href="/en/unemployment/Employer_Information/" role="menuitem">Unemployment Insurance Employer Information</a>
+                                </li>
+                                <li role="none" class="mobile-submenu-item">
+                                    <a href="/en/disability/Employer-Information/" role="menuitem">State Disability Insurance Employer Information</a>
+                                </li>
+                        </ul>
+                </li>
+                <li class="mobile-nav-item has-submenu">
+                    <button class="mobile-nav-link" aria-expanded="false" aria-controls="submenu-mobile-nav-35596" id="toggle-mobile-nav-35596">
+                        Job Services
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="29" viewBox="0 0 16 29" fill="none">
+                            <g clip-path="url(#clip0_392_3183)">
+                                <path d="M1.5 1.50001L14.35 14.35L1.5 27.2" stroke="#046B98" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_392_3183">
+                                    <rect width="28.7" height="15.85" fill="white" transform="translate(0 28.7) rotate(-90)" />
+                                </clipPath>
+                            </defs>
+                        </svg>
+                    </button>
+
+                        <ul id="submenu-mobile-nav-35596" class="mobile-submenu" role="menu" aria-labelledby="toggle-mobile-nav-35596" hidden>
+                                <li role="none" class="mobile-submenu-item">
+                                    <a href="/en/jobs_and_training/" role="menuitem">Job Services Portal</a>
+                                </li>
+                                <li role="none" class="mobile-submenu-item">
+                                    <a href="/en/jobs_and_training/Caljobs/" role="menuitem">CalJOBS</a>
+                                </li>
+                                <li role="none" class="mobile-submenu-item">
+                                    <a href="/en/jobs_and_training/TCLobby/" role="menuitem">America&#39;s Job Center of California</a>
+                                </li>
+                                <li role="none" class="mobile-submenu-item">
+                                    <a href="/en/jobs_and_training/Job_Fairs_and_Workshops/" role="menuitem">Job Fairs and Workshops</a>
+                                </li>
+                                <li role="none" class="mobile-submenu-item">
+                                    <a href="/en/jobs_and_training/services_for_veterans/" role="menuitem">Veterans Services</a>
+                                </li>
+                                <li role="none" class="mobile-submenu-item">
+                                    <a href="/en/jobs_and_training/Employer_Information/" role="menuitem">Employer Information</a>
+                                </li>
+                                <li role="none" class="mobile-submenu-item">
+                                    <a href="/en/jobs_and_training/Workforce_Partner_Information/" role="menuitem">Workforce Partner Information</a>
+                                </li>
+                                <li role="none" class="mobile-submenu-item">
+                                    <a href="https://labormarketinfo.edd.ca.gov/" role="menuitem">Labor Market Information</a>
+                                </li>
+                        </ul>
+                </li>
+                <li class="mobile-nav-item has-submenu">
+                    <button class="mobile-nav-link" aria-expanded="false" aria-controls="submenu-mobile-nav-35597" id="toggle-mobile-nav-35597">
+                        Newsroom
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="29" viewBox="0 0 16 29" fill="none">
+                            <g clip-path="url(#clip0_392_3183)">
+                                <path d="M1.5 1.50001L14.35 14.35L1.5 27.2" stroke="#046B98" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_392_3183">
+                                    <rect width="28.7" height="15.85" fill="white" transform="translate(0 28.7) rotate(-90)" />
+                                </clipPath>
+                            </defs>
+                        </svg>
+                    </button>
+
+                        <ul id="submenu-mobile-nav-35597" class="mobile-submenu" role="menu" aria-labelledby="toggle-mobile-nav-35597" hidden>
+                                <li role="none" class="mobile-submenu-item">
+                                    <a href="/en/newsroom/" role="menuitem">News Releases and Helpful Links</a>
+                                </li>
+                                <li role="none" class="mobile-submenu-item">
+                                    <a href="/en/newsroom/benefitting-californians/" role="menuitem">Benefiting Californians Blog</a>
+                                </li>
+                                <li role="none" class="mobile-submenu-item">
+                                    <a href="/en/about_edd/eddnext/" role="menuitem">EDDNext Modernization Updates</a>
+                                </li>
+                                <li role="none" class="mobile-submenu-item">
+                                    <a href="/en/about_edd/public_records_request/" role="menuitem">Public Records Request</a>
+                                </li>
+                                <li role="none" class="mobile-submenu-item">
+                                    <a href="/en/about_edd/quick_statistics/" role="menuitem">Quick Statistics</a>
+                                </li>
+                                <li role="none" class="mobile-submenu-item">
+                                    <a href="https://labormarketinfo.edd.ca.gov/" role="menuitem">Labor Market Information</a>
+                                </li>
+                                <li role="none" class="mobile-submenu-item">
+                                    <a href="/en/newsroom/facts-and-stats/dashboard/" role="menuitem">Unemployment Data Dashboard</a>
+                                </li>
+                        </ul>
+                </li>
+        </ul>
     </div>
 
-    <ul class="mobile-nav-list container">
-        <li class="mobile-nav-item mobile-nav-link">
-            <a href="https://myedd.edd.ca.gov/s/" role="menuitem">myEDD Login</a>
-        </li>
-        <li class="mobile-nav-item mobile-nav-link">
-            <a href="/en/about_edd/employer_services_online/" role="menuitem">Employer Login</a>
-        </li>
-
-            <li class="mobile-nav-item has-submenu">
-                <button class="mobile-nav-link" aria-expanded="false" aria-controls="submenu-mobile-nav-35589" id="toggle-mobile-nav-35589">
-                    Unemployment
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="29" viewBox="0 0 16 29" fill="none">
-                        <g clip-path="url(#clip0_392_3183)">
-                            <path d="M1.5 1.50001L14.35 14.35L1.5 27.2" stroke="#046B98" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
-                        </g>
-                        <defs>
-                            <clipPath id="clip0_392_3183">
-                                <rect width="28.7" height="15.85" fill="white" transform="translate(0 28.7) rotate(-90)" />
-                            </clipPath>
-                        </defs>
-                    </svg>
-                </button>
-
-                    <ul id="submenu-mobile-nav-35589" class="mobile-submenu" role="menu" aria-labelledby="toggle-mobile-nav-35589" hidden>
-                            <li role="none" class="mobile-submenu-item">
-                                <a href="/en/unemployment/" role="menuitem">Unemployment Benefits</a>
-                            </li>
-                            <li role="none" class="mobile-submenu-item">
-                                <a href="/en/unemployment/step-1-get-your-information-in-order/" role="menuitem">Step 1: Get Your Information in Order</a>
-                            </li>
-                            <li role="none" class="mobile-submenu-item">
-                                <a href="/en/unemployment/step-2-apply/" role="menuitem">Step 2: Apply</a>
-                            </li>
-                            <li role="none" class="mobile-submenu-item">
-                                <a href="/en/unemployment/step-3-register-in-caljobs/" role="menuitem">Step 3: Register in CalJOBS</a>
-                            </li>
-                            <li role="none" class="mobile-submenu-item">
-                                <a href="/en/unemployment/step-4-review-benefit-documents/" role="menuitem">Step 4: Review Benefit Documents</a>
-                            </li>
-                            <li role="none" class="mobile-submenu-item">
-                                <a href="/en/unemployment/step-5-certify-for-benefits-to-avoid-delays/" role="menuitem">Step 5: Certify for Benefits</a>
-                            </li>
-                            <li role="none" class="mobile-submenu-item">
-                                <a href="/en/unemployment/step-6-receive-your-first-payment/" role="menuitem">Step 6: Receive Your First Payment</a>
-                            </li>
-                            <li role="none" class="mobile-submenu-item">
-                                <a href="/en/unemployment/step-7-continue-to-certify/" role="menuitem">Step 7: Continue to Certify</a>
-                            </li>
-                            <li role="none" class="mobile-submenu-item">
-                                <a href="/en/unemployment/step-8-end-your-benefits/" role="menuitem">Step 8: End Your Benefits</a>
-                            </li>
-                            <li role="none" class="mobile-submenu-item">
-                                <a href="/en/unemployment/claim-status/" role="menuitem">Determinations and Eligibility</a>
-                            </li>
-                            <li role="none" class="mobile-submenu-item">
-                                <a href="/en/unemployment/appeals/" role="menuitem">Appeals</a>
-                            </li>
-                            <li role="none" class="mobile-submenu-item">
-                                <a href="/en/unemployment/overpayments-and-penalties/" role="menuitem">Overpayments and Penalties</a>
-                            </li>
-                    </ul>
-            </li>
-            <li class="mobile-nav-item has-submenu">
-                <button class="mobile-nav-link" aria-expanded="false" aria-controls="submenu-mobile-nav-35590" id="toggle-mobile-nav-35590">
-                    Disability
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="29" viewBox="0 0 16 29" fill="none">
-                        <g clip-path="url(#clip0_392_3183)">
-                            <path d="M1.5 1.50001L14.35 14.35L1.5 27.2" stroke="#046B98" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
-                        </g>
-                        <defs>
-                            <clipPath id="clip0_392_3183">
-                                <rect width="28.7" height="15.85" fill="white" transform="translate(0 28.7) rotate(-90)" />
-                            </clipPath>
-                        </defs>
-                    </svg>
-                </button>
-
-                    <ul id="submenu-mobile-nav-35590" class="mobile-submenu" role="menu" aria-labelledby="toggle-mobile-nav-35590" hidden>
-                            <li role="none" class="mobile-submenu-item">
-                                <a href="/en/disability/disability_insurance/" role="menuitem">Disability Insurance Benefits</a>
-                            </li>
-                            <li role="none" class="mobile-submenu-item">
-                                <a href="/en/disability/step-1-get-your-information-in-order/" role="menuitem">Step 1: Get Your Information in Order</a>
-                            </li>
-                            <li role="none" class="mobile-submenu-item">
-                                <a href="/en/disability/step-2-apply/" role="menuitem">Step 2: Apply</a>
-                            </li>
-                            <li role="none" class="mobile-submenu-item">
-                                <a href="/en/disability/step-3-have-a-medical-certification-completed/" role="menuitem">Step 3: Have a Medical Certification Completed</a>
-                            </li>
-                            <li role="none" class="mobile-submenu-item">
-                                <a href="/en/disability/step-4-review-benefit-documents/" role="menuitem">Step 4: Review Benefit Documents</a>
-                            </li>
-                            <li role="none" class="mobile-submenu-item">
-                                <a href="/en/disability/step-5-receive-your-first-payment/" role="menuitem">Step 5: Receive Your First Payment</a>
-                            </li>
-                            <li role="none" class="mobile-submenu-item">
-                                <a href="/en/disability/step-6-manage-benefits/" role="menuitem">Step 6: Manage Benefits</a>
-                            </li>
-                            <li role="none" class="mobile-submenu-item">
-                                <a href="/en/disability/step-7-end-your-benefits/" role="menuitem">Step 7: End Your Benefits</a>
-                            </li>
-                            <li role="none" class="mobile-submenu-item">
-                                <a href="/en/disability/Am_I_Eligible_for_DI_Benefits/" role="menuitem">Eligibility Requirements</a>
-                            </li>
-                            <li role="none" class="mobile-submenu-item">
-                                <a href="/en/disability/appeals/" role="menuitem">Appeals</a>
-                            </li>
-                            <li role="none" class="mobile-submenu-item">
-                                <a href="/en/about_edd/events-and-seminars/" role="menuitem">Events and Educational Webinars</a>
-                            </li>
-                    </ul>
-            </li>
-            <li class="mobile-nav-item has-submenu">
-                <button class="mobile-nav-link" aria-expanded="false" aria-controls="submenu-mobile-nav-35591" id="toggle-mobile-nav-35591">
-                    Paid Family Leave
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="29" viewBox="0 0 16 29" fill="none">
-                        <g clip-path="url(#clip0_392_3183)">
-                            <path d="M1.5 1.50001L14.35 14.35L1.5 27.2" stroke="#046B98" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
-                        </g>
-                        <defs>
-                            <clipPath id="clip0_392_3183">
-                                <rect width="28.7" height="15.85" fill="white" transform="translate(0 28.7) rotate(-90)" />
-                            </clipPath>
-                        </defs>
-                    </svg>
-                </button>
-
-                    <ul id="submenu-mobile-nav-35591" class="mobile-submenu" role="menu" aria-labelledby="toggle-mobile-nav-35591" hidden>
-                            <li role="none" class="mobile-submenu-item">
-                                <a href="/en/disability/paid-family-leave/" role="menuitem">Paid Family Leave Benefits</a>
-                            </li>
-                            <li role="none" class="mobile-submenu-item">
-                                <a href="/en/disability/paid-family-leave/step-1-get-your-information-in-order/" role="menuitem">Step 1: Get Your Information in Order</a>
-                            </li>
-                            <li role="none" class="mobile-submenu-item">
-                                <a href="/en/disability/paid-family-leave/step-2-apply/" role="menuitem">Step 2: Apply</a>
-                            </li>
-                            <li role="none" class="mobile-submenu-item">
-                                <a href="/en/disability/paid-family-leave/step-3-submit-required-documents/" role="menuitem">Step 3: Submit Required Documents</a>
-                            </li>
-                            <li role="none" class="mobile-submenu-item">
-                                <a href="/en/disability/paid-family-leave/step-4-review-benefit-documents/" role="menuitem">Step 4: Review Benefit Documents</a>
-                            </li>
-                            <li role="none" class="mobile-submenu-item">
-                                <a href="/en/disability/paid-family-leave/step-5-receive-your-first-payment/" role="menuitem">Step 5: Receive Your First Payment</a>
-                            </li>
-                            <li role="none" class="mobile-submenu-item">
-                                <a href="/en/disability/paid-family-leave/step-6-manage-benefits/" role="menuitem">Step 6: Manage Benefits</a>
-                            </li>
-                            <li role="none" class="mobile-submenu-item">
-                                <a href="/en/disability/paid-family-leave/step-7-end-your-benefits/" role="menuitem">Step 7: End Your Benefits</a>
-                            </li>
-                            <li role="none" class="mobile-submenu-item">
-                                <a href="/en/disability/Am_I_Eligible_for_PFL_Benefits/" role="menuitem">Eligibility Requirements</a>
-                            </li>
-                            <li role="none" class="mobile-submenu-item">
-                                <a href="/en/disability/appeals/" role="menuitem">Appeals</a>
-                            </li>
-                            <li role="none" class="mobile-submenu-item">
-                                <a href="/en/disability/paid-family-leave/Physicians-and-Practitioners/" role="menuitem">Physicians and Practitioners</a>
-                            </li>
-                            <li role="none" class="mobile-submenu-item">
-                                <a href="/en/disability/paid-family-leave/Employers/" role="menuitem">Employers</a>
-                            </li>
-                            <li role="none" class="mobile-submenu-item">
-                                <a href="/en/about_edd/events-and-seminars/" role="menuitem">Events and Educational Webinars</a>
-                            </li>
-                    </ul>
-            </li>
-            <li class="mobile-nav-item has-submenu">
-                <button class="mobile-nav-link" aria-expanded="false" aria-controls="submenu-mobile-nav-35595" id="toggle-mobile-nav-35595">
-                    Employers
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="29" viewBox="0 0 16 29" fill="none">
-                        <g clip-path="url(#clip0_392_3183)">
-                            <path d="M1.5 1.50001L14.35 14.35L1.5 27.2" stroke="#046B98" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
-                        </g>
-                        <defs>
-                            <clipPath id="clip0_392_3183">
-                                <rect width="28.7" height="15.85" fill="white" transform="translate(0 28.7) rotate(-90)" />
-                            </clipPath>
-                        </defs>
-                    </svg>
-                </button>
-
-                    <ul id="submenu-mobile-nav-35595" class="mobile-submenu" role="menu" aria-labelledby="toggle-mobile-nav-35595" hidden>
-                            <li role="none" class="mobile-submenu-item">
-                                <a href="/en/employers/" role="menuitem">Employers Portal</a>
-                            </li>
-                            <li role="none" class="mobile-submenu-item">
-                                <a href="/en/payroll_taxes/" role="menuitem">Payroll Taxes</a>
-                            </li>
-                            <li role="none" class="mobile-submenu-item">
-                                <a href="/en/payroll_taxes/payroll-tax-webinars/" role="menuitem">Payroll Tax Webinars</a>
-                            </li>
-                            <li role="none" class="mobile-submenu-item">
-                                <a href="/en/payroll_taxes/Due_Dates_Calendar/" role="menuitem">Calendar – Payroll Tax Due Dates</a>
-                            </li>
-                            <li role="none" class="mobile-submenu-item">
-                                <a href="/en/payroll_taxes/forms_and_publications/" role="menuitem">Payroll Taxes – Forms and Publications</a>
-                            </li>
-                            <li role="none" class="mobile-submenu-item">
-                                <a href="/en/unemployment/work_sharing_program/" role="menuitem">Work Sharing</a>
-                            </li>
-                            <li role="none" class="mobile-submenu-item">
-                                <a href="/en/jobs_and_training/Work_Opportunity_Tax_Credit/" role="menuitem">Work Opportunity Tax Credit</a>
-                            </li>
-                            <li role="none" class="mobile-submenu-item">
-                                <a href="/en/jobs_and_training/Employer_Information/" role="menuitem">Hiring and Training Services for Employers</a>
-                            </li>
-                            <li role="none" class="mobile-submenu-item">
-                                <a href="/en/unemployment/Employer_Information/" role="menuitem">Unemployment Insurance Employer Information</a>
-                            </li>
-                            <li role="none" class="mobile-submenu-item">
-                                <a href="/en/disability/Employer-Information/" role="menuitem">State Disability Insurance Employer Information</a>
-                            </li>
-                    </ul>
-            </li>
-            <li class="mobile-nav-item has-submenu">
-                <button class="mobile-nav-link" aria-expanded="false" aria-controls="submenu-mobile-nav-35596" id="toggle-mobile-nav-35596">
-                    Job Services
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="29" viewBox="0 0 16 29" fill="none">
-                        <g clip-path="url(#clip0_392_3183)">
-                            <path d="M1.5 1.50001L14.35 14.35L1.5 27.2" stroke="#046B98" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
-                        </g>
-                        <defs>
-                            <clipPath id="clip0_392_3183">
-                                <rect width="28.7" height="15.85" fill="white" transform="translate(0 28.7) rotate(-90)" />
-                            </clipPath>
-                        </defs>
-                    </svg>
-                </button>
-
-                    <ul id="submenu-mobile-nav-35596" class="mobile-submenu" role="menu" aria-labelledby="toggle-mobile-nav-35596" hidden>
-                            <li role="none" class="mobile-submenu-item">
-                                <a href="/en/jobs_and_training/" role="menuitem">Job Services Portal</a>
-                            </li>
-                            <li role="none" class="mobile-submenu-item">
-                                <a href="/en/jobs_and_training/Caljobs/" role="menuitem">CalJOBS</a>
-                            </li>
-                            <li role="none" class="mobile-submenu-item">
-                                <a href="/en/jobs_and_training/TCLobby/" role="menuitem">America&#39;s Job Center of California</a>
-                            </li>
-                            <li role="none" class="mobile-submenu-item">
-                                <a href="/en/jobs_and_training/Job_Fairs_and_Workshops/" role="menuitem">Job Fairs and Workshops</a>
-                            </li>
-                            <li role="none" class="mobile-submenu-item">
-                                <a href="/en/jobs_and_training/services_for_veterans/" role="menuitem">Veterans Services</a>
-                            </li>
-                            <li role="none" class="mobile-submenu-item">
-                                <a href="/en/jobs_and_training/Employer_Information/" role="menuitem">Employer Information</a>
-                            </li>
-                            <li role="none" class="mobile-submenu-item">
-                                <a href="/en/jobs_and_training/Workforce_Partner_Information/" role="menuitem">Workforce Partner Information</a>
-                            </li>
-                            <li role="none" class="mobile-submenu-item">
-                                <a href="https://labormarketinfo.edd.ca.gov/" role="menuitem">Labor Market Information</a>
-                            </li>
-                    </ul>
-            </li>
-            <li class="mobile-nav-item has-submenu">
-                <button class="mobile-nav-link" aria-expanded="false" aria-controls="submenu-mobile-nav-35597" id="toggle-mobile-nav-35597">
-                    Newsroom
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="29" viewBox="0 0 16 29" fill="none">
-                        <g clip-path="url(#clip0_392_3183)">
-                            <path d="M1.5 1.50001L14.35 14.35L1.5 27.2" stroke="#046B98" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
-                        </g>
-                        <defs>
-                            <clipPath id="clip0_392_3183">
-                                <rect width="28.7" height="15.85" fill="white" transform="translate(0 28.7) rotate(-90)" />
-                            </clipPath>
-                        </defs>
-                    </svg>
-                </button>
-
-                    <ul id="submenu-mobile-nav-35597" class="mobile-submenu" role="menu" aria-labelledby="toggle-mobile-nav-35597" hidden>
-                            <li role="none" class="mobile-submenu-item">
-                                <a href="/en/newsroom/" role="menuitem">News Releases and Helpful Links</a>
-                            </li>
-                            <li role="none" class="mobile-submenu-item">
-                                <a href="/en/newsroom/benefitting-californians/" role="menuitem">Benefiting Californians Blog</a>
-                            </li>
-                            <li role="none" class="mobile-submenu-item">
-                                <a href="/en/about_edd/eddnext/" role="menuitem">EDDNext Modernization Updates</a>
-                            </li>
-                            <li role="none" class="mobile-submenu-item">
-                                <a href="/en/about_edd/public_records_request/" role="menuitem">Public Records Request</a>
-                            </li>
-                            <li role="none" class="mobile-submenu-item">
-                                <a href="/en/about_edd/quick_statistics/" role="menuitem">Quick Statistics</a>
-                            </li>
-                            <li role="none" class="mobile-submenu-item">
-                                <a href="https://labormarketinfo.edd.ca.gov/" role="menuitem">Labor Market Information</a>
-                            </li>
-                            <li role="none" class="mobile-submenu-item">
-                                <a href="/en/newsroom/facts-and-stats/dashboard/" role="menuitem">Unemployment Data Dashboard</a>
-                            </li>
-                    </ul>
-            </li>
-    </ul>
-</div>
+    <div id="header-spacer"></div>
+</header>
 
 <script>
     window.__gcse = {
@@ -1113,7 +954,6 @@
             var button = document.getElementsByClassName('gsc-search-button-v2');
             button[0].innerHTML = "<span class='ca-gov-icon-search font-size-25 text-dark' aria-hidden='true'></span><span class='sr-only'>Search</span>";
             button[1].innerHTML = "<span class='ca-gov-icon-search font-size-30 text-dark' aria-hidden='true'></span><span class='sr-only'>Search</span>";
-
 
             // Set custom placehold text on Google search input
             //var searchBox1 = document.getElementById('gsc-i-id1');
@@ -1131,6 +971,297 @@
             searchBoxHeader.title = "Search the EDD website";
         }
     }
+</script>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const toggle = document.querySelector('.mobile-nav-toggle');
+        const mobileNav = document.getElementById('mobile-nav');
+        const hamburgerIcon = toggle?.querySelector('.hamburger-icon');
+        const header = document.querySelector('.site-header');
+        const alertBanner = document.querySelector('.alert-banner');
+        const main = document.querySelector('.main-primary');
+
+        if (!toggle || !mobileNav || !header) return;
+
+        function updateHeaderHeightVar() {
+            if (header) {
+                const height = header.offsetHeight;
+                document.documentElement.style.setProperty('--header-height', `${height}px`);
+            }
+        }
+
+        updateHeaderHeightVar();
+
+        if ('ResizeObserver' in window && header) {
+            let last = -1
+            let queued = false;
+
+            const observer = new ResizeObserver(() => {
+                if (queued) return;
+                queued = true;
+
+                requestAnimationFrame(() => {
+                    queued = false;
+                    const h = header.offsetHeight;
+                    if (h !== last) {
+                        last = h;
+                        document.documentElement.style.setProperty('--header-height', `${h}px`);
+                    }
+                });
+            });
+            observer.observe(header);
+        } else {
+            const rafUpdate = () => requestAnimationFrame(updateHeaderHeightVar);
+            window.addEventListener('resize', rafUpdate);
+            window.addEventListener('scroll', rafUpdate, { passive: true });
+        }
+
+        if (alertBanner) {
+            const onEnd = (e) => {
+                if (e.propertyName === 'max-height') {
+                    updateHeaderHeightVar();
+                    alertBanner.removeEventListener('transitionend', onEnd);
+                }
+            };
+            alertBanner.addEventListener('transitionend', onEnd);
+            requestAnimationFrame(updateHeaderHeightVar);
+        }
+
+        window.addEventListener('resize', () => {
+            updateHeaderHeightVar();
+            // If we’re now in desktop mode while the mobile nav is still open, close it & unlock scroll
+            if (window.innerWidth > 992 && mobileNav.classList.contains('open')) {
+                mobileNav.classList.remove('open');
+                mobileNav.hidden = true;
+                toggle.setAttribute('aria-expanded', 'false');
+                hamburgerIcon.classList.remove('open');
+
+                document.documentElement.classList.remove('lock-scroll');
+                document.body.classList.remove('lock-scroll');
+            }
+        });
+
+        if (toggle && mobileNav && hamburgerIcon) {
+            toggle.addEventListener('click', function () {
+                const expanded = toggle.getAttribute('aria-expanded') === 'true';
+                toggle.setAttribute('aria-expanded', String(!expanded));
+                hamburgerIcon.classList.toggle('open', !expanded);
+                mobileNav.classList.toggle('open', !expanded);
+                mobileNav.hidden = expanded;
+
+                if (!expanded) {
+                    // Lock scroll behind menu
+                    document.documentElement.classList.add('lock-scroll');
+                    document.body.classList.add('lock-scroll');
+                    updateHeaderHeightVar();
+                } else {
+                    // Unlock scroll
+                    document.documentElement.classList.remove('lock-scroll');
+                    document.body.classList.remove('lock-scroll');
+                }
+            });
+        }
+
+        // ======== Mobile Submenu Logic ========
+        const mobileButtons = document.querySelectorAll('.mobile-nav-link');
+
+        mobileButtons.forEach(function (btn) {
+            const submenuId = btn.getAttribute('aria-controls');
+            const submenu = document.getElementById(submenuId);
+
+            btn.addEventListener('click', function (e) {
+                const isOpen = btn.classList.contains('active');
+
+                // Close all other submenus
+                mobileButtons.forEach(function (otherBtn) {
+                    const otherSubmenu = document.getElementById(otherBtn.getAttribute('aria-controls'));
+                    otherBtn.classList.remove('active');
+                    otherBtn.setAttribute('aria-expanded', 'false');
+                    if (otherSubmenu) otherSubmenu.hidden = true;
+                });
+
+                if (!isOpen) {
+                    btn.classList.add('active');
+                    btn.setAttribute('aria-expanded', 'true');
+                    if (submenu) submenu.hidden = false;
+                    btn.scrollIntoView({ behavior: "smooth" });
+                }
+
+                e.stopPropagation();
+            });
+        });
+
+        // Close all mobile submenus on outside click
+        document.addEventListener('click', function (e) {
+            if (!e.target.closest('#mobile-nav') && !e.target.closest('.mobile-nav-toggle')) {
+                mobileButtons.forEach(function (btn) {
+                    const submenu = document.getElementById(btn.getAttribute('aria-controls'));
+                    btn.classList.remove('active');
+                    btn.setAttribute('aria-expanded', 'false');
+                    if (submenu) submenu.hidden = true;
+                });
+            }
+        });
+
+        // ======== Desktop Nav Submenu Logic ========
+        function closeSubmenu(item) {
+            const toggleBtn = item.querySelector('.main-nav-link');
+            const submenu = item.querySelector('.submenu');
+
+            item.classList.remove('subnav-open');
+            item.classList.add('subnav-closed');
+            toggleBtn?.setAttribute('aria-expanded', 'false');
+            if (submenu) submenu.hidden = true;
+        }
+
+        const navItems = document.querySelectorAll('.main-nav-item.has-submenu');
+
+        function closeAllSubmenus(except = null) {
+            navItems.forEach(function (item) {
+                if (item === except) return;
+
+                const toggleBtn = item.querySelector('.main-nav-link');
+                const submenu = item.querySelector('.submenu');
+
+                item.classList.remove('subnav-open');
+                item.classList.add('subnav-closed');
+                toggleBtn?.setAttribute('aria-expanded', 'false');
+                if (submenu) submenu.hidden = true;
+            });
+        }
+
+        navItems.forEach(function (item, index) {
+            const toggleBtn = item.querySelector('.main-nav-link');
+            const submenu = item.querySelector('.submenu');
+
+            if (index >= navItems.length - 3) {
+                item.classList.add('align-submenu-right');
+            }
+
+            if (!toggleBtn || !submenu) return;
+
+            item.addEventListener('click', function (e) {
+                if (e.target.closest('ul.submenu a')) return;
+
+                const isOpen = item.classList.contains('subnav-open');
+                closeAllSubmenus(isOpen ? null : item);
+
+                const shouldOpen = !isOpen;
+                toggleBtn.setAttribute('aria-expanded', String(shouldOpen));
+                submenu.hidden = !shouldOpen;
+
+                item.classList.toggle('subnav-open', shouldOpen);
+                item.classList.toggle('subnav-closed', !shouldOpen);
+
+                e.stopPropagation();
+            });
+
+            toggleBtn.addEventListener('keydown', function (e) {
+                const key = e.key;
+                const links = submenu.querySelectorAll('a');
+
+                switch (key) {
+                    case 'ArrowDown':
+                        e.preventDefault();
+                        if (links.length) links[0].focus();
+                        break;
+
+                    case 'ArrowUp':
+                        e.preventDefault();
+                        if (links.length) links[links.length - 1].focus();
+                        break;
+
+                    case 'ArrowRight':
+                        e.preventDefault();
+                        const next = navItems[(index + 1) % navItems.length];
+                        next.querySelector('.main-nav-link')?.focus();
+                        break;
+
+                    case 'ArrowLeft':
+                        e.preventDefault();
+                        const prev = navItems[(index - 1 + navItems.length) % navItems.length];
+                        prev.querySelector('.main-nav-link')?.focus();
+                        break;
+
+                    case 'Enter':
+                    case ' ':
+                        e.preventDefault();
+                        toggleBtn.click();
+                        break;
+
+                    case 'Escape':
+                        e.preventDefault();
+                        closeAllSubmenus();
+                        toggleBtn.focus();
+                        break;
+                }
+            });
+
+            const lastLink = submenu.querySelector('a:last-child');
+            lastLink?.addEventListener('keydown', function (e) {
+                if (e.key === 'Tab' && !e.shiftKey) {
+                    setTimeout(() => {
+                        if (!item.contains(document.activeElement)) {
+                            closeSubmenu(item);
+                        }
+                    }, 0);
+                }
+            });
+        });
+
+        document.addEventListener('click', function (e) {
+            if (!e.target.closest('.main-nav-list')) {
+                closeAllSubmenus();
+            }
+        });
+
+        document.addEventListener('keydown', function (e) {
+            if (e.key === 'Escape') {
+                closeAllSubmenus();
+            }
+        });
+    });
+</script>
+
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const banner = document.querySelector('.alert-banner');
+        const mobileNav = document.getElementById('mobile-nav');
+        const HIDE_AFTER = 100;
+        if (!banner) return;
+
+        function getScrollY() {
+            // Prefer the element the browser says is scrolling
+            const se = document.scrollingElement || document.documentElement;
+            return window.pageYOffset ?? se.scrollTop ?? 0;
+        }
+
+        let ticking = false, hidden = false;
+        function onScroll() {
+            if (ticking) return;
+            ticking = true;
+
+            requestAnimationFrame(() => {
+                ticking = false;
+
+                if (mobileNav && mobileNav.classList.contains('open')) return;
+
+                const y = getScrollY();
+
+                const shouldHide = y > HIDE_AFTER;
+
+                if (shouldHide !== hidden) {
+                    banner.classList.toggle('is-hidden', shouldHide);
+                    hidden = shouldHide;
+                }
+            });
+        }
+
+        onScroll();
+        window.addEventListener('scroll', onScroll, { passive: true });
+        window.addEventListener('pageshow', onScroll);
+    });
 </script>
 
 
@@ -1665,61 +1796,7 @@ function toggleButton(element) {
 
 
         <script>
-            document.addEventListener('DOMContentLoaded', () => {
-                const alertBanner = document.querySelector('.alert-banner');
-                const alertCloseBtn = alertBanner?.querySelector('.close');
-                const mainContent = document.querySelector('.main-content');
-                const headerEl = document.querySelector('header');
-                const mobileNav = document.querySelector('.mobile-nav');
-                const mobileNavToggle = document.querySelector('.mobile-nav-toggle');
-                const scrollHideThresh = 100;
-                let alertHidden = false;
-                let offset = headerEl.offsetHeight;
-                function adjustContentOffset() {
-                    let contentOffset = offset;
-                    mobileNav.style.paddingTop = `${offset}px`;
-                    mainContent.style.marginTop = `${offset}px`;
-                    if (mobileNav.classList.contains('open') && window.innerWidth <= 992) {
-                        contentOffset = 130;
-                    }
-                    mainContent.style.marginTop = `${contentOffset}px`;
-                }
-                adjustContentOffset();
-                window.addEventListener('resize', () => {
-                    offset = headerEl.offsetHeight;
-                    adjustContentOffset();
-                });
-                mobileNavToggle?.addEventListener('click', adjustContentOffset);
-                alertCloseBtn?.addEventListener('click', () => {
-                    setTimeout(() => {
-                        offset = headerEl.offsetHeight;
-                        adjustContentOffset();
-                    }, 200);
-                });
-                // Hide/show alert on scroll and re-adjust
-                if (alertBanner) {
-                    window.addEventListener('scroll', () => {
-                        const y = window.scrollY;
-                        if (!alertHidden && y > scrollHideThresh) {
-                            alertBanner.style.transition = 'max-height 0.4s ease, opacity 0.4s ease';
-                            alertBanner.style.transition = 'all 0.4s ease';
-                            alertBanner.style.maxHeight = '0';
-                            alertBanner.style.opacity = '0';
-                            alertBanner.style.overflow = 'hidden';
-                            alertBanner.style.margin = '0';
-                            alertBanner.style.padding = '0';
-                            alertHidden = true;
-                        } else if (alertHidden && y <= scrollHideThresh) {
-                            alertBanner.style.maxHeight = '';
-                            alertBanner.style.opacity = '1';
-                            alertBanner.style.overflow = '';
-                            alertBanner.style.margin = '';
-                            alertBanner.style.padding = '';
-                            alertHidden = false;
-                        }
-                    });
-                }
-            });
+           
         </script>
 
     <script defer src="/Assets/js/navigation-tracking.js"></script>
