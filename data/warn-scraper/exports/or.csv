@@ -52,8 +52,8 @@ WARN#,Company Name,Location,Layoff Date,Laid Off,Layoff Type,Received Date
 9034,The Boeing Company - Oregon Location,Portland,2025-01-17 00:00:00,50,Reduction,2024-11-15 00:00:00
 9029,#4184 - Portland,Portland,2025-03-10 00:00:00,13,Permanent closure,2024-11-14 00:00:00
 9029,#4324 - Sandy,Sandy,2025-03-10 00:00:00,16,Permanent closure,2024-11-14 00:00:00
-9029,#3573 - Gresham,Gresham,2025-03-09 00:00:00,12,Permanent closure,2024-11-14 00:00:00
 9029,#3911 - Milwaukie,Milwaukie,2025-03-09 00:00:00,14,Permanent closure,2024-11-14 00:00:00
+9029,#3573 - Gresham,Gresham,2025-03-09 00:00:00,12,Permanent closure,2024-11-14 00:00:00
 9029,#3574 - Gresham,Gresham,2025-03-05 00:00:00,9,Permanent closure,2024-11-14 00:00:00
 9029,#9938 - Portland,Portland,2025-03-05 00:00:00,9,Permanent closure,2024-11-14 00:00:00
 9029,#3113 - Beaverton,Beaverton,2025-03-05 00:00:00,9,Permanent closure,2024-11-14 00:00:00
@@ -129,10 +129,10 @@ WARN#,Company Name,Location,Layoff Date,Laid Off,Layoff Type,Received Date
 8622,"Divvy Homes, Inc","San Francisco, CA",2023-11-07 00:00:00,94,Reduction,2023-09-07 00:00:00
 8617,Walker Rd - Hillsboro,Hillsboro,2024-04-05 00:00:00,2,Reduction,2023-08-22 00:00:00
 8617,Walker Rd - Hillsboro,Hillsboro,2024-01-26 00:00:00,2,Reduction,2023-08-22 00:00:00
-8617,Walker Rd - Hillsboro,Hillsboro,2024-01-12 00:00:00,62,Large Layoff - 10 or more workers,2023-08-22 00:00:00
 8617,Bennett St. - Hillsboro,Hillsboro,2024-01-12 00:00:00,3,Reduction,2023-08-22 00:00:00
-8617,Bennett St. - Hillsboro,Hillsboro,2023-12-29 00:00:00,2,Reduction,2023-08-22 00:00:00
+8617,Walker Rd - Hillsboro,Hillsboro,2024-01-12 00:00:00,62,Large Layoff - 10 or more workers,2023-08-22 00:00:00
 8617,Walker Rd - Hillsboro,Hillsboro,2023-12-29 00:00:00,3,Reduction,2023-08-22 00:00:00
+8617,Bennett St. - Hillsboro,Hillsboro,2023-12-29 00:00:00,2,Reduction,2023-08-22 00:00:00
 8617,Walker Rd - Hillsboro,Hillsboro,2023-12-01 00:00:00,1,Reduction,2023-08-22 00:00:00
 8617,Walker Rd - Hillsboro,Hillsboro,2023-11-17 00:00:00,1,Reduction,2023-08-22 00:00:00
 8617,Walker Rd - Hillsboro,Hillsboro,2023-10-20 00:00:00,158,Large Layoff - 10 or more workers,2023-08-22 00:00:00
@@ -261,8 +261,8 @@ WARN#,Company Name,Location,Layoff Date,Laid Off,Layoff Type,Received Date
 6967,Hyatt Regency - Portland,Portland,2020-03-20 00:00:00,181,Temporary Layoff,2020-06-19 00:00:00
 6964,The Bay Company - Portland,Tigard,2020-09-29 00:00:00,125,Other,2020-06-09 00:00:00
 6964,The Bay Company - Portland,Tigard,2020-04-15 00:00:00,289,Large Layoff - 10 or more workers,2020-06-09 00:00:00
-6963,Kimpton Riverplace Hotel,Portland,2020-03-13 00:00:00,79,Large Layoff - 10 or more workers,2020-06-12 00:00:00
 6963,Kimpton Hotel Monaco Portland,Portland,2020-03-13 00:00:00,147,Large Layoff - 10 or more workers,2020-06-12 00:00:00
+6963,Kimpton Riverplace Hotel,Portland,2020-03-13 00:00:00,79,Large Layoff - 10 or more workers,2020-06-12 00:00:00
 6963,Kimpton Hotel Vintage Portland,Portland,2020-03-01 00:00:00,94,Large Layoff - 10 or more workers,2020-06-12 00:00:00
 6935,ATI Albany Operations,Albany,2020-12-07 00:00:00,76,Permanent closure,2020-06-10 00:00:00
 6935,ATI Albany Operations,Albany,2020-10-26 00:00:00,135,Large Layoff - 10 or more workers,2020-06-10 00:00:00
@@ -582,11 +582,11 @@ WARN#,Company Name,Location,Layoff Date,Laid Off,Layoff Type,Received Date
 2070,"Pacific States Plywood, Inc.",Springfield,2016-02-15 00:00:00,39,Large Layoff - 10 or more workers,2015-12-18 00:00:00
 2069,Greatbatch,Beaverton,2016-01-01 00:00:00,140,Reduction,2015-11-06 00:00:00
 2068,Woodgrain Millwork,Prineville,2015-12-28 00:00:00,55,Permanent closure,2015-10-23 00:00:00
-2067,WestRock,Newberg,2015-11-15 00:00:00,171,Permanent closure,2015-10-20 00:00:00
 6692,Happy Guests Intl. - Salty's,Portland,,,Temporary Layoff,2020-05-14 00:00:00
 8470,BOISE CASCADE ELGIN PLYWOOD MILL       ,ELGIN                         ,,,Large Layoff - 10 or more workers,2022-12-14 00:00:00
 8592,"Rise Services, Inc.","Mesa, AZ",,,Permanent closure,2023-07-18 00:00:00
 9324,"Zeco Systems, Inc. dba Shell EV Chargin","Los Angeles, CA",,,Large Layoff - 10 or more workers,2025-08-18 00:00:00
+2067,WestRock,Newberg,2015-11-15 00:00:00,171,Permanent closure,2015-10-20 00:00:00
 2066,Haggen Food & Pharmacy,"Bellingham, WA",2015-11-24 00:00:00,416,Permanent closure,2015-09-25 00:00:00
 2065,Haggen Food and Pharmacy,"Bellingham, WA",2015-10-14 00:00:00,331,Permanent closure,2015-08-14 00:00:00
 2064,Capital One,Portland,2016-01-01 00:00:00,4,Permanent closure,2015-07-24 00:00:00
