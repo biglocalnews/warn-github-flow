@@ -437,7 +437,7 @@ notice_date,effective_date,received_date,company,city,num_employees,layoff_or_cl
 10/01/2025,11/30/2025,10/10/2025,RGNext,,400,Layoff Permanent,Santa Barbara County,747 Nebraska Ave  Lompoc CA 93437,warn_report1.xlsx
 10/10/2025,12/19/2025,10/10/2025,RTX (2012),,1,Layoff Permanent,Los Angeles County,2012 East El Segundo Boulevard Building E07  El Segundo CA 90245,warn_report1.xlsx
 10/10/2025,12/19/2025,10/10/2025,RTX (2000),,1,Layoff Permanent,Los Angeles County,2000 East El Segundo Boulevard Building E01  El Segundo CA 90245,warn_report1.xlsx
-10/13/2025,12/02/2025,10/13/2025,Blue Shield of California 601,,31,Layoff Permanent,Alameda County,601 12th Street  Oakland CA 94607,warn_report1.xlsx
+10/13/2025,12/02/2025,10/13/2025,Blue shield of California 601,,31,Layoff Permanent,Alameda County,601 12th Street  Oakland CA 94607,warn_report1.xlsx
 10/13/2025,12/02/2025,10/13/2025,Blue Shield of California Building C,,18,Layoff Permanent,El Dorado County,"4203 Town Center Blvd., Building C  El Dorado CA 95762",warn_report1.xlsx
 10/13/2025,12/02/2025,10/13/2025,"Blue Shield of California, Building B",,24,Layoff Permanent,El Dorado County,4203 Town Center Blvd. Building B  El Dorado CA 95762,warn_report1.xlsx
 10/13/2025,12/02/2025,10/13/2025,Blue Shield of California 3840,,26,Layoff Permanent,Los Angeles County,3840 Kilroy Airport Way  Long Beach CA 90806,warn_report1.xlsx
@@ -459,16 +459,34 @@ notice_date,effective_date,received_date,company,city,num_employees,layoff_or_cl
 10/13/2025,12/13/2025,10/13/2025,"Planned Parenthood/Orange and San Bernardino Counties, Inc. 918",,7,Layoff Permanent,San Bernardino County,918 W Foothill Blvd. Suite A  Upland CA 91786,warn_report1.xlsx
 08/22/2025,10/23/2025,10/14/2025,Chevron,,68,Layoff Permanent,Contra Costa County,"5001 Executive Parkway, Suite 200  San Ramon CA 94583",warn_report1.xlsx
 08/22/2025,10/23/2025,10/14/2025,Chevron,,52,Layoff Permanent,Kern County,9525 Camino Media  Bakersfield CA 93311,warn_report1.xlsx
-10/14/2025,12/24/2025,10/14/2025,Warner Music Inc.,,32,Layoff Permanent,Los Angeles County,777 South Santa Fe Avenue  Los Angeles CA 90021,warn_report1.xlsx
-10/14/2025,12/24/2025,10/14/2025,Warner Music Inc.,,3,Layoff Permanent,Los Angeles County,11261 Hartland Street  Los Angeles CA 91606,warn_report1.xlsx
-10/13/2025,12/22/2025,10/15/2025,Georg Fischer Signet LLC,,100,Layoff Temporary,Los Angeles County,5462 North Irwindale Avenue  Irwindale CA 91706,warn_report1.xlsx
+10/14/2025,12/24/2025,10/14/2025,Warner Music Inc. (777),,32,Layoff Permanent,Los Angeles County,777 South Santa Fe Avenue  Los Angeles CA 90021,warn_report1.xlsx
+10/14/2025,12/24/2025,10/14/2025,Warner Music Inc. (11261),,3,Layoff Permanent,Los Angeles County,11261 Hartland Street  Los Angeles CA 91606,warn_report1.xlsx
 10/13/2025,12/14/2025,10/14/2025,Omnicare,,64,Closure Permanent,Sacramento County,"3630 Business Drive, Suite D  Sacramento CA 95820",warn_report1.xlsx
-10/14/2025,12/14/2025,10/15/2025,"National Distribution Centers, LLC (NDC)",,45,Closure Permanent,San Bernardino County,5540 E. 4th Street  Ontario CA 91764,warn_report1.xlsx
 10/12/2025,12/13/2025,10/14/2025,Hilton San Diego Bayfront,,394,Layoff Temporary,San Diego County,1 Park Boulevard  San Diego CA 92101,warn_report1.xlsx
+10/14/2025,12/13/2025,10/14/2025,Jet Propulsion Laboratory (California Institute of Technology),,543,Layoff Permanent,Los Angeles County,4800 Oak Grove Drive  La Canada Flintridge CA 91011,warn_report1.xlsx
+10/13/2025,12/22/2025,10/15/2025,Georg Fischer Signet LLC,,100,Layoff Temporary,Los Angeles County,5462 North Irwindale Avenue  Irwindale CA 91706,warn_report1.xlsx
+10/14/2025,12/14/2025,10/15/2025,"National Distribution Centers, LLC (NDC)",,45,Closure Permanent,San Bernardino County,5540 E. 4th Street  Ontario CA 91764,warn_report1.xlsx
 10/15/2025,10/15/2025,10/15/2025,Stryder Corp. dba Handshake,,96,Layoff Permanent,San Francisco County,"225 Bush St., 12th Floor  San Francisco CA 94104",warn_report1.xlsx
 10/15/2025,12/15/2025,10/15/2025,"BILL Operations, LLC",,84,Layoff Permanent,Santa Clara County,"6220 America Center Drive, Suite 100  San Jose CA 95002",warn_report1.xlsx
 10/15/2025,12/15/2025,10/15/2025,Raytheon,,2,Layoff Permanent,Los Angeles County,2000 E El Segundo Blvd  El Segundo CA 90245,warn_report1.xlsx
-10/14/2025,12/13/2025,10/14/2025,Jet Propulsion Laboratory (California Institute of Technology),,543,Layoff Permanent,Los Angeles County,4800 Oak Grove Drive  La Canada Flintridge CA 91011,warn_report1.xlsx
+10/16/2025,12/18/2025,10/16/2025,"Bumble Bee Foods, LLC",,56,Layoff Permanent,Los Angeles County,13100 Arctic Circle  Santa Fe Springs CA 90670,warn_report1.xlsx
+10/15/2025,12/16/2025,10/16/2025,"Nitto Avecia Pharma Services, Inc.",,24,Closure Permanent,Orange County,4 Chrysler  Irvine CA 92618,warn_report1.xlsx
+10/13/2025,10/10/2025,10/16/2025,Kaiser Foundation Hospitals,,3,Layoff Permanent,Alameda County,5820 Owens Drive  Pleasanton CA 94588,warn_report1.xlsx
+10/13/2025,10/10/2025,10/16/2025,Kaiser Foundation Hospitals,,2,Layoff Permanent,Marin County,99 Montecillo Rd.  San Rafael CA 94903,warn_report1.xlsx
+10/13/2025,10/10/2025,10/16/2025,Kaiser Foundation Hospitals,,2,Layoff Permanent,Sacramento County,"3240 Arden Way, Suite 116  Sacramento CA 95825",warn_report1.xlsx
+10/13/2025,10/10/2025,10/16/2025,Kaiser Foundation Hospitals,,2,Layoff Permanent,San Francisco County,4131 Geary Boulevard  San Francisco CA 94118,warn_report1.xlsx
+10/13/2025,10/10/2025,10/16/2025,Kaiser Foundation Hospitals,,1,Layoff Permanent,Solano County,1617 Broadway St.  Vallejo CA 94590,warn_report1.xlsx
+10/13/2025,10/10/2025,10/16/2025,Kaiser Foundation Hospitals,,1,Layoff Permanent,Sonoma County,3900 Lakeville Hwy.  Petaluma CA 94954,warn_report1.xlsx
+10/16/2025,01/02/2026,10/16/2025,RTX,,1,Layoff Permanent,Los Angeles County,2006 East El Segundo Boulevard Building E04  El Segundo CA 90245,warn_report1.xlsx
+10/17/2025,01/05/2026,10/17/2025,"Marshalls of CA, LLC",,62,Closure Permanent,Los Angeles County,7013 Hollywood Blvd  Los Angeles CA 90028,warn_report1.xlsx
+10/17/2025,01/05/2026,10/17/2025,"Marshalls of CA, LLC",,64,Closure Permanent,Santa Clara County,5160 Stevens Creek Blvd  San Jose CA 95129,warn_report1.xlsx
+10/17/2025,10/08/2025,10/20/2025,University of Southern California,,2,Layoff Permanent,Los Angeles County,1985 Zonal St.  Los Angeles CA 90089,warn_report1.xlsx
+10/17/2025,12/16/2025,10/20/2025,"Judco Manufacturing, Inc.",,53,Closure Permanent,Los Angeles County,1429 W. 240th Street  Harbor City CA 90710,warn_report1.xlsx
+10/10/2025,11/26/2025,10/20/2025,"Magnesium Alloy Products Co., Inc.",,61,Closure Permanent,Los Angeles County,2420 N. Alameda Street  Compton CA 90222,warn_report1.xlsx
+10/17/2025,12/16/2025,10/20/2025,The University Corporation at Monterey Bay,,134,Layoff Not known at this time,Monterey County,100 Campus Center  Seaside CA 93955,warn_report1.xlsx
+10/17/2025,12/19/2025,10/20/2025,"ReCircle Solutions, Inc. (Oroville Flexible Grocery Bags LLC and Oroville Flexible Packaging LLC)",,24,Layoff Permanent,Butte County,3155 South 5th Avenue  Oroville CA 95965,warn_report1.xlsx
+10/17/2025,12/19/2025,10/20/2025,Broadcom Inc.,,247,Layoff Permanent,Santa Clara County,3401 Hillview Ave  Palo Alto CA 94304,warn_report1.xlsx
+10/20/2025,12/19/2025,10/20/2025,"Centene Management Company, LLC",,5,Closure Permanent,Sacramento County,12033 Foundation Place  Rancho Cordova CA 95670,warn_report1.xlsx
 07/01/2024,06/30/2024,07/01/2024,Lockheed Martin,,57,Layoff Permanent,Los Angeles County,,warn-report-for-7-1-2024-to-06-30-2025.pdf
 06/30/2024,08/29/2024,07/01/2024,"Delta Apparel, Inc.",,5,Closure Permanent,Orange County,,warn-report-for-7-1-2024-to-06-30-2025.pdf
 07/02/2024,09/01/2024,07/02/2024,Cargill Meat Solutions Corporation,,20,Layoff Permanent,Fresno County,,warn-report-for-7-1-2024-to-06-30-2025.pdf
