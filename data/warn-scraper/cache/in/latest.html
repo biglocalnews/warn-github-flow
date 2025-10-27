@@ -755,22 +755,33 @@ subpage
     </div>
 </div>
 <section id="content_container_996281">
-<div style="display: grid;"> 
-  <div class="cell">    
-        <ul class="vertical menu" data-accordion-menu>
-            <li style="display: grid;">
-                <a style="justify-self: end" href="#0"><img class="cursor hover-shadow" alt="Visit the in.gov home page and access the chat bot near the top of the page." src="/dwd/images/AskDWD_bordered_powered_sm.png" style="border-radius: 5px;"></a>
-                <ul class="menu vertical nested">
-                    <li style="display: grid;">
-                      <div style="justify-self: end">
-                        <iframe id="myIfraemId" src="https://www.in.gov/core/index.html" scrolling="no" width="800" height="750" style="overflow: hidden;"></iframe>
-                      </div>
-                    </li>
-                </ul>
-            </li>
-        </ul>
-  </div>
+<!-- <div class="cell">    
+  <a style="justify-self: end" data-toggle="panel" onclick="triggerClickInsideIframe()"><img class="cursor hover-shadow" alt="Visit the in.gov home page and access the chat bot near the top of the page." src="/dwd/images/AskDWD_bordered_powered_sm.png" style="border-radius: 5px;"></a>
 </div>
+<div class="callout" id="panel" data-toggler=".is-shown">
+    <h4>Please click the Ask Indiana button to continue with the chat.</h4>
+    <button class="close-button" data-toggle="panel">&times;</button>
+    <iframe id="myIframeId" src="https://www.in.gov/core/index.html" scrolling="no" width="1850" height="750" style="overflow: hidden;"></iframe>
+</div>
+<style>
+  .cell {
+    display: grid;
+    margin: 1em;
+  }
+  .callout {
+    display: none;
+  }
+  .callout.is-shown {
+      display: block;
+      margin:1rem;
+    }
+</style>
+<script>
+document.getElementById('myIframeId').onload = function() {
+            const iframeDocument = this.contentWindow.document;
+            const buttonInsideIframe = iframeDocument.getElementById('aiToggle');
+        };
+</script> -->
 </section>
         <div id="container_main" class="row expanded ">
             <main class="columns medium-12">
@@ -24620,7 +24631,7 @@ Jeffersonville
     <div class="row expanded align-center">
     </div>
 </section>
-        <input type="hidden" name="token" value="b851e47c3cb3ed6053c4eb0a0107ddc9316a042b"  class="sq-form-field" id="token" />        
+        <input type="hidden" name="token" value="756ffa284613f0b05ffa994dbbfec480e66ae9ed"  class="sq-form-field" id="token" />        
                     <section id="footer_agency" data-ctype="agency-footer" aria-label="agency information" role="contentinfo">
   <div class="row expanded">
       <div id="footer_agency-brand" class="columns small-12 medium-3">
