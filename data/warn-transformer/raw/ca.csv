@@ -496,36 +496,92 @@ notice_date,effective_date,received_date,company,city,num_employees,layoff_or_cl
 08/27/2025,08/07/2025,10/21/2025,Adventist Health Glendale,,25,Layoff Permanent,Los Angeles County,1509 Wilson Terrace  Glendale CA 91206,warn_report1.xlsx
 10/21/2025,11/02/2025,10/22/2025,RAND Corporation,,73,Layoff Permanent,Los Angeles County,1776 Main Street  Santa Monica CA 90401,warn_report1.xlsx
 10/21/2025,12/22/2025,10/22/2025,Alector LLC,,75,Layoff Permanent,San Mateo County,"131 Oyster Point Blvd, Suite 600  South San Francisco CA 94080",warn_report1.xlsx
+10/22/2025,12/30/2025,10/22/2025,"Science of Skincare, LLC (3333 N San Fernando Blvd)",,37,Layoff Permanent,Los Angeles County,3333 N San Fernando Blvd  Burbank CA 91504,warn_report1.xlsx
+10/22/2025,12/30/2025,10/22/2025,"Science of Skincare, LLC (7525 N Lockheed Dr)",,26,Layoff Permanent,Los Angeles County,7525 N Lockheed Dr  Burbank CA 91504,warn_report1.xlsx
 10/23/2025,01/09/2026,10/23/2025,Leprino Foods Company,,268,Layoff Permanent,Kings County,490 F Street  Lemoore CA 93245,warn_report1.xlsx
 10/16/2025,12/19/2025,10/23/2025,California College of ASU,,75,Closure Permanent,Los Angeles County,"1111 South Broadway, Suite 100  Los Angeles CA 90015",warn_report1.xlsx
 10/23/2025,12/23/2025,10/23/2025,"Hydro Extrusion USA, LLC",,128,Closure Temporary,Los Angeles County,1811 Railroad St.  City of Industry CA 91748,warn_report1.xlsx
-10/22/2025,12/22/2025,10/23/2025,"Meta Platforms, Inc.",,22,Layoff Permanent,San Mateo County,1 Hacker Way  Menlo Park CA 94025,warn_report1.xlsx
-10/22/2025,12/22/2025,10/23/2025,"Meta Platforms, Inc.",,261,Layoff Permanent,San Mateo County,1 Meta Way  Menlo Park CA 94025,warn_report1.xlsx
-10/22/2025,12/22/2025,10/23/2025,"Meta Platforms, Inc.",,1,Layoff Permanent,San Mateo County,180 Jefferson Drive  Menlo Park CA 94025,warn_report1.xlsx
-10/22/2025,12/22/2025,10/23/2025,"Meta Platforms, Inc.",,21,Layoff Permanent,San Mateo County,190 Jefferson Drive  Menlo Park CA 94025,warn_report1.xlsx
-10/22/2025,12/22/2025,10/23/2025,"Meta Platforms, Inc.",,3,Layoff Permanent,San Mateo County,305 Constitution Drive  Menlo Park CA 94025,warn_report1.xlsx
-10/23/2025,12/23/2025,10/24/2025,"Applied Materials, Inc.",,38,Layoff Permanent,Santa Clara County,3050 Bowers Ave  Santa Clara CA 95054,warn_report1.xlsx
-10/23/2025,12/23/2025,10/24/2025,"Applied Materials, Inc.",,21,Layoff Permanent,Santa Clara County,3100 Bowers Ave  Santa Clara CA 95054,warn_report1.xlsx
-10/23/2025,12/23/2025,10/24/2025,"Applied Materials, Inc.",,20,Layoff Permanent,Santa Clara County,3101 Scott Blvd  Santa Clara CA 95054,warn_report1.xlsx
-10/23/2025,12/23/2025,10/24/2025,"Applied Materials, Inc.",,16,Layoff Permanent,Santa Clara County,3225 Oakmead Village Dr  Santa Clara CA 95054,warn_report1.xlsx
-10/23/2025,12/23/2025,10/24/2025,"Applied Materials, Inc.",,36,Layoff Permanent,Santa Clara County,3320 Scott Blvd  Santa Clara CA 95054,warn_report1.xlsx
-10/23/2025,12/23/2025,10/24/2025,"Applied Materials, Inc.",,52,Layoff Permanent,Santa Clara County,3325 Scott Blvd  Santa Clara CA 95054,warn_report1.xlsx
-10/23/2025,12/23/2025,10/24/2025,"Applied Materials, Inc.",,6,Layoff Permanent,Santa Clara County,3330 Scott Blvd  Santa Clara CA 95054,warn_report1.xlsx
-10/23/2025,12/23/2025,10/24/2025,"Applied Materials, Inc.",,73,Layoff Permanent,Santa Clara County,3333 Scott Blvd  Santa Clara CA 95054,warn_report1.xlsx
-10/23/2025,12/23/2025,10/24/2025,"Applied Materials, Inc.",,26,Layoff Permanent,Santa Clara County,1140 E Arques Ave  Sunnyvale CA 94085,warn_report1.xlsx
-10/23/2025,12/23/2025,10/24/2025,"Applied Materials, Inc.",,7,Layoff Permanent,Santa Clara County,545 Oakmead Pkwy  Sunnyvale CA 94085,warn_report1.xlsx
-10/23/2025,12/23/2025,10/24/2025,"Applied Materials, Inc.",,4,Layoff Permanent,Santa Clara County,557 E. California Ave  Sunnyvale CA 94086,warn_report1.xlsx
-10/23/2025,12/23/2025,10/24/2025,"Applied Materials, Inc.",,1,Layoff Permanent,Santa Clara County,930 E. Arques Ave  Sunnyvale CA 94085,warn_report1.xlsx
-10/23/2025,12/23/2025,10/24/2025,"Applied Materials, Inc.",,41,Layoff Permanent,Santa Clara County,974 E. Arques Ave  Sunnyvale CA 94085,warn_report1.xlsx
-10/23/2025,12/23/2025,10/24/2025,"Applied Materials, Inc.",,7,Layoff Permanent,Santa Clara County,978 E. Arques Ave  Sunnyvale CA 94085,warn_report1.xlsx
-10/23/2025,12/23/2025,10/24/2025,"Applied Materials, Inc.",,15,Layoff Permanent,Santa Clara County,Remote  Santa Clara CA 95054,warn_report1.xlsx
-10/24/2025,08/29/2025,10/24/2025,"Peabody Engineering & Supply, Inc.",,19,Closure Permanent,Riverside County,13435 Estelle Street  Corona CA 92879,warn_report1.xlsx
+10/22/2025,12/22/2025,10/23/2025,"Meta Platforms, Inc. (1 Hacker Way)",,22,Layoff Permanent,San Mateo County,1 Hacker Way  Menlo Park CA 94025,warn_report1.xlsx
+10/22/2025,12/22/2025,10/23/2025,"Meta Platforms, Inc. (1 Meta Way)",,261,Layoff Permanent,San Mateo County,1 Meta Way  Menlo Park CA 94025,warn_report1.xlsx
+10/22/2025,12/22/2025,10/23/2025,"Meta Platforms, Inc. (180 Jefferson Drive)",,1,Layoff Permanent,San Mateo County,180 Jefferson Drive  Menlo Park CA 94025,warn_report1.xlsx
+10/22/2025,12/22/2025,10/23/2025,"Meta Platforms, Inc. (190 Jefferson Drive)",,21,Layoff Permanent,San Mateo County,190 Jefferson Drive  Menlo Park CA 94025,warn_report1.xlsx
+10/22/2025,12/22/2025,10/23/2025,"Meta Platforms, Inc. (305 Constitution Drive)",,3,Layoff Permanent,San Mateo County,305 Constitution Drive  Menlo Park CA 94025,warn_report1.xlsx
+10/23/2025,12/23/2025,10/24/2025,"Applied Materials, Inc. (3050 Bowers Ave)",,38,Layoff Permanent,Santa Clara County,3050 Bowers Ave  Santa Clara CA 95054,warn_report1.xlsx
+10/23/2025,12/23/2025,10/24/2025,"Applied Materials, Inc. (3100 Bowers Ave)",,21,Layoff Permanent,Santa Clara County,3100 Bowers Ave  Santa Clara CA 95054,warn_report1.xlsx
+10/23/2025,12/23/2025,10/24/2025,"Applied Materials, Inc. (3101 Scott Blvd)",,20,Layoff Permanent,Santa Clara County,3101 Scott Blvd  Santa Clara CA 95054,warn_report1.xlsx
+10/23/2025,12/23/2025,10/24/2025,"Applied Materials, Inc. (3225 Oakmead Village Dr)",,16,Layoff Permanent,Santa Clara County,3225 Oakmead Village Dr  Santa Clara CA 95054,warn_report1.xlsx
+10/23/2025,12/23/2025,10/24/2025,"Applied Materials, Inc. (3320 Scott Blvd)",,36,Layoff Permanent,Santa Clara County,3320 Scott Blvd  Santa Clara CA 95054,warn_report1.xlsx
+10/23/2025,12/23/2025,10/24/2025,"Applied Materials, Inc. (3325 Scott Blvd)",,52,Layoff Permanent,Santa Clara County,3325 Scott Blvd  Santa Clara CA 95054,warn_report1.xlsx
+10/23/2025,12/23/2025,10/24/2025,"Applied Materials, Inc. (3330 Scott Blvd)",,6,Layoff Permanent,Santa Clara County,3330 Scott Blvd  Santa Clara CA 95054,warn_report1.xlsx
+10/23/2025,12/23/2025,10/24/2025,"Applied Materials, Inc. (3333 Scott Blvd)",,73,Layoff Permanent,Santa Clara County,3333 Scott Blvd  Santa Clara CA 95054,warn_report1.xlsx
+10/23/2025,12/23/2025,10/24/2025,"Applied Materials, Inc. (1140 E Arques Ave)",,26,Layoff Permanent,Santa Clara County,1140 E Arques Ave  Sunnyvale CA 94085,warn_report1.xlsx
+10/23/2025,12/23/2025,10/24/2025,"Applied Materials, Inc. (545 Oakmead Pkwy)",,7,Layoff Permanent,Santa Clara County,545 Oakmead Pkwy  Sunnyvale CA 94085,warn_report1.xlsx
+10/23/2025,12/23/2025,10/24/2025,"Applied Materials, Inc. (557 E. California Ave)",,4,Layoff Permanent,Santa Clara County,557 E. California Ave  Sunnyvale CA 94086,warn_report1.xlsx
+10/23/2025,12/23/2025,10/24/2025,"Applied Materials, Inc. (930 E. Arques Ave)",,1,Layoff Permanent,Santa Clara County,930 E. Arques Ave  Sunnyvale CA 94085,warn_report1.xlsx
+10/23/2025,12/23/2025,10/24/2025,"Applied Materials, Inc. (974 E. Arques Ave)",,41,Layoff Permanent,Santa Clara County,974 E. Arques Ave  Sunnyvale CA 94085,warn_report1.xlsx
+10/23/2025,12/23/2025,10/24/2025,"Applied Materials, Inc. (978 E. Arques Ave)",,7,Layoff Permanent,Santa Clara County,978 E. Arques Ave  Sunnyvale CA 94085,warn_report1.xlsx
+10/23/2025,12/23/2025,10/24/2025,"Applied Materials, Inc. (Remote)",,15,Layoff Permanent,Santa Clara County,Remote  Santa Clara CA 95054,warn_report1.xlsx
+10/24/2025,08/29/2025,10/24/2025,"Peabody Engineering & Supply, Inc.",,19,Closure Permanent,Pickens County,230 Financial Boulevard  Liberty SC 29657,warn_report1.xlsx
 10/22/2025,12/24/2025,10/24/2025,"New Punch Bowl Sacramento, LLC",,83,Closure Permanent,Sacramento County,"500 J St., Suite 100  Sacramento CA 95814",warn_report1.xlsx
 08/25/2025,10/27/2025,10/24/2025,Silgan Containers,,180,Layoff Temporary,Stanislaus County,3250 Patterson Road  Riverbank CA 95367,warn_report1.xlsx
 10/27/2025,12/31/2025,10/27/2025,Wellpath,,72,Layoff Permanent,Monterey County,530 Pacific Street  Monterey CA 93940,warn_report1.xlsx
 10/24/2025,11/28/2025,10/27/2025,"Genentech, Inc.",,118,Layoff Permanent,San Mateo County,1 DNA Way  South San Francisco CA 94080,warn_report1.xlsx
 10/27/2025,12/31/2025,10/27/2025,"Communications Test Design, Inc. (CTDI)",,64,Layoff Permanent,San Bernardino County,1543 N. Alder Ave  Rialto CA 92376,warn_report1.xlsx
 10/27/2025,12/31/2025,10/27/2025,"Communications Test Design, Inc. (CTDI)",,15,Layoff Permanent,San Bernardino County,14597 Baseline Ave  Fontana CA 92336,warn_report1.xlsx
+10/28/2025,12/30/2025,10/28/2025,Disneyland Resort,,72,Layoff Permanent,Orange County,1313 S. Harbor Boulevard  Anaheim CA 92802,warn_report1.xlsx
+10/27/2025,10/31/2025,10/28/2025,University of Southern California,,259,Layoff Permanent,Los Angeles County,3551 Trousdale Pkwy Suite 160  Los Angeles CA 90089,warn_report1.xlsx
+10/28/2025,12/31/2025,10/28/2025,TAO Group Hospitality,,8,Layoff Permanent,Los Angeles County,6725 W. Sunset Blvd. Suite 330  Los Angeles CA 90028,warn_report1.xlsx
+10/28/2025,12/31/2025,10/28/2025,LAVO Los Angeles,,100,Closure Permanent,Los Angeles County,9201 Sunset Blvd. Suite 100  West Hollywood CA 90069,warn_report1.xlsx
+10/28/2025,12/31/2025,10/28/2025,Fleur Room,,26,Closure Permanent,Los Angeles County,9201 Sunset Blvd. Suite 100  West Hollywood CA 90069,warn_report1.xlsx
+10/23/2025,12/29/2025,10/28/2025,"San Diego Imaging - Chula Vista, LLC",,63,Layoff Permanent,San Diego County,"765 Medical Center Court, STE. 101  Chula Vista CA 91911",warn_report1.xlsx
+10/23/2025,12/29/2025,10/28/2025,San Diego Imaging - Kearny Mesa,,32,Layoff Permanent,San Diego County,"7910 Frost Street, Suite 100  San Diego CA 92123",warn_report1.xlsx
+10/28/2025,01/04/2026,10/28/2025,Louis Vuitton USA Inc.,,9,Closure Permanent,San Diego County,"4545 La Jolla Village Drive, Space 2500  San Diego CA 92122",warn_report1.xlsx
+10/29/2025,10/29/2025,10/29/2025,Twelve Benefit Corporation (614 Bancroft Way Suite H),,52,Layoff Permanent,Alameda County,614 Bancroft Way Suite H  Berkeley CA 94710,warn_report1.xlsx
+10/29/2025,10/29/2025,10/29/2025,Twelve Benefit Corporation (1135 Atlantic Ave),,24,Layoff Permanent,Alameda County,1135 Atlantic Ave  Alameda CA 94501,warn_report1.xlsx
+10/29/2025,12/14/2025,10/29/2025,Smurfit WestRock,,141,Closure Permanent,Los Angeles County,404 N. Baldwin Park Blvd.  La Puente CA 91746,warn_report1.xlsx
+10/28/2025,01/26/2026,10/29/2025,Amazon LAX22,,65,Layoff Permanent,Los Angeles County,9336 Washington Blvd.  Culver City CA 90232,warn_report1.xlsx
+10/28/2025,01/26/2025,10/29/2025,Amazon LAX18,,7,Layoff Permanent,Los Angeles County,9336 Washington Blvd. Bldg C  Culver City CA 90232,warn_report1.xlsx
+10/28/2025,01/26/2026,10/29/2025,Amazon LAX21,,43,Layoff Permanent,Los Angeles County,9300 Culver Blvd Unit 201  Culver City CA 90232,warn_report1.xlsx
+10/28/2025,01/26/2025,10/29/2025,Amazon LAX 35,,37,Layoff Permanent,Los Angeles County,9336 Washington Blvd.  Culver City CA 90232,warn_report1.xlsx
+10/28/2025,01/26/2026,10/29/2025,Amazon LAX10,,62,Layoff Permanent,Los Angeles County,1620 26th St. Ste 4000N  Santa Monica CA 90404,warn_report1.xlsx
+10/28/2025,01/26/2026,10/29/2025,Amazon LAX16,,3,Layoff Permanent,Los Angeles County,2425 Olympic Blvd. Ste 2000E  Santa Monica CA 90404,warn_report1.xlsx
+10/28/2025,01/26/2026,10/29/2025,Amazon LAX78,,65,Layoff Permanent,Los Angeles County,2450 Colorado Avenue  Santa Monica CA 90404,warn_report1.xlsx
+10/28/2025,01/26/2026,10/29/2025,Amazon (SJC10),,138,Layoff Permanent,Santa Clara County,1120 Enterprise Way  Sunnyvale CA 94089,warn_report1.xlsx
+10/28/2025,01/26/2026,10/29/2025,Amazon (SJC11),,28,Layoff Permanent,Santa Clara County,1100 Enterprise Way  Sunnyvale CA 94089,warn_report1.xlsx
+10/28/2025,01/26/2026,10/29/2025,Amazon (SJC13),,33,Layoff Permanent,Santa Clara County,1160 Enterprise Way  Sunnyvale CA 94089,warn_report1.xlsx
+10/28/2025,01/26/2026,10/29/2025,Amazon (SJC14),,80,Layoff Permanent,Santa Clara County,905 Eleventh Ave  Sunnyvale CA 94089,warn_report1.xlsx
+10/28/2025,01/26/2026,10/29/2025,Amazon (SJC31),,27,Layoff Permanent,Santa Clara County,1100 Discovery Way  Sunnyvale CA 94089,warn_report1.xlsx
+10/28/2025,01/26/2026,10/29/2025,Amazon (SJC32),,85,Layoff Permanent,Santa Clara County,1140 Enterprise Way  Sunnyvale CA 94089,warn_report1.xlsx
+10/28/2025,01/26/2026,10/29/2025,Amazon SFO12,,18,Layoff Permanent,Santa Clara County,265 Lytton Ave  Palo Alto CA 94301,warn_report1.xlsx
+10/28/2025,01/26/2026,10/29/2025,Amazon SFO22,,69,Layoff Permanent,Santa Clara County,611 Cowper St.  Palo Alto CA 94301,warn_report1.xlsx
+10/28/2025,01/26/2026,10/29/2025,Amazon SFO24,,75,Layoff Permanent,Santa Clara County,101 Lytton Ave  Palo Alto CA 94301,warn_report1.xlsx
+10/28/2025,01/26/2026,10/29/2025,Amazon SFO36,,12,Layoff Permanent,Santa Clara County,130 Lytton Ave  Palo Alto CA 94301,warn_report1.xlsx
+10/28/2025,01/26/2026,10/29/2025,Amazon SFO39,,2,Layoff Permanent,Santa Clara County,156 University Ave  Palo Alto CA 94301,warn_report1.xlsx
+10/28/2025,01/26/2026,10/29/2025,Amazon SJC25,,8,Layoff Permanent,Santa Clara County,2795 Augustine Dr.  Santa Clara CA 95054,warn_report1.xlsx
+10/28/2025,01/26/2026,10/29/2025,Amazon SJC38,,50,Layoff Permanent,Santa Clara County,3075 Olcott St.  Santa Clara CA 95054,warn_report1.xlsx
+10/28/2025,01/26/2026,10/29/2025,Amazon SJC44,,18,Layoff Permanent,Santa Clara County,4980 Great America Pkwy  Santa Clara CA 95054,warn_report1.xlsx
+10/28/2025,01/26/2026,10/29/2025,Amazon SNA11,,178,Layoff Permanent,Orange County,123 Technology Dr.  Irvine CA 92618,warn_report1.xlsx
+10/28/2025,01/26/2026,10/29/2025,Amazon SNA12,,17,Layoff Permanent,Orange County,20 Pacifica Ste. 900  Irvine CA 92618,warn_report1.xlsx
+10/28/2025,01/26/2026,10/29/2025,Amazon SNA16,,64,Layoff Permanent,Orange County,17300 Laguna Canyon Rd.  Irvine CA 92618,warn_report1.xlsx
+10/28/2025,01/26/2026,10/29/2025,Amazon SNA17,,12,Layoff Permanent,Orange County,140 Progress 200  Irvine CA 92618,warn_report1.xlsx
+10/28/2025,01/26/2026,10/29/2025,Amazon SNA18,,1,Layoff Permanent,Orange County,400 Spectrum Center Dr.  Irvine CA 92618,warn_report1.xlsx
+10/28/2025,01/26/2026,10/29/2025,Amazon SNA19,,16,Layoff Permanent,Orange County,400 Spectrum Center Dr.  Irvine CA 92618,warn_report1.xlsx
+10/28/2025,01/26/2026,10/29/2025,Amazon SNA3,,45,Layoff Permanent,Orange County,40 Pacifica Ste 100  Irvine CA 92618,warn_report1.xlsx
+10/28/2025,01/26/2026,10/29/2025,Amazon (SAN 13),,24,Layoff Permanent,San Diego County,10300 Campus Point Dr Ste 200  San Diego CA 92121,warn_report1.xlsx
+10/28/2025,01/26/2026,10/29/2025,Amazon (SAN 15),,50,Layoff Permanent,San Diego County,17075 Camino San Bernardo  San Diego CA 92127,warn_report1.xlsx
+10/28/2025,01/26/2026,10/29/2025,Amazon (SAN 17),,61,Layoff Permanent,San Diego County,4575 La Jolla Village  San Diego CA 92122,warn_report1.xlsx
+10/28/2025,01/26/2026,10/29/2025,Amazon (SAN 18),,3,Layoff Permanent,San Diego County,Wework Aventine  San Diego CA 92122,warn_report1.xlsx
+10/28/2025,01/26/2026,10/29/2025,Amazon (SAN 21),,5,Layoff Permanent,San Diego County,4577 La Jolla Village  San Diego CA 92122,warn_report1.xlsx
+10/28/2025,01/26/2026,10/29/2025,Amazon (SAN 3),,1,Layoff Permanent,San Diego County,6971 Otay Mesa Road  San Diego CA 92154,warn_report1.xlsx
+10/28/2025,01/26/2026,10/29/2025,Amazon (SAN 5),,1,Layoff Permanent,San Diego County,7144 Otay Mesa Rd  San Diego CA 92154,warn_report1.xlsx
+10/27/2025,01/01/2026,10/29/2025,WIS International,,10,Layoff Permanent,San Diego County,"9635 Granite Ridge Drive, Suite 250  San Diego CA 92123",warn_report1.xlsx
+10/28/2025,01/26/2026,10/29/2025,Amazon (ONM212),,3,Layoff Permanent,San Francisco County,One Embarcadero Center  San Francisco CA 94111,warn_report1.xlsx
+10/28/2025,01/26/2026,10/29/2025,Amazon (ONM213),,1,Layoff Permanent,San Francisco County,110 Sutter  San Francisco CA 94104,warn_report1.xlsx
+10/28/2025,01/26/2026,10/29/2025,Amazon (SFO13),,41,Layoff Permanent,San Francisco County,188 Spear St 2Nd Floor  San Francisco CA 94105,warn_report1.xlsx
+10/28/2025,01/26/2026,10/29/2025,Amazon (SFO19),,18,Layoff Permanent,San Francisco County,350 Bush St  San Francisco CA 94104,warn_report1.xlsx
+10/28/2025,01/26/2026,10/29/2025,Amazon (SFO28),,71,Layoff Permanent,San Francisco County,525 Market St  San Francisco CA 94105,warn_report1.xlsx
+10/28/2025,01/26/2026,10/29/2025,Amazon (SFO38),,3,Layoff Permanent,San Francisco County,660 3Rd St 4Th Floor  San Francisco CA 94107,warn_report1.xlsx
+09/30/2025,02/01/2025,10/29/2025,Perikinetics Inc.,,2,Closure Permanent,Santa Clara County,505 Fierro Loop  Campbell CA 95008,warn_report1.xlsx
 07/01/2024,06/30/2024,07/01/2024,Lockheed Martin,,57,Layoff Permanent,Los Angeles County,,warn-report-for-7-1-2024-to-06-30-2025.pdf
 06/30/2024,08/29/2024,07/01/2024,"Delta Apparel, Inc.",,5,Closure Permanent,Orange County,,warn-report-for-7-1-2024-to-06-30-2025.pdf
 07/02/2024,09/01/2024,07/02/2024,Cargill Meat Solutions Corporation,,20,Layoff Permanent,Fresno County,,warn-report-for-7-1-2024-to-06-30-2025.pdf
