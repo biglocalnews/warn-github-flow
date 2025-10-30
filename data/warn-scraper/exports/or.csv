@@ -1,9 +1,9 @@
 WARN#,Company Name,Location,Layoff Date,Laid Off,Layoff Type,Received Date
-9377,Pacific Source,Springfield,2025-12-31 00:00:00,261,Large Layoff - 10 or more workers,2025-10-24 00:00:00
-9377,Pacific Source - Bend,Bend,2025-12-31 00:00:00,1,Reduction,2025-10-24 00:00:00
+9377,Pacific Source,Springfield,2025-12-31 00:00:00,153,Large Layoff - 10 or more workers,2025-10-24 00:00:00
+9377,Pacific Source - Bend,Bend,2025-12-31 00:00:00,52,Reduction,2025-10-24 00:00:00
 9377,Pacific Source - Medford,Medford,2025-12-31 00:00:00,1,Reduction,2025-10-24 00:00:00
-9377,Pacific Source - Portland,Portland,2025-12-31 00:00:00,1,Reduction,2025-10-24 00:00:00
-9377,Pacific Source - Salem,Salem,2025-12-31 00:00:00,1,Reduction,2025-10-24 00:00:00
+9377,Pacific Source - Portland,Portland,2025-12-31 00:00:00,38,Reduction,2025-10-24 00:00:00
+9377,Pacific Source - Salem,Salem,2025-12-31 00:00:00,21,Reduction,2025-10-24 00:00:00
 9376,Wells Fargo and Company - 5th Ave. Port,Portland,2025-12-26 00:00:00,34,Large Layoff - 10 or more workers,2025-10-28 00:00:00
 9375,Wells Fargo and Company - Hawthorne Ave,Salem,2025-12-26 00:00:00,147,Large Layoff - 10 or more workers,2025-10-28 00:00:00
 9374,Wells Fargo and Company - Walker Rd. Hi,Hillsboro,2025-12-26 00:00:00,263,Permanent closure,2025-10-28 00:00:00
@@ -30,7 +30,9 @@ WARN#,Company Name,Location,Layoff Date,Laid Off,Layoff Type,Received Date
 9293,"25th Ave., Hillsboro",Hillsboro,2025-07-15 00:00:00,597,Reduction,2025-07-07 00:00:00
 9286,Rogue Valley Transportation District,Medford,2025-08-30 00:00:00,82,Large Layoff - 10 or more workers,2025-06-23 00:00:00
 9285,Pilot Rock Sawmill,Pilot Rock,2025-09-01 00:00:00,62,Permanent closure,2025-07-01 00:00:00
-9273,Prineville Facility,Prineville,2025-08-25 00:00:00,184,Permanent closure,2025-06-24 00:00:00
+9273,Prineville Facility,Prineville,2025-11-21 00:00:00,52,Permanent closure,2025-06-24 00:00:00
+9273,Prineville Facility,Prineville,2025-10-24 00:00:00,51,Permanent closure,2025-06-24 00:00:00
+9273,Prineville Facility,Prineville,2025-08-25 00:00:00,81,Permanent closure,2025-06-24 00:00:00
 9268,PIVOT Job Corps Center Facility,Portland ,2025-06-30 00:00:00,12,Permanent closure,2025-06-09 00:00:00
 9267,Springdale Job Corps Center,Troutdale,2025-06-30 00:00:00,77,Permanent closure,2025-06-09 00:00:00
 9259,Tongue Point Job Corps Center,Astoria,2025-06-06 00:00:00,168,Large Layoff - 10 or more workers,2025-06-04 00:00:00
@@ -60,8 +62,8 @@ WARN#,Company Name,Location,Layoff Date,Laid Off,Layoff Type,Received Date
 9034,The Boeing Company - Oregon Location,Portland,2025-01-17 00:00:00,50,Reduction,2024-11-15 00:00:00
 9029,#4184 - Portland,Portland,2025-03-10 00:00:00,13,Permanent closure,2024-11-14 00:00:00
 9029,#4324 - Sandy,Sandy,2025-03-10 00:00:00,16,Permanent closure,2024-11-14 00:00:00
-9029,#3911 - Milwaukie,Milwaukie,2025-03-09 00:00:00,14,Permanent closure,2024-11-14 00:00:00
 9029,#3573 - Gresham,Gresham,2025-03-09 00:00:00,12,Permanent closure,2024-11-14 00:00:00
+9029,#3911 - Milwaukie,Milwaukie,2025-03-09 00:00:00,14,Permanent closure,2024-11-14 00:00:00
 9029,#3574 - Gresham,Gresham,2025-03-05 00:00:00,9,Permanent closure,2024-11-14 00:00:00
 9029,#9938 - Portland,Portland,2025-03-05 00:00:00,9,Permanent closure,2024-11-14 00:00:00
 9029,#3113 - Beaverton,Beaverton,2025-03-05 00:00:00,9,Permanent closure,2024-11-14 00:00:00
@@ -137,14 +139,14 @@ WARN#,Company Name,Location,Layoff Date,Laid Off,Layoff Type,Received Date
 8622,"Divvy Homes, Inc","San Francisco, CA",2023-11-07 00:00:00,94,Reduction,2023-09-07 00:00:00
 8617,Walker Rd - Hillsboro,Hillsboro,2024-04-05 00:00:00,2,Reduction,2023-08-22 00:00:00
 8617,Walker Rd - Hillsboro,Hillsboro,2024-01-26 00:00:00,2,Reduction,2023-08-22 00:00:00
-8617,Walker Rd - Hillsboro,Hillsboro,2024-01-12 00:00:00,62,Large Layoff - 10 or more workers,2023-08-22 00:00:00
 8617,Bennett St. - Hillsboro,Hillsboro,2024-01-12 00:00:00,3,Reduction,2023-08-22 00:00:00
+8617,Walker Rd - Hillsboro,Hillsboro,2024-01-12 00:00:00,62,Large Layoff - 10 or more workers,2023-08-22 00:00:00
 8617,Walker Rd - Hillsboro,Hillsboro,2023-12-29 00:00:00,3,Reduction,2023-08-22 00:00:00
 8617,Bennett St. - Hillsboro,Hillsboro,2023-12-29 00:00:00,2,Reduction,2023-08-22 00:00:00
 8617,Walker Rd - Hillsboro,Hillsboro,2023-12-01 00:00:00,1,Reduction,2023-08-22 00:00:00
 8617,Walker Rd - Hillsboro,Hillsboro,2023-11-17 00:00:00,1,Reduction,2023-08-22 00:00:00
-8617,Bennett St. - Hillsboro,Hillsboro,2023-10-20 00:00:00,71,Large Layoff - 10 or more workers,2023-08-22 00:00:00
 8617,Walker Rd - Hillsboro,Hillsboro,2023-10-20 00:00:00,158,Large Layoff - 10 or more workers,2023-08-22 00:00:00
+8617,Bennett St. - Hillsboro,Hillsboro,2023-10-20 00:00:00,71,Large Layoff - 10 or more workers,2023-08-22 00:00:00
 8612,BOISE CASCADE ELGIN PLYWOOD MILL       ,ELGIN                         ,2023-10-14 00:00:00,1,Other,2023-08-16 00:00:00
 8609,Centerra ,"Herndon, VA",2023-09-30 00:00:00,52,Permanent closure,2023-08-10 00:00:00
 8606,Cascades Tissue Group - St Helens Paper,St. Helens,2023-10-14 00:00:00,72,Permanent closure,2023-08-10 00:00:00
@@ -439,6 +441,10 @@ WARN#,Company Name,Location,Layoff Date,Laid Off,Layoff Type,Received Date
 2386,Winnebago Ind,Junction City,2019-05-10 00:00:00,49,Permanent closure,2019-02-04 00:00:00
 2386,Winnebago Ind,Junction City,2019-04-19 00:00:00,22,Permanent closure,2019-02-04 00:00:00
 2386,Winnebago Ind,Junction City,2019-04-05 00:00:00,22,Permanent closure,2019-02-04 00:00:00
+6692,Happy Guests Intl. - Salty's,Portland,,,Temporary Layoff,2020-05-14 00:00:00
+8470,BOISE CASCADE ELGIN PLYWOOD MILL       ,ELGIN                         ,,,Large Layoff - 10 or more workers,2022-12-14 00:00:00
+8592,"Rise Services, Inc.","Mesa, AZ",,,Permanent closure,2023-07-18 00:00:00
+9324,"Zeco Systems, Inc. dba Shell EV Chargin","Los Angeles, CA",,,Large Layoff - 10 or more workers,2025-08-18 00:00:00
 2375,Lost Valley Farm,Lexington,2019-04-15 00:00:00,9,Permanent closure,2019-01-15 00:00:00
 2375,Lost Valley Farm,Lexington,2019-03-31 00:00:00,33,Permanent closure,2019-01-15 00:00:00
 2375,Lost Valley Farm,Lexington,2019-03-21 00:00:00,33,Permanent closure,2019-01-15 00:00:00
@@ -589,10 +595,6 @@ WARN#,Company Name,Location,Layoff Date,Laid Off,Layoff Type,Received Date
 2071,"A-List, Inc. and H-List, Inc. dba Kitso",Portland,2016-01-04 00:00:00,9,Permanent closure,2015-12-28 00:00:00
 2070,"Pacific States Plywood, Inc.",Springfield,2016-02-15 00:00:00,39,Large Layoff - 10 or more workers,2015-12-18 00:00:00
 2069,Greatbatch,Beaverton,2016-01-01 00:00:00,140,Reduction,2015-11-06 00:00:00
-6692,Happy Guests Intl. - Salty's,Portland,,,Temporary Layoff,2020-05-14 00:00:00
-8470,BOISE CASCADE ELGIN PLYWOOD MILL       ,ELGIN                         ,,,Large Layoff - 10 or more workers,2022-12-14 00:00:00
-8592,"Rise Services, Inc.","Mesa, AZ",,,Permanent closure,2023-07-18 00:00:00
-9324,"Zeco Systems, Inc. dba Shell EV Chargin","Los Angeles, CA",,,Large Layoff - 10 or more workers,2025-08-18 00:00:00
 2068,Woodgrain Millwork,Prineville,2015-12-28 00:00:00,55,Permanent closure,2015-10-23 00:00:00
 2067,WestRock,Newberg,2015-11-15 00:00:00,171,Permanent closure,2015-10-20 00:00:00
 2066,Haggen Food & Pharmacy,"Bellingham, WA",2015-11-24 00:00:00,416,Permanent closure,2015-09-25 00:00:00
