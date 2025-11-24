@@ -3,7 +3,7 @@ runs:
     steps:
       - id: disable-man-pages
         name: Disable man pages
-        run: sudo rm /var/lib/man-db/auto-update
+        run: sudo rm /var/lib/man-db/auto-update || echo "No auto-update found"
         shell: bash
         
       - id: install-display-system
