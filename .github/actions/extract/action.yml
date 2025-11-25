@@ -28,7 +28,15 @@ runs:
       - name: List installed pip entries
         run: pipenv run pip show pyquery
         shell: bash
+      
+      - name: Force PyQuery install
+        run: pipenv install pyquery==2.0.1
+        shell: bash
 
+      - name: List installed pip entries
+        run: pipenv run pip show pyquery
+        shell: bash
+      
       - name: Run scrapers
         env:
           WARN_OUTPUT_DIR: ./data/warn-scraper/
