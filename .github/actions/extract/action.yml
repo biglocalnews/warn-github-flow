@@ -23,7 +23,11 @@ runs:
         shell: bash
 
       - name: Install
-        uses: ./.github/actions/install           # Install did not seem to run once individual scrapers were called.
+        uses: ./.github/actions/install           # Install did not seem to run once individual scrapers were called?
+
+      - name: List installed pip entries
+        run: pipenv run pip show pyquery
+        shell: bash
 
       - name: Run scrapers
         env:
