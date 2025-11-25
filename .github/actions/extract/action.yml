@@ -25,10 +25,6 @@ runs:
       - name: Install
         uses: ./.github/actions/install           # Install did not seem to run once individual scrapers were called?
 
-      - name: List installed pip entries
-        run: pipenv run pip show pyquery
-        shell: bash
-      
       - name: Force PyQuery install
         run: pipenv install pyquery==2.0.1
         shell: bash
