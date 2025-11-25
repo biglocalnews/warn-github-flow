@@ -22,6 +22,9 @@ runs:
             git pull origin main
         shell: bash
 
+      - name: Install
+        uses: ./.github/actions/install           # Install did not seem to run once individual scrapers were called.
+
       - name: Run scrapers
         env:
           WARN_OUTPUT_DIR: ./data/warn-scraper/
