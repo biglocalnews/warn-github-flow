@@ -7,8 +7,8 @@ name = "pypi"
 et-xmlfile = "*"
 marshmallow = "==3.26.1"            # Pinned to avoid warn-transformer problem with v4.0.0
 bln = "==2.3.12"
-warn-scraper = "==1.2.123"
-warn-transformer = "==1.3.297"
+warn-scraper = "==1.2.126"
+warn-transformer = "==1.3.302"
 
 [dev-packages]
 pytest = "*"
