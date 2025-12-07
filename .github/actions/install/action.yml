@@ -13,14 +13,14 @@ runs:
 
       - id: install-pipenv
         name: Install pipenv
-        run: pipx install pipenv       # ==2025.0.4      # 2025.1.1 does terrible things 2025-12-6
+        run: pipx install pipenv==2025.0.4      # 2025.1.1 does terrible things 2025-12-6
         shell: bash
 
       - id: install-python
         name: Install Python
         uses: actions/setup-python@v5
+          python-version: '3.9'
         with:
-          python-version: '3.12'
           cache: 'pipenv'
 
       - id: install-python-dependencies
