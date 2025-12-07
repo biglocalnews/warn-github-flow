@@ -19,8 +19,8 @@ runs:
       - id: install-python
         name: Install Python
         uses: actions/setup-python@v5
-          python-version: '3.9'
         with:
+          python-version: '3.9'
           cache: 'pipenv'
 
       - id: install-python-dependencies
