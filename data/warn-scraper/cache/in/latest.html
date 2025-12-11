@@ -54,7 +54,7 @@ subpage
         <div id="header_sliver" class="row expanded">
             <div id="header_sliver_logo_container" class="container_ingovlogo columns">
                     <svg id="in-gov-logo-svg" class="in-gov-logo-svg" alrt="IN.gov Logo" data-name="IN.gov Logo"
-                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 32.26" height="18" width="68">
+                        xmlns="https://www.w3.org/2000/svg" viewBox="0 0 120 32.26" height="18" width="68">
                         <defs>
                             <style>
                                 .ingov-logo {
@@ -755,8 +755,8 @@ subpage
     </div>
 </div>
 <section id="content_container_996281">
-<a style="position: fixed;right: 1rem;margin-top: 1rem;z-index: 500;" data-toggle="panel">
-    <button class="button askindiana" style="
+<div style="position: fixed;right: 1rem;margin-top: 1rem;z-index: 500;">
+    <button data-toggle="panel" class="button askindiana" style="
         padding: 0.75rem 1.5rem 0.55rem 1.5rem;
         margin: 0;
         background-color: #1A4F8C;
@@ -772,7 +772,7 @@ subpage
         "></span> Ask DWD<br>
     <p style="font-size: .6rem; line-height: .9rem; margin-bottom: 0 !important;">Powered by Ask Indiana</p>
     </button>
-</a>
+</div>
 <div class="AskDWDcallout" id="panel" data-toggler=".is-shown">
     <button class="close-button" data-toggle="panel">&times;</button>
     <iframe id="myIframe" src="https://www.in.gov/core/index.html" scrolling="no" width="100%" height="750" style="min-height:
@@ -795,6 +795,10 @@ subpage
       overflow: hidden;
       z-index: 999;
       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    .close-button{
+        color: #fff!important;
+        padding-left:1rem;
     }
 </style>
 <script>
@@ -24705,7 +24709,7 @@ Jeffersonville
             </main> 
         </div> 
                 <!-- Marketing/Adaptive prefooter -->
-                        <section id="prefooter">
+                        <section id="prefooter" aria-label="helpful links" role="contentinfo">
                             <div id="prefooter-content">
                                 <section id="content_container_74141">
 <hr /><div role="region" aria-label="Equal Opportunity Notice"><p style="text-align:center"><a style="text-decoration: underline;" href="/dwd/files/EO-Notice-English.pdf" target="_blank" title="Equal Opportunity is the Law">Equal Opportunity is the Law</a>. (<a style="text-decoration: underline;" href="/dwd/files/EO_Notice_WIOA_Spanish.pdf" target="_blank" title="La Igualdad De Oportunidad Es La Ley">La Igualdad De Oportunidad Es La Ley</a>.)<br /> DWD is an equal opportunity employer that administers equal opportunity programs. Free auxiliary aids and services are available upon request to individuals with disabilities (TDD/TTY Number: <a style="text-decoration: underline;" href="tel:1-800-743-3333">1-800-743-3333</a>). Free language interpretation and translation services are also available upon request.</p></div>
@@ -24716,7 +24720,7 @@ Jeffersonville
     <div class="row expanded align-center">
     </div>
 </section>
-        <input type="hidden" name="token" value="313420d742e02f57f109bddff1b500e68701b334"  class="sq-form-field" id="token" />        
+        <input type="hidden" name="token" value="d2141729b9d2154036a53321a10b68bd18eb2226"  class="sq-form-field" id="token" />        
                     <section id="footer_agency" data-ctype="agency-footer" aria-label="agency information" role="contentinfo">
   <div class="row expanded">
       <div id="footer_agency-brand" class="columns small-12 medium-3">
@@ -24735,21 +24739,21 @@ Jeffersonville
           </div>
           <div class="columns small-12 medium-expand">
             <h2>Social Media</h2>
-            <ul class="icons_social row medium-collapse">
+            <ul class="icons_social row medium-collapse" aria-label="Social Media Links" title="Social Media Links">
               <li class="columns">
-                <a title="Facebook" href="https://www.facebook.com/IndianaDWD/" target="_blank"><span class="fab fa-facebook-square"></span><span class="browser-ie11">Facebook</span></a>
+                <a title="Facebook" href="https://www.facebook.com/IndianaDWD/" target="_blank" aria-label="Facebook"><span class="fab fa-facebook-square" title="Facebook"></span><span class="browser-ie11 show-for-sr">Facebook</span></a>
               </li>
               <li class="columns">
-                <a title="Twitter" href="https://www.twitter.com/workforceIND" target="_blank"><span class="fab fa-x-twitter"></span><span class="browser-ie11">Twitter</span></a>
+                <a title="Twitter/X" href="https://www.twitter.com/workforceIND" target="_blank" aria-label="Twitter/X"><span class="fab fa-x-twitter" title="Twitter"></span><span class="browser-ie11 show-for-sr">Twitter</span></a>
               </li>
               <li class="columns">
-                <a title="YouTube" href="https://www.youtube.com/channel/UChgWflMjdgpT-qPblhIymyQ" target="_blank"><span class="fab fa-youtube"></span><span class="browser-ie11">YouTube</span></a>
+                <a title="YouTube" href="https://www.youtube.com/channel/UChgWflMjdgpT-qPblhIymyQ" target="_blank" aria-label="YouTube"><span class="fab fa-youtube" title="YouTube"></span><span class="browser-ie11 show-for-sr">YouTube</span></a>
               </li>
               <li class="columns">
-                <a title="LinkedIn" href="https://www.linkedin.com/company/indiana-department-of-workforce-development" target="_blank"><span class="fab fa-linkedin"></span><span class="browser-ie11">LinkedIn</span></a>
+                <a title="LinkedIn" href="https://www.linkedin.com/company/indiana-department-of-workforce-development" target="_blank" aria-label="LinkedIn"><span class="fab fa-linkedin" title="LinkedIn"></span><span class="browser-ie11 show-for-sr">LinkedIn</span></a>
               </li>
               <li class="columns">
-                <a title="Email" href="https://cloud.subscription.in.gov/signup?depid=546006754" target="_blank"><span class="far fa-envelope"></span><span class="browser-ie11">Email</span></a>
+                <a title="Email" href="https://cloud.subscription.in.gov/signup?depid=546006754" target="_blank" aria-label="Email"><span class="far fa-envelope" title="Email"></span><span class="browser-ie11 show-for-sr">Email</span></a>
               </li>
           </ul>
           </div>
