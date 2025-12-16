@@ -1,35 +1,4 @@
 Company,City,Month Posted,Effective Date,Workforce Affected
-Bristol Myers Squibb (BMS),Lawrence Twp,June,"9/25/25, 10/24/25, 12/19/25, 1/15/26",68
-Novartis,East Hanover,September,"11/28/25, 12/31/25, 1/19/26, 1/30/26, 3/6/26, 6/26/26",60
-Bristol Myers Squibb (BMS),Lawrence Twp,September,"12/11/25, 2/12/26, 3/13/26, 3/27/26",282
-Club Wyndham Atlantic City Skyline,Atlantic City,October,12/31/25 and 1/1/26,116
-Harrison Sportservice Inc.,Harrison,October,2026-01-01 00:00:00,467
-Starbucks Coffee Company,"West New York, Fort Lee, Morristown, Whiting Commons",October,2026-01-25 00:00:00,47
-Baker & Taylor,Bridgewater,October,1/4/26 & 1/23/26,67
-GAF Materials,Parsippany,October,1/15/26 & 1/17/26,106
-Jefferson Health,Cherry Hill,October,2026-01-13 00:00:00,108
-DOW Jones & Company,Princeton,October,1/23/26 & 2/13/26,50
-Ferring Pharmaceuticals,Parsippany,October,"1/23/26, 6/26/26, 7/31/26",64
-Audible,Newark,October,2026-01-26 00:00:00,67
-TTEC Government Solutions,Egg Harbor,October,2026-01-26 00:00:00,120
-Amazon,Jersey City,October,2026-01-26 00:00:00,72
-Optum Care,"Eden Prairie, Minnesota (Offices throughout NJ)",October,"2/2/26 (377), 2/5/26 (4), 2/13/26 (4), 2/19/26 (2), 2/27/26 (1), and 3/4/26 (2)",390
-Optum Medical Care,Secaucus,October,"2/2/26 (120), 3/2/26 (1), and 3/4/26 (1)",122
-Optum Services,"Eden Prairie, Minnesota (Offices throughout NJ)",October,2/2/26 and 2/19/26,49
-Optum Select Management,"Eden Prairie, Minnesota (Offices throughout NJ)",October,2026-02-02 00:00:00,11
-Barclays Services Corporation,Whippany,November,2026-02-18 00:00:00,80
-UBS,Weehawken,November,11/4/26 - 11/6/26,58
-Acme,Sussex,November,2026-02-07 00:00:00,71
-TD Bank N.A.,Mount Laurel,November,"1/2/26, 1/9/26, 1/12/26, 1/13/26, 1/16/26, 1/29/26",74
-CVS,Parsippany,November,2/2/26 - 2/14/26,57
-Bristol Myers Squibb (BMS),Lawrence Twp,November,2/12/26 and 3/13/26,110
-Prudential,Newark,November,1/9/26 - 2/9/26,63
-Merck,Rahway,November,"2/20/26, 3/6/26, 3/13/26, 5/11/26",204
-Verizon,Basking Ridge,November,2026-02-20 00:00:00,1319
-Wonder Group,Englewood,November,2026-02-19 00:00:00,121
-CMC Energy Services,Hamilton,December,2026-03-02 00:00:00,89
-Intercept Pharmaceuticals,Morristown,December,"12/31/25, 3/31/26, 6/30/26",146
-Anheuser Busch LLC,Newark,December,3/11/26 - 3/24/26,151
 Bristol Myers Squibb (BMS),Lawrence Twp,February,"4/24/25, 7/3/25, 7/18/25, 7/31/25, 12/11/25",67
 Walmart,Hoboken,February,2025-06-13 00:00:00,481
 "CWS (Church World Service, Inc.)",Jersey City,February,1/31/25 and 2/3/25,79
@@ -105,7 +74,7 @@ Novo Nordisk,Plainsboro,September,2025-12-31 00:00:00,811
 Prudential,Newark,September,11/16/25 - 12/16/25,63
 Bristol Myers Squibb (BMS),Lawrence Twp,September,"12/11/25, 2/12/26, 3/13/26, 3/27/26",282
 Spectra Labs,Rockleigh,September,12/17/2025 & 1/28/26,96
-BioReference Health,Elmwood Park,September,9/18/25 - 10/3/25,105
+BioReference Health,Elmwood Park,September,9/18/25 - 12/19/25,118
 OceanFirst Bank,Toms River,September,2025-12-18 00:00:00,114
 Citibank,Jersey City,September,"12/8/25, 12/14/25,  12/15/25, 12/24/25, 12/27/25, 12/28/25",67
 BASF,Florham Park,September,2025-12-31 00:00:00,66
@@ -114,6 +83,34 @@ Club Wyndham Atlantic City Skyline,Atlantic City,October,12/31/25 and 1/1/26,116
 The Park Hotel at Meadowlands,East Rutherford,October,11/19/25 - 12/15/25,167
 Becton Dickinson and Company,Franklin Lakes,October,10/30/25 - 1/31/25,86
 Heights University Hospital,Jersey City,October,10/25/25 - 11/9/25,206
+Club Wyndham Atlantic City Skyline,Atlantic City,October,12/31/25 and 1/1/26,116
+Harrison Sportservice Inc.,Harrison,October,2026-01-01 00:00:00,467
+Starbucks Coffee Company,"West New York, Fort Lee, Morristown, Whiting Commons",October,2026-01-25 00:00:00,47
+Baker & Taylor,Bridgewater,October,1/4/26 & 1/23/26,67
+GAF Materials,Parsippany,October,1/15/26 & 1/17/26 (additional layoffs in February and March),130
+Jefferson Health,Cherry Hill,October,2026-01-13 00:00:00,108
+DOW Jones & Company,Princeton,October,1/23/26 & 2/13/26,50
+Ferring Pharmaceuticals,Parsippany,October,"1/23/26, 6/26/26, 7/31/26",64
+Audible,Newark,October,2026-01-26 00:00:00,67
+TTEC Government Solutions,Egg Harbor,October,2026-01-26 00:00:00,120
+Amazon,Jersey City,October,2026-01-26 00:00:00,72
+Optum Care,"Eden Prairie, Minnesota (Offices throughout NJ)",October,"2/2/26 (377), 2/5/26 (4), 2/13/26 (4), 2/19/26 (2), 2/27/26 (1), and 3/4/26 (2)",390
+Optum Medical Care,Secaucus,October,"2/2/26 (120), 3/2/26 (1), and 3/4/26 (1)",122
+Optum Services,"Eden Prairie, Minnesota (Offices throughout NJ)",October,2/2/26 and 2/19/26,49
+Optum Select Management,"Eden Prairie, Minnesota (Offices throughout NJ)",October,2026-02-02 00:00:00,11
+Barclays Services Corporation,Whippany,November,2026-02-18 00:00:00,80
+UBS,Weehawken,November,11/4/26 - 11/6/26,58
+Acme,Sussex,November,2026-02-07 00:00:00,71
+TD Bank N.A.,Mount Laurel,November,"1/2/26, 1/9/26, 1/12/26, 1/13/26, 1/16/26, 1/29/26",74
+CVS,Parsippany,November,"2/2/26 , 2/14/26, 3/13/26, 4/3/26",61
+Bristol Myers Squibb (BMS),Lawrence Twp,November,2/12/26 and 3/13/26,110
+Prudential,Newark,November,1/9/26 - 2/9/26,63
+Merck,Rahway,November,"2/20/26, 3/6/26, 3/13/26, 5/11/26",204
+Verizon,Basking Ridge,November,2026-02-20 00:00:00,1319
+Wonder Group,Englewood,November,2026-02-19 00:00:00,121
+CMC Energy Services,Hamilton,December,2026-03-02 00:00:00,89
+Intercept Pharmaceuticals,Morristown,December,"12/31/25, 3/31/26, 6/30/26",146
+Anheuser Busch LLC,Newark,December,3/11/26 - 3/24/26,151
 ACME Markets Inc.,Milltown,January,2024-04-01 00:00:00,70
 Newbold Services,East Windsor,January,2024-04-06 00:00:00,36
 RWJ Barnabas Health,West Orange,January,"4/5/24, 3/31/24",79
