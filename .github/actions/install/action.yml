@@ -13,6 +13,7 @@ runs:
 
       - id: install-pipenv
         name: Install pipenv
+        # run: pipx install pipenv==2025.0.4      # 2025.1.1 does terrible things 2025-12-6
         run: pipx install pipenv
         shell: bash
 
