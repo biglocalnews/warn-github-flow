@@ -1,0 +1,1467 @@
+
+        <!DOCTYPE html><html lang="en-US">
+
+        <head>
+		
+        <meta charset="UTF-8">
+<script type="text/javascript">
+/* <![CDATA[ */
+var gform;gform||(document.addEventListener("gform_main_scripts_loaded",function(){gform.scriptsLoaded=!0}),document.addEventListener("gform/theme/scripts_loaded",function(){gform.themeScriptsLoaded=!0}),window.addEventListener("DOMContentLoaded",function(){gform.domLoaded=!0}),gform={domLoaded:!1,scriptsLoaded:!1,themeScriptsLoaded:!1,isFormEditor:()=>"function"==typeof InitializeEditor,callIfLoaded:function(o){return!(!gform.domLoaded||!gform.scriptsLoaded||!gform.themeScriptsLoaded&&!gform.isFormEditor()||(gform.isFormEditor()&&console.warn("The use of gform.initializeOnLoaded() is deprecated in the form editor context and will be removed in Gravity Forms 3.1."),o(),0))},initializeOnLoaded:function(o){gform.callIfLoaded(o)||(document.addEventListener("gform_main_scripts_loaded",()=>{gform.scriptsLoaded=!0,gform.callIfLoaded(o)}),document.addEventListener("gform/theme/scripts_loaded",()=>{gform.themeScriptsLoaded=!0,gform.callIfLoaded(o)}),window.addEventListener("DOMContentLoaded",()=>{gform.domLoaded=!0,gform.callIfLoaded(o)}))},hooks:{action:{},filter:{}},addAction:function(o,r,e,t){gform.addHook("action",o,r,e,t)},addFilter:function(o,r,e,t){gform.addHook("filter",o,r,e,t)},doAction:function(o){gform.doHook("action",o,arguments)},applyFilters:function(o){return gform.doHook("filter",o,arguments)},removeAction:function(o,r){gform.removeHook("action",o,r)},removeFilter:function(o,r,e){gform.removeHook("filter",o,r,e)},addHook:function(o,r,e,t,n){null==gform.hooks[o][r]&&(gform.hooks[o][r]=[]);var d=gform.hooks[o][r];null==n&&(n=r+"_"+d.length),gform.hooks[o][r].push({tag:n,callable:e,priority:t=null==t?10:t})},doHook:function(r,o,e){var t;if(e=Array.prototype.slice.call(e,1),null!=gform.hooks[r][o]&&((o=gform.hooks[r][o]).sort(function(o,r){return o.priority-r.priority}),o.forEach(function(o){"function"!=typeof(t=o.callable)&&(t=window[t]),"action"==r?t.apply(null,e):e[0]=t.apply(null,e)})),"filter"==r)return e[0]},removeHook:function(o,r,t,n){var e;null!=gform.hooks[o][r]&&(e=(e=gform.hooks[o][r]).filter(function(o,r,e){return!!(null!=n&&n!=o.tag||null!=t&&t!=o.priority)}),gform.hooks[o][r]=e)}});
+/* ]]> */
+</script>
+
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="profile" href="http://gmpg.org/xfn/11">
+
+        <link rel="pingback" href="https://www.tcsg.edu/xmlrpc.php">
+
+        <title>WARN Public View &#8211; TCSG | Technical College System of Georgia</title>
+<meta name='robots' content='max-image-preview:large' />
+<link rel='dns-prefetch' href='//use.typekit.net' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//use.fontawesome.com' />
+<link rel="alternate" type="application/rss+xml" title="TCSG | Technical College System of Georgia &raquo; Feed" href="https://www.tcsg.edu/feed/" />
+<link rel="alternate" type="application/rss+xml" title="TCSG | Technical College System of Georgia &raquo; Comments Feed" href="https://www.tcsg.edu/comments/feed/" />
+<link rel="alternate" type="text/calendar" title="TCSG | Technical College System of Georgia &raquo; iCal Feed" href="https://www.tcsg.edu/events/?ical=1" />
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://www.tcsg.edu/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.tcsg.edu%2Fwarn-public-view%2F" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://www.tcsg.edu/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.tcsg.edu%2Fwarn-public-view%2F&#038;format=xml" />
+<style id='wp-img-auto-sizes-contain-inline-css' type='text/css'>
+img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
+/*# sourceURL=wp-img-auto-sizes-contain-inline-css */
+</style>
+<link rel='stylesheet' id='tribe-events-pro-mini-calendar-block-styles-css' href='https://www.tcsg.edu/wp-content/plugins/events-calendar-pro/build/css/tribe-events-pro-mini-calendar-block.css' type='text/css' media='all' />
+<style id='wp-emoji-styles-inline-css' type='text/css'>
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+/*# sourceURL=wp-emoji-styles-inline-css */
+</style>
+<link rel='stylesheet' id='wp-block-library-css' href='https://www.tcsg.edu/wp-includes/css/dist/block-library/style.min.css' type='text/css' media='all' />
+<style id='classic-theme-styles-inline-css' type='text/css'>
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+/*# sourceURL=/wp-includes/css/classic-themes.min.css */
+</style>
+<style id='wp-block-accordion-inline-css' type='text/css'>
+.wp-block-accordion{box-sizing:border-box}
+/*# sourceURL=https://www.tcsg.edu/wp-includes/blocks/accordion/style.min.css */
+</style>
+<style id='wp-block-accordion-item-inline-css' type='text/css'>
+.wp-block-accordion-item.is-open>.wp-block-accordion-heading .wp-block-accordion-heading__toggle-icon{transform:rotate(45deg)}@media (prefers-reduced-motion:no-preference){.wp-block-accordion-item{transition:grid-template-rows .3s ease-out}.wp-block-accordion-item>.wp-block-accordion-heading .wp-block-accordion-heading__toggle-icon{transition:transform .2s ease-in-out}}
+/*# sourceURL=https://www.tcsg.edu/wp-includes/blocks/accordion-item/style.min.css */
+</style>
+<style id='wp-block-archives-inline-css' type='text/css'>
+.wp-block-archives{box-sizing:border-box}.wp-block-archives-dropdown label{display:block}
+/*# sourceURL=https://www.tcsg.edu/wp-includes/blocks/archives/style.min.css */
+</style>
+<style id='wp-block-avatar-inline-css' type='text/css'>
+.wp-block-avatar{line-height:0}.wp-block-avatar,.wp-block-avatar img{box-sizing:border-box}.wp-block-avatar.aligncenter{text-align:center}
+/*# sourceURL=https://www.tcsg.edu/wp-includes/blocks/avatar/style.min.css */
+</style>
+<style id='wp-block-button-inline-css' type='text/css'>
+.wp-block-button__link{align-content:center;box-sizing:border-box;cursor:pointer;display:inline-block;height:100%;text-align:center;word-break:break-word}.wp-block-button__link.aligncenter{text-align:center}.wp-block-button__link.alignright{text-align:right}:where(.wp-block-button__link){border-radius:9999px;box-shadow:none;padding:calc(.667em + 2px) calc(1.333em + 2px);text-decoration:none}.wp-block-button[style*=text-decoration] .wp-block-button__link{text-decoration:inherit}.wp-block-buttons>.wp-block-button.has-custom-width{max-width:none}.wp-block-buttons>.wp-block-button.has-custom-width .wp-block-button__link{width:100%}.wp-block-buttons>.wp-block-button.has-custom-font-size .wp-block-button__link{font-size:inherit}.wp-block-buttons>.wp-block-button.wp-block-button__width-25{width:calc(25% - var(--wp--style--block-gap, .5em)*.75)}.wp-block-buttons>.wp-block-button.wp-block-button__width-50{width:calc(50% - var(--wp--style--block-gap, .5em)*.5)}.wp-block-buttons>.wp-block-button.wp-block-button__width-75{width:calc(75% - var(--wp--style--block-gap, .5em)*.25)}.wp-block-buttons>.wp-block-button.wp-block-button__width-100{flex-basis:100%;width:100%}.wp-block-buttons.is-vertical>.wp-block-button.wp-block-button__width-25{width:25%}.wp-block-buttons.is-vertical>.wp-block-button.wp-block-button__width-50{width:50%}.wp-block-buttons.is-vertical>.wp-block-button.wp-block-button__width-75{width:75%}.wp-block-button.is-style-squared,.wp-block-button__link.wp-block-button.is-style-squared{border-radius:0}.wp-block-button.no-border-radius,.wp-block-button__link.no-border-radius{border-radius:0!important}:root :where(.wp-block-button .wp-block-button__link.is-style-outline),:root :where(.wp-block-button.is-style-outline>.wp-block-button__link){border:2px solid;padding:.667em 1.333em}:root :where(.wp-block-button .wp-block-button__link.is-style-outline:not(.has-text-color)),:root :where(.wp-block-button.is-style-outline>.wp-block-button__link:not(.has-text-color)){color:currentColor}:root :where(.wp-block-button .wp-block-button__link.is-style-outline:not(.has-background)),:root :where(.wp-block-button.is-style-outline>.wp-block-button__link:not(.has-background)){background-color:initial;background-image:none}
+/*# sourceURL=https://www.tcsg.edu/wp-includes/blocks/button/style.min.css */
+</style>
+<style id='wp-block-calendar-inline-css' type='text/css'>
+.wp-block-calendar{text-align:center}.wp-block-calendar td,.wp-block-calendar th{border:1px solid;padding:.25em}.wp-block-calendar th{font-weight:400}.wp-block-calendar caption{background-color:inherit}.wp-block-calendar table{border-collapse:collapse;width:100%}.wp-block-calendar table.has-background th{background-color:inherit}.wp-block-calendar table.has-text-color th{color:inherit}.wp-block-calendar :where(table:not(.has-text-color)){color:#40464d}.wp-block-calendar :where(table:not(.has-text-color)) td,.wp-block-calendar :where(table:not(.has-text-color)) th{border-color:#ddd}:where(.wp-block-calendar table:not(.has-background) th){background:#ddd}
+/*# sourceURL=https://www.tcsg.edu/wp-includes/blocks/calendar/style.min.css */
+</style>
+<style id='wp-block-categories-inline-css' type='text/css'>
+.wp-block-categories{box-sizing:border-box}.wp-block-categories.alignleft{margin-right:2em}.wp-block-categories.alignright{margin-left:2em}.wp-block-categories.wp-block-categories-dropdown.aligncenter{text-align:center}.wp-block-categories .wp-block-categories__label{display:block;width:100%}
+/*# sourceURL=https://www.tcsg.edu/wp-includes/blocks/categories/style.min.css */
+</style>
+<style id='wp-block-comment-author-name-inline-css' type='text/css'>
+.wp-block-comment-author-name{box-sizing:border-box}
+/*# sourceURL=https://www.tcsg.edu/wp-includes/blocks/comment-author-name/style.min.css */
+</style>
+<style id='wp-block-comment-content-inline-css' type='text/css'>
+.comment-awaiting-moderation{display:block;font-size:.875em;line-height:1.5}.wp-block-comment-content{box-sizing:border-box}
+/*# sourceURL=https://www.tcsg.edu/wp-includes/blocks/comment-content/style.min.css */
+</style>
+<style id='wp-block-comment-date-inline-css' type='text/css'>
+.wp-block-comment-date{box-sizing:border-box}
+/*# sourceURL=https://www.tcsg.edu/wp-includes/blocks/comment-date/style.min.css */
+</style>
+<style id='wp-block-comment-edit-link-inline-css' type='text/css'>
+.wp-block-comment-edit-link{box-sizing:border-box}
+/*# sourceURL=https://www.tcsg.edu/wp-includes/blocks/comment-edit-link/style.min.css */
+</style>
+<style id='wp-block-comment-reply-link-inline-css' type='text/css'>
+.wp-block-comment-reply-link{box-sizing:border-box}
+/*# sourceURL=https://www.tcsg.edu/wp-includes/blocks/comment-reply-link/style.min.css */
+</style>
+<style id='wp-block-comment-template-inline-css' type='text/css'>
+.wp-block-comment-template{box-sizing:border-box;list-style:none;margin-bottom:0;max-width:100%;padding:0}.wp-block-comment-template li{clear:both}.wp-block-comment-template ol{list-style:none;margin-bottom:0;max-width:100%;padding-left:2rem}.wp-block-comment-template.alignleft{float:left}.wp-block-comment-template.aligncenter{margin-left:auto;margin-right:auto;width:fit-content}.wp-block-comment-template.alignright{float:right}
+/*# sourceURL=https://www.tcsg.edu/wp-includes/blocks/comment-template/style.min.css */
+</style>
+<style id='wp-block-comments-inline-css' type='text/css'>
+.wp-block-post-comments{box-sizing:border-box}.wp-block-post-comments .alignleft{float:left}.wp-block-post-comments .alignright{float:right}.wp-block-post-comments .navigation:after{clear:both;content:"";display:table}.wp-block-post-comments .commentlist{clear:both;list-style:none;margin:0;padding:0}.wp-block-post-comments .commentlist .comment{min-height:2.25em;padding-left:3.25em}.wp-block-post-comments .commentlist .comment p{font-size:1em;line-height:1.8;margin:1em 0}.wp-block-post-comments .commentlist .children{list-style:none;margin:0;padding:0}.wp-block-post-comments .comment-author{line-height:1.5}.wp-block-post-comments .comment-author .avatar{border-radius:1.5em;display:block;float:left;height:2.5em;margin-right:.75em;margin-top:.5em;width:2.5em}.wp-block-post-comments .comment-author cite{font-style:normal}.wp-block-post-comments .comment-meta{font-size:.875em;line-height:1.5}.wp-block-post-comments .comment-meta b{font-weight:400}.wp-block-post-comments .comment-meta .comment-awaiting-moderation{display:block;margin-bottom:1em;margin-top:1em}.wp-block-post-comments .comment-body .commentmetadata{font-size:.875em}.wp-block-post-comments .comment-form-author label,.wp-block-post-comments .comment-form-comment label,.wp-block-post-comments .comment-form-email label,.wp-block-post-comments .comment-form-url label{display:block;margin-bottom:.25em}.wp-block-post-comments .comment-form input:not([type=submit]):not([type=checkbox]),.wp-block-post-comments .comment-form textarea{box-sizing:border-box;display:block;width:100%}.wp-block-post-comments .comment-form-cookies-consent{display:flex;gap:.25em}.wp-block-post-comments .comment-form-cookies-consent #wp-comment-cookies-consent{margin-top:.35em}.wp-block-post-comments .comment-reply-title{margin-bottom:0}.wp-block-post-comments .comment-reply-title :where(small){font-size:var(--wp--preset--font-size--medium,smaller);margin-left:.5em}.wp-block-post-comments .reply{font-size:.875em;margin-bottom:1.4em}.wp-block-post-comments input:not([type=submit]),.wp-block-post-comments textarea{border:1px solid #949494;font-family:inherit;font-size:1em}.wp-block-post-comments input:not([type=submit]):not([type=checkbox]),.wp-block-post-comments textarea{padding:calc(.667em + 2px)}:where(.wp-block-post-comments input[type=submit]){border:none}.wp-block-comments{box-sizing:border-box}
+/*# sourceURL=https://www.tcsg.edu/wp-includes/blocks/comments/style.min.css */
+</style>
+<style id='wp-block-comments-pagination-inline-css' type='text/css'>
+.wp-block-comments-pagination>.wp-block-comments-pagination-next,.wp-block-comments-pagination>.wp-block-comments-pagination-numbers,.wp-block-comments-pagination>.wp-block-comments-pagination-previous{font-size:inherit}.wp-block-comments-pagination .wp-block-comments-pagination-previous-arrow{display:inline-block;margin-right:1ch}.wp-block-comments-pagination .wp-block-comments-pagination-previous-arrow:not(.is-arrow-chevron){transform:scaleX(1)}.wp-block-comments-pagination .wp-block-comments-pagination-next-arrow{display:inline-block;margin-left:1ch}.wp-block-comments-pagination .wp-block-comments-pagination-next-arrow:not(.is-arrow-chevron){transform:scaleX(1)}.wp-block-comments-pagination.aligncenter{justify-content:center}
+/*# sourceURL=https://www.tcsg.edu/wp-includes/blocks/comments-pagination/style.min.css */
+</style>
+<link rel='stylesheet' id='wp-block-cover-css' href='https://www.tcsg.edu/wp-includes/blocks/cover/style.min.css' type='text/css' media='all' />
+<style id='wp-block-file-inline-css' type='text/css'>
+.wp-block-file{box-sizing:border-box}.wp-block-file:not(.wp-element-button){font-size:.8em}.wp-block-file.aligncenter{text-align:center}.wp-block-file.alignright{text-align:right}.wp-block-file *+.wp-block-file__button{margin-left:.75em}:where(.wp-block-file){margin-bottom:1.5em}.wp-block-file__embed{margin-bottom:1em}:where(.wp-block-file__button){border-radius:2em;display:inline-block;padding:.5em 1em}:where(.wp-block-file__button):where(a):active,:where(.wp-block-file__button):where(a):focus,:where(.wp-block-file__button):where(a):hover,:where(.wp-block-file__button):where(a):visited{box-shadow:none;color:#fff;opacity:.85;text-decoration:none}
+/*# sourceURL=https://www.tcsg.edu/wp-includes/blocks/file/style.min.css */
+</style>
+<style id='wp-block-footnotes-inline-css' type='text/css'>
+.editor-styles-wrapper,.entry-content{counter-reset:footnotes}a[data-fn].fn{counter-increment:footnotes;display:inline-flex;font-size:smaller;text-decoration:none;text-indent:-9999999px;vertical-align:super}a[data-fn].fn:after{content:"[" counter(footnotes) "]";float:left;text-indent:0}
+/*# sourceURL=https://www.tcsg.edu/wp-includes/blocks/footnotes/style.min.css */
+</style>
+<link rel='stylesheet' id='wp-block-gallery-css' href='https://www.tcsg.edu/wp-includes/blocks/gallery/style.min.css' type='text/css' media='all' />
+<style id='wp-block-gallery-theme-inline-css' type='text/css'>
+.blocks-gallery-caption{color:#555;font-size:13px;text-align:center}.is-dark-theme .blocks-gallery-caption{color:#ffffffa6}
+/*# sourceURL=https://www.tcsg.edu/wp-includes/blocks/gallery/theme.min.css */
+</style>
+<style id='wp-block-heading-inline-css' type='text/css'>
+h1:where(.wp-block-heading).has-background,h2:where(.wp-block-heading).has-background,h3:where(.wp-block-heading).has-background,h4:where(.wp-block-heading).has-background,h5:where(.wp-block-heading).has-background,h6:where(.wp-block-heading).has-background{padding:1.25em 2.375em}h1.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h1.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h2.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h2.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h3.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h3.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h4.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h4.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h5.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h5.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h6.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h6.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]){rotate:180deg}
+/*# sourceURL=https://www.tcsg.edu/wp-includes/blocks/heading/style.min.css */
+</style>
+<link rel='stylesheet' id='wp-block-image-css' href='https://www.tcsg.edu/wp-includes/blocks/image/style.min.css' type='text/css' media='all' />
+<style id='wp-block-image-theme-inline-css' type='text/css'>
+:root :where(.wp-block-image figcaption){color:#555;font-size:13px;text-align:center}.is-dark-theme :root :where(.wp-block-image figcaption){color:#ffffffa6}.wp-block-image{margin:0 0 1em}
+/*# sourceURL=https://www.tcsg.edu/wp-includes/blocks/image/theme.min.css */
+</style>
+<style id='wp-block-latest-comments-inline-css' type='text/css'>
+ol.wp-block-latest-comments{box-sizing:border-box;margin-left:0}:where(.wp-block-latest-comments:not([style*=line-height] .wp-block-latest-comments__comment)){line-height:1.1}:where(.wp-block-latest-comments:not([style*=line-height] .wp-block-latest-comments__comment-excerpt p)){line-height:1.8}.has-dates :where(.wp-block-latest-comments:not([style*=line-height])),.has-excerpts :where(.wp-block-latest-comments:not([style*=line-height])){line-height:1.5}.wp-block-latest-comments .wp-block-latest-comments{padding-left:0}.wp-block-latest-comments__comment{list-style:none;margin-bottom:1em}.has-avatars .wp-block-latest-comments__comment{list-style:none;min-height:2.25em}.has-avatars .wp-block-latest-comments__comment .wp-block-latest-comments__comment-excerpt,.has-avatars .wp-block-latest-comments__comment .wp-block-latest-comments__comment-meta{margin-left:3.25em}.wp-block-latest-comments__comment-excerpt p{font-size:.875em;margin:.36em 0 1.4em}.wp-block-latest-comments__comment-date{display:block;font-size:.75em}.wp-block-latest-comments .avatar,.wp-block-latest-comments__comment-avatar{border-radius:1.5em;display:block;float:left;height:2.5em;margin-right:.75em;width:2.5em}.wp-block-latest-comments[class*=-font-size] a,.wp-block-latest-comments[style*=font-size] a{font-size:inherit}
+/*# sourceURL=https://www.tcsg.edu/wp-includes/blocks/latest-comments/style.min.css */
+</style>
+<style id='wp-block-latest-posts-inline-css' type='text/css'>
+.wp-block-latest-posts{box-sizing:border-box}.wp-block-latest-posts.alignleft{margin-right:2em}.wp-block-latest-posts.alignright{margin-left:2em}.wp-block-latest-posts.wp-block-latest-posts__list{list-style:none}.wp-block-latest-posts.wp-block-latest-posts__list li{clear:both;overflow-wrap:break-word}.wp-block-latest-posts.is-grid{display:flex;flex-wrap:wrap}.wp-block-latest-posts.is-grid li{margin:0 1.25em 1.25em 0;width:100%}@media (min-width:600px){.wp-block-latest-posts.columns-2 li{width:calc(50% - .625em)}.wp-block-latest-posts.columns-2 li:nth-child(2n){margin-right:0}.wp-block-latest-posts.columns-3 li{width:calc(33.33333% - .83333em)}.wp-block-latest-posts.columns-3 li:nth-child(3n){margin-right:0}.wp-block-latest-posts.columns-4 li{width:calc(25% - .9375em)}.wp-block-latest-posts.columns-4 li:nth-child(4n){margin-right:0}.wp-block-latest-posts.columns-5 li{width:calc(20% - 1em)}.wp-block-latest-posts.columns-5 li:nth-child(5n){margin-right:0}.wp-block-latest-posts.columns-6 li{width:calc(16.66667% - 1.04167em)}.wp-block-latest-posts.columns-6 li:nth-child(6n){margin-right:0}}:root :where(.wp-block-latest-posts.is-grid){padding:0}:root :where(.wp-block-latest-posts.wp-block-latest-posts__list){padding-left:0}.wp-block-latest-posts__post-author,.wp-block-latest-posts__post-date{display:block;font-size:.8125em}.wp-block-latest-posts__post-excerpt,.wp-block-latest-posts__post-full-content{margin-bottom:1em;margin-top:.5em}.wp-block-latest-posts__featured-image a{display:inline-block}.wp-block-latest-posts__featured-image img{height:auto;max-width:100%;width:auto}.wp-block-latest-posts__featured-image.alignleft{float:left;margin-right:1em}.wp-block-latest-posts__featured-image.alignright{float:right;margin-left:1em}.wp-block-latest-posts__featured-image.aligncenter{margin-bottom:1em;text-align:center}
+/*# sourceURL=https://www.tcsg.edu/wp-includes/blocks/latest-posts/style.min.css */
+</style>
+<style id='wp-block-list-inline-css' type='text/css'>
+ol,ul{box-sizing:border-box}:root :where(.wp-block-list.has-background){padding:1.25em 2.375em}
+/*# sourceURL=https://www.tcsg.edu/wp-includes/blocks/list/style.min.css */
+</style>
+<style id='wp-block-loginout-inline-css' type='text/css'>
+.wp-block-loginout{box-sizing:border-box}
+/*# sourceURL=https://www.tcsg.edu/wp-includes/blocks/loginout/style.min.css */
+</style>
+<link rel='stylesheet' id='wp-block-media-text-css' href='https://www.tcsg.edu/wp-includes/blocks/media-text/style.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-block-navigation-css' href='https://www.tcsg.edu/wp-includes/blocks/navigation/style.min.css' type='text/css' media='all' />
+<style id='wp-block-navigation-link-inline-css' type='text/css'>
+.wp-block-navigation .wp-block-navigation-item__label{overflow-wrap:break-word}.wp-block-navigation .wp-block-navigation-item__description{display:none}.link-ui-tools{outline:1px solid #f0f0f0;padding:8px}.link-ui-block-inserter{padding-top:8px}.link-ui-block-inserter__back{margin-left:8px;text-transform:uppercase}
+/*# sourceURL=https://www.tcsg.edu/wp-includes/blocks/navigation-link/style.min.css */
+</style>
+<style id='wp-block-page-list-inline-css' type='text/css'>
+.wp-block-navigation .wp-block-page-list{align-items:var(--navigation-layout-align,initial);background-color:inherit;display:flex;flex-direction:var(--navigation-layout-direction,initial);flex-wrap:var(--navigation-layout-wrap,wrap);justify-content:var(--navigation-layout-justify,initial)}.wp-block-navigation .wp-block-navigation-item{background-color:inherit}.wp-block-page-list{box-sizing:border-box}
+/*# sourceURL=https://www.tcsg.edu/wp-includes/blocks/page-list/style.min.css */
+</style>
+<style id='wp-block-post-author-inline-css' type='text/css'>
+.wp-block-post-author{box-sizing:border-box;display:flex;flex-wrap:wrap}.wp-block-post-author__byline{font-size:.5em;margin-bottom:0;margin-top:0;width:100%}.wp-block-post-author__avatar{margin-right:1em}.wp-block-post-author__bio{font-size:.7em;margin-bottom:.7em}.wp-block-post-author__content{flex-basis:0;flex-grow:1}.wp-block-post-author__name{margin:0}
+/*# sourceURL=https://www.tcsg.edu/wp-includes/blocks/post-author/style.min.css */
+</style>
+<style id='wp-block-post-author-biography-inline-css' type='text/css'>
+.wp-block-post-author-biography{box-sizing:border-box}
+/*# sourceURL=https://www.tcsg.edu/wp-includes/blocks/post-author-biography/style.min.css */
+</style>
+<style id='wp-block-post-author-name-inline-css' type='text/css'>
+.wp-block-post-author-name{box-sizing:border-box}
+/*# sourceURL=https://www.tcsg.edu/wp-includes/blocks/post-author-name/style.min.css */
+</style>
+<style id='wp-block-post-comments-count-inline-css' type='text/css'>
+.wp-block-post-comments-count{box-sizing:border-box}
+/*# sourceURL=https://www.tcsg.edu/wp-includes/blocks/post-comments-count/style.min.css */
+</style>
+<style id='wp-block-post-comments-form-inline-css' type='text/css'>
+:where(.wp-block-post-comments-form input:not([type=submit])),:where(.wp-block-post-comments-form textarea){border:1px solid #949494;font-family:inherit;font-size:1em}:where(.wp-block-post-comments-form input:where(:not([type=submit]):not([type=checkbox]))),:where(.wp-block-post-comments-form textarea){padding:calc(.667em + 2px)}.wp-block-post-comments-form{box-sizing:border-box}.wp-block-post-comments-form[style*=font-weight] :where(.comment-reply-title){font-weight:inherit}.wp-block-post-comments-form[style*=font-family] :where(.comment-reply-title){font-family:inherit}.wp-block-post-comments-form[class*=-font-size] :where(.comment-reply-title),.wp-block-post-comments-form[style*=font-size] :where(.comment-reply-title){font-size:inherit}.wp-block-post-comments-form[style*=line-height] :where(.comment-reply-title){line-height:inherit}.wp-block-post-comments-form[style*=font-style] :where(.comment-reply-title){font-style:inherit}.wp-block-post-comments-form[style*=letter-spacing] :where(.comment-reply-title){letter-spacing:inherit}.wp-block-post-comments-form :where(input[type=submit]){box-shadow:none;cursor:pointer;display:inline-block;overflow-wrap:break-word;text-align:center}.wp-block-post-comments-form .comment-form input:not([type=submit]):not([type=checkbox]):not([type=hidden]),.wp-block-post-comments-form .comment-form textarea{box-sizing:border-box;display:block;width:100%}.wp-block-post-comments-form .comment-form-author label,.wp-block-post-comments-form .comment-form-email label,.wp-block-post-comments-form .comment-form-url label{display:block;margin-bottom:.25em}.wp-block-post-comments-form .comment-form-cookies-consent{display:flex;gap:.25em}.wp-block-post-comments-form .comment-form-cookies-consent #wp-comment-cookies-consent{margin-top:.35em}.wp-block-post-comments-form .comment-reply-title{margin-bottom:0}.wp-block-post-comments-form .comment-reply-title :where(small){font-size:var(--wp--preset--font-size--medium,smaller);margin-left:.5em}
+/*# sourceURL=https://www.tcsg.edu/wp-includes/blocks/post-comments-form/style.min.css */
+</style>
+<style id='wp-block-buttons-inline-css' type='text/css'>
+.wp-block-buttons{box-sizing:border-box}.wp-block-buttons.is-vertical{flex-direction:column}.wp-block-buttons.is-vertical>.wp-block-button:last-child{margin-bottom:0}.wp-block-buttons>.wp-block-button{display:inline-block;margin:0}.wp-block-buttons.is-content-justification-left{justify-content:flex-start}.wp-block-buttons.is-content-justification-left.is-vertical{align-items:flex-start}.wp-block-buttons.is-content-justification-center{justify-content:center}.wp-block-buttons.is-content-justification-center.is-vertical{align-items:center}.wp-block-buttons.is-content-justification-right{justify-content:flex-end}.wp-block-buttons.is-content-justification-right.is-vertical{align-items:flex-end}.wp-block-buttons.is-content-justification-space-between{justify-content:space-between}.wp-block-buttons.aligncenter{text-align:center}.wp-block-buttons:not(.is-content-justification-space-between,.is-content-justification-right,.is-content-justification-left,.is-content-justification-center) .wp-block-button.aligncenter{margin-left:auto;margin-right:auto;width:100%}.wp-block-buttons[style*=text-decoration] .wp-block-button,.wp-block-buttons[style*=text-decoration] .wp-block-button__link{text-decoration:inherit}.wp-block-buttons.has-custom-font-size .wp-block-button__link{font-size:inherit}.wp-block-buttons .wp-block-button__link{width:100%}.wp-block-button.aligncenter{text-align:center}
+/*# sourceURL=https://www.tcsg.edu/wp-includes/blocks/buttons/style.min.css */
+</style>
+<style id='wp-block-post-comments-link-inline-css' type='text/css'>
+.wp-block-post-comments-link{box-sizing:border-box}
+/*# sourceURL=https://www.tcsg.edu/wp-includes/blocks/post-comments-link/style.min.css */
+</style>
+<style id='wp-block-post-content-inline-css' type='text/css'>
+.wp-block-post-content{display:flow-root}
+/*# sourceURL=https://www.tcsg.edu/wp-includes/blocks/post-content/style.min.css */
+</style>
+<style id='wp-block-post-date-inline-css' type='text/css'>
+.wp-block-post-date{box-sizing:border-box}
+/*# sourceURL=https://www.tcsg.edu/wp-includes/blocks/post-date/style.min.css */
+</style>
+<style id='wp-block-post-excerpt-inline-css' type='text/css'>
+:where(.wp-block-post-excerpt){box-sizing:border-box;margin-bottom:var(--wp--style--block-gap);margin-top:var(--wp--style--block-gap)}.wp-block-post-excerpt__excerpt{margin-bottom:0;margin-top:0}.wp-block-post-excerpt__more-text{margin-bottom:0;margin-top:var(--wp--style--block-gap)}.wp-block-post-excerpt__more-link{display:inline-block}
+/*# sourceURL=https://www.tcsg.edu/wp-includes/blocks/post-excerpt/style.min.css */
+</style>
+<style id='wp-block-post-featured-image-inline-css' type='text/css'>
+.wp-block-post-featured-image{margin-left:0;margin-right:0}.wp-block-post-featured-image a{display:block;height:100%}.wp-block-post-featured-image :where(img){box-sizing:border-box;height:auto;max-width:100%;vertical-align:bottom;width:100%}.wp-block-post-featured-image.alignfull img,.wp-block-post-featured-image.alignwide img{width:100%}.wp-block-post-featured-image .wp-block-post-featured-image__overlay.has-background-dim{background-color:#000;inset:0;position:absolute}.wp-block-post-featured-image{position:relative}.wp-block-post-featured-image .wp-block-post-featured-image__overlay.has-background-gradient{background-color:initial}.wp-block-post-featured-image .wp-block-post-featured-image__overlay.has-background-dim-0{opacity:0}.wp-block-post-featured-image .wp-block-post-featured-image__overlay.has-background-dim-10{opacity:.1}.wp-block-post-featured-image .wp-block-post-featured-image__overlay.has-background-dim-20{opacity:.2}.wp-block-post-featured-image .wp-block-post-featured-image__overlay.has-background-dim-30{opacity:.3}.wp-block-post-featured-image .wp-block-post-featured-image__overlay.has-background-dim-40{opacity:.4}.wp-block-post-featured-image .wp-block-post-featured-image__overlay.has-background-dim-50{opacity:.5}.wp-block-post-featured-image .wp-block-post-featured-image__overlay.has-background-dim-60{opacity:.6}.wp-block-post-featured-image .wp-block-post-featured-image__overlay.has-background-dim-70{opacity:.7}.wp-block-post-featured-image .wp-block-post-featured-image__overlay.has-background-dim-80{opacity:.8}.wp-block-post-featured-image .wp-block-post-featured-image__overlay.has-background-dim-90{opacity:.9}.wp-block-post-featured-image .wp-block-post-featured-image__overlay.has-background-dim-100{opacity:1}.wp-block-post-featured-image:where(.alignleft,.alignright){width:100%}
+/*# sourceURL=https://www.tcsg.edu/wp-includes/blocks/post-featured-image/style.min.css */
+</style>
+<style id='wp-block-post-navigation-link-inline-css' type='text/css'>
+.wp-block-post-navigation-link .wp-block-post-navigation-link__arrow-previous{display:inline-block;margin-right:1ch}.wp-block-post-navigation-link .wp-block-post-navigation-link__arrow-previous:not(.is-arrow-chevron){transform:scaleX(1)}.wp-block-post-navigation-link .wp-block-post-navigation-link__arrow-next{display:inline-block;margin-left:1ch}.wp-block-post-navigation-link .wp-block-post-navigation-link__arrow-next:not(.is-arrow-chevron){transform:scaleX(1)}.wp-block-post-navigation-link.has-text-align-left[style*="writing-mode: vertical-lr"],.wp-block-post-navigation-link.has-text-align-right[style*="writing-mode: vertical-rl"]{rotate:180deg}
+/*# sourceURL=https://www.tcsg.edu/wp-includes/blocks/post-navigation-link/style.min.css */
+</style>
+<style id='wp-block-post-template-inline-css' type='text/css'>
+.wp-block-post-template{box-sizing:border-box;list-style:none;margin-bottom:0;margin-top:0;max-width:100%;padding:0}.wp-block-post-template.is-flex-container{display:flex;flex-direction:row;flex-wrap:wrap;gap:1.25em}.wp-block-post-template.is-flex-container>li{margin:0;width:100%}@media (min-width:600px){.wp-block-post-template.is-flex-container.is-flex-container.columns-2>li{width:calc(50% - .625em)}.wp-block-post-template.is-flex-container.is-flex-container.columns-3>li{width:calc(33.33333% - .83333em)}.wp-block-post-template.is-flex-container.is-flex-container.columns-4>li{width:calc(25% - .9375em)}.wp-block-post-template.is-flex-container.is-flex-container.columns-5>li{width:calc(20% - 1em)}.wp-block-post-template.is-flex-container.is-flex-container.columns-6>li{width:calc(16.66667% - 1.04167em)}}@media (max-width:600px){.wp-block-post-template-is-layout-grid.wp-block-post-template-is-layout-grid.wp-block-post-template-is-layout-grid.wp-block-post-template-is-layout-grid{grid-template-columns:1fr}}.wp-block-post-template-is-layout-constrained>li>.alignright,.wp-block-post-template-is-layout-flow>li>.alignright{float:right;margin-inline-end:0;margin-inline-start:2em}.wp-block-post-template-is-layout-constrained>li>.alignleft,.wp-block-post-template-is-layout-flow>li>.alignleft{float:left;margin-inline-end:2em;margin-inline-start:0}.wp-block-post-template-is-layout-constrained>li>.aligncenter,.wp-block-post-template-is-layout-flow>li>.aligncenter{margin-inline-end:auto;margin-inline-start:auto}
+/*# sourceURL=https://www.tcsg.edu/wp-includes/blocks/post-template/style.min.css */
+</style>
+<style id='wp-block-post-terms-inline-css' type='text/css'>
+.wp-block-post-terms{box-sizing:border-box}.wp-block-post-terms .wp-block-post-terms__separator{white-space:pre-wrap}
+/*# sourceURL=https://www.tcsg.edu/wp-includes/blocks/post-terms/style.min.css */
+</style>
+<style id='wp-block-post-time-to-read-inline-css' type='text/css'>
+.wp-block-post-time-to-read{box-sizing:border-box}
+/*# sourceURL=https://www.tcsg.edu/wp-includes/blocks/post-time-to-read/style.min.css */
+</style>
+<style id='wp-block-post-title-inline-css' type='text/css'>
+.wp-block-post-title{box-sizing:border-box;word-break:break-word}.wp-block-post-title :where(a){display:inline-block;font-family:inherit;font-size:inherit;font-style:inherit;font-weight:inherit;letter-spacing:inherit;line-height:inherit;text-decoration:inherit}
+/*# sourceURL=https://www.tcsg.edu/wp-includes/blocks/post-title/style.min.css */
+</style>
+<style id='wp-block-query-pagination-inline-css' type='text/css'>
+.wp-block-query-pagination.is-content-justification-space-between>.wp-block-query-pagination-next:last-of-type{margin-inline-start:auto}.wp-block-query-pagination.is-content-justification-space-between>.wp-block-query-pagination-previous:first-child{margin-inline-end:auto}.wp-block-query-pagination .wp-block-query-pagination-previous-arrow{display:inline-block;margin-right:1ch}.wp-block-query-pagination .wp-block-query-pagination-previous-arrow:not(.is-arrow-chevron){transform:scaleX(1)}.wp-block-query-pagination .wp-block-query-pagination-next-arrow{display:inline-block;margin-left:1ch}.wp-block-query-pagination .wp-block-query-pagination-next-arrow:not(.is-arrow-chevron){transform:scaleX(1)}.wp-block-query-pagination.aligncenter{justify-content:center}
+/*# sourceURL=https://www.tcsg.edu/wp-includes/blocks/query-pagination/style.min.css */
+</style>
+<style id='wp-block-query-title-inline-css' type='text/css'>
+.wp-block-query-title{box-sizing:border-box}
+/*# sourceURL=https://www.tcsg.edu/wp-includes/blocks/query-title/style.min.css */
+</style>
+<style id='wp-block-query-total-inline-css' type='text/css'>
+.wp-block-query-total{box-sizing:border-box}
+/*# sourceURL=https://www.tcsg.edu/wp-includes/blocks/query-total/style.min.css */
+</style>
+<style id='wp-block-read-more-inline-css' type='text/css'>
+.wp-block-read-more{display:block;width:fit-content}.wp-block-read-more:where(:not([style*=text-decoration])){text-decoration:none}.wp-block-read-more:where(:not([style*=text-decoration])):active,.wp-block-read-more:where(:not([style*=text-decoration])):focus{text-decoration:none}
+/*# sourceURL=https://www.tcsg.edu/wp-includes/blocks/read-more/style.min.css */
+</style>
+<style id='wp-block-rss-inline-css' type='text/css'>
+ul.wp-block-rss.alignleft{margin-right:2em}ul.wp-block-rss.alignright{margin-left:2em}ul.wp-block-rss.is-grid{display:flex;flex-wrap:wrap;padding:0}ul.wp-block-rss.is-grid li{margin:0 1em 1em 0;width:100%}@media (min-width:600px){ul.wp-block-rss.columns-2 li{width:calc(50% - 1em)}ul.wp-block-rss.columns-3 li{width:calc(33.33333% - 1em)}ul.wp-block-rss.columns-4 li{width:calc(25% - 1em)}ul.wp-block-rss.columns-5 li{width:calc(20% - 1em)}ul.wp-block-rss.columns-6 li{width:calc(16.66667% - 1em)}}.wp-block-rss__item-author,.wp-block-rss__item-publish-date{display:block;font-size:.8125em}.wp-block-rss{box-sizing:border-box;list-style:none;padding:0}
+/*# sourceURL=https://www.tcsg.edu/wp-includes/blocks/rss/style.min.css */
+</style>
+<link rel='stylesheet' id='wp-block-search-css' href='https://www.tcsg.edu/wp-includes/blocks/search/style.min.css' type='text/css' media='all' />
+<style id='wp-block-search-theme-inline-css' type='text/css'>
+.wp-block-search .wp-block-search__label{font-weight:700}.wp-block-search__button{border:1px solid #ccc;padding:.375em .625em}
+/*# sourceURL=https://www.tcsg.edu/wp-includes/blocks/search/theme.min.css */
+</style>
+<style id='wp-block-site-logo-inline-css' type='text/css'>
+.wp-block-site-logo{box-sizing:border-box;line-height:0}.wp-block-site-logo a{display:inline-block;line-height:0}.wp-block-site-logo.is-default-size img{height:auto;width:120px}.wp-block-site-logo img{height:auto;max-width:100%}.wp-block-site-logo a,.wp-block-site-logo img{border-radius:inherit}.wp-block-site-logo.aligncenter{margin-left:auto;margin-right:auto;text-align:center}:root :where(.wp-block-site-logo.is-style-rounded){border-radius:9999px}
+/*# sourceURL=https://www.tcsg.edu/wp-includes/blocks/site-logo/style.min.css */
+</style>
+<style id='wp-block-site-tagline-inline-css' type='text/css'>
+.wp-block-site-tagline{box-sizing:border-box}
+/*# sourceURL=https://www.tcsg.edu/wp-includes/blocks/site-tagline/style.min.css */
+</style>
+<style id='wp-block-site-title-inline-css' type='text/css'>
+.wp-block-site-title{box-sizing:border-box}.wp-block-site-title :where(a){color:inherit;font-family:inherit;font-size:inherit;font-style:inherit;font-weight:inherit;letter-spacing:inherit;line-height:inherit;text-decoration:inherit}
+/*# sourceURL=https://www.tcsg.edu/wp-includes/blocks/site-title/style.min.css */
+</style>
+<style id='wp-block-tag-cloud-inline-css' type='text/css'>
+.wp-block-tag-cloud{box-sizing:border-box}.wp-block-tag-cloud.aligncenter{justify-content:center;text-align:center}.wp-block-tag-cloud a{display:inline-block;margin-right:5px}.wp-block-tag-cloud span{display:inline-block;margin-left:5px;text-decoration:none}:root :where(.wp-block-tag-cloud.is-style-outline){display:flex;flex-wrap:wrap;gap:1ch}:root :where(.wp-block-tag-cloud.is-style-outline a){border:1px solid;font-size:unset!important;margin-right:0;padding:1ch 2ch;text-decoration:none!important}
+/*# sourceURL=https://www.tcsg.edu/wp-includes/blocks/tag-cloud/style.min.css */
+</style>
+<style id='wp-block-template-part-theme-inline-css' type='text/css'>
+:root :where(.wp-block-template-part.has-background){margin-bottom:0;margin-top:0;padding:1.25em 2.375em}
+/*# sourceURL=https://www.tcsg.edu/wp-includes/blocks/template-part/theme.min.css */
+</style>
+<style id='wp-block-term-count-inline-css' type='text/css'>
+.wp-block-term-count{box-sizing:border-box}
+/*# sourceURL=https://www.tcsg.edu/wp-includes/blocks/term-count/style.min.css */
+</style>
+<style id='wp-block-term-description-inline-css' type='text/css'>
+:where(.wp-block-term-description){box-sizing:border-box;margin-bottom:var(--wp--style--block-gap);margin-top:var(--wp--style--block-gap)}.wp-block-term-description p{margin-bottom:0;margin-top:0}
+/*# sourceURL=https://www.tcsg.edu/wp-includes/blocks/term-description/style.min.css */
+</style>
+<style id='wp-block-term-name-inline-css' type='text/css'>
+.wp-block-term-name{box-sizing:border-box}
+/*# sourceURL=https://www.tcsg.edu/wp-includes/blocks/term-name/style.min.css */
+</style>
+<style id='wp-block-term-template-inline-css' type='text/css'>
+.wp-block-term-template{box-sizing:border-box;list-style:none;margin-bottom:0;margin-top:0;max-width:100%;padding:0}
+/*# sourceURL=https://www.tcsg.edu/wp-includes/blocks/term-template/style.min.css */
+</style>
+<style id='wp-block-video-inline-css' type='text/css'>
+.wp-block-video{box-sizing:border-box}.wp-block-video video{height:auto;vertical-align:middle;width:100%}@supports (position:sticky){.wp-block-video [poster]{object-fit:cover}}.wp-block-video.aligncenter{text-align:center}.wp-block-video :where(figcaption){margin-bottom:1em;margin-top:.5em}
+/*# sourceURL=https://www.tcsg.edu/wp-includes/blocks/video/style.min.css */
+</style>
+<style id='wp-block-video-theme-inline-css' type='text/css'>
+.wp-block-video :where(figcaption){color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-video :where(figcaption){color:#ffffffa6}.wp-block-video{margin:0 0 1em}
+/*# sourceURL=https://www.tcsg.edu/wp-includes/blocks/video/theme.min.css */
+</style>
+<style id='wp-block-accordion-heading-inline-css' type='text/css'>
+.wp-block-accordion-heading{margin:0}.wp-block-accordion-heading__toggle{align-items:center;background-color:inherit!important;border:none;color:inherit!important;cursor:pointer;display:flex;font-family:inherit;font-size:inherit;font-style:inherit;font-weight:inherit;letter-spacing:inherit;line-height:inherit;overflow:hidden;padding:var(--wp--preset--spacing--20,1em) 0;text-align:inherit;text-decoration:inherit;text-transform:inherit;width:100%;word-spacing:inherit}.wp-block-accordion-heading__toggle:not(:focus-visible){outline:none}.wp-block-accordion-heading__toggle:focus,.wp-block-accordion-heading__toggle:hover{background-color:inherit!important;border:none;box-shadow:none;color:inherit;padding:var(--wp--preset--spacing--20,1em) 0;text-decoration:none}.wp-block-accordion-heading__toggle:focus-visible{outline:auto;outline-offset:0}.wp-block-accordion-heading__toggle:hover .wp-block-accordion-heading__toggle-title{text-decoration:underline}.wp-block-accordion-heading__toggle-title{flex:1}.wp-block-accordion-heading__toggle-icon{align-items:center;display:flex;height:1.2em;justify-content:center;width:1.2em}
+/*# sourceURL=https://www.tcsg.edu/wp-includes/blocks/accordion-heading/style.min.css */
+</style>
+<style id='wp-block-accordion-panel-inline-css' type='text/css'>
+.wp-block-accordion-panel[aria-hidden=true],.wp-block-accordion-panel[inert]{display:none;margin-block-start:0}
+/*# sourceURL=https://www.tcsg.edu/wp-includes/blocks/accordion-panel/style.min.css */
+</style>
+<style id='wp-block-audio-inline-css' type='text/css'>
+.wp-block-audio{box-sizing:border-box}.wp-block-audio :where(figcaption){margin-bottom:1em;margin-top:.5em}.wp-block-audio audio{min-width:300px;width:100%}
+/*# sourceURL=https://www.tcsg.edu/wp-includes/blocks/audio/style.min.css */
+</style>
+<style id='wp-block-audio-theme-inline-css' type='text/css'>
+.wp-block-audio :where(figcaption){color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-audio :where(figcaption){color:#ffffffa6}.wp-block-audio{margin:0 0 1em}
+/*# sourceURL=https://www.tcsg.edu/wp-includes/blocks/audio/theme.min.css */
+</style>
+<style id='wp-block-code-inline-css' type='text/css'>
+.wp-block-code{box-sizing:border-box}.wp-block-code code{
+  /*!rtl:begin:ignore*/direction:ltr;display:block;font-family:inherit;overflow-wrap:break-word;text-align:initial;white-space:pre-wrap
+  /*!rtl:end:ignore*/}
+/*# sourceURL=https://www.tcsg.edu/wp-includes/blocks/code/style.min.css */
+</style>
+<style id='wp-block-code-theme-inline-css' type='text/css'>
+.wp-block-code{border:1px solid #ccc;border-radius:4px;font-family:Menlo,Consolas,monaco,monospace;padding:.8em 1em}
+/*# sourceURL=https://www.tcsg.edu/wp-includes/blocks/code/theme.min.css */
+</style>
+<style id='wp-block-columns-inline-css' type='text/css'>
+.wp-block-columns{box-sizing:border-box;display:flex;flex-wrap:wrap!important}@media (min-width:782px){.wp-block-columns{flex-wrap:nowrap!important}}.wp-block-columns{align-items:normal!important}.wp-block-columns.are-vertically-aligned-top{align-items:flex-start}.wp-block-columns.are-vertically-aligned-center{align-items:center}.wp-block-columns.are-vertically-aligned-bottom{align-items:flex-end}@media (max-width:781px){.wp-block-columns:not(.is-not-stacked-on-mobile)>.wp-block-column{flex-basis:100%!important}}@media (min-width:782px){.wp-block-columns:not(.is-not-stacked-on-mobile)>.wp-block-column{flex-basis:0;flex-grow:1}.wp-block-columns:not(.is-not-stacked-on-mobile)>.wp-block-column[style*=flex-basis]{flex-grow:0}}.wp-block-columns.is-not-stacked-on-mobile{flex-wrap:nowrap!important}.wp-block-columns.is-not-stacked-on-mobile>.wp-block-column{flex-basis:0;flex-grow:1}.wp-block-columns.is-not-stacked-on-mobile>.wp-block-column[style*=flex-basis]{flex-grow:0}:where(.wp-block-columns){margin-bottom:1.75em}:where(.wp-block-columns.has-background){padding:1.25em 2.375em}.wp-block-column{flex-grow:1;min-width:0;overflow-wrap:break-word;word-break:break-word}.wp-block-column.is-vertically-aligned-top{align-self:flex-start}.wp-block-column.is-vertically-aligned-center{align-self:center}.wp-block-column.is-vertically-aligned-bottom{align-self:flex-end}.wp-block-column.is-vertically-aligned-stretch{align-self:stretch}.wp-block-column.is-vertically-aligned-bottom,.wp-block-column.is-vertically-aligned-center,.wp-block-column.is-vertically-aligned-top{width:100%}
+/*# sourceURL=https://www.tcsg.edu/wp-includes/blocks/columns/style.min.css */
+</style>
+<style id='wp-block-details-inline-css' type='text/css'>
+.wp-block-details{box-sizing:border-box}.wp-block-details summary{cursor:pointer}
+/*# sourceURL=https://www.tcsg.edu/wp-includes/blocks/details/style.min.css */
+</style>
+<style id='wp-block-embed-inline-css' type='text/css'>
+.wp-block-embed.alignleft,.wp-block-embed.alignright,.wp-block[data-align=left]>[data-type="core/embed"],.wp-block[data-align=right]>[data-type="core/embed"]{max-width:360px;width:100%}.wp-block-embed.alignleft .wp-block-embed__wrapper,.wp-block-embed.alignright .wp-block-embed__wrapper,.wp-block[data-align=left]>[data-type="core/embed"] .wp-block-embed__wrapper,.wp-block[data-align=right]>[data-type="core/embed"] .wp-block-embed__wrapper{min-width:280px}.wp-block-cover .wp-block-embed{min-height:240px;min-width:320px}.wp-block-embed{overflow-wrap:break-word}.wp-block-embed :where(figcaption){margin-bottom:1em;margin-top:.5em}.wp-block-embed iframe{max-width:100%}.wp-block-embed__wrapper{position:relative}.wp-embed-responsive .wp-has-aspect-ratio .wp-block-embed__wrapper:before{content:"";display:block;padding-top:50%}.wp-embed-responsive .wp-has-aspect-ratio iframe{bottom:0;height:100%;left:0;position:absolute;right:0;top:0;width:100%}.wp-embed-responsive .wp-embed-aspect-21-9 .wp-block-embed__wrapper:before{padding-top:42.85%}.wp-embed-responsive .wp-embed-aspect-18-9 .wp-block-embed__wrapper:before{padding-top:50%}.wp-embed-responsive .wp-embed-aspect-16-9 .wp-block-embed__wrapper:before{padding-top:56.25%}.wp-embed-responsive .wp-embed-aspect-4-3 .wp-block-embed__wrapper:before{padding-top:75%}.wp-embed-responsive .wp-embed-aspect-1-1 .wp-block-embed__wrapper:before{padding-top:100%}.wp-embed-responsive .wp-embed-aspect-9-16 .wp-block-embed__wrapper:before{padding-top:177.77%}.wp-embed-responsive .wp-embed-aspect-1-2 .wp-block-embed__wrapper:before{padding-top:200%}
+/*# sourceURL=https://www.tcsg.edu/wp-includes/blocks/embed/style.min.css */
+</style>
+<style id='wp-block-embed-theme-inline-css' type='text/css'>
+.wp-block-embed :where(figcaption){color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-embed :where(figcaption){color:#ffffffa6}.wp-block-embed{margin:0 0 1em}
+/*# sourceURL=https://www.tcsg.edu/wp-includes/blocks/embed/theme.min.css */
+</style>
+<style id='wp-block-group-inline-css' type='text/css'>
+.wp-block-group{box-sizing:border-box}:where(.wp-block-group.wp-block-group-is-layout-constrained){position:relative}
+/*# sourceURL=https://www.tcsg.edu/wp-includes/blocks/group/style.min.css */
+</style>
+<style id='wp-block-group-theme-inline-css' type='text/css'>
+:where(.wp-block-group.has-background){padding:1.25em 2.375em}
+/*# sourceURL=https://www.tcsg.edu/wp-includes/blocks/group/theme.min.css */
+</style>
+<style id='wp-block-math-inline-css' type='text/css'>
+.wp-block-math{overflow-x:auto;overflow-y:hidden}
+/*# sourceURL=https://www.tcsg.edu/wp-includes/blocks/math/style.min.css */
+</style>
+<style id='wp-block-paragraph-inline-css' type='text/css'>
+.is-small-text{font-size:.875em}.is-regular-text{font-size:1em}.is-large-text{font-size:2.25em}.is-larger-text{font-size:3em}.has-drop-cap:not(:focus):first-letter{float:left;font-size:8.4em;font-style:normal;font-weight:100;line-height:.68;margin:.05em .1em 0 0;text-transform:uppercase}body.rtl .has-drop-cap:not(:focus):first-letter{float:none;margin-left:.1em}p.has-drop-cap.has-background{overflow:hidden}:root :where(p.has-background){padding:1.25em 2.375em}:where(p.has-text-color:not(.has-link-color)) a{color:inherit}p.has-text-align-left[style*="writing-mode:vertical-lr"],p.has-text-align-right[style*="writing-mode:vertical-rl"]{rotate:180deg}
+/*# sourceURL=https://www.tcsg.edu/wp-includes/blocks/paragraph/style.min.css */
+</style>
+<style id='wp-block-preformatted-inline-css' type='text/css'>
+.wp-block-preformatted{box-sizing:border-box;white-space:pre-wrap}:where(.wp-block-preformatted.has-background){padding:1.25em 2.375em}
+/*# sourceURL=https://www.tcsg.edu/wp-includes/blocks/preformatted/style.min.css */
+</style>
+<style id='wp-block-pullquote-inline-css' type='text/css'>
+.wp-block-pullquote{box-sizing:border-box;margin:0 0 1em;overflow-wrap:break-word;padding:4em 0;text-align:center}.wp-block-pullquote blockquote,.wp-block-pullquote p{color:inherit}.wp-block-pullquote blockquote{margin:0}.wp-block-pullquote p{margin-top:0}.wp-block-pullquote p:last-child{margin-bottom:0}.wp-block-pullquote.alignleft,.wp-block-pullquote.alignright{max-width:420px}.wp-block-pullquote cite,.wp-block-pullquote footer{position:relative}.wp-block-pullquote .has-text-color a{color:inherit}.wp-block-pullquote.has-text-align-left blockquote{text-align:left}.wp-block-pullquote.has-text-align-right blockquote{text-align:right}.wp-block-pullquote.has-text-align-center blockquote{text-align:center}.wp-block-pullquote.is-style-solid-color{border:none}.wp-block-pullquote.is-style-solid-color blockquote{margin-left:auto;margin-right:auto;max-width:60%}.wp-block-pullquote.is-style-solid-color blockquote p{font-size:2em;margin-bottom:0;margin-top:0}.wp-block-pullquote.is-style-solid-color blockquote cite{font-style:normal;text-transform:none}.wp-block-pullquote :where(cite){color:inherit;display:block}
+/*# sourceURL=https://www.tcsg.edu/wp-includes/blocks/pullquote/style.min.css */
+</style>
+<style id='wp-block-pullquote-theme-inline-css' type='text/css'>
+.wp-block-pullquote{border-bottom:4px solid;border-top:4px solid;color:currentColor;margin-bottom:1.75em}.wp-block-pullquote :where(cite),.wp-block-pullquote :where(footer),.wp-block-pullquote__citation{color:currentColor;font-size:.8125em;font-style:normal;text-transform:uppercase}
+/*# sourceURL=https://www.tcsg.edu/wp-includes/blocks/pullquote/theme.min.css */
+</style>
+<style id='wp-block-quote-inline-css' type='text/css'>
+.wp-block-quote{box-sizing:border-box;overflow-wrap:break-word}.wp-block-quote.is-large:where(:not(.is-style-plain)),.wp-block-quote.is-style-large:where(:not(.is-style-plain)){margin-bottom:1em;padding:0 1em}.wp-block-quote.is-large:where(:not(.is-style-plain)) p,.wp-block-quote.is-style-large:where(:not(.is-style-plain)) p{font-size:1.5em;font-style:italic;line-height:1.6}.wp-block-quote.is-large:where(:not(.is-style-plain)) cite,.wp-block-quote.is-large:where(:not(.is-style-plain)) footer,.wp-block-quote.is-style-large:where(:not(.is-style-plain)) cite,.wp-block-quote.is-style-large:where(:not(.is-style-plain)) footer{font-size:1.125em;text-align:right}.wp-block-quote>cite{display:block}
+/*# sourceURL=https://www.tcsg.edu/wp-includes/blocks/quote/style.min.css */
+</style>
+<style id='wp-block-quote-theme-inline-css' type='text/css'>
+.wp-block-quote{border-left:.25em solid;margin:0 0 1.75em;padding-left:1em}.wp-block-quote cite,.wp-block-quote footer{color:currentColor;font-size:.8125em;font-style:normal;position:relative}.wp-block-quote:where(.has-text-align-right){border-left:none;border-right:.25em solid;padding-left:0;padding-right:1em}.wp-block-quote:where(.has-text-align-center){border:none;padding-left:0}.wp-block-quote.is-large,.wp-block-quote.is-style-large,.wp-block-quote:where(.is-style-plain){border:none}
+/*# sourceURL=https://www.tcsg.edu/wp-includes/blocks/quote/theme.min.css */
+</style>
+<style id='wp-block-separator-inline-css' type='text/css'>
+@charset "UTF-8";.wp-block-separator{border:none;border-top:2px solid}:root :where(.wp-block-separator.is-style-dots){height:auto;line-height:1;text-align:center}:root :where(.wp-block-separator.is-style-dots):before{color:currentColor;content:"···";font-family:serif;font-size:1.5em;letter-spacing:2em;padding-left:2em}.wp-block-separator.is-style-dots{background:none!important;border:none!important}
+/*# sourceURL=https://www.tcsg.edu/wp-includes/blocks/separator/style.min.css */
+</style>
+<style id='wp-block-separator-theme-inline-css' type='text/css'>
+.wp-block-separator.has-css-opacity{opacity:.4}.wp-block-separator{border:none;border-bottom:2px solid;margin-left:auto;margin-right:auto}.wp-block-separator.has-alpha-channel-opacity{opacity:1}.wp-block-separator:not(.is-style-wide):not(.is-style-dots){width:100px}.wp-block-separator.has-background:not(.is-style-dots){border-bottom:none;height:1px}.wp-block-separator.has-background:not(.is-style-wide):not(.is-style-dots){height:2px}
+/*# sourceURL=https://www.tcsg.edu/wp-includes/blocks/separator/theme.min.css */
+</style>
+<link rel='stylesheet' id='wp-block-social-links-css' href='https://www.tcsg.edu/wp-includes/blocks/social-links/style.min.css' type='text/css' media='all' />
+<style id='wp-block-spacer-inline-css' type='text/css'>
+.wp-block-spacer{clear:both}
+/*# sourceURL=https://www.tcsg.edu/wp-includes/blocks/spacer/style.min.css */
+</style>
+<link rel='stylesheet' id='wp-block-table-css' href='https://www.tcsg.edu/wp-includes/blocks/table/style.min.css' type='text/css' media='all' />
+<style id='wp-block-table-theme-inline-css' type='text/css'>
+.wp-block-table{margin:0 0 1em}.wp-block-table td,.wp-block-table th{word-break:normal}.wp-block-table :where(figcaption){color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-table :where(figcaption){color:#ffffffa6}
+/*# sourceURL=https://www.tcsg.edu/wp-includes/blocks/table/theme.min.css */
+</style>
+<style id='wp-block-text-columns-inline-css' type='text/css'>
+.wp-block-text-columns,.wp-block-text-columns.aligncenter{display:flex}.wp-block-text-columns .wp-block-column{margin:0 1em;padding:0}.wp-block-text-columns .wp-block-column:first-child{margin-left:0}.wp-block-text-columns .wp-block-column:last-child{margin-right:0}.wp-block-text-columns.columns-2 .wp-block-column{width:50%}.wp-block-text-columns.columns-3 .wp-block-column{width:33.3333333333%}.wp-block-text-columns.columns-4 .wp-block-column{width:25%}
+/*# sourceURL=https://www.tcsg.edu/wp-includes/blocks/text-columns/style.min.css */
+</style>
+<style id='wp-block-verse-inline-css' type='text/css'>
+pre.wp-block-verse{overflow:auto;white-space:pre-wrap}:where(pre.wp-block-verse){font-family:inherit}
+/*# sourceURL=https://www.tcsg.edu/wp-includes/blocks/verse/style.min.css */
+</style>
+<link rel='stylesheet' id='Connections_Directory/Block/Carousel/Style-css' href='//www.tcsg.edu/wp-content/plugins/connections/assets/dist/block/carousel/style.css' type='text/css' media='all' />
+<link rel='stylesheet' id='Connections_Directory/Block/Team/Style-css' href='//www.tcsg.edu/wp-content/plugins/connections/assets/dist/block/team/style.css' type='text/css' media='all' />
+<style id='font-awesome-svg-styles-default-inline-css' type='text/css'>
+.svg-inline--fa {
+  display: inline-block;
+  height: 1em;
+  overflow: visible;
+  vertical-align: -.125em;
+}
+/*# sourceURL=font-awesome-svg-styles-default-inline-css */
+</style>
+<link rel='stylesheet' id='font-awesome-svg-styles-css' href='https://www.tcsg.edu/wp-content/uploads/font-awesome/v6.5.0/css/svg-with-js.css' type='text/css' media='all' />
+<style id='font-awesome-svg-styles-inline-css' type='text/css'>
+   .wp-block-font-awesome-icon svg::before,
+   .wp-rich-text-font-awesome-icon svg::before {content: unset;}
+/*# sourceURL=font-awesome-svg-styles-inline-css */
+</style>
+<style id='global-styles-inline-css' type='text/css'>
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgb(6,147,227) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgb(252,185,0) 0%,rgb(255,105,0) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgb(255,105,0) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgb(255, 255, 255), 6px 6px rgb(0, 0, 0);--wp--preset--shadow--crisp: 6px 6px 0px rgb(0, 0, 0);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-term-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-term-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+:root :where(.wp-block-pullquote){font-size: 1.5em;line-height: 1.6;}
+/*# sourceURL=global-styles-inline-css */
+</style>
+<link rel='stylesheet' id='pdfprnt_frontend-css' href='https://www.tcsg.edu/wp-content/plugins/pdf-print/css/frontend.css' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-job-manager-job-listings-css' href='https://www.tcsg.edu/wp-content/plugins/wp-job-manager/assets/dist/css/job-listings.css' type='text/css' media='all' />
+<link rel='stylesheet' id='gravityview_az_entry_filter-css' href='https://www.tcsg.edu/wp-content/plugins/gravityview-az-filters/assets/css/gravityview-az-filters.css' type='text/css' media='all' />
+<link rel='stylesheet' id='cn-widgets-css' href='//www.tcsg.edu/wp-content/plugins/connections-widgets/assets/css/cn-widgets.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='dashicons-css' href='https://www.tcsg.edu/wp-includes/css/dashicons.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='passster-public-css' href='https://www.tcsg.edu/wp-content/plugins/content-protector/assets/public/passster-public.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='parent-style-css' href='https://www.tcsg.edu/wp-content/themes/education-base-pro/style.css' type='text/css' media='all' />
+<link rel='stylesheet' id='education-base-googleapis-css' href='//fonts.googleapis.com/css?family=Poppins:400,300,500,600' type='text/css' media='all' />
+<link rel='stylesheet' id='Karla-css' href='//fonts.googleapis.com/css?family=Karla' type='text/css' media='all' />
+<link rel='stylesheet' id='bootstrap-css' href='https://www.tcsg.edu/wp-content/themes/education-base-pro/assets/library/bootstrap/css/bootstrap.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='jquery-owl-css' href='https://www.tcsg.edu/wp-content/themes/education-base-pro/assets/library/owl-carousel/owl.carousel.css' type='text/css' media='all' />
+<link rel='stylesheet' id='magnific-popup-css' href='https://www.tcsg.edu/wp-content/themes/education-base-pro/assets/library/magnific-popup/magnific-popup.css' type='text/css' media='all' />
+<link rel='stylesheet' id='education-base-style-css' href='https://www.tcsg.edu/wp-content/themes/education-base-pro-child/style.css' type='text/css' media='all' />
+<style id='education-base-style-inline-css' type='text/css'>
+
+           .image-slider-wrapper,
+           .image-slider-wrapper .owl-wrapper-outer,
+           .image-slider-wrapper .owl-item {
+                height: 75vh !important;
+            }            
+          
+              .inner-main-title {
+                background-image:url('https://www.tcsg.edu/wp-content/uploads/2017/08/site-random-pics7.jpg');
+                background-repeat:no-repeat;
+                background-size:cover;
+				background-attachment:scroll;
+                background-position: center; 
+                height: 500px;		
+            }
+        .site-title,
+        .site-title a{
+            font-family: 'Karla';
+        }
+        .site-description,
+        .site-description a{
+            font-family: 'Karla';
+        }
+        .main-navigation a{
+            font-family: 'Karla';
+        }
+        h1, h1 a,
+        h2, h2 a,
+        h3, h3 a,
+        h4, h4 a,
+        h5, h5 a,
+        h6, h6 a {
+            font-family: 'Karla';
+        }
+        body, p,
+         .main-title p{
+            font-family: 'Karla';
+        }
+        .site-title,
+        .site-title a{
+            color: #000000;
+        }
+        .site-title:hover,
+        .site-title a:hover{
+            color: #ed037c;
+        }
+        .site-description,
+        .site-description a{
+            color: #8a7967;
+        }
+        article .entry-content,
+         .entry-content p,body{
+            color: #000000;
+        }
+        a,
+        .posted-on a,
+        .cat-links a,
+        .comments-link a,
+        .edit-link a,
+        .tags-links a,
+        .byline a,
+        .nav-links a,
+        .widget li a {
+            color: #108dad;
+        }
+        a:hover,
+        a:active,
+        a:focus,
+        .posted-on a:hover,
+        .cat-links a:hover,
+        .comments-link a:hover,
+        .edit-link a:hover,
+        .tags-links a:hover,
+        .byline a:hover,
+        .nav-links a:hover,
+        .widget li a:hover{
+            color: #15a0db;
+        }
+        h1, h1 a,
+        h2, h2 a,
+        h3, h3 a,
+        h4, h4 a,
+        h5, h5 a,
+        h6, h6 a,
+        article.post .entry-header .entry-title a, 
+        article.page .entry-header .entry-title a{
+            color: #023950;
+        }
+        .navbar .navbar-toggle:hover,
+        .main-navigation .acme-normal-page .current_page_item,
+        .main-navigation .acme-normal-page .current-menu-item,
+        .main-navigation .active
+        {
+            color:#0079c1;
+        }
+        .main-navigation .navbar-nav >li:hover{
+            color:#0079c1;
+        }
+       .secondary-sidebar .widget-area.sidebar{
+            background: #f9f9f9;
+        }
+       .site-footer{
+            background: #002e3b;
+        }
+       .site-footer h1,
+       .site-footer h1 a,
+       .site-footer h2,
+       .site-footer h2 a,
+       .site-footer h3,
+       .site-footer h3 a,
+       .site-footer h4,
+       .site-footer h4 a,
+       .site-footer h5,
+       .site-footer h5 a,
+       .site-footer h6,
+       .site-footer h6 a,
+       .site-footer .main-title,
+       .site-footer li a,
+       .site-footer .widget li a{
+           color: #e9e3dc;
+       }
+       .site-footer,
+       .site-footer li,
+       .site-footer p{
+           color: #ffffff;
+       }
+       .site-footer a,
+       .site-footer .socials a,
+       .site-footer .socials a:hover,
+       .site-footer li a,
+       .site-footer .widget li a{
+           color: #e9e3dc;
+       }
+       .site-footer a:hover,
+       .site-footer li a:hover,
+       .site-footer .widget li a:hover{
+           color: #f4f3ae;
+       }
+            .wpcf7-form input.wpcf7-submit:hover,
+            .owl-buttons >div i,
+            .col-details > h2,
+             .primary-color,
+             #education-base-breadcrumbs .breadcrumb-container a:hover,
+             .contact-form i,
+             .circle .fa{
+                color: #118eae;
+            }
+            .comment-form .form-submit input,
+            .read-more,
+            .acme-gallery .read-more,
+            .btn-primary,
+            .wpcf7-form input.wpcf7-submit,
+            .breadcrumb,
+            .owl-buttons >div i:hover,
+            .top-header,
+            .sm-up-container,
+            .testimonial-content,
+            .team-item:hover,
+            .primary-bg-color,
+            .acme-gallery .round-icon,
+            .progress-bar,
+            .gmap-toggle > i,
+            .navbar .navbar-toggle:hover,
+            .line > span,
+            .wpcf7-form input.wpcf7-submit:hover,
+            article.post .entry-header,
+            .round-icon,
+            .round-icon:hover{
+                background-color: #118eae;
+                color:#fff;
+            }
+            .top-header,
+            article.post .entry-header .year,
+            .wpcf7-form input.wpcf7-submit ::before ,
+            .btn-primary::before {
+                background-color: #002e3b;
+            }
+            .copy-right{
+                background-color: #002e3b;
+            }
+            .blog article.sticky,
+            .top-header .read-more,
+            .circle{
+                border: 2px solid #118eae;
+            }
+            .filters{
+                border-bottom: 2px solid #118eae;
+            }
+            .btn,
+            .read-more,
+            .acme-gallery .read-more,
+            .wpcf7-form-control.wpcf7-submit,
+            .sm-up-container,
+            .btn.btn-primary,
+            .btn-primary::before,
+            .woocommerce #content #primary  ul.products li.product .button,
+            .woocommerce #content #primary  ul.products li.product .button:hover,
+            .mfp-iframe-holder .mfp-close:hover,
+            .mfp-image-holder .mfp-close:hover,
+            .mfp-iframe-holder .mfp-close,
+            .mfp-image-holder .mfp-close{
+                border-radius: 4px;
+            }
+            
+/*# sourceURL=education-base-style-inline-css */
+</style>
+<link rel='stylesheet' id='education_base-block-front-styles-css' href='https://www.tcsg.edu/wp-content/themes/education-base-pro/acmethemes/gutenberg/gutenberg-front.css' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-official-css' href='https://use.fontawesome.com/releases/v6.5.0/css/all.css' type='text/css' media='all' integrity="sha384-/o6I2CkkWC//PSjvWC/eYN7l3xM3tJm8ZzVkCOfp//W05QcE3mlGskpoHB6XqI+B" crossorigin="anonymous" />
+<link rel='stylesheet' id='wpdreams-asl-basic-css' href='https://www.tcsg.edu/wp-content/plugins/ajax-search-lite/css/style.basic.css' type='text/css' media='all' />
+<style id='wpdreams-asl-basic-inline-css' type='text/css'>
+
+					div[id*='ajaxsearchlitesettings'].searchsettings .asl_option_inner label {
+						font-size: 0px !important;
+						color: rgba(0, 0, 0, 0);
+					}
+					div[id*='ajaxsearchlitesettings'].searchsettings .asl_option_inner label:after {
+						font-size: 11px !important;
+						position: absolute;
+						top: 0;
+						left: 0;
+						z-index: 1;
+					}
+					.asl_w_container {
+						width: 100%;
+						margin: 0px 0px 0px 0px;
+						min-width: 200px;
+					}
+					div[id*='ajaxsearchlite'].asl_m {
+						width: 100%;
+					}
+					div[id*='ajaxsearchliteres'].wpdreams_asl_results div.resdrg span.highlighted {
+						font-weight: bold;
+						color: rgba(217, 49, 43, 1);
+						background-color: rgba(238, 238, 238, 1);
+					}
+					div[id*='ajaxsearchliteres'].wpdreams_asl_results .results img.asl_image {
+						width: 70px;
+						height: 70px;
+						object-fit: cover;
+					}
+					div[id*='ajaxsearchlite'].asl_r .results {
+						max-height: none;
+					}
+					div[id*='ajaxsearchlite'].asl_r {
+						position: absolute;
+					}
+				
+						.asl_m, .asl_m .probox {
+							background-color: rgb(255, 255, 255) !important;
+							background-image: none !important;
+							-webkit-background-image: none !important;
+							-ms-background-image: none !important;
+						}
+					
+						.asl_m .probox svg {
+							fill: rgba(0, 0, 0, 1) !important;
+						}
+						.asl_m .probox .innericon {
+							background-color: rgba(255, 255, 255, 0) !important;
+							background-image: none !important;
+							-webkit-background-image: none !important;
+							-ms-background-image: none !important;
+						}
+					
+						div.asl_r.asl_w.vertical .results .item::after {
+							display: block;
+							position: absolute;
+							bottom: 0;
+							content: '';
+							height: 1px;
+							width: 100%;
+							background: #D8D8D8;
+						}
+						div.asl_r.asl_w.vertical .results .item.asl_last_item::after {
+							display: none;
+						}
+					
+/*# sourceURL=wpdreams-asl-basic-inline-css */
+</style>
+<link rel='stylesheet' id='wpdreams-asl-instance-css' href='https://www.tcsg.edu/wp-content/plugins/ajax-search-lite/css/style-underline.css' type='text/css' media='all' />
+<link rel='stylesheet' id='new-royalslider-core-css-css' href='https://www.tcsg.edu/wp-content/plugins/new-royalslider/lib/royalslider/royalslider.css' type='text/css' media='all' />
+<link rel='stylesheet' id='rsUni-css-css' href='https://www.tcsg.edu/wp-content/plugins/new-royalslider/lib/royalslider/skins/universal/rs-universal.css' type='text/css' media='all' />
+<link rel='stylesheet' id='cn-public-css' href='//www.tcsg.edu/wp-content/plugins/connections/assets/dist/frontend/style.css' type='text/css' media='all' />
+<link rel='stylesheet' id='cnt-cmap-css' href='//www.tcsg.edu/wp-content/plugins/connections-cmap/cmap.min.css' type='text/css' media='all' />
+<style id='cnt-cmap-inline-css' type='text/css'>
+/* cMap Template Customizer Custom Styles */
+#cn-cmap .cn-list-row h2 .fn,
+#cn-cmap .cn-list-row-alternate h2 .fn {
+	color: #000;
+}
+#cn-cmap .cn-list-row,
+#cn-cmap .cn-list-row-alternate {
+	color: #000;
+}
+#cn-cmap span.contact-label,
+#cn-cmap span.cn-relation-label,
+#cn-cmap span.adr span.address-name,
+#cn-cmap span.tel span.phone-name,
+#cn-cmap span.email span.email-name,
+#cn-cmap span.im-network span.im-name,
+#cn-cmap span.link span.link-name,
+#cn-cmap span.cn-date span.date-name {
+	color: #000;
+}
+#cn-cmap .cn-list-row a,
+#cn-cmap .cn-list-row a:visited,
+#cn-cmap .cn-list-row-alternate a,
+#cn-cmap .cn-list-row-alternate a:visited {
+	color: #000;
+}
+#cn-cmap .cn-content-tray .cn-bio-tray,
+#cn-cmap .cn-content-tray .cn-note-tray,
+#cn-cmap .cn-content-tray .cn-gmap {
+	background-color: #F1F1F1;
+}
+#cn-cmap .cn-content-tray {
+	color: #000;
+}
+#cn-cmap .cn-content-tray a,
+#cn-cmap .cn-content-tray a:visited {
+	color: #000;
+}
+/*# sourceURL=cnt-cmap-inline-css */
+</style>
+<link rel='stylesheet' id='cnt-gridder-css' href='//www.tcsg.edu/wp-content/plugins/connections-gridder/gridder.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='cnt-slim-plus-css' href='//www.tcsg.edu/wp-content/plugins/connections-slim-plus/slim-plus.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='cnt-tile-plus-css' href='//www.tcsg.edu/wp-content/plugins/connections-tile-plus/tile-plus.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='cnt-profile-css' href='//www.tcsg.edu/wp-content/plugins/connections/templates/profile/profile.css' type='text/css' media='all' />
+<link rel='stylesheet' id='gravityview-fancybox-css' href='https://www.tcsg.edu/wp-content/plugins/gravityview/assets/lib/fancybox/dist/fancybox.css' type='text/css' media='all' />
+<link rel='stylesheet' id='gravityview_default_style-css' href='https://www.tcsg.edu/wp-content/plugins/gravityview/templates/css/gv-default-styles.css' type='text/css' media='all' />
+<link rel='stylesheet' id='gravityview_style_datatables_table-css' href='https://www.tcsg.edu/wp-content/plugins/gravityview-datatables/assets/css/datatables.css' type='text/css' media='all' />
+<link rel='stylesheet' id='cn-brandicons-css' href='//www.tcsg.edu/wp-content/plugins/connections/assets/vendor/icomoon-brands/style.css' type='text/css' media='all' />
+<link rel='stylesheet' id='cn-chosen-css' href='//www.tcsg.edu/wp-content/plugins/connections/assets/vendor/chosen/chosen.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='gsurvey_css-css' href='https://www.tcsg.edu/wp-content/plugins/gravityformssurvey/assets/css/dist/admin.css' type='text/css' media='all' />
+<link rel='stylesheet' id='gravityformssurvey_gravity_theme-css' href='https://www.tcsg.edu/wp-content/plugins/gravityformssurvey/assets/css/dist/theme.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-official-v4shim-css' href='https://use.fontawesome.com/releases/v6.5.0/css/v4-shims.css' type='text/css' media='all' integrity="sha384-Gchs3pk5vJ6rNXyLYEW0h4LxMtAZtY6TI1xrFSBYD6AVTmQTwqBWkrQgHYjVFH98" crossorigin="anonymous" />
+<script type="text/javascript" id="wpgmza_data-js-extra">
+/* <![CDATA[ */
+var wpgmza_google_api_status = {"message":"Enqueued","code":"ENQUEUED"};
+//# sourceURL=wpgmza_data-js-extra
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.tcsg.edu/wp-content/plugins/wp-google-maps/wpgmza_data.js" id="wpgmza_data-js"></script>
+<script type="text/javascript" src="https://www.tcsg.edu/wp-includes/js/jquery/jquery.min.js" id="jquery-core-js"></script>
+<script type="text/javascript" src="https://www.tcsg.edu/wp-includes/js/jquery/jquery-migrate.min.js" id="jquery-migrate-js"></script>
+<script type="text/javascript" src="https://www.tcsg.edu/wp-content/plugins/content-protector/assets/public/cookie.js" id="passster-cookie-js"></script>
+<script type="text/javascript" id="passster-public-js-extra">
+/* <![CDATA[ */
+var ps_ajax = {"ajax_url":"https://www.tcsg.edu/wp-admin/admin-ajax.php","nonce":"2d99a2547b","hash_nonce":"28e42b5549","logout_nonce":"2cf6070fdd","post_id":"77462","shortcodes":[],"permalink":"https://www.tcsg.edu/warn-public-view/","cookie_duration_unit":"days","cookie_duration":"1","disable_cookie":"","unlock_mode":""};
+//# sourceURL=passster-public-js-extra
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.tcsg.edu/wp-content/plugins/content-protector/assets/public/passster-public.min.js" id="passster-public-js"></script>
+<script type="text/javascript" src="//use.typekit.net/lzv6fwi.js" id="theme_typekit-js"></script>
+<script type="text/javascript" src="https://www.tcsg.edu/wp-content/plugins/gravityview/assets/lib/fancybox/dist/fancybox.umd.js" id="gravityview-fancybox-js"></script>
+<link rel="https://api.w.org/" href="https://www.tcsg.edu/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://www.tcsg.edu/wp-json/wp/v2/pages/77462" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.tcsg.edu/xmlrpc.php?rsd" />
+<link rel="canonical" href="https://www.tcsg.edu/warn-public-view/" />
+<link rel='shortlink' href='https://www.tcsg.edu/?p=77462' />
+<!-- Google Tag Manager -->
+<!-- TCSG GTM -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-538GF5K');</script>
+<!-- End TCSG GTM -->
+<!-- Cox Next GTM -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-NNFMRJD');</script>
+<!-- End Cox -->
+<!-- Shopper Suite GTM -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-TN7LWWH');</script>
+<!-- End Shopper Suite -->
+<!-- End Google Tag Manager -->
+<meta name="tec-api-version" content="v1"><meta name="tec-api-origin" content="https://www.tcsg.edu"><link rel="alternate" href="https://www.tcsg.edu/wp-json/tribe/events/v1/" />        <style>
+            .passster-form {
+                max-width: 400px !important;
+             margin: 0 auto !important;
+                        }
+
+            .passster-form > form {
+                background: #002e3b;
+                padding: 20px 20px 20px 20px;
+                margin: 0px 0px 0px 0px;
+                border-radius: 0px;
+            }
+
+            .passster-form .ps-form-headline {
+                font-size: 24px;
+                font-weight: 500;
+                color: #002e3b;
+            }
+
+            .passster-form p {
+                font-size: 16px;
+                font-weight: 300;
+                color: #fff;
+            }
+
+            .passster-submit, .passster-submit-recaptcha,
+			.passster-submit, .passster-submit-turnstile {
+                background: #0e8cad;
+                padding: 10px 10px 10px 10px;
+                margin: 0px 0px 0px 0px;
+                border-radius: 0px;
+                font-size: 12px;
+                font-weight: 400;
+                color: #fff;
+            }
+
+            .passster-submit:hover, .passster-submit-recaptcha:hover,
+            .passster-submit:hover, .passster-submit-turnstile:hover {
+                background: #0e8cad;
+                color: #fff;
+            }
+        </style>
+		<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+				<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+				<link rel="preload" as="style" href="//fonts.googleapis.com/css?family=Open+Sans&display=swap" />
+								<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans&display=swap" media="all" />
+				<!-- Facebook Verify -->
+<meta name="facebook-domain-verification" content="xjcpozh9m6gz17atx66qg81b2bt6v1" />
+<!-- End Facebook Verify -->
+<script>
+  var youTubeDataAPIKey = "AIzaSyD36VjJtv6zHPxEIe_GJN7_0rpz3zA-6FU";    
+  var googleApiReady = false;
+  function initGoogleClientApi() {    
+    googleApiReady = true;
+  }
+</script>
+<script src="https://apis.google.com/js/client.js?onload=initGoogleClientApi"></script>
+<!-- Dependencies -->
+<script src="https://www.tcsg.edu/includes/ableplayer/thirdparty/modernizr.custom.js"></script>
+
+<script src="https://www.tcsg.edu/includes/ableplayer/thirdparty/js.cookie.js"></script>
+<!-- CSS -->
+<link rel="stylesheet" href="https://www.tcsg.edu/includes/ableplayer/build/ableplayer.min.css" type="text/css"/>
+<!-- JavaScript -->
+<script src="https://www.tcsg.edu/includes/ableplayer/build/ableplayer.min.js"></script>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<link rel="icon" href="https://www.tcsg.edu/wp-content/uploads/2017/12/favicon.png" sizes="32x32" />
+<link rel="icon" href="https://www.tcsg.edu/wp-content/uploads/2017/12/favicon.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://www.tcsg.edu/wp-content/uploads/2017/12/favicon.png" />
+<meta name="msapplication-TileImage" content="https://www.tcsg.edu/wp-content/uploads/2017/12/favicon.png" />
+<!-- TCSG custom code for header.php - web@tcsg.edu -->
+<!-- Google Site Verification -->
+	<meta name="google-site-verification" content="pXcImDBMismwJEMzaS0zpYVcgINorH4nvtA4qBh6rxs" />
+<!-- End Google SV -->
+    
+ <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> -->
+	
+<!-- Skip Links jQuery -->
+
+	<!-- <script type="text/javascript">
+	 $( document ).ready(function() {
+        // bind a click event to the 'skip' link
+        $(".skip-link").click(function(event){
+    
+            // strip the leading hash and declare
+            // the content we're skipping to
+            var skipTo="#"+this.href.split('#')[1];
+    
+            // Setting 'tabindex' to -1 takes an element out of normal 
+            // tab flow but allows it to be focused via javascript
+            $(skipTo).attr('tabindex', -1).on('blur focusout', function () {
+    
+                // when focus leaves this element, 
+                // remove the tabindex attribute
+                $(this).removeAttr('tabindex');
+    
+            }).focus(); // focus on the content container
+        });
+    });
+	</script>
+	<!-- end skip link -->
+	
+<!-- Structured Data -->
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Organization",
+  "url": "https://www.tcsg.edu",
+  "name": "Technical College System of Georgia",
+  "logo": "https://www.tcsg.edu/wp-content/uploads/2018/05/tcsg-web-logo-2.png",
+  "contactPoint": [{
+    "@type": "ContactPoint",
+    "telephone": "+1-404-679-1600",
+    "contactType": "Customer Service"
+	},{
+    "@type": "ContactPoint",
+    "telephone": "+1-833-FOR-TCSG",
+    "contactType": "Customer Service",
+    "contactOption": [
+    	"TollFree"
+        ]
+	}],
+    "sameAs": [
+    "https://www.facebook.com/tcsg.edu/",
+    "https://twitter.com/TCSG/",
+    "https://www.linkedin.com/company/technical-college-system-of-georgia/",
+    "https://www.instagram.com/tcsg_pr/",
+    "https://www.youtube.com/user/tcsgtv",
+    "https://plus.google.com/+TechnicalCollegeSystemofGeorgia"
+  ]
+}
+</script>
+<!-- End Google Services -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+<!-- End TCSG custom code for header - web@tcsg.edu -->
+    
+</head>
+<body class="wp-singular page-template-default page page-id-77462 wp-custom-logo wp-theme-education-base-pro wp-child-theme-education-base-pro-child fl-builder-2-9-4-2 fl-no-js tribe-no-js no-sidebar left-logo-right-menu group-blog education-base-pro-child">
+	<!-- Google Tag Manager (noscript) -->
+	<!-- TCSG GTM -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-538GF5K"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	<!-- End TCSG GTM -->
+	<!-- Cox Next GTM -->
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NNFMRJD"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	<!-- End Cox GTM -->
+	<!-- Shopper Suite GTM -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TN7LWWH"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Shopper Suite -->
+
+<!-- End Google Tag Manager (noscript) -->
+
+<div class="site" id="page">
+
+        
+        <a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+
+                <div class="top_info_wrap bg_darkgreen white">
+      <div class="container">
+		  <div class="col-md-10">
+        <ul class="top_info text-left">
+			<li class="btn"><a href="/find-a-college/" title="Our Colleges">Our Colleges</a></li>
+		    <li class="btn"><a href="/adult-education/" title="Adult Education">Adult Education</a></li>
+            <li class="btn"><a href="/econdev/" title="Economic Development">Economic Development</a></li>
+			<li class="btn"><a href="/worksource/" title="WorkSource Georgia">WorkSource Georgia</a></li>
+            <li class="btn"><a href="https://tcsgfoundation.org/" title="TCSG Foundation" target="_blank">TCSG Foundation</a></li>
+            <li class="btn"><a href="https://www.tcsg.edu/for-students/faces-of-teched/" title="Testimonials">Testimonials</a></li>
+            </ul>
+			  </div>
+		  <div class="col-md-2">
+        <ul class="top_info text-right">
+            <li class="btn menu-btn"><a href="/find-a-college/" title="Get Started">Get Started!&nbsp;<i class="fa fa-angle-right"></i></a></li>
+			  </ul>
+      </div><!--container-->
+   </div>
+</div>
+        <div class="fixed_spacer"></div>
+        <div class="navbar at-navbar  education-base-sticky" id="navbar" role="navigation">
+
+            <div class="container">
+
+                <div class="navbar-header">
+
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse" aria-label="Mobile Navigation Button"><i class="fa fa-bars" aria-hidden="true"></i></button>
+
+                    <!--added options-->
+
+
+
+                    <div class="search-woo responsive-only">
+
+                         
+                         <div class="search-wrap">
+
+                            <div class="search-icon">
+
+                                <i class="fa fa-search" aria-hidden="true"></i>
+
+                            </div>
+
+                            
+<div class="search-block">
+    <form action="https://www.tcsg.edu" class="searchform" id="searchform" method="get">
+        <div>
+            <label for="menu-search" class="screen-reader-text">Search This Site</label>
+                        <input type="text"  placeholder="Search"  class="menu-search" id="menu-search" name="s" value="">
+            <button class="searchsubmit fa fa-search" type="submit" id="searchsubmit" aria-label="Search Submit"></button>
+        </div>
+    </form>
+</div>
+                         </div>
+
+                         
+                    </div>
+
+                    <!--added options end-->
+
+                    <div class='site-identity-wrapper'><a href="https://www.tcsg.edu/" class="custom-logo-link" rel="home"><img width="1" height="1" src="https://www.tcsg.edu/wp-content/uploads/2017/09/TCSG-Primary-Standard.svg" class="custom-logo" alt="TCSG Main Logo - State of Georgia image with name spelled out" decoding="async" /></a></div>
+                </div>
+
+                <!--added options-->
+
+                <div class="search-woo desktop-only">
+
+                     
+                     <div class="search-wrap">
+
+                        <div class="search-icon">
+
+                            <i class="fa fa-search" aria-hidden="true"></i>
+
+                        </div>
+
+                        
+<div class="search-block">
+    <form action="https://www.tcsg.edu" class="searchform" id="searchform" method="get">
+        <div>
+            <label for="menu-search" class="screen-reader-text">Search This Site</label>
+                        <input type="text"  placeholder="Search"  class="menu-search" id="menu-search" name="s" value="">
+            <button class="searchsubmit fa fa-search" type="submit" id="searchsubmit" aria-label="Search Submit"></button>
+        </div>
+    </form>
+</div>
+                     </div>
+
+                     
+                </div>
+
+                <!--added options end-->
+
+               <div class="responsive-only clearfix"></div>
+
+                <div class="main-navigation navbar-collapse collapse">
+
+                    <div class="menu-main-container"><ul id="primary-menu" class="nav navbar-nav navbar-right acme-normal-page"><li id="menu-item-603" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-603"><a href="https://www.tcsg.edu/about-tcsg/">About TCSG</a>
+<ul class="sub-menu">
+	<li id="menu-item-83043" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-83043"><a href="https://www.tcsg.edu/find-a-college/">Our Colleges</a></li>
+</ul>
+</li>
+<li id="menu-item-83303" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-83303"><a href="https://www.tcsg.edu/find-a-college/programs/">Programs</a></li>
+<li id="menu-item-139" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-139"><a href="https://www.tcsg.edu/for-students/">For Students</a></li>
+<li id="menu-item-63505" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-63505"><a href="https://www.tcsg.edu/for-students/paying-for-college/">Affording Education</a></li>
+<li id="menu-item-63508" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-63508"><a href="#">TCSG Divisions</a>
+<ul class="sub-menu">
+	<li id="menu-item-66247" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-66247"><a href="https://www.tcsg.edu/adult-education/">Adult Education / GED Testing</a></li>
+	<li id="menu-item-66253" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-66253"><a href="https://www.tcsg.edu/communications/">Communications</a></li>
+	<li id="menu-item-63511" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-63511"><a href="https://www.tcsg.edu/about-tcsg/econdev/">Economic Development</a></li>
+	<li id="menu-item-88768" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-88768"><a href="https://online.tcsg.edu/">Georgia Online Learning &#038; Development</a></li>
+	<li id="menu-item-63512" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-63512"><a href="https://www.tcsg.edu/quick-start/">Georgia Quick Start</a></li>
+	<li id="menu-item-89939" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-89939"><a href="https://www.tcsg.edu/healthcare-initiatives/">Healthcare Initiatives</a></li>
+	<li id="menu-item-63513" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-63513"><a href="https://www.tcsg.edu/about-tcsg/system-office-services/military-veterans-and-families/">Military, Veterans, and Families</a>
+	<ul class="sub-menu">
+		<li id="menu-item-74605" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-74605"><a href="https://www.tcsg.edu/about-tcsg/system-office-services/military-veterans-and-families/georgia-joint-defense-commission/">Georgia Joint Defense Commission</a></li>
+	</ul>
+</li>
+	<li id="menu-item-85731" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-85731"><a href="https://www.tcsg.edu/sei/">Secondary Initiatives</a></li>
+	<li id="menu-item-82690" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-82690"><a href="https://www.tcsg.edu/accessibility/specialservices/">Special Populations</a></li>
+	<li id="menu-item-63515" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-63515"><a href="https://www.tcsg.edu/worksource/">WorkSource Georgia</a></li>
+</ul>
+</li>
+</ul></div>
+                </div>
+
+                <!--/.nav-collapse -->
+
+            </div>
+
+        </div>
+
+        	<div class="wrapper inner-main-title">
+		<div class="container">
+			<header class="entry-header slideInUp1">
+				<h1 class="entry-title">WARN Public View</h1>				
+			</header><!-- .entry-header -->
+		</div>
+	</div>
+	
+</div>
+<div class=" padder_sm_top container black">
+  <div class='breadcrumbs slideInUp2'><div id='education-base-breadcrumbs'><div role="navigation" aria-label="Breadcrumbs" class="breadcrumb-trail breadcrumbs" itemprop="breadcrumb"><ul class="trail-items" itemscope itemtype="http://schema.org/BreadcrumbList"><meta name="numberOfItems" content="2" /><meta name="itemListOrder" content="Ascending" /><li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem" class="trail-item trail-begin"><a href="https://www.tcsg.edu/" rel="home" itemprop="item"><span itemprop="name">Home</span></a><meta itemprop="position" content="1" /></li><li class="trail-item trail-end"><span><span>WARN Public View</span></span></li></ul></div></div></div></div>
+
+<div id="content" tabindex="-1" class="site-content container clearfix">
+
+		<div id="primary" class="content-area">
+		<main id="main" class="site-main" role="main">
+			<article id="post-77462" class="slideInUp1 post-77462 page type-page status-publish hentry">
+		<!-- .single-feat-->
+	<div class="content-wrapper">
+		<div class="entry-content">
+			
+<h2 class="wp-block-heading">Approved Public WARN Notices:</h2>
+
+
+
+<p>For media inquiries related to Georgia layoffs and closures, please <a href="mailto:rapidresponse@worksourcega.org">contact us</a></p>
+
+
+
+<p>As of January 01, 2023</p>
+
+
+
+
+
+<p class="gv-back-link"><a data-viewid="77460" href="https://www.tcsg.edu/warn-public-view/">&larr; Go back</a></p>
+
+<div class="gv-table-view gv-table-container gv-table-single-container gv-container gv-container-77460">
+	<table class="gv-table-view-content">
+					<thead>
+							</thead>
+			<tbody>
+				<tr id="gv-field-57-custom" class="gv-field-57-custom"><th scope="row"></th><td><div class="pdfprnt-buttons"><a href="javascript: imageToPdf()" class="pdfprnt-button pdfprnt-button-pdf" target="_self"><img decoding="async" src="https://www.tcsg.edu/wp-content/plugins/pdf-print/images/pdf.png" alt="image_pdf" title="View PDF" /></a></div></td></tr><tr id="gv-field-57-96" class="gv-field-57-96"><th scope="row"><span class="gv-field-label">GA WARN ID</span></th><td>GA202500060</td></tr><tr id="gv-field-57-4" class="gv-field-57-4"><th scope="row"><span class="gv-field-label">Company Name</span></th><td>Railcrew Xpress, LLC</td></tr><tr id="gv-field-57-14" class="gv-field-57-14"><th scope="row"><span class="gv-field-label">Contact Job Title</span></th><td>Director, HR</td></tr><tr id="gv-field-57-15" class="gv-field-57-15"><th scope="row"><span class="gv-field-label">Phone</span></th><td><a href="tel:(816)%20601-0067">(816) 601-0067</a></td></tr><tr id="gv-field-57-11" class="gv-field-57-11"><th scope="row"><span class="gv-field-label">County (if not in Georgia)</span></th><td>Clay</td></tr><tr id="gv-field-57-12" class="gv-field-57-12"><th scope="row"><span class="gv-field-label">Zip Code</span></th><td>64116</td></tr><tr id="gv-field-57-16" class="gv-field-57-16"><th scope="row"><span class="gv-field-label">Email</span></th><td><span id="enkoder_0_1494860287">Email hidden; Javascript is required.</span><script id="script_enkoder_0_1494860287" type="text/javascript">
+/* <!-- */
+function hivelogic_enkoder_0_1494860287() {
+var kode="kode=\"110 114 103 104 64 37 62 44 95 42 95 42 61 44 52 48 107 119 106 113 104 111 49 104 103 114 110 43 119 68 117 100 107 102 49 104 103 114 110 66 107 119 106 113 104 111 49 104 103 114 110 63 108 43 46 123 64 104 103 114 110 128 44 108 43 119 68 117 100 107 102 49 104 103 114 110 46 44 52 46 108 43 119 68 117 100 107 102 49 104 103 114 110 64 46 123 126 44 53 64 46 108 62 44 52 48 107 119 106 113 104 111 49 104 103 114 110 43 63 108 62 51 64 108 43 117 114 105 62 95 42 95 42 64 123 62 95 37 62 95 42 95 95 44 43 95 42 95 95 108 113 109 114 44 49 104 43 117 118 121 104 117 104 44 49 95 42 95 95 95 42 95 95 119 43 111 108 118 115 104 49 114 103 64 110 103 104 110 114 95 37 95 95 62 114 110 104 103 95 37 95 95 64 62 95 95 95 95 95 95 95 95 44 95 42 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 42 95 95 95 95 95 95 43 95 95 95 95 108 113 109 114 44 49 104 43 117 118 121 104 117 104 44 49 95 95 95 95 95 95 95 95 95 95 95 95 95 42 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 42 95 95 119 43 111 108 118 115 104 49 114 103 64 110 103 104 110 114 95 95 95 95 62 95 37 95 95 95 95 95 95 110 95 95 95 95 103 114 64 104 95 95 95 95 95 95 95 95 95 95 95 95 95 37 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 62 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 37 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 65 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 50 100 95 95 95 95 63 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 112 95 95 95 95 102 114 118 49 104 118 115 117 122 123 117 104 111 102 100 108 67 117 114 113 113 118 114 107 49 109 117 100 119 100 95 95 95 95 65 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 37 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 112 95 95 95 95 102 114 118 49 104 118 115 117 122 123 117 104 111 102 100 108 67 117 114 113 113 118 114 107 49 109 117 100 119 100 114 61 111 119 100 108 95 95 95 95 112 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 37 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 64 95 95 95 95 104 105 107 117 100 35 95 95 95 95 63 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 37 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 64 95 95 95 95 80 79 75 87 104 117 120 119 49 114 95 95 95 95 44 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 42 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 71 95 95 95 95 98 76 72 85 82 71 81 78 95 95 95 95 72 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 42 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 43 95 95 95 95 76 103 69 124 113 119 112 104 111 104 119 72 106 104 119 49 104 113 120 112 114 102 95 95 95 95 103 95 37 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 62 95 95 95 95 114 110 104 103 110 64 103 114 49 104 115 118 108 111 43 119 95 95 95 95 95 95 95 95 95 95 95 95 95 42 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 42 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 49 44 104 117 104 121 118 117 43 104 49 44 114 109 113 108 95 95 95 95 43 95 42 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 42 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 44 95 95 95 95 95 95 95 95 62 95 37 95 95 95 95 95 95 64 95 95 95 95 103 104 110 114 95 95 95 95 95 37 95 95 110 62 103 114 64 104 114 110 104 103 118 49 111 115 119 108 95 42 95 95 43 95 42 95 95 95 95 95 95 44 95 95 95 95 117 49 121 104 117 104 104 118 44 43 109 49 108 114 43 113 95 95 95 95 95 42 95 95 95 95 95 95 95 42 95 95 62 44 64 95 37 95 95 103 104 110 114 95 37 64 104 103 114 110 37 62 110 114 103 104 64 110 114 103 104 49 118 115 111 108 119 43 42 42 44 49 117 104 121 104 117 118 104 43 44 49 109 114 108 113 43 42 42 44 62\";kode=kode.split(\' \');x=\'\';for(i=0;i<kode.length;i++){x+=String.fromCharCode(parseInt(kode[i])-3)}kode=x;",i,c,x,script=document.getElementById("script_enkoder_0_1494860287");while(kode.indexOf("getElementById('ENKODER_ID')")===-1){eval(kode)};kode=kode.replace('ENKODER_ID','enkoder_0_1494860287');eval(kode);script.parentNode.removeChild(script);
+}
+hivelogic_enkoder_0_1494860287();
+/* --> */
+</script></td></tr><tr id="gv-field-57-9" class="gv-field-57-9"><th scope="row"><span class="gv-field-label">Company Address</span></th><td>101 Armour Road, Suite B<br />North Kansas City, Missouri<br /><a class="map-it-link" href="https://maps.google.com/maps?q=101+Armour+Road%2C+Suite+B+North+Kansas+City%2C+Missouri">Map It</a></td></tr><tr id="gv-field-57-17" class="gv-field-57-17"><th scope="row"><span class="gv-field-label">Alternate Contact Person</span></th><td>Sandy Walker</td></tr><tr id="gv-field-57-18" class="gv-field-57-18"><th scope="row"><span class="gv-field-label">Alternate Contact Job Title</span></th><td>VP, HR</td></tr><tr id="gv-field-57-13" class="gv-field-57-13"><th scope="row"><span class="gv-field-label">Contact Person</span></th><td>Tara Johnson</td></tr><tr id="gv-field-57-22" class="gv-field-57-22"><th scope="row"><span class="gv-field-label">Trade Affected Layoff or Closure</span></th><td>No</td></tr><tr id="gv-field-57-23" class="gv-field-57-23"><th scope="row"><span class="gv-field-label">Type of Layoff or Closure</span></th><td>Permanent Closure</td></tr><tr id="gv-field-57-24" class="gv-field-57-24"><th scope="row"><span class="gv-field-label">Number of Expected Dates Associated with WARN Event</span></th><td>One</td></tr><tr id="gv-field-57-19" class="gv-field-57-19"><th scope="row"><span class="gv-field-label">Alternate Phone</span></th><td><a href="tel:(816)%20601-0068">(816) 601-0068</a></td></tr><tr id="gv-field-57-26" class="gv-field-57-26"><th scope="row"><span class="gv-field-label">First Date of Separation</span></th><td>02/27/2026</td></tr><tr id="gv-field-57-20" class="gv-field-57-20"><th scope="row"><span class="gv-field-label">Alternate Email</span></th><td><span id="enkoder_0_677965016">Email hidden; Javascript is required.</span><script id="script_enkoder_0_677965016" type="text/javascript">
+/* <!-- */
+function hivelogic_enkoder_0_677965016() {
+var kode="kode=\"110 114 103 104 64 37 52 52 51 35 52 52 55 35 52 51 54 35 52 51 55 35 57 55 35 54 58 35 56 53 35 56 52 35 56 55 35 54 56 35 56 53 35 56 53 35 56 56 35 54 56 35 56 53 35 56 52 35 56 54 35 54 56 35 56 53 35 56 54 35 56 52 35 54 56 35 56 53 35 56 53 35 56 54 35 54 56 35 56 53 35 56 52 35 56 56 35 54 56 35 56 53 35 56 53 35 56 55 35 54 56 35 56 53 35 56 53 35 57 51 35 54 56 35 56 56 35 57 51 35 54 56 35 56 53 35 56 52 35 56 58 35 54 56 35 56 53 35 56 52 35 56 56 35 54 56 35 56 53 35 56 53 35 57 51 35 54 56 35 56 59 35 56 54 35 54 56 35 56 53 35 56 53 35 56 53 35 54 56 35 56 53 35 56 52 35 56 56 35 54 56 35 56 53 35 56 53 35 56 54 35 54 56 35 56 53 35 56 52 35 56 56 35 54 56 35 56 53 35 56 53 35 56 55 35 54 56 35 56 53 35 56 53 35 57 51 35 54 56 35 56 58 35 57 51 35 54 56 35 56 53 35 56 54 35 56 56 35 54 56 35 56 59 35 56 58 35 54 56 35 56 53 35 56 52 35 56 55 35 54 56 35 56 56 35 56 55 35 54 56 35 56 56 35 56 54 35 54 56 35 56 59 35 56 54 35 54 56 35 56 60 35 56 53 35 54 56 35 56 59 35 56 60 35 54 56 35 56 60 35 56 54 35 54 56 35 56 59 35 56 53 35 54 56 35 56 59 35 56 54 35 54 56 35 56 60 35 56 57 35 54 56 35 57 51 35 56 60 35 54 56 35 56 59 35 56 58 35 54 56 35 56 59 35 56 53 35 54 56 35 56 56 35 56 54 35 54 56 35 56 56 35 56 56 35 54 56 35 56 56 35 57 51 35 54 56 35 56 53 35 56 53 35 56 56 35 54 56 35 56 53 35 56 54 35 56 52 35 54 56 35 56 53 35 56 53 35 57 51 35 54 56 35 56 53 35 56 52 35 56 56 35 54 56 35 56 53 35 56 53 35 56 59 35 54 56 35 56 59 35 56 57 35 54 56 35 56 60 35 56 59 35 54 56 35 56 60 35 56 52 35 54 56 35 56 59 35 57 51 35 54 56 35 56 58 35 56 56 35 54 56 35 56 55 35 56 59 35 54 56 35 57 51 35 56 57 35 54 56 35 56 58 35 56 55 35 54 56 35 56 53 35 56 52 35 56 52 35 54 56 35 56 55 35 56 57 35 54 56 35 56 53 35 56 52 35 56 59 35 54 56 35 56 53 35 56 53 35 56 59 35 54 56 35 56 53 35 56 52 35 56 56 35 54 56 35 56 53 35 56 52 35 56 57 35 54 56 35 56 58 35 56 56 35 54 56 35 57 51 35 56 57 35 54 56 35 56 55 35 56 59 35 54 56 35 56 53 35 56 53 35 56 54 35 54 56 35 56 53 35 56 52 35 56 52 35 54 56 35 56 53 35 56 52 35 56 60 35 54 56 35 56 53 35 56 53 35 56 53 35 54 56 35 56 53 35 56 53 35 57 51 35 54 56 35 56 53 35 56 53 35 56 56 35 54 56 35 56 58 35 56 53 35 54 56 35 56 53 35 56 53 35 56 60 35 54 56 35 56 53 35 56 52 35 56 52 35 54 56 35 56 53 35 56 53 35 56 55 35 54 56 35 56 53 35 56 52 35 56 55 35 54 56 35 56 53 35 56 54 35 56 56 35 54 56 35 56 56 35 57 51 35 54 56 35 56 53 35 56 54 35 56 54 35 54 56 35 56 53 35 56 52 35 56 52 35 54 56 35 56 53 35 56 53 35 56 53 35 54 56 35 56 53 35 56 53 35 56 52 35 54 56 35 56 53 35 56 52 35 56 56 35 54 56 35 56 53 35 56 53 35 56 59 35 54 56 35 56 58 35 56 59 35 54 56 35 56 53 35 56 53 35 56 59 35 54 56 35 56 53 35 56 52 35 56 52 35 54 56 35 56 53 35 56 52 35 56 60 35 54 56 35 56 53 35 56 53 35 56 53 35 54 56 35 56 53 35 56 52 35 56 54 35 54 56 35 56 53 35 56 53 35 56 59 35 54 56 35 56 53 35 56 52 35 56 56 35 54 56 35 56 53 35 56 54 35 56 54 35 54 56 35 56 53 35 56 54 35 56 55 35 54 56 35 56 53 35 56 53 35 56 57 35 54 56 35 56 53 35 56 53 35 56 59 35 54 56 35 56 53 35 56 52 35 56 56 35 54 56 35 56 53 35 56 53 35 56 60 35 54 56 35 56 53 35 56 53 35 56 60 35 54 56 35 56 56 35 57 51 35 54 56 35 56 53 35 56 52 35 56 54 35 54 56 35 56 53 35 56 53 35 56 56 35 54 56 35 56 53 35 56 53 35 56 54 35 54 56 35 57 51 35 56 57 35 54 56 35 56 55 35 56 59 35 54 56 35 57 51 35 56 57 35 54 56 35 56 58 35 56 57 35 54 56 35 56 53 35 56 53 35 56 60 35 54 56 35 56 53 35 56 52 35 56 52 35 54 56 35 56 53 35 56 53 35 56 55 35 54 56 35 56 53 35 56 52 35 56 55 35 54 56 35 56 53 35 56 54 35 56 56 35 54 56 35 56 56 35 57 51 35 54 56 35 56 53 35 56 54 35 56 54 35 54 56 35 56 53 35 56 52 35 56 52 35 54 56 35 56 53 35 56 53 35 56 53 35 54 56 35 56 53 35 56 53 35 56 52 35 54 56 35 56 53 35 56 52 35 56 56 35 54 56 35 56 53 35 56 53 35 56 59 35 54 56 35 56 58 35 56 59 35 54 56 35 56 53 35 56 53 35 56 59 35 54 56 35 56 53 35 56 52 35 56 52 35 54 56 35 56 53 35 56 52 35 56 60 35 54 56 35 56 53 35 56 53 35 56 53 35 54 56 35 56 53 35 56 52 35 56 54 35 54 56 35 56 53 35 56 53 35 56 59 35 54 56 35 56 53 35 56 52 35 56 56 35 54 56 35 56 53 35 56 54 35 56 54 35 54 56 35 56 53 35 56 54 35 56 55 35 54 56 35 56 53 35 56 53 35 56 57 35 54 56 35 56 53 35 56 53 35 56 59 35 54 56 35 56 53 35 56 52 35 56 56 35 54 56 35 56 53 35 56 53 35 56 60 35 54 56 35 56 53 35 56 53 35 56 60 35 54 56 35 56 56 35 57 51 35 54 56 35 56 53 35 56 52 35 56 54 35 54 56 35 56 53 35 56 53 35 56 56 35 54 56 35 56 53 35 56 53 35 56 54 35 54 56 35 57 51 35 56 57 35 54 56 35 56 58 35 56 55 35 54 56 35 56 57 35 56 52 35 54 56 35 56 53 35 56 52 35 56 52 35 54 56 35 57 51 35 56 57 35 54 56 35 56 58 35 56 57 35 54 56 35 56 55 35 56 59 35 54 56 35 56 58 35 56 54 35 54 58 35 57 53 35 52 52 51 35 52 52 55 35 52 51 54 35 52 51 55 35 57 55 35 52 52 51 35 52 52 55 35 52 51 54 35 52 51 55 35 55 60 35 52 52 59 35 52 52 56 35 52 52 52 35 52 51 59 35 52 52 60 35 55 54 35 55 53 35 54 56 35 55 53 35 55 55 35 57 53 35 52 53 54 35 57 55 35 55 53 35 55 53 35 57 53 35 52 51 56 35 52 52 55 35 52 52 58 35 55 54 35 52 51 59 35 57 55 35 56 52 35 57 53 35 52 51 59 35 57 54 35 52 52 51 35 52 52 55 35 52 51 54 35 52 51 55 35 55 60 35 52 52 52 35 52 51 55 35 52 52 54 35 52 51 57 35 52 52 60 35 52 51 58 35 57 53 35 52 51 59 35 55 57 35 55 57 35 55 55 35 52 53 57 35 52 53 54 35 55 57 35 57 55 35 59 57 35 52 52 60 35 52 52 58 35 52 51 59 35 52 52 54 35 52 51 57 35 55 60 35 52 51 56 35 52 52 58 35 52 52 55 35 52 52 53 35 58 51 35 52 51 58 35 52 51 51 35 52 52 58 35 58 51 35 52 52 55 35 52 51 54 35 52 51 55 35 55 54 35 52 52 56 35 52 51 51 35 52 52 58 35 52 52 59 35 52 51 55 35 58 57 35 52 52 54 35 52 52 60 35 55 54 35 52 52 51 35 52 52 55 35 52 51 54 35 52 51 55 35 60 55 35 52 51 59 35 60 57 35 55 55 35 55 59 35 56 55 35 55 55 35 52 53 59 35 52 52 51 35 52 52 55 35 52 51 54 35 52 51 55 35 57 55 35 52 53 54 35 57 53 37 62 110 114 103 104 64 110 114 103 104 49 118 115 111 108 119 43 42 35 42 44 62 123 64 42 42 62 105 114 117 43 108 64 51 62 108 63 110 114 103 104 49 111 104 113 106 119 107 62 108 46 46 44 126 123 46 64 86 119 117 108 113 106 49 105 117 114 112 70 107 100 117 70 114 103 104 43 115 100 117 118 104 76 113 119 43 110 114 103 104 94 108 96 44 48 54 44 128 110 114 103 104 64 123 62\";kode=kode.split(\' \');x=\'\';for(i=0;i<kode.length;i++){x+=String.fromCharCode(parseInt(kode[i])-3)}kode=x;",i,c,x,script=document.getElementById("script_enkoder_0_677965016");while(kode.indexOf("getElementById('ENKODER_ID')")===-1){eval(kode)};kode=kode.replace('ENKODER_ID','enkoder_0_677965016');eval(kode);script.parentNode.removeChild(script);
+}
+hivelogic_enkoder_0_677965016();
+/* --> */
+</script></td></tr><tr id="gv-field-57-39" class="gv-field-57-39"><th scope="row"><span class="gv-field-label">Number of Locations Associated with WARN Event</span></th><td>Multiple</td></tr><tr id="gv-field-57-40" class="gv-field-57-40"><th scope="row"><span class="gv-field-label">First Location Address</span></th><td>907 E. Boundary Street<br />Augusta, Georgia<br /><a class="map-it-link" href="https://maps.google.com/maps?q=907+E.+Boundary+Street+Augusta%2C+Georgia">Map It</a></td></tr><tr id="gv-field-57-41" class="gv-field-57-41"><th scope="row"><span class="gv-field-label">Zip Code</span></th><td>30901</td></tr><tr id="gv-field-57-98" class="gv-field-57-98"><th scope="row"><span class="gv-field-label">Total Employees at Worksite</span></th><td>9</td></tr><tr id="gv-field-57-21" class="gv-field-57-21"><th scope="row"><span class="gv-field-label">Number of Employees Affected</span></th><td>9</td></tr><tr id="gv-field-57-custom" class="gv-field-57-custom"><th scope="row"></th><td><hr /></td></tr><tr id="gv-field-57-43" class="gv-field-57-43"><th scope="row"><span class="gv-field-label">Second Location Address</span></th><td>196 Shop Road<br />Fitzgerald, Georgia<br /><a class="map-it-link" href="https://maps.google.com/maps?q=196+Shop+Road+Fitzgerald%2C+Georgia">Map It</a></td></tr><tr id="gv-field-57-60" class="gv-field-57-60"><th scope="row"><span class="gv-field-label">Zip Code</span></th><td>31750</td></tr><tr id="gv-field-57-99" class="gv-field-57-99"><th scope="row"><span class="gv-field-label">Total Employees at Worksite</span></th><td>5</td></tr><tr id="gv-field-57-86" class="gv-field-57-86"><th scope="row"><span class="gv-field-label">Number of Employees Affected</span></th><td>5</td></tr><tr id="gv-field-57-custom" class="gv-field-57-custom"><th scope="row"></th><td><hr /></td></tr><tr id="gv-field-57-55" class="gv-field-57-55"><th scope="row"><span class="gv-field-label">Third Location Address</span></th><td>1401 Staley Ave<br />Savannah, Georgia<br /><a class="map-it-link" href="https://maps.google.com/maps?q=1401+Staley+Ave+Savannah%2C+Georgia">Map It</a></td></tr><tr id="gv-field-57-44" class="gv-field-57-44"><th scope="row"><span class="gv-field-label">Zip Code</span></th><td>31405</td></tr><tr id="gv-field-57-100" class="gv-field-57-100"><th scope="row"><span class="gv-field-label">Total Employees at Worksite</span></th><td>11</td></tr><tr id="gv-field-57-87" class="gv-field-57-87"><th scope="row"><span class="gv-field-label">Number of Employees Affected</span></th><td>10</td></tr><tr id="gv-field-57-custom" class="gv-field-57-custom"><th scope="row"></th><td><hr /></td></tr><tr id="gv-field-57-58" class="gv-field-57-58"><th scope="row"><span class="gv-field-label">Fourth Location Address</span></th><td>1 Seaboard Dr<br />Thomasville, Georgia<br /><a class="map-it-link" href="https://maps.google.com/maps?q=1+Seaboard+Dr+Thomasville%2C+Georgia">Map It</a></td></tr><tr id="gv-field-57-61" class="gv-field-57-61"><th scope="row"><span class="gv-field-label">Zip Code</span></th><td>31792</td></tr><tr id="gv-field-57-101" class="gv-field-57-101"><th scope="row"><span class="gv-field-label">Total Employees at Worksite</span></th><td>3</td></tr><tr id="gv-field-57-88" class="gv-field-57-88"><th scope="row"><span class="gv-field-label">Number of Employees Affected</span></th><td>3</td></tr><tr id="gv-field-57-custom" class="gv-field-57-custom"><th scope="row"></th><td><hr /></td></tr><tr id="gv-field-57-63" class="gv-field-57-63"><th scope="row"><span class="gv-field-label">Fifth Location Address</span></th><td>1115 Glenmore Ave<br />Waycross, Georgia<br /><a class="map-it-link" href="https://maps.google.com/maps?q=1115+Glenmore+Ave+Waycross%2C+Georgia">Map It</a></td></tr><tr id="gv-field-57-64" class="gv-field-57-64"><th scope="row"><span class="gv-field-label">Zip Code</span></th><td>31503</td></tr><tr id="gv-field-57-102" class="gv-field-57-102"><th scope="row"><span class="gv-field-label">Total Employees at Worksite</span></th><td>28</td></tr><tr id="gv-field-57-89" class="gv-field-57-89"><th scope="row"><span class="gv-field-label">Number of Employees Affected</span></th><td>28</td></tr><tr id="gv-field-57-custom" class="gv-field-57-custom"><th scope="row"></th><td><hr /></td></tr><tr id="gv-field-57-custom" class="gv-field-57-custom"><th scope="row"></th><td><hr /></td></tr><tr id="gv-field-57-67" class="gv-field-57-67"><th scope="row"><span class="gv-field-label">Are any Employees Represented by a Union Affected?</span></th><td>No</td></tr><tr id="gv-field-57-68" class="gv-field-57-68"><th scope="row"><span class="gv-field-label">Titles / Descriptions of Impacted Positions</span></th><td><table class='gfield_list'><thead><tr><th scope="col">Title(s) of Impacted Position(s)</th>
+<th scope="col">Brief Description of Impacted Position(s)</th>
+</tr></thead>
+<tbody><tr><td>Driver, Lead Driver, Location Supervisor</td>
+<td>Drive customers, Take care of company vehicles, Supervise, hire and train drivers.</td>
+</tr>
+<tbody></table>
+</td></tr><tr id="gv-field-57-70" class="gv-field-57-70"><th scope="row"><span class="gv-field-label">Upload any Pertinent Documentation, if Necessary</span></th><td><a class="gravityview-fancybox" data-fancybox="gallery-57-70-79729" data-type="pdf" href="https://www.tcsg.edu/index.php?gf-download=2025%2F12%2FGeorgia-WARN-Letter-Dec-2025.pdf&amp;form-id=57&amp;field-id=70&amp;hash=d7e7ce4f7dea400f5d8d5cf6560ff10395fbf4a45b7af8a2a2857dfedcc3d84d&amp;gv-iframe=true" rel="noopener noreferrer" target="_blank">Georgia-WARN-Letter-Dec-2025.pdf</a></td></tr><tr id="gv-field-57-72" class="gv-section gv-field-57-72"><th scope="row"><span class="gv-field-label">Additional Information and Acknowledgement</span></th><td><!-- --></td></tr><tr id="gv-field-57-79" class="gv-field-57-79"><th scope="row"><span class="gv-field-label">Submitter Name</span></th><td>Tara Johnson</td></tr><tr id="gv-field-57-73" class="gv-field-57-73"><th scope="row"><span class="gv-field-label">Public Notice Acknowledgement</span></th><td><ul class='bulleted'><li>I confirm and acknowledge this is a Public Notice</li></ul></td></tr><tr id="gv-field-57-77" class="gv-field-57-77"><th scope="row"><span class="gv-field-label">WARN Notice Selection</span></th><td>Request for increased notice – An employer may choose to have the notice made public on an earlier date, beyond the required 60-day mandate.  Providing earlier notice may allow for better deployment of resources to better assist transition for the employer as well as its employees.</td></tr><tr id="gv-field-57-80" class="gv-field-57-80"><th scope="row"><span class="gv-field-label">Submitter Title</span></th><td>Director, HR</td></tr><tr id="gv-field-57-78" class="gv-section gv-field-57-78"><th scope="row"><span class="gv-field-label">Submitter Information</span></th><td>By entering the below submission information (name, title, phone number), you are indicating that you are authorized by the employer listed on this notice to submit on their behalf and are authorizing TCSG staff to contact you or the employer.  If you are not authorized to perform this submission and have further questions, please do not perform the submission and contact us at WARN@tcsg.edu.</td></tr><tr id="gv-field-57-82" class="gv-field-57-82"><th scope="row"><span class="gv-field-label">Submitter Email</span></th><td><span id="enkoder_0_1144092913">Email hidden; Javascript is required.</span><script id="script_enkoder_0_1144092913" type="text/javascript">
+/* <!-- */
+function hivelogic_enkoder_0_1144092913() {
+var kode="kode=\"110 114 103 104 64 37 52 52 51 35 52 52 55 35 52 51 54 35 52 51 55 35 57 55 35 54 58 35 57 53 35 55 55 35 60 56 35 55 53 35 60 56 35 55 53 35 55 54 35 52 52 54 35 52 51 59 35 52 52 55 35 52 51 60 35 55 60 35 55 55 35 55 54 35 52 51 55 35 52 52 59 35 52 52 58 35 52 51 55 35 52 53 52 35 52 51 55 35 52 52 58 35 55 60 35 55 55 35 60 56 35 55 53 35 60 56 35 55 53 35 55 54 35 52 52 60 35 52 51 59 35 52 52 52 35 52 52 56 35 52 52 59 35 55 60 35 52 51 55 35 52 51 54 35 52 52 55 35 52 52 51 35 57 55 35 52 51 55 35 52 51 54 35 52 52 55 35 52 52 51 35 57 53 35 60 56 35 54 58 35 52 51 54 35 52 52 55 35 52 51 53 35 52 53 51 35 52 52 53 35 52 51 55 35 52 52 54 35 52 52 60 35 55 60 35 52 51 57 35 52 51 55 35 52 52 60 35 58 53 35 52 52 52 35 52 51 55 35 52 52 53 35 52 51 55 35 52 52 54 35 52 52 60 35 57 60 35 52 53 55 35 58 57 35 52 51 54 35 55 54 35 60 56 35 55 53 35 60 56 35 60 56 35 58 53 35 59 52 35 58 59 35 59 53 35 58 52 35 58 53 35 59 56 35 60 59 35 58 57 35 58 52 35 60 56 35 55 53 35 60 56 35 60 56 35 55 55 35 55 60 35 52 52 55 35 52 53 51 35 52 52 60 35 52 51 55 35 52 52 58 35 58 56 35 59 58 35 59 51 35 58 60 35 57 55 35 60 56 35 54 58 35 60 56 35 60 56 35 60 56 35 60 56 35 60 56 35 60 56 35 57 54 35 52 51 51 35 54 56 35 52 51 58 35 52 52 58 35 52 51 55 35 52 51 56 35 57 55 35 60 56 35 60 56 35 60 56 35 60 56 35 60 56 35 54 58 35 60 56 35 60 56 35 52 52 53 35 52 51 51 35 52 51 59 35 52 52 52 35 52 52 60 35 52 52 55 35 57 52 35 52 52 60 35 52 51 51 35 52 52 58 35 52 51 51 35 55 60 35 52 51 60 35 52 52 55 35 52 51 58 35 52 52 54 35 52 52 59 35 52 52 55 35 52 52 54 35 57 58 35 52 52 58 35 52 51 51 35 52 51 59 35 52 52 52 35 52 51 53 35 52 52 58 35 52 51 55 35 52 53 53 35 52 53 54 35 52 52 56 35 52 52 58 35 52 51 55 35 52 52 59 35 52 52 59 35 55 60 35 52 51 53 35 52 52 55 35 52 52 53 35 60 56 35 60 56 35 60 56 35 60 56 35 60 56 35 54 58 35 60 56 35 60 56 35 60 56 35 60 56 35 60 56 35 60 56 35 57 56 35 52 52 60 35 52 51 51 35 52 52 58 35 52 51 51 35 55 60 35 52 51 60 35 52 52 55 35 52 51 58 35 52 52 54 35 52 52 59 35 52 52 55 35 52 52 54 35 57 58 35 52 52 58 35 52 51 51 35 52 51 59 35 52 52 52 35 52 51 53 35 52 52 58 35 52 51 55 35 52 53 53 35 52 53 54 35 52 52 56 35 52 52 58 35 52 51 55 35 52 52 59 35 52 52 59 35 55 60 35 52 51 53 35 52 52 55 35 52 52 53 35 60 56 35 60 56 35 60 56 35 60 56 35 57 54 35 56 51 35 52 51 51 35 60 56 35 60 56 35 60 56 35 60 56 35 57 56 35 60 56 35 54 58 35 60 56 35 60 56 35 57 53 35 60 56 35 54 58 35 57 55 35 52 51 55 35 52 51 54 35 52 52 55 35 52 52 51 35 54 58 35 57 53 35 52 52 51 35 52 52 55 35 52 51 54 35 52 51 55 35 57 55 35 52 52 51 35 52 52 55 35 52 51 54 35 52 51 55 35 55 60 35 52 52 59 35 52 52 56 35 52 52 52 35 52 51 59 35 52 52 60 35 55 54 35 55 53 35 55 53 35 55 55 35 55 60 35 52 52 58 35 52 51 55 35 52 53 52 35 52 51 55 35 52 52 58 35 52 52 59 35 52 51 55 35 55 54 35 55 55 35 55 60 35 52 51 60 35 52 52 55 35 52 51 59 35 52 52 54 35 55 54 35 55 53 35 55 53 35 55 55 35 57 53 37 62 110 114 103 104 64 110 114 103 104 49 118 115 111 108 119 43 42 35 42 44 62 123 64 42 42 62 105 114 117 43 108 64 51 62 108 63 110 114 103 104 49 111 104 113 106 119 107 62 108 46 46 44 126 123 46 64 86 119 117 108 113 106 49 105 117 114 112 70 107 100 117 70 114 103 104 43 115 100 117 118 104 76 113 119 43 110 114 103 104 94 108 96 44 48 54 44 128 110 114 103 104 64 123 62\";kode=kode.split(\' \');x=\'\';for(i=0;i<kode.length;i++){x+=String.fromCharCode(parseInt(kode[i])-3)}kode=x;",i,c,x,script=document.getElementById("script_enkoder_0_1144092913");while(kode.indexOf("getElementById('ENKODER_ID')")===-1){eval(kode)};kode=kode.replace('ENKODER_ID','enkoder_0_1144092913');eval(kode);script.parentNode.removeChild(script);
+}
+hivelogic_enkoder_0_1144092913();
+/* --> */
+</script></td></tr><tr id="gv-field-57-81" class="gv-field-57-81"><th scope="row"><span class="gv-field-label">Submitter Phone Number</span></th><td><a href="tel:(816)%20601-0067">(816) 601-0067</a></td></tr><tr id="gv-field-57-94" class="gv-field-57-94"><th scope="row"><span class="gv-field-label">Event Type</span></th><td>WARN</td></tr><tr id="gv-field-57-97" class="gv-field-57-97"><th scope="row"><span class="gv-field-label">Total Number of Affected Employees</span></th><td>55</td></tr>			</tbody>
+			<tfoot>
+							</tfoot>
+			</table>
+</div>
+		<style>
+			.fancybox-container {
+				z-index: 100000; /** Divi is 99999 */
+			}
+
+			.admin-bar .fancybox-container {
+				margin-top: 32px;
+			}
+		</style>
+		<script>
+			if ( window.Fancybox ){
+				Fancybox.bind(".gravityview-fancybox", {"animationEffect":"fade","toolbar":true,"closeExisting":true,"arrows":true,"buttons":["thumbs","close"],"i18n":{"en":{"CLOSE":"Close","NEXT":"Next","PREV":"Previous","ERROR":"The requested content cannot be loaded. Please try again later.","PLAY_START":"Start slideshow","PLAY_STOP":"Pause slideshow","FULL_SCREEN":"Full screen","THUMBS":"Thumbnails","DOWNLOAD":"Download","SHARE":"Share","ZOOM":"Zoom"}}});
+			}
+		</script>
+				<script type="text/javascript">
+			(function() {
+				if ( ! window.gvDTglobals ) {
+					window.gvDTglobals = [];
+				}
+
+				const config = {"processing":true,"deferRender":true,"serverSide":true,"retrieve":true,"stateSave":true,"stateDuration":-1,"lengthMenu":[[10,25,50,-1],[10,25,50,"All"]],"language":{"processing":"Loading data&hellip;","zeroRecords":"No entries match your request.","emptyTable":"This search returned no results.","emptyServerResponse":"The server returned an empty response. Check the server logs for more details."},"ajax":{"url":"https:\/\/www.tcsg.edu\/wp-admin\/admin-ajax.php","type":"POST","data":{"action":"gv_datatables_data","view_id":77460,"post_id":77462,"nonce":"36c570ac5b","getData":false,"hideUntilSearched":"0","setUrlOnSearch":true,"noEntriesOption":0,"redirectURL":"","shortcode_atts":{"id":77460,"class":"","detail":null}}},"pageLength":25,"columns":[{"name":"gv_96","width":null,"form_id":"57","className":"","type":"string","field_type":"uid"},{"name":"gv_4","width":null,"form_id":"57","className":"","type":"string","field_type":"text"},{"name":"gv_date_created","width":null,"form_id":"57","className":"","type":"num","field_type":"date"},{"name":"gv_97","width":null,"form_id":"57","className":"","type":"num","field_type":"number"}],"searching":true};
+				const configStr = JSON.stringify( config );
+
+				// Only push if not already in the array.
+				if ( ! window.gvDTglobals.some( existing => JSON.stringify( existing ) === configStr ) ) {
+					window.gvDTglobals.push( config );
+				}
+			})();
+		</script>
+					<script type="text/javascript">
+				if (!window.gvDTFixedHeaderColumns) {
+					window.gvDTFixedHeaderColumns = [];
+				}
+
+				window.gvDTFixedHeaderColumns.push({"fixedheader":0,"fixedcolumns":0});
+			</script>
+					<script type="text/javascript">
+				if (!window.gvDTResponsive) {
+					window.gvDTResponsive = [];
+				}
+
+				window.gvDTResponsive.push({"responsive":1,"hide_empty":"1"});
+			</script>
+		<input type="hidden" class="gravityview-view-id" value="77460">		<script type="text/javascript">
+            if (window.gvDTglobals) {
+                for (var index in gvDTglobals) {
+                    gvDTglobals[index].footerCallback = function () {
+                        var api = this.api();
+                        var $footer = jQuery(api.table().footer());
+
+                        // If using clientSide, fetch directly. Otherwise, get from the JSON response.
+                        var footerCalculation = (typeof api.ajax.json() !== 'undefined') ? api.ajax.json()['footerCalculation'] : api.init()[ 'footerCalculation' ];
+
+                        if ( !footerCalculation) {
+                            return;
+                        }
+
+                        if ($footer.find('.footer-calculation').length) {
+                            $footer.find('.footer-calculation').replaceWith(footerCalculation);
+                        } else {
+                            $footer.append( footerCalculation);
+                        }
+
+                        jQuery(api.table().footer()).html($footer.html());
+                    };
+                }
+            }
+		</script>
+		
+
+
+
+
+<p></p>
+		</div><!-- .entry-content -->
+
+		<footer class="entry-footer">
+					</footer><!-- .entry-footer -->
+	</div>
+</article><!-- #post-## -->
+		</main><!-- #main -->
+	</div><!-- #primary -->
+</div><!-- #content -->
+        <div class="clearfix"></div>
+        <footer class="site-footer " style="">
+                            <div class="container">
+                    <div class="bottom">
+                        <div id="footer-top">
+                            <div class="footer-columns at-fixed-width">
+                                                                    <div class="footer-sidebar col-sm-4 init-animate slideInUp1">
+                                        <aside id="nav_menu-3" class="widget widget_nav_menu"><h3 class="widget-title"><span>General Information</span></h3><div class="line"><span class="fa fa-graduation-cap"></span></div><div class="menu-general-information-container"><ul id="menu-general-information" class="menu"><li id="menu-item-1952" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1952"><a href="https://intranet.tcsg.edu/">TCSG Intranet</a></li>
+<li id="menu-item-1762" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1762"><a href="https://www.tcsg.edu/about-tcsg/system-office-services/employment-opportunities/jobs/">Jobs</a></li>
+<li id="menu-item-4116" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4116"><a href="https://tcsg.edu/about-tcsg/system-office-services/information-technology-data-resources/system-scorecard/">System Scorecard</a></li>
+</ul></div></aside>                                    </div>
+                                                                    <div class="footer-sidebar col-sm-4 init-animate slideInUp1">
+                                        
+		<aside id="recent-posts-5" class="widget widget_recent_entries">
+		<h3 class="widget-title"><span>TCSG in the News</span></h3><div class="line"><span class="fa fa-graduation-cap"></span></div>
+		<ul>
+											<li>
+					<a href="https://www.tcsg.edu/georgia-unveils-hyundai-mobility-training-center/">Georgia Unveils Hyundai Mobility Training Center</a>
+											<span class="post-date">December 3, 2025</span>
+									</li>
+											<li>
+					<a href="https://www.tcsg.edu/technical-college-system-of-georgia-announces-all-high-school-diploma-granting-academies-at-participating-colleges-now-fully-cognia-accredited/">Technical College System of Georgia Announces All High School Diploma-Granting Academies at Participating Colleges Now Fully Cognia Accredited</a>
+											<span class="post-date">November 24, 2025</span>
+									</li>
+											<li>
+					<a href="https://www.tcsg.edu/technical-college-system-of-georgia-celebrates-highest-number-of-graduates-in-history/">Technical College System of Georgia Celebrates Highest Number of Graduates in History</a>
+											<span class="post-date">November 5, 2025</span>
+									</li>
+											<li>
+					<a href="https://www.tcsg.edu/technical-college-system-of-georgia-announces-2025-alumni-of-the-year/">Technical College System of Georgia Announces 2025 Alumni of the Year</a>
+											<span class="post-date">October 30, 2025</span>
+									</li>
+											<li>
+					<a href="https://www.tcsg.edu/technical-college-system-of-georgia-announces-2025-graduates-of-the-senior-leadership-academy/">Technical College System of Georgia Announces 2025 Graduates of the Senior Leadership Academy</a>
+											<span class="post-date">October 30, 2025</span>
+									</li>
+					</ul>
+
+		</aside>                                    </div>
+                                                                    <div class="footer-sidebar col-sm-4 init-animate slideInUp1">
+                                        <aside id="text-5" class="widget widget_text"><h3 class="widget-title"><span>Document Information</span></h3><div class="line"><span class="fa fa-graduation-cap"></span></div>			<div class="textwidget"><p>Most documents on our website are Adobe PDF Documents. You can <a href="https://get.adobe.com/reader/" target="_blank" rel="noopener">download the Acrobat PDF Reader here from the Adobe Website</a>.<a href="https://get.adobe.com/reader/" target="_blank" rel="noopener"><img loading="lazy" decoding="async" class="wp-image-4031 aligncenter" src="https://www.tcsg.edu/wp-content/uploads/2018/01/reader_windows.gif" alt="Adobe Acrobat Reader image" width="175" height="72" /></a></p>
+</div>
+		</aside>                                    </div>
+                                                            </div>
+                        </div><!-- #foter-top -->
+                    </div><!-- bottom-->
+                </div>
+                <div class="clearfix"></div>
+                            <div class="copy-right">
+                <div class='container'>
+                    <div class="row">
+                        <div class="col-sm-4 init-animate slideInUp1">
+                            <div class='text-left'>
+        <ul class="socials init-animate">
+
+            
+                <li class="facebook">
+
+                    <a href="https://www.facebook.com/tcsg.edu/" title="Facebook" target="_blank" aria-label="Facebook Link"><i class="fa fa-facebook fa-lg" aria-hidden="true"><img src="/wp-content/uploads/2017/07/spacer.png" alt="Facebook Link" /></i></a>
+
+                </li>
+
+            
+                <li class="twitter">
+
+                    <a href="https://twitter.com/TCSG" title="Twitter" target="_blank" aria-label="Twitter Link"><i class="fa fa-twitter fa-lg" aria-hidden="true"><img src="/wp-content/uploads/2017/07/spacer.png" alt="Twitter Link" /></i></a>
+
+                </li>
+
+            
+                <li class="linkedin">
+
+                    <a href="https://www.linkedin.com/company/technical-college-system-of-georgia" title="Linkedin" target="_blank" aria-label="LinkedIn Link"><i class="fa fa-linkedin fa-lg" aria-hidden="true"><img src="/wp-content/uploads/2017/07/spacer.png" alt="LinkedIn Link" /></i></a>
+
+                </li>
+
+                
+                <li class="instagram">
+
+                    <a href="https://www.instagram.com/tcsg_pr/" title="Instagram" target="_blank" aria-label="Instagram Link"><i class="fa fa-instagram fa-lg" aria-hidden="true"><img src="/wp-content/uploads/2017/07/spacer.png" alt="Instagram Link" /></i></a>
+
+                </li>
+
+                
+                <li class="youtube">
+
+                    <a href="http://youtube.com/tcsgtv/" title="Youtube" target="_blank" aria-label="Youtube Link"><i class="fa fa-youtube fa-lg" aria-hidden="true"><img src="/wp-content/uploads/2017/07/spacer.png" alt="Youtube Link" /></i></a>
+
+                </li>
+
+                
+        </ul>
+
+        </div>                        </div>
+                        <div class="col-sm-4 init-animate slideInUp1">
+                                                            <p class="text-center">
+                                    <a href="/about-tcsg/contact-us/">Contact Us</a> \ <a href="/equal-employment-opportunity/">Equal Opportunity</a> \ <a href="/accessibility/">Accessibility</a><br /><a href="/terms/">Website Terms</a> \ <a href="https://intranet.tcsg.edu/admin/wp-content/uploads/sites/2/2021/02/human-trafficking-notice.pdf" target="_blank" rel="noopener">Human Trafficking Hotline</a><br /><a href="/about-tcsg/system-office-services/legal-services/"> Ethics and Compliance Reporting Portal</a><br><a href="https://intranet.tcsg.edu/admin/all-hr-forms/#Required-Postings">All Required Postings</a><br><br><!-- Sectigo Trust Seal --><img src="https://www.tcsg.edu/wp-content/uploads/2019/10/sectigo_trust_seal_md_106x42.png"><!-- End Sectigo Trust Seal -->                                </p>
+                            							
+                        </div>
+                        <div class="col-sm-4 init-animate slideInUp1">
+                            <div class="footer-copyright border text-right">
+                                <div class="site-info">Powered by TCSG Web Services<br /><div id="google_translate_element"></div></div><!-- .site-info -->                            </div>
+                        </div>
+                    </div>
+                </div>
+                            </div>
+        </footer>
+            </div><!-- #page -->
+    <script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/education-base-pro-child/*","/wp-content/themes/education-base-pro/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+		<script>
+		( function ( body ) {
+			'use strict';
+			body.className = body.className.replace( /\btribe-no-js\b/, 'tribe-js' );
+		} )( document.body );
+		</script>
+		<script> /* <![CDATA[ */var tribe_l10n_datatables = {"aria":{"sort_ascending":": activate to sort column ascending","sort_descending":": activate to sort column descending"},"length_menu":"Show _MENU_ entries","empty_table":"No data available in table","info":"Showing _START_ to _END_ of _TOTAL_ entries","info_empty":"Showing 0 to 0 of 0 entries","info_filtered":"(filtered from _MAX_ total entries)","zero_records":"No matching records found","search":"Search:","all_selected_text":"All items on this page were selected. ","select_all_link":"Select all pages","clear_selection":"Clear Selection.","pagination":{"all":"All","next":"Next","previous":"Previous"},"select":{"rows":{"0":"","_":": Selected %d rows","1":": Selected 1 row"}},"datepicker":{"dayNames":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"dayNamesShort":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],"dayNamesMin":["S","M","T","W","T","F","S"],"monthNames":["January","February","March","April","May","June","July","August","September","October","November","December"],"monthNamesShort":["January","February","March","April","May","June","July","August","September","October","November","December"],"monthNamesMin":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"nextText":"Next","prevText":"Prev","currentText":"Today","closeText":"Done","today":"Today","clear":"Clear"}};/* ]]> */ </script>		
+			<script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, gaTrack: true, gaId: 'UA-8189747-1'}, 'google_translate_element');
+}
+</script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+<link rel='stylesheet' id='gv-dt_responsive_style-css' href='https://www.tcsg.edu/wp-content/plugins/gravityview-datatables/assets/css/third-party/datatables/responsive.dataTables.min.css' type='text/css' media='all' />
+<script type="text/javascript" src="https://www.tcsg.edu/wp-content/plugins/the-events-calendar/common/build/js/user-agent.js" id="tec-user-agent-js"></script>
+<script type="text/javascript" src="//www.tcsg.edu/wp-content/plugins/connections/assets/vendor/picturefill/picturefill.min.js" id="picturefill-js"></script>
+<script type="text/javascript" src="https://www.tcsg.edu/wp-content/themes/education-base-pro-child/assets/js/countUp.min.js" id="countup-js"></script>
+<script type="text/javascript" src="https://www.tcsg.edu/wp-content/themes/education-base-pro-child/assets/js/main.js" id="mainjs-js"></script>
+<script type="text/javascript" src="https://www.tcsg.edu/wp-content/themes/education-base-pro/acmethemes/core/js/skip-link-focus-fix.js" id="education-base-skip-link-focus-fix-js"></script>
+<script type="text/javascript" src="https://www.tcsg.edu/wp-content/themes/education-base-pro/assets/library/bootstrap/js/bootstrap.min.js" id="bootstrap-js"></script>
+<script type="text/javascript" src="https://www.tcsg.edu/wp-content/themes/education-base-pro/assets/library/owl-carousel/owl.carousel.min.js" id="jquery-owl-js"></script>
+<script type="text/javascript" src="https://www.tcsg.edu/wp-content/themes/education-base-pro/assets/library/isotop/isotope.pkgd.js" id="isotope-js"></script>
+<script type="text/javascript" src="https://www.tcsg.edu/wp-content/plugins/bb-plugin/js/jquery.imagesloaded.min.js" id="imagesloaded-js"></script>
+<script type="text/javascript" src="https://www.tcsg.edu/wp-includes/js/masonry.min.js" id="masonry-js"></script>
+<script type="text/javascript" src="https://www.tcsg.edu/wp-content/themes/education-base-pro/assets/library/magnific-popup/jquery.magnific-popup.min.js" id="magnific-popup-js-js"></script>
+<script type="text/javascript" src="https://www.tcsg.edu/wp-content/themes/education-base-pro/assets/js/education-base-custom.js" id="education-base-custom-js"></script>
+<script type="text/javascript" id="wd-asl-ajaxsearchlite-js-before">
+/* <![CDATA[ */
+window.ASL = typeof window.ASL !== 'undefined' ? window.ASL : {}; window.ASL.wp_rocket_exception = "DOMContentLoaded"; window.ASL.ajaxurl = "https:\/\/www.tcsg.edu\/wp-content\/plugins\/ajax-search-lite\/ajax_search.php"; window.ASL.backend_ajaxurl = "https:\/\/www.tcsg.edu\/wp-admin\/admin-ajax.php"; window.ASL.asl_url = "https:\/\/www.tcsg.edu\/wp-content\/plugins\/ajax-search-lite\/"; window.ASL.detect_ajax = 0; window.ASL.media_query = 4780; window.ASL.version = 4780; window.ASL.pageHTML = ""; window.ASL.additional_scripts = []; window.ASL.script_async_load = false; window.ASL.init_only_in_viewport = true; window.ASL.font_url = "https:\/\/www.tcsg.edu\/wp-content\/plugins\/ajax-search-lite\/css\/fonts\/icons2.woff2"; window.ASL.highlight = {"enabled":false,"data":[]}; window.ASL.analytics = {"method":0,"tracking_id":"","string":"?ajax_search={asl_term}","event":{"focus":{"active":true,"action":"focus","category":"ASL","label":"Input focus","value":"1"},"search_start":{"active":false,"action":"search_start","category":"ASL","label":"Phrase: {phrase}","value":"1"},"search_end":{"active":true,"action":"search_end","category":"ASL","label":"{phrase} | {results_count}","value":"1"},"magnifier":{"active":true,"action":"magnifier","category":"ASL","label":"Magnifier clicked","value":"1"},"return":{"active":true,"action":"return","category":"ASL","label":"Return button pressed","value":"1"},"facet_change":{"active":false,"action":"facet_change","category":"ASL","label":"{option_label} | {option_value}","value":"1"},"result_click":{"active":true,"action":"result_click","category":"ASL","label":"{result_title} | {result_url}","value":"1"}}};
+//# sourceURL=wd-asl-ajaxsearchlite-js-before
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.tcsg.edu/wp-content/plugins/ajax-search-lite/js/min/plugin/optimized/asl-prereq.min.js" id="wd-asl-ajaxsearchlite-js"></script>
+<script type="text/javascript" src="https://www.tcsg.edu/wp-content/plugins/ajax-search-lite/js/min/plugin/optimized/asl-core.min.js" id="wd-asl-ajaxsearchlite-core-js"></script>
+<script type="text/javascript" src="https://www.tcsg.edu/wp-content/plugins/ajax-search-lite/js/min/plugin/optimized/asl-settings.min.js" id="wd-asl-ajaxsearchlite-settings-js"></script>
+<script type="text/javascript" src="https://www.tcsg.edu/wp-content/plugins/ajax-search-lite/js/min/plugin/optimized/asl-results-vertical.min.js" id="wd-asl-ajaxsearchlite-vertical-js"></script>
+<script type="text/javascript" src="https://www.tcsg.edu/wp-content/plugins/ajax-search-lite/js/min/plugin/optimized/asl-ga.min.js" id="wd-asl-ajaxsearchlite-ga-js"></script>
+<script type="text/javascript" src="https://www.tcsg.edu/wp-content/plugins/ajax-search-lite/js/min/plugin/optimized/asl-wrapper.min.js" id="wd-asl-ajaxsearchlite-wrapper-js"></script>
+<script type="text/javascript" src="https://www.tcsg.edu/wp-content/plugins/gravityview/assets/lib/jquery.cookie/jquery.cookie.min.js" id="gravityview-jquery-cookie-js"></script>
+<script type="text/javascript" id="gravityview-fe-view-js-extra">
+/* <![CDATA[ */
+var gvGlobals = {"cookiepath":"/","clear":"Clear","reset":"Reset"};
+//# sourceURL=gravityview-fe-view-js-extra
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.tcsg.edu/wp-content/plugins/gravityview/assets/js/fe-views.min.js" id="gravityview-fe-view-js"></script>
+<script type="text/javascript" src="https://www.tcsg.edu/wp-includes/js/jquery/ui/core.min.js" id="jquery-ui-core-js"></script>
+<script type="text/javascript" src="https://www.tcsg.edu/wp-includes/js/jquery/ui/mouse.min.js" id="jquery-ui-mouse-js"></script>
+<script type="text/javascript" src="https://www.tcsg.edu/wp-includes/js/jquery/ui/sortable.min.js" id="jquery-ui-sortable-js"></script>
+<script type="text/javascript" src="https://www.tcsg.edu/wp-includes/js/jquery/jquery.ui.touch-punch.js" id="jquery-touch-punch-js"></script>
+<script type="text/javascript" src="https://www.tcsg.edu/wp-content/plugins/gravityformssurvey/js/gsurvey.min.js" id="gsurvey_js-js"></script>
+<script type="text/javascript" src="https://www.tcsg.edu/wp-content/plugins/gravityview-inline-edit/bower_components/bootstrap-sass/assets/javascripts/bootstrap.min.js" id="gv-bootstrap-js"></script>
+<script type="text/javascript" src="https://www.tcsg.edu/wp-content/plugins/gravityview-inline-edit/bower_components/x-editable/dist/bootstrap3-editable/js/bootstrap-editable.js" id="bootstrap3-editable-js"></script>
+<script type="text/javascript" src="https://www.tcsg.edu/wp-content/plugins/gravityview-inline-edit/assets/js/fields/gvutils.min.js" id="gv-inline-edit-gvutils-js"></script>
+<script type="text/javascript" src="https://www.tcsg.edu/wp-content/plugins/gravityview-inline-edit/assets/js/fields/number.min.js" id="gv-inline-edit-number-js"></script>
+<script type="text/javascript" src="https://www.tcsg.edu/wp-content/plugins/new-royalslider/lib/royalslider/jquery.royalslider.min.js" id="new-royalslider-main-js-js"></script>
+<script type="text/javascript" src="https://www.tcsg.edu/wp-content/plugins/pdf-print/js/html2canvas.js" id="html2canvas.js-js"></script>
+<script type="text/javascript" src="https://www.tcsg.edu/wp-content/plugins/pdf-print/js/jspdf.js" id="jspdf.js-js"></script>
+<script type="text/javascript" id="pdfprnt_front_script-js-extra">
+/* <![CDATA[ */
+var pdfprnt_file_settings = {"margin_left":"15","margin_right":"15","margin_top":"16","margin_bottom":"16","page_size":"A4","file_action":"open","file_name":"WARN Public View","hide_classes":""};
+//# sourceURL=pdfprnt_front_script-js-extra
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.tcsg.edu/wp-content/plugins/pdf-print/js/front-script.js" id="pdfprnt_front_script-js"></script>
+<script id="wp-emoji-settings" type="application/json">
+{"baseUrl":"https://s.w.org/images/core/emoji/17.0.2/72x72/","ext":".png","svgUrl":"https://s.w.org/images/core/emoji/17.0.2/svg/","svgExt":".svg","source":{"concatemoji":"https://www.tcsg.edu/wp-includes/js/wp-emoji-release.min.js"}}
+</script>
+<script type="module">
+/* <![CDATA[ */
+/*! This file is auto-generated */
+const a=JSON.parse(document.getElementById("wp-emoji-settings").textContent),o=(window._wpemojiSettings=a,"wpEmojiSettingsSupports"),s=["flag","emoji"];function i(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function c(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0);const a=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);return t.every((e,t)=>e===a[t])}function p(e,t){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var n=e.getImageData(16,16,1,1);for(let e=0;e<n.data.length;e++)if(0!==n.data[e])return!1;return!0}function u(e,t,n,a){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\udde8\ud83c\uddf6","\ud83c\udde8\u200b\ud83c\uddf6")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!a(e,"\ud83e\u1fac8")}return!1}function f(e,t,n,a){let r;const o=(r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):document.createElement("canvas")).getContext("2d",{willReadFrequently:!0}),s=(o.textBaseline="top",o.font="600 32px Arial",{});return e.forEach(e=>{s[e]=t(o,e,n,a)}),s}function r(e){var t=document.createElement("script");t.src=e,t.defer=!0,document.head.appendChild(t)}a.supports={everything:!0,everythingExceptFlag:!0},new Promise(t=>{let n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),c.toString(),p.toString()].join(",")+"));",a=new Blob([e],{type:"text/javascript"});const r=new Worker(URL.createObjectURL(a),{name:"wpTestEmojiSupports"});return void(r.onmessage=e=>{i(n=e.data),r.terminate(),t(n)})}catch(e){}i(n=f(s,u,c,p))}t(n)}).then(e=>{for(const n in e)a.supports[n]=e[n],a.supports.everything=a.supports.everything&&a.supports[n],"flag"!==n&&(a.supports.everythingExceptFlag=a.supports.everythingExceptFlag&&a.supports[n]);var t;a.supports.everythingExceptFlag=a.supports.everythingExceptFlag&&!a.supports.flag,a.supports.everything||((t=a.source||{}).concatemoji?r(t.concatemoji):t.wpemoji&&t.twemoji&&(r(t.twemoji),r(t.wpemoji)))});
+//# sourceURL=https://www.tcsg.edu/wp-includes/js/wp-emoji-loader.min.js
+/* ]]> */
+</script>
+<script id='edullaChatScript' type='text/javascript' src='https://bot.app.edulla.ai/injectchat.js?tid=tcsg'></script>
+</body>
+</html>
+<!-- Cached by WP-Optimize - https://teamupdraft.com/wp-optimize/ - Last modified: December 23, 2025 3:06 pm (America/New_York UTC:-4) -->
