@@ -18,11 +18,17 @@ jobs:
         with:
           fetch-depth: 0
 
-      - id: install-python
-        name: Install Python
+      - id: install-python3_9
+        name: Install Python 3.9
         uses: actions/setup-python@v5
         with:
           python-version: '3.9'
+
+      - id: install-python3_14
+        name: Install Python 3.14
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.14'
 
       - id: auth-gcloud
         name: Authenticate with Google Cloud
