@@ -181,4 +181,4 @@ jobs:
 
       - name: Send alert
         # run: warn-bot
-        run: pipenv run python3 -m warn_bot.cli
+        run: python3 -m warn_bot.cli
