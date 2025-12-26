@@ -180,4 +180,5 @@ jobs:
             GOOGLE_APPLICATION_CREDENTIALS: ${{ steps.auth-gcloud.outputs.credentials_file_path }}
 
       - name: Send alert
-        run: warn-bot
+        # run: warn-bot
+        run: pipenv run python3 -m warn_bot.cli
