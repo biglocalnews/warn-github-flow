@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "7d7723eaed2c21c892f45fc17de27115feed9ad63ba8cf11a56b2c7d4901efb4"
+            "sha256": "f8de0dc59fc8e42bfa3cc6fc446fe0e64ac95747c078f9eb572c75d2dcf5c4f1"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -468,11 +468,11 @@
         },
         "marshmallow": {
             "hashes": [
-                "sha256:3350409f20a70a7e4e11a27661187b77cdcaeb20abca41c1454fe33636bea09c",
-                "sha256:e6d8affb6cb61d39d26402096dc0aee12d5a26d490a121f118d2e81dc0719dc6"
+                "sha256:083f250643d2e75fd363f256aeb6b1af369a7513ad37647ce4a601f6966e3ba5",
+                "sha256:a8cfa18bd8d0e5f7339e734edf84815fe8db1bdb57358c7ccc05472b746eeadc"
             ],
-            "markers": "python_version >= '3.9'",
-            "version": "==3.26.1"
+            "markers": "python_version >= '3.10'",
+            "version": "==4.1.2"
         },
         "openpyxl": {
             "hashes": [
@@ -720,11 +720,11 @@
         },
         "soupsieve": {
             "hashes": [
-                "sha256:0cc76456a30e20f5d7f2e14a98a4ae2ee4e5abdc7c5ea0aafe795f344bc7984c",
-                "sha256:e2dd4a40a628cb5f28f6d4b0db8800b8f581b65bb380b97de22ba5ca8d72572f"
+                "sha256:4cf733bc50fa805f5df4b8ef4740fc0e0fa6218cf3006269afd3f9d6d80fd350",
+                "sha256:a11fe2a6f3d76ab3cf2de04eb339c1be5b506a8a47f2ceb6d139803177f85434"
             ],
             "markers": "python_version >= '3.9'",
-            "version": "==2.8"
+            "version": "==2.8.1"
         },
         "stealthenium": {
             "hashes": [
@@ -779,19 +779,19 @@
         },
         "warn-scraper": {
             "hashes": [
-                "sha256:a880f5c54e73b727f1151725e7c4ad94b0e741b3a8f556ce82b3fe51b40b9eb6",
-                "sha256:d9a3c1e188c792822fb7a4d4785a715cda5e769d6660a9d45921076eb81cf85d"
+                "sha256:751d6d8a66e9b7f6fe474af0150f6d327c9581111085e88a08667e7fbd28c21c",
+                "sha256:ba133ddd8fde36e366073fae52b88ab6847fce061a0bb39dad2db8ff479e4606"
             ],
             "index": "pypi",
-            "version": "==1.2.126"
+            "version": "==1.2.128"
         },
         "warn-transformer": {
             "hashes": [
-                "sha256:3d5a9c646d09c74ed60958ea5750986c47f36ae350bfe986a8ae107c18beec98",
-                "sha256:66dc3bc9fb510c63b1f69480d101266c355704301ca9f19e31eb71ec893a5133"
+                "sha256:56b733059d897a7d9edbeab5c5fa9c9ca7b378f7f783b783f0a0135476317aa2",
+                "sha256:c1c5490da94c1f6198f218c245b4214948026439cdfbcf55459a84852fcea1d6"
             ],
             "index": "pypi",
-            "version": "==1.3.306"
+            "version": "==1.3.311"
         },
         "webdriver-manager": {
             "hashes": [
