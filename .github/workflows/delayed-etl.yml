@@ -1,0 +1,15 @@
+name: Pause then ETL
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Wait for 2 minutes
+        run: sleep 120
+
+      - name: Run ETL
+        uses: ./etl.yml
+
