@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "3161982f15bd889a34b2a3ad0081ed22d5af215fbe8f814973dfdebaba495ad8"
+            "sha256": "8bffaa46b07eaf98c10ba7ab59341260a07c1f9c54036ea105a386e8cb2c8177"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -468,11 +468,11 @@
         },
         "marshmallow": {
             "hashes": [
-                "sha256:3350409f20a70a7e4e11a27661187b77cdcaeb20abca41c1454fe33636bea09c",
-                "sha256:e6d8affb6cb61d39d26402096dc0aee12d5a26d490a121f118d2e81dc0719dc6"
+                "sha256:083f250643d2e75fd363f256aeb6b1af369a7513ad37647ce4a601f6966e3ba5",
+                "sha256:a8cfa18bd8d0e5f7339e734edf84815fe8db1bdb57358c7ccc05472b746eeadc"
             ],
-            "markers": "python_version >= '3.9'",
-            "version": "==3.26.1"
+            "markers": "python_version >= '3.10'",
+            "version": "==4.1.2"
         },
         "openpyxl": {
             "hashes": [
@@ -779,19 +779,20 @@
         },
         "warn-scraper": {
             "hashes": [
-                "sha256:243aae978cc0f10cfb82a3ebb6bdc36b76b82c6bcc17b262fa02caad11f977db",
-                "sha256:feebeb3a96f47e9a09f5c7a8ad5f96a31b7c13cb4fd334a24e070502296f0ec0"
+                "sha256:751d6d8a66e9b7f6fe474af0150f6d327c9581111085e88a08667e7fbd28c21c",
+                "sha256:ba133ddd8fde36e366073fae52b88ab6847fce061a0bb39dad2db8ff479e4606"
             ],
             "index": "pypi",
-            "version": "==1.2.127"
+            "version": "==1.2.128"
         },
         "warn-transformer": {
             "hashes": [
-                "sha256:52b3cfb1e04c2050208fd87555e58338315d6e031e9c202b4766ee15dab52e68",
-                "sha256:f344a74071f76a7691237aea028c90d454a5483141fe6d23476e79077b2e185a"
+                "sha256:4dcf81363942e2308ed0caed7d33f9c1cb5040e207e177c139dda7395a546f60",
+                "sha256:eccf3a9ebc69f36a1bc9bfae7f41c88db6be92df69a9e062d60e876a7192b159"
             ],
             "index": "pypi",
-            "version": "==1.3.308"
+            "markers": "python_version >= '3.10'",
+            "version": "==1.3.314"
         },
         "webdriver-manager": {
             "hashes": [
