@@ -20,23 +20,23 @@ runs:
         shell: bash
 
       - name: Download files
-        run: pipenv run python3 -m warn_transformer.cli download -l DEBUG
-        # run: pipenv run warn-transformer download -l DEBUG
+        # run: pipenv run python3 -m warn_transformer.cli download -l DEBUG
+        run: pipenv run warn-transformer download -l DEBUG
         env:
             BLN_API_TOKEN: ${{ inputs.bln-api-key }}
             WARN_TRANSFORMER_OUTPUT_DIR: ./data/warn-transformer/
         shell: bash
 
       - name: Consolidate files
-        run: pipenv run python3 -m warn_transformer.cli consolidate -l DEBUG
-        # run: pipenv run warn-transformer consolidate -l DEBUG
+        # run: pipenv run python3 -m warn_transformer.cli consolidate -l DEBUG
+        run: pipenv run warn-transformer consolidate -l DEBUG
         env:
             WARN_TRANSFORMER_OUTPUT_DIR: ./data/warn-transformer/
         shell: bash
 
       - name: Integrate files
-        run: pipenv run python3 -m warn_transformer.cli integrate -l DEBUG
-        # run: pipenv run warn-transformer integrate -l DEBUG
+        # run: pipenv run python3 -m warn_transformer.cli integrate -l DEBUG
+        run: pipenv run warn-transformer integrate -l DEBUG
         env:
             WARN_TRANSFORMER_OUTPUT_DIR: ./data/warn-transformer/
         shell: bash
