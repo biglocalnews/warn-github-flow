@@ -147,12 +147,6 @@ jobs:
         with:
           fetch-depth: 0
 
-#      - id: install-python3_9
-#        name: Install Python 3.9
-#        uses: actions/setup-python@v5
-#        with:
-#          python-version: '3.9'
-
       - id: install-python3_14
         name: Install Python 3.14
         uses: actions/setup-python@v6
@@ -174,11 +168,11 @@ jobs:
         shell: bash
 
       - name: Install private dependencies
-        run: pip install warn-bot==0.1.55 -vv --index-url https://us-west2-python.pkg.dev/big-local-news-267923/warn-bot/simple/ --extra-index-url https://pypi.org/simple/
+        run: pip install warn-bot==0.1.56 -vv --index-url https://us-west2-python.pkg.dev/big-local-news-267923/warn-bot/simple/ --extra-index-url https://pypi.org/simple/
         shell: bash
         env:
             GOOGLE_APPLICATION_CREDENTIALS: ${{ steps.auth-gcloud.outputs.credentials_file_path }}
 
       - name: Send alert
-        # run: warn-bot
-        run: python3 -m warn_bot.cli
+        run: warn-bot
+        # run: python3 -m warn_bot.cli
