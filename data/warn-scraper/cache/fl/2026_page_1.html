@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>React System</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="/Content/Site.css" rel="stylesheet" type="text/css" />
+    <link href="/Content/bootstrap.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.6/moment.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="/Scripts/jquery-3.3.1.min.js"></script>
+    <script src="/Scripts/jquery.validate.min.js"></script>
+    <script src="/Scripts/jquery.validate.unobtrusive.js"></script>
+
+
+</head>
+<body>
+    <!-- Header-->
+    <div class="px-home-header-Image px-home-header">
+
+    </div>
+    <div class="px-nav-bar-header">
+        <ul class="top-nav-bar">
+            
+        </ul>
+    </div>
+
+    <!-- Body and Footer -->
+    <div class="page">
+        <header>
+            <div class="siteTitle">Rapid Response System</div>
+        </header>
+        <section id="mainBody">
+            
+<head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="/Content/Site.css" rel="stylesheet" type="text/css" />
+    <link href="/Content/bootstrap.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.6/moment.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="/Scripts/jquery-3.3.1.min.js"></script>
+    <script src="/Scripts/jquery.validate.min.js"></script>
+
+</head>
+
+<br />
+<p align="center">
+    <font face="Arial Black" size="6">
+        2026 Worker Adjustment and Retraining Notification Notices
+    </font>
+</p>
+<br />
+
+<form action="/WarnList/Records" method="post">    <div class="container-fluid">
+        <div class="container">
+            <div class="panel panel-default" style="text-align: left">
+                <div class="panel-heading">
+                    <h3>Search</h3>
+                </div>
+
+                <div class="panel-body">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2  editor-label" style="text-align: right">
+                            <label for="CompanyName">Company Name</label>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2 editor-field" style="text-align: left">
+                            <input class="text-box single-line" id="CompanyName" name="CompanyName" type="text" value="" />
+                            <input id="CompanyName" name="CompanyName" type="hidden" value="" />
+                            <input data-val="true" data-val-number="The field Year must be a number." data-val-required="The Year field is required." id="Year" name="Year" type="hidden" value="2026" year="2026" />
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2  editor-label" style="text-align: right">
+                            <label for="LWDB">LWDB</label>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2 editor-field" style="text-align: left">
+                            <input class="text-box single-line" id="LWDB" name="LWDB" type="text" value="" />
+                            <input id="LWDB" name="LWDB" type="hidden" value="" />
+                        </div>
+                    </div>
+
+
+                    <br />
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="text-align: center">
+                            <button class="btn btn-primary" type="submit">Search</button>
+                            <input type="submit" value="Clear" class="btn btn-primary" id="btnClear" name="clearButton" />
+                        </div>
+                    </div>
+                </div>
+                <br />
+
+                <div id="DivGrid" style="text-align:center;">
+                            <div style="text-align:left;"><strong></strong> | 14 <label for="Record_s__found">Record(s) found</label></div>
+    <table class="PGrid" id="DataTable">
+    <thead>
+        <tr class="Header">
+            <th scope="col">
+<a href="/WarnList/Records?year=2026&amp;sort=CompanyName&amp;sortdir=ASC">Company Name</a>            </th>
+            <th scope="col">
+<a href="/WarnList/Records?year=2026&amp;sort=WARNReceivedByStateDate&amp;sortdir=ASC">State Notification Date</a>            </th>
+            <th scope="col">
+<a href="/WarnList/Records?year=2026&amp;sort=LayOffDate&amp;sortdir=ASC">Layoff Date</a>            </th>
+            <th scope="col">
+<a href="/WarnList/Records?year=2026&amp;sort=EmpAffected&amp;sortdir=ASC">Employees Affected</a>            </th>
+            <th scope="col">
+<a href="/WarnList/Records?year=2026&amp;sort=Industry&amp;sortdir=ASC">Industry</a>            </th>
+            <th scope="col">
+<a href="/WarnList/Records?year=2026&amp;sort=Attachment&amp;sortdir=ASC">Attachment</a>            </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><b>SMBC MANUBANK</b> </br>Ponte Vedra</br>515 South Figueroa Street Los Angeles, CA 90071</br>PONTE VEDRA BEACH, FL, 32082</td>
+            <td>01-08-26</td>
+            <td>03-10-26</br><i> thru </i> </br>03-10-26</td>
+            <td>1</td>
+            <td>Finance and Insurance</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(0);' /><input type = 'hidden' id = 'FPath0' name = 'FPath0' value = 'SMBC+MANUBANK.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>SMBC MANUBANK</b> </br>Jacksonville</br>515 South Figueroa Street Los Angeles, CA 90071</br>JACKSONVILLE, FL, 32099</td>
+            <td>01-08-26</td>
+            <td>03-10-26</br><i> thru </i> </br>03-10-26</td>
+            <td>4</td>
+            <td>Finance and Insurance</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(1);' /><input type = 'hidden' id = 'FPath1' name = 'FPath1' value = 'SMBC+MANUBANK.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>SMBC MANUBANK</b> </br>Land O Lakes</br>515 South Figueroa Street Los Angeles, CA 90071</br>LAND O LAKES, FL, 33599</td>
+            <td>01-08-26</td>
+            <td>03-10-26</br><i> thru </i> </br>03-10-26</td>
+            <td>1</td>
+            <td>Finance and Insurance</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(2);' /><input type = 'hidden' id = 'FPath2' name = 'FPath2' value = 'SMBC+MANUBANK.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>SMBC MANUBANK</b> </br>Fort Myers</br>515 South Figueroa Street Los Angeles, CA 90071</br>FORT MYERS, FL, 33901</td>
+            <td>01-08-26</td>
+            <td>03-10-26</br><i> thru </i> </br>03-10-26</td>
+            <td>1</td>
+            <td>Finance and Insurance</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(3);' /><input type = 'hidden' id = 'FPath3' name = 'FPath3' value = 'SMBC+MANUBANK.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>SMBC MANUBANK</b> </br>Marco Island</br>515 South Figueroa Street Los Angeles, CA 90071</br>MARCO ISLAND, FL, 34145</td>
+            <td>01-08-26</td>
+            <td>03-10-26</br><i> thru </i> </br>03-10-26</td>
+            <td>1</td>
+            <td>Finance and Insurance</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(4);' /><input type = 'hidden' id = 'FPath4' name = 'FPath4' value = 'SMBC+MANUBANK.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>SMBC MANUBANK</b> </br>Orlando</br>515 South Figueroa Street Los Angeles, CA 9007</br>ORLANDO, FL, 32789</td>
+            <td>01-08-26</td>
+            <td>03-10-26</br><i> thru </i> </br>03-10-26</td>
+            <td>1</td>
+            <td>Finance and Insurance</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(5);' /><input type = 'hidden' id = 'FPath5' name = 'FPath5' value = 'SMBC+MANUBANK.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>SMBC MANUBANK</b> </br>Valrico</br>515 South Figueroa Street Los Angeles, CA 90071</br>VALRICO, FL, 33527</td>
+            <td>01-08-26</td>
+            <td>03-10-26</br><i> thru </i> </br>03-10-26</td>
+            <td>1</td>
+            <td>Finance and Insurance</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(6);' /><input type = 'hidden' id = 'FPath6' name = 'FPath6' value = 'SMBC+MANUBANK.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>SMBC MANUBANK</b> </br>Indialantic</br>515 South Figueroa Street Los Angeles, CA 90071</br>INDIALANTIC, FL, 32903</td>
+            <td>01-08-26</td>
+            <td>03-10-26</br><i> thru </i> </br>03-10-26</td>
+            <td>1</td>
+            <td>Finance and Insurance</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(7);' /><input type = 'hidden' id = 'FPath7' name = 'FPath7' value = 'SMBC+MANUBANK.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>SMBC MANUBANK</b> </br>Bradenton</br>515 South Figueroa Street Los Angeles, CA 90071</br>BRADENTON, FL, 34207</td>
+            <td>01-08-26</td>
+            <td>03-10-26</br><i> thru </i> </br>03-10-26</td>
+            <td>1</td>
+            <td>Finance and Insurance</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(8);' /><input type = 'hidden' id = 'FPath8' name = 'FPath8' value = 'SMBC+MANUBANK.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>SMBC MANUBANK</b> </br>Miami</br>515 South Figueroa Street Los Angeles, CA 90071</br>MIAMI, FL, 33101</td>
+            <td>01-08-26</td>
+            <td>03-10-26</br><i> thru </i> </br>03-10-26</td>
+            <td>1</td>
+            <td>Finance and Insurance</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(9);' /><input type = 'hidden' id = 'FPath9' name = 'FPath9' value = 'SMBC+MANUBANK.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>SMBC MANUBANK</b> </br>Bonita Springs</br>515 South Figueroa Street Los Angeles, CA 90071</br>BONITA SPRINGS, FL, 33931</td>
+            <td>01-08-26</td>
+            <td>03-10-26</br><i> thru </i> </br>03-10-26</td>
+            <td>1</td>
+            <td>Finance and Insurance</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(10);' /><input type = 'hidden' id = 'FPath10' name = 'FPath10' value = 'SMBC+MANUBANK.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>Chemours</b> </br>7775 South CR 228</br></br>MACCLENNY, FL, 32063</td>
+            <td>01-05-26</td>
+            <td>03-06-26</br><i> thru </i> </br>03-06-26</td>
+            <td>19</td>
+            <td>Mining</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(11);' /><input type = 'hidden' id = 'FPath11' name = 'FPath11' value = 'Chemours.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>Chemours</b> </br>Starke Site 5222 Treat Road</br></br>STARKE, FL, 32091</td>
+            <td>01-05-26</td>
+            <td>03-06-26</br><i> thru </i> </br>03-06-26</td>
+            <td>12</td>
+            <td>Mining</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(12);' /><input type = 'hidden' id = 'FPath12' name = 'FPath12' value = 'Chemours.pdf' /></td>
+        </tr>
+        <tr>
+            <td><b>Chemours</b> </br>Trail Ridge South Mine 5222 Treat Road,</br></br>STARKE, FL, 32063</td>
+            <td>01-05-26</td>
+            <td>03-06-26</br><i> thru </i> </br>03-06-26</td>
+            <td>44</td>
+            <td>Mining</td>
+            <td><input type='button' id='download' value='Download' onclick='DownloadFile(13);' /><input type = 'hidden' id = 'FPath13' name = 'FPath13' value = 'Chemours.pdf' /></td>
+        </tr>
+    </tbody>
+    </table>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+</form><script type="text/javascript">
+    function DownloadFile(fileNo) {
+
+        var FileNumber = "FPath" + fileNo;
+        var fileName = $('input[name="'+FileNumber+'"]').val();
+        var filedata = new FormData();
+        //alert(fileName);
+        filedata.append("file", fileName);
+
+        $.ajax({
+            url: '/WarnList/Download',
+            type: "POST",
+            contentType: false,
+            processData: false,
+            data: filedata,
+            success: function (successValue)
+            {
+                //alert(successValue.responseText);
+                //alert(successValue.exactFileName);
+
+                if (successValue.success) {
+                    window.location = '/WarnList/DownloadAzureFile?file=' + successValue.exactFileName;
+                }
+                else {
+                    alert(successValue.responseText);
+                }
+            }
+        });
+    }
+</script>
+
+        </section>
+    </div>
+    <br />
+    <br />
+    <div>
+        <footer>
+            <div style="height: 70px; width: 100%; background-color: #202452; position:fixed; bottom: 0;">
+    <div style="background: #202452;">
+        <div class="row">
+            <div class="col-md-12">
+                <img src="/Content/Image/floridacommerce-appfooter.jpg" /><br />
+            </div>
+        </div>
+    </div>
+</div>
+
+   
+        </footer>
+    </div>
+</body>
+</html>
+<script type="text/javascript">
+    $(function () {
+        $.ajaxSetup({
+            // ajaxSetup code here...
+        })
+        // Set the focus to the first textbox on every form in the app
+
+        $("input[type=text]").first().focus();
+    });
+</script>
