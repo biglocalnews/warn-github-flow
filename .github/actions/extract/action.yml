@@ -29,10 +29,6 @@ runs:
         run: pipenv install pyquery==2.0.1
         shell: bash
 
-      - name: List installed pip entries
-        run: pipenv run pip show pyquery
-        shell: bash
-      
       - name: Run scrapers
         env:
           WARN_OUTPUT_DIR: ./data/warn-scraper/
@@ -47,7 +43,7 @@ runs:
           file_pattern: ./data/warn-scraper/*
  
       - name: Upload file to biglocalnews.org
-        uses: biglocalnews/upload-files@v5
+        uses: biglocalnews/upload-files@v6
         with:
           api-key: ${{ inputs.bln-api-key }}
           project-id: ${{ inputs.bln-project-id }}
