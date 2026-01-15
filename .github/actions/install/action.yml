@@ -3,7 +3,7 @@ runs:
     steps:
       - id: disable-man-pages
         name: Disable man pages
-        run: sudo rm /var/lib/man-db/auto-update
+        run: sudo rm /var/lib/man-db/auto-update || echo "No auto-update found"
         shell: bash
         
       - id: install-display-system
@@ -16,11 +16,18 @@ runs:
         run: pipx install pipenv
         shell: bash
 
-      - id: install-python
-        name: Install Python
-        uses: actions/setup-python@v5
+#      - id: install-python3_9
+#        name: Install Python 3.9
+#        uses: actions/setup-python@v5
+#        with:
+#          python-version: '3.9'
+#          cache: 'pipenv'
+
+      - id: install-python3_14
+        name: Install Python 3.14
+        uses: actions/setup-python@v6
         with:
-          python-version: '3.9'
+          python-version: '3.14'
           cache: 'pipenv'
 
       - id: install-python-dependencies

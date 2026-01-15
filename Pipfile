@@ -5,13 +5,12 @@ name = "pypi"
 
 [packages]
 et-xmlfile = "*"
-marshmallow = "==3.26.1"            # Pinned to avoid warn-transformer problem with v4.0.0
-bln = "==2.3.12"
-warn-scraper = "==1.2.123"
-warn-transformer = "==1.3.288"
+bln = "==2.3.14"
+warn-scraper = "==1.2.132"
+warn-transformer = "==1.3.322"
 
 [dev-packages]
 pytest = "*"
 
 [requires]
-python_version = "3.9"
+python_version = "3.14"
