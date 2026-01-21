@@ -42,91 +42,7 @@
     mdgovConfig and mdgov_widgetOptions. These globals must be declared prior to loading template
     modules and EWF widgets.
 -->
-
-<script>
-
-    /* Global template JS module configuration */
-    var mdgovConfig = {
-        debug: false,
-        imageGrid: {
-            autoPlay: true
-        }
-    };
-</script>
-
-    
-
-    <!--
-        Enterprise Widget Framework (EWF) main script. Load widgets by appending their name[-version] string
-        to the "api?load=" parameter.
-    -->
-    
-        <script>
-            /*
-            * Global EWF configuration
-            * Documentation: https://egov.maryland.gov/doit/ewf/userdocs/
-            */
-            var mdgov_widgetOptions = {
-                /* https://egov.maryland.gov/doit/ewf/userdocs/widgets/analytics.aspx */
-                // REPLACE this with your own Google Analytics information or REMOVE object.
-                analytics: {
-                    // Google analytics property ID.
-                    gaPropertyId: "UA-124184430-4",
-                    // Used to uniquely identify site within GA
-                    analyticsIdentifier: "AgencyTemplate"
-                },
-                /* https://egov.maryland.gov/doit/ewf/userdocs/widgets/services.aspx */
-                services: {
-                    // filter object may contain ageny, category, keywords or all filters
-                    filter: {
-                        agency: 144  // MVA
-                    },
-                    // When filtering for services related to another, if all services have some common keywords, then all would be related.
-                    // Use relatedExcludeFilters to define a list of keywords that may be common across all services.
-                    relatedExcludeFilters: [
-                        'mva',
-                        'motor vehicle',
-                        'motor vehicle administration',
-                        'Maryland MVA',
-                        'maryland motor vehicle administration',
-                        'Online Service'
-                    ],
-                    // Debug set to true will output data to see what filters are doing.
-                    debug: false,
-                    // Show what data was used to match relationships between services when filtering by related
-                    showRelatedCompareData: true
-                },
-                /* https://egov.maryland.gov/doit/ewf/userdocs/widgets/nearyou.aspx */
-                nearyou: {
-                    // The DOM element the widget will be injected into.
-                    // Must already exist before the widget is loaded and injection is attempted.
-                    containerSelector: "#nearyou",
-                    // Map layers you want to load for your map. Use camelCase map layer IDs for the key
-                    // and the name can be anything you like.
-                    mapLayers: [
-                        { key: "stateAgencies", name: "State Agencies" },
-                        { key: "stateJobs", name: "State Jobs" },
-                        { key: "stateParks", name: "State Parks" }
-                        // Optionally pass a (icon: "//www.example.com/myIcon.png") property
-                        // to change the map layer's default icon
-                    ],
-                    mapLayersMenuStyle: 'legend',
-                    mapLayersMenuCaption: 'Legend',
-                    // Default datasets to fetch data for and plot on the map.
-                    defaultDataSets: [
-                        "stateAgencies",
-                        "stateParks",
-                        "stateJobs"
-                    ],
-                    // Toogle plotting defaultDataSets on page load
-                    plotDefaultData: true,
-                    // Show or hide the map disabled overlay
-                    showOverlay: false
-                }
-            };
-        </script>
-
-    
+  
         <script src="https://egov.maryland.gov/doit/ewf/ewf.js" data-main="https://egov.maryland.gov/doit/ewf/api?load=slidenav,header-2,translate-2,footer"></script>
 		<!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-0YC16CCD4X"></script>
@@ -152,7 +68,6 @@
             <a href="http://www.maryland.gov/pages/accessibility.aspx" class="sr-only sr-only-focusable show-on-focus" target="_blank">Accessibility Information</a>
         </div>
 
-        
 
 <!-- 
     Notifications Container. May pre-populate with notifications for server-side generation.
