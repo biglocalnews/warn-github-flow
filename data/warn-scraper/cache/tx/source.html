@@ -2283,39 +2283,28 @@
       
 
             <div class="field field--name-body field--type-text-with-summary field--label-hidden field__item"><div style="bottom:20px;font-family:sans-serif;position:fixed;right:20px;z-index:9999;" id="copilot-container"><!-- Chat Window --><div style="background-color:#ffffff;border-radius:12px;border:1px solid #ddd;box-shadow:0 10px 50px rgba(0,0,0,0.2);display:none;flex-direction:column;height:675px !important;max-height:80vh;min-height:300px !important;overflow:hidden;width:400px !important;" id="copilot-window" role="dialog" aria-modal="false" aria-label="Larry, the Texas Workforce Commission virtual assistant"><!-- Header --><div style="align-items:center;background-color:#063e72;color:#ffffff;display:flex;font-size:16px;justify-content:space-between;padding:12px 16px;" id="copilot-header"><!-- Left side: logo + Larry + subtitle --><div style="align-items:center;display:flex;gap:13px;"><img src="/sites/default/files/inline-images/TWC-logo-white.svg" alt="Texas Workforce Commission" width="60" height="60" loading="lazy"><div style="display:flex;flex-direction:column;line-height:1.3;" role="heading" aria-level="1"><strong style="font-size:18px;">LARRY</strong> <span style="font-size:13px;">An AI-Powered Assistant</span></div></div><!-- Close button --><p><button style="align-items:center;border-style:none;color:#ffffff;cursor:pointer;display:flex;height:30px;justify-content:center;padding:0;width:30px;" aria-label="Close chat" onclick="toggleCopilot()">
-                                                                                                                                                                                                                                                <svg width="30" height="30" viewBox="0 0 24 24" fill="#20294f" aria-hidden="true">
-                                                                                                                                                                                                                                                    <path d="M7 10l5 5 5-5H7z" />
-                                                                                                                                                                                                                                                </svg>
-                                                                                                                                                                                                                                            </button></p></div><!-- WebChat container --><div style="display:inline;flex:1 1 auto;min-height:0;" id="webchat" role="main" aria-live="polite">&nbsp;</div><div style="align-items:flex-start;background-color:#063e72;color:#fff;cursor:pointer;display:flex;font-size:11px;line-height:1.4;padding:8px 20px;" id="copilot-disclaimer-bar" role="button" tabindex="0" aria-expanded="true" aria-label="Disclaimer: Larry is an AI assistant. Click to expand or collapse."><span style="flex:1;" id="copilot-disclaimer-text"><strong>Disclaimer:</strong> I am an artificial intelligence, not a human. While I aim to be accurate, my responses are for general information only and do not constitute legal advice or binding TWC policy. Please do not share sensitive personal information such as your full Social Security number or medical details in this chat.&nbsp;</span></div></div><!-- Floating Bubble --><div style="align-items:center;background-color:#063e72;border-radius:50%;border:1px solid #ddd;box-shadow:0 4px 12px rgba(0,0,0,0.15);cursor:pointer;display:flex;height:60px;justify-content:center;margin-left:auto;transition:transform 0.2s ease;width:60px;" id="copilot-bubble" role="button" tabindex="0" aria-label="Open chat" onclick="toggleCopilot()"><svg viewBox="0 0 24 24" width="30" height="30" fill="white" aria-hidden="true"><path d="M20 2H4c-1.1 0-2 .9-2 2v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2z" /></svg></div></div><script>
+                                                                                                                                                                                                                                                                                                                                                                                <svg width="30" height="30" viewBox="0 0 24 24" fill="#20294f" aria-hidden="true">
+                                                                                                                                                                                                                                                                                                                                                                                    <path d="M7 10l5 5 5-5H7z" />
+                                                                                                                                                                                                                                                                                                                                                                                </svg>
+                                                                                                                                                                                                                                                                                                                                                                            </button></p></div><!-- WebChat container --><div style="display:inline;flex:1 1 auto;min-height:0;" id="webchat" role="main" aria-live="polite">&nbsp;</div><div style="align-items:flex-start;background-color:#063e72;color:#fff;cursor:pointer;display:flex;font-size:11px;line-height:1.4;padding:8px 20px;" id="copilot-disclaimer-bar" role="button" tabindex="0" aria-expanded="true" aria-label="Disclaimer: Larry is an AI assistant. Click to expand or collapse."><span style="flex:1;" id="copilot-disclaimer-text"><strong>Disclaimer:</strong> I am an artificial intelligence, not a human. While I aim to be accurate, my responses are for general information only and do not constitute legal advice or binding TWC policy. Please do not share sensitive personal information such as your full Social Security number or medical details in this chat.&nbsp;</span></div></div><div style="align-items:center;background-color:#063e72;border-radius:50%;border:1px solid #ddd;box-shadow:0 4px 12px rgba(0,0,0,0.15);color:white;cursor:pointer;display:flex;flex-direction:column;font-size:12px;height:80px;justify-content:center;line-height:1.1;margin-left:auto;overflow:hidden;transition:transform 0.2s ease;width:80px;" id="copilot-bubble" role="button" tabindex="0" aria-label="Open chat" onclick="toggleCopilot()"><svg style="display:block;flex-shrink:0;" viewBox="0 0 24 24" width="32" height="32" fill="white" aria-hidden="true"><path d="M20 2H4c-1.1 0-2 .9-2 2v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2z" /></svg><span style="margin-top:4px;"><strong>CHAT</strong></span></div></div><script>
 document.addEventListener("DOMContentLoaded", () => {
     const windowDiv = document.getElementById("copilot-window");
     const bubble = document.getElementById("copilot-bubble");
     windowDiv.style.display = "none";
     bubble.style.transform = "scale(1)";
-    bubble.innerHTML = `
-        <svg viewBox="0 0 24 24" width="30" height="30" fill="white">
-            <path d="M20 2H4c-1.1 0-2 .9-2 2v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2z"></path>
-        </svg>
-    `;
     window.directLine = null;
 });
-/* -----------------------------
-   Persistent Session ID
------------------------------- */
+<!-- Persistent Session ID -->
 let sessionId = sessionStorage.getItem("pva_session_id");
 if (!sessionId) {
     sessionId = "sess-" + Math.random().toString(36).substr(2, 9);
     sessionStorage.setItem("pva_session_id", sessionId);
 }
-/* -----------------------------
-   Token Endpoint
------------------------------- */
+<!-- Token Endpoint -->
 const tokenEndpoint =
     `https://8f9f8616975eeeccb17b5e7e7fc0e54.8.environment.api.gov.powerplatform.microsoft.us/` +
     `powervirtualagents/botsbyschema/cr963_carrie/directline/token?api-version=2022-03-01-preview&sessionId=${sessionId}`;
-/* -----------------------------
-   Transcript Helpers
------------------------------- */
+<!-- Transcript Helpers -->
 function loadTranscript() {
     const saved = sessionStorage.getItem("pva_transcript");
     return saved ? JSON.parse(saved) : [];
@@ -2323,33 +2312,28 @@ function loadTranscript() {
 function saveTranscript(activities) {
     sessionStorage.setItem("pva_transcript", JSON.stringify(activities));
 }
-/* -----------------------------
-   Toggle Chat Window
------------------------------- */
+<!-- Toggle Chat Window -->
 function toggleCopilot() {
     const windowDiv = document.getElementById("copilot-window");
     const bubble = document.getElementById("copilot-bubble");
-    const isHidden = windowDiv.style.display === "none" || windowDiv.style.display === "";
+    const isHidden =
+        windowDiv.style.display === "none" ||
+        windowDiv.style.display === "";
     if (isHidden) {
+        // OPEN CHAT WINDOW
         windowDiv.style.display = "flex";
-        requestAnimationFrame(() => windowDiv.classList.add("open"));
+        requestAnimationFrame(() => {
+            windowDiv.classList.add("open");
+        });
+        // Hide bubble visually (but keep DOM intact)
         bubble.style.display = "none";
         bubble.style.transform = "scale(0.8)";
-        bubble.innerHTML = `
-            <svg viewBox="0 0 24 24" width="30" height="30" fill="white">
-                <path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 
-                         10.59 12 5 17.59 6.41 19 12 13.41 
-                         17.59 19 19 17.59 13.41 12z"/>
-            </svg>
-        `;
+        // Initialize WebChat if needed
         if (typeof WebChat !== "undefined" && !window.directLine) {
             initLarryCopilot();
         }
-        /* -----------------------------------------
-           ACCESSIBILITY: Move focus into the chat
-        ------------------------------------------ */
+        // Move focus into the chat (send box)
         setTimeout(() => {
-            // Web Chat renders asynchronously, so we query after a delay
             const sendBoxInput = document.querySelector('#webchat input[type="text"]');
             if (sendBoxInput) {
                 sendBoxInput.focus();
@@ -2359,33 +2343,23 @@ function toggleCopilot() {
             }
         }, 300);
     } else {
+        // CLOSE CHAT WINDOW
         windowDiv.classList.remove("open");
         setTimeout(() => {
             windowDiv.style.display = "none";
+            // Restore bubble
             bubble.style.display = "flex";
             bubble.style.transform = "scale(1)";
-            bubble.innerHTML = `
-                <svg viewBox="0 0 24 24" width="30" height="30" fill="white">
-                    <path d="M20 2H4c-1.1 0-2 .9-2 2v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2z"></path>
-                </svg>
-            `;
-            /* -----------------------------------------
-               ACCESSIBILITY: Return focus to bubble
-            ------------------------------------------ */
+            // Return focus to bubble for accessibility
             bubble.focus();
         }, 250);
     }
 }
-/* -----------------------------
-   Global store reference
------------------------------- */
+<!-- Global store reference -->
 window.webchatStore = null;
-/* -----------------------------
-   Initialize WebChat
------------------------------- */
+<!-- Initialize WebChat -->
 async function initLarryCopilot() {
     try {
-        console.log("Fetching token…");
         const controller = new AbortController();
         setTimeout(() => controller.abort(), 8000);
         const res = await fetch(tokenEndpoint, { signal: controller.signal });
@@ -2406,21 +2380,16 @@ async function initLarryCopilot() {
             hideUploadButton: true
         };
         window.directLine = WebChat.createDirectLine({ token });
-        /* -----------------------------
-           Store with Transcript + Attachment Blocking + Suggested Prompts
-        ------------------------------ */
+          <!-- Store with Transcript + Attachment Blocking + Suggested Prompts -->
         const store = WebChat.createStore(
             {},
             ({ dispatch, getState }) => next => action => {
                 if (action.type === "WEB_CHAT/SEND_FILES") {
-                    console.warn("Attachment upload blocked by security policy.");
                     return;
                 }
                 if (action.type === "DIRECT_LINE/INCOMING_ACTIVITY") {
                 const activity = action.payload?.activity;
-                console.log("INCOMING ACTIVITY:", activity);
                 if (activity?.suggestedActions?.actions?.length) {
-                    console.log("🔥 Captured suggested actions from bot:", activity.suggestedActions);
                     sessionStorage.setItem(
                         "pva_suggested_actions",
                         JSON.stringify(activity.suggestedActions)
@@ -2444,9 +2413,7 @@ async function initLarryCopilot() {
             }
         );
         window.webchatStore = store;
-        /* -----------------------------
-           Render WebChat
-        ------------------------------ */
+          <!-- Render WebChat -->
         WebChat.renderWebChat(
             {
                 directLine: window.directLine,
@@ -2460,10 +2427,7 @@ async function initLarryCopilot() {
             },
             document.getElementById("webchat")
         );
-        console.log("Chat rendered");
-        /* -----------------------------
-           Replay Transcript
-        ------------------------------ */
+          <!-- Replay Transcript -->
         const transcript = loadTranscript();
         transcript.forEach(activity => {
             store.dispatch({
@@ -2471,11 +2435,7 @@ async function initLarryCopilot() {
                 payload: { activity }
             });
         });
-        console.log("📄 Transcript after replay:", transcript);
-        console.log("📦 Stored suggestions BEFORE restore:", sessionStorage.getItem("pva_suggested_actions"));
-        /* ---------------------------------------------------------
-           Capture suggestions from transcript if missing
-        --------------------------------------------------------- */
+          <!-- Capture suggestions from transcript if missing -->
         if (!sessionStorage.getItem("pva_suggested_actions")) {
             const welcome = transcript.find(
                 a => a.suggestedActions && a.suggestedActions.actions?.length
@@ -2487,9 +2447,7 @@ async function initLarryCopilot() {
                 );
             }
         }
-       /* -----------------------------
-        Restore Suggested Actions (Triple Delay)
-        ------------------------------ */
+    <!-- Restore Suggested Actions (Triple Delay) -->
         const storedSuggested = sessionStorage.getItem("pva_suggested_actions");
         if (storedSuggested) {
             const parsed = JSON.parse(storedSuggested);
@@ -2497,7 +2455,6 @@ async function initLarryCopilot() {
                 requestAnimationFrame(() => {
                     requestAnimationFrame(() => {
                         setTimeout(() => {
-                            console.log("Restoring suggestions after full mount:", parsed);
                             store.dispatch({
                                 type: "WEB_CHAT/SET_SUGGESTED_ACTIONS",
                                 payload: { suggestedActions: parsed }
@@ -2507,32 +2464,27 @@ async function initLarryCopilot() {
                 });
             }
         }
-        /* -----------------------------
-           Greeting Event (only once per session)
-        ------------------------------ */
+          <!-- Greeting Event (only once per session) -->
         if (!sessionStorage.getItem("pva_greeting_sent")) {
             window.directLine
                 .postActivity({ type: "event", name: "startConversation" })
-                .subscribe(() => console.log("Greeting event sent"));
+                .subscribe(() => {});
             sessionStorage.setItem("pva_greeting_sent", "true");
         }
     } catch (err) {
-        console.error("Larry init failed:", err);
         const webchatDiv = document.getElementById("webchat");
         if (webchatDiv) {
             webchatDiv.innerHTML = `
                 
 <p style="padding:20px;color:red;text-align:center;">
-                                                                                                                                                        Error: ${err.message}
-                                                                                                                                                    
+                                                                                                                                                                                        Error: ${err.message}
+                                                                                                                                                                                    
 </p>
             `;
         }
     }
 }
-/* -----------------------------
-   CSS (One‑Line‑Per‑Rule)
------------------------------- */
+<!-- CSS (One‑Line‑Per‑Rule) -->
 const style = document.createElement("style");
 style.textContent = `
 #copilot-window.open + #copilot-bubble { display:none!important; }
@@ -2576,9 +2528,7 @@ button[onclick="toggleCopilot()"]:hover { background:#e09b3a!important; }
 a[href$=".csv"], a[href$=".doc"], a[href$=".docx"], a[href$=".pdf"], a[href$=".ppt"], a[href$=".pptx"], a[href$=".xlsx"], a[href$=".zip"] { background-image:none!important; }
 `;
 document.head.appendChild(style);
-/* -----------------------------
-   Disclaimer Bar Behavior
------------------------------- */
+<!-- Disclaimer Bar Behavior -->
 document.addEventListener("DOMContentLoaded", () => {
     const bar = document.getElementById('copilot-disclaimer-bar');
     const textEl = document.getElementById('copilot-disclaimer-text');
