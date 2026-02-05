@@ -82,7 +82,7 @@
         
         
     
-<link rel="stylesheet" href="/etc/clientlibs/tncore/main.min.961e8ebe92721d320c8fae1bdac3a6d0.css" type="text/css">
+<link rel="stylesheet" href="/etc/clientlibs/tncore/main.min.6a5f9bc5f7e1682e06f5d84a64e3c88a.css" type="text/css">
 
 
         
@@ -203,7 +203,7 @@ import {loadContextActions, buildTab} from 'https://static.cloud.coveo.com/atomi
     };
 
         await searchInterface.initialize({ 
-         accessToken: "eyJhbGciOiJIUzI1NiJ9.eyJzZWFyY2hIdWIiOiJUTkdvdiIsInY4Ijp0cnVlLCJ0b2tlbklkIjoicjJnYTdxMm15cGxwYW1tbmFxc2dxM2NrdWUiLCJvcmdhbml6YXRpb24iOiJ0ZW5uZXNzZWVzdGF0ZWdvdmVybm1lbnRwcm9kdWN0aW9uNnBvNG01YjIiLCJ1c2VySWRzIjpbeyJ0eXBlIjoiVXNlciIsIm5hbWUiOiJhbm9ueW1vdXNfdXNlckBhbm9ueW1vdXMuY292ZW8uY29tIiwicHJvdmlkZXIiOiJFbWFpbCBTZWN1cml0eSBQcm92aWRlciJ9XSwicm9sZXMiOlsicXVlcnlFeGVjdXRvciJdLCJpc3MiOiJTZWFyY2hBcGkiLCJleHAiOjE3NzAzMzExNzAsImlhdCI6MTc3MDI0NDc3MH0.9Z5hk4ArfwiGnpNqMjPoqUyiMwCjgSaNArEdTvJirSw".trim(),
+         accessToken: "eyJhbGciOiJIUzI1NiJ9.eyJzZWFyY2hIdWIiOiJUTkdvdiIsInY4Ijp0cnVlLCJ0b2tlbklkIjoidjdnZHdvNjI1dnVibWRvc3p4N2dxcmNsa3UiLCJvcmdhbml6YXRpb24iOiJ0ZW5uZXNzZWVzdGF0ZWdvdmVybm1lbnRwcm9kdWN0aW9uNnBvNG01YjIiLCJ1c2VySWRzIjpbeyJ0eXBlIjoiVXNlciIsIm5hbWUiOiJhbm9ueW1vdXNfdXNlckBhbm9ueW1vdXMuY292ZW8uY29tIiwicHJvdmlkZXIiOiJFbWFpbCBTZWN1cml0eSBQcm92aWRlciJ9XSwicm9sZXMiOlsicXVlcnlFeGVjdXRvciJdLCJpc3MiOiJTZWFyY2hBcGkiLCJleHAiOjE3NzAzMzcyOTgsImlhdCI6MTc3MDI1MDg5OH0.c_UcHu6zBo35QGaR1mzWALZTxCzviukZitSLnplzquU".trim(),
          organizationId: "tennesseestategovernmentproduction6po4m5b2".trim(),
          renewAccessToken: function() {
 			location.reload();
@@ -260,12 +260,16 @@ import {loadContextActions, buildTab} from 'https://static.cloud.coveo.com/atomi
     <div class="row center-block">
         <div class="col-lg-12">
             <div class="logo-small tn-logo">
-                <a href="https://www.tn.gov/" aria-label="Go to TN.gov"><span class="visually-hidden">Go to TN.gov</span></a>
+                <a href="https://www.tn.gov/" aria-label="Go to TN.gov">
+                    <span class="visually-hidden">Go to TN.gov</span>
+                </a>
             </div>
             <div class="mobile-show icon-menu mobile-menu">Section</div>
             <ul class="inline-list nav-items">
                 <li>
-                    <a href="https://www.tn.gov/workforce.html" class="icon-home" aria-label="Go to TN.gov"><span class="visually-hidden">Go to TN Labor &amp; Workforce Development</span></a>
+                    <a href="https://www.tn.gov/workforce.html" class="icon-home" aria-label="Go to TN.gov">
+                        <span class="visually-hidden">Go to TN Labor &amp; Workforce Development</span>
+                    </a>
                 </li>
                 
                 
@@ -388,13 +392,19 @@ import {loadContextActions, buildTab} from 'https://static.cloud.coveo.com/atomi
                 </li>
             </ul>
             <div class="right primary-print">
-                <a href="javascript:window.print();" class="icon-print" aria-label="Print This Page"><span class="visually-hidden">Print This Page</span></a>
+                <a href="javascript:window.print();" class="icon-print" aria-label="Print This Page">
+                    <span class="visually-hidden">Print This Page</span>
+                </a>
             </div>
             <div class="right secondary-print">
-                <a href="javascript:window.print();" class="icon-print" aria-label="Print This Page"><span class="visually-hidden">Print This Page</span></a>
+                <a href="javascript:window.print();" class="icon-print" aria-label="Print This Page">
+                    <span class="visually-hidden">Print This Page</span>
+                </a>
             </div>
             <div class="right secondary-search">
-                <a class="icon-search"><span class="visually-hidden">Go to Search</span></a>
+                <a class="icon-search" href="javascript:;">
+                    <span class="visually-hidden">Go to Search</span>
+                </a>
             </div>
         </div>
     </div>
@@ -411,12 +421,12 @@ import {loadContextActions, buildTab} from 'https://static.cloud.coveo.com/atomi
     
     
         
-    <a href="/workforce/employers/tax-and-insurance-redirect/apply-for-hiring-incentives/work-opportunity-tax-credit.html">
-        <div class="entity-alert text-center">
+    <div class="entity-alert text-center">
+        <a href="/workforce/employers/tax-and-insurance-redirect/apply-for-hiring-incentives/work-opportunity-tax-credit.html">
             <span class="icon-info"></span>
             Employers: Reduce your tax liability and support job growth in Tennessee with the Work Opportunity Tax Credit (WOTC) program. Learn more here.
-        </div>
-    </a>
+        </a>
+    </div>
 
     
     
@@ -703,13 +713,13 @@ import {loadContextActions, buildTab} from 'https://static.cloud.coveo.com/atomi
     
     
     <div class="containers tn-accordion parbase">
-    <div class="accordion" id="accordion-083d924c893a4e3eba4217bc7012e54d">
+    <div class="accordion" id="accordion-493ad2d8d1054cd082ba2d7543406346">
         
 
         
             
                 <div class="button-wrapper">
-                    <button class="button icon-plus" type="button" aria-controls="collapse083d924c893a4e3eba4217bc7012e54d-0 collapse083d924c893a4e3eba4217bc7012e54d-1 collapse083d924c893a4e3eba4217bc7012e54d-2 collapse083d924c893a4e3eba4217bc7012e54d-3 collapse083d924c893a4e3eba4217bc7012e54d-4 " aria-label="Expand all accordion sections" data-tn-action="accordion:expandcollapse"></button>
+                    <button class="button icon-plus" type="button" aria-controls="collapse493ad2d8d1054cd082ba2d7543406346-0 collapse493ad2d8d1054cd082ba2d7543406346-1 collapse493ad2d8d1054cd082ba2d7543406346-2 collapse493ad2d8d1054cd082ba2d7543406346-3 collapse493ad2d8d1054cd082ba2d7543406346-4 " aria-label="Expand all accordion sections" data-tn-action="accordion:expandcollapse"></button>
                 </div>
             
 
@@ -720,13 +730,13 @@ import {loadContextActions, buildTab} from 'https://static.cloud.coveo.com/atomi
                     
                         <div class="accordion-heading">
                             <span class="accordion-title">
-                                <button class="accordion-button icon-angle-right collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-083d924c893a4e3eba4217bc7012e54d-0" aria-controls="collapse-083d924c893a4e3eba4217bc7012e54d-0" aria-expanded="false">
+                                <button class="accordion-button icon-angle-right collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-493ad2d8d1054cd082ba2d7543406346-0" aria-controls="collapse-493ad2d8d1054cd082ba2d7543406346-0" aria-expanded="false">
                                     2025
                                 </button>
                             </span>
                         </div>
 
-                        <div id="collapse-083d924c893a4e3eba4217bc7012e54d-0" class="accordion-collapse collapse" data-bs-parent="#accordion-083d924c893a4e3eba4217bc7012e54d">
+                        <div id="collapse-493ad2d8d1054cd082ba2d7543406346-0" class="accordion-collapse collapse" data-bs-parent="#accordion-493ad2d8d1054cd082ba2d7543406346">
                             <div class="accordion-body panel-body" tabindex="0">
                                 <div>
 
@@ -1089,13 +1099,13 @@ import {loadContextActions, buildTab} from 'https://static.cloud.coveo.com/atomi
                     
                         <div class="accordion-heading">
                             <span class="accordion-title">
-                                <button class="accordion-button icon-angle-right collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-083d924c893a4e3eba4217bc7012e54d-1" aria-controls="collapse-083d924c893a4e3eba4217bc7012e54d-1" aria-expanded="false">
+                                <button class="accordion-button icon-angle-right collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-493ad2d8d1054cd082ba2d7543406346-1" aria-controls="collapse-493ad2d8d1054cd082ba2d7543406346-1" aria-expanded="false">
                                     2024
                                 </button>
                             </span>
                         </div>
 
-                        <div id="collapse-083d924c893a4e3eba4217bc7012e54d-1" class="accordion-collapse collapse" data-bs-parent="#accordion-083d924c893a4e3eba4217bc7012e54d">
+                        <div id="collapse-493ad2d8d1054cd082ba2d7543406346-1" class="accordion-collapse collapse" data-bs-parent="#accordion-493ad2d8d1054cd082ba2d7543406346">
                             <div class="accordion-body panel-body" tabindex="0">
                                 <div>
 
@@ -1180,13 +1190,13 @@ import {loadContextActions, buildTab} from 'https://static.cloud.coveo.com/atomi
                     
                         <div class="accordion-heading">
                             <span class="accordion-title">
-                                <button class="accordion-button icon-angle-right collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-083d924c893a4e3eba4217bc7012e54d-2" aria-controls="collapse-083d924c893a4e3eba4217bc7012e54d-2" aria-expanded="false">
+                                <button class="accordion-button icon-angle-right collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-493ad2d8d1054cd082ba2d7543406346-2" aria-controls="collapse-493ad2d8d1054cd082ba2d7543406346-2" aria-expanded="false">
                                     2023
                                 </button>
                             </span>
                         </div>
 
-                        <div id="collapse-083d924c893a4e3eba4217bc7012e54d-2" class="accordion-collapse collapse" data-bs-parent="#accordion-083d924c893a4e3eba4217bc7012e54d">
+                        <div id="collapse-493ad2d8d1054cd082ba2d7543406346-2" class="accordion-collapse collapse" data-bs-parent="#accordion-493ad2d8d1054cd082ba2d7543406346">
                             <div class="accordion-body panel-body" tabindex="0">
                                 <div>
 
@@ -1272,13 +1282,13 @@ import {loadContextActions, buildTab} from 'https://static.cloud.coveo.com/atomi
                     
                         <div class="accordion-heading">
                             <span class="accordion-title">
-                                <button class="accordion-button icon-angle-right collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-083d924c893a4e3eba4217bc7012e54d-3" aria-controls="collapse-083d924c893a4e3eba4217bc7012e54d-3" aria-expanded="false">
+                                <button class="accordion-button icon-angle-right collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-493ad2d8d1054cd082ba2d7543406346-3" aria-controls="collapse-493ad2d8d1054cd082ba2d7543406346-3" aria-expanded="false">
                                     2022
                                 </button>
                             </span>
                         </div>
 
-                        <div id="collapse-083d924c893a4e3eba4217bc7012e54d-3" class="accordion-collapse collapse" data-bs-parent="#accordion-083d924c893a4e3eba4217bc7012e54d">
+                        <div id="collapse-493ad2d8d1054cd082ba2d7543406346-3" class="accordion-collapse collapse" data-bs-parent="#accordion-493ad2d8d1054cd082ba2d7543406346">
                             <div class="accordion-body panel-body" tabindex="0">
                                 <div>
 
@@ -1320,13 +1330,13 @@ import {loadContextActions, buildTab} from 'https://static.cloud.coveo.com/atomi
                     
                         <div class="accordion-heading">
                             <span class="accordion-title">
-                                <button class="accordion-button icon-angle-right collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-083d924c893a4e3eba4217bc7012e54d-4" aria-controls="collapse-083d924c893a4e3eba4217bc7012e54d-4" aria-expanded="false">
+                                <button class="accordion-button icon-angle-right collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-493ad2d8d1054cd082ba2d7543406346-4" aria-controls="collapse-493ad2d8d1054cd082ba2d7543406346-4" aria-expanded="false">
                                     2021
                                 </button>
                             </span>
                         </div>
 
-                        <div id="collapse-083d924c893a4e3eba4217bc7012e54d-4" class="accordion-collapse collapse" data-bs-parent="#accordion-083d924c893a4e3eba4217bc7012e54d">
+                        <div id="collapse-493ad2d8d1054cd082ba2d7543406346-4" class="accordion-collapse collapse" data-bs-parent="#accordion-493ad2d8d1054cd082ba2d7543406346">
                             <div class="accordion-body panel-body" tabindex="0">
                                 <div>
 
@@ -1896,7 +1906,7 @@ import {loadContextActions, buildTab} from 'https://static.cloud.coveo.com/atomi
             
 
     
-<script src="/etc/clientlibs/tncore/main.min.03280fb383bd2b3e474019826d14a69b.js"></script>
+<script src="/etc/clientlibs/tncore/main.min.b80fb3ad5ab1f93badce72444b89dcd5.js"></script>
 
 
 
