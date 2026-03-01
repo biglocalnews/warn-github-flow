@@ -15634,15 +15634,7 @@ function adjustWidths() {
 </div>
 <div class="scriptcomponent aem-GridColumn aem-GridColumn--default--12">
    <script type="text/javascript">
-var SiteTrafficRegistry;
-fetch('https://api.ipify.org?format=json')
-    .then(response => response.json())
-    .then(data => {
-        SiteTrafficRegistry = data.ip;
-    })
-    .catch(error => {
-        console.log('Error:', error);
-    });
+var SiteTrafficRegistry='0.0.0.0';
   </script>
    
 
