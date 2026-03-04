@@ -29,7 +29,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap" rel="stylesheet">
 <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700&display=swap' rel='stylesheet' type='text/css'>
 
-<link href="/bundles/css?v=E2ZTApxcw3Mr-RUzZa0_ELwffEb1dci9KXSMYwVqkVg1" rel="stylesheet"/>
+<link href="/bundles/css?v=G3EA3izFsnFdT7hY5K1UAbTbyQBzkOGq302WogeMXrc1" rel="stylesheet"/>
 
 
 
@@ -158,7 +158,8 @@
                 var d = new Date();
                 d.setTime(d.getTime() + (exminutes * 60 * 1000));
                 var expires = "expires=" + d.toUTCString();
-                document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+                var maxAge = "max-age=" + (exminutes * 60);
+                document.cookie = cname + "=" + cvalue + ";" + expires + ";" + maxAge + ";path=/;domain=edd.ca.gov;SameSite=Lax;Secure";
             }
 
             function getCookie(cname) {
@@ -1326,11 +1327,11 @@
 
     <div class="container">
 
-        <ul class="modern-card-deck-container cards-1" role="list" style="--cards-per-row:1;">
+            <div class="modern-card-deck-container cards-1" style="--cards-per-row:1;">
 
 
 
-<li role="listitem">
+<div>
     <article>
         <div class="modern-card modern-card-no-link modern-card-no-cta modern-card-no-secondary-cta modern-card-no-image">
 
@@ -1346,8 +1347,8 @@
 
         </div>
     </article>
-</li>
-        </ul>
+</div>
+            </div>
     </div>
 </section>
 
@@ -1379,7 +1380,7 @@
                 </h2>
             </div>
 
-        <ul class="modern-card-deck-container cards-2" role="list" style="--cards-per-row:2;">
+            <ul class="modern-card-deck-container cards-2" role="list" style="--cards-per-row:2;">
 
 
 
@@ -1430,7 +1431,7 @@
         </a>
     </article>
 </li>
-        </ul>
+            </ul>
     </div>
 </section>
 
@@ -1868,11 +1869,11 @@ function toggleButton(element) {
 
     <div class="container">
 
-        <ul class="modern-card-deck-container cards-1" role="list" style="--cards-per-row:1;">
+            <div class="modern-card-deck-container cards-1" style="--cards-per-row:1;">
 
 
 
-<li role="listitem">
+<div>
     <article>
         <a class="modern-card modern-card-with-link modern-card-has-cta modern-card-no-secondary-cta modern-card-no-image" href="https://www.careeronestop.org/LocalHelp/AmericanJobCenters/find-american-job-centers.aspx">
 
@@ -1892,8 +1893,8 @@ function toggleButton(element) {
 
         </a>
     </article>
-</li>
-        </ul>
+</div>
+            </div>
     </div>
 </section>
 
