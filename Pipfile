@@ -6,8 +6,8 @@ name = "pypi"
 [packages]
 et-xmlfile = "*"
 bln = "==2.3.14"
-warn-scraper = "==1.2.139"
-warn-transformer = "==1.3.342"
+warn-transformer = "==1.3.344"
+warn-scraper = "==1.2.140"
 
 [dev-packages]
 pytest = "*"
