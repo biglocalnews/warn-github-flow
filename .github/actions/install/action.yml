@@ -1,19 +1,38 @@
 runs:
     using: composite
     steps:
+      - id: disable-man-pages
+        name: Disable man pages
+        run: sudo rm /var/lib/man-db/auto-update || echo "No auto-update found"
+        shell: bash
+        
+      - id: install-display-system
+        name: Install display
+        run: sudo apt install -y xvfb x11-utils libxkbcommon-x11-0 libxcb-icccm4 libxcb-image0 libxcb-keysyms1 libxcb-randr0 libxcb-render-util0 libxcb-xinerama0 libxcb-xfixes0 xdotool
+        shell: bash
+
       - id: install-pipenv
         name: Install pipenv
         run: pipx install pipenv
         shell: bash
 
-      - id: install-python
-        name: Install Python
-        uses: actions/setup-python@v2
+#      - id: install-python3_9
+#        name: Install Python 3.9
+#        uses: actions/setup-python@v5
+#        with:
+#          python-version: '3.9'
+#          cache: 'pipenv'
+
+      - id: install-python3_14
+        name: Install Python 3.14
+        uses: actions/setup-python@v6
         with:
-          python-version: '3.9'
+          python-version: '3.14'
           cache: 'pipenv'
 
       - id: install-python-dependencies
         name: Install Python dependencies
-        run: pipenv install --dev
+        run: |
+          pipenv install --dev
+          pipenv run pip install certifi
         shell: bash
