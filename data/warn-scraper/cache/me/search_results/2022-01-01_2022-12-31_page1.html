@@ -2,12 +2,10 @@
 <html class='no-js' lang='en'>
 <head>
 <meta charset='utf-8'>
-<script>window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"NRJS-771174c03df2d515310","applicationID":"1113030116","transactionName":"cw0IQxAOXQhSRxZHVlEQBV9NFlAWWWpVW1xbFxZoEQRQFlRdXEccWQwCUho=","queueTime":0,"applicationTime":99,"agent":""}</script>
-<script>(window.NREUM||(NREUM={})).init={ajax:{deny_list:["bam.nr-data.net"]}};(window.NREUM||(NREUM={})).loader_config={licenseKey:"NRJS-771174c03df2d515310",applicationID:"1113030116"};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var i=e[n]={exports:{}};t[n][0].call(i.exports,function(e){var i=t[n][1][e];return r(i||e)},i,i.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var i=0;i<n.length;i++)r(n[i]);return r}({1:[function(t,e,n){function r(){}function i(t,e,n,r){return function(){return s.recordSupportability("API/"+e+"/called"),o(t+e,[u.now()].concat(c(arguments)),n?null:this,r),n?void 0:this}}var o=t("handle"),a=t(10),c=t(11),f=t("ee").get("tracer"),u=t("loader"),s=t(4),d=NREUM;"undefined"==typeof window.newrelic&&(newrelic=d);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",v=l+"ixn-";a(p,function(t,e){d[e]=i(l,e,!0,"api")}),d.addPageAction=i(l,"addPageAction",!0),d.setCurrentRouteName=i(l,"routeName",!0),e.exports=newrelic,d.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(t,e){var n={},r=this,i="function"==typeof e;return o(v+"tracer",[u.now(),t,n],r),function(){if(f.emit((i?"":"no-")+"fn-start",[u.now(),r,i],n),i)try{return e.apply(this,arguments)}catch(t){throw f.emit("fn-err",[arguments,this,t],n),t}finally{f.emit("fn-end",[u.now()],n)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,e){m[e]=i(v,e)}),newrelic.noticeError=function(t,e){"string"==typeof t&&(t=new Error(t)),s.recordSupportability("API/noticeError/called"),o("err",[t,u.now(),!1,e])}},{}],2:[function(t,e,n){function r(t){if(NREUM.init){for(var e=NREUM.init,n=t.split("."),r=0;r<n.length-1;r++)if(e=e[n[r]],"object"!=typeof e)return;return e=e[n[n.length-1]]}}e.exports={getConfiguration:r}},{}],3:[function(t,e,n){var r=!1;try{var i=Object.defineProperty({},"passive",{get:function(){r=!0}});window.addEventListener("testPassive",null,i),window.removeEventListener("testPassive",null,i)}catch(o){}e.exports=function(t){return r?{passive:!0,capture:!!t}:!!t}},{}],4:[function(t,e,n){function r(t,e){var n=[a,t,{name:t},e];return o("storeMetric",n,null,"api"),n}function i(t,e){var n=[c,t,{name:t},e];return o("storeEventMetrics",n,null,"api"),n}var o=t("handle"),a="sm",c="cm";e.exports={constants:{SUPPORTABILITY_METRIC:a,CUSTOM_METRIC:c},recordSupportability:r,recordCustom:i}},{}],5:[function(t,e,n){function r(){return c.exists&&performance.now?Math.round(performance.now()):(o=Math.max((new Date).getTime(),o))-a}function i(){return o}var o=(new Date).getTime(),a=o,c=t(12);e.exports=r,e.exports.offset=a,e.exports.getLastTimestamp=i},{}],6:[function(t,e,n){function r(t){return!(!t||!t.protocol||"file:"===t.protocol)}e.exports=r},{}],7:[function(t,e,n){function r(t,e){var n=t.getEntries();n.forEach(function(t){"first-paint"===t.name?l("timing",["fp",Math.floor(t.startTime)]):"first-contentful-paint"===t.name&&l("timing",["fcp",Math.floor(t.startTime)])})}function i(t,e){var n=t.getEntries();if(n.length>0){var r=n[n.length-1];if(u&&u<r.startTime)return;var i=[r],o=a({});o&&i.push(o),l("lcp",i)}}function o(t){t.getEntries().forEach(function(t){t.hadRecentInput||l("cls",[t])})}function a(t){var e=navigator.connection||navigator.mozConnection||navigator.webkitConnection;if(e)return e.type&&(t["net-type"]=e.type),e.effectiveType&&(t["net-etype"]=e.effectiveType),e.rtt&&(t["net-rtt"]=e.rtt),e.downlink&&(t["net-dlink"]=e.downlink),t}function c(t){if(t instanceof y&&!w){var e=Math.round(t.timeStamp),n={type:t.type};a(n),e<=v.now()?n.fid=v.now()-e:e>v.offset&&e<=Date.now()?(e-=v.offset,n.fid=v.now()-e):e=v.now(),w=!0,l("timing",["fi",e,n])}}function f(t){"hidden"===t&&(u=v.now(),l("pageHide",[u]))}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var u,s,d,p,l=t("handle"),v=t("loader"),m=t(9),g=t(3),y=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){s=new PerformanceObserver(r);try{s.observe({entryTypes:["paint"]})}catch(h){}d=new PerformanceObserver(i);try{d.observe({entryTypes:["largest-contentful-paint"]})}catch(h){}p=new PerformanceObserver(o);try{p.observe({type:"layout-shift",buffered:!0})}catch(h){}}if("addEventListener"in document){var w=!1,b=["click","keydown","mousedown","pointerdown","touchstart"];b.forEach(function(t){document.addEventListener(t,c,g(!1))})}m(f)}},{}],8:[function(t,e,n){function r(t,e){if(!i)return!1;if(t!==i)return!1;if(!e)return!0;if(!o)return!1;for(var n=o.split("."),r=e.split("."),a=0;a<r.length;a++)if(r[a]!==n[a])return!1;return!0}var i=null,o=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var c=navigator.userAgent,f=c.match(a);f&&c.indexOf("Chrome")===-1&&c.indexOf("Chromium")===-1&&(i="Safari",o=f[1])}e.exports={agent:i,version:o,match:r}},{}],9:[function(t,e,n){function r(t){function e(){t(c&&document[c]?document[c]:document[o]?"hidden":"visible")}"addEventListener"in document&&a&&document.addEventListener(a,e,i(!1))}var i=t(3);e.exports=r;var o,a,c;"undefined"!=typeof document.hidden?(o="hidden",a="visibilitychange",c="visibilityState"):"undefined"!=typeof document.msHidden?(o="msHidden",a="msvisibilitychange"):"undefined"!=typeof document.webkitHidden&&(o="webkitHidden",a="webkitvisibilitychange",c="webkitVisibilityState")},{}],10:[function(t,e,n){function r(t,e){var n=[],r="",o=0;for(r in t)i.call(t,r)&&(n[o]=e(r,t[r]),o+=1);return n}var i=Object.prototype.hasOwnProperty;e.exports=r},{}],11:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,i=n-e||0,o=Array(i<0?0:i);++r<i;)o[r]=t[e+r];return o}e.exports=r},{}],12:[function(t,e,n){e.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(t,e,n){function r(){}function i(t){function e(t){return t&&t instanceof r?t:t?u(t,f,a):a()}function n(n,r,i,o,a){if(a!==!1&&(a=!0),!l.aborted||o){t&&a&&t(n,r,i);for(var c=e(i),f=m(n),u=f.length,s=0;s<u;s++)f[s].apply(c,r);var p=d[w[n]];return p&&p.push([b,n,r,c]),c}}function o(t,e){h[t]=m(t).concat(e)}function v(t,e){var n=h[t];if(n)for(var r=0;r<n.length;r++)n[r]===e&&n.splice(r,1)}function m(t){return h[t]||[]}function g(t){return p[t]=p[t]||i(n)}function y(t,e){l.aborted||s(t,function(t,n){e=e||"feature",w[n]=e,e in d||(d[e]=[])})}var h={},w={},b={on:o,addEventListener:o,removeEventListener:v,emit:n,get:g,listeners:m,context:e,buffer:y,abort:c,aborted:!1};return b}function o(t){return u(t,f,a)}function a(){return new r}function c(){(d.api||d.feature)&&(l.aborted=!0,d=l.backlog={})}var f="nr@context",u=t("gos"),s=t(10),d={},p={},l=e.exports=i();e.exports.getOrSetContext=o,l.backlog=d},{}],gos:[function(t,e,n){function r(t,e,n){if(i.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(o){}return t[e]=r,r}var i=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){i.buffer([t],r),i.emit(t,e,n)}var i=t("ee").get("handle");e.exports=r,r.ee=i},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,o,function(){return i++})}var i=1,o="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!P++){var t=M.info=NREUM.info,e=g.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&e))return u.abort();f(O,function(e,n){t[e]||(t[e]=n)});var n=a();c("mark",["onload",n+M.offset],null,"api"),c("timing",["load",n]);var r=g.createElement("script");0===t.agent.indexOf("http://")||0===t.agent.indexOf("https://")?r.src=t.agent:r.src=v+"://"+t.agent,e.parentNode.insertBefore(r,e)}}function i(){"complete"===g.readyState&&o()}function o(){c("mark",["domContent",a()+M.offset],null,"api")}var a=t(5),c=t("handle"),f=t(10),u=t("ee"),s=t(8),d=t(6),p=t(2),l=t(3),v=p.getConfiguration("ssl")===!1?"http":"https",m=window,g=m.document,y="addEventListener",h="attachEvent",w=m.XMLHttpRequest,b=w&&w.prototype,E=!d(m.location);NREUM.o={ST:setTimeout,SI:m.setImmediate,CT:clearTimeout,XHR:w,REQ:m.Request,EV:m.Event,PR:m.Promise,MO:m.MutationObserver};var x=""+location,O={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1215.min.js"},T=w&&b&&b[y]&&!/CriOS/.test(navigator.userAgent),M=e.exports={offset:a.getLastTimestamp(),now:a,origin:x,features:{},xhrWrappable:T,userAgent:s,disabled:E};if(!E){t(1),t(7),g[y]?(g[y]("DOMContentLoaded",o,l(!1)),m[y]("load",r,l(!1))):(g[h]("onreadystatechange",i),m[h]("onload",r)),c("mark",["firstbyte",a.getLastTimestamp()],null,"api");var P=0}},{}],"wrap-function":[function(t,e,n){function r(t,e){function n(e,n,r,f,u){function nrWrapper(){var o,a,s,p;try{a=this,o=d(arguments),s="function"==typeof r?r(o,a):r||{}}catch(l){i([l,"",[o,a,f],s],t)}c(n+"start",[o,a,f],s,u);try{return p=e.apply(a,o)}catch(v){throw c(n+"err",[o,a,v],s,u),v}finally{c(n+"end",[o,a,p],s,u)}}return a(e)?e:(n||(n=""),nrWrapper[p]=e,o(e,nrWrapper,t),nrWrapper)}function r(t,e,r,i,o){r||(r="");var c,f,u,s="-"===r.charAt(0);for(u=0;u<e.length;u++)f=e[u],c=t[f],a(c)||(t[f]=n(c,s?f+r:r,i,f,o))}function c(n,r,o,a){if(!v||e){var c=v;v=!0;try{t.emit(n,r,o,e,a)}catch(f){i([f,n,r,o],t)}v=c}}return t||(t=s),n.inPlace=r,n.flag=p,n}function i(t,e){e||(e=s);try{e.emit("internal-error",t)}catch(n){}}function o(t,e,n){if(Object.defineProperty&&Object.keys)try{var r=Object.keys(t);return r.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(o){i([o],n)}for(var a in t)l.call(t,a)&&(e[a]=t[a]);return e}function a(t){return!(t&&t instanceof Function&&t.apply&&!t[p])}function c(t,e){var n=e(t);return n[p]=t,o(t,n,s),n}function f(t,e,n){var r=t[e];t[e]=c(r,n)}function u(){for(var t=arguments.length,e=new Array(t),n=0;n<t;++n)e[n]=arguments[n];return e}var s=t("ee"),d=t(11),p="nr@original",l=Object.prototype.hasOwnProperty,v=!1;e.exports=r,e.exports.wrapFunction=c,e.exports.wrapInPlace=f,e.exports.argsToArray=u},{}]},{},["loader"]);</script>
 <meta content='width=device-width, initial-scale=1.0' name='viewport'>
 <title>WARN Search - Maine JobLink</title>
-<link rel="stylesheet" media="screen, print" href="https://joblink.maine.gov/assets/application-fd2f6ce448085bf3e22b36d93614bfe40c1e6b80d1f4b47eb53778b7adc14eff.css" />
-<link rel="stylesheet" media="screen, print" href="https://joblink.maine.gov/packs/css/application-0bee86e0.css" />
+<link rel="stylesheet" media="screen, print" href="https://joblink.maine.gov/assets/application-02057dcc510b34d9491deb7e5f2a50102fdd7767109e1e5116d693a063a9659d.css" />
+<link rel="stylesheet" media="screen, print" href="https://joblink.maine.gov/packs/css/application-dafcdd5b.css" />
 
 <link rel="stylesheet" media="print" href="https://joblink.maine.gov/assets/print-91f8dd72b75316612e7835aafadb7c4604231bc6f997bb770872b332c6076303.css" />
 <meta content='https://joblink.maine.gov/assets/state_customization/maine/maine_logo-50156d734b0629388a7915e038796ab204cc14a7a6151579e3f491cb8f5ed80c.png' property='og:image'>
@@ -16,7 +14,7 @@
 <link rel="shortcut icon" type="image/png" href="https://joblink.maine.gov/assets/state_customization/maine/favicon-32x32-1ab6586e32c558bae42405726a82bb3a7e40f9165a9fef404f96e6024247a492.png" sizes="32x32" />
 <link rel="shortcut icon" type="image/png" href="https://joblink.maine.gov/assets/state_customization/maine/favicon-16x16-5b44e1efa20a9be04eadd6b97133309ab089bd2d5a77a67b41e926756298113f.png" sizes="16x16" />
 <meta name="csrf-param" content="authenticity_token" />
-<meta name="csrf-token" content="zOQch65VnVDZVLMk9LKoDscNHjPqqN+cGt+cquv2Q9XLci589zXP8kXMO5socwizDp7cqBx9SiudLN9XO0BLvA==" />
+<meta name="csrf-token" content="cMKntc2i0dMTDAGNhRPdbsmtntCWpFhbPuBpLH-6h688INGlWWUveNWse51j5-kNHsFxceOnKJNsvXY4Bfg5Ow" />
 </head>
 <body class='l-logged-out'>
 <a class="skip focusable" id="skip_to_main" href="#content__main">Skip to main content</a>
@@ -33,11 +31,16 @@
 <!-- User, global, and sidebar menus collapse into a single mobile menu and exist in the same element in the DOM -->
 <div class='header__menu-block' data-toggler='.shown' id='header-menu'>
 <nav aria-label='User Menu' class='menu--user'>
+<div class='translate'>
+<div class='home' id='google-translate-element'></div>
+<script src="https://joblink.maine.gov/assets/vendor/translate_config-8cf6f4efee7622a2c49c8ebeb96cb2fe5bf9d2a0eb8b9d3d964ee46bf753b076.js"></script>
+<script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+</div>
 
 
 <ul class='dropdown dropdown--primary dropdown--user' id='primary-user_menu'>
 <li class='dropdown__menu-item dropdown--primary__menu-item'>
-<a class="dropdown__link dropdown--primary__link" id="navigation_item_user_login_70268247945360" href="/usr/sign_in">Log In
+<a class="dropdown__link dropdown--primary__link" id="navigation_item_user_login_179178300" href="/usr/sign_in">Log In
 </a></li>
 </ul>
 
@@ -45,77 +48,74 @@
 <nav aria-label='Primary Menu' class='menu--global'>
 <ul class='dropdown dropdown--primary dropdown--global' id='primary-global_menu'>
 <li class='dropdown__menu-item dropdown--primary__menu-item dropdown--primary__menu-item--has-children dropdown--has-children'>
-<a class="dropdown__link dropdown--primary__link" id="navigation_item_marketing_job_seeker_70268248225080" href="/job_seeker">Job Seekers
+<a class="dropdown__link dropdown--primary__link" id="navigation_item_marketing_job_seeker_179178340" href="/job_seeker">Job Seekers
 </a><a class="dropdown__expand" aria-label="Expand Job Seekers" aria-controls="primary-global_menu" aria-haspopup="true" aria-expanded="false" href=""></a>
-<ul class='dropdown--child menu--child'>
+<ul class='dropdown--child menu--child' id=''>
 <li class='dropdown--child__list-item'>
-<a class="dropdown--child__link" id="navigation_item_searches_job_70268248225080" href="/search/jobs"><span class="icon-search_jobs" aria-hidden="true"></span>
+<a class="dropdown--child__link" id="navigation_item_searches_job_179178340" href="/search/jobs?search_job_search%5Bjob_location_state%5D=Maine"><span class="icon-search_jobs" aria-hidden="true"></span>
 Job Search
 </a></li>
 <li class='dropdown--child__list-item'>
-<a class="dropdown--child__link" id="navigation_item_registrations_job_seeker_70268248225080" href="/jobseeker/registrations/new">Create an Account
+<a class="dropdown--child__link" id="navigation_item_registrations_job_seeker_179178340" href="/jobseeker/registrations/new">Create an Account
 </a></li>
 <li class='dropdown--child__list-item'>
-<a class="dropdown--child__link" id="navigation_item_marketing_anchor_job_seeker_upcoming_events_70268248225080" href="/job_seeker#upcoming_events">Upcoming Events
-</a></li>
-<li class='dropdown--child__list-item'>
-<a class="dropdown--child__link" id="navigation_item_marketing_anchor_job_seeker_resources_70268248225080" href="/job_seeker#resources">Resources
+<a class="dropdown--child__link" id="navigation_item_marketing_anchor_job_seeker_resources_179178340" href="/job_seeker#resources">Resources
 </a></li>
 </ul>
 
 </li>
 <li class='dropdown__menu-item dropdown--primary__menu-item dropdown--primary__menu-item--has-children dropdown--has-children'>
-<a class="dropdown__link dropdown--primary__link" id="navigation_item_marketing_employer_70268248225080" href="/employer">Employers
+<a class="dropdown__link dropdown--primary__link" id="navigation_item_marketing_employer_179178340" href="/employer">Employers
 </a><a class="dropdown__expand" aria-label="Expand Employers" aria-controls="primary-global_menu" aria-haspopup="true" aria-expanded="false" href=""></a>
-<ul class='dropdown--child menu--child'>
+<ul class='dropdown--child menu--child' id=''>
 <li class='dropdown--child__list-item'>
-<a class="dropdown--child__link" id="navigation_item_searches_resume_70268248225080" href="/search/resumes"><span class="icon-search_resumes" aria-hidden="true"></span>
+<a class="dropdown--child__link" id="navigation_item_searches_resume_179178340" href="/search/resumes"><span class="icon-search_resumes" aria-hidden="true"></span>
 Resume Search
 </a></li>
 <li class='dropdown--child__list-item'>
-<a class="dropdown--child__link" id="navigation_item_registrations_employer_70268248225080" href="/employer_policy">Create an Account
+<a class="dropdown--child__link" id="navigation_item_registrations_employer_179178340" href="/employer_policy">Create an Account
 </a></li>
 <li class='dropdown--child__list-item'>
-<a class="dropdown--child__link" id="navigation_item_marketing_anchor_employer_resources_70268248225080" href="/employer#resources">Resources
+<a class="dropdown--child__link" id="navigation_item_marketing_anchor_employer_resources_179178340" href="/employer#resources">Resources
 </a></li>
 </ul>
 
 </li>
 <li class='dropdown__menu-item dropdown--primary__menu-item dropdown--primary__menu-item--has-children dropdown--has-children'>
-<a class="dropdown__link dropdown--primary__link" id="navigation_item_marketing_training_provider_70268248225080" href="/training">Training Providers
+<a class="dropdown__link dropdown--primary__link" id="navigation_item_marketing_training_provider_179178340" href="/training">Training Providers
 </a><a class="dropdown__expand" aria-label="Expand Training Providers" aria-controls="primary-global_menu" aria-haspopup="true" aria-expanded="false" href=""></a>
-<ul class='dropdown--child menu--child'>
+<ul class='dropdown--child menu--child' id=''>
 <li class='dropdown--child__list-item'>
-<a class="dropdown--child__link" id="navigation_item_searches_training_program_70268248225080" href="/search/programs"><span class="icon-search_training" aria-hidden="true"></span>
+<a class="dropdown--child__link" id="navigation_item_searches_training_program_179178340" href="/search/programs"><span class="icon-search_training" aria-hidden="true"></span>
 Search for Programs
 </a></li>
 <li class='dropdown--child__list-item'>
-<a class="dropdown--child__link" id="navigation_item_registrations_trainer_70268248225080" href="/trainer/fein_searches/new">Create an Account
+<a class="dropdown--child__link" id="navigation_item_registrations_trainer_179178340" href="/trainer/fein_searches/new">Create an Account
 </a></li>
 <li class='dropdown--child__list-item'>
-<a class="dropdown--child__link" id="navigation_item_marketing_anchor_training_provider_resources_70268248225080" href="/training#resources">Resources
+<a class="dropdown--child__link" id="navigation_item_marketing_anchor_training_provider_resources_179178340" href="/training#resources">Resources
 </a></li>
 </ul>
 
 </li>
 <li class='dropdown__menu-item dropdown--primary__menu-item dropdown--primary__menu-item--has-children dropdown--has-children'>
-<a class="dropdown__link dropdown--primary__link" id="navigation_item_marketing_contact_us_70268248225080" href="/contact">Contact Us
+<a class="dropdown__link dropdown--primary__link" id="navigation_item_marketing_contact_us_179178340" href="/contact">Contact Us
 </a><a class="dropdown__expand" aria-label="Expand Contact Us" aria-controls="primary-global_menu" aria-haspopup="true" aria-expanded="false" href=""></a>
-<ul class='dropdown--child menu--child'>
+<ul class='dropdown--child menu--child' id=''>
 <li class='dropdown--child__list-item'>
-<a class="dropdown--child__link" id="navigation_item_marketing_contact_location_70268248225080" href="/contact"><span class="icon-general_location" aria-hidden="true"></span>
+<a class="dropdown--child__link" id="navigation_item_marketing_contact_location_179178340" href="/contact"><span class="icon-general_location" aria-hidden="true"></span>
 CareerCenters
 </a></li>
 <li class='dropdown--child__list-item'>
-<a class="dropdown--child__link" id="navigation_item_marketing_contact_email_70268248225080" href="mailto:joblink@maine.gov"><span class="icon-contact_email" aria-hidden="true"></span>
+<a class="dropdown--child__link" id="navigation_item_marketing_contact_email_179178340" href="mailto:joblink@maine.gov"><span class="icon-contact_email" aria-hidden="true"></span>
 joblink@maine.gov
 </a></li>
 <li class='dropdown--child__list-item'>
-<a class="dropdown--child__link" id="navigation_item_marketing_contact_phone_70268248225080" href="tel:1-888-457-8883"><span class="icon-contact_phone" aria-hidden="true"></span>
+<a class="dropdown--child__link" id="navigation_item_marketing_contact_phone_179178340" href="tel:1-888-457-8883"><span class="icon-contact_phone" aria-hidden="true"></span>
 1-888-457-8883
 </a></li>
 <li class='dropdown--child__list-item'>
-<a class="dropdown--child__link" target="_blank" id="navigation_item_marketing_contact_chat_70268248225080" href="https://www.livehelpnow.net/lhn/lcv.aspx?d=36460&amp;ms=&amp;zzwindow=35206&amp;lhnid=31205"><span class="icon-chat" aria-hidden="true"></span>
+<a class="dropdown--child__link" target="_blank" id="navigation_item_marketing_contact_chat_179178340" href="https://www.livehelpnow.net/lhn/lcv.aspx?d=36460&amp;ms=&amp;zzwindow=35206&amp;lhnid=31205"><span class="icon-chat" aria-hidden="true"></span>
 Live Chat
 </a></li>
 </ul>
@@ -131,6 +131,7 @@ Live Chat
 <div class='content-wrapper invisible-focus' data-behavior='vue' id='content__main' tabindex='-1'>
 <main class='content' tabindex='-1'>
 
+<div class='visually-hidden' id='dynamic_flash'></div>
 
 
 <header class='content__header'>
@@ -143,7 +144,7 @@ Live Chat
 </header>
 <section aria-labelledby='page_title' class='content--primary-content' id='primaryContent'>
 <div class='table table-scroll'>
-<table cellspacing='0' class='sortable responsive default' id='a11y_table_d7f499bd-a7a9-491d-8a02-33521f2164ee' width='100%'>
+<table cellspacing='0' class='sortable responsive default' id='a11y_table_487f313e-e460-4339-b7f5-79b8e43532ce' width='100%'>
 <caption>Sortable list of WARN entries</caption>
 <colgroup>
 <col>
@@ -155,15 +156,23 @@ Live Chat
 </colgroup>
 <thead>
 <tr>
-<th id='a11y_table_d7f499bd-a7a9-491d-8a02-33521f2164ee_column1' scope='col'><a class="sort_link " href="/search/warn_lookups?commit=Search&amp;q%5Bemployer_name_cont%5D=&amp;q%5Bmain_contact_contact_info_addresses_full_location_city_matches%5D=&amp;q%5Bnotice_eq%5D=&amp;q%5Bnotice_on_gteq%5D=2022-01-01&amp;q%5Bnotice_on_lteq%5D=2022-12-31&amp;q%5Bs%5D=employer_name+asc&amp;q%5Bservice_delivery_area_id_eq%5D=&amp;q%5Bzipcode_code_start%5D=&amp;utf8=%E2%9C%93">Employer</a></th>
-<th id='a11y_table_d7f499bd-a7a9-491d-8a02-33521f2164ee_column2' scope='col'><a class="sort_link " href="/search/warn_lookups?commit=Search&amp;q%5Bemployer_name_cont%5D=&amp;q%5Bmain_contact_contact_info_addresses_full_location_city_matches%5D=&amp;q%5Bnotice_eq%5D=&amp;q%5Bnotice_on_gteq%5D=2022-01-01&amp;q%5Bnotice_on_lteq%5D=2022-12-31&amp;q%5Bs%5D=main_contact_contact_info_addresses_full_location_city+asc&amp;q%5Bservice_delivery_area_id_eq%5D=&amp;q%5Bzipcode_code_start%5D=&amp;utf8=%E2%9C%93">City</a></th>
-<th id='a11y_table_d7f499bd-a7a9-491d-8a02-33521f2164ee_column3' scope='col'><a class="sort_link " href="/search/warn_lookups?commit=Search&amp;q%5Bemployer_name_cont%5D=&amp;q%5Bmain_contact_contact_info_addresses_full_location_city_matches%5D=&amp;q%5Bnotice_eq%5D=&amp;q%5Bnotice_on_gteq%5D=2022-01-01&amp;q%5Bnotice_on_lteq%5D=2022-12-31&amp;q%5Bs%5D=main_contact_contact_info_addresses_full_location_zip_string+asc&amp;q%5Bservice_delivery_area_id_eq%5D=&amp;q%5Bzipcode_code_start%5D=&amp;utf8=%E2%9C%93">ZIP</a></th>
-<th id='a11y_table_d7f499bd-a7a9-491d-8a02-33521f2164ee_column4' scope='col'><a class="sort_link " href="/search/warn_lookups?commit=Search&amp;q%5Bemployer_name_cont%5D=&amp;q%5Bmain_contact_contact_info_addresses_full_location_city_matches%5D=&amp;q%5Bnotice_eq%5D=&amp;q%5Bnotice_on_gteq%5D=2022-01-01&amp;q%5Bnotice_on_lteq%5D=2022-12-31&amp;q%5Bs%5D=service_delivery_area_name+asc&amp;q%5Bservice_delivery_area_id_eq%5D=&amp;q%5Bzipcode_code_start%5D=&amp;utf8=%E2%9C%93">LWIB Area</a></th>
-<th id='a11y_table_d7f499bd-a7a9-491d-8a02-33521f2164ee_column5' scope='col'><a class="sort_link " href="/search/warn_lookups?commit=Search&amp;q%5Bemployer_name_cont%5D=&amp;q%5Bmain_contact_contact_info_addresses_full_location_city_matches%5D=&amp;q%5Bnotice_eq%5D=&amp;q%5Bnotice_on_gteq%5D=2022-01-01&amp;q%5Bnotice_on_lteq%5D=2022-12-31&amp;q%5Bs%5D=notice_on+asc&amp;q%5Bservice_delivery_area_id_eq%5D=&amp;q%5Bzipcode_code_start%5D=&amp;utf8=%E2%9C%93">Notice Date</a></th>
-<th id='a11y_table_d7f499bd-a7a9-491d-8a02-33521f2164ee_column6' scope='col'><a class="sort_link " href="/search/warn_lookups?commit=Search&amp;q%5Bemployer_name_cont%5D=&amp;q%5Bmain_contact_contact_info_addresses_full_location_city_matches%5D=&amp;q%5Bnotice_eq%5D=&amp;q%5Bnotice_on_gteq%5D=2022-01-01&amp;q%5Bnotice_on_lteq%5D=2022-12-31&amp;q%5Bs%5D=notice+asc&amp;q%5Bservice_delivery_area_id_eq%5D=&amp;q%5Bzipcode_code_start%5D=&amp;utf8=%E2%9C%93">WARN Type</a></th>
+<th id='a11y_table_487f313e-e460-4339-b7f5-79b8e43532ce_column1' scope='col'><a class="sort_link " href="/search/warn_lookups?commit=Search&amp;q%5Bemployer_name_cont%5D=&amp;q%5Bmain_contact_contact_info_addresses_full_location_city_matches%5D=&amp;q%5Bnotice_eq%5D=&amp;q%5Bnotice_on_gteq%5D=2022-01-01&amp;q%5Bnotice_on_lteq%5D=2022-12-31&amp;q%5Bs%5D=employer_name+asc&amp;q%5Bservice_delivery_area_id_eq%5D=&amp;q%5Bzipcode_code_start%5D=&amp;utf8=%E2%9C%93">Employer</a></th>
+<th id='a11y_table_487f313e-e460-4339-b7f5-79b8e43532ce_column2' scope='col'><a class="sort_link " href="/search/warn_lookups?commit=Search&amp;q%5Bemployer_name_cont%5D=&amp;q%5Bmain_contact_contact_info_addresses_full_location_city_matches%5D=&amp;q%5Bnotice_eq%5D=&amp;q%5Bnotice_on_gteq%5D=2022-01-01&amp;q%5Bnotice_on_lteq%5D=2022-12-31&amp;q%5Bs%5D=main_contact_contact_info_addresses_full_location_city+asc&amp;q%5Bservice_delivery_area_id_eq%5D=&amp;q%5Bzipcode_code_start%5D=&amp;utf8=%E2%9C%93">City</a></th>
+<th id='a11y_table_487f313e-e460-4339-b7f5-79b8e43532ce_column3' scope='col'><a class="sort_link " href="/search/warn_lookups?commit=Search&amp;q%5Bemployer_name_cont%5D=&amp;q%5Bmain_contact_contact_info_addresses_full_location_city_matches%5D=&amp;q%5Bnotice_eq%5D=&amp;q%5Bnotice_on_gteq%5D=2022-01-01&amp;q%5Bnotice_on_lteq%5D=2022-12-31&amp;q%5Bs%5D=main_contact_contact_info_addresses_full_location_zip_string+asc&amp;q%5Bservice_delivery_area_id_eq%5D=&amp;q%5Bzipcode_code_start%5D=&amp;utf8=%E2%9C%93">ZIP</a></th>
+<th id='a11y_table_487f313e-e460-4339-b7f5-79b8e43532ce_column4' scope='col'><a class="sort_link " href="/search/warn_lookups?commit=Search&amp;q%5Bemployer_name_cont%5D=&amp;q%5Bmain_contact_contact_info_addresses_full_location_city_matches%5D=&amp;q%5Bnotice_eq%5D=&amp;q%5Bnotice_on_gteq%5D=2022-01-01&amp;q%5Bnotice_on_lteq%5D=2022-12-31&amp;q%5Bs%5D=service_delivery_area_name+asc&amp;q%5Bservice_delivery_area_id_eq%5D=&amp;q%5Bzipcode_code_start%5D=&amp;utf8=%E2%9C%93">LWIB Area</a></th>
+<th id='a11y_table_487f313e-e460-4339-b7f5-79b8e43532ce_column5' scope='col'><a class="sort_link " href="/search/warn_lookups?commit=Search&amp;q%5Bemployer_name_cont%5D=&amp;q%5Bmain_contact_contact_info_addresses_full_location_city_matches%5D=&amp;q%5Bnotice_eq%5D=&amp;q%5Bnotice_on_gteq%5D=2022-01-01&amp;q%5Bnotice_on_lteq%5D=2022-12-31&amp;q%5Bs%5D=notice_on+asc&amp;q%5Bservice_delivery_area_id_eq%5D=&amp;q%5Bzipcode_code_start%5D=&amp;utf8=%E2%9C%93">Notice Date</a></th>
+<th id='a11y_table_487f313e-e460-4339-b7f5-79b8e43532ce_column6' scope='col'><a class="sort_link " href="/search/warn_lookups?commit=Search&amp;q%5Bemployer_name_cont%5D=&amp;q%5Bmain_contact_contact_info_addresses_full_location_city_matches%5D=&amp;q%5Bnotice_eq%5D=&amp;q%5Bnotice_on_gteq%5D=2022-01-01&amp;q%5Bnotice_on_lteq%5D=2022-12-31&amp;q%5Bs%5D=notice+asc&amp;q%5Bservice_delivery_area_id_eq%5D=&amp;q%5Bzipcode_code_start%5D=&amp;utf8=%E2%9C%93">WARN Type</a></th>
 </tr>
 </thead>
 <tbody>
+<tr>
+<td><a href="/search/warn_lookups/418">Yankee Lanes</a></td>
+<td>Brunswick</td>
+<td>04011</td>
+<td>4 - Coastal Counties Local Area 4</td>
+<td>May 21, 2022</td>
+<td>Non-WARN</td>
+</tr>
 <tr>
 <td><a href="/search/warn_lookups/401">Village Soup</a></td>
 <td>Camden</td>
@@ -204,13 +213,165 @@ Live Chat
 <td>Feb 01, 2022</td>
 <td>Non-WARN</td>
 </tr>
+<tr>
+<td><a href="/search/warn_lookups/406">Shaw&#39;s Supermarket</a></td>
+<td>Westbrook</td>
+<td>04092</td>
+<td>4 - Coastal Counties Local Area 4</td>
+<td>Feb 23, 2022</td>
+<td>Non-WARN</td>
+</tr>
+<tr>
+<td><a href="/search/warn_lookups/407">Dollar Tree</a></td>
+<td>Millinocket</td>
+<td>04462</td>
+<td>1 - Northeastern Workforce Board</td>
+<td>Feb 23, 2022</td>
+<td>Non-WARN</td>
+</tr>
+<tr>
+<td><a href="/search/warn_lookups/408">University of New England</a></td>
+<td>Biddeford</td>
+<td>04005</td>
+<td>4 - Coastal Counties Local Area 4</td>
+<td>Feb 24, 2022</td>
+<td>Non-WARN</td>
+</tr>
+<tr>
+<td><a href="/search/warn_lookups/409">Whiting Farm</a></td>
+<td>Auburn</td>
+<td>04210</td>
+<td>3 - Central Western Local Area 3</td>
+<td>Mar 11, 2022</td>
+<td>Non-WARN</td>
+</tr>
+<tr>
+<td><a href="/search/warn_lookups/410">Grand Isle General Store</a></td>
+<td>Grand Isle</td>
+<td>04746</td>
+<td>1 - Northeastern Workforce Board</td>
+<td>Mar 01, 2022</td>
+<td>Non-WARN</td>
+</tr>
+<tr>
+<td><a href="/search/warn_lookups/411">ProKnee</a></td>
+<td>Whitefield</td>
+<td>04353</td>
+<td>4 - Coastal Counties Local Area 4</td>
+<td>Mar 07, 2022</td>
+<td>Non-WARN</td>
+</tr>
+<tr>
+<td><a href="/search/warn_lookups/412">ON Semiconductor</a></td>
+<td>South Portland</td>
+<td>04106</td>
+<td>4 - Coastal Counties Local Area 4</td>
+<td>Mar 01, 2022</td>
+<td>Non-WARN</td>
+</tr>
+<tr>
+<td><a href="/search/warn_lookups/413">Machias Veteran&#39; Home</a></td>
+<td>Machias</td>
+<td>04654</td>
+<td>1 - Northeastern Workforce Board</td>
+<td>Mar 01, 2022</td>
+<td>Non-WARN</td>
+</tr>
+<tr>
+<td><a href="/search/warn_lookups/414">RA Paradis</a></td>
+<td>Newport</td>
+<td>04953</td>
+<td>1 - Northeastern Workforce Board</td>
+<td>Mar 31, 2022</td>
+<td>Non-WARN</td>
+</tr>
+<tr>
+<td><a href="/search/warn_lookups/415">Mid-Coast Dermatology</a></td>
+<td>Brunswick</td>
+<td>04011</td>
+<td>4 - Coastal Counties Local Area 4</td>
+<td>Mar 31, 2022</td>
+<td>Non-WARN</td>
+</tr>
+<tr>
+<td><a href="/search/warn_lookups/416">Maine Natural Health</a></td>
+<td>Warren</td>
+<td>04864</td>
+<td>4 - Coastal Counties Local Area 4</td>
+<td>Apr 26, 2022</td>
+<td>Non-WARN</td>
+</tr>
+<tr>
+<td><a href="/search/warn_lookups/417">Burrelle&#39;s </a></td>
+<td>Presque Isle</td>
+<td>04769</td>
+<td>1 - Northeastern Workforce Board</td>
+<td>Apr 18, 2022</td>
+<td>Non-WARN</td>
+</tr>
+<tr>
+<td><a href="/search/warn_lookups/419">Trails n Ales</a></td>
+<td>Gray</td>
+<td>04039</td>
+<td>4 - Coastal Counties Local Area 4</td>
+<td>May 14, 2022</td>
+<td>Non-WARN</td>
+</tr>
+<tr>
+<td><a href="/search/warn_lookups/420">Beach Cove Waterfront Inn</a></td>
+<td>Boothbay Harbor</td>
+<td>04538</td>
+<td>4 - Coastal Counties Local Area 4</td>
+<td>May 24, 2022</td>
+<td>Non-WARN</td>
+</tr>
+<tr>
+<td><a href="/search/warn_lookups/421">The Roost</a></td>
+<td>Calais</td>
+<td>04619</td>
+<td>1 - Northeastern Workforce Board</td>
+<td>May 02, 2022</td>
+<td>Non-WARN</td>
+</tr>
+<tr>
+<td><a href="/search/warn_lookups/422">Scarborough Downs</a></td>
+<td>Scarborough</td>
+<td>04074</td>
+<td>4 - Coastal Counties Local Area 4</td>
+<td>May 31, 2022</td>
+<td>Non-WARN</td>
+</tr>
+<tr>
+<td><a href="/search/warn_lookups/424">Mexico One Stop</a></td>
+<td>Mexico</td>
+<td>04257</td>
+<td>3 - Central Western Local Area 3</td>
+<td>Jun 02, 2022</td>
+<td>Non-WARN</td>
+</tr>
+<tr>
+<td><a href="/search/warn_lookups/425">Wander Pizza</a></td>
+<td>Augusta</td>
+<td>04330</td>
+<td>3 - Central Western Local Area 3</td>
+<td>Jun 10, 2022</td>
+<td>Non-WARN</td>
+</tr>
+<tr>
+<td><a href="/search/warn_lookups/445">Gray Owl</a></td>
+<td>Rockland</td>
+<td>04841</td>
+<td>4 - Coastal Counties Local Area 4</td>
+<td>Nov 08, 2022</td>
+<td>Non-WARN</td>
+</tr>
 
 </tbody>
 </table>
 </div>
-<nav aria-label='Page controls' class='form__nav' data-sticky-container id='form_nav_f66bf1eb-9474-4b8d-90ba-342e1e9d69eb'>
-<div class='button-group' data-btm-anchor='form_nav_f66bf1eb-9474-4b8d-90ba-342e1e9d69eb:bottom' data-margin-bottom='0' data-stick-to='bottom' data-sticky data-sticky-on='small'>
-
+<nav aria-label='Page controls' class='form__nav' data-sticky-container id='form_nav_e8be9fff-8927-4405-810c-6cf05a307cfd'>
+<div class='button-group' data-btm-anchor='form_nav_e8be9fff-8927-4405-810c-6cf05a307cfd:bottom' data-margin-bottom='0' data-stick-to='bottom' data-sticky data-sticky-on='small'>
+<div role="navigation" aria-label="Pagination" class="pagination"><span class="previous_page disabled" aria-disabled="true">&#8592; Previous</span> <em class="current" aria-label="Page 1" aria-current="page">1</em> <a rel="next" aria-label="Page 2" href="/search/warn_lookups?commit=Search&amp;page=2&amp;q%5Bemployer_name_cont%5D=&amp;q%5Bmain_contact_contact_info_addresses_full_location_city_matches%5D=&amp;q%5Bnotice_eq%5D=&amp;q%5Bnotice_on_gteq%5D=2022-01-01&amp;q%5Bnotice_on_lteq%5D=2022-12-31&amp;q%5Bservice_delivery_area_id_eq%5D=&amp;q%5Bzipcode_code_start%5D=&amp;utf8=%E2%9C%93">2</a> <a aria-label="Page 3" href="/search/warn_lookups?commit=Search&amp;page=3&amp;q%5Bemployer_name_cont%5D=&amp;q%5Bmain_contact_contact_info_addresses_full_location_city_matches%5D=&amp;q%5Bnotice_eq%5D=&amp;q%5Bnotice_on_gteq%5D=2022-01-01&amp;q%5Bnotice_on_lteq%5D=2022-12-31&amp;q%5Bservice_delivery_area_id_eq%5D=&amp;q%5Bzipcode_code_start%5D=&amp;utf8=%E2%9C%93">3</a> <a class="next_page" rel="next" href="/search/warn_lookups?commit=Search&amp;page=2&amp;q%5Bemployer_name_cont%5D=&amp;q%5Bmain_contact_contact_info_addresses_full_location_city_matches%5D=&amp;q%5Bnotice_eq%5D=&amp;q%5Bnotice_on_gteq%5D=2022-01-01&amp;q%5Bnotice_on_lteq%5D=2022-12-31&amp;q%5Bservice_delivery_area_id_eq%5D=&amp;q%5Bzipcode_code_start%5D=&amp;utf8=%E2%9C%93">Next &#8594;</a></div>
 
 </div>
 </nav>
@@ -277,16 +438,11 @@ Live Chat
 </nav>
 <hr class='footer__rule'>
 <div class='footer__extras'>
-<div class='translate'>
-<div class='text-center' id='google-translate-element'></div>
-<script src="https://joblink.maine.gov/assets/vendor/translate_config-8cf6f4efee7622a2c49c8ebeb96cb2fe5bf9d2a0eb8b9d3d964ee46bf753b076.js"></script>
-<script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-</div>
-<strong>Build: ee275d4746460803aac33c099ff9acdf89f677ac
-, 1.13
-</strong>
 <div>DISCLAIMER: By using or accessing this website, I agree to its Terms of Use and all other Policies. I acknowledge and agree that all links to external sources are provided purely as a courtesy to me as a website user or visitor. Neither the state, nor the state labor agency are responsible for or endorse in any way any materials, information, goods, or services available through third-party linked sites, any privacy policies, or any other practices of such sites. I acknowledge and agree that the Terms of Use and all other Policies for this Website are available to me, and I have read the <a href="/disclaimer">Full Disclaimer</a>.
 </div>
+<strong>Build: 9158c1ac3261f63600363a1bb3d55108f3b80352
+, 1.62
+</strong>
 </div>
 <hr class='footer__rule'>
 <p class='text-center'>
@@ -301,16 +457,37 @@ Live Chat
 <a class='button button--minimal' id='session-informer-end'>Log Out</a>
 </div>
 
+<div aria-labelledby='session-informer-title' class='reveal' data-close-on-click='false' data-close-on-esc='false' data-reveal='' id='session-ended' role='dialog'>
+<h1 id='session-ended-title'>Your Session has Ended!</h1>
+<p>Press <strong>Refresh</strong> to reload the page, or you can can close the page if you are finished.</p>
+<a class='button button--primary' id='session-ended-refresh' tabindex='0'>Refresh</a>
+</div>
+
 </footer>
+
+<div class='reveal-overlay spinner-container'>
+<div class='reveal'>
+<img alt="Please Wait ..." src="https://joblink.maine.gov/assets/spinner-5cd42c80561bd3ce67bd0937d7144757860f1256268947bff4c7b267998e1d87.svg" />
+<div class='msg'></div>
+</div>
+</div>
 
 <div aria-hidden='true' id='overlay'></div>
 <div aria-live='polite' class='visually-hidden' id='liveRegion' readcaptions='false' role='alert'></div>
-<script src="https://joblink.maine.gov/assets/application-631092248f3786a61fb2cb09673781a0cc5ff0479ce5496dd3b44b37eb28f582.js"></script>
+<script src="https://joblink.maine.gov/assets/application-3cd5f374403232adbed1ab98a0d99171bca05704292b009e5c5a8e600484cc78.js"></script>
+<script src="https://joblink.maine.gov/packs/js/runtime-0e2539820d01c91b02a9.js" defer="defer"></script>
+<script src="https://joblink.maine.gov/packs/js/475-155e5e384e376e6b0aa2.js" defer="defer"></script>
+<script src="https://joblink.maine.gov/packs/js/531-0c80595eea02b0075a28.js" defer="defer"></script>
+<script src="https://joblink.maine.gov/packs/js/57-f4f848409ce391871b08.js" defer="defer"></script>
+<script src="https://joblink.maine.gov/packs/js/629-96cc662e38bb0ca575bc.js" defer="defer"></script>
+<script src="https://joblink.maine.gov/packs/js/538-d8f538b99061ac83bbcf.js" defer="defer"></script>
+<script src="https://joblink.maine.gov/packs/js/201-870d893a58d9c38b8860.js" defer="defer"></script>
+<script src="https://joblink.maine.gov/packs/js/976-3b696a094cae18318537.js" defer="defer"></script>
+<script src="https://joblink.maine.gov/packs/js/application-21160aa314c85e441d5f.js" defer="defer"></script>
 
-<script src="https://joblink.maine.gov/packs/js/application-e741debb9b18fb480eed.js"></script>
 <script src="https://analytics.ajla.net/piwik.js" defer="defer" asynch="true"></script>
 <noscript>
-<img alt='' src='https://analytics.ajla.net/piwik.php?idsite=11&rec=1' style='border:0;'>
+<img alt='' src='https://analytics.ajla.net/piwik.php?idsite=11&amp;rec=1' style='border:0;'>
 </noscript>
 
 </body>
