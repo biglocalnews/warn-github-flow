@@ -1,8 +1,40 @@
 hash_id,postal_code,company,location,notice_date,effective_date,jobs,is_temporary,is_closure,is_amendment
-ffe00c87d31a52658463ab19a339ff9eb1e675bb0ea1ee3e153ebb6d,NY,"Everest Global Services, Inc.",New York,2025-12-15,2026-03-31,16,False,False,False
-fee6a5090ce38fb09247fb16658112a1a8ab5e0cd17d5d2d01e5ec0b,NY,Everest National Insurance Company,New York,2025-12-15,2026-03-31,49,False,False,False
-ac0705a220eece849f4f2ddac7c6d0abcf71d3d111dd7dd436937834,NY,"SDH Education West, LLC d/b/a Sodexo - Binghamton University",Broome,2026-02-26,2026-05-31,3,False,True,False
-60384b80d984cae8c14fdc8f331c9d27b2ee1b64364815eb7bc0339a,NY,"SDH Education West, LLC d/b/a Sodexo - Binghamton University",Broome,2026-02-26,2026-05-31,144,False,True,False
-68ffa7d1848033b985756f707ef95241723d17ce02757ee6e914986b,NY,"SDH Education West, LLC d/b/a Sodexo - Binghamton University",Broome,2026-02-26,2026-05-31,542,False,True,False
-6fc713496822cf2544a56cee7b976715b470ca96f9fb594349ab6d97,OH,Lourdes University,Sylvania/Lucas,2026-03-13,2026-05-15,387,,,False
-a85a5d9582c39834ceb0bdbebff553b1893c0248653be35ece4ed243,WI,"United Natural Foods, Inc.",Sturtevant,2026-03-16,2026-06-20,443,,,False
+491bf1baf8640fa3c322d40a911245c5fb8176bfd1258a774f209fe6,CA,Sanitation Specialists,14490 Catalina Street  San Leandro CA 94577,2026-03-12,2026-05-22,21,,True,False
+54f558d849d84a1097c6a3585b40583a283abf2ff31f11cdc8f3ab18,CA,Union of Pan Asian Communities (Neighborhood Enterprise Center),5296 University Avenue  San Diego CA 92105,2026-03-11,2026-05-10,16,,True,False
+f5d7fc79dd20995975d8fe4717c94a5305de3f35311a138ce96c0c05,CA,"Atlassian US, Inc.","350 Bush Street, Floor 13  San Francisco CA 94104",2026-03-11,2026-03-13,252,,,False
+090c465102ff474d50261e7b1a4283b55f18351aea431f6d8145b8e6,CA,Sanitation Specialists,320B Shaw Road  South San Francisco CA 94080,2026-03-12,2026-05-22,15,,True,False
+b40c5edb95a841b29c668c90bd73097ff4db9e90e24a1cd1e3b4000b,CA,American Eagle Flights (Santa Maria Airport),3217 Terminal Dr.  Santa Maria CA 93455,2026-03-06,2026-05-06,20,,True,False
+254568af41e1dda15b6fa5de0bb6329e9a8c70ae326fff460e74e6d7,CA,Westside Equipment Co. (OXBO),18 Fink Road  Crows Landing CA 95313,2026-03-11,2026-05-11,2,,True,False
+105d215693608e5c3cfa29c160a39d545c4610f33cb0ea438772b756,CA,Blue Shield of California,601 12th Street  Oakland CA 94607,2026-03-13,2026-04-08,7,,,False
+b720bfa08d7969b3f82f63bb3fa6e4b4343a6eec8f0a7abd2fe3cf8a,CA,Blue Shield of California (Building C),"4203 Town Center Blvd., Building C  El Dorado Hills CA 95762",2026-03-13,2026-04-08,5,,,False
+8bf7b3054fd5698ddb74f68f47dd3ff9244be009a965be2598a4953c,CA,Blue Shield of California (Building B),"4203 Town Center Blvd., Building B  El Dorado Hills CA 95762",2026-03-13,2026-04-08,7,,,False
+16263be9af96c0cd29b02b1a7ceec0cb98684ae941609b393eb1508f,CA,Blue Shield of California,3840 Kilroy Airport Way  Long Beach CA 90806,2026-03-13,2026-04-08,14,,,False
+1fc2b7a68d864f52c8010065c71b40770bf4e00e1827c06ee3b0b78a,CA,Blue Shield of California,6300 Canoga Avenue  Woodland Hills CA 91367,2026-03-13,2026-04-08,8,,,False
+4da3a068a75fbaece15c528471692f4b3a95361e99a8201c64e64f0b,CA,Blue Shield of California,3300 Zinfandel Drive  Rancho Cordova CA 95670,2026-03-13,2026-04-08,6,,,False
+e9aa70fc8f67a1f633d993dba24a973503c2138e2bb997c8d4d41d0f,CA,Blue Shield of California,"3131 Camino Del Rio, Suite #1300  San Diego CA 92108",2026-03-13,2026-04-08,3,,,False
+9d8ce3ad47758134560aa505b204e66fa056a6f2232f83063e54f8d5,CA,Blue Shield of California,3021 Reynolds Ranch Parkway  Lodi CA 95240,2026-03-13,2026-04-08,17,,,False
+b267774a7f4d65401d3bcb8a029a574c85ef51c85b6c4e36e5355b9b,CA,Blue Shield of California,4700 Bechelli Lane  Redding CA 96002,2026-03-13,2026-04-08,2,,,False
+d12b6a6f0835f44da1682ae0d99bad52922d7193d8b975a98802d9dd,CA,Calvary Murrieta Christian School,2475 Monroe Avenue  Murrieta CA 92562,2026-03-16,2026-05-29,74,,True,False
+c18e36d8a2e2ca60766e45a459057cd3961b499d6e743add7bbc5e88,FL,C2 Technologies,KISSIMMEE,2026-03-05,2026-03-06,1,,,False
+6ba9aa3927bf99705cc15f3845b2ee95b69a161e7c98b7b6fd362d35,FL,C2 Technologies,DELAND,2026-03-05,2026-03-06,1,,,False
+fed2706fe4e1070ea2ad7584a1bced6529ec88c099ad7e3d2aa75671,FL,C2 Technologies,BRANDON,2026-03-05,2026-03-06,1,,,False
+7f6515d8dece8b083ae5f2b8167f3567be206427f5abba571c8b6617,FL,C2 Technologies,ORLANDO,2026-03-05,2026-03-06,3,,,False
+e77262143361c9b46511ab66a0e25cf83363980571e66c5bb2661eab,FL,C2 Technologies,SHALIMAR,2026-03-05,2026-03-06,1,,,False
+2c2db4ba15374903c32e8ff144dc8cbf6920fd93f0172af35ff6cb98,FL,C2 Technologies,PLANT CITY,2026-03-05,2026-03-06,1,,,False
+2df53edba9f23c4b8de10ddc32def12d955e5a54323b9e644f7c8846,FL,C2 Technologies,WINTER SPRINGS,2026-03-05,2026-03-06,1,,,False
+c25138d5655605903ff39917aa5e2c89a392214582287855b50ebf61,FL,C2 Technologies,PALM BAY,2026-03-05,2026-03-06,1,,,False
+33d60572957105998b6e645f1136254fa1bfaa54a9e2245a1578e62e,FL,C2 Technologies,TAMPA,2026-03-05,2026-03-06,1,,,False
+235229c96d1726d983c2c369987864c11caa97d5b24b7a2cc2969b8c,FL,C2 Technologies,LAKELAND,2026-03-05,2026-03-06,1,,,False
+b75e8e0e750252e9c55d16a38e59a8e130011f8f0c471ba74945a665,FL,C2 Technologies,GREEN COVE SPRINGS,2026-03-05,2026-03-06,1,,,False
+ea51c9f3f7bf25b54ed320c78f50619012be4883dd7bab3e0611c531,FL,C2 Technologies,DELTONA,2026-03-05,2026-03-06,1,,,False
+353fe9524bffc7e6b5bf654ec7df6ae617eba86d1d49fa9c0ab54b4b,FL,C2 Technologies,ALTAMONTE SPRINGS,2026-03-05,2026-03-06,1,,,False
+92813521adf8caf5f38fb5d9cd90748c47c152ea94593cedbee7e9f0,FL,C2 Technologies,JACKSONVILLE,2026-03-05,2026-03-06,1,,,False
+14251cd27f9a83cc9a40381c237a85954bdf9e908c3d55eb4bc6da3e,FL,C2 Technologies,OCALA,2026-03-05,2026-03-06,1,,,False
+de0e15180c8d230182709978b73544ca08fcd19c9acb193c2d80588f,FL,C2 Technologies,TALLAHASSEE,2026-03-05,2026-03-06,2,,,False
+5557de2b85f21108fece41360d01fa01ef33fc4266ec38ced5636a65,FL,C2 Technologies,PORT SAINT LUCIE,2026-03-05,2026-03-06,1,,,False
+d70ffe3805c497feffed8723104fc6f3936002b97797d824dbc5a1e7,FL,C2 Technologies,APOPKA,2026-03-05,2026-03-06,1,,,False
+d235f0aa8279dcf56055180ab95c21614f62b58b3f85d63e65b7243f,FL,C2 Technologies,ORLANDO,2026-03-05,2026-03-06,2,,,False
+e5cb7656690cabe01549620ecf980f1dc504a0d24a2bbd6a931324c1,MD,"Bering Global Solutions, LLC (BGS) - CBD","5813 Bayside Rd Chesapeake Beach, MD 20732",2026-03-13,2026-03-31,21,,,False
+c3eb6ed283513d7f4e676051e19d9970d4bd964a431b673a2fbbfcaa,MD,"Bering Global Solutions, LLC (BGS) - Carderock","9500 Macarthur Blvd. Bethesda, MD 20817",2026-03-13,2026-03-31,6,,,False
+4387d489466ca4433a842d4a036d7f4a68b910765846932a9964eca4,MD,"Bering Global Solutions, LLC (BGS) - Bethesda","8901 Rockville Pike Bethesda, MD 20889",2026-03-13,2026-03-31,5,,,False
+99f8849125b6a788db84035f66af7ffa508edd8f8f0e9deb247e2d98,WA,"Blue Bird, Inc.",Wenatchee,2026-05-16,2026-05-16,82,False,False,False
