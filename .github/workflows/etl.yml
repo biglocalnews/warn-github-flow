@@ -81,10 +81,11 @@ jobs:
         if: ${{ failure() }}
         uses: slackapi/slack-github-action@v3.0.1
         with:
-          channel-id: ${{ secrets.SLACK_CHANNEL_ID }}
-          slack-message: "🚨Layoff Watch ETL extraction run <https://github.com/biglocalnews/warn-github-flow/actions/runs/${{ github.run_id }}|#${{ github.run_id }}> for `${{ matrix.source }}` failed"
-        env:
-          SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
+          method: chat.postMessage
+          token: ${{ secrets.SLACK_BOT_TOKEN }}
+          payload: |
+            channel: ${{ secrets.SLACK_CHANNEL_ID }}
+            text: "🚨Layoff Watch ETL extraction run <https://github.com/biglocalnews/warn-github-flow/actions/runs/${{ github.run_id }}|#${{ github.run_id }}> for `${{ matrix.source }}` failed"
 
   transform:
     name: Transform
@@ -111,10 +112,11 @@ jobs:
         if: ${{ failure() }}
         uses: slackapi/slack-github-action@v3.0.1
         with:
-          channel-id: ${{ secrets.SLACK_CHANNEL_ID }}
-          slack-message: "🚨 Layoff Watch ETL transformation run <https://github.com/biglocalnews/warn-github-flow/actions/runs/${{ github.run_id }}|#${{ github.run_id }}> failed"
-        env:
-          SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
+          method: chat.postMessage
+          token: ${{ secrets.SLACK_BOT_TOKEN }}
+          payload: |
+            channel: ${{ secrets.SLACK_CHANNEL_ID }}
+            text: "🚨 Layoff Watch ETL transformation run <https://github.com/biglocalnews/warn-github-flow/actions/runs/${{ github.run_id }}|#${{ github.run_id }}> failed"
 
   status-report:
     name: Status report
@@ -126,10 +128,11 @@ jobs:
         id: slack
         uses: slackapi/slack-github-action@v3.0.1
         with:
-          channel-id: ${{ secrets.SLACK_CHANNEL_ID }}
-          slack-message: "👍 Layoff Watch ETL run <https://github.com/biglocalnews/warn-github-flow/actions/runs/${{ github.run_id }}|#${{ github.run_id }}> finished successfully"
-        env:
-          SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
+          method: chat.postMessage
+          token: ${{ secrets.SLACK_BOT_TOKEN }}
+          payload: |
+            channel: ${{ secrets.SLACK_CHANNEL_ID }}
+            text: "👍 Layoff Watch ETL run <https://github.com/biglocalnews/warn-github-flow/actions/runs/${{ github.run_id }}|#${{ github.run_id }}> finished successfully"
 
   alert:
     name: Alert
