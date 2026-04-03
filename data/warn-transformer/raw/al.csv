@@ -2,12 +2,12 @@ Closing or Layoff,Initial Report Date,Planned Starting Date,Company,City,Planned
 Layoff,04/01/2026,05/31/2026,Swedish Match Cigars Inc,Dothan,54
 Closure,03/31/2026,05/24/2026,Resolute Forest Products,Alpine,20
 Closure,03/31/2026,05/24/2026,Resolute Forest Products,Coosa Pines,255
-Closure,03/31/2026,05/24/2026,Resolute Forest Products,Childersburg,255
 Layoff,02/27/2026,04/30/2026,Saddle Creek Logistics Services,Bessemer,151
 Closure,02/19/2026,02/17/2026,Louis Vuitton,Birmingham,10
 Layoff,02/19/2026,04/11/2026,CVG – Commercial Vehicle Group Alabama,Piedmont,76
 Closure,02/05/2026,05/12/2026,Tiffin Motorhomes Incorporated,Winfield,139
 Layoff,02/10/2026,04/01/2026,Birmingham Parking Authority,Birmingham,33
+Layoff,02/10/2026,04/01/2026,Birmingham Parking Authority,Birmingham,54
 Closure,02/12/2026,04/08/2026,Southern Parallel Forest Products Corp,Albertville,62
 Closure,02/10/2026,04/11/2026,Saks Fifth Avenue,Birmingham,44
 Closure,01/13/2026,06/30/2026,Salon Centric  Inc,Mc Calla,79
@@ -15,6 +15,8 @@ Layoff,12/23/2025,02/23/2026,Montgomery UPS,Montgomery,128
 Layoff,11/14/2025,01/12/2026,Regional Medical Center of Central Alabama,Greenville,90
 Closure,10/30/2025,03/31/2026,Oerlikon Balzers Coating USA,Pell City,8
 Layoff,10/24/2025,11/01/2025,East Coast Migrant Head Start,Semmes,10
+Layoff,10/24/2025,11/01/2025,East Coast Migrant Head Start,Steele,10
+Layoff,10/24/2025,11/01/2025,East Coast Migrant Head Start Project,Loxley,10
 Closure,10/28/2025,12/27/2025,Renfro Brands,Fort Payne,455
 Layoff,10/23/2025,12/31/2025,Averitt Express  Inc,Vance,193
 Layoff,10/17/2025,12/03/2025,a.i. solutions  Inc.,Huntsville,86
@@ -117,32 +119,46 @@ Closure,09/15/2020,11/09/2020,FreightCar America,Cherokee,550
 Layoff,09/08/2020,10/31/2020,PowerSouth Energy COOP,Leroy,87
 Closure,08/20/2020,10/09/2020,Honeywell Aerospace,Oxford,136
 Layoff,08/13/2020,10/16/2020,Birmingham Shuttlesworth Airport,Birmingham,85
+Layoff,08/13/2020,10/16/2020,Birmingham Shuttlesworth Airport,Birmingham,85
 Layoff,08/03/2020,09/30/2020,US Space and Rocket Center,Huntsville,172
 Closure,08/03/2020,09/29/2020,Remington,Huntsville,234
 Closure,07/16/2020,10/31/2020,Commercial Vehicle Group  Inc,Piedmont,49
+Closure,07/16/2020,10/31/2020,"Commercial Vehicle Group, Inc",Piedmont,49
 Layoff,07/16/2020,09/11/2020,Nucor,Eufaula,309
 Layoff,07/16/2020,08/10/2020,Technicolor,Huntsville,100
 Layoff,07/16/2020,08/15/2020,BJCC,Birmingham,91
 Layoff,07/16/2020,08/15/2020,Birmingham Jeffeson Convention Complex,Birmingham,91
 Closure,06/15/2020,08/10/2020,Grede Casting,Columbiana,94
 Closure,06/08/2020,06/19/2020,Greif  Inc,Mobile,90
+Closure,06/08/2020,06/19/2020,"Greif, Inc",Mobile,90
 Closure,05/13/2020,05/06/2020,Weidplas North America  LLC,Auburn,96
+Closure,05/13/2020,05/06/2020,"Weidplas North America, LLC",Auburn,96
 Closure,05/06/2020,06/28/2020,GOODYEAR,Gadsden,592
 Layoff,05/01/2020,06/14/2020,U.S. Steel Tubular Products,Fairfield,633
 Closure,04/22/2020,06/26/2020,"BORBET ALABAMA, INC",Auburn,230
 Layoff,04/22/2020,04/22/2020,GESTAMP,McCalla,76
+Layoff *,04/22/2020,04/22/2020,GESTAMP,McCalla,76
 Closure,04/22/2020,04/22/2020,STAR AVIATION,Mobile,82
+Closing *,04/22/2020,04/22/2020,STAR AVIATION,Mobile,82
 Layoff,04/17/2020,04/17/2020,STANDARD FURNITURE,,95
+Layoff *,04/17/2020,04/17/2020,STANDARD FURNITURE,,95
 Closure,04/17/2020,06/15/2020,MONARCH WINDOWS & DOORS,Anniston,64
+Closing *,04/17/2020,06/15/2020,MONARCH WINDOWS & DOORS,Anniston,64
 Layoff,04/14/2020,03/20/2020,"HOOTERS OF AMERICA, LLC",,90
+Layoff *,04/14/2020,03/20/2020,"HOOTERS OF AMERICA, LLC",,90
 Layoff,04/14/2020,06/06/2020,CARBO CERMAICS INC,Eufaula,56
+Closing *,04/14/2020,06/06/2020,CARBO CERMAICS INC,Eufaula,56
 Closure,02/14/2020,04/12/2020,RCX LOGISTICS,Theodore,66
+Closing *,02/14/2020,04/12/2020,RCX LOGISTICS,Theodore,66
 Layoff,02/11/2020,02/05/2020,GOODYEAR,Gadsden,105
 Layoff *,02/06/2020,04/06/2020,WAITR AND BITE SQUAD,State-Wide,491
 Closure,02/03/2020,01/01/0001,VICTORIA’S SECRET,Decatur,18
 Closure,01/31/2020,03/20/2020,FAURECIA,Tuscaloosa,166
+Closing *,01/31/2020,03/20/2020,FAURECIA,Tuscaloosa,166
 Closure,01/24/2020,03/31/2020,"FIS MANAGEMENT SERVICES, LLC",Northport,102
+Closing *,01/24/2020,03/31/2020,"FIS MANAGEMENT SERVICES, LLC",Northport,102
 Closure,01/10/2020,03/08/2020,WHOLE FOODS,Hoover,68
+Closing *,01/10/2020,03/08/2020,WHOLE FOODS,Hoover,68
 Closure,01/10/2020,01/01/0001,CR GIBSON,Florence,46
 Closing *,10/31/2019,12/29/2019,FRONTIER SPINNING MILLS,Wetumpka,148
 Closing *,10/18/2019,12/31/2019,KARDOES RUBBER,LaFayette,86
