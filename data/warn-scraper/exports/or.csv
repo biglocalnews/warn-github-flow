@@ -8,23 +8,23 @@ WARN#,Company Name,Location,Layoff Date,Laid Off,Layoff Type,Received Date
 9446,Oregon - Remote Employees,,2026-04-19 00:00:00,2,Reduction,2026-02-13 00:00:00
 9436,Riddle Plywood facility ,Riddle,2026-04-05 00:00:00,146,Large Layoff - 10 or more workers,2026-02-04 00:00:00
 9434,Kroger-00255,Portland,2026-04-05 00:00:00,4,Permanent closure,2026-01-29 00:00:00
-9434,Kroger-00135,Portland,2026-04-05 00:00:00,4,Permanent closure,2026-01-29 00:00:00
+9434,Kroger-00040,Portland,2026-04-05 00:00:00,4,Permanent closure,2026-01-29 00:00:00
 9434,Kroger-00075-Prime,Portland,2026-04-05 00:00:00,4,Permanent closure,2026-01-29 00:00:00
 9434,"Lincare-Brookings, OR",Brookings,2026-04-05 00:00:00,3,Permanent closure,2026-01-29 00:00:00
-9434,Kroger-00150-Prime,Portland,2026-04-05 00:00:00,4,Permanent closure,2026-01-29 00:00:00
+9434,Kroger-00127-Prime,Powell Valley,2026-04-05 00:00:00,4,Permanent closure,2026-01-29 00:00:00
 9434,Kroger-00153,Happy Valley,2026-04-05 00:00:00,4,Permanent closure,2026-01-29 00:00:00
 9434,Kroger-00128-Prime,Portland,2026-04-05 00:00:00,4,Permanent closure,2026-01-29 00:00:00
 9434,Kroger-00035,Beaverton,2026-04-05 00:00:00,3,Permanent closure,2026-01-29 00:00:00
 9434,Kroger-00360-Prime,Portland,2026-04-05 00:00:00,4,Permanent closure,2026-01-29 00:00:00
-9434,Kroger-00417,Eugene,2026-04-05 00:00:00,3,Permanent closure,2026-01-29 00:00:00
+9434,Kroger-00135,Portland,2026-04-05 00:00:00,4,Permanent closure,2026-01-29 00:00:00
 9434,Kroger-00125-Prime,North Tabor,2026-04-05 00:00:00,4,Permanent closure,2026-01-29 00:00:00
 9434,Kroger-00063,Clackamas,2026-04-05 00:00:00,4,Permanent closure,2026-01-29 00:00:00
-9434,Kroger-00516,Wilsonville,2026-04-05 00:00:00,3,Permanent closure,2026-01-29 00:00:00
+9434,Kroger-00150-Prime,Portland,2026-04-05 00:00:00,4,Permanent closure,2026-01-29 00:00:00
 9434,Kroger-00240,Milwaukie,2026-04-05 00:00:00,4,Permanent closure,2026-01-29 00:00:00
 9434,Kroger-00600-Prime,Portland,2026-04-05 00:00:00,4,Permanent closure,2026-01-29 00:00:00
 9434,Kroger-00090,Salem,2026-04-05 00:00:00,4,Permanent closure,2026-01-29 00:00:00
-9434,Kroger-00127-Prime,Powell Valley,2026-04-05 00:00:00,4,Permanent closure,2026-01-29 00:00:00
-9434,Kroger-00040,Portland,2026-04-05 00:00:00,4,Permanent closure,2026-01-29 00:00:00
+9434,Kroger-00516,Wilsonville,2026-04-05 00:00:00,3,Permanent closure,2026-01-29 00:00:00
+9434,Kroger-00417,Eugene,2026-04-05 00:00:00,3,Permanent closure,2026-01-29 00:00:00
 9434,Kroger-00660,Wood Village,2026-04-05 00:00:00,3,Permanent closure,2026-01-29 00:00:00
 9429,Eugene Location,Eugene,2026-03-31 00:00:00,39,Permanent closure,2026-01-29 00:00:00
 9429,Bend Location,Bend,2026-03-31 00:00:00,26,Permanent closure,2026-01-29 00:00:00
@@ -160,10 +160,10 @@ WARN#,Company Name,Location,Layoff Date,Laid Off,Layoff Type,Received Date
 8742,Interfor U.S. Inc,Philomath,2024-02-15 00:00:00,42,Large Layoff - 10 or more workers,2024-02-15 00:00:00
 8725,Remote Workers - Oregon,,2024-03-30 00:00:00,46,Large Layoff - 10 or more workers,2024-01-30 00:00:00
 8723,RNDC - Bend Location,Bend,2024-03-31 00:00:00,4,Permanent closure,2024-01-30 00:00:00
-8723,RNDC - Medford Location #2,Medford,2024-03-31 00:00:00,3,Permanent closure,2024-01-30 00:00:00
+8723,RNDC - Medford Location #1,Medford,2024-03-31 00:00:00,1,Permanent closure,2024-01-30 00:00:00
 8723,RNDC - Eugene Location,Eugene,2024-03-31 00:00:00,3,Permanent closure,2024-01-30 00:00:00
 8723,RNDC - Portland Location,Portland,2024-03-31 00:00:00,67,Permanent closure,2024-01-30 00:00:00
-8723,RNDC - Medford Location #1,Medford,2024-03-31 00:00:00,1,Permanent closure,2024-01-30 00:00:00
+8723,RNDC - Medford Location #2,Medford,2024-03-31 00:00:00,3,Permanent closure,2024-01-30 00:00:00
 8708,Oregon - Remote Employees,,2024-03-15 00:00:00,4,Reduction,2024-01-11 00:00:00
 8708,"Lost Boys Interactive, LLC","Madison, WI",2024-03-15 00:00:00,121,Large Layoff - 10 or more workers,2024-01-11 00:00:00
 8671,Portland - Site,Portland,2024-01-31 00:00:00,62,Permanent closure,2023-12-01 00:00:00
@@ -348,8 +348,8 @@ WARN#,Company Name,Location,Layoff Date,Laid Off,Layoff Type,Received Date
 6271,Adventist Health - Tillamook,Tillamook,2020-12-31 00:00:00,7,Reduction,2020-04-23 00:00:00
 6271,Adventist Health - Tillamook,Tillamook,2020-05-05 00:00:00,15,Temporary Layoff,2020-04-23 00:00:00
 6271,Adventist Health - Tillamook,Tillamook,2020-05-05 00:00:00,2,Reduction,2020-04-23 00:00:00
-6183,Enterprise Holdings ,Tualatin,2020-04-30 00:00:00,14,Reduction,2020-04-23 00:00:00
 6183,Enterprise Holdings - PDX,Portland,2020-04-30 00:00:00,18,Reduction,2020-04-23 00:00:00
+6183,Enterprise Holdings ,Tualatin,2020-04-30 00:00:00,14,Reduction,2020-04-23 00:00:00
 6183,Enterprise Holdings - PDX ,Portland,2020-03-19 00:00:00,60,Temporary Layoff,2020-04-23 00:00:00
 6183,Enterprise Holdings - Admin,Tualatin,2020-03-19 00:00:00,262,Temporary Layoff,2020-04-23 00:00:00
 6065,Visionworks,"San Antonio, TX",2020-04-20 00:00:00,103,Other,2020-04-23 00:00:00
@@ -392,8 +392,8 @@ WARN#,Company Name,Location,Layoff Date,Laid Off,Layoff Type,Received Date
 4079,Paper Source - Portland,Portland,2020-03-29 00:00:00,13,Temporary Layoff,2020-03-27 00:00:00
 8592,"Rise Services, Inc.","Mesa, AZ",,,Permanent closure,2023-07-18 00:00:00
 6692,Happy Guests Intl. - Salty's,Portland,,,Temporary Layoff,2020-05-14 00:00:00
-8470,BOISE CASCADE ELGIN PLYWOOD MILL       ,ELGIN                         ,,,Large Layoff - 10 or more workers,2022-12-14 00:00:00
 9324,"Zeco Systems, Inc. dba Shell EV Chargin","Los Angeles, CA",,,Large Layoff - 10 or more workers,2025-08-18 00:00:00
+8470,BOISE CASCADE ELGIN PLYWOOD MILL       ,ELGIN                         ,,,Large Layoff - 10 or more workers,2022-12-14 00:00:00
 4075,FXI Inc,Portland,2020-03-27 00:00:00,77,Permanent closure,2020-03-31 00:00:00
 4073,SAGE,Portland,2020-06-19 00:00:00,226,Large Layoff - 10 or more workers,2020-03-30 00:00:00
 4073,SAGE,Portland,2020-03-22 00:00:00,332,Temporary Layoff,2020-03-30 00:00:00
