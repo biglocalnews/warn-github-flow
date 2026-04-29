@@ -90,7 +90,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         </div>
     </div>
 </noscript>
-
+<script type="text/javascript">
+ $(document).ready(function () {
+   if((window.location.href.indexOf("license") > -1) || (window.location.href.indexOf("pq") > -1))  {
+   $("#laboralert").prepend('<div role="alert" aria-live="polite" class="alert alert-dismissible alert-warning" tabindex="-1"><div class="alert-icon"><i class="fas fa-exclamation-triangle" aria-hidden="true"></i></div><div class="alert-text"> <p>The E-Licensing System will be unavailable on Saturday, May 2, 2026, from 3:00 a.m. until 5:00 p.m. This downtime is for routine maintenance.</p></div></div>');
+  }
+});
+</script>
 <div id="laboralert"></div>
 		
 </div>
@@ -274,7 +280,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           <h3>Alert: Regulations have been posted!</h3>
           <p> During the 2020 legislative session, Senate Bill 780 (Chapter 407) passed into law and amended the Maryland Economic Stabilization Act (ESA). The Economic Stabilization Act requires employers to provide a 60 day notice of a reduction in operations to certain individuals and entities including the employees at the workplace that is subject to the reduction in operations and the Maryland Department of Labor’s (MD Labor) Dislocation Services Unit when certain criteria are met. </p>
           <p>The revised regulations are effective Oct. 13, 2025. </p>
-          <p>Should you have any questions or interest in this topic, we encourage you to check the <a href="https://dsd.maryland.gov/Pages/COMARSearch.aspx#Default=%7B%22k%22%3A%22%22%2C%22r%22%3A%5B%7B%22n%22%3A%22dsdFullTitleName%22%2C%22t%22%3A%5B%22%5C%22%C7%82%C7%82737472696e673b233039202d204d6172796c616e64204465706172746d656e74206f66204c61626f72%5C%22%22%5D%2C%22o%22%3A%22and%22%2C%22k%22%3Afalse%2C%22m%22%3Anull%7D%2C%7B%22n%22%3A%22dsdFullSubtitleName%22%2C%22t%22%3A%5B%22%5C%22%C7%82%C7%82737472696e673b233333202d204a4f422053455256494345%5C%22%22%5D%2C%22o%22%3A%22and%22%2C%22k%22%3Afalse%2C%22m%22%3Anull%7D%2C%7B%22n%22%3A%22dsdFullChapterName%22%2C%22t%22%3A%5B%22%5C%22%C7%82%C7%82737472696e673b233032202d2045636f6e6f6d69632053746162696c697a6174696f6e%5C%22%22%5D%2C%22o%22%3A%22and%22%2C%22k%22%3Afalse%2C%22m%22%3Anull%7D%5D%2C%22l%22%3A1033%7D">Maryland Economic Stabilization Act regulations</a> or contact the MD Labor Dislocation Services Unit at <a href="/cdn-cgi/l/email-protection#bbc8d3ded2d7da95d9d4ced7d4ced9dac8c8d2c8fbd6dac9c2d7dad5df95dcd4cd"><span class="__cf_email__" data-cfemail="9be8f3fef2f7fab5f9f4eef7f4eef9fae8e8f2e8dbf6fae9e2f7faf5ffb5fcf4ed">[email&#160;protected]</span></a>.</p>
+          <p>Should you have any questions or interest in this topic, we encourage you to check the <a href="https://dsd.maryland.gov/Pages/COMARSearch.aspx#Default=%7B%22k%22%3A%22%22%2C%22r%22%3A%5B%7B%22n%22%3A%22dsdFullTitleName%22%2C%22t%22%3A%5B%22%5C%22%C7%82%C7%82737472696e673b233039202d204d6172796c616e64204465706172746d656e74206f66204c61626f72%5C%22%22%5D%2C%22o%22%3A%22and%22%2C%22k%22%3Afalse%2C%22m%22%3Anull%7D%2C%7B%22n%22%3A%22dsdFullSubtitleName%22%2C%22t%22%3A%5B%22%5C%22%C7%82%C7%82737472696e673b233333202d204a4f422053455256494345%5C%22%22%5D%2C%22o%22%3A%22and%22%2C%22k%22%3Afalse%2C%22m%22%3Anull%7D%2C%7B%22n%22%3A%22dsdFullChapterName%22%2C%22t%22%3A%5B%22%5C%22%C7%82%C7%82737472696e673b233032202d2045636f6e6f6d69632053746162696c697a6174696f6e%5C%22%22%5D%2C%22o%22%3A%22and%22%2C%22k%22%3Afalse%2C%22m%22%3Anull%7D%5D%2C%22l%22%3A1033%7D">Maryland Economic Stabilization Act regulations</a> or contact the MD Labor Dislocation Services Unit at <a href="/cdn-cgi/l/email-protection#7d0e151814111c531f12081112081f1c0e0e140e3d101c0f04111c1319531a120b"><span class="__cf_email__" data-cfemail="9fecf7faf6f3feb1fdf0eaf3f0eafdfeececf6ecdff2feede6f3fef1fbb1f8f0e9">[email&#160;protected]</span></a>.</p>
           <h2>Employer FAQs</h2>
           <div id="accordion4">
             <p onclick="gtag('event', 'warnq1');"><strong> What services are available to employers and impacted workers?</strong></p>
@@ -307,17 +313,17 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             <div>
               <p>First, determine the appropriate type of notification required for your business or organization. </p>
               <p>If your business or organization employs 50+ individuals and you are anticipating layoffs of at least 25% of your workforce or 15+ employees, (whichever is greater) over a 3-month period, you must follow the state requirements for <a href="https://govt.westlaw.com/mdc/Browse/Home/Maryland/MarylandCodeCourtRules?">Maryland’s Economic Stabilization Act</a> (ESA). Submit notification to MD Labor’s Dislocation Services Unit as well as any employee representatives, and the chief local elected official of the impacted area 60 days prior to termination date.</p>
-              <p>Notifications to MD Labor’s Dislocation Services Unit must be emailed to <a href="/cdn-cgi/l/email-protection#d8bcb4afbcb9b4afb9aab6f5b4b9bab7aa98b5b9aaa1b4b9b6bcf6bfb7ae"><span class="__cf_email__" data-cfemail="07636b7063666b706675692a6b66656875476a66757e6b66696329606871">[email&#160;protected]</span></a> or mailed to:<Br/>
+              <p>Notifications to MD Labor’s Dislocation Services Unit must be emailed to <a href="/cdn-cgi/l/email-protection#284c445f4c49445f495a460544494a475a6845495a514449464c064f475e"><span class="__cf_email__" data-cfemail="ee8a82998a8f82998f9c80c3828f8c819cae838f9c97828f808ac0898198">[email&#160;protected]</span></a> or mailed to:<Br/>
                 Maryland Department of Labor<Br/>
                 Dislocation Services Unit<Br/>
                 100 S. Charles Street<Br/>
                 Tower 1, Suite 2000<Br/>
                 Baltimore, MD 21201</p>
-              <p>If your business or organization has over 100 employees and is anticipating layoffs or 50+ workers or at least 33% of your active workforce, you must follow the federal requirements for a <a href="https://www.dol.gov/agencies/eta/layoffs/warn">Worker Adjustment and Retraining Notification (WARN)</a>. Submit notification to MD Labor’s Dislocation Services Unit by email to <a href="/cdn-cgi/l/email-protection#2b4f475c4f4a475c4a594506474a4944596b464a5952474a454f054c445d"><span class="__cf_email__" data-cfemail="5c38302b383d302b3d2e3271303d3e332e1c313d2e25303d3238723b332a">[email&#160;protected]</span></a> or by mail to the Maryland Department of Labor Dislocation Services Unit at the address above.</p>
+              <p>If your business or organization has over 100 employees and is anticipating layoffs or 50+ workers or at least 33% of your active workforce, you must follow the federal requirements for a <a href="https://www.dol.gov/agencies/eta/layoffs/warn">Worker Adjustment and Retraining Notification (WARN)</a>. Submit notification to MD Labor’s Dislocation Services Unit by email to <a href="/cdn-cgi/l/email-protection#254149524144495244574b084944474a57654844575c49444b410b424a53"><span class="__cf_email__" data-cfemail="aecac2d9cacfc2d9cfdcc083c2cfccc1dceec3cfdcd7c2cfc0ca80c9c1d8">[email&#160;protected]</span></a> or by mail to the Maryland Department of Labor Dislocation Services Unit at the address above.</p>
               <p>For more information on layoff and closure notifications, see the <a href="https://www.dol.gov/sites/dolgov/files/ETA/Layoff/pdfs/_EmployerWARN2003.pdf">Employer’s Guide for Advance Notice of Layoffs and Closures</a> </p>
             </div>
             <p onclick="gtag('event', 'warnq4');"><strong> I represent a Federal agency that anticipates laying off 50 or more employees through a Reduction in Force (RIF) action.  What are my obligations?</strong></p>
-            <div> When a federal agency separates 50 or more employees by RIF, the agency must notify MD Labor’s Division of Workforce Development and Adult Learning, which serves as the State Workforce Agency.  Submit notification to <a href="/cdn-cgi/l/email-protection#ec88809b888d809b8d9e82c1808d8e839eac818d9e95808d8288c28b839a"><span class="__cf_email__" data-cfemail="a1c5cdd6c5c0cdd6c0d3cf8ccdc0c3ced3e1ccc0d3d8cdc0cfc58fc6ced7">[email&#160;protected]</span></a>. There are also notice requirements to the Office of Personnel Management and to other Federal and non-Federal organizations. 
+            <div> When a federal agency separates 50 or more employees by RIF, the agency must notify MD Labor’s Division of Workforce Development and Adult Learning, which serves as the State Workforce Agency.  Submit notification to <a href="/cdn-cgi/l/email-protection#f59199829194998294879bd89994979a87b59894878c99949b91db929a83"><span class="__cf_email__" data-cfemail="91f5fde6f5f0fde6f0e3ffbcfdf0f3fee3d1fcf0e3e8fdf0fff5bff6fee7">[email&#160;protected]</span></a>. There are also notice requirements to the Office of Personnel Management and to other Federal and non-Federal organizations. 
               <!--        <p>Send any RIF related resumes/resumes release forms to: <a href="mailto:ReductionInForce.Resumes@maryland.gov">ReductionInForce.Resumes@maryland.gov</a>.</p>--> 
             </div>
             <p onclick="gtag('event', 'warnq5');"><strong>My organization doesn’t meet the criteria for a WARN or ESA and isn’t a federal agency. Does that mean I don’t notify the state if I am laying off employees? </strong></p>
@@ -358,6 +364,17 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 <td align="center"><strong>Type<br>
                   </strong></td>
               </tr>
+				<tr>
+        <td>04/29/2026</td>
+        <td>561720</td>
+        <td>Crothall Healthcare</td>
+        <td>100 E. Carroll St Salisbury, MD 21801</td>
+        <td align="center">Lower Shore</td>
+        <td align="right">109</td>
+        <td align="right">07/01/2026</td>
+        <td align="center">Mass Layoff - No Recall<Br/><mark>
+Note: Work performed at the client’s facility, TidalHealth Peninsula Regional</mark></td>
+      </tr>
 <tr>
         <td>04/23/2026</td>
         <td>443142</td>
@@ -1049,7 +1066,7 @@ Bethesda, MD 20889</td>
             <li>Other OPM-specified federal and non-federal organizations</li>
             <li>The Maryland Department of Labor, for RIFs at Maryland work locations</li>
           </ul>
-          <p>To submit a RIF notification to MD Labor, send an email to <a href="/cdn-cgi/l/email-protection#bcd8d0cbd8ddd0cbddced291d0ddded3cefcd1ddcec5d0ddd2d892dbd3ca"><span class="__cf_email__" data-cfemail="12767e6576737e6573607c3f7e73707d60527f73606b7e737c763c757d64">[email&#160;protected]</span></a>. </p>
+          <p>To submit a RIF notification to MD Labor, send an email to <a href="/cdn-cgi/l/email-protection#8ce8e0fbe8ede0fbedfee2a1e0edeee3fecce1edfef5e0ede2e8a2ebe3fa"><span class="__cf_email__" data-cfemail="89ede5feede8e5fee8fbe7a4e5e8ebe6fbc9e4e8fbf0e5e8e7eda7eee6ff">[email&#160;protected]</span></a>. </p>
           <p> The RIF log below includes all formal notices federal agencies have submitted to MD Labor beginning in 2025, in connection with the requirements for RIFs. Prior to 2025, RIFs were not included on the posted list of dislocation events on our webpage. MD Labor did not receive any RIFs between 2015 and 2025. </p>
           <h3>RIF Log</h3>
           <p> <strong>Archive of RIF and other dislocation notices:</strong> </p>
