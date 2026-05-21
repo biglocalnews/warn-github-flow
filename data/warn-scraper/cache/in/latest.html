@@ -163,11 +163,6 @@
               </a>
               <span>An official website</span><span class="d-none d-md-block">&nbsp;of the Indiana State Government</span>
           </div>
-          <div class="col-auto d-none d-lg-block">
-              <a href="javascript:void(0);" data-acsb-custom-trigger="true" role="button" data-acsb-clickable="true"
-                  data-acsb-navigable="true"><span class="fa-solid fa-universal-access"></span> <span
-                      class="d-none d-md-block">Accessibility Settings</span></a>
-          </div>
           <div id="google_translate_element_header" class="col-auto d-none d-md-block">
               <!-- <a href="#google_translate_element" id="header_option-lang"> --><span
                   class="fa-solid fa-globe-americas"></span> <span class="d-none d-md-block">Language Translation</span><!-- </a> -->
@@ -14835,10 +14830,6 @@ https://cloud.subscription.in.gov/pageWatchPopup?formUrl=https://cloud.subscript
                     </svg>
                 </div>
                 <ul class="vertical menu">
-
-                    <li><a href="javascript:void();" data-acsb-custom-trigger="true" title="Open accessibility tools"
-                            role="button" data-acsb-clickable="true" data-acsb-navigable="true" tabindex="0"
-                            data-acsb-now-navigable="true">Accessibility Settings</a></li>
                     <script type="text/javascript" src="https://www.browsealoud.com/plus/scripts/3.1.0/ba.js"
                         crossorigin="anonymous"
                         integrity="sha256-VCrJcQdV3IbbIVjmUyF7DnCqBbWD1BcZ/1sda2KWeFc= sha384-k2OQFn+wNFrKjU9HiaHAcHlEvLbfsVfvOnpmKBGWVBrpmGaIleDNHnnCJO4z2Y2H sha512-gxDfysgvGhVPSHDTieJ/8AlcIEjFbF3MdUgZZL2M5GXXDdIXCcX0CpH7Dh6jsHLOLOjRzTFdXASWZtxO+eMgyQ==">  </script>
@@ -14848,7 +14839,6 @@ https://cloud.subscription.in.gov/pageWatchPopup?formUrl=https://cloud.subscript
                     <li><a href="https://www.in.gov/core/accessibility-feedback.html" target="_blank">Report
                             Accessibility Issues</a>
                     </li>
-
                 </ul>
             </div>
         </div>
@@ -14868,28 +14858,8 @@ https://cloud.subscription.in.gov/pageWatchPopup?formUrl=https://cloud.subscript
 
 <script async="" src="https://siteimproveanalytics.com/js/siteanalyze_10656.js"></script>
 
-<script>(function(){ var s = document.createElement('script'), e = ! document.body ? document.querySelector('head') : document.body; s.src = 'https://acsbapp.com/apps/app/dist/js/app.js'; s.async = true; s.onload = function(){ acsbJS.init({ statementLink : '', footerHtml : '', hideMobile : true, hideTrigger : true, language : 'en', position : 'right', leadColor : '#113360', triggerColor : '#113360', triggerRadius : '50%', triggerPositionX : 'right', triggerPositionY : 'bottom', triggerIcon : 'people', triggerSize : 'medium', triggerOffsetX : 35, triggerOffsetY : 35, mobile : { triggerSize : 'small', triggerPositionX : 'right', triggerPositionY : 'bottom', triggerOffsetX : 10, triggerOffsetY : 10, triggerRadius : '50%' } }); }; e.appendChild(s);}());</script>
-<script>
-    function hideAccessibeTriggerFromScreenReaders() {  // Updated 7/21/25 by CV
-      const interval = setInterval(() => {
-        const trigger = document.querySelector('[data-acsb-custom-trigger="true"]');
-    
-        if (trigger) {
-          const triggerTab = trigger.getAttribute('tabindex');
-          if (triggerTab === '0') {
-            trigger.setAttribute('aria-hidden', 'true');
-            trigger.setAttribute('tabindex', '-1');
-            clearInterval(interval);
-          }
-        }
-      }, 300); // check every 300ms
-    }
-    window.addEventListener('load', hideAccessibeTriggerFromScreenReaders);  // Call on window.load
-</script>
-
 
     
-
 
 </body>
 </html>
