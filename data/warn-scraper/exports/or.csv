@@ -121,9 +121,9 @@ WARN#,Company Name,Location,Layoff Date,Laid Off,Layoff Type,Received Date
 9029,#4324 - Sandy,Sandy,2025-03-10 00:00:00,16,Permanent closure,2024-11-14 00:00:00
 9029,#3573 - Gresham,Gresham,2025-03-09 00:00:00,12,Permanent closure,2024-11-14 00:00:00
 9029,#3911 - Milwaukie,Milwaukie,2025-03-09 00:00:00,14,Permanent closure,2024-11-14 00:00:00
+9029,#9938 - Portland,Portland,2025-03-05 00:00:00,9,Permanent closure,2024-11-14 00:00:00
 9029,#3574 - Gresham,Gresham,2025-03-05 00:00:00,9,Permanent closure,2024-11-14 00:00:00
 9029,#3113 - Beaverton,Beaverton,2025-03-05 00:00:00,9,Permanent closure,2024-11-14 00:00:00
-9029,#9938 - Portland,Portland,2025-03-05 00:00:00,9,Permanent closure,2024-11-14 00:00:00
 9029,#7866 - Beaverton,Beaverton,2025-02-27 00:00:00,8,Permanent closure,2024-11-14 00:00:00
 9029,#4181 - Portland,Portland,2025-02-26 00:00:00,9,Permanent closure,2024-11-14 00:00:00
 9029,Distribution Center - Portland,Portland,2025-02-15 00:00:00,80,Permanent closure,2024-11-14 00:00:00
@@ -198,12 +198,12 @@ WARN#,Company Name,Location,Layoff Date,Laid Off,Layoff Type,Received Date
 8617,Walker Rd - Hillsboro,Hillsboro,2024-01-26 00:00:00,2,Reduction,2023-08-22 00:00:00
 8617,Walker Rd - Hillsboro,Hillsboro,2024-01-12 00:00:00,62,Large Layoff - 10 or more workers,2023-08-22 00:00:00
 8617,Bennett St. - Hillsboro,Hillsboro,2024-01-12 00:00:00,3,Reduction,2023-08-22 00:00:00
-8617,Bennett St. - Hillsboro,Hillsboro,2023-12-29 00:00:00,2,Reduction,2023-08-22 00:00:00
 8617,Walker Rd - Hillsboro,Hillsboro,2023-12-29 00:00:00,3,Reduction,2023-08-22 00:00:00
+8617,Bennett St. - Hillsboro,Hillsboro,2023-12-29 00:00:00,2,Reduction,2023-08-22 00:00:00
 8617,Walker Rd - Hillsboro,Hillsboro,2023-12-01 00:00:00,1,Reduction,2023-08-22 00:00:00
 8617,Walker Rd - Hillsboro,Hillsboro,2023-11-17 00:00:00,1,Reduction,2023-08-22 00:00:00
-8617,Walker Rd - Hillsboro,Hillsboro,2023-10-20 00:00:00,158,Large Layoff - 10 or more workers,2023-08-22 00:00:00
 8617,Bennett St. - Hillsboro,Hillsboro,2023-10-20 00:00:00,71,Large Layoff - 10 or more workers,2023-08-22 00:00:00
+8617,Walker Rd - Hillsboro,Hillsboro,2023-10-20 00:00:00,158,Large Layoff - 10 or more workers,2023-08-22 00:00:00
 8612,BOISE CASCADE ELGIN PLYWOOD MILL       ,ELGIN                         ,2023-10-14 00:00:00,1,Other,2023-08-16 00:00:00
 8609,Centerra ,"Herndon, VA",2023-09-30 00:00:00,52,Permanent closure,2023-08-10 00:00:00
 8606,Cascades Tissue Group - St Helens Paper,St. Helens,2023-10-14 00:00:00,72,Permanent closure,2023-08-10 00:00:00
@@ -305,8 +305,8 @@ WARN#,Company Name,Location,Layoff Date,Laid Off,Layoff Type,Received Date
 7185,Alaska Airlines - Portland Internationa,Portland,2020-10-01 00:00:00,277,Reduction,2020-07-29 00:00:00
 7184,Embassy Suites Portland-Downtown,Portland,2020-03-20 00:00:00,70,Large Layoff - 10 or more workers,2020-07-31 00:00:00
 7171,"LSG Group - Sky Chefs, Inc",Portland,2020-10-01 00:00:00,193,Large Layoff - 10 or more workers,2020-07-31 00:00:00
-7162,Nike,Beaverton,2020-10-01 00:00:00,308,Reduction,2020-07-23 00:00:00
 7162,Nike - Childcare  ,Beaverton,2020-10-01 00:00:00,192,Reduction,2020-07-23 00:00:00
+7162,Nike,Beaverton,2020-10-01 00:00:00,308,Reduction,2020-07-23 00:00:00
 7162,Nike,Beaverton,2020-07-23 00:00:00,700,Reduction,2020-07-23 00:00:00
 7151,American Queen Steamboat Company ,"New Albany, IN",2020-09-24 00:00:00,250,Large Layoff - 10 or more workers,2020-07-22 00:00:00
 7135,Vesta ,Lake Oswego,2020-07-22 00:00:00,20,Permanent closure,2020-07-22 00:00:00
@@ -344,6 +344,9 @@ WARN#,Company Name,Location,Layoff Date,Laid Off,Layoff Type,Received Date
 6847,Benson Hotel,Portland,2020-06-01 00:00:00,81,Reduction,2020-06-01 00:00:00
 6846,Embassy Suites - Portland - Wash Sq ,Tigard,2020-06-01 00:00:00,7,Temporary Layoff,2020-05-31 00:00:00
 6846,Embassy Suites - Portland - Wash Sq ,Tigard,2020-03-29 00:00:00,81,Temporary Layoff,2020-05-31 00:00:00
+8470,BOISE CASCADE ELGIN PLYWOOD MILL       ,ELGIN                         ,,,Large Layoff - 10 or more workers,2022-12-14 00:00:00
+8592,"Rise Services, Inc.","Mesa, AZ",,,Permanent closure,2023-07-18 00:00:00
+9324,"Zeco Systems, Inc. dba Shell EV Chargin","Los Angeles, CA",,,Large Layoff - 10 or more workers,2025-08-18 00:00:00
 6751,Interfor - Gilchrist Division,Gilchrist,2020-06-01 00:00:00,131,Temporary Layoff,2020-05-19 00:00:00
 6596,Nordstrom - Clackamas Town Center,Happy Valley,2020-06-01 00:00:00,189,Permanent closure,2020-05-11 00:00:00
 6551,Bright Wood,Madras,2020-03-23 00:00:00,199,Large Layoff - 10 or more workers,2020-05-04 00:00:00
@@ -403,10 +406,6 @@ WARN#,Company Name,Location,Layoff Date,Laid Off,Layoff Type,Received Date
 4091,SAS Restaurant Ventures,Ontario,2020-03-31 00:00:00,32,Temporary Layoff,2020-03-31 00:00:00
 4079,Paper Source - Portland,Portland,2020-03-29 00:00:00,13,Temporary Layoff,2020-03-27 00:00:00
 4079,Paper Source - Tigard,Tigard ,2020-03-29 00:00:00,13,Temporary Layoff,2020-03-27 00:00:00
-6692,Happy Guests Intl. - Salty's,Portland,,,Temporary Layoff,2020-05-14 00:00:00
-8470,BOISE CASCADE ELGIN PLYWOOD MILL       ,ELGIN                         ,,,Large Layoff - 10 or more workers,2022-12-14 00:00:00
-8592,"Rise Services, Inc.","Mesa, AZ",,,Permanent closure,2023-07-18 00:00:00
-9324,"Zeco Systems, Inc. dba Shell EV Chargin","Los Angeles, CA",,,Large Layoff - 10 or more workers,2025-08-18 00:00:00
 4075,FXI Inc,Portland,2020-03-27 00:00:00,77,Permanent closure,2020-03-31 00:00:00
 4073,SAGE,Portland,2020-06-19 00:00:00,226,Large Layoff - 10 or more workers,2020-03-30 00:00:00
 4073,SAGE,Portland,2020-03-22 00:00:00,332,Temporary Layoff,2020-03-30 00:00:00
@@ -1323,6 +1322,7 @@ WARN#,Company Name,Location,Layoff Date,Laid Off,Layoff Type,Received Date
 1667,Burley Design LLC,Eugene,,,Permanent closure,2008-03-14 00:00:00
 1911,"Integrated Device Technology, Inc. (IDT",Hillsboro,,,Permanent closure,2011-11-18 00:00:00
 1938,Fashion Tech Window Coverings,Portland,,,Permanent closure,2012-10-26 00:00:00
+6692,Happy Guests Intl. - Salty's,Portland,,,Temporary Layoff,2020-05-14 00:00:00
 1350,C & D Technologies,"Mansfield, MA",,,Permanent closure,2006-10-30 00:00:00
 1352,Boise Cascade - LaGrande,LaGrande,,,Permanent closure,2009-05-01 00:00:00
 1462,"Only One Dollar Store, DBA","Boise, ID",,,Permanent closure,2007-02-16 00:00:00
