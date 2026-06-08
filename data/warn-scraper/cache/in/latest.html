@@ -1116,7 +1116,7 @@ https://cloud.subscription.in.gov/pageWatchPopup?formUrl=https://cloud.subscript
     	        dom: '<"dtControls_top"lfp>t<"dtControls_btm"iBp>',
                                     order: [[3, 'desc']],
                                                 pageLength: 50,
-                                columnDefs: [],
+                                columnDefs: [{ targets: "_all", defaultContent: "&nbsp;" }],
                                   buttons: [{ extend: 'excel', text: 'Save Excel File'}],
                                 language: {
                     search: "Table Search",
