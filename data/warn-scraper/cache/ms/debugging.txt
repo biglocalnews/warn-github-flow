@@ -1,0 +1,825 @@
+"Processing table 0 of data/warn-scraper/cache/ms/warn-py2020-qtr-1-july-sep-2020.pdf"
+["Date of \nNotice", "Company Name  \nCity (County)", "Workforce \nArea", "Event \nNumber", "NAICS CODE \u2013 \nDescription", "Type of \nAction", "Number \nAffected", "Date of \nAction", "Reason  / Comments"]
+"\tIndex row!"
+["07/15/2020", "Hollywood Casino \nGulf Coast \nBay St. Louis \n(Hancock)", "Twin District", "RR-MS-\n2020-0001", "721120 \u2013 Casino \nHotels", "Layoff", "15", "09/15/2020", "WARN \u2013 Due to COVID-\n19 layoff will be permanent. \nRR \u2013 provided by email \nCOVID-19"]
+"\tSeems to be a regular row."
+"\t\t{'date_notice': '07/15/2020', 'company': 'Hollywood Casino Gulf Coast Bay St. Louis (Hancock)', 'workforce_area': 'Twin District', 'event_number': 'RR-MS- 2020-0001', 'naics': '721120 \u2013 Casino Hotels', 'action_type': 'Layoff', 'affected': '15', 'date_effective': '09/15/2020', 'reason': 'WARN \u2013 Due to COVID- 19 layoff will be permanent. RR \u2013 provided by email COVID-19'}"
+["07/15/2020", "Boomtown Casino \nBiloxi  \nBiloxi (Harrison)", "Twin District", "RR-MS-\n2020-0002", "713210 \u2013 Casinos \n(except \u2013 Casino \nHotels)", "Layoff", "23", "09/15/2020", "WARN \u2013 Due to COVID-\n19 layoff will be permanent. \nRR \u2013 provided by email \nCOVID-19"]
+"\tSeems to be a regular row."
+"\t\t{'date_notice': '07/15/2020', 'company': 'Boomtown Casino Biloxi Biloxi (Harrison)', 'workforce_area': 'Twin District', 'event_number': 'RR-MS- 2020-0002', 'naics': '713210 \u2013 Casinos (except \u2013 Casino Hotels)', 'action_type': 'Layoff', 'affected': '23', 'date_effective': '09/15/2020', 'reason': 'WARN \u2013 Due to COVID- 19 layoff will be permanent. RR \u2013 provided by email COVID-19'}"
+["07/09/2020", "Emerald Home \nNew Albany (Union)", "MS \nPartnership", "RR-MS-\n2020-0003", "423210 \u2013 Furniture \nMerchant \nWholesalers", "Closure", "9", "09/08/2020", "NON-WARN \u2013 Due to \nFacility is closing \nRR \u2013 provided by email"]
+"\tSeems to be a regular row."
+"\t\t{'date_notice': '07/09/2020', 'company': 'Emerald Home New Albany (Union)', 'workforce_area': 'MS Partnership', 'event_number': 'RR-MS- 2020-0003', 'naics': '423210 \u2013 Furniture Merchant Wholesalers', 'action_type': 'Closure', 'affected': '9', 'date_effective': '09/08/2020', 'reason': 'NON-WARN \u2013 Due to Facility is closing RR \u2013 provided by email'}"
+["07/30/2020", "Hederman Brothers \nPrinters \nPearl (Rankin)", "Southcentral \nMS Works", "R\nR-MS-\n2020-0004", "323111 \u2013 \nCommercial Printing \n(except screen and \nbooks)", "Layoff", "10", "07/30/2020", "WARN- Required to \ntemporarily shut down. RR-\nprovided by email COVID-\n19"]
+"\tSeems to be a regular row."
+"\t\t{'date_notice': '07/30/2020', 'company': 'Hederman Brothers Printers Pearl (Rankin)', 'workforce_area': 'Southcentral MS Works', 'event_number': 'R R-MS- 2020-0004', 'naics': '323111 \u2013 Commercial Printing (except screen and books)', 'action_type': 'Layoff', 'affected': '10', 'date_effective': '07/30/2020', 'reason': 'WARN- Required to temporarily shut down. RR- provided by email COVID- 19'}"
+["03/18/2020", "Thrive South, LLC \nPearl (Rankin)", "Southcentral \nMS Works", "RR-MS-\n2019-0127", "713940 \u2013 Fitness and \nRecreational Sports \nCenter", "Layoff", "1", "03/18/2020", "NON-WARN- Required to \ntemporarily shut down. \nRR-provided by email \nCOVID-19"]
+"\tSeems to be a regular row."
+"\t\t{'date_notice': '03/18/2020', 'company': 'Thrive South, LLC Pearl (Rankin)', 'workforce_area': 'Southcentral MS Works', 'event_number': 'RR-MS- 2019-0127', 'naics': '713940 \u2013 Fitness and Recreational Sports Center', 'action_type': 'Layoff', 'affected': '1', 'date_effective': '03/18/2020', 'reason': 'NON-WARN- Required to temporarily shut down. RR-provided by email COVID-19'}"
+["07/13/2020", "Hollywood Casino, \nTunica \nRobinsonville (Tunica)", "Delta", "RR-MS-\n2019-0128", "721120 \u2013 Casino \nHotels", "Layoff", "153", "06/11/2020", "WARN \u2013 Due to COVID-\n19 layoff will be permanent. \nRR \u2013 provided by email \nCOVID-19"]
+"\tSeems to be a regular row."
+"\t\t{'date_notice': '07/13/2020', 'company': 'Hollywood Casino, Tunica Robinsonville (Tunica)', 'workforce_area': 'Delta', 'event_number': 'RR-MS- 2019-0128', 'naics': '721120 \u2013 Casino Hotels', 'action_type': 'Layoff', 'affected': '153', 'date_effective': '06/11/2020', 'reason': 'WARN \u2013 Due to COVID- 19 layoff will be permanent. RR \u2013 provided by email COVID-19'}"
+"Processing table 1 of data/warn-scraper/cache/ms/warn-py2020-qtr-1-july-sep-2020.pdf"
+["Date of \nNotice", "Company Name  \nCity (County)", "Workforce \nArea", "Event \nNumber", "NAICS CODE \u2013 \nDescription", "Type of \nAction", "Number \nAffected", "Date of \nAction", "Reason  / Comments"]
+"\tIndex row!"
+["07/13/2020", "1st Jackpot Casino, \nTunica Robinsonville \n(Tunica)", "Delta", "RR-MS-\n2019-0129", "713210 \u2013 Casino \n(except Casino \nHotels)", "Layoff", "67", "06/11/2020", "WARN \u2013 Due to COVID-\n19 layoff will be permanent. \nRR \u2013 provided by email \nCOVID-19"]
+"\tSeems to be a regular row."
+"\t\t{'date_notice': '07/13/2020', 'company': '1st Jackpot Casino, Tunica Robinsonville (Tunica)', 'workforce_area': 'Delta', 'event_number': 'RR-MS- 2019-0129', 'naics': '713210 \u2013 Casino (except Casino Hotels)', 'action_type': 'Layoff', 'affected': '67', 'date_effective': '06/11/2020', 'reason': 'WARN \u2013 Due to COVID- 19 layoff will be permanent. RR \u2013 provided by email COVID-19'}"
+["07/24/2020", "American Queen \nSteam Boat Company-\nNatchez New Albany \n(Indiana)", "Southcentral \nMS Works", "RR-MS-\n2020-00IN", "561510-  Travel \nAgencies", "Layoff", "17", "09/24/2020", "WARN \u2013 Due to COVID-\n19 layoff will be permanent. \nRR \u2013 provided by email \nCOVID-19"]
+"\tSeems to be a regular row."
+"\t\t{'date_notice': '07/24/2020', 'company': 'American Queen Steam Boat Company- Natchez New Albany (Indiana)', 'workforce_area': 'Southcentral MS Works', 'event_number': 'RR-MS- 2020-00IN', 'naics': '561510- Travel Agencies', 'action_type': 'Layoff', 'affected': '17', 'date_effective': '09/24/2020', 'reason': 'WARN \u2013 Due to COVID- 19 layoff will be permanent. RR \u2013 provided by email COVID-19'}"
+["08/24/2020", "Stein Mart  Madison \n(Madison)", "Southcentral \nMS Works", "RR-MS-\n2020-0005", "452210 \u2013 Department \nStores", "Closure", "16", "10/5/2020", "NON-WARN \u2013 Due to \nretail store is closing \nRR \u2013 provided by email"]
+"\tSeems to be a regular row."
+"\t\t{'date_notice': '08/24/2020', 'company': 'Stein Mart Madison (Madison)', 'workforce_area': 'Southcentral MS Works', 'event_number': 'RR-MS- 2020-0005', 'naics': '452210 \u2013 Department Stores', 'action_type': 'Closure', 'affected': '16', 'date_effective': '10/5/2020', 'reason': 'NON-WARN \u2013 Due to retail store is closing RR \u2013 provided by email'}"
+["08/06/2020", "The MS. Department \nof Corrections \u2013 MHM \nHealth Professionals, \nLLC \nJackson (Hinds)", "Southcentral \nMS Works", "RR-MS-\n2020-0006", "922140 \u2013 \nCorrectional \nInstitution", "Layoff", "373", "10/05/202", "WARN \u2013 Contract for a \nnew vendor -Healthcare \nRR \u2013 provided by email \nCOVID-19"]
+"\tSeems to be a regular row."
+"\t\t{'date_notice': '08/06/2020', 'company': 'The MS. Department of Corrections \u2013 MHM Health Professionals, LLC Jackson (Hinds)', 'workforce_area': 'Southcentral MS Works', 'event_number': 'RR-MS- 2020-0006', 'naics': '922140 \u2013 Correctional Institution', 'action_type': 'Layoff', 'affected': '373', 'date_effective': '10/05/202', 'reason': 'WARN \u2013 Contract for a new vendor -Healthcare RR \u2013 provided by email COVID-19'}"
+["09/14/2020", "The Services System \nRobinson (Tunica)", "Delta", "RR-MS-\n2020-0007", "561720 \u2013 Janitorial \nServices", "Closure", "139", "11/14/20", "WARN \u2013 Due to COVID-\n19 Closure will be \npermanent. \nRR \u2013 provided by email \nCOVID-19"]
+"\tSeems to be a regular row."
+"\t\t{'date_notice': '09/14/2020', 'company': 'The Services System Robinson (Tunica)', 'workforce_area': 'Delta', 'event_number': 'RR-MS- 2020-0007', 'naics': '561720 \u2013 Janitorial Services', 'action_type': 'Closure', 'affected': '139', 'date_effective': '11/14/20', 'reason': 'WARN \u2013 Due to COVID- 19 Closure will be permanent. RR \u2013 provided by email COVID-19'}"
+["09/18/2020", "P.F. Chang\u2019s China \nBistro \nRidgeland (Madison)", "Southcentral \nMS Works", "RR-MS-\n2020-0008", "722511 \u2013 Full-Service \nRestaurants", "Layoff", "75", "03/29/2020", "WARN \u2013 Due to COVID-\n19 Closure will be \ntemporary. RR \u2013 provided \nby email \nCOVID-19"]
+"\tSeems to be a regular row."
+"\t\t{'date_notice': '09/18/2020', 'company': 'P.F. Chang\u2019s China Bistro Ridgeland (Madison)', 'workforce_area': 'Southcentral MS Works', 'event_number': 'RR-MS- 2020-0008', 'naics': '722511 \u2013 Full-Service Restaurants', 'action_type': 'Layoff', 'affected': '75', 'date_effective': '03/29/2020', 'reason': 'WARN \u2013 Due to COVID- 19 Closure will be temporary. RR \u2013 provided by email COVID-19'}"
+"Processing table 2 of data/warn-scraper/cache/ms/warn-py2020-qtr-1-july-sep-2020.pdf"
+["Date of \nNotice", "Company Name  \nCity (County)", "Workforce \nArea", "Event \nNumber", "NAICS CODE \u2013 \nDescription", "Type of \nAction", "Number \nAffected", "Date of \nAction", "Reason  / Comments"]
+"\tIndex row!"
+["08/28/2020", "Avis Budget Group \nPearl (Rankin)", "Southcentral \nMS Works", "RR-MS-\n2020-0009", "532111 \u2013 Passenger \nCar Rental", "Layoff", "3", "06/01/2020", "WARN \u2013 Due to COVID-\n19 layoff will be permanent. \nRR \u2013 provided by email \nCOVID-19"]
+"\tSeems to be a regular row."
+"\t\t{'date_notice': '08/28/2020', 'company': 'Avis Budget Group Pearl (Rankin)', 'workforce_area': 'Southcentral MS Works', 'event_number': 'RR-MS- 2020-0009', 'naics': '532111 \u2013 Passenger Car Rental', 'action_type': 'Layoff', 'affected': '3', 'date_effective': '06/01/2020', 'reason': 'WARN \u2013 Due to COVID- 19 layoff will be permanent. RR \u2013 provided by email COVID-19'}"
+["08/7/2020", "Cooper Lighting \nSolutions  Vicksburg \n(Warren)", "Southcentral \nMS Works", "RR-MS-\n2020-0010", "332322 \u2013 Sheet Metal \nWork Manufacturing", "Closure", "300", "10/15/2020", "WARN \u2013 Due to COVID-\n19 layoff will be permanent. \nRR \u2013 provided by email \nCOVID-19"]
+"\tSeems to be a regular row."
+"\t\t{'date_notice': '08/7/2020', 'company': 'Cooper Lighting Solutions Vicksburg (Warren)', 'workforce_area': 'Southcentral MS Works', 'event_number': 'RR-MS- 2020-0010', 'naics': '332322 \u2013 Sheet Metal Work Manufacturing', 'action_type': 'Closure', 'affected': '300', 'date_effective': '10/15/2020', 'reason': 'WARN \u2013 Due to COVID- 19 layoff will be permanent. RR \u2013 provided by email COVID-19'}"
+["08/13/2020", "Ulmer/Stride Rite \nShoes Jackson (Hinds)", "Southcentral \nMS Works", "RR-MS-\n2020-0011", "448210 \u2013 Shoe Stores", "Closure", "3", "08/31/2020", "NON-WARN \u2013 Due to \nshoe store is closing \nRR \u2013 provided by email"]
+"\tSeems to be a regular row."
+"\t\t{'date_notice': '08/13/2020', 'company': 'Ulmer/Stride Rite Shoes Jackson (Hinds)', 'workforce_area': 'Southcentral MS Works', 'event_number': 'RR-MS- 2020-0011', 'naics': '448210 \u2013 Shoe Stores', 'action_type': 'Closure', 'affected': '3', 'date_effective': '08/31/2020', 'reason': 'NON-WARN \u2013 Due to shoe store is closing RR \u2013 provided by email'}"
+"Processing table 3 of data/warn-scraper/cache/ms/warn-py2020-qtr-1-july-sep-2020.pdf"
+["Type of Notice", "Number Of Notices Received", "Number Affected"]
+"\tIndex row!"
+["WARN Notice", "11", "1,175"]
+"\tSeems to be a regular row."
+"\t\t{'notice_types': 'WARN Notice', 'notices_received': '11', 'affected': '1,175'}"
+["NON-WARN Notice", "4", "29"]
+"\tSeems to be a regular row."
+"\t\t{'notice_types': 'NON-WARN Notice', 'notices_received': '4', 'affected': '29'}"
+["TOTAL", "15", "1,204"]
+"\tSeems to be a regular row."
+"\t\t{'notice_types': 'TOTAL', 'notices_received': '15', 'affected': '1,204'}"
+"Processing table 0 of data/warn-scraper/cache/ms/warn-py2020-qtr-2-oct-dec-2020.pdf"
+["Date of \nNotice", "Company Name \nCity, (County)", "Workforce \nArea", "Event \nNumber", "NAICS CODE \u2013 \nDescription", "Type of \nAction", "Number \nAffected", "Date of \nAction", "Reason  / Comments"]
+"\tIndex row!"
+["10/31/2020", "Dynamic Aviation \nOSRG Base \nKiln (Hancock)", "Twin \nDistrict", "RR-MS-\n2020-0012", "488190 \u2013 Other \nSupport Activities \nfor Air \nTransportation", "Closure", "3", "12/31/2020", "WARN - Closure will be \npermanent. \nRR \u2013 provided by email due \nto COVID-19"]
+"\tSeems to be a regular row."
+"\t\t{'date_notice': '10/31/2020', 'company': 'Dynamic Aviation OSRG Base Kiln (Hancock)', 'workforce_area': 'Twin District', 'event_number': 'RR-MS- 2020-0012', 'naics': '488190 \u2013 Other Support Activities for Air Transportation', 'action_type': 'Closure', 'affected': '3', 'date_effective': '12/31/2020', 'reason': 'WARN - Closure will be permanent. RR \u2013 provided by email due to COVID-19'}"
+"Processing table 1 of data/warn-scraper/cache/ms/warn-py2020-qtr-2-oct-dec-2020.pdf"
+["12/16/2020", "Neovia Logistics \nServices, LLC \nSouthaven (DeSoto)", "Delta", "RR-MS-\n2020-0013", "333999 \u2013 All \nOther \nMiscellaneous \nGeneral Purpose \nMachinery \nManufacturing", "Layoff", "80", "01/31/2021", "WARN \u2013 Layoff - change \nin ownership. \nRR \u2013 provided by email \ndue to COVID - 19"]
+"\tIndex row!"
+["12/18/2020", "Anderson \nTechnologies South, \nLLC \nBatesville (Panola)", "Delta", "RR-MS-\n2020-0014", "325211 \u2013 Plastics \nMaterial and Resin \nManufacturing", "Layoff", "20", "12/18/2020", "WARN \u2013 Layoff \u2013 \nCOVID has caused a \nreduction in sales \nRR- provided by email due \nto COVID-19"]
+"\tSeems to be a regular row."
+"\t\t{'12/16/2020': '12/18/2020', 'Neovia Logistics Services, LLC Southaven (DeSoto)': 'Anderson Technologies South, LLC Batesville (Panola)', 'Delta': 'Delta', 'RR-MS- 2020-0013': 'RR-MS- 2020-0014', '333999 \u2013 All Other Miscellaneous General Purpose Machinery Manufacturing': '325211 \u2013 Plastics Material and Resin Manufacturing', 'Layoff': 'Layoff', '80': '20', '01/31/2021': '12/18/2020', 'WARN \u2013 Layoff - change in ownership. RR \u2013 provided by email due to COVID - 19': 'WARN \u2013 Layoff \u2013 COVID has caused a reduction in sales RR- provided by email due to COVID-19'}"
+"Processing table 2 of data/warn-scraper/cache/ms/warn-py2020-qtr-2-oct-dec-2020.pdf"
+["Types of Notices Received", "# Of Notices Received", "# Affected"]
+"\tIndex row!"
+["WARN Notice", "3", "103"]
+"\tSeems to be a regular row."
+"\t\t{'notice_types': 'WARN Notice', 'notices_received': '3', 'affected': '103'}"
+["NON-WARN Notice", "", ""]
+"\tMostly empty row!"
+"\tMostly empty row, seems to be detailed info for a regular row"
+["TOTAL", "3", "103"]
+"\tSeems to be a regular row."
+"\t\t{'notice_types': 'TOTAL', 'notices_received': '3', 'affected': '103'}"
+"Processing table 0 of data/warn-scraper/cache/ms/warn-py2020-qtr-3-jan-mar-2021.pdf"
+["Date of \nNotice", "Company Name, \nCity, County", "Workforce \nArea", "Event \nNumber", "NAICS CODE \u2013 \nDescription", "Type of \nAction", "Number \nAffected", "Date of \nAction", "Reason \u2013 Comments"]
+"\tIndex row!"
+["01/08/2021", "Peco Foods, Inc.  \nCanton (Noxubee)", "MS \nPartnership", "RR-MS \n2020-0015", "311615 \u2013 Poultry \nProcessing", "Closure", "235", "04/02/2021", "WARN- Permanent \nclosure due to scaling \nback and streamlining \noperations"]
+"\tSeems to be a regular row."
+"\t\t{'date_notice': '01/08/2021', 'company': 'Peco Foods, Inc. Canton (Noxubee)', 'workforce_area': 'MS Partnership', 'event_number': 'RR-MS 2020-0015', 'naics': '311615 \u2013 Poultry Processing', 'action_type': 'Closure', 'affected': '235', 'date_effective': '04/02/2021', 'reason': 'WARN- Permanent closure due to scaling back and streamlining operations'}"
+["01/08/2021", "Peco Foods, Inc.  \nCanton (Madison)", "Southcentral \nMS Works", "R\nR-MS-\n2020-0016", "424440 \u2013 Poultry \nand Poultry \nMerchant \nWholesalers", "Closure", "434", "03/26/2021", "WARN- Permanent \nclosure due to scaling \nback and streamlining \noperations"]
+"\tSeems to be a regular row."
+"\t\t{'date_notice': '01/08/2021', 'company': 'Peco Foods, Inc. Canton (Madison)', 'workforce_area': 'Southcentral MS Works', 'event_number': 'R R-MS- 2020-0016', 'naics': '424440 \u2013 Poultry and Poultry Merchant Wholesalers', 'action_type': 'Closure', 'affected': '434', 'date_effective': '03/26/2021', 'reason': 'WARN- Permanent closure due to scaling back and streamlining operations'}"
+["01/12/2021", "Scotch Plywood \nCompany \nWaynesboro \n(Wayne)", "Twin \nDistricts", "R\nR-MS-\n2020-0017", "321211 \u2013 \nHardwood Veneer \nand Plywood \nManufacturing", "Layoff", "74", "01/13/2021", "WARN \u2013 Layoff due to \nfacility being burned \ndown"]
+"\tSeems to be a regular row."
+"\t\t{'date_notice': '01/12/2021', 'company': 'Scotch Plywood Company Waynesboro (Wayne)', 'workforce_area': 'Twin Districts', 'event_number': 'R R-MS- 2020-0017', 'naics': '321211 \u2013 Hardwood Veneer and Plywood Manufacturing', 'action_type': 'Layoff', 'affected': '74', 'date_effective': '01/13/2021', 'reason': 'WARN \u2013 Layoff due to facility being burned down'}"
+["01/19/2021", "Genlyte Thomas \nGroup ,LLC/Signify \nTupelo (Lee)", "MS \nPartnership", "R\nR-MS-\n2020-0018", "335110 -  Electric \nLamp Bulb and \nPart Manufacturing", "Closure", "105", "04/07/2021", "WARN- Permanent \nclosure due to scaling \nback and streamlining \noperations"]
+"\tSeems to be a regular row."
+"\t\t{'date_notice': '01/19/2021', 'company': 'Genlyte Thomas Group ,LLC/Signify Tupelo (Lee)', 'workforce_area': 'MS Partnership', 'event_number': 'R R-MS- 2020-0018', 'naics': '335110 - Electric Lamp Bulb and Part Manufacturing', 'action_type': 'Closure', 'affected': '105', 'date_effective': '04/07/2021', 'reason': 'WARN- Permanent closure due to scaling back and streamlining operations'}"
+["02/02/2021", "Purple Banana \u2013\nMcKenzie PB, LLC \nBay St. Louis \n(Hancock)", "Twin \nDistricts", "R\nR-MS- \n2020-0019", "311520 \u2013 Ice \nCream and Frozen \nDessert \nManufacturing", "Closure", "8", "01/31/2021", "NON-WARN \u2013\nPermanent closure due to \nreduction of sales and \nlack of work"]
+"\tSeems to be a regular row."
+"\t\t{'date_notice': '02/02/2021', 'company': 'Purple Banana \u2013 McKenzie PB, LLC Bay St. Louis (Hancock)', 'workforce_area': 'Twin Districts', 'event_number': 'R R-MS- 2020-0019', 'naics': '311520 \u2013 Ice Cream and Frozen Dessert Manufacturing', 'action_type': 'Closure', 'affected': '8', 'date_effective': '01/31/2021', 'reason': 'NON-WARN \u2013 Permanent closure due to reduction of sales and lack of work'}"
+["03/09/2021", "Kline Mechanical \nSystem, Inc. \nFulton (Itawamba)", "MS \nPartnership", "R\nR-MS-\n2020-0020", "238220 \u2013 \nPlumbing, Heating \nand Air \nConditioning \nContractors", "Layoff", "42", "02/15/2021", "NON-WARN \u2013 \nTemporary closure for \none week due to ice \nstorm"]
+"\tSeems to be a regular row."
+"\t\t{'date_notice': '03/09/2021', 'company': 'Kline Mechanical System, Inc. Fulton (Itawamba)', 'workforce_area': 'MS Partnership', 'event_number': 'R R-MS- 2020-0020', 'naics': '238220 \u2013 Plumbing, Heating and Air Conditioning Contractors', 'action_type': 'Layoff', 'affected': '42', 'date_effective': '02/15/2021', 'reason': 'NON-WARN \u2013 Temporary closure for one week due to ice storm'}"
+["", "", "", "", "", "", "", "", ""]
+"\tEmpty row"
+"Processing table 1 of data/warn-scraper/cache/ms/warn-py2020-qtr-3-jan-mar-2021.pdf"
+["Date of \nNotice", "Company Name, \nCity, County", "Workforce \nArea", "Event \nNumber", "NAICS CODE \u2013 \nDescription", "Type of \nAction", "Number \nAffected", "Date of \nAction", "Reason \u2013 Comments"]
+"\tIndex row!"
+["03/01/2021", "AbilityWorks \nOxford (Lafayette)", "MS \nPartnership", "RR-MS-\n2020-0021", "624310 \u2013 \nVocational \nRehabilitation \nServices", "Layoff", "8", "02/13/2021", "NON-WARN \u2013 \nTemporary closure for \none week due to ice \nstorm"]
+"\tSeems to be a regular row."
+"\t\t{'date_notice': '03/01/2021', 'company': 'AbilityWorks Oxford (Lafayette)', 'workforce_area': 'MS Partnership', 'event_number': 'RR-MS- 2020-0021', 'naics': '624310 \u2013 Vocational Rehabilitation Services', 'action_type': 'Layoff', 'affected': '8', 'date_effective': '02/13/2021', 'reason': 'NON-WARN \u2013 Temporary closure for one week due to ice storm'}"
+["03/02/2021", "Marelli Cabin \nComfort USA, Inc. \nMadison (Madison)", "Southcentral \nMS Works", "RR-MS-\n2020-0022", "423120 \u2013 Motor \nVehicle Supplies \nand New Parts \nMerchant \nWholesaler", "Closure", "68", "04/13/2021", "WARN \u2013 Permanently \nclosing its facility \u2013 due \nto COVID-19"]
+"\tSeems to be a regular row."
+"\t\t{'date_notice': '03/02/2021', 'company': 'Marelli Cabin Comfort USA, Inc. Madison (Madison)', 'workforce_area': 'Southcentral MS Works', 'event_number': 'RR-MS- 2020-0022', 'naics': '423120 \u2013 Motor Vehicle Supplies and New Parts Merchant Wholesaler', 'action_type': 'Closure', 'affected': '68', 'date_effective': '04/13/2021', 'reason': 'WARN \u2013 Permanently closing its facility \u2013 due to COVID-19'}"
+["03/11/2021", "Saks Fifth Avenue", "Southcentral \nMS Works", "RR-MS-\n2020-0023", "452210- Undefined", "Layoff", "114", "05/17/2021", "WARN- Separations are \ndue to Facility Reduction \nand are expected to be \npermanent."]
+"\tSeems to be a regular row."
+"\t\t{'date_notice': '03/11/2021', 'company': 'Saks Fifth Avenue', 'workforce_area': 'Southcentral MS Works', 'event_number': 'RR-MS- 2020-0023', 'naics': '452210- Undefined', 'action_type': 'Layoff', 'affected': '114', 'date_effective': '05/17/2021', 'reason': 'WARN- Separations are due to Facility Reduction and are expected to be permanent.'}"
+"Processing table 2 of data/warn-scraper/cache/ms/warn-py2020-qtr-3-jan-mar-2021.pdf"
+["Types of Notices", "Number Of Notices Received", "Number Affected"]
+"\tIndex row!"
+["WARN Notices", "6", "1030"]
+"\tSeems to be a regular row."
+"\t\t{'notice_types': 'WARN Notices', 'notices_received': '6', 'affected': '1030'}"
+["NON-WARN Notices", "3", "58"]
+"\tSeems to be a regular row."
+"\t\t{'notice_types': 'NON-WARN Notices', 'notices_received': '3', 'affected': '58'}"
+["TOTAL", "9", "1088"]
+"\tSeems to be a regular row."
+"\t\t{'notice_types': 'TOTAL', 'notices_received': '9', 'affected': '1088'}"
+"Processing table 0 of data/warn-scraper/cache/ms/warn-py2020-qtr-4-apr-june-2021.pdf"
+["Date of \nNotice", "Company Name City \n(County)", "Workforce \nArea", "Event \nNumber", "NAICS CODE \u2013 \nDescription", "Type of \nAction", "Number  \nAffected", "Date of \nAction", "Reason  / Comments"]
+"\tIndex row!"
+["04/23/2021", "Montgomery \nEnterprises, Inc./Cash \nTitle Exchange \nTupelo (Lee)", "MS \nPartnership", "RR-MS-\n2020-0024", "522390 \u2013 Other \nActivities Related \nto Credit \nIntermediations", "Layoff", "6", "04/22/2021", "NON-WARN- \nCOVID-19 created \ncircumstances that were \nbeyond our control"]
+"\tSeems to be a regular row."
+"\t\t{'date_notice': '04/23/2021', 'company': 'Montgomery Enterprises, Inc./Cash Title Exchange Tupelo (Lee)', 'workforce_area': 'MS Partnership', 'event_number': 'RR-MS- 2020-0024', 'naics': '522390 \u2013 Other Activities Related to Credit Intermediations', 'action_type': 'Layoff', 'affected': '6', 'date_effective': '04/22/2021', 'reason': 'NON-WARN- COVID-19 created circumstances that were beyond our control'}"
+["04/23/2021", "Mississippi Lending \nServices \nTupelo (Lee)", "MS \nPartnership", "RR-MS-\n2020-0025", "522291 \u2013 Consumer \nLending", "Layoff", "6", "04/22/2021", "NON-WARN- \nCOVID-19 created \ncircumstances that were \nbeyond our control"]
+"\tSeems to be a regular row."
+"\t\t{'date_notice': '04/23/2021', 'company': 'Mississippi Lending Services Tupelo (Lee)', 'workforce_area': 'MS Partnership', 'event_number': 'RR-MS- 2020-0025', 'naics': '522291 \u2013 Consumer Lending', 'action_type': 'Layoff', 'affected': '6', 'date_effective': '04/22/2021', 'reason': 'NON-WARN- COVID-19 created circumstances that were beyond our control'}"
+["04/23/2021", "United Financial, Inc. \nTupelo (Lee)", "MS \nPartnership", "RR-MS-\n2020-0026", "523930- Financial \nPlanner and \nInvestment \nAdvisers", "Layoff", "6", "04/22/2021", "NON-WARN- \nCOVID-19 created \ncircumstances that were \nbeyond our control"]
+"\tSeems to be a regular row."
+"\t\t{'date_notice': '04/23/2021', 'company': 'United Financial, Inc. Tupelo (Lee)', 'workforce_area': 'MS Partnership', 'event_number': 'RR-MS- 2020-0026', 'naics': '523930- Financial Planner and Investment Advisers', 'action_type': 'Layoff', 'affected': '6', 'date_effective': '04/22/2021', 'reason': 'NON-WARN- COVID-19 created circumstances that were beyond our control'}"
+["03/29/2021", "Ryder \u2013 McCormick \nand Company, Inc. \nByhalia (Marshall)", "MS \nPartnership", "RR-MS-\n2020-0027", "311942 \u2013 Spice and \nExtract \nManufacturing", "Closure", "60", "06/01/2021", "WARN- Due to a \nreduction in sales and \ncustomers\u2019 changing \nbusiness needs."]
+"\tSeems to be a regular row."
+"\t\t{'date_notice': '03/29/2021', 'company': 'Ryder \u2013 McCormick and Company, Inc. Byhalia (Marshall)', 'workforce_area': 'MS Partnership', 'event_number': 'RR-MS- 2020-0027', 'naics': '311942 \u2013 Spice and Extract Manufacturing', 'action_type': 'Closure', 'affected': '60', 'date_effective': '06/01/2021', 'reason': 'WARN- Due to a reduction in sales and customers\u2019 changing business needs.'}"
+["05/05/2021", "Vantec Hitachi \nTransport System \nCanton (Madison)", "Southcentral \nMS Works", "RR-MS-\n2020-0028", "493190 \u2013 Other \nWarehousing and \nStorage", "Closure", "337", "06/30/2021", "WARN-  Due to a \nreduction in business needs"]
+"\tSeems to be a regular row."
+"\t\t{'date_notice': '05/05/2021', 'company': 'Vantec Hitachi Transport System Canton (Madison)', 'workforce_area': 'Southcentral MS Works', 'event_number': 'RR-MS- 2020-0028', 'naics': '493190 \u2013 Other Warehousing and Storage', 'action_type': 'Closure', 'affected': '337', 'date_effective': '06/30/2021', 'reason': 'WARN- Due to a reduction in business needs'}"
+"Processing table 1 of data/warn-scraper/cache/ms/warn-py2020-qtr-4-apr-june-2021.pdf"
+["T\nypes of Notice", "Number Of Notices Received", "Number Affected"]
+"\tIndex row!"
+["WARN Notice", "2", "397"]
+"\tSeems to be a regular row."
+"\t\t{'notice_types': 'WARN Notice', 'notices_received': '2', 'affected': '397'}"
+["NON-WARN Notice", "3", "18"]
+"\tSeems to be a regular row."
+"\t\t{'notice_types': 'NON-WARN Notice', 'notices_received': '3', 'affected': '18'}"
+["TOTAL", "5", "415"]
+"\tSeems to be a regular row."
+"\t\t{'notice_types': 'TOTAL', 'notices_received': '5', 'affected': '415'}"
+"Processing table 0 of data/warn-scraper/cache/ms/warn-py2021-qtr-1-jul-sep-2021.pdf"
+["Date of \nNotice", "Company Name, \nCity, County", "Workforce \nArea", "Event \nNumber", "NAICS CODE \u2013 \nDescription", "Type of \nAction", "Number \nAffected", "Date of \nAction", "Reason \u2013 Comments"]
+"\tIndex row!"
+["09/21/2021", "Anthem, Inc./ \nBeacon Health \nOptions \nHernando (Desoto)", "Delta", "RR-MS- \n2021-0001", "524114 \u2013 Direct \nHealth and Medical \nInsurance Carriers", "Layoff", "4", "12/31/2021", "WARN \u2013 Due to loss of \ncontract. \nRR \u2013 provided by email \nCOVID-19"]
+"\tSeems to be a regular row."
+"\t\t{'date_notice': '09/21/2021', 'company': 'Anthem, Inc./ Beacon Health Options Hernando (Desoto)', 'workforce_area': 'Delta', 'event_number': 'RR-MS- 2021-0001', 'naics': '524114 \u2013 Direct Health and Medical Insurance Carriers', 'action_type': 'Layoff', 'affected': '4', 'date_effective': '12/31/2021', 'reason': 'WARN \u2013 Due to loss of contract. RR \u2013 provided by email COVID-19'}"
+"Processing table 1 of data/warn-scraper/cache/ms/warn-py2021-qtr-1-jul-sep-2021.pdf"
+["Type of Notice", "Number Of Notices Received", "Number Affected"]
+"\tIndex row!"
+["WARN Notices", "1", "4"]
+"\tSeems to be a regular row."
+"\t\t{'notice_types': 'WARN Notices', 'notices_received': '1', 'affected': '4'}"
+["NON-WARN Notices", "", ""]
+"\tMostly empty row!"
+"\tMostly empty row, seems to be detailed info for a regular row"
+["TOTAL", "1", "4"]
+"\tSeems to be a regular row."
+"\t\t{'notice_types': 'TOTAL', 'notices_received': '1', 'affected': '4'}"
+"Processing table 0 of data/warn-scraper/cache/ms/warn-py2021-qtr-2-oct-dec-2021.pdf"
+["Date of \nNotice", "Company Name, \nCity, County", "Workforce \nArea", "Event \nNumber", "NAICS CODE \u2013 \nDescription", "Type of \nAction", "Number \nAffected", "Date of \nAction", "", "Reason \u2013 Comments"]
+"\tIndex row!"
+["11/23/2021", "Culpepper & \nAssociates Security \nServices, Inc. \nBiloxi (Harrison)", "Twin \nDistrict", "RR-MS-\n2021-002", "561612 \u2013 Security \nGuards and Patrol \nServices", "Layoff", "16", "11/23/2021", "NON-WARN - Due to \na reduction in \nworkforce by a contract", ""]
+"\tSeems to be a regular row."
+"\t\t{'date_notice': '11/23/2021', 'company': 'Culpepper & Associates Security Services, Inc. Biloxi (Harrison)', 'workforce_area': 'Twin District', 'event_number': 'RR-MS- 2021-002', 'naics': '561612 \u2013 Security Guards and Patrol Services', 'action_type': 'Layoff', 'affected': '16', 'date_effective': '11/23/2021', 'blank_entry': 'NON-WARN - Due to a reduction in workforce by a contract', 'reason': ''}"
+["12/10/2021", "MAP of Easton, Inc. \nClarksdale \n(Coahoma)", "Delta", "RR-MS-\n2021-003", "327993 \u2013 Mineral \nWool Manufacturing", "Closure", "50", "12/31/2021", "WARN -Due to \neconomic circumstances \n\u2013 Permanently Closed", ""]
+"\tSeems to be a regular row."
+"\t\t{'date_notice': '12/10/2021', 'company': 'MAP of Easton, Inc. Clarksdale (Coahoma)', 'workforce_area': 'Delta', 'event_number': 'RR-MS- 2021-003', 'naics': '327993 \u2013 Mineral Wool Manufacturing', 'action_type': 'Closure', 'affected': '50', 'date_effective': '12/31/2021', 'blank_entry': 'WARN -Due to economic circumstances \u2013 Permanently Closed', 'reason': ''}"
+"Processing table 1 of data/warn-scraper/cache/ms/warn-py2021-qtr-2-oct-dec-2021.pdf"
+["Types of Notices", "Number Of Notices Received", "Number Affected"]
+"\tIndex row!"
+["WARN Notices", "1", "50"]
+"\tSeems to be a regular row."
+"\t\t{'notice_types': 'WARN Notices', 'notices_received': '1', 'affected': '50'}"
+["NON-WARN Notices", "1", "16"]
+"\tSeems to be a regular row."
+"\t\t{'notice_types': 'NON-WARN Notices', 'notices_received': '1', 'affected': '16'}"
+["TOTAL", "2", "66"]
+"\tSeems to be a regular row."
+"\t\t{'notice_types': 'TOTAL', 'notices_received': '2', 'affected': '66'}"
+"Processing table 0 of data/warn-scraper/cache/ms/warn-py2021-qtr-3-jan-mar-2022.pdf"
+["Date of \nNotice", "Company Name, \nCity, County", "Workforce \nArea", "Event \nNumber", "NAICS CODE \u2013 \nDescription", "Type of \nAction", "Number \nAffected", "Date of \nAction", "Reason \u2013 \nComments"]
+"\tIndex row!"
+["01/06/2022", "Five Below, Inc. \nOlive Branch \n(DeSoto)", "MS. \nPartnership", "RR-MS \n2021-\n0004", "452139 \u2013 All other \nGeneral Merchandise \nStores", "Closure", "69", "", "WARN- \nPermanently closing \ndue to reduction in \nforce"]
+"\tSeems to be a regular row."
+"\t\t{'date_notice': '01/06/2022', 'company': 'Five Below, Inc. Olive Branch (DeSoto)', 'workforce_area': 'MS. Partnership', 'event_number': 'RR-MS 2021- 0004', 'naics': '452139 \u2013 All other General Merchandise Stores', 'action_type': 'Closure', 'affected': '69', 'date_effective': '', 'reason': 'WARN- Permanently closing due to reduction in force'}"
+["01/14/2022", "NFI \u2013 National \nFreight \nIncorporated \nMeridian \n(Lauderdale)", "Twin \nDistrict", "RR-MS-\n2021-\n0005", "484110- General \nFreight Trucking", "Closure", "91", "03/17/22", "WARN \u2013 \nPermanently closing \ndue to  lack of  \nservices under its \ncontact"]
+"\tSeems to be a regular row."
+"\t\t{'date_notice': '01/14/2022', 'company': 'NFI \u2013 National Freight Incorporated Meridian (Lauderdale)', 'workforce_area': 'Twin District', 'event_number': 'RR-MS- 2021- 0005', 'naics': '484110- General Freight Trucking', 'action_type': 'Closure', 'affected': '91', 'date_effective': '03/17/22', 'reason': 'WARN \u2013 Permanently closing due to lack of services under its contact'}"
+["01/10/2022", "Express Grain \nTerminals, LLC. \nGreenwood \n(Leflore)", "Delta", "RR-MS-\n2021-\n0006", "424510 \u2013 Gain and \nField Bean Merchant \nWholesalers", "Closure", "128", "01/28/2022", "WARN \u2013 Due to the \ncompany has made \nthe decision to \ndiscontinue \nproduction"]
+"\tSeems to be a regular row."
+"\t\t{'date_notice': '01/10/2022', 'company': 'Express Grain Terminals, LLC. Greenwood (Leflore)', 'workforce_area': 'Delta', 'event_number': 'RR-MS- 2021- 0006', 'naics': '424510 \u2013 Gain and Field Bean Merchant Wholesalers', 'action_type': 'Closure', 'affected': '128', 'date_effective': '01/28/2022', 'reason': 'WARN \u2013 Due to the company has made the decision to discontinue production'}"
+"Processing table 1 of data/warn-scraper/cache/ms/warn-py2021-qtr-3-jan-mar-2022.pdf"
+["Types of Notices", "Number Of Notices Received", "Number Affected"]
+"\tIndex row!"
+["WARN Notices", "3", "288"]
+"\tSeems to be a regular row."
+"\t\t{'notice_types': 'WARN Notices', 'notices_received': '3', 'affected': '288'}"
+["NON-WARN Notices", "", ""]
+"\tMostly empty row!"
+"\tMostly empty row, seems to be detailed info for a regular row"
+["TOTAL", "3", "288"]
+"\tSeems to be a regular row."
+"\t\t{'notice_types': 'TOTAL', 'notices_received': '3', 'affected': '288'}"
+"Processing table 0 of data/warn-scraper/cache/ms/warn-py2021-qtr-4-apr-june-2022.pdf"
+["Date of \nNotice", "Company Name, \nCity (County)", "Workforce \nArea", "Event \nNumber", "Type of \nAction", "# Affected", "Reason  / Comments"]
+"\tIndex row!"
+["06/01/2022", "Sears \nWaynesboro (Wayne)", "Twin \nDistrict", "RR-MS 2021-\n0007", "Closure", "4", "Non-WARN- Permanently closing \ndue to economy."]
+"\tSeems to be a regular row."
+"\t\t{'date_notice': '06/01/2022', 'company': 'Sears Waynesboro (Wayne)', 'workforce_area': 'Twin District', 'event_number': 'RR-MS 2021- 0007', 'action_type': 'Closure', 'affected': '4', 'reason': 'Non-WARN- Permanently closing due to economy.'}"
+["06/13/2022", "FXI, Inc. \nColdwater (Tate)", "MS \nPartnership", "RR-MS-2021-\n0008", "Layoff", "100", "WARN \u2013  Due to the downturn in the \neconomy."]
+"\tSeems to be a regular row."
+"\t\t{'date_notice': '06/13/2022', 'company': 'FXI, Inc. Coldwater (Tate)', 'workforce_area': 'MS Partnership', 'event_number': 'RR-MS-2021- 0008', 'action_type': 'Layoff', 'affected': '100', 'reason': 'WARN \u2013 Due to the downturn in the economy.'}"
+["6/20/2022", "Southern Motion \nPontotoc (Pontotoc)", "MS \nPartnership", "RR-MS-2021-\n0009", "Layoff", "86", "Non-WARN \u2013 Due to the downturn \nin the economy"]
+"\tSeems to be a regular row."
+"\t\t{'date_notice': '6/20/2022', 'company': 'Southern Motion Pontotoc (Pontotoc)', 'workforce_area': 'MS Partnership', 'event_number': 'RR-MS-2021- 0009', 'action_type': 'Layoff', 'affected': '86', 'reason': 'Non-WARN \u2013 Due to the downturn in the economy'}"
+["06/20/2022", "Fusion \nEcru (Pontotoc)", "MS \nPartnership", "RR-MS-2021-\n0010", "Layoff", "55", "Non-WARN- Due to the downturn in \nthe economy"]
+"\tSeems to be a regular row."
+"\t\t{'date_notice': '06/20/2022', 'company': 'Fusion Ecru (Pontotoc)', 'workforce_area': 'MS Partnership', 'event_number': 'RR-MS-2021- 0010', 'action_type': 'Layoff', 'affected': '55', 'reason': 'Non-WARN- Due to the downturn in the economy'}"
+"Processing table 1 of data/warn-scraper/cache/ms/warn-py2021-qtr-4-apr-june-2022.pdf"
+["Types of Notice", "Number Of Notices Received", "Number Affected"]
+"\tIndex row!"
+["WARN Notices", "1", "100"]
+"\tSeems to be a regular row."
+"\t\t{'notice_types': 'WARN Notices', 'notices_received': '1', 'affected': '100'}"
+["NON-WARN Notices", "3", "145"]
+"\tSeems to be a regular row."
+"\t\t{'notice_types': 'NON-WARN Notices', 'notices_received': '3', 'affected': '145'}"
+["TOTAL", "3", "245"]
+"\tSeems to be a regular row."
+"\t\t{'notice_types': 'TOTAL', 'notices_received': '3', 'affected': '245'}"
+"Processing table 0 of data/warn-scraper/cache/ms/warn-py2022-quarter-1-july-sept-2022.pdf"
+["Date of \nNotice", "Company Name, \nCity, County", "Workforce \nArea", "Event \nNumber", "NAICS CODE \u2013 \nDescription", "Type of \nAction", "Number \nAffected", "Date of \nAction", "Reason \u2013 Comments"]
+"\tIndex row!"
+["5/23/2022", "Armstrong \nFlooring \nJackson (Hinds)", "Southcentral \nMS Works", "RR-MS-\n2021-\n0011", "326199 \u2013 All other \nPlastics Product \nManufacturing", "Closure", "109", "7/27/2022", "WARN \u2013 Permanently \nclosing due to economy."]
+"\tSeems to be a regular row."
+"\t\t{'date_notice': '5/23/2022', 'company': 'Armstrong Flooring Jackson (Hinds)', 'workforce_area': 'Southcentral MS Works', 'event_number': 'RR-MS- 2021- 0011', 'naics': '326199 \u2013 All other Plastics Product Manufacturing', 'action_type': 'Closure', 'affected': '109', 'date_effective': '7/27/2022', 'reason': 'WARN \u2013 Permanently closing due to economy.'}"
+["06/30/2022", "United Furniture \nIndustries \nAmory (Monroe)", "MS \nPartnership", "RR-MS-\n2021-\n0012", "44211 \u2013 Furniture \nStores", "Layoff", "171", "07/27/2022", "WARN \u2013 Due to \ndownturn in the \neconomy."]
+"\tSeems to be a regular row."
+"\t\t{'date_notice': '06/30/2022', 'company': 'United Furniture Industries Amory (Monroe)', 'workforce_area': 'MS Partnership', 'event_number': 'RR-MS- 2021- 0012', 'naics': '44211 \u2013 Furniture Stores', 'action_type': 'Layoff', 'affected': '171', 'date_effective': '07/27/2022', 'reason': 'WARN \u2013 Due to downturn in the economy.'}"
+["7/1/2022", "McKesson \nCorporation \u2013 \nSouth Jackson \nRichland (Rankin)", "Southcentral \nMS Works", "RR-MS \n2022-\n0001", "423450 \u2013 Medical, \nDental, and \nHospital \nEquipment and \nSupplies Merchant", "Closure", "26", "07/29/2022", "WARN- Permanently \nclosing due to economy."]
+"\tSeems to be a regular row."
+"\t\t{'date_notice': '7/1/2022', 'company': 'McKesson Corporation \u2013 South Jackson Richland (Rankin)', 'workforce_area': 'Southcentral MS Works', 'event_number': 'RR-MS 2022- 0001', 'naics': '423450 \u2013 Medical, Dental, and Hospital Equipment and Supplies Merchant', 'action_type': 'Closure', 'affected': '26', 'date_effective': '07/29/2022', 'reason': 'WARN- Permanently closing due to economy.'}"
+["07/01/2022", "McKesson \nCorporation \u2013 \nJackson \nRidgeland \n(Madison)", "Southcentral \nMS Works", "RR-MS-\n2022-\n0002", "424210 \u2013 Drugs \nand Druggist\u2019s \nSundries Merchant \nWholesalers", "Layoff", "31", "No RR \nevent - all \nemployees \nhave left this \nlocation", "WARN \u2013  Due to the \ndownturn in the \neconomy."]
+"\tSeems to be a regular row."
+"\t\t{'date_notice': '07/01/2022', 'company': 'McKesson Corporation \u2013 Jackson Ridgeland (Madison)', 'workforce_area': 'Southcentral MS Works', 'event_number': 'RR-MS- 2022- 0002', 'naics': '424210 \u2013 Drugs and Druggist\u2019s Sundries Merchant Wholesalers', 'action_type': 'Layoff', 'affected': '31', 'date_effective': 'No RR event - all employees have left this location', 'reason': 'WARN \u2013 Due to the downturn in the economy.'}"
+["7/1/2022", "La-Z-Boy South \nNewton (Newton)", "Twin District", "RR-MS-\n2022-\n0003", "337125 \u2013 \nHousehold \nFurniture (except \nwood and Metal) \nManufacturing", "Closure", "178", "08/24/2022", "WARN \u2013Permanently \nclosing. Due to the \ndownturn in the economy"]
+"\tSeems to be a regular row."
+"\t\t{'date_notice': '7/1/2022', 'company': 'La-Z-Boy South Newton (Newton)', 'workforce_area': 'Twin District', 'event_number': 'RR-MS- 2022- 0003', 'naics': '337125 \u2013 Household Furniture (except wood and Metal) Manufacturing', 'action_type': 'Closure', 'affected': '178', 'date_effective': '08/24/2022', 'reason': 'WARN \u2013Permanently closing. Due to the downturn in the economy'}"
+["7/25/2022", "Jefferson County \nHospital \nFayette (Jefferson)", "Southcentral \nMS Works", "RR-MS-\n2022-\n0004", "622100- General \nMedical and \nSurgical Hospitals", "Layoff", "8", "08/01/2022", "Non-WARN \u2013 Due to the \neconomy."]
+"\tSeems to be a regular row."
+"\t\t{'date_notice': '7/25/2022', 'company': 'Jefferson County Hospital Fayette (Jefferson)', 'workforce_area': 'Southcentral MS Works', 'event_number': 'RR-MS- 2022- 0004', 'naics': '622100- General Medical and Surgical Hospitals', 'action_type': 'Layoff', 'affected': '8', 'date_effective': '08/01/2022', 'reason': 'Non-WARN \u2013 Due to the economy.'}"
+"Processing table 1 of data/warn-scraper/cache/ms/warn-py2022-quarter-1-july-sept-2022.pdf"
+["Date of \nNotice", "Company Name, \nCity, County", "Workforce \nArea", "Event \nNumber", "NAICS CODE \u2013 \nDescription", "Type of \nAction", "Number \nAffected", "Date of \nAction", "Reason \u2013 Comments"]
+"\tIndex row!"
+["04/2022", "New Dairy \nAlabama, LLC \nHattiesburg \n(Forrest)", "Twin District", "RR-MS-\n2022-\n0005", "311511- Fluid \nMilk \nManufacturing", "Closure", "236", "10/02/2022", "WARN- Permanently \nclosing. Due to the \ndownturn in the \neconomy."]
+"\tSeems to be a regular row."
+"\t\t{'date_notice': '04/2022', 'company': 'New Dairy Alabama, LLC Hattiesburg (Forrest)', 'workforce_area': 'Twin District', 'event_number': 'RR-MS- 2022- 0005', 'naics': '311511- Fluid Milk Manufacturing', 'action_type': 'Closure', 'affected': '236', 'date_effective': '10/02/2022', 'reason': 'WARN- Permanently closing. Due to the downturn in the economy.'}"
+["08/16/2022", "Tyson Foods \nVicksburg \n(Warren)", "Southcentral \nMS Works", "RR-MS-\n2022-\n0006", "424470 \u2013 Meat \nand Meat Product \nMerchant \nWholesales", "Layoff", "60", "Management \nCanceled", "Non-WARN \u2013 \nTemporarily laying off \npersonnel to rebuild line."]
+"\tSeems to be a regular row."
+"\t\t{'date_notice': '08/16/2022', 'company': 'Tyson Foods Vicksburg (Warren)', 'workforce_area': 'Southcentral MS Works', 'event_number': 'RR-MS- 2022- 0006', 'naics': '424470 \u2013 Meat and Meat Product Merchant Wholesales', 'action_type': 'Layoff', 'affected': '60', 'date_effective': 'Management Canceled', 'reason': 'Non-WARN \u2013 Temporarily laying off personnel to rebuild line.'}"
+["08/08/2022", "NewCo3 \nBatesville (Panola)", "Delta", "RR-MS-\n2022-\n0007", "326199 \u2013All Other \nPlastics Products \nManufacturing", "Closure", "19", "Declined RR \nevent", "Non-WARN - Due to \nloss the of business, \neliminating product line, \nand moving a percentage \nof their business to Asia,"]
+"\tSeems to be a regular row."
+"\t\t{'date_notice': '08/08/2022', 'company': 'NewCo3 Batesville (Panola)', 'workforce_area': 'Delta', 'event_number': 'RR-MS- 2022- 0007', 'naics': '326199 \u2013All Other Plastics Products Manufacturing', 'action_type': 'Closure', 'affected': '19', 'date_effective': 'Declined RR event', 'reason': 'Non-WARN - Due to loss the of business, eliminating product line, and moving a percentage of their business to Asia,'}"
+["08/17/2022", "Emilia \nDeKalb (Kemper)", "Twin District", "RR-MS-\n2022-\n0008", "325514- \nPharmaceutical \nPreparations \nManufacturing", "Closure", "90", "08/25/2022", "Non-WARN- Due to the \ndownturn in the \neconomy."]
+"\tSeems to be a regular row."
+"\t\t{'date_notice': '08/17/2022', 'company': 'Emilia DeKalb (Kemper)', 'workforce_area': 'Twin District', 'event_number': 'RR-MS- 2022- 0008', 'naics': '325514- Pharmaceutical Preparations Manufacturing', 'action_type': 'Closure', 'affected': '90', 'date_effective': '08/25/2022', 'reason': 'Non-WARN- Due to the downturn in the economy.'}"
+["08/09/2022", "Hood Industries \nBeaumont (Perry)", "Twin District", "RR-MS-\n2022-\n0009", "324122 \u2013 Asphalt \nShingle and \nCoating Materials \nManufacturing", "Closure", "223", "08/26/2022", "WARN- Damage due to \na tornado that struck the \nmill."]
+"\tSeems to be a regular row."
+"\t\t{'date_notice': '08/09/2022', 'company': 'Hood Industries Beaumont (Perry)', 'workforce_area': 'Twin District', 'event_number': 'RR-MS- 2022- 0009', 'naics': '324122 \u2013 Asphalt Shingle and Coating Materials Manufacturing', 'action_type': 'Closure', 'affected': '223', 'date_effective': '08/26/2022', 'reason': 'WARN- Damage due to a tornado that struck the mill.'}"
+["08/29/2022", "Corsicana Mattress \nCompany \nOlive Branch \n(DeSoto)", "MS \nPartnership", "RR-MS-\n2022-\n0010", "337910- Mattress \nManufacturing", "Closure", "52", "RR-pending", "WARN-Due to decrease \nin sales."]
+"\tSeems to be a regular row."
+"\t\t{'date_notice': '08/29/2022', 'company': 'Corsicana Mattress Company Olive Branch (DeSoto)', 'workforce_area': 'MS Partnership', 'event_number': 'RR-MS- 2022- 0010', 'naics': '337910- Mattress Manufacturing', 'action_type': 'Closure', 'affected': '52', 'date_effective': 'RR-pending', 'reason': 'WARN-Due to decrease in sales.'}"
+"Processing table 2 of data/warn-scraper/cache/ms/warn-py2022-quarter-1-july-sept-2022.pdf"
+["Date of \nNotice", "Company Name, \nCity, County", "Workforce \nArea", "Event \nNumber", "NAICS CODE \u2013 \nDescription", "Type of \nAction", "Number \nAffected", "Date of \nAction", "Reason \u2013 Comments"]
+"\tIndex row!"
+["08/18/2022", "Kindthread/Landau \nUniforms \nOlive Branch \n(DeSoto)", "MS \nPartnership", "RR-MS-\n2022-\n0011", "315990 \u2013 Apparel \nAccessories and \nOther Apparel \nManufacturing", "Closure", "75", "09/20/2022", "WARN-  Due to \nemployment losses \nrelated to buyout."]
+"\tSeems to be a regular row."
+"\t\t{'date_notice': '08/18/2022', 'company': 'Kindthread/Landau Uniforms Olive Branch (DeSoto)', 'workforce_area': 'MS Partnership', 'event_number': 'RR-MS- 2022- 0011', 'naics': '315990 \u2013 Apparel Accessories and Other Apparel Manufacturing', 'action_type': 'Closure', 'affected': '75', 'date_effective': '09/20/2022', 'reason': 'WARN- Due to employment losses related to buyout.'}"
+["09/06/2022", "VanLeigh RV \nBurnsville \n(Tishomingo)", "MS \nPartnership", "RR-MS-\n2022-\n0012", "336214- Travel \nTrailer and \nCamper \nManufacturing", "Layoff", "43", "09/22/2022", "Non-WARN- Due to \nDecrease in Sales."]
+"\tSeems to be a regular row."
+"\t\t{'date_notice': '09/06/2022', 'company': 'VanLeigh RV Burnsville (Tishomingo)', 'workforce_area': 'MS Partnership', 'event_number': 'RR-MS- 2022- 0012', 'naics': '336214- Travel Trailer and Camper Manufacturing', 'action_type': 'Layoff', 'affected': '43', 'date_effective': '09/22/2022', 'reason': 'Non-WARN- Due to Decrease in Sales.'}"
+["09/15/2022", "Tiffin Motorhomes \nBelmont \n(Tishomingo)", "MS \nPartnership", "RR-MS-\n2022-\n0013", "441210 \u2013 \nRecreational \nVehicle Dealers", "Layoff", "25", "09/2/2022", "Non-WARN \u2013 Due to \ndecrease in sales"]
+"\tSeems to be a regular row."
+"\t\t{'date_notice': '09/15/2022', 'company': 'Tiffin Motorhomes Belmont (Tishomingo)', 'workforce_area': 'MS Partnership', 'event_number': 'RR-MS- 2022- 0013', 'naics': '441210 \u2013 Recreational Vehicle Dealers', 'action_type': 'Layoff', 'affected': '25', 'date_effective': '09/2/2022', 'reason': 'Non-WARN \u2013 Due to decrease in sales'}"
+"Processing table 3 of data/warn-scraper/cache/ms/warn-py2022-quarter-1-july-sept-2022.pdf"
+["Types of Notices Received", "Number Of Notices Received", "Number Affected"]
+"\tIndex row!"
+["WARN Notices", "9", "1,101"]
+"\tSeems to be a regular row."
+"\t\t{'notice_types': 'WARN Notices', 'notices_received': '9', 'affected': '1,101'}"
+["NON-WARN Notices", "6", "245"]
+"\tSeems to be a regular row."
+"\t\t{'notice_types': 'NON-WARN Notices', 'notices_received': '6', 'affected': '245'}"
+["TOTAL", "15", "1,346"]
+"\tSeems to be a regular row."
+"\t\t{'notice_types': 'TOTAL', 'notices_received': '15', 'affected': '1,346'}"
+"Processing table 0 of data/warn-scraper/cache/ms/warn-py2022-quarter-2-oct-dec-2022.pdf"
+["Date of \nNotice", "Company Name, City, \nCounty", "Workforce \nArea", "Event \nNumber", "NAICS CODE \u2013 \nDescription", "Type of \nAction", "Number \nAffected", "Date of \nAction", "Reason \u2013 Comments"]
+"\tIndex row!"
+["9/29/2022", "Aluminum Extrusions, \nInc. (AEI) \nSenatobia (Tate)", "MS \nPartnership", "RR-MS-\n2022-\n0014", "331318 \u2013 Other \nAluminum Rolling, \nDrawing, and \nExtruding", "Closure", "6", "9/20/2022", "WARN \u2013 Due to \nplant closure."]
+"\tSeems to be a regular row."
+"\t\t{'date_notice': '9/29/2022', 'company': 'Aluminum Extrusions, Inc. (AEI) Senatobia (Tate)', 'workforce_area': 'MS Partnership', 'event_number': 'RR-MS- 2022- 0014', 'naics': '331318 \u2013 Other Aluminum Rolling, Drawing, and Extruding', 'action_type': 'Closure', 'affected': '6', 'date_effective': '9/20/2022', 'reason': 'WARN \u2013 Due to plant closure.'}"
+["10/5/2022", "Greenwood Leflore \nHospital \nGreenwood, (Leflore)", "Delta", "RR-MS-\n2022-\n0015", "62211 \u2013General \nMedical and Surgical \nHospital", "Layoff", "600", "12-1-2022", "WARN \u2013 Due to \ntheir contract not \nbeing renewed"]
+"\tSeems to be a regular row."
+"\t\t{'date_notice': '10/5/2022', 'company': 'Greenwood Leflore Hospital Greenwood, (Leflore)', 'workforce_area': 'Delta', 'event_number': 'RR-MS- 2022- 0015', 'naics': '62211 \u2013General Medical and Surgical Hospital', 'action_type': 'Layoff', 'affected': '600', 'date_effective': '12-1-2022', 'reason': 'WARN \u2013 Due to their contract not being renewed'}"
+["11/07/2022", "GXO Logistics Supply \nChain, Inc. \nOlive Branch (DeSoto)", "MS. \nPartnership", "RR-MS-\n2022-\n0016", "488510 \u2013 Freight \nTransportation \nArrangement", "Closure", "165", "3/31/2023", "WARN \u2013 permanent \nclosure, due to \nbusiness decision."]
+"\tSeems to be a regular row."
+"\t\t{'date_notice': '11/07/2022', 'company': 'GXO Logistics Supply Chain, Inc. Olive Branch (DeSoto)', 'workforce_area': 'MS. Partnership', 'event_number': 'RR-MS- 2022- 0016', 'naics': '488510 \u2013 Freight Transportation Arrangement', 'action_type': 'Closure', 'affected': '165', 'date_effective': '3/31/2023', 'reason': 'WARN \u2013 permanent closure, due to business decision.'}"
+["11/14/2022", "Region One Mental \nHealth Center \nClarksdale (Coahoma)", "Delta", "RR-MS-\n2022-\n0017", "621420 \u2013 Outpatient \nMental Health and \nSubstance Abuse \nCenters", "Closure", "142", "1/31/2023", "WARN \u2013 Closed due \nto a buyout and \nfinancial issues."]
+"\tSeems to be a regular row."
+"\t\t{'date_notice': '11/14/2022', 'company': 'Region One Mental Health Center Clarksdale (Coahoma)', 'workforce_area': 'Delta', 'event_number': 'RR-MS- 2022- 0017', 'naics': '621420 \u2013 Outpatient Mental Health and Substance Abuse Centers', 'action_type': 'Closure', 'affected': '142', 'date_effective': '1/31/2023', 'reason': 'WARN \u2013 Closed due to a buyout and financial issues.'}"
+["11/21/2022", "Tiffin Motorhomes \nBelmont (Tishomingo)", "MS \nPartnership", "RR-MS-\n2022-\n0018", "441210 \u2013 Recreational \nVehicle Dealers", "Layoffs", "50", "12/1/2022", "Non-WARN- Due to \na shortage of parts \nand supplies."]
+"\tSeems to be a regular row."
+"\t\t{'date_notice': '11/21/2022', 'company': 'Tiffin Motorhomes Belmont (Tishomingo)', 'workforce_area': 'MS Partnership', 'event_number': 'RR-MS- 2022- 0018', 'naics': '441210 \u2013 Recreational Vehicle Dealers', 'action_type': 'Layoffs', 'affected': '50', 'date_effective': '12/1/2022', 'reason': 'Non-WARN- Due to a shortage of parts and supplies.'}"
+["11/21/2022", "United Furniture \nAmory (Monroe)", "MS \nPartnership", "RR-MS-\n2022-\n0019", "44211 \u2013 Furniture \nStore", "Closure", "1,000", "11/21/2022", "WARN \u2013 Due to \nunforeseen business \ncircumstances"]
+"\tSeems to be a regular row."
+"\t\t{'date_notice': '11/21/2022', 'company': 'United Furniture Amory (Monroe)', 'workforce_area': 'MS Partnership', 'event_number': 'RR-MS- 2022- 0019', 'naics': '44211 \u2013 Furniture Store', 'action_type': 'Closure', 'affected': '1,000', 'date_effective': '11/21/2022', 'reason': 'WARN \u2013 Due to unforeseen business circumstances'}"
+["12/12/22", "Magnolia Processing \nDBA Pride of the Pond \nTunica ( Tunica)", "Delta", "RR-MS-\n2022-\n0020", "424460 \u2013 Fish and \nfood Merchant \nWholesalers", "Layoff", "57", "12/6/2022", "WARN- Temporary \nlayoff due to the \neconomy."]
+"\tSeems to be a regular row."
+"\t\t{'date_notice': '12/12/22', 'company': 'Magnolia Processing DBA Pride of the Pond Tunica ( Tunica)', 'workforce_area': 'Delta', 'event_number': 'RR-MS- 2022- 0020', 'naics': '424460 \u2013 Fish and food Merchant Wholesalers', 'action_type': 'Layoff', 'affected': '57', 'date_effective': '12/6/2022', 'reason': 'WARN- Temporary layoff due to the economy.'}"
+"Processing table 1 of data/warn-scraper/cache/ms/warn-py2022-quarter-2-oct-dec-2022.pdf"
+["Types of Notices", "Number Of Notices Received", "Number  Affected"]
+"\tIndex row!"
+["WARN Notices", "5", "1,970"]
+"\tSeems to be a regular row."
+"\t\t{'notice_types': 'WARN Notices', 'notices_received': '5', 'affected': '1,970'}"
+["NON-WARN Notices", "1", "50"]
+"\tSeems to be a regular row."
+"\t\t{'notice_types': 'NON-WARN Notices', 'notices_received': '1', 'affected': '50'}"
+["TOTAL", "6", "2,020"]
+"\tSeems to be a regular row."
+"\t\t{'notice_types': 'TOTAL', 'notices_received': '6', 'affected': '2,020'}"
+"Processing table 0 of data/warn-scraper/cache/ms/warn-py2022-quarter-3-jan-mar-2023.pdf"
+["Date of \nNotice", "Company Name, City, \nCounty", "Workforce \nArea", "Event \nNumber", "NAICS CODE \u2013 \nDescription", "Type of \nAction", "Number \nAffected", "Date of \nAction", "Reason \u2013 Comments"]
+"\tIndex row!"
+["1/3/2023", "Motus Integrated \nTechnologies \nColumbus (Lowndes)", "MS \nPartnership", "RR-MS-\n2022-0021", "314999 \u2013 All Other \nMiscellaneous \nTextile Product \nMills", "Closure", "52", "02/23/2023", "WARN- Due to \ndecision to consolidate \nbusiness into other \ncompanies locations."]
+"\tSeems to be a regular row."
+"\t\t{'date_notice': '1/3/2023', 'company': 'Motus Integrated Technologies Columbus (Lowndes)', 'workforce_area': 'MS Partnership', 'event_number': 'RR-MS- 2022-0021', 'naics': '314999 \u2013 All Other Miscellaneous Textile Product Mills', 'action_type': 'Closure', 'affected': '52', 'date_effective': '02/23/2023', 'reason': 'WARN- Due to decision to consolidate business into other companies locations.'}"
+["1/9/2023", "Tri State Profile, LLC \nIuka (Tishomingo)", "MS \nPartnership", "RR-MS-\n2022-0022", "337110 \u2013 Wood \nKitchen Cabinet \nand Countertop \nManufacturing", "Layoff", "37", "01/25/2023", "Non-WARN- Due to a \nsuppliers \n\u201cunannounced \u201c \nshutdown."]
+"\tSeems to be a regular row."
+"\t\t{'date_notice': '1/9/2023', 'company': 'Tri State Profile, LLC Iuka (Tishomingo)', 'workforce_area': 'MS Partnership', 'event_number': 'RR-MS- 2022-0022', 'naics': '337110 \u2013 Wood Kitchen Cabinet and Countertop Manufacturing', 'action_type': 'Layoff', 'affected': '37', 'date_effective': '01/25/2023', 'reason': 'Non-WARN- Due to a suppliers \u201cunannounced \u201c shutdown.'}"
+["2/13/2013", "Milwaukee Tool \nClinton (Hinds)", "Southcentral \nMS Works", "RR-MS-\n2022-0023", "333991 \u2013 Power \nDriven Hand tool \nManufacturing", "Closure", "150", "03/30/2023", "WARN \u2013Due to  \noperations being \nrelocated to other \nfacilities."]
+"\tSeems to be a regular row."
+"\t\t{'date_notice': '2/13/2013', 'company': 'Milwaukee Tool Clinton (Hinds)', 'workforce_area': 'Southcentral MS Works', 'event_number': 'RR-MS- 2022-0023', 'naics': '333991 \u2013 Power Driven Hand tool Manufacturing', 'action_type': 'Closure', 'affected': '150', 'date_effective': '03/30/2023', 'reason': 'WARN \u2013Due to operations being relocated to other facilities.'}"
+["03/01/2023", "NCFI \nPolyurethane/Sleepmade \nColumbus (Lowndes)", "MS \nPartnership", "RR-MS-\n2022-0024", "32650 \u2013 Urethane \nand Other Foam \nProduct (except \npolystyrene) \nManufacturing", "Layoff", "6", "03/14/2023", "Non-WARN- Due to \ndownturn in business."]
+"\tSeems to be a regular row."
+"\t\t{'date_notice': '03/01/2023', 'company': 'NCFI Polyurethane/Sleepmade Columbus (Lowndes)', 'workforce_area': 'MS Partnership', 'event_number': 'RR-MS- 2022-0024', 'naics': '32650 \u2013 Urethane and Other Foam Product (except polystyrene) Manufacturing', 'action_type': 'Layoff', 'affected': '6', 'date_effective': '03/14/2023', 'reason': 'Non-WARN- Due to downturn in business.'}"
+["03/06/2023", "Tiffin Motorhomes \nBelmont (Tishomingo)", "MS \nPartnership", "RR-MS-\n2022-0025", "441210-\nRecreational \nVehicle Dealers", "Layoff", "41", "03/31/2023", "Non-WARN-Due to \ndecrease in sales."]
+"\tSeems to be a regular row."
+"\t\t{'date_notice': '03/06/2023', 'company': 'Tiffin Motorhomes Belmont (Tishomingo)', 'workforce_area': 'MS Partnership', 'event_number': 'RR-MS- 2022-0025', 'naics': '441210- Recreational Vehicle Dealers', 'action_type': 'Layoff', 'affected': '41', 'date_effective': '03/31/2023', 'reason': 'Non-WARN-Due to decrease in sales.'}"
+["3/23/2023  Alliance Healthcare", "System \nHolly Springs (Marshall)", "MS \nPartnership", "RR-MS-\n2022-0026", "621111 \u2013 Offices \nof Physicians \n(Except Mental \nHealth Specialists)", "Layoff", "100", "03/27/2023", "Non-WARN \u2013 Due to \nfinancial \ncircumstances beyond \ntheir control."]
+"\tSeems to be a regular row."
+"\t\t{'date_notice': '3/23/2023 Alliance Healthcare', 'company': 'System Holly Springs (Marshall)', 'workforce_area': 'MS Partnership', 'event_number': 'RR-MS- 2022-0026', 'naics': '621111 \u2013 Offices of Physicians (Except Mental Health Specialists)', 'action_type': 'Layoff', 'affected': '100', 'date_effective': '03/27/2023', 'reason': 'Non-WARN \u2013 Due to financial circumstances beyond their control.'}"
+"Processing table 1 of data/warn-scraper/cache/ms/warn-py2022-quarter-3-jan-mar-2023.pdf"
+["Date of \nNotice", "Company Name, City, \nCounty", "Workforce \nArea", "Event \nNumber", "NAICS CODE \u2013 \nDescription", "Type of \nAction", "Number \nAffected", "Date of \nAction", "Reason \u2013 Comments"]
+"\tIndex row!"
+["03/23/2023  Sun Air Products", "Belmont (Tishomingo)", "MS \nPartnership", "RR-MS-\n2022-0027", "332999- - All \nOther \nMiscellaneous \nFabricated Metal \nProduct \nManufacturing", "Layoff", "50", "03/27/2023", "Non-WARN \u2013 Due to \nmain customer layoffs \nit has caused work load \nto be unstable."]
+"\tSeems to be a regular row."
+"\t\t{'date_notice': '03/23/2023 Sun Air Products', 'company': 'Belmont (Tishomingo)', 'workforce_area': 'MS Partnership', 'event_number': 'RR-MS- 2022-0027', 'naics': '332999- - All Other Miscellaneous Fabricated Metal Product Manufacturing', 'action_type': 'Layoff', 'affected': '50', 'date_effective': '03/27/2023', 'reason': 'Non-WARN \u2013 Due to main customer layoffs it has caused work load to be unstable.'}"
+["03/20/2023  GXO Logistics Supply", "Chain, Inc. \nHorn Lake (DeSoto)", "MS \nPartnership", "RR-MS-\n2022-0028", "488510 \u2013 Freight \nTransportation \nArrangement", "Closure", "248", "", "05/16/2023  WARN \u2013 On behalf  \nof a client will cease \noperations."]
+"\tSeems to be a regular row."
+"\t\t{'date_notice': '03/20/2023 GXO Logistics Supply', 'company': 'Chain, Inc. Horn Lake (DeSoto)', 'workforce_area': 'MS Partnership', 'event_number': 'RR-MS- 2022-0028', 'naics': '488510 \u2013 Freight Transportation Arrangement', 'action_type': 'Closure', 'affected': '248', 'date_effective': '', 'reason': '05/16/2023 WARN \u2013 On behalf of a client will cease operations.'}"
+"Processing table 2 of data/warn-scraper/cache/ms/warn-py2022-quarter-3-jan-mar-2023.pdf"
+["Types of Notice", "# Of Notices Received", "# Affected"]
+"\tIndex row!"
+["WARN Notices", "3", "450"]
+"\tSeems to be a regular row."
+"\t\t{'notice_types': 'WARN Notices', 'notices_received': '3', 'affected': '450'}"
+["NON-WARN Notices", "5", "234"]
+"\tSeems to be a regular row."
+"\t\t{'notice_types': 'NON-WARN Notices', 'notices_received': '5', 'affected': '234'}"
+["TOTAL", "7", "684"]
+"\tSeems to be a regular row."
+"\t\t{'notice_types': 'TOTAL', 'notices_received': '7', 'affected': '684'}"
+"Processing table 0 of data/warn-scraper/cache/ms/warn-py2022-quarter-4-april-june-2023.pdf"
+["Date of \nNotice", "Company Name, \nCity, County", "Workforce \nArea", "Event \nNumber", "NAICS CODE \u2013 \nDescription", "Type of \nAction", "Number \nAffected", "Date of \nAction", "Reason \u2013 \nComments"]
+"\tIndex row!"
+["4/7/2023", "Advanced \nDistributor Products \nGrenada (Grenada)", "MS \nPartnership", "RR-MS-\n2022-\n0029", "333415 \u2013 Air-Conditioning \nand Warm Air Heating \nEquipment and \nCommercial and Industrial \nRefrigeration Equipment \nManufacturing", "Layoff", "67", "4/12/2023", "Non-WARN \u2013 Due \nto the downturn in \nthe economy."]
+"\tSeems to be a regular row."
+"\t\t{'date_notice': '4/7/2023', 'company': 'Advanced Distributor Products Grenada (Grenada)', 'workforce_area': 'MS Partnership', 'event_number': 'RR-MS- 2022- 0029', 'naics': '333415 \u2013 Air-Conditioning and Warm Air Heating Equipment and Commercial and Industrial Refrigeration Equipment Manufacturing', 'action_type': 'Layoff', 'affected': '67', 'date_effective': '4/12/2023', 'reason': 'Non-WARN \u2013 Due to the downturn in the economy.'}"
+["4/14/2023", "NauticStar Boats \nAmory (Monroe)", "MS \nPartnership", "RR-MS-\n2022-\n0030", "441222 \u2013 Boat Dealers", "Layoff", "92", "4/14/2023", "WARN \u2013 Due to \nNatural Disaster \n(tornado) on March \n24, 2023."]
+"\tSeems to be a regular row."
+"\t\t{'date_notice': '4/14/2023', 'company': 'NauticStar Boats Amory (Monroe)', 'workforce_area': 'MS Partnership', 'event_number': 'RR-MS- 2022- 0030', 'naics': '441222 \u2013 Boat Dealers', 'action_type': 'Layoff', 'affected': '92', 'date_effective': '4/14/2023', 'reason': 'WARN \u2013 Due to Natural Disaster (tornado) on March 24, 2023.'}"
+["04/10/2023", "Valeo \nMadison (Madison)", "Southcentral \nMSWORKS", "RR-MS-\n2022-\n0031", "336390- Other Motor \nVehicle Parts \nManufacturing", "Closure", "20", "4/19/2023", "Non-WARN \u2013 Parts \nthat are made will \nbecome obsolete."]
+"\tSeems to be a regular row."
+"\t\t{'date_notice': '04/10/2023', 'company': 'Valeo Madison (Madison)', 'workforce_area': 'Southcentral MSWORKS', 'event_number': 'RR-MS- 2022- 0031', 'naics': '336390- Other Motor Vehicle Parts Manufacturing', 'action_type': 'Closure', 'affected': '20', 'date_effective': '4/19/2023', 'reason': 'Non-WARN \u2013 Parts that are made will become obsolete.'}"
+["5/10/2023", "Jimco Lamp and \nManufacturing, \nLLC \nSouthaven (DeSoto)", "MS \nPartnership", "RR-MS-\n2022-\n0032", "442299 \u2013 All others Home \nFurnishings Stores", "Closure", "53", "6/21/20023", "WARN- Due to \nunforeseen business \ncircumstances."]
+"\tSeems to be a regular row."
+"\t\t{'date_notice': '5/10/2023', 'company': 'Jimco Lamp and Manufacturing, LLC Southaven (DeSoto)', 'workforce_area': 'MS Partnership', 'event_number': 'RR-MS- 2022- 0032', 'naics': '442299 \u2013 All others Home Furnishings Stores', 'action_type': 'Closure', 'affected': '53', 'date_effective': '6/21/20023', 'reason': 'WARN- Due to unforeseen business circumstances.'}"
+["5/31/2023", "Aerospace Corp \nDBA ASR- Pioneer \nColumbia (Marion)", "Twin \nDistrict", "RR-MS-\n2022-\n0033", "33641 \u2013 Aerospace \nProduct and Parts \nManufacturing \u2013 Aircraft \nManufacturing", "Closure", "96", "6/7/2023", "WARN- Due to \nfinancial difficulty."]
+"\tSeems to be a regular row."
+"\t\t{'date_notice': '5/31/2023', 'company': 'Aerospace Corp DBA ASR- Pioneer Columbia (Marion)', 'workforce_area': 'Twin District', 'event_number': 'RR-MS- 2022- 0033', 'naics': '33641 \u2013 Aerospace Product and Parts Manufacturing \u2013 Aircraft Manufacturing', 'action_type': 'Closure', 'affected': '96', 'date_effective': '6/7/2023', 'reason': 'WARN- Due to financial difficulty.'}"
+["6/6/2023", "Advanced \nDistributor Products \nGrenada (Grenada)", "MS \nPartnership", "RR-MS-\n2022-\n0034", "33415 - Air-Conditioning \nand Warm Air Heating \nEquipment and \nCommercial and Industrial \nRefrigeration Equipment \nManufacturing", "Layoff", "38", "6/ 9/2023", "Non-WARN \u2013 Due \nto the downturn in \nthe economy."]
+"\tSeems to be a regular row."
+"\t\t{'date_notice': '6/6/2023', 'company': 'Advanced Distributor Products Grenada (Grenada)', 'workforce_area': 'MS Partnership', 'event_number': 'RR-MS- 2022- 0034', 'naics': '33415 - Air-Conditioning and Warm Air Heating Equipment and Commercial and Industrial Refrigeration Equipment Manufacturing', 'action_type': 'Layoff', 'affected': '38', 'date_effective': '6/ 9/2023', 'reason': 'Non-WARN \u2013 Due to the downturn in the economy.'}"
+"Processing table 1 of data/warn-scraper/cache/ms/warn-py2022-quarter-4-april-june-2023.pdf"
+["Date of \nNotice", "Company Name, \nCity, County", "Workforce \nArea", "Event \nNumber", "NAICS CODE \u2013 \nDescription", "Type of \nAction", "Number \nAffected", "Date of \nAction", "Reason \u2013 \nComments"]
+"\tIndex row!"
+["06/08/2022", "Federal Express \nCorporation \nRichland (Rankin)", "Southcentral \nMS Works", "RR-MS-\n2022-\n0035", "484121 \u2013 General Freight \nTrucking, Long-Distance \nTruckload", "Closure", "77", "9/4/2023", "WARN \u2013 \nConsolidated its \noperations."]
+"\tSeems to be a regular row."
+"\t\t{'date_notice': '06/08/2022', 'company': 'Federal Express Corporation Richland (Rankin)', 'workforce_area': 'Southcentral MS Works', 'event_number': 'RR-MS- 2022- 0035', 'naics': '484121 \u2013 General Freight Trucking, Long-Distance Truckload', 'action_type': 'Closure', 'affected': '77', 'date_effective': '9/4/2023', 'reason': 'WARN \u2013 Consolidated its operations.'}"
+["06/09/2023", "Vectrus System \nCorporation/Keesler \nBase Services \nBiloxi (Harrison)", "Twin \nDistrict", "RR-MS-\n2022-\n0036", "541330- Engineering \nServices", "Layoff", "191", "7/31/ 2023", "WARN \u2013Due to loss \nof contract."]
+"\tSeems to be a regular row."
+"\t\t{'date_notice': '06/09/2023', 'company': 'Vectrus System Corporation/Keesler Base Services Biloxi (Harrison)', 'workforce_area': 'Twin District', 'event_number': 'RR-MS- 2022- 0036', 'naics': '541330- Engineering Services', 'action_type': 'Layoff', 'affected': '191', 'date_effective': '7/31/ 2023', 'reason': 'WARN \u2013Due to loss of contract.'}"
+["6/21/2023", "Roseburg Forest \nProducts \nTaylorsville (Smith)", "Twin \nDistrict", "RR-MS-\n2022-\n0037", "321212 \u2013 Softwood Veneer \nand Plywood \nManufacturing", "Closure", "101", "8/21/2023", "WARN \u2013 Due to the \ndownturn in the \neconomy."]
+"\tSeems to be a regular row."
+"\t\t{'date_notice': '6/21/2023', 'company': 'Roseburg Forest Products Taylorsville (Smith)', 'workforce_area': 'Twin District', 'event_number': 'RR-MS- 2022- 0037', 'naics': '321212 \u2013 Softwood Veneer and Plywood Manufacturing', 'action_type': 'Closure', 'affected': '101', 'date_effective': '8/21/2023', 'reason': 'WARN \u2013 Due to the downturn in the economy.'}"
+"Processing table 2 of data/warn-scraper/cache/ms/warn-py2022-quarter-4-april-june-2023.pdf"
+["Types of Notices Received", "Number Of Notices \nReceived", "Number Affected"]
+"\tIndex row!"
+["WARN Notices", "6", "610"]
+"\tSeems to be a regular row."
+"\t\t{'notice_types': 'WARN Notices', 'notices_received': '6', 'affected': '610'}"
+["NON-WARN Notices", "3", "125"]
+"\tSeems to be a regular row."
+"\t\t{'notice_types': 'NON-WARN Notices', 'notices_received': '3', 'affected': '125'}"
+["TOTAL", "9", "735"]
+"\tSeems to be a regular row."
+"\t\t{'notice_types': 'TOTAL', 'notices_received': '9', 'affected': '735'}"
+"Processing table 0 of data/warn-scraper/cache/ms/warn-py2023-qtr-1-july-sept-2023.pdf"
+["Date of \nNotice", "Company Name, \nCity, County", "Workforce \nArea", "Event \nNumber", "NAICS CODE \u2013 \nDescription", "Type of \nAction", "Number \nAffected", "Date of \nAction", "Reason \u2013 Comments"]
+"\tIndex row!"
+["7/26/2023", "International \nConverter \nIuka (Tishomingo)", "MS \nPartnership", "RR-MS-\n2023-\n0001", "561910 \u2013 Packaging \nand labeling Services", "Closure", "38", "08/08/2023", "Non-WARN \u2013 Due \nto economic \ndownturn."]
+"\tSeems to be a regular row."
+"\t\t{'date_notice': '7/26/2023', 'company': 'International Converter Iuka (Tishomingo)', 'workforce_area': 'MS Partnership', 'event_number': 'RR-MS- 2023- 0001', 'naics': '561910 \u2013 Packaging and labeling Services', 'action_type': 'Closure', 'affected': '38', 'date_effective': '08/08/2023', 'reason': 'Non-WARN \u2013 Due to economic downturn.'}"
+["7/23/2023", "Alan Ritchey, Inc. \nSouthaven \n(DeSoto)", "MS \nPartnership", "RR-MS- \n2023-\n0002", "484120 \u2013 General \nFreight Trucking, Long \nDistance", "Closure", "191", "09/13/2023", "WARN \u2013 Due to a \ncontract not being \nrenewed."]
+"\tSeems to be a regular row."
+"\t\t{'date_notice': '7/23/2023', 'company': 'Alan Ritchey, Inc. Southaven (DeSoto)', 'workforce_area': 'MS Partnership', 'event_number': 'RR-MS- 2023- 0002', 'naics': '484120 \u2013 General Freight Trucking, Long Distance', 'action_type': 'Closure', 'affected': '191', 'date_effective': '09/13/2023', 'reason': 'WARN \u2013 Due to a contract not being renewed.'}"
+["8/3/2023", "YRC Worldwide \n(Yellow Corp.) \nRichland (Rankin)", "Southcentral \nMS Works", "RR-MS-\n2023-\n0003", "484121 \u2013 General \nFreight Trucking Long \nDistance Truckload", "Closure", "436", "08/31/2023 \n09/01/2023", "WARN-  Pending \nBankruptcy"]
+"\tSeems to be a regular row."
+"\t\t{'date_notice': '8/3/2023', 'company': 'YRC Worldwide (Yellow Corp.) Richland (Rankin)', 'workforce_area': 'Southcentral MS Works', 'event_number': 'RR-MS- 2023- 0003', 'naics': '484121 \u2013 General Freight Trucking Long Distance Truckload', 'action_type': 'Closure', 'affected': '436', 'date_effective': '08/31/2023 09/01/2023', 'reason': 'WARN- Pending Bankruptcy'}"
+["8/29/2023", "Kuehne + Nagel, \nInc. \nSouthaven \n(DeSoto)", "MS \nPartnership", "RR-MS-\n2023-\n0004", "484122- General \nFreight Trucking, Long \nDistance-Less than \nTruckload", "Layoff", "110", "8/31/2023", "WARN \u2013 Due to a \ncontract not being \nrenewed."]
+"\tSeems to be a regular row."
+"\t\t{'date_notice': '8/29/2023', 'company': 'Kuehne + Nagel, Inc. Southaven (DeSoto)', 'workforce_area': 'MS Partnership', 'event_number': 'RR-MS- 2023- 0004', 'naics': '484122- General Freight Trucking, Long Distance-Less than Truckload', 'action_type': 'Layoff', 'affected': '110', 'date_effective': '8/31/2023', 'reason': 'WARN \u2013 Due to a contract not being renewed.'}"
+["07/25/2023", "Associated \nWholesale Grocers \nSouthaven \n(DeSoto)", "MS \nPartnership", "RR-MS-\n2023-\n0005", "424410 \u2013 General Line \nGrocer Merchant \nWholesalers", "Closure", "70", "9/14/2023", "WARN \u2013 Relocating \nOperations to \nHernando, MS"]
+"\tSeems to be a regular row."
+"\t\t{'date_notice': '07/25/2023', 'company': 'Associated Wholesale Grocers Southaven (DeSoto)', 'workforce_area': 'MS Partnership', 'event_number': 'RR-MS- 2023- 0005', 'naics': '424410 \u2013 General Line Grocer Merchant Wholesalers', 'action_type': 'Closure', 'affected': '70', 'date_effective': '9/14/2023', 'reason': 'WARN \u2013 Relocating Operations to Hernando, MS'}"
+"Processing table 1 of data/warn-scraper/cache/ms/warn-py2023-qtr-1-july-sept-2023.pdf"
+["Types of Notices", "Number Of Notices Received", "Number Affected"]
+"\tIndex row!"
+["WARN Notices", "4", "807"]
+"\tSeems to be a regular row."
+"\t\t{'notice_types': 'WARN Notices', 'notices_received': '4', 'affected': '807'}"
+["NON-WARN Notices", "1", "38"]
+"\tSeems to be a regular row."
+"\t\t{'notice_types': 'NON-WARN Notices', 'notices_received': '1', 'affected': '38'}"
+["TOTAL", "5", "845"]
+"\tSeems to be a regular row."
+"\t\t{'notice_types': 'TOTAL', 'notices_received': '5', 'affected': '845'}"
+"Processing table 0 of data/warn-scraper/cache/ms/warn-py2023-qtr-2-oct-dec-2023.pdf"
+["Date of \nNotice", "Company Name \nCity (County)", "Workforce \nArea", "Event \nNumber", "NAICS CODE \u2013 \nDescription", "Type of \nAction", "Number \nAffected", "Date of \nAction", "Reason  / Comments"]
+"\tIndex row!"
+["10/09/2023", "Attala Steel, Inc. \nKosciusko (Attala)", "MS \nPartnership", "RR-MS- \n2023-0006", "331110 \u2013 Iron and \nSteel Mills and \nFerroalloy \nManufacturing.", "Layoff", "83", "10/5/2023", "WARN \u2013 Due to  \ninsufficient customers\u2019 orders \nto work at full capacity."]
+"\tSeems to be a regular row."
+"\t\t{'date_notice': '10/09/2023', 'company': 'Attala Steel, Inc. Kosciusko (Attala)', 'workforce_area': 'MS Partnership', 'event_number': 'RR-MS- 2023-0006', 'naics': '331110 \u2013 Iron and Steel Mills and Ferroalloy Manufacturing.', 'action_type': 'Layoff', 'affected': '83', 'date_effective': '10/5/2023', 'reason': 'WARN \u2013 Due to insufficient customers\u2019 orders to work at full capacity.'}"
+["10/16/2023", "Navistar Defense \nWest Point (Clay)", "MS \nPartnership", "RR-MS- \n2023-0007", "336992 \u2013 Military \nArmored  \nVehicle and Tank  \nComponent \nManufacturing", "Layoff", "91", "11/30/2023", "WARN -  Due to \nunforeseeable business \ncircumstances."]
+"\tSeems to be a regular row."
+"\t\t{'date_notice': '10/16/2023', 'company': 'Navistar Defense West Point (Clay)', 'workforce_area': 'MS Partnership', 'event_number': 'RR-MS- 2023-0007', 'naics': '336992 \u2013 Military Armored Vehicle and Tank Component Manufacturing', 'action_type': 'Layoff', 'affected': '91', 'date_effective': '11/30/2023', 'reason': 'WARN - Due to unforeseeable business circumstances.'}"
+["10/16/2023", "Navistar Defense \nWest Point (Clay)", "MS \nPartnership", "RR-MS-  \n2023-0008", "336992 \u2013 Military \nArmored  \nVehicle and Tank  \nComponent \nManufacturing", "Layoff", "118", "10/26/2023", "WARN -  Due to \nunforeseeable business \ncircumstances."]
+"\tSeems to be a regular row."
+"\t\t{'date_notice': '10/16/2023', 'company': 'Navistar Defense West Point (Clay)', 'workforce_area': 'MS Partnership', 'event_number': 'RR-MS- 2023-0008', 'naics': '336992 \u2013 Military Armored Vehicle and Tank Component Manufacturing', 'action_type': 'Layoff', 'affected': '118', 'date_effective': '10/26/2023', 'reason': 'WARN - Due to unforeseeable business circumstances.'}"
+["10/17/2023", "Rollins Moving \nStorage, \nInc. \nWest Point ( Clay)", "MS \nPartnership", "RR-MS- \n2023-0009", "484210 \u2013 Uses \nHousehold and office \nGoods Moving", "Layoff", "21", "10/26/2023", "Non-WARN \u2013 Due t a  \nreduction of orders from \ncommercial Contracts."]
+"\tSeems to be a regular row."
+"\t\t{'date_notice': '10/17/2023', 'company': 'Rollins Moving Storage, Inc. West Point ( Clay)', 'workforce_area': 'MS Partnership', 'event_number': 'RR-MS- 2023-0009', 'naics': '484210 \u2013 Uses Household and office Goods Moving', 'action_type': 'Layoff', 'affected': '21', 'date_effective': '10/26/2023', 'reason': 'Non-WARN \u2013 Due t a reduction of orders from commercial Contracts.'}"
+["10/31/2023", "FedEx Supply \nChain Olive \nBranch (DeSoto)", "MS \nPartnership", "RR-MS-  \n2023-0010", "484121 \u2013 General \nFreight  \nTrucking, Long \nDistance,  \nTruckload", "Closure", "169", "12/29/2023", "WARN \u2013 Due to transition its \nbusiness to another provider \nin another location."]
+"\tSeems to be a regular row."
+"\t\t{'date_notice': '10/31/2023', 'company': 'FedEx Supply Chain Olive Branch (DeSoto)', 'workforce_area': 'MS Partnership', 'event_number': 'RR-MS- 2023-0010', 'naics': '484121 \u2013 General Freight Trucking, Long Distance, Truckload', 'action_type': 'Closure', 'affected': '169', 'date_effective': '12/29/2023', 'reason': 'WARN \u2013 Due to transition its business to another provider in another location.'}"
+"Processing table 1 of data/warn-scraper/cache/ms/warn-py2023-qtr-2-oct-dec-2023.pdf"
+["Date of \nNotice", "Company Name \nCity (County)", "Workforce \nArea", "Event \nNumber", "NAICS CODE \u2013 \nDescription", "Type of \nAction", "Number \nAffected", "Date of \nAction", "Reason  / Comments"]
+"\tIndex row!"
+["11/15/2023", "Plymouth Tube \nCompany Eupora \n(Webster)", "MS \nPartnership", "RR-MS- \n2023-0011", "331110 \u2013 Iron and \nSteel  \nMills and Ferroalloy  \nManufacturing", "Layoff", "77", "11/18/2023", "Non-WARN \u2013 Due to lack of \nwork."]
+"\tSeems to be a regular row."
+"\t\t{'date_notice': '11/15/2023', 'company': 'Plymouth Tube Company Eupora (Webster)', 'workforce_area': 'MS Partnership', 'event_number': 'RR-MS- 2023-0011', 'naics': '331110 \u2013 Iron and Steel Mills and Ferroalloy Manufacturing', 'action_type': 'Layoff', 'affected': '77', 'date_effective': '11/18/2023', 'reason': 'Non-WARN \u2013 Due to lack of work.'}"
+"Processing table 2 of data/warn-scraper/cache/ms/warn-py2023-qtr-2-oct-dec-2023.pdf"
+["Types of Notice", "Number Of Notices Received", "Number Affected"]
+"\tIndex row!"
+["WARN Notice", "4", "461"]
+"\tSeems to be a regular row."
+"\t\t{'notice_types': 'WARN Notice', 'notices_received': '4', 'affected': '461'}"
+["NON-WARN Notice", "2", "98"]
+"\tSeems to be a regular row."
+"\t\t{'notice_types': 'NON-WARN Notice', 'notices_received': '2', 'affected': '98'}"
+["TOTAL", "6", "559"]
+"\tSeems to be a regular row."
+"\t\t{'notice_types': 'TOTAL', 'notices_received': '6', 'affected': '559'}"
+"Processing table 0 of data/warn-scraper/cache/ms/warn-py2023-qtr-3-jan-mar-2024.pdf"
+["Date of \nNotice", "Company Name, \nCity, County", "Workforce \nArea", "Event \nNumber", "NAICS CODE \u2013 \nDescription", "Type of \nAction", "Number \nAffected", "Date of \nAction", "Reason \u2013 Comments"]
+"\tIndex row!"
+["1/18/224", "PSP Industries \nIuka (Tishomingo)", "MS \nPartnership", "RR-MS-\n2023-0012", "33200 \u2013 Fabricated \nStructural Metal \nManufacturing", "Layoff", "71", "1/15/2024", "Non-WARN \u2013 \nTemporary layoff due to \nwinter weather."]
+"\tSeems to be a regular row."
+"\t\t{'date_notice': '1/18/224', 'company': 'PSP Industries Iuka (Tishomingo)', 'workforce_area': 'MS Partnership', 'event_number': 'RR-MS- 2023-0012', 'naics': '33200 \u2013 Fabricated Structural Metal Manufacturing', 'action_type': 'Layoff', 'affected': '71', 'date_effective': '1/15/2024', 'reason': 'Non-WARN \u2013 Temporary layoff due to winter weather.'}"
+["1/18/2023", "PSP Industries \nFulton (Itawamba)", "MS \nPartnership", "RR-MS-\n2023-0013", "33200 \u2013 Fabricated \nStructural Metal \nManufacturing", "Layoff", "36", "1/13/2024", "Non-WARN \u2013 \nTemporary layoff due to \nwinter weather."]
+"\tSeems to be a regular row."
+"\t\t{'date_notice': '1/18/2023', 'company': 'PSP Industries Fulton (Itawamba)', 'workforce_area': 'MS Partnership', 'event_number': 'RR-MS- 2023-0013', 'naics': '33200 \u2013 Fabricated Structural Metal Manufacturing', 'action_type': 'Layoff', 'affected': '36', 'date_effective': '1/13/2024', 'reason': 'Non-WARN \u2013 Temporary layoff due to winter weather.'}"
+["1/18/2024", "Homestead \nFurniture, LLC \nNew Albany \n(Union)", "MS \nPartnership", "RR-MS-\n2023-0014", "442110 \u2013 Furniture \nStore", "Layoff", "58", "1/12/2024", "Non-WARN \u2013 \nTemporary layoff due to \nwinter weather."]
+"\tSeems to be a regular row."
+"\t\t{'date_notice': '1/18/2024', 'company': 'Homestead Furniture, LLC New Albany (Union)', 'workforce_area': 'MS Partnership', 'event_number': 'RR-MS- 2023-0014', 'naics': '442110 \u2013 Furniture Store', 'action_type': 'Layoff', 'affected': '58', 'date_effective': '1/12/2024', 'reason': 'Non-WARN \u2013 Temporary layoff due to winter weather.'}"
+["1/17/2024", "Crown Cork & \nSeal USA \nInc. \nBatesville (Panola)", "Delta", "RR-MS-\n2023-0015", "332431 \u2013 Metal Can \nManufacturing", "Closure", "145", "02/12/2024", "WARN - Due to \nunforeseeable business \ncircumstances."]
+"\tSeems to be a regular row."
+"\t\t{'date_notice': '1/17/2024', 'company': 'Crown Cork & Seal USA Inc. Batesville (Panola)', 'workforce_area': 'Delta', 'event_number': 'RR-MS- 2023-0015', 'naics': '332431 \u2013 Metal Can Manufacturing', 'action_type': 'Closure', 'affected': '145', 'date_effective': '02/12/2024', 'reason': 'WARN - Due to unforeseeable business circumstances.'}"
+["01/25/2024", "Omega Motion \nSaltillo (Lee)", "MS \nPartnership", "RR-MS-\n2023-0016", "423210 \u2013 Furniture \nMerchant \nWholesalers", "Closure", "130", "03/19/2024", "WARN \u2013 Due to \nrestructuring business."]
+"\tSeems to be a regular row."
+"\t\t{'date_notice': '01/25/2024', 'company': 'Omega Motion Saltillo (Lee)', 'workforce_area': 'MS Partnership', 'event_number': 'RR-MS- 2023-0016', 'naics': '423210 \u2013 Furniture Merchant Wholesalers', 'action_type': 'Closure', 'affected': '130', 'date_effective': '03/19/2024', 'reason': 'WARN \u2013 Due to restructuring business.'}"
+["2/8/2024", "Conair LLC \nSouthaven \n(DeSoto)", "MS \nPartnership", "RR-MS-\n2023-0017", "335210 \u2013 Small \nElectrical Appliance \nManufacturing", "Closure", "92", "2/16/2024", "WARN - Due to \nunforeseeable business \ncircumstances."]
+"\tSeems to be a regular row."
+"\t\t{'date_notice': '2/8/2024', 'company': 'Conair LLC Southaven (DeSoto)', 'workforce_area': 'MS Partnership', 'event_number': 'RR-MS- 2023-0017', 'naics': '335210 \u2013 Small Electrical Appliance Manufacturing', 'action_type': 'Closure', 'affected': '92', 'date_effective': '2/16/2024', 'reason': 'WARN - Due to unforeseeable business circumstances.'}"
+["02/20/2024", "Agrisolutions Wear \nTechnologies \nCorp. \nHolly Springs \n(Marshall)", "MS \nPartnership", "RR-MS-\n2023-0018", "332811 \u2013 Metal Heat \nTreating", "Closure", "35", "03/12/2021", "Non-WARN \u2013 \nConsolidating work into \nanother location."]
+"\tSeems to be a regular row."
+"\t\t{'date_notice': '02/20/2024', 'company': 'Agrisolutions Wear Technologies Corp. Holly Springs (Marshall)', 'workforce_area': 'MS Partnership', 'event_number': 'RR-MS- 2023-0018', 'naics': '332811 \u2013 Metal Heat Treating', 'action_type': 'Closure', 'affected': '35', 'date_effective': '03/12/2021', 'reason': 'Non-WARN \u2013 Consolidating work into another location.'}"
+"Processing table 1 of data/warn-scraper/cache/ms/warn-py2023-qtr-3-jan-mar-2024.pdf"
+["Types of Notices", "Number Of Notices Received", "Number Affected"]
+"\tIndex row!"
+["WARN Notices", "3", "367"]
+"\tSeems to be a regular row."
+"\t\t{'notice_types': 'WARN Notices', 'notices_received': '3', 'affected': '367'}"
+["NON-WARN Notices", "4", "200"]
+"\tSeems to be a regular row."
+"\t\t{'notice_types': 'NON-WARN Notices', 'notices_received': '4', 'affected': '200'}"
+["TOTAL", "7", "567"]
+"\tSeems to be a regular row."
+"\t\t{'notice_types': 'TOTAL', 'notices_received': '7', 'affected': '567'}"
+"Processing table 0 of data/warn-scraper/cache/ms/warn-py2023-qtr-4-apr-june2024.pdf"
+["Date of \nNotice", "Company Name \nCity (County)", "Workforc\ne Area", "Event \nNumber", "NAICS CODE \u2013 \nDescription", "Type of \nAction", "Number \nAffected", "Date of \nAction", "Reason  / Comments"]
+"\tIndex row!"
+["7/26/2023", "International Converter \nIuka (Tishomingo)", "MS \nPartnership", "RR-MS-\n2023-0001", "561910 \u2013 Packaging \nand labeling Services", "Closure", "38", "08/08/2023", "Non-WARN \u2013 Due to \neconomic downturn."]
+"\tSeems to be a regular row."
+"\t\t{'date_notice': '7/26/2023', 'company': 'International Converter Iuka (Tishomingo)', 'workforce_area': 'MS Partnership', 'event_number': 'RR-MS- 2023-0001', 'naics': '561910 \u2013 Packaging and labeling Services', 'action_type': 'Closure', 'affected': '38', 'date_effective': '08/08/2023', 'reason': 'Non-WARN \u2013 Due to economic downturn.'}"
+["7/23/2023", "Alan Ritchey, Inc. \nSouthaven (DeSoto)", "MS \nPartnership", "RR-MS- \n2023-0002", "484120 \u2013 General \nFreight Trucking, \nLong Distance", "Closure", "191", "09/13/2023", "WARN \u2013 Due to a \ncontract not being \nrenewed."]
+"\tSeems to be a regular row."
+"\t\t{'date_notice': '7/23/2023', 'company': 'Alan Ritchey, Inc. Southaven (DeSoto)', 'workforce_area': 'MS Partnership', 'event_number': 'RR-MS- 2023-0002', 'naics': '484120 \u2013 General Freight Trucking, Long Distance', 'action_type': 'Closure', 'affected': '191', 'date_effective': '09/13/2023', 'reason': 'WARN \u2013 Due to a contract not being renewed.'}"
+["8/3/2023", "YRC Worldwide \n(Yellow Corp.) \nRichland (Rankin)", "Southcentr\nal MS \nWorks", "RR-MS-\n2023-0003", "484121 \u2013 General \nFreight Trucking \nLong Distance \nTruckload", "Closure", "436", "08/31/2023 \n09/01/2023", "WARN-  Pending \nBankruptcy"]
+"\tSeems to be a regular row."
+"\t\t{'date_notice': '8/3/2023', 'company': 'YRC Worldwide (Yellow Corp.) Richland (Rankin)', 'workforce_area': 'Southcentr al MS Works', 'event_number': 'RR-MS- 2023-0003', 'naics': '484121 \u2013 General Freight Trucking Long Distance Truckload', 'action_type': 'Closure', 'affected': '436', 'date_effective': '08/31/2023 09/01/2023', 'reason': 'WARN- Pending Bankruptcy'}"
+["8/29/2023", "Kuehne + Nagel, Inc. \nSouthaven (DeSoto)", "MS \nPartnership", "RR-MS-\n2023-0004", "484122- General \nFreight Trucking, \nLong Distance-Less \nthan Truckload", "Layoff", "110", "8/31/2023", "WARN \u2013 Due to a \ncontract not being \nrenewed."]
+"\tSeems to be a regular row."
+"\t\t{'date_notice': '8/29/2023', 'company': 'Kuehne + Nagel, Inc. Southaven (DeSoto)', 'workforce_area': 'MS Partnership', 'event_number': 'RR-MS- 2023-0004', 'naics': '484122- General Freight Trucking, Long Distance-Less than Truckload', 'action_type': 'Layoff', 'affected': '110', 'date_effective': '8/31/2023', 'reason': 'WARN \u2013 Due to a contract not being renewed.'}"
+["07/25/2023", "Associated Wholesale \nGrocers \nSouthaven (DeSoto)", "MS \nPartnership", "RR-MS-\n2023-0005", "424410 \u2013 General \nLine Grocer \nMerchant \nWholesalers", "Closure", "70", "9/14/2023", "WARN \u2013 Relocating \nOperations to \nHernando, MS"]
+"\tSeems to be a regular row."
+"\t\t{'date_notice': '07/25/2023', 'company': 'Associated Wholesale Grocers Southaven (DeSoto)', 'workforce_area': 'MS Partnership', 'event_number': 'RR-MS- 2023-0005', 'naics': '424410 \u2013 General Line Grocer Merchant Wholesalers', 'action_type': 'Closure', 'affected': '70', 'date_effective': '9/14/2023', 'reason': 'WARN \u2013 Relocating Operations to Hernando, MS'}"
+"Processing table 1 of data/warn-scraper/cache/ms/warn-py2023-qtr-4-apr-june2024.pdf"
+["Types of Notices", "Number Of Notices Received", "Number Affected"]
+"\tIndex row!"
+["WARN Notice", "4", "807"]
+"\tSeems to be a regular row."
+"\t\t{'notice_types': 'WARN Notice', 'notices_received': '4', 'affected': '807'}"
+["NON-WARN Notice", "1", "38"]
+"\tSeems to be a regular row."
+"\t\t{'notice_types': 'NON-WARN Notice', 'notices_received': '1', 'affected': '38'}"
+["TOTAL", "5", "845"]
+"\tSeems to be a regular row."
+"\t\t{'notice_types': 'TOTAL', 'notices_received': '5', 'affected': '845'}"
+"Processing table 0 of data/warn-scraper/cache/ms/warn-py2024-q1-warn-jul2024-sep2024.pdf"
+"\tOrphaned header detected!"
+"{'rawheader': ['Date of \\nWARN \\nNotice', 'Company Name \\nCity (County)', 'Workforce \\nArea', 'Event \\nNumber', 'NAICS CODE \u2013 \\nDescription', 'Type of \\nAction', 'Number \\nAffected', 'Date of \\nAction', 'Reason / Comments'], 'patchedheaders': ['date_notice', 'company', 'workforce_area', 'event_number', 'naics', 'action_type', 'affected', 'date_effective', 'reason']}"
+"Processing table 1 of data/warn-scraper/cache/ms/warn-py2024-q1-warn-jul2024-sep2024.pdf"
+["7/18/2024", "Elior, Inc \nRidgeland (Madison)", "South \nCentral", "RR-MS \n2024-\n0001", "722310- Food Service \nContractor", "Closure", "59", "", "WARN \u2013 The \ncompany is relocating \nout of state"]
+"\tSeems to be a regular row."
+"\t\t{'date_notice': '7/18/2024', 'company': 'Elior, Inc Ridgeland (Madison)', 'workforce_area': 'South Central', 'event_number': 'RR-MS 2024- 0001', 'naics': '722310- Food Service Contractor', 'action_type': 'Closure', 'affected': '59', 'date_effective': '', 'reason': 'WARN \u2013 The company is relocating out of state'}"
+["7/23/2024", "Paxton Furniture \nIndustries, LLC \nOkolona (Chickasaw)", "MS \nPartnership", "RR-MS-\n2024-\n0002", "337000 \u2013 Furniture and \nRelated Product \nManufacturing", "Closure", "38", "", "7/24/2024  Non-WARN -Due to \nlack of business."]
+"\tSeems to be a regular row."
+"\t\t{'date_notice': '7/23/2024', 'company': 'Paxton Furniture Industries, LLC Okolona (Chickasaw)', 'workforce_area': 'MS Partnership', 'event_number': 'RR-MS- 2024- 0002', 'naics': '337000 \u2013 Furniture and Related Product Manufacturing', 'action_type': 'Closure', 'affected': '38', 'date_effective': '', 'reason': '7/24/2024 Non-WARN -Due to lack of business.'}"
+["7/31/2024  Hartson \u2013 Kennedy,", "Inc. \nGulfport (Harrison)", "Twin \nDistrict", "RR-MS-\n2024-\n0003", "337110 \u2013 Kitchen Cabinet \nand Countertop \nManufacturing", "Layoff", "54", "", "WARN \u2013 Due to \nconsolidation to \nprimary facility."]
+"\tSeems to be a regular row."
+"\t\t{'date_notice': '7/31/2024 Hartson \u2013 Kennedy,', 'company': 'Inc. Gulfport (Harrison)', 'workforce_area': 'Twin District', 'event_number': 'RR-MS- 2024- 0003', 'naics': '337110 \u2013 Kitchen Cabinet and Countertop Manufacturing', 'action_type': 'Layoff', 'affected': '54', 'date_effective': '', 'reason': 'WARN \u2013 Due to consolidation to primary facility.'}"
+["9/19/2024", "Laclede Chain \nManufacturing \nVicksburg (Warren)", "South \nCentral", "RR-MS-\n2024-\n0004", "333248- All other \nIndustrial Machinery \nManufacturing", "Closure", "50", "", "9/26/2024  WARN \u2013 Due to Lack \nof business/financial."]
+"\tSeems to be a regular row."
+"\t\t{'date_notice': '9/19/2024', 'company': 'Laclede Chain Manufacturing Vicksburg (Warren)', 'workforce_area': 'South Central', 'event_number': 'RR-MS- 2024- 0004', 'naics': '333248- All other Industrial Machinery Manufacturing', 'action_type': 'Closure', 'affected': '50', 'date_effective': '', 'reason': '9/26/2024 WARN \u2013 Due to Lack of business/financial.'}"
+["9/3/2024", "YoungWilliams \nClinton (Hinds)", "South \nCentral", "RR-MS- \n2024-\n0005", "541199 \u2013 All other Legal \nServices", "Layoff", "100", "", "10/1/2024  WARN \u2013 Due to loss \nof contract."]
+"\tSeems to be a regular row."
+"\t\t{'date_notice': '9/3/2024', 'company': 'YoungWilliams Clinton (Hinds)', 'workforce_area': 'South Central', 'event_number': 'RR-MS- 2024- 0005', 'naics': '541199 \u2013 All other Legal Services', 'action_type': 'Layoff', 'affected': '100', 'date_effective': '', 'reason': '10/1/2024 WARN \u2013 Due to loss of contract.'}"
+"Processing table 2 of data/warn-scraper/cache/ms/warn-py2024-q1-warn-jul2024-sep2024.pdf"
+["Types of Notices", "Number Of Notices Received", "Number Affected"]
+"\tIndex row!"
+["WARN Notices", "4", "263"]
+"\tSeems to be a regular row."
+"\t\t{'notice_types': 'WARN Notices', 'notices_received': '4', 'affected': '263'}"
+["NON-WARN Notices", "1", "38"]
+"\tSeems to be a regular row."
+"\t\t{'notice_types': 'NON-WARN Notices', 'notices_received': '1', 'affected': '38'}"
+["TOTAL", "5", "301"]
+"\tSeems to be a regular row."
+"\t\t{'notice_types': 'TOTAL', 'notices_received': '5', 'affected': '301'}"
+"Processing table 0 of data/warn-scraper/cache/ms/warn-py2024-q2-warn-oct2024-dec2024.pdf"
+["Date of \nWARN \nNotice", "Company Name \n(City) (County)", "Workforce \nArea", "Event \nNumber", "NAICS CODE \u2013 \nDescription", "Type of \nAction", "Number \nAffected", "Date of \nAction", "Reason / Comments"]
+"\tIndex row!"
+["10/3/2024", "View Operating \nCorporation \nOlive Branch \n(DeSoto)", "MS \nPartnership", "RR-MS \n2024-\n0006", "339999- All Other \nMiscellaneous \nManufacturing", "Layoff", "147", "10/3/2024  WARN- Due to the", "economy"]
+"\tSeems to be a regular row."
+"\t\t{'date_notice': '10/3/2024', 'company': 'View Operating Corporation Olive Branch (DeSoto)', 'workforce_area': 'MS Partnership', 'event_number': 'RR-MS 2024- 0006', 'naics': '339999- All Other Miscellaneous Manufacturing', 'action_type': 'Layoff', 'affected': '147', 'date_effective': '10/3/2024 WARN- Due to the', 'reason': 'economy'}"
+["10/17/2024", "Levi Strauss & Co \nCanton (Madison)", "South \nCentral MS \nWorks", "RR-MS-\n2024-\n0007", "315250 \u2013 Cut and Sew \nApparel Manufacturing \n(Except Contractors)", "Closure", "267", "", "10/29/2024  WARN -. Consolidate \nproduction operations \nto another state."]
+"\tSeems to be a regular row."
+"\t\t{'date_notice': '10/17/2024', 'company': 'Levi Strauss & Co Canton (Madison)', 'workforce_area': 'South Central MS Works', 'event_number': 'RR-MS- 2024- 0007', 'naics': '315250 \u2013 Cut and Sew Apparel Manufacturing (Except Contractors)', 'action_type': 'Closure', 'affected': '267', 'date_effective': '', 'reason': '10/29/2024 WARN -. Consolidate production operations to another state.'}"
+["12/03/2024  Cooper Lighting", "Solutions \nVicksburg \n(Warren)", "South \nCentral MS \nWorks", "RR-MS-\n2024-\n0008", "335139 \u2013 Electric \nLamp Bulb and Other \nLighting Equipment \nManufacturing", "Closure", "80", "", "01/14/2025  WARN- Realignment \nto enhance production."]
+"\tSeems to be a regular row."
+"\t\t{'date_notice': '12/03/2024 Cooper Lighting', 'company': 'Solutions Vicksburg (Warren)', 'workforce_area': 'South Central MS Works', 'event_number': 'RR-MS- 2024- 0008', 'naics': '335139 \u2013 Electric Lamp Bulb and Other Lighting Equipment Manufacturing', 'action_type': 'Closure', 'affected': '80', 'date_effective': '', 'reason': '01/14/2025 WARN- Realignment to enhance production.'}"
+"Processing table 1 of data/warn-scraper/cache/ms/warn-py2024-q2-warn-oct2024-dec2024.pdf"
+["Type of Notice", "Number Of Notices Received \nOctober 2024 \u2013 December 2024", "Number Affected"]
+"\tIndex row!"
+["WARN Notices", "3", "494"]
+"\tSeems to be a regular row."
+"\t\t{'notice_types': 'WARN Notices', 'notices_received': '3', 'affected': '494'}"
+["NON-WARN Notices", "0", ""]
+"\tMostly empty row!"
+"\tMostly empty row, seems to be detailed info for a regular row"
+["TOTAL", "3", "494"]
+"\tSeems to be a regular row."
+"\t\t{'notice_types': 'TOTAL', 'notices_received': '3', 'affected': '494'}"
+"Processing table 0 of data/warn-scraper/cache/ms/warn-py2024-q3-warn-jan2025-mar2025.pdf"
+["Date of \nNotice", "Company Name, \nCity, County", "Workforce \nArea", "Event \nNumber", "NAICS CODE \u2013 \nDescription", "Type of \nAction", "Number \nAffected", "Date of \nAction", "Reason \u2013 Comments"]
+"\tIndex row!"
+["1/27/2025  MW Components", "Pontotoc (Pontotoc)", "MS \nPartnership", "RR-MS \n2024-0009", "333248 \u2013 Industrial \nMachinery \nManufacturing", "Closure", "121", "", "1/29/2025  WARN \u2013 Due to the loss \nof its primary customer."]
+"\tSeems to be a regular row."
+"\t\t{'date_notice': '1/27/2025 MW Components', 'company': 'Pontotoc (Pontotoc)', 'workforce_area': 'MS Partnership', 'event_number': 'RR-MS 2024-0009', 'naics': '333248 \u2013 Industrial Machinery Manufacturing', 'action_type': 'Closure', 'affected': '121', 'date_effective': '', 'reason': '1/29/2025 WARN \u2013 Due to the loss of its primary customer.'}"
+["12/11/2024", "Intuitive Surgical \nSouthaven \n(DeSoto)", "MS \nPartnership", "RR-MS \n2024-0010", "339112 \u2013 Surgical \nand Medical \nInstrument \nManufacturing", "Closure", "157", "", "3/18/2025  WARN \u2013 Realignment to \nstreamline operations."]
+"\tSeems to be a regular row."
+"\t\t{'date_notice': '12/11/2024', 'company': 'Intuitive Surgical Southaven (DeSoto)', 'workforce_area': 'MS Partnership', 'event_number': 'RR-MS 2024-0010', 'naics': '339112 \u2013 Surgical and Medical Instrument Manufacturing', 'action_type': 'Closure', 'affected': '157', 'date_effective': '', 'reason': '3/18/2025 WARN \u2013 Realignment to streamline operations.'}"
+["02/06/2025  Enviva Pellets", "Amory (Monroe)", "MS \nPartnership", "RR-MS \n2024-0011", "321999 \u2013 All Other \nMiscellaneous Wood \nProduct \nManufacturing", "Closure", "30", "02/07/2025  WARN \u2013 Due to", "customer reduction in \nproduction"]
+"\tSeems to be a regular row."
+"\t\t{'date_notice': '02/06/2025 Enviva Pellets', 'company': 'Amory (Monroe)', 'workforce_area': 'MS Partnership', 'event_number': 'RR-MS 2024-0011', 'naics': '321999 \u2013 All Other Miscellaneous Wood Product Manufacturing', 'action_type': 'Closure', 'affected': '30', 'date_effective': '02/07/2025 WARN \u2013 Due to', 'reason': 'customer reduction in production'}"
+["02/18/2025  WWL Vehicle", "Services Americas, \nInc. \nCanton (Madison)", "South \nCentral MS \nWorks", "RR-MS \n2024-0012", "488510 \u2013 Freight \nTransportation \nArrangement", "Layoff", "35", "4/15/2025  WARN \u2013 Due to", "customer reduction in \nproduction."]
+"\tSeems to be a regular row."
+"\t\t{'date_notice': '02/18/2025 WWL Vehicle', 'company': 'Services Americas, Inc. Canton (Madison)', 'workforce_area': 'South Central MS Works', 'event_number': 'RR-MS 2024-0012', 'naics': '488510 \u2013 Freight Transportation Arrangement', 'action_type': 'Layoff', 'affected': '35', 'date_effective': '4/15/2025 WARN \u2013 Due to', 'reason': 'customer reduction in production.'}"
+["1/22/2025  Diamond Comic", "Distributors, Inc. \nOlive Branch \n(DeSoto)", "MS \nPartnership", "RR-MS- \n2024-0013", "424920 \u2013 Book, \nPeriodical, and \nNewspaper Merchant \nWholesalers", "Closure", "131", "", "3/19/2025  WARN \u2013 Due to facing \nfinancial challenges."]
+"\tSeems to be a regular row."
+"\t\t{'date_notice': '1/22/2025 Diamond Comic', 'company': 'Distributors, Inc. Olive Branch (DeSoto)', 'workforce_area': 'MS Partnership', 'event_number': 'RR-MS- 2024-0013', 'naics': '424920 \u2013 Book, Periodical, and Newspaper Merchant Wholesalers', 'action_type': 'Closure', 'affected': '131', 'date_effective': '', 'reason': '3/19/2025 WARN \u2013 Due to facing financial challenges.'}"
+["2/12/2025", "CAPSTONE \nLogistics \nCanton (Madison)", "South \nCentral MS \nWorks", "RR-MS-\n2024-0014", "488210 \u2013 Support \nActivities for Rail \nTransportation", "Layoff", "65", "4/14/2025  WARN \u2013 Due to", "Reduction-in-force"]
+"\tSeems to be a regular row."
+"\t\t{'date_notice': '2/12/2025', 'company': 'CAPSTONE Logistics Canton (Madison)', 'workforce_area': 'South Central MS Works', 'event_number': 'RR-MS- 2024-0014', 'naics': '488210 \u2013 Support Activities for Rail Transportation', 'action_type': 'Layoff', 'affected': '65', 'date_effective': '4/14/2025 WARN \u2013 Due to', 'reason': 'Reduction-in-force'}"
+"Processing table 1 of data/warn-scraper/cache/ms/warn-py2024-q3-warn-jan2025-mar2025.pdf"
+["Types of Notices Received", "Number Of Notices \nReceived", "Number Affected"]
+"\tIndex row!"
+["WARN Notices", "6", "539"]
+"\tSeems to be a regular row."
+"\t\t{'notice_types': 'WARN Notices', 'notices_received': '6', 'affected': '539'}"
+["NON-WARN Notices", "", ""]
+"\tMostly empty row!"
+"\tMostly empty row, seems to be detailed info for a regular row"
+["TOTAL", "6", "539"]
+"\tSeems to be a regular row."
+"\t\t{'notice_types': 'TOTAL', 'notices_received': '6', 'affected': '539'}"
+"Processing table 0 of data/warn-scraper/cache/ms/warn-py2024-q4-warn-apr2025-jun2025.pdf"
+["Date of \nNotice", "Company Name \n(City) (County)", "Workforce \nArea", "Event \nNumber", "NAICS CODE \u2013 \nDescription", "Type of \nAction", "Number \nAffected", "Date of \nAction", "Reason / Comments"]
+"\tIndex row!"
+["3/18/2025", "NauticStar Boats \nAmory (Monroe)", "MS \nPartnership", "RR-MS \n2024-\n0015", "336612 \u2013 Boat \nBuilders", "Closure", "47", "", "4/17/2025  Non-WARN- Due to the \neconomy."]
+"\tSeems to be a regular row."
+"\t\t{'date_notice': '3/18/2025', 'company': 'NauticStar Boats Amory (Monroe)', 'workforce_area': 'MS Partnership', 'event_number': 'RR-MS 2024- 0015', 'naics': '336612 \u2013 Boat Builders', 'action_type': 'Closure', 'affected': '47', 'date_effective': '', 'reason': '4/17/2025 Non-WARN- Due to the economy.'}"
+["4/2/2025", "C & D Jarnagin Co. \nInc. \nCorinth (Alcorn)", "MS \nPartnership", "R\nR-MS-\n2024-\n0016", "315210 \u2013 Cut and \nsew Apparel \nContractors", "Closure", "3", "4/15/2025  Non-WARN- Lack of", "Business."]
+"\tSeems to be a regular row."
+"\t\t{'date_notice': '4/2/2025', 'company': 'C & D Jarnagin Co. Inc. Corinth (Alcorn)', 'workforce_area': 'MS Partnership', 'event_number': 'R R-MS- 2024- 0016', 'naics': '315210 \u2013 Cut and sew Apparel Contractors', 'action_type': 'Closure', 'affected': '3', 'date_effective': '4/15/2025 Non-WARN- Lack of', 'reason': 'Business.'}"
+["4/29/2025", "SSC Services for \nEducation at JSU \nJackson (Hinds)", "South \nCentral MS \nWorks", "R\nR-MS-\n2024-\n0017", "561720 \u2013 Janitorial \nServices", "Layoff", "41", "6/30/2025  Non-WARN \u2013 non-", "renewal of the \ncompany\u2019s service \ncontract."]
+"\tSeems to be a regular row."
+"\t\t{'date_notice': '4/29/2025', 'company': 'SSC Services for Education at JSU Jackson (Hinds)', 'workforce_area': 'South Central MS Works', 'event_number': 'R R-MS- 2024- 0017', 'naics': '561720 \u2013 Janitorial Services', 'action_type': 'Layoff', 'affected': '41', 'date_effective': '6/30/2025 Non-WARN \u2013 non-', 'reason': 'renewal of the company\u2019s service contract.'}"
+["4/3/2025", "Pregis Innovative \nPackaging, LLC \nTupelo (Lee)", "MS \nPartnership", "RR-MS-\n2024-\n0018", "326112 \u2013 Plastic \nFilm and Sheeting \nManufacturing", "Closure", "40", "6/30/2025  Non-WARN \u2013 Due to", "business conditions \ncontinuing to shift, the \ncompany has decided to \nclose."]
+"\tSeems to be a regular row."
+"\t\t{'date_notice': '4/3/2025', 'company': 'Pregis Innovative Packaging, LLC Tupelo (Lee)', 'workforce_area': 'MS Partnership', 'event_number': 'RR-MS- 2024- 0018', 'naics': '326112 \u2013 Plastic Film and Sheeting Manufacturing', 'action_type': 'Closure', 'affected': '40', 'date_effective': '6/30/2025 Non-WARN \u2013 Due to', 'reason': 'business conditions continuing to shift, the company has decided to close.'}"
+["05/31/2025", "iQor Holding US LCC \nMeridian (Lauderdale)", "Twin \nDistricts", "RR-MS- \n2024-\n0019", "334413 \u2013 \nSemiconductor and \nRelated Device \nManufacturing", "Layoff", "50", "6/23/2025  WARN \u2013 non-renewal", "of contract."]
+"\tSeems to be a regular row."
+"\t\t{'date_notice': '05/31/2025', 'company': 'iQor Holding US LCC Meridian (Lauderdale)', 'workforce_area': 'Twin Districts', 'event_number': 'RR-MS- 2024- 0019', 'naics': '334413 \u2013 Semiconductor and Related Device Manufacturing', 'action_type': 'Layoff', 'affected': '50', 'date_effective': '6/23/2025 WARN \u2013 non-renewal', 'reason': 'of contract.'}"
+["6/2/2025", "Finch Henry Job Corp \nCenter/Education & \nTraining Resources \nBatesville (Panola)", "Delta", "RR-MS-\n2025-\n0020", "611710 \u2013 \nEducational Support \nServices", "Closure", "113", "6/11/2025  WARN- Due to", "Financial Challenges"]
+"\tSeems to be a regular row."
+"\t\t{'date_notice': '6/2/2025', 'company': 'Finch Henry Job Corp Center/Education & Training Resources Batesville (Panola)', 'workforce_area': 'Delta', 'event_number': 'RR-MS- 2025- 0020', 'naics': '611710 \u2013 Educational Support Services', 'action_type': 'Closure', 'affected': '113', 'date_effective': '6/11/2025 WARN- Due to', 'reason': 'Financial Challenges'}"
+["03/18/2025  Mississippi Polymers", "Corinth (Alcorn)", "MS \nPartnership", "RR-MS-\n2024-\n0021", "325211 \u2013 Plastic \nMaterial Resin \nManufacturing", "Layoff", "102", "6/24/2025  Non-WARN- This is a", "temporary layoff \u2013 Due \nto unexpected drop in \norders."]
+"\tSeems to be a regular row."
+"\t\t{'date_notice': '03/18/2025 Mississippi Polymers', 'company': 'Corinth (Alcorn)', 'workforce_area': 'MS Partnership', 'event_number': 'RR-MS- 2024- 0021', 'naics': '325211 \u2013 Plastic Material Resin Manufacturing', 'action_type': 'Layoff', 'affected': '102', 'date_effective': '6/24/2025 Non-WARN- This is a', 'reason': 'temporary layoff \u2013 Due to unexpected drop in orders.'}"
+"Processing table 1 of data/warn-scraper/cache/ms/warn-py2024-q4-warn-apr2025-jun2025.pdf"
+["Types of Notices", "Number Of Notices \nReceived", "Number Affected"]
+"\tIndex row!"
+["WARN Notices", "2", "163"]
+"\tSeems to be a regular row."
+"\t\t{'notice_types': 'WARN Notices', 'notices_received': '2', 'affected': '163'}"
+["NON-WARN Notices", "5", "233"]
+"\tSeems to be a regular row."
+"\t\t{'notice_types': 'NON-WARN Notices', 'notices_received': '5', 'affected': '233'}"
+["TOTAL", "7", "396"]
+"\tSeems to be a regular row."
+"\t\t{'notice_types': 'TOTAL', 'notices_received': '7', 'affected': '396'}"
+"Processing table 0 of data/warn-scraper/cache/ms/warn-py2025-qtr-1-jul-sep-2025.pdf"
+["Date of \nNotice", "Company Name \n(City) (County)", "Workforce \nArea", "Event \nNumber", "NAICS CODE \u2013 \nDescription", "Type of \nAction", "Number \nAffected", "Date of \nAction", "Reason / Comments"]
+"\tIndex row!"
+["3/27/2025", "IG Design Group \nAmericas, Inc. \nByhalia (Marshall)", "MS \nPartnership", "RR-MS-\n2024-\n0022", "541990 \u2013 All Other \nProfessional Scientific and \nTechnical Services", "Closure", "113", "08/26/2025  WARN \u2013 Due to", "evolving business \ncircumstances"]
+"\tSeems to be a regular row."
+"\t\t{'date_notice': '3/27/2025', 'company': 'IG Design Group Americas, Inc. Byhalia (Marshall)', 'workforce_area': 'MS Partnership', 'event_number': 'RR-MS- 2024- 0022', 'naics': '541990 \u2013 All Other Professional Scientific and Technical Services', 'action_type': 'Closure', 'affected': '113', 'date_effective': '08/26/2025 WARN \u2013 Due to', 'reason': 'evolving business circumstances'}"
+["07/11/2025  Rex Lumber,", "Brookhaven, LLC \nBrookhaven (Lincoln)", "South \nCentral MS \nWorks", "RR-MS-\n2025-\n0001", "423310 \u2013 Lumber, \nPlywood, Millwork, and \nWood Panel Merchant \nWholesalers", "Layoff", "71", "9/9/2025  WARN \u2013 Due to", "challenging market \nconditions."]
+"\tSeems to be a regular row."
+"\t\t{'date_notice': '07/11/2025 Rex Lumber,', 'company': 'Brookhaven, LLC Brookhaven (Lincoln)', 'workforce_area': 'South Central MS Works', 'event_number': 'RR-MS- 2025- 0001', 'naics': '423310 \u2013 Lumber, Plywood, Millwork, and Wood Panel Merchant Wholesalers', 'action_type': 'Layoff', 'affected': '71', 'date_effective': '9/9/2025 WARN \u2013 Due to', 'reason': 'challenging market conditions.'}"
+["8/13/2025", "Advanced Distributor \nProducts \nGrenada (Grenada)", "MS \nPartnership", "RR-MS-\n2025-\n0002", "333415 \u2013 Air Conditioning \nand Warm Air Heating \nEquipment and \nCommercial and Industrial \nRefrigeration Equipment", "Layoff", "69", "", "8/14/2025  Non-WARN \u2013 Due to \nreduction of workforce \nduring down season."]
+"\tSeems to be a regular row."
+"\t\t{'date_notice': '8/13/2025', 'company': 'Advanced Distributor Products Grenada (Grenada)', 'workforce_area': 'MS Partnership', 'event_number': 'RR-MS- 2025- 0002', 'naics': '333415 \u2013 Air Conditioning and Warm Air Heating Equipment and Commercial and Industrial Refrigeration Equipment', 'action_type': 'Layoff', 'affected': '69', 'date_effective': '', 'reason': '8/14/2025 Non-WARN \u2013 Due to reduction of workforce during down season.'}"
+["8/21/2025", "Resolute Forest \nProducts US Inc. / \nDomtar \nGrenada (Grenada)", "MS \nPartnership", "RR-MS-\n2025-\n0003", "322120 \u2013 Paper Mill", "Layoff", "176", "9/25/2025  WARN \u2013 Due to", "current market \nconditions in the \nnewsprint industry."]
+"\tSeems to be a regular row."
+"\t\t{'date_notice': '8/21/2025', 'company': 'Resolute Forest Products US Inc. / Domtar Grenada (Grenada)', 'workforce_area': 'MS Partnership', 'event_number': 'RR-MS- 2025- 0003', 'naics': '322120 \u2013 Paper Mill', 'action_type': 'Layoff', 'affected': '176', 'date_effective': '9/25/2025 WARN \u2013 Due to', 'reason': 'current market conditions in the newsprint industry.'}"
+["9/4/2025", "Boyd Tunica, Inc./ \nSam\u2019s Town Hotel \nGambling Hall \u2013 \nRobinsonville (Tunica)", "Delta", "RR-MS- \n2025-\n0004", "721120 \u2013 Casino Hotels", "Closure", "177", "10/10/2025  WARN - Declining", "market conditions."]
+"\tSeems to be a regular row."
+"\t\t{'date_notice': '9/4/2025', 'company': 'Boyd Tunica, Inc./ Sam\u2019s Town Hotel Gambling Hall \u2013 Robinsonville (Tunica)', 'workforce_area': 'Delta', 'event_number': 'RR-MS- 2025- 0004', 'naics': '721120 \u2013 Casino Hotels', 'action_type': 'Closure', 'affected': '177', 'date_effective': '10/10/2025 WARN - Declining', 'reason': 'market conditions.'}"
+["9/22/2025", "Spectra Laboratories \nSouthaven (DeSoto)", "MS \nPartnership", "RR-MS-\n2025-\n0005", "621511- Medical \nLaboratories", "Layoff", "155", "", "11/25/2025  WARN \u2013 Due to being \nacquired by another \ncompany. \nRR-Pending"]
+"\tSeems to be a regular row."
+"\t\t{'date_notice': '9/22/2025', 'company': 'Spectra Laboratories Southaven (DeSoto)', 'workforce_area': 'MS Partnership', 'event_number': 'RR-MS- 2025- 0005', 'naics': '621511- Medical Laboratories', 'action_type': 'Layoff', 'affected': '155', 'date_effective': '', 'reason': '11/25/2025 WARN \u2013 Due to being acquired by another company. RR-Pending'}"
+"Processing table 1 of data/warn-scraper/cache/ms/warn-py2025-qtr-1-jul-sep-2025.pdf"
+["Date of \nNotice", "Company Name \n(City) (County)", "Workforce \nArea", "Event \nNumber", "NAICS CODE \u2013 \nDescription", "Type of \nAction", "Number \nAffected", "Date of \nAction", "Reason / Comments"]
+"\tIndex row!"
+["08/5/2025", "SIMOS Insourcing \nSolutions, LLC \nOlive Branch (DeSoto)", "MS \nPartnership", "RR-MS-\n2024-\n0006", "561311 \u2013 Employment \nPlacement Agencies", "Layoff", "159", "10/03/2025  WARN- Due to", "contract not being \nrenewed."]
+"\tSeems to be a regular row."
+"\t\t{'date_notice': '08/5/2025', 'company': 'SIMOS Insourcing Solutions, LLC Olive Branch (DeSoto)', 'workforce_area': 'MS Partnership', 'event_number': 'RR-MS- 2024- 0006', 'naics': '561311 \u2013 Employment Placement Agencies', 'action_type': 'Layoff', 'affected': '159', 'date_effective': '10/03/2025 WARN- Due to', 'reason': 'contract not being renewed.'}"
+"Processing table 2 of data/warn-scraper/cache/ms/warn-py2025-qtr-1-jul-sep-2025.pdf"
+["Types of Notices", "Number Of Notices Received", "Number Affected"]
+"\tIndex row!"
+["WARN Notices", "6", "851"]
+"\tSeems to be a regular row."
+"\t\t{'notice_types': 'WARN Notices', 'notices_received': '6', 'affected': '851'}"
+["NON-WARN Notices", "1", "69"]
+"\tSeems to be a regular row."
+"\t\t{'notice_types': 'NON-WARN Notices', 'notices_received': '1', 'affected': '69'}"
+["TOTAL", "7", "920"]
+"\tSeems to be a regular row."
+"\t\t{'notice_types': 'TOTAL', 'notices_received': '7', 'affected': '920'}"
+"Processing table 0 of data/warn-scraper/cache/ms/warn-py2025-qtr-2-oct-dec-2025.pdf"
+["Date of \nNotice", "Company Name \n(City) (County) (Zip)", "Workforce \nArea", "Event \nNumber", "NAICS CODE \u2013 \nDescription", "Type of \nAction \n# \nAffected", "Date of \nAction", "Reason / Comments"]
+"\tIndex row!"
+["11/6/2025", "Burgess-Norton Mfg. Co., \nInc. \nOxford (Lafayette)", "MS \nPartnership", "RR-MS-\n2025-0007", "331221- Rolled Steel Shape \nManufacturing", "Closure", "4/15/2026  WARN -Decline in", "customer sales."]
+"\tSeems to be a regular row."
+"\t\t{'date_notice': '11/6/2025', 'company': 'Burgess-Norton Mfg. Co., Inc. Oxford (Lafayette)', 'workforce_area': 'MS Partnership', 'event_number': 'RR-MS- 2025-0007', 'naics': '331221- Rolled Steel Shape Manufacturing', 'action_type': 'Closure', 'date_effective': '4/15/2026 WARN -Decline in', 'reason': 'customer sales.'}"
+["", "", "", "", "", "79", "", ""]
+"\tMostly empty row!"
+"\tMostly empty row, seems to be detailed info for a regular row"
+["1/29/2025", "Milwaukee Electric Tool \nCorp. \nGreenwood (Lefore)", "Delta", "RR-MS-\n2025-0008", "333991 \u2013 Power Driven \nHand Tool Manufacturing", "Layoff", "TBA", "Non-WARN \u2013 Due to the \nrelocation of the \nmanufacturing operations"]
+"\tSeems to be a regular row."
+"\t\t{'date_notice': '1/29/2025', 'company': 'Milwaukee Electric Tool Corp. Greenwood (Lefore)', 'workforce_area': 'Delta', 'event_number': 'RR-MS- 2025-0008', 'naics': '333991 \u2013 Power Driven Hand Tool Manufacturing', 'action_type': 'Layoff', 'date_effective': 'TBA', 'reason': 'Non-WARN \u2013 Due to the relocation of the manufacturing operations'}"
+["", "", "", "", "", "TBA", "", ""]
+"\tMostly empty row!"
+"\tMostly empty row, seems to be detailed info for a regular row"
+["12/16/2025  Westlake Chemical", "Aberdeen (Monroe)", "MS \nPartnership", "RR-MS-\n2025-0009", "325998 \u2013 All other Chemical \nProduct and Preparation \nManufacturing", "Closure", "2/2026", "WARN -Due to challenging \nmarket conditions."]
+"\tSeems to be a regular row."
+"\t\t{'date_notice': '12/16/2025 Westlake Chemical', 'company': 'Aberdeen (Monroe)', 'workforce_area': 'MS Partnership', 'event_number': 'RR-MS- 2025-0009', 'naics': '325998 \u2013 All other Chemical Product and Preparation Manufacturing', 'action_type': 'Closure', 'date_effective': '2/2026', 'reason': 'WARN -Due to challenging market conditions.'}"
+["", "", "", "", "", "99", "", ""]
+"\tMostly empty row!"
+"\tMostly empty row, seems to be detailed info for a regular row"
+["", "", "", "", "", "", "", ""]
+"\tEmpty row"
+["", "", "", "", "", "", "", ""]
+"\tEmpty row"
+["", "", "", "", "", "", "", ""]
+"\tEmpty row"
+["", "", "", "", "", "", "", ""]
+"\tEmpty row"
+["", "", "", "", "", "", "", ""]
+"\tEmpty row"
+["", "", "", "", "", "", "", ""]
+"\tEmpty row"
+"Processing table 1 of data/warn-scraper/cache/ms/warn-py2025-qtr-2-oct-dec-2025.pdf"
+["T\nypes of Notices Received", "# Of Notices Received", "# Affected"]
+"\tIndex row!"
+["#\n WARN Notices Received", "2", "178"]
+"\tSeems to be a regular row."
+"\t\t{'notice_types': '# WARN Notices Received', 'notices_received': '2', 'affected': '178'}"
+["#\nNON-WARN Notices Received", "1", ""]
+"\tMostly empty row!"
+"\tMostly empty row, seems to be detailed info for a regular row"
+["TOTAL", "", "178"]
+"\tMostly empty row!"
+"\tMostly empty row, seems to be detailed info for a regular row"
+"Processing table 0 of data/warn-scraper/cache/ms/warn-py2025-qtr-3-jan-mar-2026.pdf"
+["Date of \nNotice", "Company \nName", "City", "County", "Workforce \nArea", "Event \nNumber", "NAICS CODE \n& Description", "Type of \nAction", "Number \nAffected", "Date of \nAction", "Reason \u2013 \nComments"]
+"\tIndex row!"
+["1/6/2026", "GXO \nLogistics", "Southaven", "DeSoto", "MS \nPartnership", "RR-MS-\n20250010", "493110- \nGeneral \nWarehousing \nand Storage", "Closure", "220", "", "1/31/2026  WARN \u2013 Due \nto current \neconomy and \nchanges in \nmarket \ndemands."]
+"\tSeems to be a regular row."
+"\t\t{'date_notice': '1/6/2026', 'company': 'GXO Logistics', 'city': 'Southaven', 'county': 'DeSoto', 'workforce_area': 'MS Partnership', 'event_number': 'RR-MS- 20250010', 'naics': '493110- General Warehousing and Storage', 'action_type': 'Closure', 'affected': '220', 'date_effective': '', 'reason': '1/31/2026 WARN \u2013 Due to current economy and changes in market demands.'}"
+["12/1/2025", "NOV Energy \nProducts \nServices", "Iuka", "Tishomingo", "MS \nPartnership", "RR-MS-\n2025-0011", "326122 \u2013 \nPlastics Pipe \nand Pipe \nFitting \nManufacturing", "Closure", "12", "4/1/2026", "Non-WARN- \nDue to current \neconomy."]
+"\tSeems to be a regular row."
+"\t\t{'date_notice': '12/1/2025', 'company': 'NOV Energy Products Services', 'city': 'Iuka', 'county': 'Tishomingo', 'workforce_area': 'MS Partnership', 'event_number': 'RR-MS- 2025-0011', 'naics': '326122 \u2013 Plastics Pipe and Pipe Fitting Manufacturing', 'action_type': 'Closure', 'affected': '12', 'date_effective': '4/1/2026', 'reason': 'Non-WARN- Due to current economy.'}"
+["1/26/2026", "NIKE Retail \nServices, Inc", "Byhalia", "Marshall", "MS \nPartnership", "RR-MS-\n2025-0012", "458110 \u2013 \nClothing and \nClothing \nAccessories \nRetailers", "Layoff", "193", "4/3.2026", "WARN -\nDistribution \noperations are \nbeing \nReduced"]
+"\tSeems to be a regular row."
+"\t\t{'date_notice': '1/26/2026', 'company': 'NIKE Retail Services, Inc', 'city': 'Byhalia', 'county': 'Marshall', 'workforce_area': 'MS Partnership', 'event_number': 'RR-MS- 2025-0012', 'naics': '458110 \u2013 Clothing and Clothing Accessories Retailers', 'action_type': 'Layoff', 'affected': '193', 'date_effective': '4/3.2026', 'reason': 'WARN - Distribution operations are being Reduced'}"
+["2/11/2026", "Regency \nHospital", "Meridian", "Lauderdale", "Twin \nDistricts", "RR-MS- \n2025-0013", "622110 \u2013 \nGeneral \nMedical and \nSurgical \nHospital", "Closure", "102", "", "2/11/2026  WARN -Due \nto significant \nfinancial \nlosses"]
+"\tSeems to be a regular row."
+"\t\t{'date_notice': '2/11/2026', 'company': 'Regency Hospital', 'city': 'Meridian', 'county': 'Lauderdale', 'workforce_area': 'Twin Districts', 'event_number': 'RR-MS- 2025-0013', 'naics': '622110 \u2013 General Medical and Surgical Hospital', 'action_type': 'Closure', 'affected': '102', 'date_effective': '', 'reason': '2/11/2026 WARN -Due to significant financial losses'}"
+["2/13/2026", "Birdsong \nPeanuts- \nAberdeen", "Prairie", "Monroe", "MS \nPartnership", "RR-MS- \n2025-0014", "424590 \u2013 Other \nFarm Product \nRaw Material \nMerchant \nWholesaler", "Layoff", "7", "6/30/2026", "Non-WARN- \nDue to \nreduction in \nbusiness \nactivity."]
+"\tSeems to be a regular row."
+"\t\t{'date_notice': '2/13/2026', 'company': 'Birdsong Peanuts- Aberdeen', 'city': 'Prairie', 'county': 'Monroe', 'workforce_area': 'MS Partnership', 'event_number': 'RR-MS- 2025-0014', 'naics': '424590 \u2013 Other Farm Product Raw Material Merchant Wholesaler', 'action_type': 'Layoff', 'affected': '7', 'date_effective': '6/30/2026', 'reason': 'Non-WARN- Due to reduction in business activity.'}"
+"Processing table 1 of data/warn-scraper/cache/ms/warn-py2025-qtr-3-jan-mar-2026.pdf"
+["Date of \nNotice", "Company \nName", "City", "County", "Workforce \nArea", "Event \nNumber", "NAICS CODE \n& Description", "Type of \nAction", "Number \nAffected", "Date of \nAction", "Reason \u2013 \nComments"]
+"\tIndex row!"
+["3/1/2026", "New Way \nTrucks", "Booneville", "Prentiss", "MS \nPartnership", "RR-MS-\n2025-0015", "336211- Motor \nVehicle Body \nManufacturing", "Layoff", "86", "5/30/2026", "Non-WARN -\nDue to \ndecreased \nworkload."]
+"\tSeems to be a regular row."
+"\t\t{'date_notice': '3/1/2026', 'company': 'New Way Trucks', 'city': 'Booneville', 'county': 'Prentiss', 'workforce_area': 'MS Partnership', 'event_number': 'RR-MS- 2025-0015', 'naics': '336211- Motor Vehicle Body Manufacturing', 'action_type': 'Layoff', 'affected': '86', 'date_effective': '5/30/2026', 'reason': 'Non-WARN - Due to decreased workload.'}"
+["03/31/2026", "Amplify Cell \nTechnologies", "Byhalia", "Marshall", "MS \nPartnership", "RR-MS-\n2025-0016", "335912- \nLithium \nBatteries, \nPrimary \nManufacturing", "Layoff", "73", "05/30/2026  WARN \u2013", "Due to \nchanging \nenvironments"]
+"\tSeems to be a regular row."
+"\t\t{'date_notice': '03/31/2026', 'company': 'Amplify Cell Technologies', 'city': 'Byhalia', 'county': 'Marshall', 'workforce_area': 'MS Partnership', 'event_number': 'RR-MS- 2025-0016', 'naics': '335912- Lithium Batteries, Primary Manufacturing', 'action_type': 'Layoff', 'affected': '73', 'date_effective': '05/30/2026 WARN \u2013', 'reason': 'Due to changing environments'}"
+"Processing table 2 of data/warn-scraper/cache/ms/warn-py2025-qtr-3-jan-mar-2026.pdf"
+["Types of Notices", "Notices Received", "Number Affected"]
+"\tIndex row!"
+["WARN", "4", "588"]
+"\tSeems to be a regular row."
+"\t\t{'notice_types': 'WARN', 'notices_received': '4', 'affected': '588'}"
+["NON-WARN", "3", "105"]
+"\tSeems to be a regular row."
+"\t\t{'notice_types': 'NON-WARN', 'notices_received': '3', 'affected': '105'}"
+["TOTAL", "7", "693"]
+"\tSeems to be a regular row."
+"\t\t{'notice_types': 'TOTAL', 'notices_received': '7', 'affected': '693'}"
