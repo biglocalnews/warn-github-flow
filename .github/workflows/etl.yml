@@ -2,8 +2,8 @@ name: Extract, transform and alert
 
 on:
   workflow_dispatch:
-#  schedule:
-#    - cron: "22 14,19,23 * * *"
+  schedule:
+    - cron: "22 14,19,23 * * *"
 
 jobs:
   extract:
@@ -58,8 +58,8 @@ jobs:
             wi,
           ]
     name: Extract
-    # runs-on: ubuntu-latest
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
+    # runs-on: self-hosted
     steps:
       - name: Clone repository
         uses: actions/checkout@v6
@@ -92,8 +92,8 @@ jobs:
   transform:
     name: Transform
     timeout-minutes: 30 # Sets a 30-minute timeout for this specific job
-    # runs-on: ubuntu-latest
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
+    # runs-on: self-hosted
     needs: [extract]
     steps:
       - name: Clone repository
@@ -124,8 +124,8 @@ jobs:
   status-report:
     name: Status report
     timeout-minutes: 30 # Sets a 30-minute timeout for this specific job
-#    runs-on: ubuntu-latest
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
+    # runs-on: self-hosted
     needs: [transform]
     steps:
       - name: Post
@@ -141,8 +141,8 @@ jobs:
   alert:
     name: Alert
     timeout-minutes: 30 # Sets a 30-minute timeout for this specific job
-    # runs-on: ubuntu-latest
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
+    # runs-on: self-hosted
     needs: [transform]
 
     permissions:
