@@ -1,4 +1,5 @@
 name: Extract, transform and alert
+runs-on: self-hosted
 
 on:
   workflow_dispatch:
