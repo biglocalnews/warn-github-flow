@@ -1,5 +1,4 @@
 name: Extract, transform and alert
-runs-on: self-hosted
 
 on:
   workflow_dispatch:
@@ -7,6 +6,7 @@ on:
     - cron: "22 14,19,23 * * *"
 
 jobs:
+  runs-on: self-hosted
   extract:
     continue-on-error: true
     timeout-minutes: 30 # Sets a 30-minute timeout for this specific job
