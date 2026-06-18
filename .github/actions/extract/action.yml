@@ -25,8 +25,8 @@ runs:
       - name: Install
         uses: ./.github/actions/install           # Install did not seem to run once individual scrapers were called?
 
-      - name: Force PyQuery install
-        run: pipenv install pyquery==2.0.1
+      - name: Force pipenv installs that should have already happened but here we are
+        run: pipenv install opencv-python-headless pyquery==2.0.1 camelot-py==1.0.9 
         shell: bash
 
       - name: Run scrapers
