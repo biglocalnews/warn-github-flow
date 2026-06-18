@@ -2346,29 +2346,7 @@ window.VWO = window.VWO || [];
     
       
 
-            <div class="field field--name-body field--type-text-with-summary field--label-hidden field__item"><script id="Microsoft_Omnichannel_LCWidget" src="https://oc-cdn-ocprod.azureedge.us/livechatwidget/scripts/LiveChatBootstrapper.js" data-app-id="a6a4e8c4-d384-4b0c-96f0-1bf14c075324" data-lcw-version="prod" data-org-id="a7792c05-d17d-f011-858a-001dd80c0905" data-org-url="https://m-a7792c05-d17d-f011-858a-001dd80c0905.gov.omnichannelengagementhub.us" data-enable-markdown="true" data-enable-newline="true" async>
-
-window.addEventListener("lcw:ready", function handleLiveChatEvents() {
-    
-    var currentDrupalLanguage = document.documentElement.lang; 
-    
-    var localeToPass = "en-US"; // Default to English
-    
-    if (currentDrupalLanguage && currentDrupalLanguage.startsWith("es")) {
-        localeToPass = "es-US"; // Switch to Spanish if Drupal is set to Spanish
-    }
-
-    Microsoft.Omnichannel.LiveChatWidget.SDK.setContextProvider(function() {
-        return {
-            "PortalLanguage": {
-                "value": localeToPass,
-                "isDisplayable": false
-            }
-        };
-    });
-});
-
-
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field__item"><script id="Microsoft_Omnichannel_LCWidget" src="https://oc-cdn-ocprod.azureedge.us/livechatwidget/scripts/LiveChatBootstrapper.js" data-app-id="a6a4e8c4-d384-4b0c-96f0-1bf14c075324" data-lcw-version="prod" data-org-id="a7792c05-d17d-f011-858a-001dd80c0905" data-org-url="https://m-a7792c05-d17d-f011-858a-001dd80c0905.gov.omnichannelengagementhub.us" data-enable-markdown="true" data-enable-newline="true" defer>
 </script></div>
       
   </div>
