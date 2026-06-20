@@ -79,7 +79,7 @@
 "Processing table 2 of data/warn-scraper/cache/ms/warn-py2020-qtr-2-oct-dec-2020.pdf"
 ["Types of Notices Received", "# Of Notices Received", "# Affected"]
 "\tIndex row!"
-["WARN Notice", "3", "103"]
+["WARN Notice", "3", "103", "NON-WARN Notice", "", ""]
 "\tSeems to be a regular row."
 "\t\t{'notice_types': 'WARN Notice', 'notices_received': '3', 'affected': '103'}"
 ["NON-WARN Notice", "", ""]
@@ -174,7 +174,7 @@
 "Processing table 1 of data/warn-scraper/cache/ms/warn-py2021-qtr-1-jul-sep-2021.pdf"
 ["Type of Notice", "Number Of Notices Received", "Number Affected"]
 "\tIndex row!"
-["WARN Notices", "1", "4"]
+["WARN Notices", "1", "4", "NON-WARN Notices", "", ""]
 "\tSeems to be a regular row."
 "\t\t{'notice_types': 'WARN Notices', 'notices_received': '1', 'affected': '4'}"
 ["NON-WARN Notices", "", ""]
@@ -219,7 +219,7 @@
 "Processing table 1 of data/warn-scraper/cache/ms/warn-py2021-qtr-3-jan-mar-2022.pdf"
 ["Types of Notices", "Number Of Notices Received", "Number Affected"]
 "\tIndex row!"
-["WARN Notices", "3", "288"]
+["WARN Notices", "3", "288", "NON-WARN Notices", "", ""]
 "\tSeems to be a regular row."
 "\t\t{'notice_types': 'WARN Notices', 'notices_received': '3', 'affected': '288'}"
 ["NON-WARN Notices", "", ""]
@@ -622,7 +622,7 @@
 "Processing table 1 of data/warn-scraper/cache/ms/warn-py2024-q2-warn-oct2024-dec2024.pdf"
 ["Type of Notice", "Number Of Notices Received \nOctober 2024 \u2013 December 2024", "Number Affected"]
 "\tIndex row!"
-["WARN Notices", "3", "494"]
+["WARN Notices", "3", "494", "NON-WARN Notices", "0", "", "NON-WARN Notices", "0", ""]
 "\tSeems to be a regular row."
 "\t\t{'notice_types': 'WARN Notices', 'notices_received': '3', 'affected': '494'}"
 ["NON-WARN Notices", "0", ""]
@@ -655,7 +655,7 @@
 "Processing table 1 of data/warn-scraper/cache/ms/warn-py2024-q3-warn-jan2025-mar2025.pdf"
 ["Types of Notices Received", "Number Of Notices \nReceived", "Number Affected"]
 "\tIndex row!"
-["WARN Notices", "6", "539"]
+["WARN Notices", "6", "539", "NON-WARN Notices", "", ""]
 "\tSeems to be a regular row."
 "\t\t{'notice_types': 'WARN Notices', 'notices_received': '6', 'affected': '539'}"
 ["NON-WARN Notices", "", ""]
@@ -742,19 +742,19 @@
 "Processing table 0 of data/warn-scraper/cache/ms/warn-py2025-qtr-2-oct-dec-2025.pdf"
 ["Date of \nNotice", "Company Name \n(City) (County) (Zip)", "Workforce \nArea", "Event \nNumber", "NAICS CODE \u2013 \nDescription", "Type of \nAction \n# \nAffected", "Date of \nAction", "Reason / Comments"]
 "\tIndex row!"
-["11/6/2025", "Burgess-Norton Mfg. Co., \nInc. \nOxford (Lafayette)", "MS \nPartnership", "RR-MS-\n2025-0007", "331221- Rolled Steel Shape \nManufacturing", "Closure", "4/15/2026  WARN -Decline in", "customer sales."]
+["11/6/2025", "Burgess-Norton Mfg. Co., \nInc. \nOxford (Lafayette)", "MS \nPartnership", "RR-MS-\n2025-0007", "331221- Rolled Steel Shape \nManufacturing", "Closure", "4/15/2026  WARN -Decline in", "customer sales.", "", "", "", "", "", "79", "", ""]
 "\tSeems to be a regular row."
 "\t\t{'date_notice': '11/6/2025', 'company': 'Burgess-Norton Mfg. Co., Inc. Oxford (Lafayette)', 'workforce_area': 'MS Partnership', 'event_number': 'RR-MS- 2025-0007', 'naics': '331221- Rolled Steel Shape Manufacturing', 'action_type': 'Closure', 'date_effective': '4/15/2026 WARN -Decline in', 'reason': 'customer sales.'}"
 ["", "", "", "", "", "79", "", ""]
 "\tMostly empty row!"
 "\tMostly empty row, seems to be detailed info for a regular row"
-["1/29/2025", "Milwaukee Electric Tool \nCorp. \nGreenwood (Lefore)", "Delta", "RR-MS-\n2025-0008", "333991 \u2013 Power Driven \nHand Tool Manufacturing", "Layoff", "TBA", "Non-WARN \u2013 Due to the \nrelocation of the \nmanufacturing operations"]
+["1/29/2025", "Milwaukee Electric Tool \nCorp. \nGreenwood (Lefore)", "Delta", "RR-MS-\n2025-0008", "333991 \u2013 Power Driven \nHand Tool Manufacturing", "Layoff", "TBA", "Non-WARN \u2013 Due to the \nrelocation of the \nmanufacturing operations", "", "", "", "", "", "TBA", "", ""]
 "\tSeems to be a regular row."
 "\t\t{'date_notice': '1/29/2025', 'company': 'Milwaukee Electric Tool Corp. Greenwood (Lefore)', 'workforce_area': 'Delta', 'event_number': 'RR-MS- 2025-0008', 'naics': '333991 \u2013 Power Driven Hand Tool Manufacturing', 'action_type': 'Layoff', 'date_effective': 'TBA', 'reason': 'Non-WARN \u2013 Due to the relocation of the manufacturing operations'}"
 ["", "", "", "", "", "TBA", "", ""]
 "\tMostly empty row!"
 "\tMostly empty row, seems to be detailed info for a regular row"
-["12/16/2025  Westlake Chemical", "Aberdeen (Monroe)", "MS \nPartnership", "RR-MS-\n2025-0009", "325998 \u2013 All other Chemical \nProduct and Preparation \nManufacturing", "Closure", "2/2026", "WARN -Due to challenging \nmarket conditions."]
+["12/16/2025  Westlake Chemical", "Aberdeen (Monroe)", "MS \nPartnership", "RR-MS-\n2025-0009", "325998 \u2013 All other Chemical \nProduct and Preparation \nManufacturing", "Closure", "2/2026", "WARN -Due to challenging \nmarket conditions.", "", "", "", "", "", "99", "", ""]
 "\tSeems to be a regular row."
 "\t\t{'date_notice': '12/16/2025 Westlake Chemical', 'company': 'Aberdeen (Monroe)', 'workforce_area': 'MS Partnership', 'event_number': 'RR-MS- 2025-0009', 'naics': '325998 \u2013 All other Chemical Product and Preparation Manufacturing', 'action_type': 'Closure', 'date_effective': '2/2026', 'reason': 'WARN -Due to challenging market conditions.'}"
 ["", "", "", "", "", "99", "", ""]
@@ -775,7 +775,7 @@
 "Processing table 1 of data/warn-scraper/cache/ms/warn-py2025-qtr-2-oct-dec-2025.pdf"
 ["T\nypes of Notices Received", "# Of Notices Received", "# Affected"]
 "\tIndex row!"
-["#\n WARN Notices Received", "2", "178"]
+["#\n WARN Notices Received", "2", "178", "#\nNON-WARN Notices Received", "1", "", "#\nNON-WARN Notices Received", "1", "", "TOTAL", "", "178", "TOTAL", "", "178"]
 "\tSeems to be a regular row."
 "\t\t{'notice_types': '# WARN Notices Received', 'notices_received': '2', 'affected': '178'}"
 ["#\nNON-WARN Notices Received", "1", ""]
