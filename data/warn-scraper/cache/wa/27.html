@@ -1,107 +1,82 @@
-
-
 <!DOCTYPE html>
+<html>
+    <head>
+        <title>Runtime Error</title>
+        <meta name="viewport" content="width=device-width" />
+        <style>
+         body {font-family:"Verdana";font-weight:normal;font-size: .7em;color:black;} 
+         p {font-family:"Verdana";font-weight:normal;color:black;margin-top: -5px}
+         b {font-family:"Verdana";font-weight:bold;color:black;margin-top: -5px}
+         H1 { font-family:"Verdana";font-weight:normal;font-size:18pt;color:red }
+         H2 { font-family:"Verdana";font-weight:normal;font-size:14pt;color:maroon }
+         pre {font-family:"Consolas","Lucida Console",Monospace;font-size:11pt;margin:0;padding:0.5em;line-height:14pt}
+         .marker {font-weight: bold; color: black;text-decoration: none;}
+         .version {color: gray;}
+         .error {margin-bottom: 10px;}
+         .expandable { text-decoration:underline; font-weight:bold; color:navy; cursor:pointer; }
+         @media screen and (max-width: 639px) {
+          pre { width: 440px; overflow: auto; white-space: pre-wrap; word-wrap: break-word; }
+         }
+         @media screen and (max-width: 479px) {
+          pre { width: 280px; }
+         }
+        </style>
+    </head>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head><title>
-	WA WARN
-</title></head>
-<body>
-    <form method="post" action="./SearchWARN.aspx" id="form1">
-<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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" />
+    <body bgcolor="white">
 
-<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="4465BD13" />
-<input type="hidden" name="__VIEWSTATEENCRYPTED" id="__VIEWSTATEENCRYPTED" value="" />
-<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="0wJGicH+/0DTRzP+JrrjqDDlMz9PgdpOwkNg4cH/i8i13MCXNYYhHwv1/0yGO8qXwstN1Zd/3YTxO0h1RkUhOpsmFdFWcPuYLGO/NObS5gQkiMhfOsRd3qY5BEKQdr0zsrrn8aNJbd4Gg1GCcCU7x0VcL+2yBuMZwIidioVk9C1UB5udfy/TpYE+Ge59sEoQT0U0RJDxj8DzvEhZrSOulNpnxnleoMGYpz6rmkgFP/nmikWgAiE10dWPMVpKlQjgUcWaKhwMMyAYyYTCCV7YREXv/rpPULN2sR5lgPmZ2ORCrDxCn2G3SJXmPVeXpHRjPZc0UNkDN0fl6cjkyUIs1H1UrFO3tXsPZExH9Kpk+3NDjyhaPLsJ7ddbl27s8BU7TCoV2YJu0cqfKBGQrC58yVLuIxFTDKSMFq86E8tx8pvxAHTAdSM2AyUy/RhwZeakAMADEAaE1+7X+CJelbiehZSwDLLjl2H5YQUP9j8pyXMae/1F1BTuzl3TGNHk1eghbiX46Y6S8XGCMO5GCo0l5g==" />
-      <span id="ucPSW_lbInfo"></span>
-<input name="ucPSW$txtSearch" type="text" maxlength="50" id="ucPSW_txtSearch" />
+            <span><H1>Server Error in '/WARN' Application.<hr width=100% size=1 color=silver></H1>
 
-<input type="submit" name="ucPSW$btnSearchCompany" value="Search" id="ucPSW_btnSearchCompany" />
-<div>
-	<table cellspacing="0" cellpadding="4" rules="all" bordercolor="#3366CC" id="ucPSW_gvMain" bgcolor="GhostWhite" width="535">
-		<tr align="left" bgcolor="#E6F2F9">
-			<td colspan="8"><font face="Verdana" color="#000066" size="2"><table>
-				<tr>
-					<td><font face="Verdana" color="#000066" size="2"><a href="javascript:__doPostBack(&#39;ucPSW$gvMain&#39;,&#39;Page$20&#39;)"><font color="#000066">...</font></a></font></td><td><font face="Verdana" color="#000066" size="2"><a href="javascript:__doPostBack(&#39;ucPSW$gvMain&#39;,&#39;Page$21&#39;)"><font color="#000066">21</font></a></font></td><td><font face="Verdana" color="#000066" size="2"><a href="javascript:__doPostBack(&#39;ucPSW$gvMain&#39;,&#39;Page$22&#39;)"><font color="#000066">22</font></a></font></td><td><font face="Verdana" color="#000066" size="2"><a href="javascript:__doPostBack(&#39;ucPSW$gvMain&#39;,&#39;Page$23&#39;)"><font color="#000066">23</font></a></font></td><td><font face="Verdana" color="#000066" size="2"><a href="javascript:__doPostBack(&#39;ucPSW$gvMain&#39;,&#39;Page$24&#39;)"><font color="#000066">24</font></a></font></td><td><font face="Verdana" color="#000066" size="2"><a href="javascript:__doPostBack(&#39;ucPSW$gvMain&#39;,&#39;Page$25&#39;)"><font color="#000066">25</font></a></font></td><td><font face="Verdana" color="#000066" size="2"><a href="javascript:__doPostBack(&#39;ucPSW$gvMain&#39;,&#39;Page$26&#39;)"><font color="#000066">26</font></a></font></td><td><font face="Verdana" color="#000066" size="2"><span>27</span></font></td><td><font face="Verdana" color="#000066" size="2"><a href="javascript:__doPostBack(&#39;ucPSW$gvMain&#39;,&#39;Page$28&#39;)"><font color="#000066">28</font></a></font></td><td><font face="Verdana" color="#000066" size="2"><a href="javascript:__doPostBack(&#39;ucPSW$gvMain&#39;,&#39;Page$29&#39;)"><font color="#000066">29</font></a></font></td><td><font face="Verdana" color="#000066" size="2"><a href="javascript:__doPostBack(&#39;ucPSW$gvMain&#39;,&#39;Page$30&#39;)"><font color="#000066">30</font></a></font></td><td><font face="Verdana" color="#000066" size="2"><a href="javascript:__doPostBack(&#39;ucPSW$gvMain&#39;,&#39;Page$31&#39;)"><font color="#000066">...</font></a></font></td>
-				</tr>
-			</table></font></td>
-		</tr><tr align="center" bgcolor="MidnightBlue">
-			<th scope="col"><font face="Verdana" color="Lavender" size="2"><b><a href="javascript:__doPostBack(&#39;ucPSW$gvMain&#39;,&#39;Sort$CompanyName&#39;)"><font color="Lavender">Company</font></a></b></font></th><th scope="col"><font face="Verdana" color="Lavender" size="2"><b><a href="javascript:__doPostBack(&#39;ucPSW$gvMain&#39;,&#39;Sort$LocationName&#39;)"><font color="Lavender">Location</font></a></b></font></th><th scope="col"><font face="Verdana" color="Lavender" size="2"><b><a href="javascript:__doPostBack(&#39;ucPSW$gvMain&#39;,&#39;Sort$LayoffStartDate&#39;)"><font color="Lavender">Layoff Start Date</font></a></b></font></th><th scope="col"><font face="Verdana" color="Lavender" size="2"><b><a href="javascript:__doPostBack(&#39;ucPSW$gvMain&#39;,&#39;Sort$NumWorkers&#39;)"><font color="Lavender"># of Workers</font></a></b></font></th><th scope="col"><font face="Verdana" color="Lavender" size="2"><b><a href="javascript:__doPostBack(&#39;ucPSW$gvMain&#39;,&#39;Sort$ClosureType&#39;)"><font color="Lavender">Closure Layoff</font></a></b></font></th><th scope="col"><font face="Verdana" color="Lavender" size="2"><b><a href="javascript:__doPostBack(&#39;ucPSW$gvMain&#39;,&#39;Sort$LayoffType&#39;)"><font color="Lavender">Type of Layoff</font></a></b></font></th><th scope="col"><font face="Verdana" color="Lavender" size="2"><b><a href="javascript:__doPostBack(&#39;ucPSW$gvMain&#39;,&#39;Sort$ReceivedDate&#39;)"><font color="Lavender">Received Date</font></a></b></font></th><th scope="col"><font face="Verdana" color="Lavender" size="2"><b>Notice</b></font></th>
-		</tr><tr>
-			<td><font face="Verdana" color="Black" size="2">Life Cycle Engineering Inc</font></td><td><font face="Verdana" color="Black" size="2">Bremerton</font></td><td nowrap="nowrap"><font face="Verdana" color="Black" size="2">12/19/2020</font></td><td><font face="Verdana" color="Black" size="2">60</font></td><td><font face="Verdana" color="Black" size="2">Layoff</font></td><td><font face="Verdana" color="Black" size="2">Temporary</font></td><td nowrap="nowrap"><font face="Verdana" color="Black" size="2">12/4/2020</font></td><td align="center"><font face="Verdana" color="Black" size="2">
-                
-            </font></td>
-		</tr><tr>
-			<td><font face="Verdana" color="Black" size="2">Hyatt Corporation / Hyatt Regency Lake Washington</font></td><td><font face="Verdana" color="Black" size="2">Renton</font></td><td nowrap="nowrap"><font face="Verdana" color="Black" size="2">12/4/2020</font></td><td><font face="Verdana" color="Black" size="2">1</font></td><td><font face="Verdana" color="Black" size="2">Layoff</font></td><td><font face="Verdana" color="Black" size="2">Permanent</font></td><td nowrap="nowrap"><font face="Verdana" color="Black" size="2">12/4/2020</font></td><td align="center"><font face="Verdana" color="Black" size="2">
-                
-            </font></td>
-		</tr><tr>
-			<td><font face="Verdana" color="Black" size="2">Southwest Airlines Co.</font></td><td><font face="Verdana" color="Black" size="2">SeaTac</font></td><td nowrap="nowrap"><font face="Verdana" color="Black" size="2">3/15/2021</font></td><td><font face="Verdana" color="Black" size="2">42</font></td><td><font face="Verdana" color="Black" size="2">Layoff</font></td><td><font face="Verdana" color="Black" size="2">Temporary</font></td><td nowrap="nowrap"><font face="Verdana" color="Black" size="2">12/3/2020</font></td><td align="center"><font face="Verdana" color="Black" size="2">
-                
-            </font></td>
-		</tr><tr>
-			<td><font face="Verdana" color="Black" size="2">Seattle Theater Group</font></td><td><font face="Verdana" color="Black" size="2">Seattle</font></td><td nowrap="nowrap"><font face="Verdana" color="Black" size="2">12/5/2020</font></td><td><font face="Verdana" color="Black" size="2">93</font></td><td><font face="Verdana" color="Black" size="2">Layoff</font></td><td><font face="Verdana" color="Black" size="2">Permanent</font></td><td nowrap="nowrap"><font face="Verdana" color="Black" size="2">11/23/2020</font></td><td align="center"><font face="Verdana" color="Black" size="2">
-                
-            </font></td>
-		</tr><tr>
-			<td><font face="Verdana" color="Black" size="2">Elmer&#39;s Restaurants, Inc</font></td><td><font face="Verdana" color="Black" size="2">Vancouver, Tacoma</font></td><td nowrap="nowrap"><font face="Verdana" color="Black" size="2">11/18/2020</font></td><td><font face="Verdana" color="Black" size="2">94</font></td><td><font face="Verdana" color="Black" size="2">Layoff</font></td><td><font face="Verdana" color="Black" size="2">Temporary</font></td><td nowrap="nowrap"><font face="Verdana" color="Black" size="2">11/18/2020</font></td><td align="center"><font face="Verdana" color="Black" size="2">
-                
-            </font></td>
-		</tr><tr>
-			<td><font face="Verdana" color="Black" size="2">Museum of Pop Culture</font></td><td><font face="Verdana" color="Black" size="2">Seattle</font></td><td nowrap="nowrap"><font face="Verdana" color="Black" size="2">11/18/2020</font></td><td><font face="Verdana" color="Black" size="2">12</font></td><td><font face="Verdana" color="Black" size="2">Layoff</font></td><td><font face="Verdana" color="Black" size="2">Temporary</font></td><td nowrap="nowrap"><font face="Verdana" color="Black" size="2">11/18/2020</font></td><td align="center"><font face="Verdana" color="Black" size="2">
-                
-            </font></td>
-		</tr><tr>
-			<td><font face="Verdana" color="Black" size="2">Boston Scientific Corporation</font></td><td><font face="Verdana" color="Black" size="2">Bothell, WA</font></td><td nowrap="nowrap"><font face="Verdana" color="Black" size="2">12/6/2020</font></td><td><font face="Verdana" color="Black" size="2">230</font></td><td><font face="Verdana" color="Black" size="2">Closure</font></td><td><font face="Verdana" color="Black" size="2">Permanent</font></td><td nowrap="nowrap"><font face="Verdana" color="Black" size="2">11/6/2020</font></td><td align="center"><font face="Verdana" color="Black" size="2">
-                
-            </font></td>
-		</tr><tr>
-			<td><font face="Verdana" color="Black" size="2">Aramark</font></td><td><font face="Verdana" color="Black" size="2">Tacoma</font></td><td nowrap="nowrap"><font face="Verdana" color="Black" size="2">3/16/2020</font></td><td><font face="Verdana" color="Black" size="2">96</font></td><td><font face="Verdana" color="Black" size="2">Layoff</font></td><td><font face="Verdana" color="Black" size="2">Temporary</font></td><td nowrap="nowrap"><font face="Verdana" color="Black" size="2">10/30/2020</font></td><td align="center"><font face="Verdana" color="Black" size="2">
-                
-            </font></td>
-		</tr><tr>
-			<td><font face="Verdana" color="Black" size="2">Aramark</font></td><td><font face="Verdana" color="Black" size="2">Tacoma</font></td><td nowrap="nowrap"><font face="Verdana" color="Black" size="2">3/16/2020</font></td><td><font face="Verdana" color="Black" size="2">3</font></td><td><font face="Verdana" color="Black" size="2">Layoff</font></td><td><font face="Verdana" color="Black" size="2">Permanent</font></td><td nowrap="nowrap"><font face="Verdana" color="Black" size="2">10/30/2020</font></td><td align="center"><font face="Verdana" color="Black" size="2">
-                
-            </font></td>
-		</tr><tr>
-			<td><font face="Verdana" color="Black" size="2">Aramark</font></td><td><font face="Verdana" color="Black" size="2">Tacoma</font></td><td nowrap="nowrap"><font face="Verdana" color="Black" size="2">4/7/2020</font></td><td><font face="Verdana" color="Black" size="2">52</font></td><td><font face="Verdana" color="Black" size="2">Layoff</font></td><td><font face="Verdana" color="Black" size="2">Temporary</font></td><td nowrap="nowrap"><font face="Verdana" color="Black" size="2">10/30/2020</font></td><td align="center"><font face="Verdana" color="Black" size="2">
-                
-            </font></td>
-		</tr><tr>
-			<td><font face="Verdana" color="Black" size="2">Aramark</font></td><td><font face="Verdana" color="Black" size="2">Tacoma</font></td><td nowrap="nowrap"><font face="Verdana" color="Black" size="2">4/7/2020</font></td><td><font face="Verdana" color="Black" size="2">2</font></td><td><font face="Verdana" color="Black" size="2">Layoff</font></td><td><font face="Verdana" color="Black" size="2">Permanent</font></td><td nowrap="nowrap"><font face="Verdana" color="Black" size="2">10/30/2020</font></td><td align="center"><font face="Verdana" color="Black" size="2">
-                
-            </font></td>
-		</tr><tr>
-			<td><font face="Verdana" color="Black" size="2">Aramark</font></td><td><font face="Verdana" color="Black" size="2">Seattle</font></td><td nowrap="nowrap"><font face="Verdana" color="Black" size="2">3/16/2020</font></td><td><font face="Verdana" color="Black" size="2">407</font></td><td><font face="Verdana" color="Black" size="2">Layoff</font></td><td><font face="Verdana" color="Black" size="2">Temporary</font></td><td nowrap="nowrap"><font face="Verdana" color="Black" size="2">10/30/2020</font></td><td align="center"><font face="Verdana" color="Black" size="2">
-                
-            </font></td>
-		</tr><tr>
-			<td><font face="Verdana" color="Black" size="2">Aramark</font></td><td><font face="Verdana" color="Black" size="2">Seattle</font></td><td nowrap="nowrap"><font face="Verdana" color="Black" size="2">3/16/2020</font></td><td><font face="Verdana" color="Black" size="2">16</font></td><td><font face="Verdana" color="Black" size="2">Closure</font></td><td><font face="Verdana" color="Black" size="2">Permanent</font></td><td nowrap="nowrap"><font face="Verdana" color="Black" size="2">10/30/2020</font></td><td align="center"><font face="Verdana" color="Black" size="2">
-                
-            </font></td>
-		</tr><tr>
-			<td><font face="Verdana" color="Black" size="2">SPIN Seattle, LLC</font></td><td><font face="Verdana" color="Black" size="2">Seattle</font></td><td nowrap="nowrap"><font face="Verdana" color="Black" size="2">3/17/2020</font></td><td><font face="Verdana" color="Black" size="2">40</font></td><td><font face="Verdana" color="Black" size="2">Closure</font></td><td><font face="Verdana" color="Black" size="2">Temporary</font></td><td nowrap="nowrap"><font face="Verdana" color="Black" size="2">10/30/2020</font></td><td align="center"><font face="Verdana" color="Black" size="2">
-                
-            </font></td>
-		</tr><tr>
-			<td><font face="Verdana" color="Black" size="2">TransAlta</font></td><td><font face="Verdana" color="Black" size="2">Centralia</font></td><td nowrap="nowrap"><font face="Verdana" color="Black" size="2">1/4/2021</font></td><td><font face="Verdana" color="Black" size="2">64</font></td><td><font face="Verdana" color="Black" size="2">Layoff</font></td><td><font face="Verdana" color="Black" size="2">Permanent</font></td><td nowrap="nowrap"><font face="Verdana" color="Black" size="2">10/29/2020</font></td><td align="center"><font face="Verdana" color="Black" size="2">
-                
-            </font></td>
-		</tr><tr align="left" bgcolor="#E6F2F9">
-			<td colspan="8"><font face="Verdana" color="#000066" size="2"><table>
-				<tr>
-					<td><font face="Verdana" color="#000066" size="2"><a href="javascript:__doPostBack(&#39;ucPSW$gvMain&#39;,&#39;Page$20&#39;)"><font color="#000066">...</font></a></font></td><td><font face="Verdana" color="#000066" size="2"><a href="javascript:__doPostBack(&#39;ucPSW$gvMain&#39;,&#39;Page$21&#39;)"><font color="#000066">21</font></a></font></td><td><font face="Verdana" color="#000066" size="2"><a href="javascript:__doPostBack(&#39;ucPSW$gvMain&#39;,&#39;Page$22&#39;)"><font color="#000066">22</font></a></font></td><td><font face="Verdana" color="#000066" size="2"><a href="javascript:__doPostBack(&#39;ucPSW$gvMain&#39;,&#39;Page$23&#39;)"><font color="#000066">23</font></a></font></td><td><font face="Verdana" color="#000066" size="2"><a href="javascript:__doPostBack(&#39;ucPSW$gvMain&#39;,&#39;Page$24&#39;)"><font color="#000066">24</font></a></font></td><td><font face="Verdana" color="#000066" size="2"><a href="javascript:__doPostBack(&#39;ucPSW$gvMain&#39;,&#39;Page$25&#39;)"><font color="#000066">25</font></a></font></td><td><font face="Verdana" color="#000066" size="2"><a href="javascript:__doPostBack(&#39;ucPSW$gvMain&#39;,&#39;Page$26&#39;)"><font color="#000066">26</font></a></font></td><td><font face="Verdana" color="#000066" size="2"><span>27</span></font></td><td><font face="Verdana" color="#000066" size="2"><a href="javascript:__doPostBack(&#39;ucPSW$gvMain&#39;,&#39;Page$28&#39;)"><font color="#000066">28</font></a></font></td><td><font face="Verdana" color="#000066" size="2"><a href="javascript:__doPostBack(&#39;ucPSW$gvMain&#39;,&#39;Page$29&#39;)"><font color="#000066">29</font></a></font></td><td><font face="Verdana" color="#000066" size="2"><a href="javascript:__doPostBack(&#39;ucPSW$gvMain&#39;,&#39;Page$30&#39;)"><font color="#000066">30</font></a></font></td><td><font face="Verdana" color="#000066" size="2"><a href="javascript:__doPostBack(&#39;ucPSW$gvMain&#39;,&#39;Page$31&#39;)"><font color="#000066">...</font></a></font></td>
-				</tr>
-			</table></font></td>
-		</tr>
-	</table>
-</div>
+            <h2> <i>Runtime Error</i> </h2></span>
 
+            <font face="Arial, Helvetica, Geneva, SunSans-Regular, sans-serif ">
 
+            <b> Description: </b>An application error occurred on the server. The current custom error settings for this application prevent the details of the application error from being viewed remotely (for security reasons). It could, however, be viewed by browsers running on the local server machine.
+            <br><br>
 
+            <b>Details:</b> To enable the details of this specific error message to be viewable on remote machines, please create a &lt;customErrors&gt; tag within a &quot;web.config&quot; configuration file located in the root directory of the current web application. This &lt;customErrors&gt; tag should then have its &quot;mode&quot; attribute set to &quot;Off&quot;.<br><br>
 
+            <table width=100% bgcolor="#ffffcc">
+               <tr>
+                  <td>
+                      <code><pre>
 
+&lt;!-- Web.Config Configuration File --&gt;
 
-    </form>
-</body>
+&lt;configuration&gt;
+    &lt;system.web&gt;
+        &lt;customErrors mode=&quot;Off&quot;/&gt;
+    &lt;/system.web&gt;
+&lt;/configuration&gt;</pre>                      </code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+            <b>Notes:</b> The current error page you are seeing can be replaced by a custom error page by modifying the &quot;defaultRedirect&quot; attribute of the application&#39;s &lt;customErrors&gt; configuration tag to point to a custom error page URL.<br><br>
+
+            <table width=100% bgcolor="#ffffcc">
+               <tr>
+                  <td>
+                      <code><pre>
+
+&lt;!-- Web.Config Configuration File --&gt;
+
+&lt;configuration&gt;
+    &lt;system.web&gt;
+        &lt;customErrors mode=&quot;RemoteOnly&quot; defaultRedirect=&quot;mycustompage.htm&quot;/&gt;
+    &lt;/system.web&gt;
+&lt;/configuration&gt;</pre>                      </code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+            </font>
+
+    </body>
 </html>
