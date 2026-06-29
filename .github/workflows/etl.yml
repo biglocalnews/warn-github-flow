@@ -36,6 +36,7 @@ jobs:
             me,
             mi,
             mo,
+            ms,
             mt,
             ne,
             nj,
@@ -58,6 +59,7 @@ jobs:
           ]
     name: Extract
     runs-on: ubuntu-latest
+    # runs-on: self-hosted
     steps:
       - name: Clone repository
         uses: actions/checkout@v6
@@ -91,6 +93,7 @@ jobs:
     name: Transform
     timeout-minutes: 30 # Sets a 30-minute timeout for this specific job
     runs-on: ubuntu-latest
+    # runs-on: self-hosted
     needs: [extract]
     steps:
       - name: Clone repository
@@ -122,6 +125,7 @@ jobs:
     name: Status report
     timeout-minutes: 30 # Sets a 30-minute timeout for this specific job
     runs-on: ubuntu-latest
+    # runs-on: self-hosted
     needs: [transform]
     steps:
       - name: Post
@@ -138,6 +142,7 @@ jobs:
     name: Alert
     timeout-minutes: 30 # Sets a 30-minute timeout for this specific job
     runs-on: ubuntu-latest
+    # runs-on: self-hosted
     needs: [transform]
 
     permissions:
@@ -171,7 +176,7 @@ jobs:
         shell: bash
 
       - name: Install private dependencies
-        run: pip install --pre warn-bot==0.1.63.dev0 -vv --index-url https://us-west2-python.pkg.dev/big-local-news-267923/warn-bot/simple/ --extra-index-url https://pypi.org/simple/
+        run: pip install --pre warn-bot==0.1.63 -vv --index-url https://us-west2-python.pkg.dev/big-local-news-267923/warn-bot/simple/ --extra-index-url https://pypi.org/simple/
         shell: bash
         env:
             GOOGLE_APPLICATION_CREDENTIALS: ${{ steps.auth-gcloud.outputs.credentials_file_path }}
