@@ -823,3 +823,49 @@
 ["TOTAL", "7", "693"]
 "\tSeems to be a regular row."
 "\t\t{'notice_types': 'TOTAL', 'notices_received': '7', 'affected': '693'}"
+"Processing table 0 of data/warn-scraper/cache/ms/warn-py2025-qtr-4-apr-jun-2026.pdf"
+["Date of \nNotice", "Company \nName", "City", "County", "Workforce \nArea", "Event \nNumber", "NAICS \nCODE & \nDescription", "Type of \nAction", "Number \nAffected", "Date of \nAction", "Reason \u2013 \nComments"]
+"\tIndex row!"
+["4/14/2026", "Greenwood \nLeflore \nHospital", "Greenwood", "Leflore", "Delta", "RR-MS-\n2025-0017", "622110 \u2013 \nGeneral \nMedical and \nSurgical \nHospital", "Closure", "425", "", "6/15/2026  WARN- Due to \nFinancial \nChallenges."]
+"\tSeems to be a regular row."
+"\t\t{'date_notice': '4/14/2026', 'company': 'Greenwood Leflore Hospital', 'city': 'Greenwood', 'county': 'Leflore', 'workforce_area': 'Delta', 'event_number': 'RR-MS- 2025-0017', 'naics': '622110 \u2013 General Medical and Surgical Hospital', 'action_type': 'Closure', 'affected': '425', 'date_effective': '', 'reason': '6/15/2026 WARN- Due to Financial Challenges.'}"
+["2/20/2026", "Stanley Black \n& Decker", "Verona", "Lee", "MS \nPartnership", "RR-MS-\n2025-0018", "333991 \u2013 \nPower Driven \nHand Tool \nManufacturing", "Closure", "441", "Pending", "WARN- Due to \nproduction of \ncertain items."]
+"\tSeems to be a regular row."
+"\t\t{'date_notice': '2/20/2026', 'company': 'Stanley Black & Decker', 'city': 'Verona', 'county': 'Lee', 'workforce_area': 'MS Partnership', 'event_number': 'RR-MS- 2025-0018', 'naics': '333991 \u2013 Power Driven Hand Tool Manufacturing', 'action_type': 'Closure', 'affected': '441', 'date_effective': 'Pending', 'reason': 'WARN- Due to production of certain items.'}"
+["3/17/2026", "Laboratory \nCorporation \nof America", "Southaven", "DeSoto", "MS \nPartnership", "RR-MS-\n2025-0019", "621511- \nMedical \nLaboratories", "Closure", "60", "", "6/9/2026  WARN \u2013 Due to \nConsolidation of \nBusiness."]
+"\tSeems to be a regular row."
+"\t\t{'date_notice': '3/17/2026', 'company': 'Laboratory Corporation of America', 'city': 'Southaven', 'county': 'DeSoto', 'workforce_area': 'MS Partnership', 'event_number': 'RR-MS- 2025-0019', 'naics': '621511- Medical Laboratories', 'action_type': 'Closure', 'affected': '60', 'date_effective': '', 'reason': '6/9/2026 WARN \u2013 Due to Consolidation of Business.'}"
+["4/17/2026  Aramark", "Services, Inc", "Greenwood", "Leflore", "Delta", "RR-MS- \n2025-0020", "722310- Food \nServices \nContractor", "Closure", "59", "6/15/2026  WARN \u2013 Due", "Businesses \nCircumstances/in \nnegotiations with \nbuyer"]
+"\tSeems to be a regular row."
+"\t\t{'date_notice': '4/17/2026 Aramark', 'company': 'Services, Inc', 'city': 'Greenwood', 'county': 'Leflore', 'workforce_area': 'Delta', 'event_number': 'RR-MS- 2025-0020', 'naics': '722310- Food Services Contractor', 'action_type': 'Closure', 'affected': '59', 'date_effective': '6/15/2026 WARN \u2013 Due', 'reason': 'Businesses Circumstances/in negotiations with buyer'}"
+["05/11/2026  Leggett &", "Platt Flooring \nProducts", "Houston", "Chickasaw", "MS \nPartnership", "RR-MS- \n2025-0021", "313230- Non-\nWoven Fabric \nMills", "Closure", "86", "6/11/2026  WARN-Plant", "Consolidation"]
+"\tSeems to be a regular row."
+"\t\t{'date_notice': '05/11/2026 Leggett &', 'company': 'Platt Flooring Products', 'city': 'Houston', 'county': 'Chickasaw', 'workforce_area': 'MS Partnership', 'event_number': 'RR-MS- 2025-0021', 'naics': '313230- Non- Woven Fabric Mills', 'action_type': 'Closure', 'affected': '86', 'date_effective': '6/11/2026 WARN-Plant', 'reason': 'Consolidation'}"
+["4/30/2026", "Wheeler \nFleet \nSolutions", "Olive \nBranch", "DeSoto", "MS \nPartnership", "RR-MS-\n2025-0022", "811198- All \nOther Auto \nMotive \nRepaire and \nMaintenance", "Closure", "52", "Pending", "WARN- Due to \nBusiness \nalignment"]
+"\tSeems to be a regular row."
+"\t\t{'date_notice': '4/30/2026', 'company': 'Wheeler Fleet Solutions', 'city': 'Olive Branch', 'county': 'DeSoto', 'workforce_area': 'MS Partnership', 'event_number': 'RR-MS- 2025-0022', 'naics': '811198- All Other Auto Motive Repaire and Maintenance', 'action_type': 'Closure', 'affected': '52', 'date_effective': 'Pending', 'reason': 'WARN- Due to Business alignment'}"
+"Processing table 1 of data/warn-scraper/cache/ms/warn-py2025-qtr-4-apr-jun-2026.pdf"
+["Date of \nNotice", "Company \nName", "City", "County", "Workforce \nArea", "Event \nNumber", "NAICS \nCODE & \nDescription", "Type of \nAction", "Number \nAffected", "Date of \nAction", "Reason \u2013 \nComments"]
+"\tIndex row!"
+["", "", "", "", "", "", "", "", "", "", ""]
+"\tEmpty row"
+["", "", "", "", "", "", "", "", "", "", ""]
+"\tEmpty row"
+["", "", "", "", "", "", "", "", "", "", ""]
+"\tEmpty row"
+["", "", "", "", "", "", "", "", "", "", ""]
+"\tEmpty row"
+["", "", "", "", "", "", "", "", "", "", ""]
+"\tEmpty row"
+"Processing table 2 of data/warn-scraper/cache/ms/warn-py2025-qtr-4-apr-jun-2026.pdf"
+["Types of Notices", "Notices Received", "Number Affected"]
+"\tIndex row!"
+["WARN", "6", "1,123", "NON-WARN", "0", "", "NON-WARN", "0", ""]
+"\tSeems to be a regular row."
+"\t\t{'notice_types': 'WARN', 'notices_received': '6', 'affected': '1,123'}"
+["NON-WARN", "0", ""]
+"\tMostly empty row!"
+"\tMostly empty row, seems to be detailed info for a regular row"
+["TOTAL", "6", "1,123"]
+"\tSeems to be a regular row."
+"\t\t{'notice_types': 'TOTAL', 'notices_received': '6', 'affected': '1,123'}"
