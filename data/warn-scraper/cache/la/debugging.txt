@@ -82,18 +82,36 @@
 "Processing table 0 of data/warn-scraper/cache/la/WarnNotices2026.pdf"
 ["Company Name", "Address", "Notice \nDate", "Layoff \nDate", "Employees \nAffected", "Industry"]
 "\tIndex row!"
-["McGlinchey \nStafford PLLC", "601 Poydras Street,  \nSuite 1200 \nNew Orleans, LA 70130", "1/13/26", "3/16/26", "101", "Legal Services"]
-"\tSeems to be a regular row."
-"\t\t{'company_original': 'McGlinchey Stafford PLLC', 'address_original': '601 Poydras Street, Suite 1200 New Orleans, LA 70130', 'date_notice': '1/13/26', 'date_action': '3/16/26', 'affected': '101', 'Industry': 'Legal Services'}"
 ["Westlake \nCorporation", "330 Belden Street \nLake Charles, LA 70601", "12/15/25", "2/14/26", "121", "Petrochemical \nManufacturing"]
 "\tSeems to be a regular row."
 "\t\t{'company_original': 'Westlake Corporation', 'address_original': '330 Belden Street Lake Charles, LA 70601', 'date_notice': '12/15/25', 'date_action': '2/14/26', 'affected': '121', 'Industry': 'Petrochemical Manufacturing'}"
+["McGlinchey \nStafford PLLC", "601 Poydras Street, \nSuite 1200 \nNew Orleans, LA 70130", "1/13/26", "3/16/26", "101", "Legal Services"]
+"\tSeems to be a regular row."
+"\t\t{'company_original': 'McGlinchey Stafford PLLC', 'address_original': '601 Poydras Street, Suite 1200 New Orleans, LA 70130', 'date_notice': '1/13/26', 'date_action': '3/16/26', 'affected': '101', 'Industry': 'Legal Services'}"
 ["Denka Performance \nElastomer LLC", "560 Highway 44 \nLaPlace, LA 70068", "1/30/26", "4/1/26", "45", "Chemical \nManufacturing"]
 "\tSeems to be a regular row."
 "\t\t{'company_original': 'Denka Performance Elastomer LLC', 'address_original': '560 Highway 44 LaPlace, LA 70068', 'date_notice': '1/30/26', 'date_action': '4/1/26', 'affected': '45', 'Industry': 'Chemical Manufacturing'}"
 ["Stockhausen \nSuperabsorber LLC", "3606 LA-44 \nGaryville, LA 70051", "2/03/26", "4/03/26", "64", "Chemical \nManufacturing"]
 "\tSeems to be a regular row."
 "\t\t{'company_original': 'Stockhausen Superabsorber LLC', 'address_original': '3606 LA-44 Garyville, LA 70051', 'date_notice': '2/03/26', 'date_action': '4/03/26', 'affected': '64', 'Industry': 'Chemical Manufacturing'}"
+["C2 Technologies", "7601 Lewisville Road, \nSuite 200 \nMcLean, VA 22102", "3/02/26", "3/06/26", "1", "Consulting"]
+"\tSeems to be a regular row."
+"\t\t{'company_original': 'C2 Technologies', 'address_original': '7601 Lewisville Road, Suite 200 McLean, VA 22102', 'date_notice': '3/02/26', 'date_action': '3/06/26', 'affected': '1', 'Industry': 'Consulting'}"
+["C&S Wholesale \nServices LLC", "3925 Highway 190 West \nHammond, LA 70401", "2/13/26", "4/18/26", "288", "Manufacturing"]
+"\tSeems to be a regular row."
+"\t\t{'company_original': 'C&S Wholesale Services LLC', 'address_original': '3925 Highway 190 West Hammond, LA 70401', 'date_notice': '2/13/26', 'date_action': '4/18/26', 'affected': '288', 'Industry': 'Manufacturing'}"
 ["Einstein Charter \nSchools", "5316 Michoud Boulevard \nNew Orleans, LA 70129", "3/30/26", "5/30/26", "81", "Education"]
 "\tSeems to be a regular row."
 "\t\t{'company_original': 'Einstein Charter Schools', 'address_original': '5316 Michoud Boulevard New Orleans, LA 70129', 'date_notice': '3/30/26', 'date_action': '5/30/26', 'affected': '81', 'Industry': 'Education'}"
+["Republic National \nDistributing Co", "809 Jefferson Highway \nNew Orleans, LA 70121", "4/23/26", "6/21/26", "242", "All Other Misc. \nFood \nManufacturing"]
+"\tSeems to be a regular row."
+"\t\t{'company_original': 'Republic National Distributing Co', 'address_original': '809 Jefferson Highway New Orleans, LA 70121', 'date_notice': '4/23/26', 'date_action': '6/21/26', 'affected': '242', 'Industry': 'All Other Misc. Food Manufacturing'}"
+["Republic National \nDistributing Co", "210 Distribution Drive \nLafayette, LA 70507", "4/23/26", "6/21/26", "114", "All Other Misc. \nFood \nManufacturing"]
+"\tSeems to be a regular row."
+"\t\t{'company_original': 'Republic National Distributing Co', 'address_original': '210 Distribution Drive Lafayette, LA 70507', 'date_notice': '4/23/26', 'date_action': '6/21/26', 'affected': '114', 'Industry': 'All Other Misc. Food Manufacturing'}"
+["Hydro Extrusion \nUSA LLC", "142 Hydro Way \nDelhi, LA 71232", "6/17/26", "3/31/27", "226", "Manufacturing \u2013 \nOther Fabricated \nMetal Products"]
+"\tSeems to be a regular row."
+"\t\t{'company_original': 'Hydro Extrusion USA LLC', 'address_original': '142 Hydro Way Delhi, LA 71232', 'date_notice': '6/17/26', 'date_action': '3/31/27', 'affected': '226', 'Industry': 'Manufacturing \u2013 Other Fabricated Metal Products'}"
+["Conduent \nCommercial \nSolutions", "100 Campus Drive \nFlorham Park, NJ 07932", "6/26/26", "8/28/26", "27", "Business \nSupport \nServices"]
+"\tSeems to be a regular row."
+"\t\t{'company_original': 'Conduent Commercial Solutions', 'address_original': '100 Campus Drive Florham Park, NJ 07932', 'date_notice': '6/26/26', 'date_action': '8/28/26', 'affected': '27', 'Industry': 'Business Support Services'}"
