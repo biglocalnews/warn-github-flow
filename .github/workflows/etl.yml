@@ -8,6 +8,7 @@ on:
 jobs:
   extract:
     continue-on-error: true
+    timeout-minutes: 30 # Sets a 30-minute timeout for this specific job
     strategy:
       fail-fast: false
       matrix:
@@ -35,6 +36,7 @@ jobs:
             me,
             mi,
             mo,
+            ms,
             mt,
             ne,
             nj,
@@ -43,6 +45,7 @@ jobs:
             oh,
             ok,
             or,
+            pa,
             ri,
             sc,
             sd,
@@ -56,9 +59,10 @@ jobs:
           ]
     name: Extract
     runs-on: ubuntu-latest
+    # runs-on: self-hosted
     steps:
       - name: Clone repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           fetch-depth: 0
 
@@ -71,24 +75,29 @@ jobs:
           source: ${{ matrix.source }}
           bln-api-key: ${{ secrets.BLN_API_TOKEN }}
           bln-project-id: ${{ secrets.BLN_PROJECT_ID }}
+        env:
+          ZYTE_API_KEY: ${{ secrets.ZYTE_API_KEY }}
 
       - name: Fail alert
         id: slack
         if: ${{ failure() }}
-        uses: slackapi/slack-github-action@v1.25.0
+        uses: slackapi/slack-github-action@v3.0.1
         with:
-          channel-id: ${{ secrets.SLACK_CHANNEL_ID }}
-          slack-message: "🚨Layoff Watch ETL extraction run <https://github.com/biglocalnews/warn-github-flow/actions/runs/${{ github.run_id }}|#${{ github.run_id }}> for `${{ matrix.source }}` failed"
-        env:
-          SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
+          method: chat.postMessage
+          token: ${{ secrets.SLACK_BOT_TOKEN }}
+          payload: |
+            channel: ${{ secrets.SLACK_CHANNEL_ID }}
+            text: "🚨Layoff Watch ETL extraction run <https://github.com/biglocalnews/warn-github-flow/actions/runs/${{ github.run_id }}|#${{ github.run_id }}> for `${{ matrix.source }}` failed"
 
   transform:
     name: Transform
+    timeout-minutes: 30 # Sets a 30-minute timeout for this specific job
     runs-on: ubuntu-latest
+    # runs-on: self-hosted
     needs: [extract]
     steps:
       - name: Clone repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           fetch-depth: 0
 
@@ -104,30 +113,36 @@ jobs:
       - name: Fail alert
         id: slack
         if: ${{ failure() }}
-        uses: slackapi/slack-github-action@v1.25.0
+        uses: slackapi/slack-github-action@v3.0.1
         with:
-          channel-id: ${{ secrets.SLACK_CHANNEL_ID }}
-          slack-message: "🚨 Layoff Watch ETL transformation run <https://github.com/biglocalnews/warn-github-flow/actions/runs/${{ github.run_id }}|#${{ github.run_id }}> failed"
-        env:
-          SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
+          method: chat.postMessage
+          token: ${{ secrets.SLACK_BOT_TOKEN }}
+          payload: |
+            channel: ${{ secrets.SLACK_CHANNEL_ID }}
+            text: "🚨 Layoff Watch ETL transformation run <https://github.com/biglocalnews/warn-github-flow/actions/runs/${{ github.run_id }}|#${{ github.run_id }}> failed"
 
   status-report:
     name: Status report
+    timeout-minutes: 30 # Sets a 30-minute timeout for this specific job
     runs-on: ubuntu-latest
+    # runs-on: self-hosted
     needs: [transform]
     steps:
       - name: Post
         id: slack
-        uses: slackapi/slack-github-action@v1.25.0
+        uses: slackapi/slack-github-action@v3.0.1
         with:
-          channel-id: ${{ secrets.SLACK_CHANNEL_ID }}
-          slack-message: "👍 Layoff Watch ETL run <https://github.com/biglocalnews/warn-github-flow/actions/runs/${{ github.run_id }}|#${{ github.run_id }}> finished successfully"
-        env:
-          SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
+          method: chat.postMessage
+          token: ${{ secrets.SLACK_BOT_TOKEN }}
+          payload: |
+            channel: ${{ secrets.SLACK_CHANNEL_ID }}
+            text: "👍 Layoff Watch ETL run <https://github.com/biglocalnews/warn-github-flow/actions/runs/${{ github.run_id }}|#${{ github.run_id }}> finished successfully"
 
   alert:
     name: Alert
+    timeout-minutes: 30 # Sets a 30-minute timeout for this specific job
     runs-on: ubuntu-latest
+    # runs-on: self-hosted
     needs: [transform]
 
     permissions:
@@ -136,19 +151,19 @@ jobs:
 
     steps:
       - name: Clone repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           fetch-depth: 0
 
-      - id: install-python
-        name: Install Python
-        uses: actions/setup-python@v5
+      - id: install-python3_14
+        name: Install Python 3.14
+        uses: actions/setup-python@v6
         with:
-          python-version: '3.9'
+          python-version: '3.14'
 
       - id: auth-gcloud
         name: Authenticate with Google Cloud
-        uses: google-github-actions/auth@v2
+        uses: google-github-actions/auth@v3
         with:
           workload_identity_provider: ${{ secrets.GOOGLE_WORKLOAD_IDENTITY_PROVIDER }}
           service_account: ${{ secrets.GOOGLE_SERVICE_ACCOUNT }}
@@ -161,10 +176,11 @@ jobs:
         shell: bash
 
       - name: Install private dependencies
-        run: pip install warn-bot==0.1.42 -vv --index-url https://us-west2-python.pkg.dev/big-local-news-267923/warn-bot/simple/ --extra-index-url https://pypi.org/simple/
+        run: pip install --pre warn-bot==0.1.63 -vv --index-url https://us-west2-python.pkg.dev/big-local-news-267923/warn-bot/simple/ --extra-index-url https://pypi.org/simple/
         shell: bash
         env:
             GOOGLE_APPLICATION_CREDENTIALS: ${{ steps.auth-gcloud.outputs.credentials_file_path }}
 
       - name: Send alert
         run: warn-bot
+        # run: python3 -m warn_bot.cli
