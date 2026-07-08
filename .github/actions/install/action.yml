@@ -34,5 +34,5 @@ runs:
         name: Install Python dependencies
         run: |
           pipenv install --dev
-          pipenv run pip install certifi niquests[ntls]
+          pipenv run pip install certifi niquests[utls]
         shell: bash
