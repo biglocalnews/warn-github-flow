@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "a0a339f66a321662a6cbd7e781f8c786c0d03b08277e8af332867b4c2407ace2"
+            "sha256": "df6778d3b340f6e938dde37d6d44e2ea93794f720e871394d327de7fda1329b3"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -673,11 +673,11 @@
         },
         "selenium": {
             "hashes": [
-                "sha256:1fd9d0dc08192b2f8100e264ed720f83b05d2dd3a7feff673df04e0c7580df4b",
-                "sha256:563f0c4102f112df1cda30d46ce6d177b2e4a7a3d4b0756902d5dc84d3a8a365"
+                "sha256:54f7e1a4df5f7508ac8c38ce2ea584db1b27083dd79962b22524219219df5cbe",
+                "sha256:f03e864770a21ab32009961c9d015cb2c6275eba45c926c272e02d90af423aad"
             ],
             "markers": "python_version >= '3.10'",
-            "version": "==4.45.0"
+            "version": "==4.46.0"
         },
         "six": {
             "hashes": [
@@ -763,20 +763,20 @@
         },
         "warn-scraper": {
             "hashes": [
-                "sha256:23ce8cf043dfa90b5ba96ca408b1186ab0f060042d00eafe5ad6a9c8805af71e",
-                "sha256:d73ccd3ddca9d81dfe1ead1464a7b400b6937aa7eaa10024f1c212b5bda49dae"
+                "sha256:7d13a0e203933d9850e52c631e2cd053ab88cc5fda24b1b7c43175896517151e",
+                "sha256:ac556389c4154667812fdb45079a586793e60c147aaff57b9f67d80b51a8cf6a"
             ],
             "index": "pypi",
-            "version": "==1.2.163.dev0"
+            "version": "==1.2.169.dev0"
         },
         "warn-transformer": {
             "hashes": [
-                "sha256:3f11fd4300d4cd5fc1889f88e099ed367dbd65af64fe7cb2960107821f7a5e04",
-                "sha256:980fcb94979461923f19080c67aeb430d5454a74ce975e6a050fedbad4af1b2e"
+                "sha256:806584506473c48b4984b99a2586f59ae8e5ea06fd91a4153db0f436cdca7f0f",
+                "sha256:c62cca6e16f75a48ef65ce87f723c7ceefb40b39ca75b31dbc3101592537b8bf"
             ],
             "index": "pypi",
             "markers": "python_version >= '3.10'",
-            "version": "==1.3.387"
+            "version": "==1.3.389"
         },
         "webdriver-manager": {
             "hashes": [
