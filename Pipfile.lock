@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "0fe1fe77cb58932881b58be13e4fbd59f21b787833d8b1d9ffce44744b87d958"
+            "sha256": "d4ed6b2f1d81578b563c8b8df65e49d2682382489982637aa8f2a861e0c08d8b"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -704,11 +704,11 @@
         },
         "soupsieve": {
             "hashes": [
-                "sha256:a2b2c76d67df2382d245409fd71e321a571717e58463efa32ace87dcadac2c12",
-                "sha256:acee8417325c5653e1377dc31eccad59eb82cbc65942afe6174c53b3aaad63fc"
+                "sha256:4f4477399246b7a0c720a88ca2454b11cd6bb9ae4c9d170140786e916776c14c",
+                "sha256:c33e6605bbc71dd628b00c632d58ae607c22bade247e52553928f83bbb75b4ba"
             ],
             "markers": "python_version >= '3.10'",
-            "version": "==2.9"
+            "version": "==2.9.1"
         },
         "stealthenium": {
             "hashes": [
@@ -763,11 +763,11 @@
         },
         "warn-scraper": {
             "hashes": [
-                "sha256:7d13a0e203933d9850e52c631e2cd053ab88cc5fda24b1b7c43175896517151e",
-                "sha256:ac556389c4154667812fdb45079a586793e60c147aaff57b9f67d80b51a8cf6a"
+                "sha256:1937b393a89fc836deaedb744a71637fbb9d7b0accbb05ccbd8c9a40cda0236c",
+                "sha256:a162f33ef86c2389abf699ec314a042013709e9d6de7055416e3b356a1e9a67e"
             ],
             "index": "pypi",
-            "version": "==1.2.169.dev0"
+            "version": "==1.2.170.dev0"
         },
         "warn-transformer": {
             "hashes": [
@@ -819,11 +819,11 @@
         },
         "xvfbwrapper": {
             "hashes": [
-                "sha256:14d480c71a726da2952fa937557ed87013e45dadcaa6c2014e4453a5e8faa8da",
-                "sha256:6634d1c73b4c02c4190ed98398358cbd7cecb258ab283159cb79a8dd7eeb7b53"
+                "sha256:5fca91867376eee6c324bdfdc6d58ee45fa6296bb6ce98815614089342418243",
+                "sha256:6c4f411fdb10ee6e1ec7a5c69b67bc8d9720cfb294de0ffa45721bc8ba1cdd6b"
             ],
             "markers": "python_version >= '3.10'",
-            "version": "==0.2.28"
+            "version": "==0.2.29"
         }
     },
     "develop": {
