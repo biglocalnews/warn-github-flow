@@ -17278,8 +17278,10 @@ body a:focus,body a:hover {
             <div id="footer_help">
                 <h2>Find Information</h2>
                 <ul class="vertical menu">
-                    <li class="chat-link"><a href="javascript:void(0);"
-                            onclick="zE.activate({hideOnClose: false});">State Information Live Chat</a></li>
+                    <!-- genesys-messenger -->
+                    <li>
+                        <a href="javascript:void(0);" id="chat-btn">State Information Live Chat</a>
+                    </li>
                     <li><a href="https://in.accessgov.com/idoa/Forms/Page/idoa/ask-sic-a-question/"
                             target="_blank">Email State Information Center</a></li>
                     <li><a href="//www.in.gov/core/find_agency.html"
@@ -17376,6 +17378,36 @@ body a:focus,body a:hover {
     </div>
 </section>
 
+<!-- genesys-messenger -->
+<script type="text/javascript" charset="utf-8">
+  (function (g, e, n, es, ys) {
+    g['_genesysJs'] = e;
+    g[e] = g[e] || function () {
+      (g[e].q = g[e].q || []).push(arguments)
+    };
+    g[e].t = 1 * new Date();
+    g[e].c = es;
+    ys = document.createElement('script'); ys.async = 1; ys.src = n; ys.charset = 'utf-8'; document.head.appendChild(ys);
+  })(window, 'Genesys', 'https://apps.use2.us-gov-pure.cloud/genesys-bootstrap/genesys.min.js', {
+    environment: 'fedramp-use2-core',
+    deploymentId: '043c0ed3-56c6-4676-98e9-8880a28f9134'
+  });
+</script>
+
+<script>
+	Genesys('subscribe', 'Messenger.ready', function () {
+		console.log('Messenger ready');
+	});
+
+	Genesys('subscribe', 'Messenger.closed', function () {
+		console.log('Messenger closed');
+	});
+
+	document.getElementById('chat-btn').addEventListener('click', function () {
+		var el = document.getElementById('genesys-messenger');
+		Genesys('command', 'Messenger.open');
+	});
+</script>
             
 
 
