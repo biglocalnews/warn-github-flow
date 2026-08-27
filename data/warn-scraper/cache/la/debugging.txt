@@ -118,3 +118,6 @@
 ["United Parcel \nService", "5700 Morrison Road, New \nOrleans, Louisiana 70126", "7/30/26", "10/01/26", "172", "Couriers and \nExpress Delivery \nServices"]
 "\tSeems to be a regular row."
 "\t\t{'company_original': 'United Parcel Service', 'address_original': '5700 Morrison Road, New Orleans, Louisiana 70126', 'date_notice': '7/30/26', 'date_action': '10/01/26', 'affected': '172', 'Industry': 'Couriers and Express Delivery Services'}"
+["Mosaic Company", "Uncle Sam - 7250 LA-44 \nConvent, LA 70723 \nFaustina \u2013 9959 LA-18  \nSt. James, LA 70086", "8/26/26", "10/30/26", "206", "Agricultural \nChemical \nManufacturing"]
+"\tSeems to be a regular row."
+"\t\t{'company_original': 'Mosaic Company', 'address_original': 'Uncle Sam - 7250 LA-44 Convent, LA 70723 Faustina \u2013 9959 LA-18 St. James, LA 70086', 'date_notice': '8/26/26', 'date_action': '10/30/26', 'affected': '206', 'Industry': 'Agricultural Chemical Manufacturing'}"
