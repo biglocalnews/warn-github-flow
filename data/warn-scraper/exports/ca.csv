@@ -137,7 +137,7 @@ notice_date,effective_date,received_date,company,city,num_employees,layoff_or_cl
 08/19/2026,10/19/2026,08/19/2026,"Stone Brewing CO., LLC - Citracado Parkway",,50,Closure Permanent,San Diego County,1999 Citracado Parkway  Escondido CA 92029,warn_report1.xlsx
 08/14/2026,10/13/2026,08/20/2026,"Flying Food Group, LLC",,72,Closure Permanent,San Mateo County,50 Adrian Ct  Burlingame CA 94010,warn_report1.xlsx
 08/12/2026,10/12/2026,08/20/2026,Silgan Containers,,120,Layoff Temporary,Stanislaus County,3250 Patterson Road  Riverbank CA 95367,warn_report1.xlsx
-08/19/2026,11/02/2026,08/20/2026,"Haas Automation, Inc.",,73,Layoff Permanent,Ventura County,2800 Sturgis Road  Oxnard CA 93030,warn_report1.xlsx
+08/19/2026,11/02/2026,08/20/2026,"Haas Automation, Inc.",,73,Relocation Permanent,Ventura County,2800 Sturgis Road  Oxnard CA 93030,warn_report1.xlsx
 08/21/2026,10/20/2026,08/21/2026,Blue Shield of California,,25,Layoff Permanent,Alameda County,601 12th Street  Oakland CA 94607,warn_report1.xlsx
 08/21/2026,10/20/2026,08/21/2026,Blue Shield of California (Building C),,1,Layoff Permanent,El Dorado County,"4203 Town Center Blvd., Building C  El Dorado Hills CA 95762",warn_report1.xlsx
 08/21/2026,10/20/2026,08/21/2026,Blue Shield of California (Building B),,12,Layoff Permanent,El Dorado County,"4203 Town Center Blvd., Building B  El Dorado Hills CA 95672",warn_report1.xlsx
@@ -154,6 +154,36 @@ notice_date,effective_date,received_date,company,city,num_employees,layoff_or_cl
 08/24/2026,10/25/2026,08/24/2026,"BFG Supply Co., LLC",,37,Layoff Permanent,San Bernardino County,2552 Shenandoah Way  San Bernardino CA 92407,warn_report1.xlsx
 08/24/2026,10/25/2026,08/24/2026,"BFG Supply Co., LLC",,2,Layoff Permanent,Yolo County,"3740 Seaport Boulevard, Suite 10  West Sacramento CA 95691",warn_report1.xlsx
 08/18/2026,08/17/2026,08/26/2026,"Levine Management Group, Inc.",,72,Layoff Permanent,Los Angeles County,822 S. Robertson Suite #200  Los Angeles CA 90035,warn_report1.xlsx
+08/27/2026,10/28/2026,08/27/2026,John Muir Physician Network - 5860 Owens Drive,,1,Layoff Permanent,Alameda County,5860 Owens Drive  Pleasanton CA 94588,warn_report1.xlsx
+08/27/2026,10/28/2026,08/27/2026,John Muir Health - Treat Blvd.,,23,Layoff Permanent,Contra Costa County,1400 Treat Boulevard  Walnut Creek CA 94597,warn_report1.xlsx
+08/27/2026,10/28/2026,08/27/2026,John Muir Health - 1450 Treat Blvd.,,4,Layoff Permanent,Contra Costa County,1450 Treat Boulevard  Walnut Creek CA 94597,warn_report1.xlsx
+08/27/2026,10/28/2026,08/27/2026,John Muir Health - 1601 Ygnacio Valley Road,,15,Layoff Permanent,Contra Costa County,1601 Ygnacio Valley Road  Walnut Creek CA 94597,warn_report1.xlsx
+08/27/2026,10/28/2026,08/27/2026,John Muir Health - 177 La Casa Via,,2,Layoff Permanent,Contra Costa County,177 La Casa Via  Walnut Creek CA 94598,warn_report1.xlsx
+08/27/2026,10/28/2026,08/27/2026,John Muir Health - 2540 East Street,,15,Layoff Permanent,Contra Costa County,2540 East Street  Concord CA 94520,warn_report1.xlsx
+08/27/2026,10/28/2026,08/27/2026,John Muir Health - 2540 East Street,,3,Layoff Permanent,Contra Costa County,2540 East Street  Concord CA 94520,warn_report1.xlsx
+08/27/2026,10/28/2026,08/27/2026,John Muir Health - 2740 Grant Street,,2,Layoff Permanent,Contra Costa County,2740 Grant Street  Concord CA 94520,warn_report1.xlsx
+08/27/2026,10/28/2026,08/27/2026,John Muir Health - 3480 Buskirk Ave.,,1,Layoff Permanent,Contra Costa County,3480 Buskirk Avenue  Pleasant Hill CA 94523,warn_report1.xlsx
+08/27/2026,10/28/2026,08/27/2026,John Muir Health - 5003 Commercial Circle,,2,Layoff Permanent,Contra Costa County,5003 Commercial Circle  Concord CA 94520,warn_report1.xlsx
+08/27/2026,10/28/2026,08/27/2026,John Muir Physician Network - 1450 Treat Blvd.,,6,Layoff Permanent,Contra Costa County,1450 Treat Boulevard  Walnut Creek CA 94597,warn_report1.xlsx
+08/27/2026,10/28/2026,08/27/2026,John Muir Physician Network - 1601 Ygnacio Valley Road,,1,Layoff Permanent,Contra Costa County,1601 Ygnacio Valley Road  Walnut Creek CA 94597,warn_report1.xlsx
+08/27/2026,10/28/2026,08/27/2026,John Muir Physician Network - 2700 Grant Street,,1,Layoff Permanent,Contra Costa County,2700 Grant Street  Concord CA 94520,warn_report1.xlsx
+08/27/2026,10/28/2026,08/27/2026,John Muir Behavioral Health - 2740 Grant Street,,1,Layoff Permanent,Contra Costa County,2740 Grant Street  Concord CA 94520,warn_report1.xlsx
+08/27/2026,10/28/2026,08/27/2026,John Muir Health - 2700 Grant Street,,1,Layoff Permanent,Contra Costa County,2700 Grant Street  Concord CA 94520,warn_report1.xlsx
+08/25/2026,10/23/2026,08/27/2026,RTX,,7,Layoff Permanent,Los Angeles County,2012 E El Segundo Blvd BLDG E07  El Segundo CA 90245,warn_report1.xlsx
+08/27/2026,11/03/2026,08/28/2026,Raley's Store No. 336,,51,Closure Permanent,Contra Costa County,2400 Sand Creek Rd.  Brentwood CA 94513,warn_report1.xlsx
+08/28/2026,11/02/2026,08/28/2026,Stanford Health Care - 1830 Embarcadero Rd.,,79,Layoff Permanent,Santa Clara County,1830 Embarcadero Rd  Palo Alto CA 94304,warn_report1.xlsx
+08/28/2026,11/02/2026,08/28/2026,Stanford Health Care - 1840 Embarcadero Rd.,,16,Layoff Permanent,Santa Clara County,1840 Embarcadero Rd.  Palo Alto CA 94304,warn_report1.xlsx
+08/28/2026,10/30/2026,08/28/2026,Blue Diamond Growers,,53,Layoff Permanent,Sacramento County,1802 C Street  Sacramento CA 95811,warn_report1.xlsx
+08/28/2026,11/06/2026,08/28/2026,"Power Safety Service, LLC",,189,Closure Permanent,San Joaquin County,5440 E. Harney Lane  Lodi CA 95240,warn_report1.xlsx
+08/28/2026,10/29/2026,08/28/2026,"Telecare Corporation - Brighter Tomorrow, Program 162",,23,Layoff Permanent,Ventura County,1750 B South Lewis Road  Camarillo CA 93012,warn_report1.xlsx
+08/28/2026,10/29/2026,08/28/2026,Telecare Corporation - House of Transitions,,16,Layoff Permanent,Ventura County,1750 C South Lewis Road  Camarillo CA 93012,warn_report1.xlsx
+08/28/2026,10/29/2026,08/28/2026,Telecare Corporation - Recovery Starship,,16,Layoff Permanent,Ventura County,1760 South Lewis Road  Camarillo CA 93012,warn_report1.xlsx
+08/28/2026,10/29/2026,08/28/2026,Telecare Corporation - Stonehedge,,13,Layoff Permanent,Ventura County,1758 South Lewis Road  Camarillo CA 93012,warn_report1.xlsx
+08/28/2026,09/30/2026,08/31/2026,Astrion,,28,Layoff Permanent,Kern County,305 E Popson Ave  Edwards CA 93524,warn_report1.xlsx
+08/28/2026,10/20/2026,08/31/2026,Amazon - SJC13,,70,Layoff Permanent,Santa Clara County,1160 Enterprise Way  Sunnyvale CA 94089,warn_report1.xlsx
+08/31/2026,12/16/2026,08/31/2026,"Synopsys, Inc.",,128,Layoff Permanent,Santa Clara County,675 Almanor Ave  Sunnyvale CA 94085,warn_report1.xlsx
+08/28/2026,10/20/2026,08/31/2026,Amazon - SF019,,78,Layoff Permanent,San Francisco County,350 Bush Street  San Francisco CA 94104,warn_report1.xlsx
+08/31/2026,09/15/2026,08/31/2026,"24Hr Homecare, LLC",,738,Layoff Permanent,Los Angeles County,"200 N. Pacific Coast Highway, Suite 300  El Segundo CA 90245",warn_report1.xlsx
 07/01/2025,09/02/2025,07/01/2025,Republic National Distributing Company,,104,Closure Permanent,Alameda County,,warn-report-for-7-1-25-to-6-30-26.pdf
 07/01/2025,07/01/2025,07/01/2025,Santa Fe Springs Swap Meet,,109,Layoff Not known at this time,Los Angeles County,,warn-report-for-7-1-25-to-6-30-26.pdf
 06/27/2025,08/26/2025,07/01/2025,Pocino Foods Company,,124,Closure Permanent,Los Angeles County,,warn-report-for-7-1-25-to-6-30-26.pdf
