@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "f403d946a30a09804e0828e5e86a3f0d9c8c92000ec4beea328d2eb66d3d2042"
+            "sha256": "3bc86d412079a1c1c09226838ae0b63d89a954e03d443d7bbaf37922344f1df5"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -744,11 +744,11 @@
         },
         "selenium": {
             "hashes": [
-                "sha256:2eac6b8e7c017f57ecc40820383da8881a6fd7a90ea555c1b0af322f2344b347",
-                "sha256:4f6667c23080646e045fb91d2039687e88f549d667961f6ce85832b17384b68e"
+                "sha256:045c1ec054c94e3be6c10febc509aa513b4c05e9146d1a9cf3de5375ec6ca2a1",
+                "sha256:b2a1d77019db92513e59aa2376710fe3d42b65a4d493dccd0c799c1a0d574d93"
             ],
             "markers": "python_version >= '3.10'",
-            "version": "==4.47.0"
+            "version": "==4.48.0"
         },
         "six": {
             "hashes": [
@@ -834,11 +834,11 @@
         },
         "warn-scraper": {
             "hashes": [
-                "sha256:16deeeb58f069ae32be3142721396200dcd3e6e70923ff161070f6e6feb3714e",
-                "sha256:7e602270abbe6a427f132dd837eabd57728218ebd8061d0b00319383abfe9c1b"
+                "sha256:4b786581a47f0b0f4c456be0bbdf4386d0e4a7b509c2940f286b607d41619b94",
+                "sha256:8671dd8468b4a2237d3eed29297f74d204cb342598b231af090d1ce1d37952ba"
             ],
             "index": "pypi",
-            "version": "==1.2.175.dev0"
+            "version": "==1.2.176.dev0"
         },
         "warn-transformer": {
             "hashes": [
@@ -867,11 +867,11 @@
         },
         "websocket-client": {
             "hashes": [
-                "sha256:9e813624b6eb619999a97dc7958469217c3176312b3a16a4bd1bc7e08a46ec98",
-                "sha256:af248a825037ef591efbf6ed20cc5faa03d3b47b9e5a2230a529eeee1c1fc3ef"
+                "sha256:0fcb57545848be86992e128218fd96dd87a6769ffdb1a968dff79632b85604d0",
+                "sha256:e1a673830a9c7bfa47b1cd3d5e4178f4c9651d80a4eab02c9c23a1c3ec6250ce"
             ],
-            "markers": "python_version >= '3.9'",
-            "version": "==1.9.0"
+            "markers": "python_version >= '3.10'",
+            "version": "==1.9.2"
         },
         "wsproto": {
             "hashes": [
