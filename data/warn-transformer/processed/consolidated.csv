@@ -1129,9 +1129,9 @@ c6013c4ef752bdf2a113c17b8e5f140dfdd6f2efb93d61c9cd3f76b0,AL,BBVA COMPASS,Birming
 a9e624f6d267de53f32ea2b8232e5e8d785f1fefa18305423a218446,AL,PLIANT CORPORATION,Birmingham,2001-02-28,2001-04-28,94,,True,False
 25c78760aa50472be6f69ae0b72a323fb8ddbb96f113f0d9179b01ed,AZ,"Block, Inc.",Oakland,2026-02-26,,83,,,False
 b4c029bb5e7b546a39466d2fcd1480c0abd637dbe71a7aff75ff11cf,AZ,C2 Technologies,Mc Lean,2026-03-05,,1,,,False
-18982734e551911a460c2215f483ff9475c6c22b1fd0ff0092c84ffa,AZ,"Sinomax East, Inc.",Houston,2026-03-26,,,,,False
-36eeccbd9906a4b231287ccbfbd0db94cd986c91a9f71b38a9ee63d6,AZ,GNC Distribution Center,Phoenix,2026-01-07,,,,,False
-ed8683945bf1ed8be3d6f59c8c7cbc42ce3df5485b3f7da046bf2539,AZ,"Aramark Campus, LLC",Vail,2026-04-01,,,,,False
+7f5b3ce668a94038c82f9b4221d0bee215b42b899536f9f31dd0f50a,AZ,"Sinomax East, Inc.",Houston,2026-03-26,,89,,,False
+ad33cd36aac36296705680821e23f7fa74b9e5cdc43ab12782e08c30,AZ,GNC Distribution Center,Phoenix,2026-01-07,,66,,,False
+cd5f67dec625f4627b5cd8e8b99984e300934192552ad6093ed09e83,AZ,"Aramark Campus, LLC",Vail,2026-04-01,,108,,,False
 57ca750bac957e8109b1d883f11d247c37271aa0c7cacde8fb26226b,AZ,"Catholic Community Services of Southern Arizona, Inc.",Tucson,2026-04-08,,,,,False
 74242047fcd038b5e9e6e2e9616efe396b824eb0a163e0264dafb8d3,AZ,VisionQuest National LTD,Tucson,2026-04-09,,203,,,False
 1740d6d9fdafa7d2c62aebf1b4aa93b0fe81dabc7ccc8f90a3b603cb,AZ,"The Tendit Group, LLC.",Phoenix,2026-04-14,,143,,,False
@@ -1140,18 +1140,58 @@ d7d156a818db066245f33ced1f50b2b1fd8b46a57ea38793f88e2a36,AZ,Paragon Space Develo
 dd22e30f0f198813312ba24d29b3ecf6d701f356c540870b67e28278,AZ,Northpoint Expeditionary Learning Academy,Prescott,2026-04-29,,,,,False
 a01fa2d771bda5059cf54fabf131789775b65ca0ea6356c9668bdca7,AZ,"Republic National Distributing Company, LLC",Phoenix,2026-04-23,,,,,False
 cd111709153eb0c68d82b103144b3b2ac1b8ef44d469383d788186d8,AZ,Federal Express Corporation,Phoenix,2026-06-02,,,,,False
-bb5a048ee2a97c5ec5c2339c31d96796912a402f8ee4ed1a46c480a1,AZ,DLH Solutions,Tucson,2026-04-17,,312,,,False
-91925394750144bf4df781c2416543ec1d24cc2b999751fa60adcfac,AZ,Essendant,Phoenix,2026-08-04,,53,,,False
+4268db0c189fb27c0eabe7ad6bd3632f5b400839cb668a2e18691bf3,AZ,DLH Solutions,Tucson,2026-04-17,,,,,False
+e87cbc755df82d84893d908045da19331fe769f2ae329ba0d7b70608,AZ,Essendant,Phoenix,2026-08-04,,,,,False
 2af9313edb4008310891010bd81c3ada3a54c83e2a011a5d182fc99a,AZ,Avelo Airlines,Mesa,2026-01-07,,97,,,False
-f5cd55c6b8306daf5c2fc7d6bcb9e80fe52aea0d5c6a7a9af7f87af7,AZ,SMBC Group - JeniusBank,Scottsdale,2026-01-08,,,,,False
-7974c2d948e791f7f00fbbc59a0d8abecf00ab0a185f5ba8e481be9b,AZ,Benchmark,Phoenix,2026-04-29,,,,,False
+e5ffebca1c4ad75327f9a0e1b504b68f2e03c7133a85a3e028b2d62b,AZ,SMBC Group - JeniusBank,Scottsdale,2026-01-08,,33,,,False
+4b64fe2b1edc48502ebc280371db62727305b0544bbdcfeb87e9c6be,AZ,Benchmark,Phoenix,2026-04-29,,75,,,False
 105a13006b9322a59fec82e9bfaf8f74bbc1d505b7da10dedcaa8767,AZ,"SDH Education West, LLC",Phoenix,2026-05-14,,,,,False
 c69b0f541e7eb8a197c2ad4ee3c3cc397dfc2db465b57e0511e2345c,AZ,Honeywell AZ0Y,Chandler,2026-05-27,,,,,False
 24cf9121c47ed25913b7d9a9d8f0a686cb0d2b9b84b32f811878eee2,AZ,SMBC MANUBANK,New York,2026-06-04,,,,,False
 ea2aa12e7471a0435c141b32f5781b60a67114384cb983f0d3ad6be4,AZ,"Leona Arizona Employment Group, Inc.",Phoenix,2026-06-16,,,,,False
-82edd1bec99b686d2054de383505cd04fce3bbfd9e3d173dd7611024,AZ,"Conduent Commercial Solutions, LLC",Florham Park,2026-06-29,,3,,,False
+961d8d5ad036e097f80eaa0c2a054b666f9e4d264126523e899b262d,AZ,"Conduent Commercial Solutions, LLC",Florham Park,2026-06-29,,,,,False
 85def653582825ab0ab0abdb038aaf0a2d955448f7309318cfab99b4,AZ,Benchmark,Phoenix,2026-01-27,,65,,,False
 adc257a79022d2dc4cc58745ec70d565fd11d6da624caf4c5e0d4e7e,AZ,Shell Recharge Solutions,Los Angeles,2026-01-29,,2,,,False
+d1a4bfd2bbb3f09530f0484d7af67bd1a08f2e81f10cf7ac9394b411,AZ,"Automated Harvesting, LLC.",Yuma,2026-01-30,,,,,False
+79643c7407dba2843e9d1922ebc661480d461104d05bab2ae668cae5,AZ,Liberty Dental Plan,Tustin,2026-02-05,,,,,False
+dcfc95f936613b80f32be3ca22c2f8fd1efd730ba5958ca6843dd1fc,AZ,Saks & Company LLC,Phoenix,2026-02-10,,,,,False
+240810edc5220a560d7dc2c116d08650b5e55c5a27283ae0971d68cf,AZ,"Lowe's Companies, Inc.",Mooresville,2026-02-16,,,,,False
+bcf5d78fbafa758b993bf448abcff00bc5bcc31e572cb95d20d7b045,AZ,Ingram Micro Services LLC,Chandler,2026-06-24,,75,,,False
+16a479aee178292d5dfb59f1a2d18b60c1120bea892699f889d8ca39,AZ,"Lucid USA, Inc.",Casa Grande,2026-06-22,,705,,,False
+c2c474eab2cca74e7ae397701cc9bd0fcfccbcb4364ee0f28f9b9f19,AZ,"Central Admixture Pharmacy Services, Inc.",Phoenix,2026-06-25,,116,,,False
+55c6ceaf60a6161ab6da5e694114200f435119cda8fdfea0f7d5c8f3,AZ,"National Distribution Centers, LLC",Waddell,2026-05-21,,,,,False
+045e1d137e7cf8ca6027b4e390988609725587195eff1d216c9f3953,AZ,Select Medical Corporation,Tucson,2026-07-09,,,,,False
+5e23de9d3a82dd841626904bde18830b4a5dd9220a482e82030609bb,AZ,Infineon Technologies America Corp,Mesa,2026-08-03,,,,,False
+587a5e9cab2be3354a58d6533778ea349245aeae855f89610e33923d,AZ,SMBC MANUBANK,New York,2026-08-11,,,,,False
+b55c242754dd0e5e65a6cd47d786a033590300ead32cc551397eee8c,AZ,"Pinnacle Transplant Technologies, LLC",Phoenix,2026-08-17,,,,,False
+85f11f502711b64468dc82b71c74b60fd6d58debd828eda1b3c9ad92,AZ,Salad and Go,Phoenix,2026-08-04,,,,,False
+f76623b9242ed8729958fedc69fe2b9aed44bc74797a92a4616930c7,AZ,Amentum,Chandler,2026-08-21,,75,,,False
+9c0cbaf2efb99b174d107604063cd9833da9e5055672e25ef0d93093,AZ,Advanced Call Center Technologies (ACT),San Luis,2026-05-01,,232,,,False
+cc81b96ddaf16990349659559bec904ac91eb91a6398b79e40b24c6b,AZ,Safeway Inc.,Phoenix,2025-01-14,,,,,False
+8baa89a8eb9b7d7b8b301a961ef72081c2e8b019b420be87be05fc71,AZ,DFC,Chandler,2025-04-29,,,,,False
+dc04ae92bfbbd7aa754e56906ee058361cca05fc9e134715f1ca93ef,AZ,ManpowerGroup US Inc.,Goodyear,2025-01-27,,,,,False
+8e9e1c9ab67aa44bf9a5fc6e357b982fcb34ed37a9e4bb2ba778d691,AZ,Nikola Corporation,Phoenix,2025-02-19,,,,,False
+3bb90511bc44272f8598f92eb9c67e77ee49a02b3d88f07f491eb108,AZ,Nikola Corporation,Coolidge,2025-02-19,,,,,False
+6189f35a69deda0ea7b663803e2466aec30f41f6f7d61d8b937427ed,AZ,Behavioral Health Link,Atlanta,2025-02-19,,2,,,False
+0d10c297b49fbe85d8ced164733e62f76218c4327650b06d673238ec,AZ,"Veyer, LLC",Phoenix,2025-02-28,,60,,,False
+06fba85da223104d6a6706757105626df3235c8b064fbf54d36becdf,AZ,LUKE Holding Inc.,Tucson,2025-02-28,,34,,,False
+e3fb51583e9c56f005728e8dbd4420b073bf2ada8f40e5b8d644e272,AZ,LUKE Holding Inc.,Nogales,2025-02-28,,,,,False
+b62769727d65d98ff52e1fe37fc8935c8f9bd6285170612dc25f249b,AZ,LUKE Holding Inc.,Yuma,2025-02-28,,,,,False
+d3507d3de06c5d4b9b14003830375d81975db1da2d47ff9b7d96657b,AZ,Microchip,Tempe,2025-03-03,,,,,False
+e79981a4c17f55ec73260b0a99c1c35fd3cff5b132afe2419e9617dd,AZ,"TXP - Transfer Express, Inc.",Chandler,2025-04-29,,,,,False
+5ec137ee3b765b8a9446853379fc5541f83f736a02b252c05c002d58,AZ,"Tilson Technology Management, Inc.",Chandler,2025-05-05,,,,,False
+3eb3f0cfb06ed058a8ceac8f9a7bf7a88ff61e9d0ec343b65e12bf35,AZ,District Medical Group (Children's Rehabilitative Services),Phoenix,2025-04-25,,118,,,False
+9d798f9a6bd92070f3a016bffc9c0291269994467846c19a2b034cb5,AZ,DLP Services,Yuma,2025-03-19,,218,,,False
+402382c06d535d3180525155330846c73a52bed93219669aa5c9f117,AZ,"Block, INC.",Oakland,2025-03-25,,29,,,False
+62a84d9506200f6dea8fc7c375b4a60339263e42aac58b470ae78612,AZ,General Dynamics Information Technology,Falls Church,2025-03-28,,,,,False
+2d77998d9a581934dbc3e410791db2374ded356f153cad8fe16aace8,AZ,Berger Logistics,Phoenix,2025-04-01,,,,,False
+36b5f47bf9389f64f624d08501a7e8f524fa8f1758741681bc0a3c21,AZ,"Crisis Preparation & Recovery, Inc.",Phoenix,2025-05-06,,,,,False
+0dc47125d100e52d0a752f8262b682b9a33f50edce311360d92dda8f,AZ,"Franklin Foods, Inc.",Casa Grande,2025-12-05,,,,,False
+77411ec030cd75c8033e785a982c8c89e6e3c878a23e2e8a64cb51ee,AZ,Florence Immigrant & Refugee Rights Project,Phoenix,2025-05-16,,,,,False
+61f43cc97ba26580a2751d42fce9185447e80e7776efd864998c23cf,AZ,Meyer Burger Americas,Goodyear,2025-05-22,,,,,False
+b09525476c65c43095acc8891b75f0ef3cfc1e22267050fbf81868c0,AZ,Nordstrom Credit Bank,Englewood,2025-05-29,,9,,,False
+6d4b99d14dce6581bedb8e8f6df64051c9e324e0e1e09435c043b785,AZ,iQor Holdings US LLC,Tempe,2025-05-30,,148,,,False
+406bcc29772e279d936c81044533e598bb956b018d72b7bd98496938,AZ,US Cellular Corporation,Chicago,2025-05-22,,205,,,False
 1b3860a8b2aa6c36b118ec1e1a3f2de609cc477b44c2b36da1aeb6ff,AZ,XPO Logistics,Phoenix,2021-01-29,,85,,,False
 4c3716c0fccb38722daaa38db874a5f640bbd6d65043e1fa6a2faba4,AZ,AeroGuard,"5 - City of Phoenix, Phoenix Workforce Connection",2021-02-12,,92,,,False
 4eab9e1601cc67d8cc37758b1f5a2a8f729de7461e7e3649d545fdc2,AZ,Collins Aerospace,Phoenix,2021-03-15,,95,,,False
@@ -20185,9 +20225,7 @@ dbfa87a1e1660f1a84317011687b80d83355d28cfa6aa963c6a7fb73,DC,Groupon Inc.,Washing
 2db023842faba1505956295c5b8d663ba2963b89ef698f2d83ef188c,DC,Gap Solution,Washington D.C.,2017-02-02,2017-02-11,85,,,False
 8259d6b88854bcb6b86dd4fb88244f74b83b2cc422d72ef1f3da2604,DE,"Atlas Hospitality Group, LLC",Baltimore,2026-04-30,,67,,,False
 081963141acbbc6b0d431daa5e99ebd0f4783451ce6370828930a32a,DE,Conduent,Florham Park,2026-06-29,,1,,,False
-84b9c2a07a1e6465f8930562afbfd29f0664281126b4181d397cb779,DE,JeniusBank,New York,2026-08-10,,106,,,False
-2ef3cfa0903c06a686201abe67e125901a88e1932514292279d2d945,DE,Quality Built LLC,Fort Lauderdale,2025-07-07,,2,,,False
-3c2d9b5db4371b7ab9f6bae1a76e1534a669dd2a96e30a3509865aa2,DE,"Harrington Logistics, LLC",Harrington,2025-03-31,,,,,False
+f038aef72c8b5e21fc67cbf0b51c6d0e9376024d8e1b46ff12bf2e0f,DE,JeniusBank,New York,2026-08-10,,,,,False
 b00ba02116bcb624c45bd9e31bd1be79de485023700ec1f1d5968f2b,DE,ILC Dover,Frederica,2023-04-26,,41,,,False
 71d225c4de17f33e8aa71f9e0e57fe2a35b1d874414c41c033760b32,DE,"Centurion of Delaware, LLC",Dover,2023-05-09,,572,,,False
 747e616e2b732e843f3c6dcb18c7a56fd76a1ccb736e947bdcab84b3,DE,Zenith Home Corp.,New Castle,2022-12-13,,91,,,False
@@ -35149,19 +35187,19 @@ a6d6f34edcece7fba0c92ab9ecdce6e3c40a4a23128883ce85cc61d0,IN,"Mitsubishi Heavy Eq
 6c3cc2b13bb66808792bceef955d2db9f77708af77679116afe04a50,KS,Ashley Clinic/Southeast Kansas Mental Health Center,Iola,2026-03-27,,116,,,False
 009f489c058fa3c7dfc4a9f45b9551502a207ef0f3f621b746382712,KS,First Student,Cincinnati,2026-05-01,,151,,,False
 f13074fdd689884c8b382270c076e9212ea63151870b28d3536a3beb,KS,"First Brands Group, LLC (Horizon Global)",Edgerton,2026-02-27,,64,,,False
-413cae5e24b9c2d7cd0e1a4864f5f2a9fc0d12032955f34c540f9103,KS,"Vornado Air, LLC.",Andover,2026-01-30,,72,,,False
+4c8b8d5d6b6d58ff8bfaa7f98927bb2bccc3ff3dd332f936f92f8965,KS,"Vornado Air, LLC.",Andover,2026-01-30,,,,,False
 fa01545805f228b83218c2356130f2df9541cad7bcf0ed64dca4ed8e,KS,Lowe's,Charlotte,2026-02-13,,3,,,False
 e2b17548e2a2b1dac52f679321279e84dbbc9800cab93acccee56853,KS,S&S Activewear,Edwardsville,2025-01-20,,86,,,False
-9e0ec7bdf9419e25860e9c13e44aca1897f8f7c7fe562c86b154c23d,KS,"Jack Cooper Transport Company, LLC",Kansas City,2025-02-10,,102,,,False
+2b73cbe53a61c84a017193ee5cfe20f466bca275f0804b467d3374b2,KS,"Jack Cooper Transport Company, LLC",Kansas City,2025-02-10,,,,,False
 44020a7c8f8484a61d05a68e2602ad8632f9dad624e7abe58ed52fdf,KS,DEMDACO,Leawood,2025-05-21,,52,,,False
 2b87cb867d6988a38654445c1068b16924ad9db20a5c5ff62b17553d,KS,Coperion K-Tron,Salina,2025-01-22,,98,,,False
 add71cdddcf265b3c05534a4eef72356f565bb6f1ddc0c18a7dda710,KS,"SPO Management, LLC",Manhattan,2025-07-29,,72,,,False
-e4ea0e35efb13199d8343bcb2b2da0b667ac20142cef941c3b94de79,KS,United BioSource LLC (UBC),Overland Park,2025-09-26,,123,,,False
+75cb6b0eb64c28308cace3ce1ce4df42e592724391993664034c2ab0,KS,United BioSource LLC (UBC),Overland Park,2025-09-26,,,,,False
 fad6a595d15662996abbd9513f9d9292ffc03f5cfd039c4e756c04a6,KS,"Gates Corporation ""Gates""",Iola,2025-10-02,,81,,,False
 c829d1c12af2269aa7b066b96403333dc681a2e21d18f8181d2cdff4,KS,TC Transcontinental,Lenexa,2025-02-26,,45,,,False
 d2492363f6a7c8b525160a2ca151ad7261e4c15590a63fe3bb7058f5,KS,Unrivaled Teamwear,Manhattan,2025-07-29,,72,,,False
-e318c77b376aea1bd5e305ac662412816c392a33021088402aef0957,KS,ORBIS Corporation,Osage City,2025-03-21,,79,,,False
-8c28ddee18b4e1c69820f47beb29e6e58e31226ff11c2d99458e5c91,KS,"Panera, LLC",Lenexa,2025-03-21,,59,,,False
+2ce880d880813f70c07db1b29530bfb5b825f3fe56ca38f72b2d6310,KS,ORBIS Corporation,Osage City,2025-03-21,,,,,False
+e5a8a1387bc6f2716edd99be139e58cbc11c459644e78b8e49de83c7,KS,"Panera, LLC",Lenexa,2025-03-21,,,,,False
 6bd2bb72050f0775334f65af0d350f365bec5dd265e9fc87d9251249,KS,Federal Express Corporation (FedEx),Wichita,2025-04-30,,72,,,False
 b4f33bcfa2ec970cbcb0fb47a172b80375b699f9030431ef26fd834d,KS,"Veyer, LLC",Edwardsville,2025-05-16,,77,,,False
 031fe325a546992c644bcca027968564e7a5ed59d1529287384b6619,KS,Unidine,Wichita,2024-01-02,,67,,,False
@@ -39946,8 +39984,8 @@ d179fb4d2a97c26bc83fd627fd6e32e51eaabb04fa70ed3d3dc4a3f6,ME,US Cellular,Washingt
 744e7067ae9537b29efdae9c5b7d3aedb5e9f5051482062f61699ba8,ME,Northern Light - Inland Hospital,Waterville,2025-03-25,,50,,,False
 26ed15e2a148274e25016d110d7af5fb54213d5da25e9e58199a1711,ME,Charter Communications,Portland,2025-12-10,,176,,,False
 bf86105a40316ad4d4805e9c59259813df681127a485a5711d46f908,ME,Bon Appetit,Waterville,2025-04-10,,187,,,False
-f736f477b1b9ce40e1e9a9a105983e1fde5b160f3b674cebedbf26f5,ME,Trans Axle,Westbrook,2025-05-16,,18,,,False
-428f72aef38ce8696ae1a067b5c327c687b18ef8842bd5981db7a44b,ME,Loring Job Corps Center,Limestone,2025-06-03,,114,,,False
+47c536a51540300eb1ad9b7ea13f28f80c15844745421f274319aa73,ME,Trans Axle,Westbrook,2025-05-16,,,,,False
+4a17a3d614e54a4608b505e3f2e4698729a1c99b2d75a39af7f1bb20,ME,Loring Job Corps Center,Limestone,2025-06-03,,,,,False
 bcde8f1750782c2e39ce9435c18e8ee44d73d9ce92af135b1e3d5add,ME,Onsemi,South Portland,2024-06-13,,53,,,False
 77431464ff32c27646517c4bc5d2fe0a7a1a20ac866e155054db8827,ME,Yelloh!,Hermon,2024-09-23,,14,,,False
 463869ed93850ba8fa3ab5f52d78ae579df975677f32bd2486441f9c,ME,Vimo dba GetInsured,Augusta,2024-12-27,,1,,,False
