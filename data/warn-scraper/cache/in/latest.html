@@ -1124,6 +1124,7 @@ https://cloud.subscription.in.gov/pageWatchPopup?formUrl=https://cloud.subscript
             var tableSelector = $('[for="6c2b6ddebc"].table-sortable table');
             var tableObj = tableSelector.DataTable({
     	        dom: '<"dtControls_top"lfp>t<"dtControls_btm"iBp>',
+                orderDescReverse: false,
                                     order: [[3, 'desc']],
                                                 pageLength: 50,
                                 columnDefs: [{ targets: "_all", defaultContent: "&nbsp;" }],
