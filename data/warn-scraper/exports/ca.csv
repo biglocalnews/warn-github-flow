@@ -137,7 +137,7 @@ notice_date,effective_date,received_date,company,city,num_employees,layoff_or_cl
 08/19/2026,10/19/2026,08/19/2026,"Stone Brewing CO., LLC - Citracado Parkway",,50,Closure Permanent,San Diego County,1999 Citracado Parkway  Escondido CA 92029,warn_report1.xlsx
 08/14/2026,10/13/2026,08/20/2026,"Flying Food Group, LLC",,72,Closure Permanent,San Mateo County,50 Adrian Ct  Burlingame CA 94010,warn_report1.xlsx
 08/12/2026,10/12/2026,08/20/2026,Silgan Containers,,120,Layoff Temporary,Stanislaus County,3250 Patterson Road  Riverbank CA 95367,warn_report1.xlsx
-08/19/2026,11/02/2026,08/20/2026,"Haas Automation, Inc.",,73,Relocation,Ventura County,2800 Sturgis Road  Oxnard CA 93030,warn_report1.xlsx
+08/19/2026,11/02/2026,08/20/2026,"Haas Automation, Inc.",,73,Relocation Permanent,Ventura County,2800 Sturgis Road  Oxnard CA 93030,warn_report1.xlsx
 08/21/2026,10/20/2026,08/21/2026,Blue Shield of California,,25,Layoff Permanent,Alameda County,601 12th Street  Oakland CA 94607,warn_report1.xlsx
 08/21/2026,10/20/2026,08/21/2026,Blue Shield of California (Building C),,1,Layoff Permanent,El Dorado County,"4203 Town Center Blvd., Building C  El Dorado Hills CA 95762",warn_report1.xlsx
 08/21/2026,10/20/2026,08/21/2026,Blue Shield of California (Building B),,12,Layoff Permanent,El Dorado County,"4203 Town Center Blvd., Building B  El Dorado Hills CA 95672",warn_report1.xlsx
@@ -229,6 +229,45 @@ notice_date,effective_date,received_date,company,city,num_employees,layoff_or_cl
 09/14/2026,11/15/2026,09/15/2026,"DesigneRx Pharmaceuticals, Inc.",,7,Closure Permanent,Solano County,"4941 Allison Parkway, Suite B  Vacaville CA 95688",warn_report1.xlsx
 09/01/2026,11/01/2026,09/16/2026,Pathways Community Services dba Clarvida,,35,Closure Permanent,Orange County,1360 S. Anaheim Blvd. Suite 101  Anaheim CA 92805,warn_report1.xlsx
 09/01/2026,11/01/2026,09/16/2026,Pathways Community Services dba Clarvida,,32,Closure Permanent,Orange County,1401 N Tustin Ave #225  Santa Ana CA 92706,warn_report1.xlsx
+09/16/2026,09/15/2026,09/17/2026,Maya Cinemas Fresno 16,,86,Closure Permanent,Fresno County,3090 E. Campus Pointe Dr.  Fresno CA 93710,warn_report1.xlsx
+08/18/2026,10/20/2026,09/17/2026,"Levine Management Group, Inc. - 822 SRobertson",,17,Layoff Not known at this time,Los Angeles County,822 S Robertson Blvd. Ste 200  Los Angeles CA 90035,warn_report1.xlsx
+08/18/2026,10/20/2026,09/17/2026,"Levine Management Groups, Inc. - Candlewood",,2,Layoff Not known at this time,Los Angeles County,4051 Candlewood St.  Lakewood CA 90712,warn_report1.xlsx
+08/18/2026,10/20/2026,09/17/2026,"Levine Management Groups, Inc. - San Dimas",,3,Layoff Not known at this time,Los Angeles County,2400 San Dimas Canyon Rd.  La Verne CA 91750,warn_report1.xlsx
+08/18/2026,10/20/2026,09/17/2026,"Levine Management Groups, Inc. - Ratner St.",,1,Layoff Not known at this time,Los Angeles County,10986 W. Ratner St.  Sun Valley CA 91352,warn_report1.xlsx
+08/18/2026,10/20/2026,09/17/2026,"Levine Management Groups, Inc. 95th Street",,2,Layoff Not known at this time,Los Angeles County,1351 W. 95th Street  Los Angeles CA 90044,warn_report1.xlsx
+08/18/2026,10/20/2026,09/17/2026,"Levine Management Groups, Inc. - Towne Avenue",,4,Layoff Not known at this time,Los Angeles County,425 Towne Avenue  Los Angeles CA 90013,warn_report1.xlsx
+08/18/2026,10/20/2026,09/17/2026,"Levine management Groups, Inc. - Normandie Ave",,2,Layoff Not known at this time,Los Angeles County,6525 Normandie Ave.  Los Angeles CA 90044,warn_report1.xlsx
+08/18/2026,10/20/2026,09/17/2026,"Levine Management Group, Inc. - Rural Dr.",,4,Layoff Not known at this time,Los Angeles County,234 N. Rural Dr.  Monterey Park CA 91755,warn_report1.xlsx
+08/18/2026,10/20/2026,09/17/2026,"Levine Management Group, Inc. - James M. Wood Blvd",,2,Layoff Not known at this time,Los Angeles County,2300 James M. Wood Blvd.  Los Angeles CA 90006,warn_report1.xlsx
+08/18/2026,10/20/2026,09/17/2026,"Levine Management Group, Inc. - Gale Ave.",,2,Layoff Not known at this time,Los Angeles County,15554 Gale Ave.  Hacienda Heights CA 91745,warn_report1.xlsx
+08/18/2026,10/20/2026,09/17/2026,"Levine Management Groups, Inc. - Potrero Grande",,1,Layoff Not known at this time,Los Angeles County,1301 Potrero Grande Dr.  Rosemead CA 91770,warn_report1.xlsx
+08/18/2026,10/20/2026,09/17/2026,"Levine Management Groups, Inc. - Mesa St.",,2,Layoff Not known at this time,Los Angeles County,805 S. Mesa St.  San Pedro CA 90731,warn_report1.xlsx
+08/18/2026,10/20/2026,09/17/2026,"Levine Management Groups, Inc. - 900-906 Crenshaw Blvd",,1,Layoff Not known at this time,Los Angeles County,900-906 Crenshaw Blvd.  Los Angeles CA 90019,warn_report1.xlsx
+08/18/2026,10/20/2026,09/17/2026,Levine Management Groups. Inc. - Kingsley Dr.,,1,Layoff Not known at this time,Los Angeles County,540-542 Kingsley Dr.  Los Angeles CA 90020,warn_report1.xlsx
+08/18/2026,10/20/2026,09/17/2026,"Levine Management Groups, Inc. - Beachwood Dr.",,1,Layoff Not known at this time,Los Angeles County,2100 N. Beachwood Dr.  Los Angeles CA 90068,warn_report1.xlsx
+08/18/2026,10/20/2026,09/17/2026,"Levine Management Groups, Inc. - Manhattan Pl",,1,Layoff Not known at this time,Los Angeles County,1257 S. Manhattan Pl.  Los Angeles CA 90019,warn_report1.xlsx
+08/18/2026,10/20/2026,09/17/2026,"Levine Management Groups, Inc. - Valley Blvd.",,4,Layoff Not known at this time,Los Angeles County,2775 E. Valley Blvd.  West Covina CA 91792,warn_report1.xlsx
+08/18/2026,10/20/2026,09/17/2026,"Levine Management Groups, Inc. - 1053 S. New Hampshire Ave.-",,1,Layoff Not known at this time,Los Angeles County,1053 S. New Hampshire Ave.  Los Angeles CA 90006,warn_report1.xlsx
+08/18/2026,10/20/2026,09/17/2026,"Levine Management Groups, Inc. - 1057 S, New Hampshire Ave",,1,Layoff Not known at this time,Los Angeles County,1057 New Hampshire Ave.  Los Angeles CA 90006,warn_report1.xlsx
+08/18/2026,10/20/2026,09/17/2026,"Levine Management Groups, Inc. - 980 Palm Ave.",,2,Layoff Not known at this time,Los Angeles County,980 Palm Ave.  West Hollywood CA 90069,warn_report1.xlsx
+08/18/2026,10/20/2026,09/17/2026,"Levine Management Groups, Inc. - Arrow Highway",,1,Layoff Not known at this time,Los Angeles County,837 E. Arrow Highway  Pomona CA 91767,warn_report1.xlsx
+08/18/2026,10/20/2026,09/17/2026,"Levine Management Groups, Inc. - Glendale Blvd",,1,Layoff Not known at this time,Los Angeles County,153 Glendale Blvd.  Los Angeles CA 90026,warn_report1.xlsx
+08/18/2026,10/20/2026,09/17/2026,Leveine Management Groups - 415 S. Oleander Ave.,,1,Layoff Not known at this time,Los Angeles County,"415 S. Oleander Ave,  Compton CA 90220",warn_report1.xlsx
+08/18/2026,10/20/2026,09/17/2026,"Levine Management Groups, Inc. - 425 S. Oleander Ave.",,3,Layoff Not known at this time,Los Angeles County,425 S. Oleander Ave.  Compton CA 90220,warn_report1.xlsx
+08/18/2026,10/20/2026,09/17/2026,"Levine Management Groups, Inc. - Canada Blvd.",,1,Layoff Not known at this time,Los Angeles County,2615 Canada Blvd.  Glendale CA 91208,warn_report1.xlsx
+08/18/2026,10/20/2026,09/17/2026,"Levine Management Groups, Inc. - Sunset Pl.",,2,Layoff Not known at this time,Los Angeles County,2848 Sunset Pl.  Los Angeles CA 90005,warn_report1.xlsx
+08/18/2026,10/20/2026,09/17/2026,"Levine Management Groups, Inc. - Cypress Road",,2,Layoff Not known at this time,Ventura County,5493 Cypress Road  Oxnard CA 93033,warn_report1.xlsx
+08/18/2026,10/20/2026,09/17/2026,"Levine Management Groups, Inc. - Ponderosa Dr.",,2,Layoff Not known at this time,Ventura County,2105 E. Ponderosa Dr.  Camarillo CA 93010,warn_report1.xlsx
+08/18/2026,10/20/2026,09/17/2026,"Levine Management Groups, Inc. - Carmelita Ct.",,1,Layoff Not known at this time,Ventura County,201 Carmelita Ct.  Oxnard CA 93030,warn_report1.xlsx
+09/17/2026,12/18/2026,09/17/2026,"Amy's Kitchen, LLC",,200,Closure Permanent,Sonoma County,2330 Northpoint Parkway  Santa Rosa CA 95407,warn_report1.xlsx
+09/17/2026,11/20/2026,09/18/2026,"Safeway, Inc. - Stoneridge Mall Road",,4,Layoff Permanent,Alameda County,5918 Stoneridge Mall Road  Pleasanton CA 94588,warn_report1.xlsx
+09/17/2026,11/20/2026,09/18/2026,"Safeway, Inc. - Dublin Canyon Road",,46,Layoff Permanent,Alameda County,11555 Dublin Canyon Road  Pleasanton CA 94588,warn_report1.xlsx
+09/18/2026,09/30/2026,09/18/2026,Intel Corporation - Robert Noyce Building,,22,Layoff Permanent,Santa Clara County,2200 Mission College Boulevard  Santa Clara CA 95054,warn_report1.xlsx
+09/18/2026,09/30/2026,09/18/2026,"Intel Corporation, Inc. - SC-9",,5,Layoff Permanent,Santa Clara County,3601 Juliette Lane  Santa Clara CA 95054,warn_report1.xlsx
+09/18/2026,09/30/2026,09/18/2026,Intel Corporation - SC-11,,1,Layoff Permanent,Santa Clara County,2191 Laurelwood Rd.  Santa Clara CA 95054,warn_report1.xlsx
+09/18/2026,09/30/2026,09/18/2026,Intel Corporation - SC-12,,24,Layoff Permanent,Santa Clara County,3600 Juliette Lane  Santa Clara CA 95054,warn_report1.xlsx
+09/18/2026,11/17/2026,09/18/2026,"IPS Nationwide, Inc.",,212,Layoff Permanent,Alameda County,"39899 Balentine Dr., Unit 200, Suite #228  Newark CA 94560",warn_report1.xlsx
+09/18/2026,11/17/2026,09/18/2026,"IPS Nationwide, Inc.",,50,Layoff Permanent,Orange County,"3186 Airway Ave., Suite F  Costa Mesa CA 92626",warn_report1.xlsx
 07/01/2025,09/02/2025,07/01/2025,Republic National Distributing Company,,104,Closure Permanent,Alameda County,,warn-report-for-7-1-25-to-6-30-26.pdf
 07/01/2025,07/01/2025,07/01/2025,Santa Fe Springs Swap Meet,,109,Layoff Not known at this time,Los Angeles County,,warn-report-for-7-1-25-to-6-30-26.pdf
 06/27/2025,08/26/2025,07/01/2025,Pocino Foods Company,,124,Closure Permanent,Los Angeles County,,warn-report-for-7-1-25-to-6-30-26.pdf
