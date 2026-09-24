@@ -137,7 +137,7 @@ notice_date,effective_date,received_date,company,city,num_employees,layoff_or_cl
 08/19/2026,10/19/2026,08/19/2026,"Stone Brewing CO., LLC - Citracado Parkway",,50,Closure Permanent,San Diego County,1999 Citracado Parkway  Escondido CA 92029,warn_report1.xlsx
 08/14/2026,10/13/2026,08/20/2026,"Flying Food Group, LLC",,72,Closure Permanent,San Mateo County,50 Adrian Ct  Burlingame CA 94010,warn_report1.xlsx
 08/12/2026,10/12/2026,08/20/2026,Silgan Containers,,120,Layoff Temporary,Stanislaus County,3250 Patterson Road  Riverbank CA 95367,warn_report1.xlsx
-08/19/2026,11/02/2026,08/20/2026,"Haas Automation, Inc.",,73,Relocation Permanent,Ventura County,2800 Sturgis Road  Oxnard CA 93030,warn_report1.xlsx
+08/19/2026,11/02/2026,08/20/2026,"Haas Automation, Inc.",,73,Layoff Permanent,Ventura County,2800 Sturgis Road  Oxnard CA 93030,warn_report1.xlsx
 08/21/2026,10/20/2026,08/21/2026,Blue Shield of California,,25,Layoff Permanent,Alameda County,601 12th Street  Oakland CA 94607,warn_report1.xlsx
 08/21/2026,10/20/2026,08/21/2026,Blue Shield of California (Building C),,1,Layoff Permanent,El Dorado County,"4203 Town Center Blvd., Building C  El Dorado Hills CA 95762",warn_report1.xlsx
 08/21/2026,10/20/2026,08/21/2026,Blue Shield of California (Building B),,12,Layoff Permanent,El Dorado County,"4203 Town Center Blvd., Building B  El Dorado Hills CA 95672",warn_report1.xlsx
@@ -268,6 +268,28 @@ notice_date,effective_date,received_date,company,city,num_employees,layoff_or_cl
 09/18/2026,09/30/2026,09/18/2026,Intel Corporation - SC-12,,24,Layoff Permanent,Santa Clara County,3600 Juliette Lane  Santa Clara CA 95054,warn_report1.xlsx
 09/18/2026,11/17/2026,09/18/2026,"IPS Nationwide, Inc.",,212,Layoff Permanent,Alameda County,"39899 Balentine Dr., Unit 200, Suite #228  Newark CA 94560",warn_report1.xlsx
 09/18/2026,11/17/2026,09/18/2026,"IPS Nationwide, Inc.",,50,Layoff Permanent,Orange County,"3186 Airway Ave., Suite F  Costa Mesa CA 92626",warn_report1.xlsx
+09/21/2026,11/20/2026,09/22/2026,Kaiser (1800 Harrison St.),,1,Layoff Permanent,Alameda County,1800 Harrison St.  Oakland CA 94612,warn_report1.xlsx
+09/21/2026,11/20/2026,09/22/2026,Kaiser (One Kaiser Plaza),,11,Layoff Permanent,Alameda County,One Kaiser Plaza  Oakland CA 94612,warn_report1.xlsx
+09/21/2026,11/20/2026,09/22/2026,Kaiser,,22,Layoff Permanent,Alameda County,4460 Hacienda Dr.  Pleasanton CA 94588,warn_report1.xlsx
+09/21/2026,11/20/2026,09/22/2026,Kaiser,,1,Layoff Permanent,Los Angeles County,3000 S. Robertson Blvd.  Los Angeles CA 90034,warn_report1.xlsx
+09/21/2026,11/20/2026,09/22/2026,Kaiser (393 E. Walnut St.),,2,Layoff Permanent,Los Angeles County,393 E. Walnut St.  Pasadena CA 91188,warn_report1.xlsx
+09/21/2026,11/20/2026,09/22/2026,Kaiser (74 N. Pasadena Ave.),,1,Layoff Permanent,Los Angeles County,74 N. Pasadena Ave.  Pasadena CA 91103,warn_report1.xlsx
+09/21/2026,11/20/2026,09/22/2026,Kaiser (75N. Fair Oaks Ave.),,3,Layoff Permanent,Los Angeles County,75 N. Fair Oaks Ave.  Pasadena CA 91103,warn_report1.xlsx
+09/21/2026,11/20/2026,09/22/2026,Kaiser (99 S. Oakland Ave.),,20,Layoff Permanent,Los Angeles County,99 S. Oakland Ave.  Pasadena CA 91101,warn_report1.xlsx
+09/21/2026,11/20/2026,09/22/2026,Kaiser,,2,Layoff Permanent,Orange County,17836 Gillette Ave.  Irvine CA 92614,warn_report1.xlsx
+09/21/2026,11/20/2026,09/22/2026,Kaiser (1830 California Ave.),,2,Layoff Permanent,Riverside County,1830 California Ave.  Corona CA 92881,warn_report1.xlsx
+09/21/2026,11/20/2026,09/22/2026,Kaiser (1840 California Ave.),,4,Layoff Permanent,Riverside County,1840 California Ave.  Corona CA 92881,warn_report1.xlsx
+09/21/2026,11/20/2026,09/22/2026,Kaiser,,2,Layoff Permanent,Sacramento County,50 Iron Point Cir.  Folsom CA 95630,warn_report1.xlsx
+09/21/2026,11/20/2026,09/22/2026,Kaiser,,1,Layoff Permanent,Sacramento County,3240 Arden Wy.  Sacramento CA 95825,warn_report1.xlsx
+09/21/2026,11/20/2026,09/22/2026,Kaiser (17140 Bernardo Center Dr.),,1,Layoff Permanent,San Diego County,17140 Bernardo Center Dr.  San Diego CA 92128,warn_report1.xlsx
+09/21/2026,11/20/2026,09/22/2026,Kaiser (3840 Murphy Canyon Rd.),,2,Layoff Permanent,San Diego County,3840 Murphy Canyon Rd.  San Diego CA 92123,warn_report1.xlsx
+09/21/2026,11/20/2026,09/22/2026,Kaiser (8954 Rio San Diego Dr.),,72,Layoff Permanent,San Diego County,8954 Rio San Diego Dr.  San Diego CA 92108,warn_report1.xlsx
+09/22/2026,11/27/2026,09/22/2026,RTX,,1,Layoff Permanent,Los Angeles County,2000 E El Segundo Blvd  El Segundo CA 90245,warn_report1.xlsx
+09/23/2026,11/21/2026,09/23/2026,Capstone Delivery Inc.,,106,Closure Permanent,Los Angeles County,9350 Rayo Avenue  South Gate CA 90280,warn_report1.xlsx
+09/15/2026,11/14/2026,09/23/2026,Quixote Studio Services - North Valley Campus A,,24,Layoff Permanent,Los Angeles County,12137 Montague St.  Pacoima CA 91331,warn_report1.xlsx
+09/15/2026,11/14/2026,09/23/2026,Quixote Studio Services - North Valley,,29,Layoff Permanent,Los Angeles County,10252 Norris Ave.  Pacoima CA 91331,warn_report1.xlsx
+09/15/2026,11/14/2026,09/23/2026,Quixote Studio Services - Sylmar South,,3,Layoff Permanent,Los Angeles County,13334 Ralston Avenue  Sylmar CA 91342,warn_report1.xlsx
+09/15/2026,11/14/2026,09/23/2026,Quixote Studio Services - Sylmar North,,1,Layoff Permanent,Los Angeles County,14002 Balboa  Sylmar CA 91342,warn_report1.xlsx
 07/01/2025,09/02/2025,07/01/2025,Republic National Distributing Company,,104,Closure Permanent,Alameda County,,warn-report-for-7-1-25-to-6-30-26.pdf
 07/01/2025,07/01/2025,07/01/2025,Santa Fe Springs Swap Meet,,109,Layoff Not known at this time,Los Angeles County,,warn-report-for-7-1-25-to-6-30-26.pdf
 06/27/2025,08/26/2025,07/01/2025,Pocino Foods Company,,124,Closure Permanent,Los Angeles County,,warn-report-for-7-1-25-to-6-30-26.pdf
