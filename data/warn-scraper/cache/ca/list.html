@@ -53,8 +53,6 @@
 
 <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 
-
-
 <link rel="stylesheet" href="/Assets/css/edd-styles.css">
 
 <link rel="stylesheet" href="/Assets/css/colorscheme-oceanside.css">
@@ -62,7 +60,7 @@
 
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Noto+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Roboto+Flex:opsz,wght@8..144,400..700&display=swap" rel="stylesheet">
 
-<link href="/bundles/css?v=LNrb2iDNS162mzas-m7ZbmzB9JaPUkujK3RVflZKHrs1" rel="stylesheet"/>
+<link href="/bundles/css?v=-g76hwCQJoCaPaxfCn5RV92DkM9RGIhuYsAFoKLHsYM1" rel="stylesheet"/>
 
 
     <script>
@@ -275,762 +273,664 @@
 
 
 
-<nav class="main-nav-wrapper" aria-label="Main Navigation">
-    <a href="/" aria-label="Employment Development Department Home">
+
+<nav class="main-nav-wrapper" aria-label="Main">
+    <a href="/" class="nav-menu" aria-label="Employment Development Department Home">
         <div class="main-nav-logo">
-            <img src="/siteassets/images/edd-branding/edd-logo.svg" alt="Employment Development Department Home" />
+            <img src="/siteassets/images/edd-branding/edd-logo.svg" alt="" />
         </div>
     </a>
 
-    <button class="mobile-nav-toggle" aria-controls="mobile-nav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="hidden">Open menu</span>
-        <svg xmlns="http://www.w3.org/2000/svg" width="53" height="53" viewBox="0 0 53 53" fill="none" class="hamburger-icon">
-            <g clip-path="url(#clip0)" transform="translate(0 6)">
+    <button type="button" class="mobile-nav-toggle" aria-controls="mobile-nav" aria-expanded="false">
+        <span class="sr-only">Menu</span>
+        <svg xmlns="http://www.w3.org/2000/svg" width="53" height="53" viewBox="0 0 53 53" fill="none" class="hamburger-icon" aria-hidden="true" focusable="false">
+            <g transform="translate(0 6)">
                 <path class="line line1" d="M3.34174 3.15038H49.6583" stroke="currentColor" stroke-width="2" />
                 <path class="line line2" d="M3.34174 20.5045H49.6583" stroke="currentColor" stroke-width="2" />
                 <path class="line line3" d="M3.34174 37.8496H49.6583" stroke="currentColor" stroke-width="2" />
             </g>
-            <defs>
-                <clipPath id="clip0">
-                    <rect width="53" height="53" fill="white" />
-                </clipPath>
-            </defs>
         </svg>
     </button>
 
     <div class="main-nav-container">
-        <ul id="main-nav-menu" class="main-nav-list" role="menubar">
-            <li class="main-nav-item has-submenu" role="none">
-                <button class="main-nav-link"
-                        role="menuitem"
-                        aria-haspopup="true"
-                        aria-expanded="false"
-                        aria-controls="submenu-nav-item-35589"
-                        id="nav-toggle-nav-item-35589"
-                        aria-label="Unemployment, has submenu">
-                    <span>Unemployment</span>
-                    <span class="chevron" aria-hidden="true">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="19" viewBox="0 0 20 19" fill="none">
-                            <mask id="path-1-inside-1_638_939" fill="white">
-                                <path d="M3.00073 5.62777L3.00073 5.36667C3.14098 4.90974 3.6526 4.68752 4.09226 4.93752L9.98961 10.5373L15.9073 4.93682C16.5948 4.56253 17.3215 5.29236 16.8491 5.91526L10.5063 11.9768C10.2243 12.2303 9.77378 12.2296 9.49326 11.9768L3.14971 5.91595L3 5.62777L3.00073 5.62777Z" />
-                            </mask>
-                            <path d="M3.00073 5.62777L3.00073 5.36667C3.14098 4.90974 3.6526 4.68752 4.09226 4.93752L9.98961 10.5373L15.9073 4.93682C16.5948 4.56253 17.3215 5.29236 16.8491 5.91526L10.5063 11.9768C10.2243 12.2303 9.77378 12.2296 9.49326 11.9768L3.14971 5.91595L3 5.62777L3.00073 5.62777Z" fill="#00587C" />
-                            <path d="M3.00073 5.62777L3.00073 7.62777L5.00073 7.62777L5.00073 5.62777L3.00073 5.62777ZM3.00073 5.36667L1.08878 4.77978L1.00073 5.06662L1.00073 5.36667L3.00073 5.36667ZM4.09226 4.93752L5.46941 3.48719L5.29268 3.31937L5.08082 3.19891L4.09226 4.93752ZM9.98961 10.5373L8.61246 11.9876L9.98733 13.2931L11.3644 11.9899L9.98961 10.5373ZM15.9073 4.93682L14.951 3.18028L14.722 3.30497L14.5326 3.48421L15.9073 4.93682ZM16.8491 5.91526L18.2309 7.36116L18.3463 7.25091L18.4427 7.12375L16.8491 5.91526ZM10.5063 11.9768L11.8433 13.4642L11.866 13.4438L11.8881 13.4227L10.5063 11.9768ZM9.49326 11.9768L8.11163 13.4229L8.13275 13.4431L8.15444 13.4626L9.49326 11.9768ZM3.14971 5.91595L1.37489 6.83792L1.52797 7.13261L1.76808 7.36202L3.14971 5.91595ZM3 5.62777L3 3.62777L-0.292708 3.62777L1.22519 6.54974L3 5.62777ZM5.00073 5.62777L5.00073 5.36667L1.00073 5.36667L1.00073 5.62777L5.00073 5.62777ZM4.91268 5.95355C4.68733 6.68771 3.80603 7.07546 3.10371 6.67612L5.08082 3.19891C3.49917 2.29959 1.59464 3.13177 1.08878 4.77978L4.91268 5.95355ZM2.71511 6.38784L8.61246 11.9876L11.3668 9.08698L5.46941 3.48719L2.71511 6.38784ZM11.3644 11.9899L17.2821 6.38943L14.5326 3.48421L8.61487 9.0847L11.3644 11.9899ZM16.8636 6.69336C16.3878 6.95245 15.7726 6.84905 15.3824 6.44958C15.1917 6.25428 15.0342 5.9668 15.0048 5.61214C14.9736 5.2362 15.0973 4.91543 15.2555 4.70676L18.4427 7.12375C19.32 5.96695 19.0941 4.525 18.2439 3.65461C17.4366 2.82807 16.1143 2.5469 14.951 3.18028L16.8636 6.69336ZM15.4673 4.46935L9.12452 10.5309L11.8881 13.4227L18.2309 7.36116L15.4673 4.46935ZM9.16928 10.4894C9.64799 10.0591 10.3521 10.0585 10.8321 10.4911L8.15444 13.4626C9.19549 14.4007 10.8007 14.4015 11.8433 13.4642L9.16928 10.4894ZM10.8749 10.5308L4.53133 4.46989L1.76808 7.36202L8.11163 13.4229L10.8749 10.5308ZM4.92452 4.99398L4.77481 4.70579L1.22519 6.54974L1.37489 6.83792L4.92452 4.99398ZM3 7.62777L3.00073 7.62777L3.00073 3.62777L3 3.62777L3 7.62777Z" fill="#00587C" mask="url(#path-1-inside-1_638_939)" />
-                        </svg>
-                    </span>
-                </button>
-
-                    <ul id="submenu-nav-item-35589"
-                        class="submenu two-column"
-                        role="menu"
-                        aria-labelledby="nav-toggle-nav-item-35589"
-                        hidden>
-                            <li>
-                                <a href="/en/unemployment/" role="menuitem">Unemployment Benefits</a>
-                            </li>
-                            <li>
-                                <a href="/en/unemployment/step-1-get-your-information-in-order/" role="menuitem">Step 1: Get Your Information in Order</a>
-                            </li>
-                            <li>
-                                <a href="/en/unemployment/step-2-apply/" role="menuitem">Step 2: Apply</a>
-                            </li>
-                            <li>
-                                <a href="/en/unemployment/step-3-register-in-caljobs/" role="menuitem">Step 3: Register in CalJOBS</a>
-                            </li>
-                            <li>
-                                <a href="/en/unemployment/step-4-review-benefit-documents/" role="menuitem">Step 4: Review Benefit Documents</a>
-                            </li>
-                            <li>
-                                <a href="/en/unemployment/step-5-certify-for-benefits/" role="menuitem">Step 5: Certify for Benefits</a>
-                            </li>
-                            <li>
-                                <a href="/en/unemployment/step-6-receive-your-first-payment/" role="menuitem">Step 6: Receive Your First Payment</a>
-                            </li>
-                            <li>
-                                <a href="/en/unemployment/step-7-continue-to-certify/" role="menuitem">Step 7: Continue to Certify</a>
-                            </li>
-                            <li>
-                                <a href="/en/unemployment/step-8-end-your-benefits/" role="menuitem">Step 8: End Your Benefits</a>
-                            </li>
-                            <li>
-                                <a href="/en/unemployment/claim-status/" role="menuitem">Determinations and Eligibility</a>
-                            </li>
-                            <li>
-                                <a href="/en/unemployment/appeals/" role="menuitem">Appeals</a>
-                            </li>
-                            <li>
-                                <a href="/en/unemployment/overpayments-and-penalties/" role="menuitem">Overpayments and Penalties</a>
-                            </li>
-                    </ul>
-            </li>
-            <li class="main-nav-item has-submenu" role="none">
-                <button class="main-nav-link"
-                        role="menuitem"
-                        aria-haspopup="true"
-                        aria-expanded="false"
-                        aria-controls="submenu-nav-item-35590"
-                        id="nav-toggle-nav-item-35590"
-                        aria-label="Disability, has submenu">
-                    <span>Disability</span>
-                    <span class="chevron" aria-hidden="true">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="19" viewBox="0 0 20 19" fill="none">
-                            <mask id="path-1-inside-1_638_939" fill="white">
-                                <path d="M3.00073 5.62777L3.00073 5.36667C3.14098 4.90974 3.6526 4.68752 4.09226 4.93752L9.98961 10.5373L15.9073 4.93682C16.5948 4.56253 17.3215 5.29236 16.8491 5.91526L10.5063 11.9768C10.2243 12.2303 9.77378 12.2296 9.49326 11.9768L3.14971 5.91595L3 5.62777L3.00073 5.62777Z" />
-                            </mask>
-                            <path d="M3.00073 5.62777L3.00073 5.36667C3.14098 4.90974 3.6526 4.68752 4.09226 4.93752L9.98961 10.5373L15.9073 4.93682C16.5948 4.56253 17.3215 5.29236 16.8491 5.91526L10.5063 11.9768C10.2243 12.2303 9.77378 12.2296 9.49326 11.9768L3.14971 5.91595L3 5.62777L3.00073 5.62777Z" fill="#00587C" />
-                            <path d="M3.00073 5.62777L3.00073 7.62777L5.00073 7.62777L5.00073 5.62777L3.00073 5.62777ZM3.00073 5.36667L1.08878 4.77978L1.00073 5.06662L1.00073 5.36667L3.00073 5.36667ZM4.09226 4.93752L5.46941 3.48719L5.29268 3.31937L5.08082 3.19891L4.09226 4.93752ZM9.98961 10.5373L8.61246 11.9876L9.98733 13.2931L11.3644 11.9899L9.98961 10.5373ZM15.9073 4.93682L14.951 3.18028L14.722 3.30497L14.5326 3.48421L15.9073 4.93682ZM16.8491 5.91526L18.2309 7.36116L18.3463 7.25091L18.4427 7.12375L16.8491 5.91526ZM10.5063 11.9768L11.8433 13.4642L11.866 13.4438L11.8881 13.4227L10.5063 11.9768ZM9.49326 11.9768L8.11163 13.4229L8.13275 13.4431L8.15444 13.4626L9.49326 11.9768ZM3.14971 5.91595L1.37489 6.83792L1.52797 7.13261L1.76808 7.36202L3.14971 5.91595ZM3 5.62777L3 3.62777L-0.292708 3.62777L1.22519 6.54974L3 5.62777ZM5.00073 5.62777L5.00073 5.36667L1.00073 5.36667L1.00073 5.62777L5.00073 5.62777ZM4.91268 5.95355C4.68733 6.68771 3.80603 7.07546 3.10371 6.67612L5.08082 3.19891C3.49917 2.29959 1.59464 3.13177 1.08878 4.77978L4.91268 5.95355ZM2.71511 6.38784L8.61246 11.9876L11.3668 9.08698L5.46941 3.48719L2.71511 6.38784ZM11.3644 11.9899L17.2821 6.38943L14.5326 3.48421L8.61487 9.0847L11.3644 11.9899ZM16.8636 6.69336C16.3878 6.95245 15.7726 6.84905 15.3824 6.44958C15.1917 6.25428 15.0342 5.9668 15.0048 5.61214C14.9736 5.2362 15.0973 4.91543 15.2555 4.70676L18.4427 7.12375C19.32 5.96695 19.0941 4.525 18.2439 3.65461C17.4366 2.82807 16.1143 2.5469 14.951 3.18028L16.8636 6.69336ZM15.4673 4.46935L9.12452 10.5309L11.8881 13.4227L18.2309 7.36116L15.4673 4.46935ZM9.16928 10.4894C9.64799 10.0591 10.3521 10.0585 10.8321 10.4911L8.15444 13.4626C9.19549 14.4007 10.8007 14.4015 11.8433 13.4642L9.16928 10.4894ZM10.8749 10.5308L4.53133 4.46989L1.76808 7.36202L8.11163 13.4229L10.8749 10.5308ZM4.92452 4.99398L4.77481 4.70579L1.22519 6.54974L1.37489 6.83792L4.92452 4.99398ZM3 7.62777L3.00073 7.62777L3.00073 3.62777L3 3.62777L3 7.62777Z" fill="#00587C" mask="url(#path-1-inside-1_638_939)" />
-                        </svg>
-                    </span>
-                </button>
-
-                    <ul id="submenu-nav-item-35590"
-                        class="submenu two-column"
-                        role="menu"
-                        aria-labelledby="nav-toggle-nav-item-35590"
-                        hidden>
-                            <li>
-                                <a href="/en/disability/disability_insurance/" role="menuitem">Disability Insurance Benefits</a>
-                            </li>
-                            <li>
-                                <a href="/en/disability/step-1-get-your-information-in-order/" role="menuitem">Step 1: Get Your Information in Order</a>
-                            </li>
-                            <li>
-                                <a href="/en/disability/step-2-apply/" role="menuitem">Step 2: Apply</a>
-                            </li>
-                            <li>
-                                <a href="/en/disability/step-3-have-a-medical-certification-completed/" role="menuitem">Step 3: Have a Medical Certification Completed</a>
-                            </li>
-                            <li>
-                                <a href="/en/disability/step-4-review-benefit-documents/" role="menuitem">Step 4: Review Benefit Documents</a>
-                            </li>
-                            <li>
-                                <a href="/en/disability/step-5-receive-your-first-payment/" role="menuitem">Step 5: Receive Your First Payment</a>
-                            </li>
-                            <li>
-                                <a href="/en/disability/step-6-manage-benefits/" role="menuitem">Step 6: Manage Benefits</a>
-                            </li>
-                            <li>
-                                <a href="/en/disability/step-7-end-your-benefits/" role="menuitem">Step 7: End Your Benefits</a>
-                            </li>
-                            <li>
-                                <a href="/en/disability/Am_I_Eligible_for_DI_Benefits/" role="menuitem">Eligibility Requirements</a>
-                            </li>
-                            <li>
-                                <a href="/en/disability/appeals/" role="menuitem">Appeals</a>
-                            </li>
-                            <li>
-                                <a href="/en/about_edd/events-and-seminars/" role="menuitem">Events and Educational Webinars</a>
-                            </li>
-                    </ul>
-            </li>
-            <li class="main-nav-item has-submenu" role="none">
-                <button class="main-nav-link"
-                        role="menuitem"
-                        aria-haspopup="true"
-                        aria-expanded="false"
-                        aria-controls="submenu-nav-item-35591"
-                        id="nav-toggle-nav-item-35591"
-                        aria-label="Paid Family Leave, has submenu">
-                    <span>Paid Family Leave</span>
-                    <span class="chevron" aria-hidden="true">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="19" viewBox="0 0 20 19" fill="none">
-                            <mask id="path-1-inside-1_638_939" fill="white">
-                                <path d="M3.00073 5.62777L3.00073 5.36667C3.14098 4.90974 3.6526 4.68752 4.09226 4.93752L9.98961 10.5373L15.9073 4.93682C16.5948 4.56253 17.3215 5.29236 16.8491 5.91526L10.5063 11.9768C10.2243 12.2303 9.77378 12.2296 9.49326 11.9768L3.14971 5.91595L3 5.62777L3.00073 5.62777Z" />
-                            </mask>
-                            <path d="M3.00073 5.62777L3.00073 5.36667C3.14098 4.90974 3.6526 4.68752 4.09226 4.93752L9.98961 10.5373L15.9073 4.93682C16.5948 4.56253 17.3215 5.29236 16.8491 5.91526L10.5063 11.9768C10.2243 12.2303 9.77378 12.2296 9.49326 11.9768L3.14971 5.91595L3 5.62777L3.00073 5.62777Z" fill="#00587C" />
-                            <path d="M3.00073 5.62777L3.00073 7.62777L5.00073 7.62777L5.00073 5.62777L3.00073 5.62777ZM3.00073 5.36667L1.08878 4.77978L1.00073 5.06662L1.00073 5.36667L3.00073 5.36667ZM4.09226 4.93752L5.46941 3.48719L5.29268 3.31937L5.08082 3.19891L4.09226 4.93752ZM9.98961 10.5373L8.61246 11.9876L9.98733 13.2931L11.3644 11.9899L9.98961 10.5373ZM15.9073 4.93682L14.951 3.18028L14.722 3.30497L14.5326 3.48421L15.9073 4.93682ZM16.8491 5.91526L18.2309 7.36116L18.3463 7.25091L18.4427 7.12375L16.8491 5.91526ZM10.5063 11.9768L11.8433 13.4642L11.866 13.4438L11.8881 13.4227L10.5063 11.9768ZM9.49326 11.9768L8.11163 13.4229L8.13275 13.4431L8.15444 13.4626L9.49326 11.9768ZM3.14971 5.91595L1.37489 6.83792L1.52797 7.13261L1.76808 7.36202L3.14971 5.91595ZM3 5.62777L3 3.62777L-0.292708 3.62777L1.22519 6.54974L3 5.62777ZM5.00073 5.62777L5.00073 5.36667L1.00073 5.36667L1.00073 5.62777L5.00073 5.62777ZM4.91268 5.95355C4.68733 6.68771 3.80603 7.07546 3.10371 6.67612L5.08082 3.19891C3.49917 2.29959 1.59464 3.13177 1.08878 4.77978L4.91268 5.95355ZM2.71511 6.38784L8.61246 11.9876L11.3668 9.08698L5.46941 3.48719L2.71511 6.38784ZM11.3644 11.9899L17.2821 6.38943L14.5326 3.48421L8.61487 9.0847L11.3644 11.9899ZM16.8636 6.69336C16.3878 6.95245 15.7726 6.84905 15.3824 6.44958C15.1917 6.25428 15.0342 5.9668 15.0048 5.61214C14.9736 5.2362 15.0973 4.91543 15.2555 4.70676L18.4427 7.12375C19.32 5.96695 19.0941 4.525 18.2439 3.65461C17.4366 2.82807 16.1143 2.5469 14.951 3.18028L16.8636 6.69336ZM15.4673 4.46935L9.12452 10.5309L11.8881 13.4227L18.2309 7.36116L15.4673 4.46935ZM9.16928 10.4894C9.64799 10.0591 10.3521 10.0585 10.8321 10.4911L8.15444 13.4626C9.19549 14.4007 10.8007 14.4015 11.8433 13.4642L9.16928 10.4894ZM10.8749 10.5308L4.53133 4.46989L1.76808 7.36202L8.11163 13.4229L10.8749 10.5308ZM4.92452 4.99398L4.77481 4.70579L1.22519 6.54974L1.37489 6.83792L4.92452 4.99398ZM3 7.62777L3.00073 7.62777L3.00073 3.62777L3 3.62777L3 7.62777Z" fill="#00587C" mask="url(#path-1-inside-1_638_939)" />
-                        </svg>
-                    </span>
-                </button>
-
-                    <ul id="submenu-nav-item-35591"
-                        class="submenu two-column"
-                        role="menu"
-                        aria-labelledby="nav-toggle-nav-item-35591"
-                        hidden>
-                            <li>
-                                <a href="/en/disability/paid-family-leave/" role="menuitem">Paid Family Leave Benefits</a>
-                            </li>
-                            <li>
-                                <a href="/en/disability/paid-family-leave/step-1-get-your-information-in-order/" role="menuitem">Step 1: Get Your Information in Order</a>
-                            </li>
-                            <li>
-                                <a href="/en/disability/paid-family-leave/step-2-apply/" role="menuitem">Step 2: Apply</a>
-                            </li>
-                            <li>
-                                <a href="/en/disability/paid-family-leave/step-3-submit-required-documents/" role="menuitem">Step 3: Submit Required Documents</a>
-                            </li>
-                            <li>
-                                <a href="/en/disability/paid-family-leave/step-4-review-benefit-documents/" role="menuitem">Step 4: Review Benefit Documents</a>
-                            </li>
-                            <li>
-                                <a href="/en/disability/paid-family-leave/step-5-receive-your-first-payment/" role="menuitem">Step 5: Receive Your First Payment</a>
-                            </li>
-                            <li>
-                                <a href="/en/disability/paid-family-leave/step-6-manage-benefits/" role="menuitem">Step 6: Manage Benefits</a>
-                            </li>
-                            <li>
-                                <a href="/en/disability/paid-family-leave/step-7-end-your-benefits/" role="menuitem">Step 7: End Your Benefits</a>
-                            </li>
-                            <li>
-                                <a href="/en/disability/Am_I_Eligible_for_PFL_Benefits/" role="menuitem">Eligibility Requirements</a>
-                            </li>
-                            <li>
-                                <a href="/en/disability/appeals/" role="menuitem">Appeals</a>
-                            </li>
-                            <li>
-                                <a href="/en/disability/paid-family-leave/Physicians-and-Practitioners/" role="menuitem">Physicians and Practitioners</a>
-                            </li>
-                            <li>
-                                <a href="/en/disability/paid-family-leave/Employers/" role="menuitem">Employers</a>
-                            </li>
-                            <li>
-                                <a href="/en/about_edd/events-and-seminars/" role="menuitem">Events and Educational Webinars</a>
-                            </li>
-                    </ul>
-            </li>
-            <li class="main-nav-item has-submenu" role="none">
-                <button class="main-nav-link"
-                        role="menuitem"
-                        aria-haspopup="true"
-                        aria-expanded="false"
-                        aria-controls="submenu-nav-item-35595"
-                        id="nav-toggle-nav-item-35595"
-                        aria-label="Employers, has submenu">
-                    <span>Employers</span>
-                    <span class="chevron" aria-hidden="true">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="19" viewBox="0 0 20 19" fill="none">
-                            <mask id="path-1-inside-1_638_939" fill="white">
-                                <path d="M3.00073 5.62777L3.00073 5.36667C3.14098 4.90974 3.6526 4.68752 4.09226 4.93752L9.98961 10.5373L15.9073 4.93682C16.5948 4.56253 17.3215 5.29236 16.8491 5.91526L10.5063 11.9768C10.2243 12.2303 9.77378 12.2296 9.49326 11.9768L3.14971 5.91595L3 5.62777L3.00073 5.62777Z" />
-                            </mask>
-                            <path d="M3.00073 5.62777L3.00073 5.36667C3.14098 4.90974 3.6526 4.68752 4.09226 4.93752L9.98961 10.5373L15.9073 4.93682C16.5948 4.56253 17.3215 5.29236 16.8491 5.91526L10.5063 11.9768C10.2243 12.2303 9.77378 12.2296 9.49326 11.9768L3.14971 5.91595L3 5.62777L3.00073 5.62777Z" fill="#00587C" />
-                            <path d="M3.00073 5.62777L3.00073 7.62777L5.00073 7.62777L5.00073 5.62777L3.00073 5.62777ZM3.00073 5.36667L1.08878 4.77978L1.00073 5.06662L1.00073 5.36667L3.00073 5.36667ZM4.09226 4.93752L5.46941 3.48719L5.29268 3.31937L5.08082 3.19891L4.09226 4.93752ZM9.98961 10.5373L8.61246 11.9876L9.98733 13.2931L11.3644 11.9899L9.98961 10.5373ZM15.9073 4.93682L14.951 3.18028L14.722 3.30497L14.5326 3.48421L15.9073 4.93682ZM16.8491 5.91526L18.2309 7.36116L18.3463 7.25091L18.4427 7.12375L16.8491 5.91526ZM10.5063 11.9768L11.8433 13.4642L11.866 13.4438L11.8881 13.4227L10.5063 11.9768ZM9.49326 11.9768L8.11163 13.4229L8.13275 13.4431L8.15444 13.4626L9.49326 11.9768ZM3.14971 5.91595L1.37489 6.83792L1.52797 7.13261L1.76808 7.36202L3.14971 5.91595ZM3 5.62777L3 3.62777L-0.292708 3.62777L1.22519 6.54974L3 5.62777ZM5.00073 5.62777L5.00073 5.36667L1.00073 5.36667L1.00073 5.62777L5.00073 5.62777ZM4.91268 5.95355C4.68733 6.68771 3.80603 7.07546 3.10371 6.67612L5.08082 3.19891C3.49917 2.29959 1.59464 3.13177 1.08878 4.77978L4.91268 5.95355ZM2.71511 6.38784L8.61246 11.9876L11.3668 9.08698L5.46941 3.48719L2.71511 6.38784ZM11.3644 11.9899L17.2821 6.38943L14.5326 3.48421L8.61487 9.0847L11.3644 11.9899ZM16.8636 6.69336C16.3878 6.95245 15.7726 6.84905 15.3824 6.44958C15.1917 6.25428 15.0342 5.9668 15.0048 5.61214C14.9736 5.2362 15.0973 4.91543 15.2555 4.70676L18.4427 7.12375C19.32 5.96695 19.0941 4.525 18.2439 3.65461C17.4366 2.82807 16.1143 2.5469 14.951 3.18028L16.8636 6.69336ZM15.4673 4.46935L9.12452 10.5309L11.8881 13.4227L18.2309 7.36116L15.4673 4.46935ZM9.16928 10.4894C9.64799 10.0591 10.3521 10.0585 10.8321 10.4911L8.15444 13.4626C9.19549 14.4007 10.8007 14.4015 11.8433 13.4642L9.16928 10.4894ZM10.8749 10.5308L4.53133 4.46989L1.76808 7.36202L8.11163 13.4229L10.8749 10.5308ZM4.92452 4.99398L4.77481 4.70579L1.22519 6.54974L1.37489 6.83792L4.92452 4.99398ZM3 7.62777L3.00073 7.62777L3.00073 3.62777L3 3.62777L3 7.62777Z" fill="#00587C" mask="url(#path-1-inside-1_638_939)" />
-                        </svg>
-                    </span>
-                </button>
-
-                    <ul id="submenu-nav-item-35595"
-                        class="submenu two-column"
-                        role="menu"
-                        aria-labelledby="nav-toggle-nav-item-35595"
-                        hidden>
-                            <li>
-                                <a href="/en/payroll_taxes/employer-payroll-taxes/" role="menuitem">Employer Payroll Taxes</a>
-                            </li>
-                            <li>
-                                <a href="/en/payroll_taxes/step-1-register-as-an-employer/" role="menuitem">Step 1: Register as an Employer</a>
-                            </li>
-                            <li>
-                                <a href="/en/payroll_taxes/step-2-get-your-information-in-order/" role="menuitem">Step 2: Get Your Information in Order</a>
-                            </li>
-                            <li>
-                                <a href="/en/payroll_taxes/step-3-register-for-a-payroll-tax-account/" role="menuitem">Step 3: Register for a Payroll Tax Account</a>
-                            </li>
-                            <li>
-                                <a href="/en/payroll_taxes/step-4-report-employees-and-independent-contractors/" role="menuitem">Step 4: Report Employees and Independent Contractors</a>
-                            </li>
-                            <li>
-                                <a href="/en/payroll_taxes/step-5-withhold-and-pay-payroll-taxes/" role="menuitem">Step 5: Withhold and Pay Payroll Taxes</a>
-                            </li>
-                            <li>
-                                <a href="/en/payroll_taxes/step-6-file-tax-returns-and-wage-reports/" role="menuitem">Step 6: File Tax Returns and Wage Reports</a>
-                            </li>
-                            <li>
-                                <a href="/en/payroll_taxes/step-7-provide-required-notices/" role="menuitem">Step 7: Provide Required Notices</a>
-                            </li>
-                            <li>
-                                <a href="/en/payroll_taxes/e-Services_for_Business/" role="menuitem">e-Services for Business</a>
-                            </li>
-                            <li>
-                                <a href="/en/payroll_taxes/" role="menuitem">Payroll Taxes Resources</a>
-                            </li>
-                            <li>
-                                <a href="/en/payroll_taxes/forms_and_publications/" role="menuitem">Payroll Taxes – Forms and Publications</a>
-                            </li>
-                            <li>
-                                <a href="/en/payroll_taxes/payroll-tax-webinars/" role="menuitem">Payroll Tax Webinars</a>
-                            </li>
-                            <li>
-                                <a href="/en/payroll_taxes/employer-news/" role="menuitem">California Employer News and Updates</a>
-                            </li>
-                            <li>
-                                <a href="/en/jobs_and_training/Work_Opportunity_Tax_Credit/" role="menuitem">Work Opportunity Tax Credit</a>
-                            </li>
-                    </ul>
-            </li>
-            <li class="main-nav-item has-submenu" role="none">
-                <button class="main-nav-link"
-                        role="menuitem"
-                        aria-haspopup="true"
-                        aria-expanded="false"
-                        aria-controls="submenu-nav-item-35596"
-                        id="nav-toggle-nav-item-35596"
-                        aria-label="Job Services, has submenu">
-                    <span>Job Services</span>
-                    <span class="chevron" aria-hidden="true">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="19" viewBox="0 0 20 19" fill="none">
-                            <mask id="path-1-inside-1_638_939" fill="white">
-                                <path d="M3.00073 5.62777L3.00073 5.36667C3.14098 4.90974 3.6526 4.68752 4.09226 4.93752L9.98961 10.5373L15.9073 4.93682C16.5948 4.56253 17.3215 5.29236 16.8491 5.91526L10.5063 11.9768C10.2243 12.2303 9.77378 12.2296 9.49326 11.9768L3.14971 5.91595L3 5.62777L3.00073 5.62777Z" />
-                            </mask>
-                            <path d="M3.00073 5.62777L3.00073 5.36667C3.14098 4.90974 3.6526 4.68752 4.09226 4.93752L9.98961 10.5373L15.9073 4.93682C16.5948 4.56253 17.3215 5.29236 16.8491 5.91526L10.5063 11.9768C10.2243 12.2303 9.77378 12.2296 9.49326 11.9768L3.14971 5.91595L3 5.62777L3.00073 5.62777Z" fill="#00587C" />
-                            <path d="M3.00073 5.62777L3.00073 7.62777L5.00073 7.62777L5.00073 5.62777L3.00073 5.62777ZM3.00073 5.36667L1.08878 4.77978L1.00073 5.06662L1.00073 5.36667L3.00073 5.36667ZM4.09226 4.93752L5.46941 3.48719L5.29268 3.31937L5.08082 3.19891L4.09226 4.93752ZM9.98961 10.5373L8.61246 11.9876L9.98733 13.2931L11.3644 11.9899L9.98961 10.5373ZM15.9073 4.93682L14.951 3.18028L14.722 3.30497L14.5326 3.48421L15.9073 4.93682ZM16.8491 5.91526L18.2309 7.36116L18.3463 7.25091L18.4427 7.12375L16.8491 5.91526ZM10.5063 11.9768L11.8433 13.4642L11.866 13.4438L11.8881 13.4227L10.5063 11.9768ZM9.49326 11.9768L8.11163 13.4229L8.13275 13.4431L8.15444 13.4626L9.49326 11.9768ZM3.14971 5.91595L1.37489 6.83792L1.52797 7.13261L1.76808 7.36202L3.14971 5.91595ZM3 5.62777L3 3.62777L-0.292708 3.62777L1.22519 6.54974L3 5.62777ZM5.00073 5.62777L5.00073 5.36667L1.00073 5.36667L1.00073 5.62777L5.00073 5.62777ZM4.91268 5.95355C4.68733 6.68771 3.80603 7.07546 3.10371 6.67612L5.08082 3.19891C3.49917 2.29959 1.59464 3.13177 1.08878 4.77978L4.91268 5.95355ZM2.71511 6.38784L8.61246 11.9876L11.3668 9.08698L5.46941 3.48719L2.71511 6.38784ZM11.3644 11.9899L17.2821 6.38943L14.5326 3.48421L8.61487 9.0847L11.3644 11.9899ZM16.8636 6.69336C16.3878 6.95245 15.7726 6.84905 15.3824 6.44958C15.1917 6.25428 15.0342 5.9668 15.0048 5.61214C14.9736 5.2362 15.0973 4.91543 15.2555 4.70676L18.4427 7.12375C19.32 5.96695 19.0941 4.525 18.2439 3.65461C17.4366 2.82807 16.1143 2.5469 14.951 3.18028L16.8636 6.69336ZM15.4673 4.46935L9.12452 10.5309L11.8881 13.4227L18.2309 7.36116L15.4673 4.46935ZM9.16928 10.4894C9.64799 10.0591 10.3521 10.0585 10.8321 10.4911L8.15444 13.4626C9.19549 14.4007 10.8007 14.4015 11.8433 13.4642L9.16928 10.4894ZM10.8749 10.5308L4.53133 4.46989L1.76808 7.36202L8.11163 13.4229L10.8749 10.5308ZM4.92452 4.99398L4.77481 4.70579L1.22519 6.54974L1.37489 6.83792L4.92452 4.99398ZM3 7.62777L3.00073 7.62777L3.00073 3.62777L3 3.62777L3 7.62777Z" fill="#00587C" mask="url(#path-1-inside-1_638_939)" />
-                        </svg>
-                    </span>
-                </button>
-
-                    <ul id="submenu-nav-item-35596"
-                        class="submenu two-column"
-                        role="menu"
-                        aria-labelledby="nav-toggle-nav-item-35596"
-                        hidden>
-                            <li>
-                                <a href="/en/jobs_and_training/job-services/" role="menuitem">Job Services</a>
-                            </li>
-                            <li>
-                                <a href="/en/jobs_and_training/step-1-register-in-caljobs/" role="menuitem">Step 1: Register in CalJOBS</a>
-                            </li>
-                            <li>
-                                <a href="/en/jobs_and_training/step-2-explore-career-paths/" role="menuitem">Step 2: Explore Career Paths</a>
-                            </li>
-                            <li>
-                                <a href="/en/jobs_and_training/step-3-enhance-your-skills/" role="menuitem">Step 3: Enhance Your Skills</a>
-                            </li>
-                            <li>
-                                <a href="/en/jobs_and_training/step-4-search-for-jobs/" role="menuitem">Step 4: Search for Jobs</a>
-                            </li>
-                            <li>
-                                <a href="/en/jobs_and_training/step-5-apply/" role="menuitem">Step 5: Apply</a>
-                            </li>
-                            <li>
-                                <a href="/en/jobs_and_training/step-6-interview/" role="menuitem">Step 6: Interview</a>
-                            </li>
-                            <li>
-                                <a href="/en/jobs_and_training/employer-services/" role="menuitem">Employer Services</a>
-                            </li>
-                            <li>
-                                <a href="/en/jobs_and_training/register-in-caljobs/" role="menuitem">Register with e-Services for Business and CalJOBS</a>
-                            </li>
-                            <li>
-                                <a href="/en/jobs_and_training/find-qualified-employees/" role="menuitem">Find Qualified Employees</a>
-                            </li>
-                            <li>
-                                <a href="/en/jobs_and_training/review-tax-credit-incentives/" role="menuitem">Review Tax Credit Incentives</a>
-                            </li>
-                            <li>
-                                <a href="/en/jobs_and_training/find-training-for-you-and-your-employees/" role="menuitem">Find Training for You and Your Employees</a>
-                            </li>
-                            <li>
-                                <a href="/en/jobs_and_training/review-layoff-services/" role="menuitem">Review Layoff Services</a>
-                            </li>
-                            <li>
-                                <a href="/en/jobs_and_training/Workforce_Partner_Information/" role="menuitem">Workforce Partner Information</a>
-                            </li>
-                            <li>
-                                <a href="https://labormarketinfo.edd.ca.gov/" role="menuitem">Labor Market Information</a>
-                            </li>
-                            <li>
-                                <a href="/en/jobs_and_training/services_for_veterans/" role="menuitem">Veterans Services</a>
-                            </li>
-                    </ul>
-            </li>
-            <li class="main-nav-item has-submenu" role="none">
-                <button class="main-nav-link"
-                        role="menuitem"
-                        aria-haspopup="true"
-                        aria-expanded="false"
-                        aria-controls="submenu-nav-item-35597"
-                        id="nav-toggle-nav-item-35597"
-                        aria-label="Newsroom, has submenu">
-                    <span>Newsroom</span>
-                    <span class="chevron" aria-hidden="true">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="19" viewBox="0 0 20 19" fill="none">
-                            <mask id="path-1-inside-1_638_939" fill="white">
-                                <path d="M3.00073 5.62777L3.00073 5.36667C3.14098 4.90974 3.6526 4.68752 4.09226 4.93752L9.98961 10.5373L15.9073 4.93682C16.5948 4.56253 17.3215 5.29236 16.8491 5.91526L10.5063 11.9768C10.2243 12.2303 9.77378 12.2296 9.49326 11.9768L3.14971 5.91595L3 5.62777L3.00073 5.62777Z" />
-                            </mask>
-                            <path d="M3.00073 5.62777L3.00073 5.36667C3.14098 4.90974 3.6526 4.68752 4.09226 4.93752L9.98961 10.5373L15.9073 4.93682C16.5948 4.56253 17.3215 5.29236 16.8491 5.91526L10.5063 11.9768C10.2243 12.2303 9.77378 12.2296 9.49326 11.9768L3.14971 5.91595L3 5.62777L3.00073 5.62777Z" fill="#00587C" />
-                            <path d="M3.00073 5.62777L3.00073 7.62777L5.00073 7.62777L5.00073 5.62777L3.00073 5.62777ZM3.00073 5.36667L1.08878 4.77978L1.00073 5.06662L1.00073 5.36667L3.00073 5.36667ZM4.09226 4.93752L5.46941 3.48719L5.29268 3.31937L5.08082 3.19891L4.09226 4.93752ZM9.98961 10.5373L8.61246 11.9876L9.98733 13.2931L11.3644 11.9899L9.98961 10.5373ZM15.9073 4.93682L14.951 3.18028L14.722 3.30497L14.5326 3.48421L15.9073 4.93682ZM16.8491 5.91526L18.2309 7.36116L18.3463 7.25091L18.4427 7.12375L16.8491 5.91526ZM10.5063 11.9768L11.8433 13.4642L11.866 13.4438L11.8881 13.4227L10.5063 11.9768ZM9.49326 11.9768L8.11163 13.4229L8.13275 13.4431L8.15444 13.4626L9.49326 11.9768ZM3.14971 5.91595L1.37489 6.83792L1.52797 7.13261L1.76808 7.36202L3.14971 5.91595ZM3 5.62777L3 3.62777L-0.292708 3.62777L1.22519 6.54974L3 5.62777ZM5.00073 5.62777L5.00073 5.36667L1.00073 5.36667L1.00073 5.62777L5.00073 5.62777ZM4.91268 5.95355C4.68733 6.68771 3.80603 7.07546 3.10371 6.67612L5.08082 3.19891C3.49917 2.29959 1.59464 3.13177 1.08878 4.77978L4.91268 5.95355ZM2.71511 6.38784L8.61246 11.9876L11.3668 9.08698L5.46941 3.48719L2.71511 6.38784ZM11.3644 11.9899L17.2821 6.38943L14.5326 3.48421L8.61487 9.0847L11.3644 11.9899ZM16.8636 6.69336C16.3878 6.95245 15.7726 6.84905 15.3824 6.44958C15.1917 6.25428 15.0342 5.9668 15.0048 5.61214C14.9736 5.2362 15.0973 4.91543 15.2555 4.70676L18.4427 7.12375C19.32 5.96695 19.0941 4.525 18.2439 3.65461C17.4366 2.82807 16.1143 2.5469 14.951 3.18028L16.8636 6.69336ZM15.4673 4.46935L9.12452 10.5309L11.8881 13.4227L18.2309 7.36116L15.4673 4.46935ZM9.16928 10.4894C9.64799 10.0591 10.3521 10.0585 10.8321 10.4911L8.15444 13.4626C9.19549 14.4007 10.8007 14.4015 11.8433 13.4642L9.16928 10.4894ZM10.8749 10.5308L4.53133 4.46989L1.76808 7.36202L8.11163 13.4229L10.8749 10.5308ZM4.92452 4.99398L4.77481 4.70579L1.22519 6.54974L1.37489 6.83792L4.92452 4.99398ZM3 7.62777L3.00073 7.62777L3.00073 3.62777L3 3.62777L3 7.62777Z" fill="#00587C" mask="url(#path-1-inside-1_638_939)" />
-                        </svg>
-                    </span>
-                </button>
-
-                    <ul id="submenu-nav-item-35597"
-                        class="submenu"
-                        role="menu"
-                        aria-labelledby="nav-toggle-nav-item-35597"
-                        hidden>
-                            <li>
-                                <a href="/en/newsroom/" role="menuitem">News Releases and Helpful Links</a>
-                            </li>
-                            <li>
-                                <a href="/en/newsroom/benefitting-californians/" role="menuitem">Benefiting Californians Blog</a>
-                            </li>
-                            <li>
-                                <a href="/en/about_edd/eddnext/" role="menuitem">EDDNext Modernization Updates</a>
-                            </li>
-                            <li>
-                                <a href="/en/about_edd/public_records_request/" role="menuitem">Public Records Request</a>
-                            </li>
-                            <li>
-                                <a href="/en/about_edd/quick_statistics_overview/" role="menuitem">Quick Statistics</a>
-                            </li>
-                            <li>
-                                <a href="https://labormarketinfo.edd.ca.gov/" role="menuitem">Labor Market Information</a>
-                            </li>
-                            <li>
-                                <a href="/en/newsroom/facts-and-stats/dashboard/" role="menuitem">Unemployment Data Dashboard</a>
-                            </li>
-                    </ul>
-            </li>
+        <ul id="main-nav-menu" class="main-nav-list">
+                <li class="main-nav-item has-submenu subnav-closed">
+                        <button type="button" class="main-nav-link" data-nav-toggle id="d-nav-1-btn"
+                                aria-expanded="false" aria-controls="d-nav-1-panel">
+                            <span>Unemployment</span>
+                            <span class="chevron" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="8" viewBox="0 0 14 8" fill="none">
+    <mask id="mask0_146_671" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="14" height="8">
+        <path d="M0.000730038 0.79443V0.53333C0.14098 0.0764001 0.6526 -0.14582 1.09226 0.10418L6.98961 5.70396L12.9073 0.10348C13.5948 -0.27081 14.3215 0.45902 13.8491 1.08192L7.5063 7.14346C7.2243 7.39696 6.77378 7.39626 6.49326 7.14346L0.14971 1.08261L0.000730038 0.79443Z" fill="white" />
+    </mask>
+    <g mask="url(#mask0_146_671)">
+        <path d="M0.000713348 0.794426V2.79443H2.00071V0.794426H0.000713348ZM0.000713348 0.533326L-1.91124 -0.0535642L-1.99929 0.233276V0.533326H0.000713348ZM1.09224 0.104176L2.46939 -1.34615L2.29266 -1.51397L2.0808 -1.63443L1.09224 0.104176ZM6.98959 5.70396L5.61244 7.15426L6.98731 8.45976L8.36438 7.15656L6.98959 5.70396ZM12.9073 0.103476L11.951 -1.65306L11.722 -1.52837L11.5326 -1.34913L12.9073 0.103476ZM13.8491 1.08192L15.2309 2.52782L15.3463 2.41757L15.4427 2.29041L13.8491 1.08192ZM7.50628 7.14346L8.84328 8.63086L8.86598 8.61046L8.88808 8.58936L7.50628 7.14346ZM6.49324 7.14346L5.11161 8.58956L5.13273 8.60976L5.15442 8.62926L6.49324 7.14346ZM0.149693 1.08261L-1.62513 2.00458L-1.47205 2.29927L-1.23194 2.52868L0.149693 1.08261ZM0.000713348 0.794426L-1.66893e-05 -1.20557H-3.29272L-1.77483 1.7164L0.000713348 0.794426ZM2.00071 0.794426V0.533326H-1.99929V0.794426H2.00071ZM1.91266 1.12021C1.68731 1.85437 0.806013 2.24212 0.103693 1.84278L2.0808 -1.63443C0.499153 -2.53375 -1.40538 -1.70157 -1.91124 -0.0535642L1.91266 1.12021ZM-0.284907 1.5545L5.61244 7.15426L8.36678 4.25364L2.46939 -1.34615L-0.284907 1.5545ZM8.36438 7.15656L14.2821 1.55609L11.5326 -1.34913L5.61485 4.25136L8.36438 7.15656ZM13.8636 1.86002C13.3878 2.11911 12.7726 2.01571 12.3824 1.61624C12.1917 1.42094 12.0342 1.13346 12.0048 0.778796C11.9736 0.402856 12.0973 0.0820858 12.2555 -0.126584L15.4427 2.29041C16.32 1.13361 16.0941 -0.308344 15.2439 -1.17873C14.4366 -2.00527 13.1143 -2.28644 11.951 -1.65306L13.8636 1.86002ZM12.4673 -0.363994L6.1245 5.69756L8.88808 8.58936L15.2309 2.52782L12.4673 -0.363994ZM6.16926 5.65606C6.64797 5.22576 7.35208 5.22516 7.83208 5.65776L5.15442 8.62926C6.19547 9.56736 7.80068 9.56816 8.84328 8.63086L6.16926 5.65606ZM7.87488 5.69746L1.53131 -0.363454L-1.23194 2.52868L5.11161 8.58956L7.87488 5.69746ZM1.9245 0.160636L1.77479 -0.127554L-1.77483 1.7164L-1.62513 2.00458L1.9245 0.160636Z" fill="black" />
+    </g>
+</svg>
+</span>
+                        </button>
+                        <ul id="d-nav-1-panel" class="submenu" data-nav-panel aria-labelledby="d-nav-1-btn" hidden>
+                                <li class="submenu-item">
+                                        <a href="/en/unemployment/" title="Unemployment Benefits">Unemployment Benefits</a>
+                                </li>
+                                <li class="submenu-item">
+                                        <a href="/en/unemployment/step-1-get-your-information-in-order/" title="Step 1: Get Your Information in Order">Step 1: Get Your Information in Order</a>
+                                </li>
+                                <li class="submenu-item">
+                                        <a href="/en/unemployment/step-2-apply/" title="Step 2: Apply">Step 2: Apply</a>
+                                </li>
+                                <li class="submenu-item">
+                                        <a href="/en/unemployment/step-3-register-in-caljobs/" title="Step 3: Register in CalJOBS">Step 3: Register in CalJOBS</a>
+                                </li>
+                                <li class="submenu-item">
+                                        <a href="/en/unemployment/step-4-review-benefit-documents/" title="Step 4: Review Benefit Documents">Step 4: Review Benefit Documents</a>
+                                </li>
+                                <li class="submenu-item">
+                                        <a href="/en/unemployment/step-5-certify-for-benefits/" title="Step 5: Certify for Benefits">Step 5: Certify for Benefits</a>
+                                </li>
+                                <li class="submenu-item">
+                                        <a href="/en/unemployment/step-6-receive-your-first-payment/" title="Step 6: Receive Your First Payment">Step 6: Receive Your First Payment</a>
+                                </li>
+                                <li class="submenu-item">
+                                        <a href="/en/unemployment/step-7-continue-to-certify/" title="Step 7: Continue to Certify">Step 7: Continue to Certify</a>
+                                </li>
+                                <li class="submenu-item">
+                                        <a href="/en/unemployment/step-8-end-your-benefits/" title="Step 8: End Your Benefits">Step 8: End Your Benefits</a>
+                                </li>
+                                <li class="submenu-item">
+                                        <a href="/en/unemployment/claim-status/" title="Determinations and Eligibility">Determinations and Eligibility</a>
+                                </li>
+                                <li class="submenu-item">
+                                        <a href="/en/unemployment/appeals/" title="Appeals">Appeals</a>
+                                </li>
+                                <li class="submenu-item">
+                                        <a href="/en/unemployment/overpayments-and-penalties/" title="Overpayments and Penalties">Overpayments and Penalties</a>
+                                </li>
+                        </ul>
+                </li>
+                <li class="main-nav-item has-submenu subnav-closed">
+                        <button type="button" class="main-nav-link" data-nav-toggle id="d-nav-2-btn"
+                                aria-expanded="false" aria-controls="d-nav-2-panel">
+                            <span>Disability</span>
+                            <span class="chevron" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="8" viewBox="0 0 14 8" fill="none">
+    <mask id="mask0_146_671" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="14" height="8">
+        <path d="M0.000730038 0.79443V0.53333C0.14098 0.0764001 0.6526 -0.14582 1.09226 0.10418L6.98961 5.70396L12.9073 0.10348C13.5948 -0.27081 14.3215 0.45902 13.8491 1.08192L7.5063 7.14346C7.2243 7.39696 6.77378 7.39626 6.49326 7.14346L0.14971 1.08261L0.000730038 0.79443Z" fill="white" />
+    </mask>
+    <g mask="url(#mask0_146_671)">
+        <path d="M0.000713348 0.794426V2.79443H2.00071V0.794426H0.000713348ZM0.000713348 0.533326L-1.91124 -0.0535642L-1.99929 0.233276V0.533326H0.000713348ZM1.09224 0.104176L2.46939 -1.34615L2.29266 -1.51397L2.0808 -1.63443L1.09224 0.104176ZM6.98959 5.70396L5.61244 7.15426L6.98731 8.45976L8.36438 7.15656L6.98959 5.70396ZM12.9073 0.103476L11.951 -1.65306L11.722 -1.52837L11.5326 -1.34913L12.9073 0.103476ZM13.8491 1.08192L15.2309 2.52782L15.3463 2.41757L15.4427 2.29041L13.8491 1.08192ZM7.50628 7.14346L8.84328 8.63086L8.86598 8.61046L8.88808 8.58936L7.50628 7.14346ZM6.49324 7.14346L5.11161 8.58956L5.13273 8.60976L5.15442 8.62926L6.49324 7.14346ZM0.149693 1.08261L-1.62513 2.00458L-1.47205 2.29927L-1.23194 2.52868L0.149693 1.08261ZM0.000713348 0.794426L-1.66893e-05 -1.20557H-3.29272L-1.77483 1.7164L0.000713348 0.794426ZM2.00071 0.794426V0.533326H-1.99929V0.794426H2.00071ZM1.91266 1.12021C1.68731 1.85437 0.806013 2.24212 0.103693 1.84278L2.0808 -1.63443C0.499153 -2.53375 -1.40538 -1.70157 -1.91124 -0.0535642L1.91266 1.12021ZM-0.284907 1.5545L5.61244 7.15426L8.36678 4.25364L2.46939 -1.34615L-0.284907 1.5545ZM8.36438 7.15656L14.2821 1.55609L11.5326 -1.34913L5.61485 4.25136L8.36438 7.15656ZM13.8636 1.86002C13.3878 2.11911 12.7726 2.01571 12.3824 1.61624C12.1917 1.42094 12.0342 1.13346 12.0048 0.778796C11.9736 0.402856 12.0973 0.0820858 12.2555 -0.126584L15.4427 2.29041C16.32 1.13361 16.0941 -0.308344 15.2439 -1.17873C14.4366 -2.00527 13.1143 -2.28644 11.951 -1.65306L13.8636 1.86002ZM12.4673 -0.363994L6.1245 5.69756L8.88808 8.58936L15.2309 2.52782L12.4673 -0.363994ZM6.16926 5.65606C6.64797 5.22576 7.35208 5.22516 7.83208 5.65776L5.15442 8.62926C6.19547 9.56736 7.80068 9.56816 8.84328 8.63086L6.16926 5.65606ZM7.87488 5.69746L1.53131 -0.363454L-1.23194 2.52868L5.11161 8.58956L7.87488 5.69746ZM1.9245 0.160636L1.77479 -0.127554L-1.77483 1.7164L-1.62513 2.00458L1.9245 0.160636Z" fill="black" />
+    </g>
+</svg>
+</span>
+                        </button>
+                        <ul id="d-nav-2-panel" class="submenu" data-nav-panel aria-labelledby="d-nav-2-btn" hidden>
+                                <li class="submenu-item">
+                                        <a href="/en/disability/disability_insurance/" title="Disability Insurance Benefits">Disability Insurance Benefits</a>
+                                </li>
+                                <li class="submenu-item">
+                                        <a href="/en/disability/step-1-get-your-information-in-order/" title="Step 1: Get Your Information in Order">Step 1: Get Your Information in Order</a>
+                                </li>
+                                <li class="submenu-item">
+                                        <a href="/en/disability/step-2-apply/" title="Step 2: Apply">Step 2: Apply</a>
+                                </li>
+                                <li class="submenu-item">
+                                        <a href="/en/disability/step-3-have-a-medical-certification-completed/" title="Step 3: Have a Medical Certification Completed">Step 3: Have a Medical Certification Completed</a>
+                                </li>
+                                <li class="submenu-item">
+                                        <a href="/en/disability/step-4-review-benefit-documents/" title="Step 4: Review Benefit Documents">Step 4: Review Benefit Documents</a>
+                                </li>
+                                <li class="submenu-item">
+                                        <a href="/en/disability/step-5-receive-your-first-payment/" title="Step 5: Receive Your First Payment">Step 5: Receive Your First Payment</a>
+                                </li>
+                                <li class="submenu-item">
+                                        <a href="/en/disability/step-6-manage-benefits/" title="Step 6: Manage Benefits">Step 6: Manage Benefits</a>
+                                </li>
+                                <li class="submenu-item">
+                                        <a href="/en/disability/step-7-end-your-benefits/" title="Step 7: End Your Benefits">Step 7: End Your Benefits</a>
+                                </li>
+                                <li class="submenu-item">
+                                        <a href="/en/disability/Am_I_Eligible_for_DI_Benefits/" title="Eligibility Requirements">Eligibility Requirements</a>
+                                </li>
+                                <li class="submenu-item">
+                                        <a href="/en/disability/appeals/" title="Appeals">Appeals</a>
+                                </li>
+                                <li class="submenu-item">
+                                        <a href="/en/about_edd/events-and-seminars/">Events and Educational Webinars</a>
+                                </li>
+                        </ul>
+                </li>
+                <li class="main-nav-item has-submenu subnav-closed">
+                        <button type="button" class="main-nav-link" data-nav-toggle id="d-nav-3-btn"
+                                aria-expanded="false" aria-controls="d-nav-3-panel">
+                            <span>Paid Family Leave</span>
+                            <span class="chevron" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="8" viewBox="0 0 14 8" fill="none">
+    <mask id="mask0_146_671" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="14" height="8">
+        <path d="M0.000730038 0.79443V0.53333C0.14098 0.0764001 0.6526 -0.14582 1.09226 0.10418L6.98961 5.70396L12.9073 0.10348C13.5948 -0.27081 14.3215 0.45902 13.8491 1.08192L7.5063 7.14346C7.2243 7.39696 6.77378 7.39626 6.49326 7.14346L0.14971 1.08261L0.000730038 0.79443Z" fill="white" />
+    </mask>
+    <g mask="url(#mask0_146_671)">
+        <path d="M0.000713348 0.794426V2.79443H2.00071V0.794426H0.000713348ZM0.000713348 0.533326L-1.91124 -0.0535642L-1.99929 0.233276V0.533326H0.000713348ZM1.09224 0.104176L2.46939 -1.34615L2.29266 -1.51397L2.0808 -1.63443L1.09224 0.104176ZM6.98959 5.70396L5.61244 7.15426L6.98731 8.45976L8.36438 7.15656L6.98959 5.70396ZM12.9073 0.103476L11.951 -1.65306L11.722 -1.52837L11.5326 -1.34913L12.9073 0.103476ZM13.8491 1.08192L15.2309 2.52782L15.3463 2.41757L15.4427 2.29041L13.8491 1.08192ZM7.50628 7.14346L8.84328 8.63086L8.86598 8.61046L8.88808 8.58936L7.50628 7.14346ZM6.49324 7.14346L5.11161 8.58956L5.13273 8.60976L5.15442 8.62926L6.49324 7.14346ZM0.149693 1.08261L-1.62513 2.00458L-1.47205 2.29927L-1.23194 2.52868L0.149693 1.08261ZM0.000713348 0.794426L-1.66893e-05 -1.20557H-3.29272L-1.77483 1.7164L0.000713348 0.794426ZM2.00071 0.794426V0.533326H-1.99929V0.794426H2.00071ZM1.91266 1.12021C1.68731 1.85437 0.806013 2.24212 0.103693 1.84278L2.0808 -1.63443C0.499153 -2.53375 -1.40538 -1.70157 -1.91124 -0.0535642L1.91266 1.12021ZM-0.284907 1.5545L5.61244 7.15426L8.36678 4.25364L2.46939 -1.34615L-0.284907 1.5545ZM8.36438 7.15656L14.2821 1.55609L11.5326 -1.34913L5.61485 4.25136L8.36438 7.15656ZM13.8636 1.86002C13.3878 2.11911 12.7726 2.01571 12.3824 1.61624C12.1917 1.42094 12.0342 1.13346 12.0048 0.778796C11.9736 0.402856 12.0973 0.0820858 12.2555 -0.126584L15.4427 2.29041C16.32 1.13361 16.0941 -0.308344 15.2439 -1.17873C14.4366 -2.00527 13.1143 -2.28644 11.951 -1.65306L13.8636 1.86002ZM12.4673 -0.363994L6.1245 5.69756L8.88808 8.58936L15.2309 2.52782L12.4673 -0.363994ZM6.16926 5.65606C6.64797 5.22576 7.35208 5.22516 7.83208 5.65776L5.15442 8.62926C6.19547 9.56736 7.80068 9.56816 8.84328 8.63086L6.16926 5.65606ZM7.87488 5.69746L1.53131 -0.363454L-1.23194 2.52868L5.11161 8.58956L7.87488 5.69746ZM1.9245 0.160636L1.77479 -0.127554L-1.77483 1.7164L-1.62513 2.00458L1.9245 0.160636Z" fill="black" />
+    </g>
+</svg>
+</span>
+                        </button>
+                        <ul id="d-nav-3-panel" class="submenu" data-nav-panel aria-labelledby="d-nav-3-btn" hidden>
+                                <li class="submenu-item">
+                                        <a href="/en/disability/paid-family-leave/" title="Paid Family Leave Benefits">Paid Family Leave Benefits</a>
+                                </li>
+                                <li class="submenu-item">
+                                        <a href="/en/disability/paid-family-leave/step-1-get-your-information-in-order/" title="Step 1: Get Your Information in Order">Step 1: Get Your Information in Order</a>
+                                </li>
+                                <li class="submenu-item">
+                                        <a href="/en/disability/paid-family-leave/step-2-apply/" title="Step 2: Apply">Step 2: Apply</a>
+                                </li>
+                                <li class="submenu-item">
+                                        <a href="/en/disability/paid-family-leave/step-3-submit-required-documents/" title="Step 3: Submit Required Documents">Step 3: Submit Required Documents</a>
+                                </li>
+                                <li class="submenu-item">
+                                        <a href="/en/disability/paid-family-leave/step-4-review-benefit-documents/" title="Step 4: Review Benefit Documents">Step 4: Review Benefit Documents</a>
+                                </li>
+                                <li class="submenu-item">
+                                        <a href="/en/disability/paid-family-leave/step-5-receive-your-first-payment/" title="Step 5: Receive Your First Payment">Step 5: Receive Your First Payment</a>
+                                </li>
+                                <li class="submenu-item">
+                                        <a href="/en/disability/paid-family-leave/step-6-manage-benefits/" title="Step 6: Manage Benefits">Step 6: Manage Benefits</a>
+                                </li>
+                                <li class="submenu-item">
+                                        <a href="/en/disability/paid-family-leave/step-7-end-your-benefits/" title="Step 7: End Your Benefits">Step 7: End Your Benefits</a>
+                                </li>
+                                <li class="submenu-item">
+                                        <a href="/en/disability/Am_I_Eligible_for_PFL_Benefits/" title="Eligibility Requirements">Eligibility Requirements</a>
+                                </li>
+                                <li class="submenu-item">
+                                        <a href="/en/disability/appeals/" title="Appeals">Appeals</a>
+                                </li>
+                                <li class="submenu-item">
+                                        <a href="/en/disability/paid-family-leave/Physicians-and-Practitioners/" title="Physicians and Practitioners">Physicians and Practitioners</a>
+                                </li>
+                                <li class="submenu-item">
+                                        <a href="/en/disability/paid-family-leave/Employers/" title="Employers">Employers</a>
+                                </li>
+                                <li class="submenu-item">
+                                        <a href="/en/about_edd/events-and-seminars/">Events and Educational Webinars</a>
+                                </li>
+                        </ul>
+                </li>
+                <li class="main-nav-item has-submenu subnav-closed align-submenu-right">
+                        <button type="button" class="main-nav-link" data-nav-toggle id="d-nav-4-btn"
+                                aria-expanded="false" aria-controls="d-nav-4-panel">
+                            <span>Employers</span>
+                            <span class="chevron" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="8" viewBox="0 0 14 8" fill="none">
+    <mask id="mask0_146_671" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="14" height="8">
+        <path d="M0.000730038 0.79443V0.53333C0.14098 0.0764001 0.6526 -0.14582 1.09226 0.10418L6.98961 5.70396L12.9073 0.10348C13.5948 -0.27081 14.3215 0.45902 13.8491 1.08192L7.5063 7.14346C7.2243 7.39696 6.77378 7.39626 6.49326 7.14346L0.14971 1.08261L0.000730038 0.79443Z" fill="white" />
+    </mask>
+    <g mask="url(#mask0_146_671)">
+        <path d="M0.000713348 0.794426V2.79443H2.00071V0.794426H0.000713348ZM0.000713348 0.533326L-1.91124 -0.0535642L-1.99929 0.233276V0.533326H0.000713348ZM1.09224 0.104176L2.46939 -1.34615L2.29266 -1.51397L2.0808 -1.63443L1.09224 0.104176ZM6.98959 5.70396L5.61244 7.15426L6.98731 8.45976L8.36438 7.15656L6.98959 5.70396ZM12.9073 0.103476L11.951 -1.65306L11.722 -1.52837L11.5326 -1.34913L12.9073 0.103476ZM13.8491 1.08192L15.2309 2.52782L15.3463 2.41757L15.4427 2.29041L13.8491 1.08192ZM7.50628 7.14346L8.84328 8.63086L8.86598 8.61046L8.88808 8.58936L7.50628 7.14346ZM6.49324 7.14346L5.11161 8.58956L5.13273 8.60976L5.15442 8.62926L6.49324 7.14346ZM0.149693 1.08261L-1.62513 2.00458L-1.47205 2.29927L-1.23194 2.52868L0.149693 1.08261ZM0.000713348 0.794426L-1.66893e-05 -1.20557H-3.29272L-1.77483 1.7164L0.000713348 0.794426ZM2.00071 0.794426V0.533326H-1.99929V0.794426H2.00071ZM1.91266 1.12021C1.68731 1.85437 0.806013 2.24212 0.103693 1.84278L2.0808 -1.63443C0.499153 -2.53375 -1.40538 -1.70157 -1.91124 -0.0535642L1.91266 1.12021ZM-0.284907 1.5545L5.61244 7.15426L8.36678 4.25364L2.46939 -1.34615L-0.284907 1.5545ZM8.36438 7.15656L14.2821 1.55609L11.5326 -1.34913L5.61485 4.25136L8.36438 7.15656ZM13.8636 1.86002C13.3878 2.11911 12.7726 2.01571 12.3824 1.61624C12.1917 1.42094 12.0342 1.13346 12.0048 0.778796C11.9736 0.402856 12.0973 0.0820858 12.2555 -0.126584L15.4427 2.29041C16.32 1.13361 16.0941 -0.308344 15.2439 -1.17873C14.4366 -2.00527 13.1143 -2.28644 11.951 -1.65306L13.8636 1.86002ZM12.4673 -0.363994L6.1245 5.69756L8.88808 8.58936L15.2309 2.52782L12.4673 -0.363994ZM6.16926 5.65606C6.64797 5.22576 7.35208 5.22516 7.83208 5.65776L5.15442 8.62926C6.19547 9.56736 7.80068 9.56816 8.84328 8.63086L6.16926 5.65606ZM7.87488 5.69746L1.53131 -0.363454L-1.23194 2.52868L5.11161 8.58956L7.87488 5.69746ZM1.9245 0.160636L1.77479 -0.127554L-1.77483 1.7164L-1.62513 2.00458L1.9245 0.160636Z" fill="black" />
+    </g>
+</svg>
+</span>
+                        </button>
+                        <ul id="d-nav-4-panel" class="submenu" data-nav-panel aria-labelledby="d-nav-4-btn" hidden>
+                                <li class="submenu-item">
+                                        <a href="/en/payroll_taxes/employer-payroll-taxes/">Employer Payroll Taxes</a>
+                                </li>
+                                <li class="submenu-item">
+                                        <a href="/en/payroll_taxes/step-1-register-as-an-employer/">Step 1: Register as an Employer</a>
+                                </li>
+                                <li class="submenu-item">
+                                        <a href="/en/payroll_taxes/step-2-get-your-information-in-order/">Step 2: Get Your Information in Order</a>
+                                </li>
+                                <li class="submenu-item">
+                                        <a href="/en/payroll_taxes/step-3-register-for-a-payroll-tax-account/">Step 3: Register for a Payroll Tax Account</a>
+                                </li>
+                                <li class="submenu-item">
+                                        <a href="/en/payroll_taxes/step-4-report-employees-and-independent-contractors/">Step 4: Report Employees and Independent Contractors</a>
+                                </li>
+                                <li class="submenu-item">
+                                        <a href="/en/payroll_taxes/step-5-withhold-and-pay-payroll-taxes/">Step 5: Withhold and Pay Payroll Taxes</a>
+                                </li>
+                                <li class="submenu-item">
+                                        <a href="/en/payroll_taxes/step-6-file-tax-returns-and-wage-reports/">Step 6: File Tax Returns and Wage Reports</a>
+                                </li>
+                                <li class="submenu-item">
+                                        <a href="/en/payroll_taxes/step-7-provide-required-notices/">Step 7: Provide Required Notices</a>
+                                </li>
+                                <li class="submenu-item">
+                                        <a href="/en/payroll_taxes/e-Services_for_Business/">e-Services for Business</a>
+                                </li>
+                                <li class="submenu-item">
+                                        <a href="/en/payroll_taxes/">Payroll Taxes Resources</a>
+                                </li>
+                                <li class="submenu-item">
+                                        <a href="/en/payroll_taxes/forms_and_publications/">Payroll Taxes – Forms and Publications</a>
+                                </li>
+                                <li class="submenu-item">
+                                        <a href="/en/payroll_taxes/payroll-tax-webinars/">Payroll Tax Webinars</a>
+                                </li>
+                                <li class="submenu-item">
+                                        <a href="/en/payroll_taxes/employer-news/">California Employer News and Updates</a>
+                                </li>
+                                <li class="submenu-item">
+                                        <a href="/en/jobs_and_training/Work_Opportunity_Tax_Credit/" title="Work Opportunity Tax Credit">Work Opportunity Tax Credit</a>
+                                </li>
+                        </ul>
+                </li>
+                <li class="main-nav-item has-submenu subnav-closed align-submenu-right">
+                        <button type="button" class="main-nav-link" data-nav-toggle id="d-nav-5-btn"
+                                aria-expanded="false" aria-controls="d-nav-5-panel">
+                            <span>Job Services</span>
+                            <span class="chevron" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="8" viewBox="0 0 14 8" fill="none">
+    <mask id="mask0_146_671" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="14" height="8">
+        <path d="M0.000730038 0.79443V0.53333C0.14098 0.0764001 0.6526 -0.14582 1.09226 0.10418L6.98961 5.70396L12.9073 0.10348C13.5948 -0.27081 14.3215 0.45902 13.8491 1.08192L7.5063 7.14346C7.2243 7.39696 6.77378 7.39626 6.49326 7.14346L0.14971 1.08261L0.000730038 0.79443Z" fill="white" />
+    </mask>
+    <g mask="url(#mask0_146_671)">
+        <path d="M0.000713348 0.794426V2.79443H2.00071V0.794426H0.000713348ZM0.000713348 0.533326L-1.91124 -0.0535642L-1.99929 0.233276V0.533326H0.000713348ZM1.09224 0.104176L2.46939 -1.34615L2.29266 -1.51397L2.0808 -1.63443L1.09224 0.104176ZM6.98959 5.70396L5.61244 7.15426L6.98731 8.45976L8.36438 7.15656L6.98959 5.70396ZM12.9073 0.103476L11.951 -1.65306L11.722 -1.52837L11.5326 -1.34913L12.9073 0.103476ZM13.8491 1.08192L15.2309 2.52782L15.3463 2.41757L15.4427 2.29041L13.8491 1.08192ZM7.50628 7.14346L8.84328 8.63086L8.86598 8.61046L8.88808 8.58936L7.50628 7.14346ZM6.49324 7.14346L5.11161 8.58956L5.13273 8.60976L5.15442 8.62926L6.49324 7.14346ZM0.149693 1.08261L-1.62513 2.00458L-1.47205 2.29927L-1.23194 2.52868L0.149693 1.08261ZM0.000713348 0.794426L-1.66893e-05 -1.20557H-3.29272L-1.77483 1.7164L0.000713348 0.794426ZM2.00071 0.794426V0.533326H-1.99929V0.794426H2.00071ZM1.91266 1.12021C1.68731 1.85437 0.806013 2.24212 0.103693 1.84278L2.0808 -1.63443C0.499153 -2.53375 -1.40538 -1.70157 -1.91124 -0.0535642L1.91266 1.12021ZM-0.284907 1.5545L5.61244 7.15426L8.36678 4.25364L2.46939 -1.34615L-0.284907 1.5545ZM8.36438 7.15656L14.2821 1.55609L11.5326 -1.34913L5.61485 4.25136L8.36438 7.15656ZM13.8636 1.86002C13.3878 2.11911 12.7726 2.01571 12.3824 1.61624C12.1917 1.42094 12.0342 1.13346 12.0048 0.778796C11.9736 0.402856 12.0973 0.0820858 12.2555 -0.126584L15.4427 2.29041C16.32 1.13361 16.0941 -0.308344 15.2439 -1.17873C14.4366 -2.00527 13.1143 -2.28644 11.951 -1.65306L13.8636 1.86002ZM12.4673 -0.363994L6.1245 5.69756L8.88808 8.58936L15.2309 2.52782L12.4673 -0.363994ZM6.16926 5.65606C6.64797 5.22576 7.35208 5.22516 7.83208 5.65776L5.15442 8.62926C6.19547 9.56736 7.80068 9.56816 8.84328 8.63086L6.16926 5.65606ZM7.87488 5.69746L1.53131 -0.363454L-1.23194 2.52868L5.11161 8.58956L7.87488 5.69746ZM1.9245 0.160636L1.77479 -0.127554L-1.77483 1.7164L-1.62513 2.00458L1.9245 0.160636Z" fill="black" />
+    </g>
+</svg>
+</span>
+                        </button>
+                        <ul id="d-nav-5-panel" class="submenu" data-nav-panel aria-labelledby="d-nav-5-btn" hidden>
+                                <li class="submenu-item">
+                                        <a href="/en/jobs_and_training/job-services/" title="Job Services">Job Services</a>
+                                </li>
+                                <li class="submenu-item">
+                                        <a href="/en/jobs_and_training/step-1-register-in-caljobs/" title="Step 1: Register in CalJOBS">Step 1: Register in CalJOBS</a>
+                                </li>
+                                <li class="submenu-item">
+                                        <a href="/en/jobs_and_training/step-2-explore-career-paths/" title="Step 2: Explore Career Paths">Step 2: Explore Career Paths</a>
+                                </li>
+                                <li class="submenu-item">
+                                        <a href="/en/jobs_and_training/step-3-enhance-your-skills/" title="Step 3: Enhance Your Skills">Step 3: Enhance Your Skills</a>
+                                </li>
+                                <li class="submenu-item">
+                                        <a href="/en/jobs_and_training/step-4-search-for-jobs/" title="Step 4: Search for Jobs">Step 4: Search for Jobs</a>
+                                </li>
+                                <li class="submenu-item">
+                                        <a href="/en/jobs_and_training/step-5-apply/" title="Step 5: Apply">Step 5: Apply</a>
+                                </li>
+                                <li class="submenu-item">
+                                        <a href="/en/jobs_and_training/step-6-interview/" title="Step 6: Interview">Step 6: Interview</a>
+                                </li>
+                                <li class="submenu-item">
+                                        <a href="/en/jobs_and_training/employer-services/">Employer Services</a>
+                                </li>
+                                <li class="submenu-item">
+                                        <a href="/en/jobs_and_training/register-in-caljobs/">Register with e-Services for Business and CalJOBS</a>
+                                </li>
+                                <li class="submenu-item">
+                                        <a href="/en/jobs_and_training/find-qualified-employees/">Find Qualified Employees</a>
+                                </li>
+                                <li class="submenu-item">
+                                        <a href="/en/jobs_and_training/review-tax-credit-incentives/">Review Tax Credit Incentives</a>
+                                </li>
+                                <li class="submenu-item">
+                                        <a href="/en/jobs_and_training/find-training-for-you-and-your-employees/">Find Training for You and Your Employees</a>
+                                </li>
+                                <li class="submenu-item">
+                                        <a href="/en/jobs_and_training/review-layoff-services/">Review Layoff Services</a>
+                                </li>
+                                <li class="submenu-item">
+                                        <a href="/en/jobs_and_training/Workforce_Partner_Information/" title="Workforce Partner Information">Workforce Partner Information</a>
+                                </li>
+                                <li class="submenu-item">
+                                        <a href="https://labormarketinfo.edd.ca.gov/" title="Labor Market Information">Labor Market Information</a>
+                                </li>
+                                <li class="submenu-item">
+                                        <a href="/en/jobs_and_training/services_for_veterans/" title="Veterans Services">Veterans Services</a>
+                                </li>
+                        </ul>
+                </li>
+                <li class="main-nav-item has-submenu subnav-closed align-submenu-right">
+                        <button type="button" class="main-nav-link" data-nav-toggle id="d-nav-6-btn"
+                                aria-expanded="false" aria-controls="d-nav-6-panel">
+                            <span>Newsroom</span>
+                            <span class="chevron" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="8" viewBox="0 0 14 8" fill="none">
+    <mask id="mask0_146_671" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="14" height="8">
+        <path d="M0.000730038 0.79443V0.53333C0.14098 0.0764001 0.6526 -0.14582 1.09226 0.10418L6.98961 5.70396L12.9073 0.10348C13.5948 -0.27081 14.3215 0.45902 13.8491 1.08192L7.5063 7.14346C7.2243 7.39696 6.77378 7.39626 6.49326 7.14346L0.14971 1.08261L0.000730038 0.79443Z" fill="white" />
+    </mask>
+    <g mask="url(#mask0_146_671)">
+        <path d="M0.000713348 0.794426V2.79443H2.00071V0.794426H0.000713348ZM0.000713348 0.533326L-1.91124 -0.0535642L-1.99929 0.233276V0.533326H0.000713348ZM1.09224 0.104176L2.46939 -1.34615L2.29266 -1.51397L2.0808 -1.63443L1.09224 0.104176ZM6.98959 5.70396L5.61244 7.15426L6.98731 8.45976L8.36438 7.15656L6.98959 5.70396ZM12.9073 0.103476L11.951 -1.65306L11.722 -1.52837L11.5326 -1.34913L12.9073 0.103476ZM13.8491 1.08192L15.2309 2.52782L15.3463 2.41757L15.4427 2.29041L13.8491 1.08192ZM7.50628 7.14346L8.84328 8.63086L8.86598 8.61046L8.88808 8.58936L7.50628 7.14346ZM6.49324 7.14346L5.11161 8.58956L5.13273 8.60976L5.15442 8.62926L6.49324 7.14346ZM0.149693 1.08261L-1.62513 2.00458L-1.47205 2.29927L-1.23194 2.52868L0.149693 1.08261ZM0.000713348 0.794426L-1.66893e-05 -1.20557H-3.29272L-1.77483 1.7164L0.000713348 0.794426ZM2.00071 0.794426V0.533326H-1.99929V0.794426H2.00071ZM1.91266 1.12021C1.68731 1.85437 0.806013 2.24212 0.103693 1.84278L2.0808 -1.63443C0.499153 -2.53375 -1.40538 -1.70157 -1.91124 -0.0535642L1.91266 1.12021ZM-0.284907 1.5545L5.61244 7.15426L8.36678 4.25364L2.46939 -1.34615L-0.284907 1.5545ZM8.36438 7.15656L14.2821 1.55609L11.5326 -1.34913L5.61485 4.25136L8.36438 7.15656ZM13.8636 1.86002C13.3878 2.11911 12.7726 2.01571 12.3824 1.61624C12.1917 1.42094 12.0342 1.13346 12.0048 0.778796C11.9736 0.402856 12.0973 0.0820858 12.2555 -0.126584L15.4427 2.29041C16.32 1.13361 16.0941 -0.308344 15.2439 -1.17873C14.4366 -2.00527 13.1143 -2.28644 11.951 -1.65306L13.8636 1.86002ZM12.4673 -0.363994L6.1245 5.69756L8.88808 8.58936L15.2309 2.52782L12.4673 -0.363994ZM6.16926 5.65606C6.64797 5.22576 7.35208 5.22516 7.83208 5.65776L5.15442 8.62926C6.19547 9.56736 7.80068 9.56816 8.84328 8.63086L6.16926 5.65606ZM7.87488 5.69746L1.53131 -0.363454L-1.23194 2.52868L5.11161 8.58956L7.87488 5.69746ZM1.9245 0.160636L1.77479 -0.127554L-1.77483 1.7164L-1.62513 2.00458L1.9245 0.160636Z" fill="black" />
+    </g>
+</svg>
+</span>
+                        </button>
+                        <ul id="d-nav-6-panel" class="submenu" data-nav-panel aria-labelledby="d-nav-6-btn" hidden>
+                                <li class="submenu-item">
+                                        <a href="/en/newsroom/" title="News Releases and Helpful Links">News Releases and Helpful Links</a>
+                                </li>
+                                <li class="submenu-item">
+                                        <a href="/en/newsroom/benefitting-californians/" title="Benefitting Californians Blog">Benefiting Californians Blog</a>
+                                </li>
+                                <li class="submenu-item">
+                                        <a href="/en/about_edd/eddnext/" title="EDDNext Modernization Updates">EDDNext Modernization Updates</a>
+                                </li>
+                                <li class="submenu-item">
+                                        <a href="/en/about_edd/public_records_request/" title="Public Records Request">Public Records Request</a>
+                                </li>
+                                <li class="submenu-item">
+                                        <a href="/en/about_edd/quick_statistics_overview/" title="Quick Statistics">Quick Statistics</a>
+                                </li>
+                                <li class="submenu-item">
+                                        <a href="https://labormarketinfo.edd.ca.gov/" title="Labor Market Information">Labor Market Information</a>
+                                </li>
+                                <li class="submenu-item">
+                                        <a href="/en/newsroom/facts-and-stats/dashboard/" title="Unemployment Data Dashboard">Unemployment Data Dashboard</a>
+                                </li>
+                        </ul>
+                </li>
         </ul>
     </div>
 </nav>
+
         </div>
     </div>
 
     <!-- Mobile Menu -->
     <div id="mobile-nav" class="mobile-nav" hidden>
-
-
         <div class="mobile-search" role="search">
             <div class="gcse-searchbox-only" data-resultsUrl="/en/Search"></div>
         </div>
 
-        <ul class="mobile-nav-list container">
-            <li class="mobile-nav-item mobile-nav-link">
-                <a href="https://myedd.edd.ca.gov/s/" role="menuitem">myEDD Login</a>
-            </li>
-            <li class="mobile-nav-item mobile-nav-link">
-                <a href="/en/about_edd/employer_services_online/" role="menuitem">Employer Login</a>
-            </li>
 
-                <li class="mobile-nav-item has-submenu">
-                    <button class="mobile-nav-link" aria-expanded="false" aria-controls="submenu-mobile-nav-35589" id="toggle-mobile-nav-35589">
-                        Unemployment
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="29" viewBox="0 0 16 29" fill="none">
-                            <g clip-path="url(#clip0_392_3183)">
-                                <path d="M1.5 1.50001L14.35 14.35L1.5 27.2" stroke="#046B98" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
-                            </g>
-                            <defs>
-                                <clipPath id="clip0_392_3183">
-                                    <rect width="28.7" height="15.85" fill="white" transform="translate(0 28.7) rotate(-90)" />
-                                </clipPath>
-                            </defs>
-                        </svg>
-                    </button>
 
-                        <ul id="submenu-mobile-nav-35589" class="mobile-submenu" role="menu" aria-labelledby="toggle-mobile-nav-35589" hidden>
-                                <li role="none" class="mobile-submenu-item">
-                                    <a href="/en/unemployment/" role="menuitem">Unemployment Benefits</a>
-                                </li>
-                                <li role="none" class="mobile-submenu-item">
-                                    <a href="/en/unemployment/step-1-get-your-information-in-order/" role="menuitem">Step 1: Get Your Information in Order</a>
-                                </li>
-                                <li role="none" class="mobile-submenu-item">
-                                    <a href="/en/unemployment/step-2-apply/" role="menuitem">Step 2: Apply</a>
-                                </li>
-                                <li role="none" class="mobile-submenu-item">
-                                    <a href="/en/unemployment/step-3-register-in-caljobs/" role="menuitem">Step 3: Register in CalJOBS</a>
-                                </li>
-                                <li role="none" class="mobile-submenu-item">
-                                    <a href="/en/unemployment/step-4-review-benefit-documents/" role="menuitem">Step 4: Review Benefit Documents</a>
-                                </li>
-                                <li role="none" class="mobile-submenu-item">
-                                    <a href="/en/unemployment/step-5-certify-for-benefits/" role="menuitem">Step 5: Certify for Benefits</a>
-                                </li>
-                                <li role="none" class="mobile-submenu-item">
-                                    <a href="/en/unemployment/step-6-receive-your-first-payment/" role="menuitem">Step 6: Receive Your First Payment</a>
-                                </li>
-                                <li role="none" class="mobile-submenu-item">
-                                    <a href="/en/unemployment/step-7-continue-to-certify/" role="menuitem">Step 7: Continue to Certify</a>
-                                </li>
-                                <li role="none" class="mobile-submenu-item">
-                                    <a href="/en/unemployment/step-8-end-your-benefits/" role="menuitem">Step 8: End Your Benefits</a>
-                                </li>
-                                <li role="none" class="mobile-submenu-item">
-                                    <a href="/en/unemployment/claim-status/" role="menuitem">Determinations and Eligibility</a>
-                                </li>
-                                <li role="none" class="mobile-submenu-item">
-                                    <a href="/en/unemployment/appeals/" role="menuitem">Appeals</a>
-                                </li>
-                                <li role="none" class="mobile-submenu-item">
-                                    <a href="/en/unemployment/overpayments-and-penalties/" role="menuitem">Overpayments and Penalties</a>
-                                </li>
-                        </ul>
-                </li>
-                <li class="mobile-nav-item has-submenu">
-                    <button class="mobile-nav-link" aria-expanded="false" aria-controls="submenu-mobile-nav-35590" id="toggle-mobile-nav-35590">
-                        Disability
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="29" viewBox="0 0 16 29" fill="none">
-                            <g clip-path="url(#clip0_392_3183)">
-                                <path d="M1.5 1.50001L14.35 14.35L1.5 27.2" stroke="#046B98" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
-                            </g>
-                            <defs>
-                                <clipPath id="clip0_392_3183">
-                                    <rect width="28.7" height="15.85" fill="white" transform="translate(0 28.7) rotate(-90)" />
-                                </clipPath>
-                            </defs>
-                        </svg>
-                    </button>
+<ul id="mobile-nav-list" class="mobile-nav-list container">
+    <li class="mobile-nav-item">
+        <a class="mobile-nav-link" href="https://myedd.edd.ca.gov/s/">myEDD Login</a>
+    </li>
+    <li class="mobile-nav-item">
+        <a class="mobile-nav-link" href="/en/about_edd/employer_services_online/">Employer Login</a>
+    </li>
 
-                        <ul id="submenu-mobile-nav-35590" class="mobile-submenu" role="menu" aria-labelledby="toggle-mobile-nav-35590" hidden>
-                                <li role="none" class="mobile-submenu-item">
-                                    <a href="/en/disability/disability_insurance/" role="menuitem">Disability Insurance Benefits</a>
-                                </li>
-                                <li role="none" class="mobile-submenu-item">
-                                    <a href="/en/disability/step-1-get-your-information-in-order/" role="menuitem">Step 1: Get Your Information in Order</a>
-                                </li>
-                                <li role="none" class="mobile-submenu-item">
-                                    <a href="/en/disability/step-2-apply/" role="menuitem">Step 2: Apply</a>
-                                </li>
-                                <li role="none" class="mobile-submenu-item">
-                                    <a href="/en/disability/step-3-have-a-medical-certification-completed/" role="menuitem">Step 3: Have a Medical Certification Completed</a>
-                                </li>
-                                <li role="none" class="mobile-submenu-item">
-                                    <a href="/en/disability/step-4-review-benefit-documents/" role="menuitem">Step 4: Review Benefit Documents</a>
-                                </li>
-                                <li role="none" class="mobile-submenu-item">
-                                    <a href="/en/disability/step-5-receive-your-first-payment/" role="menuitem">Step 5: Receive Your First Payment</a>
-                                </li>
-                                <li role="none" class="mobile-submenu-item">
-                                    <a href="/en/disability/step-6-manage-benefits/" role="menuitem">Step 6: Manage Benefits</a>
-                                </li>
-                                <li role="none" class="mobile-submenu-item">
-                                    <a href="/en/disability/step-7-end-your-benefits/" role="menuitem">Step 7: End Your Benefits</a>
-                                </li>
-                                <li role="none" class="mobile-submenu-item">
-                                    <a href="/en/disability/Am_I_Eligible_for_DI_Benefits/" role="menuitem">Eligibility Requirements</a>
-                                </li>
-                                <li role="none" class="mobile-submenu-item">
-                                    <a href="/en/disability/appeals/" role="menuitem">Appeals</a>
-                                </li>
-                                <li role="none" class="mobile-submenu-item">
-                                    <a href="/en/about_edd/events-and-seminars/" role="menuitem">Events and Educational Webinars</a>
-                                </li>
-                        </ul>
-                </li>
-                <li class="mobile-nav-item has-submenu">
-                    <button class="mobile-nav-link" aria-expanded="false" aria-controls="submenu-mobile-nav-35591" id="toggle-mobile-nav-35591">
-                        Paid Family Leave
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="29" viewBox="0 0 16 29" fill="none">
-                            <g clip-path="url(#clip0_392_3183)">
-                                <path d="M1.5 1.50001L14.35 14.35L1.5 27.2" stroke="#046B98" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
-                            </g>
-                            <defs>
-                                <clipPath id="clip0_392_3183">
-                                    <rect width="28.7" height="15.85" fill="white" transform="translate(0 28.7) rotate(-90)" />
-                                </clipPath>
-                            </defs>
-                        </svg>
-                    </button>
+        <li class="mobile-nav-item has-submenu">
+                <button type="button" class="mobile-nav-link" data-nav-toggle id="m-nav-1-btn"
+                        aria-expanded="false" aria-controls="m-nav-1-panel">
+                    <span>Unemployment</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 20 20" fill="none" aria-hidden="true" focusable="false">
+        <path d="M7 3.5 13.5 10 7 16.5" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+    </svg>
 
-                        <ul id="submenu-mobile-nav-35591" class="mobile-submenu" role="menu" aria-labelledby="toggle-mobile-nav-35591" hidden>
-                                <li role="none" class="mobile-submenu-item">
-                                    <a href="/en/disability/paid-family-leave/" role="menuitem">Paid Family Leave Benefits</a>
-                                </li>
-                                <li role="none" class="mobile-submenu-item">
-                                    <a href="/en/disability/paid-family-leave/step-1-get-your-information-in-order/" role="menuitem">Step 1: Get Your Information in Order</a>
-                                </li>
-                                <li role="none" class="mobile-submenu-item">
-                                    <a href="/en/disability/paid-family-leave/step-2-apply/" role="menuitem">Step 2: Apply</a>
-                                </li>
-                                <li role="none" class="mobile-submenu-item">
-                                    <a href="/en/disability/paid-family-leave/step-3-submit-required-documents/" role="menuitem">Step 3: Submit Required Documents</a>
-                                </li>
-                                <li role="none" class="mobile-submenu-item">
-                                    <a href="/en/disability/paid-family-leave/step-4-review-benefit-documents/" role="menuitem">Step 4: Review Benefit Documents</a>
-                                </li>
-                                <li role="none" class="mobile-submenu-item">
-                                    <a href="/en/disability/paid-family-leave/step-5-receive-your-first-payment/" role="menuitem">Step 5: Receive Your First Payment</a>
-                                </li>
-                                <li role="none" class="mobile-submenu-item">
-                                    <a href="/en/disability/paid-family-leave/step-6-manage-benefits/" role="menuitem">Step 6: Manage Benefits</a>
-                                </li>
-                                <li role="none" class="mobile-submenu-item">
-                                    <a href="/en/disability/paid-family-leave/step-7-end-your-benefits/" role="menuitem">Step 7: End Your Benefits</a>
-                                </li>
-                                <li role="none" class="mobile-submenu-item">
-                                    <a href="/en/disability/Am_I_Eligible_for_PFL_Benefits/" role="menuitem">Eligibility Requirements</a>
-                                </li>
-                                <li role="none" class="mobile-submenu-item">
-                                    <a href="/en/disability/appeals/" role="menuitem">Appeals</a>
-                                </li>
-                                <li role="none" class="mobile-submenu-item">
-                                    <a href="/en/disability/paid-family-leave/Physicians-and-Practitioners/" role="menuitem">Physicians and Practitioners</a>
-                                </li>
-                                <li role="none" class="mobile-submenu-item">
-                                    <a href="/en/disability/paid-family-leave/Employers/" role="menuitem">Employers</a>
-                                </li>
-                                <li role="none" class="mobile-submenu-item">
-                                    <a href="/en/about_edd/events-and-seminars/" role="menuitem">Events and Educational Webinars</a>
-                                </li>
-                        </ul>
-                </li>
-                <li class="mobile-nav-item has-submenu">
-                    <button class="mobile-nav-link" aria-expanded="false" aria-controls="submenu-mobile-nav-35595" id="toggle-mobile-nav-35595">
-                        Employers
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="29" viewBox="0 0 16 29" fill="none">
-                            <g clip-path="url(#clip0_392_3183)">
-                                <path d="M1.5 1.50001L14.35 14.35L1.5 27.2" stroke="#046B98" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
-                            </g>
-                            <defs>
-                                <clipPath id="clip0_392_3183">
-                                    <rect width="28.7" height="15.85" fill="white" transform="translate(0 28.7) rotate(-90)" />
-                                </clipPath>
-                            </defs>
-                        </svg>
-                    </button>
+                </button>
+                <ul id="m-nav-1-panel" class="mobile-submenu" data-nav-panel aria-labelledby="m-nav-1-btn" hidden>
+                        <li class="mobile-submenu-item">
+                                <a href="/en/unemployment/" title="Unemployment Benefits">Unemployment Benefits</a>
+                        </li>
+                        <li class="mobile-submenu-item">
+                                <a href="/en/unemployment/step-1-get-your-information-in-order/" title="Step 1: Get Your Information in Order">Step 1: Get Your Information in Order</a>
+                        </li>
+                        <li class="mobile-submenu-item">
+                                <a href="/en/unemployment/step-2-apply/" title="Step 2: Apply">Step 2: Apply</a>
+                        </li>
+                        <li class="mobile-submenu-item">
+                                <a href="/en/unemployment/step-3-register-in-caljobs/" title="Step 3: Register in CalJOBS">Step 3: Register in CalJOBS</a>
+                        </li>
+                        <li class="mobile-submenu-item">
+                                <a href="/en/unemployment/step-4-review-benefit-documents/" title="Step 4: Review Benefit Documents">Step 4: Review Benefit Documents</a>
+                        </li>
+                        <li class="mobile-submenu-item">
+                                <a href="/en/unemployment/step-5-certify-for-benefits/" title="Step 5: Certify for Benefits">Step 5: Certify for Benefits</a>
+                        </li>
+                        <li class="mobile-submenu-item">
+                                <a href="/en/unemployment/step-6-receive-your-first-payment/" title="Step 6: Receive Your First Payment">Step 6: Receive Your First Payment</a>
+                        </li>
+                        <li class="mobile-submenu-item">
+                                <a href="/en/unemployment/step-7-continue-to-certify/" title="Step 7: Continue to Certify">Step 7: Continue to Certify</a>
+                        </li>
+                        <li class="mobile-submenu-item">
+                                <a href="/en/unemployment/step-8-end-your-benefits/" title="Step 8: End Your Benefits">Step 8: End Your Benefits</a>
+                        </li>
+                        <li class="mobile-submenu-item">
+                                <a href="/en/unemployment/claim-status/" title="Determinations and Eligibility">Determinations and Eligibility</a>
+                        </li>
+                        <li class="mobile-submenu-item">
+                                <a href="/en/unemployment/appeals/" title="Appeals">Appeals</a>
+                        </li>
+                        <li class="mobile-submenu-item">
+                                <a href="/en/unemployment/overpayments-and-penalties/" title="Overpayments and Penalties">Overpayments and Penalties</a>
+                        </li>
+                </ul>
+        </li>
+        <li class="mobile-nav-item has-submenu">
+                <button type="button" class="mobile-nav-link" data-nav-toggle id="m-nav-2-btn"
+                        aria-expanded="false" aria-controls="m-nav-2-panel">
+                    <span>Disability</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 20 20" fill="none" aria-hidden="true" focusable="false">
+        <path d="M7 3.5 13.5 10 7 16.5" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+    </svg>
 
-                        <ul id="submenu-mobile-nav-35595" class="mobile-submenu" role="menu" aria-labelledby="toggle-mobile-nav-35595" hidden>
-                                <li role="none" class="mobile-submenu-item">
-                                    <a href="/en/payroll_taxes/employer-payroll-taxes/" role="menuitem">Employer Payroll Taxes</a>
-                                </li>
-                                <li role="none" class="mobile-submenu-item">
-                                    <a href="/en/payroll_taxes/step-1-register-as-an-employer/" role="menuitem">Step 1: Register as an Employer</a>
-                                </li>
-                                <li role="none" class="mobile-submenu-item">
-                                    <a href="/en/payroll_taxes/step-2-get-your-information-in-order/" role="menuitem">Step 2: Get Your Information in Order</a>
-                                </li>
-                                <li role="none" class="mobile-submenu-item">
-                                    <a href="/en/payroll_taxes/step-3-register-for-a-payroll-tax-account/" role="menuitem">Step 3: Register for a Payroll Tax Account</a>
-                                </li>
-                                <li role="none" class="mobile-submenu-item">
-                                    <a href="/en/payroll_taxes/step-4-report-employees-and-independent-contractors/" role="menuitem">Step 4: Report Employees and Independent Contractors</a>
-                                </li>
-                                <li role="none" class="mobile-submenu-item">
-                                    <a href="/en/payroll_taxes/step-5-withhold-and-pay-payroll-taxes/" role="menuitem">Step 5: Withhold and Pay Payroll Taxes</a>
-                                </li>
-                                <li role="none" class="mobile-submenu-item">
-                                    <a href="/en/payroll_taxes/step-6-file-tax-returns-and-wage-reports/" role="menuitem">Step 6: File Tax Returns and Wage Reports</a>
-                                </li>
-                                <li role="none" class="mobile-submenu-item">
-                                    <a href="/en/payroll_taxes/step-7-provide-required-notices/" role="menuitem">Step 7: Provide Required Notices</a>
-                                </li>
-                                <li role="none" class="mobile-submenu-item">
-                                    <a href="/en/payroll_taxes/e-Services_for_Business/" role="menuitem">e-Services for Business</a>
-                                </li>
-                                <li role="none" class="mobile-submenu-item">
-                                    <a href="/en/payroll_taxes/" role="menuitem">Payroll Taxes Resources</a>
-                                </li>
-                                <li role="none" class="mobile-submenu-item">
-                                    <a href="/en/payroll_taxes/forms_and_publications/" role="menuitem">Payroll Taxes – Forms and Publications</a>
-                                </li>
-                                <li role="none" class="mobile-submenu-item">
-                                    <a href="/en/payroll_taxes/payroll-tax-webinars/" role="menuitem">Payroll Tax Webinars</a>
-                                </li>
-                                <li role="none" class="mobile-submenu-item">
-                                    <a href="/en/payroll_taxes/employer-news/" role="menuitem">California Employer News and Updates</a>
-                                </li>
-                                <li role="none" class="mobile-submenu-item">
-                                    <a href="/en/jobs_and_training/Work_Opportunity_Tax_Credit/" role="menuitem">Work Opportunity Tax Credit</a>
-                                </li>
-                        </ul>
-                </li>
-                <li class="mobile-nav-item has-submenu">
-                    <button class="mobile-nav-link" aria-expanded="false" aria-controls="submenu-mobile-nav-35596" id="toggle-mobile-nav-35596">
-                        Job Services
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="29" viewBox="0 0 16 29" fill="none">
-                            <g clip-path="url(#clip0_392_3183)">
-                                <path d="M1.5 1.50001L14.35 14.35L1.5 27.2" stroke="#046B98" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
-                            </g>
-                            <defs>
-                                <clipPath id="clip0_392_3183">
-                                    <rect width="28.7" height="15.85" fill="white" transform="translate(0 28.7) rotate(-90)" />
-                                </clipPath>
-                            </defs>
-                        </svg>
-                    </button>
+                </button>
+                <ul id="m-nav-2-panel" class="mobile-submenu" data-nav-panel aria-labelledby="m-nav-2-btn" hidden>
+                        <li class="mobile-submenu-item">
+                                <a href="/en/disability/disability_insurance/" title="Disability Insurance Benefits">Disability Insurance Benefits</a>
+                        </li>
+                        <li class="mobile-submenu-item">
+                                <a href="/en/disability/step-1-get-your-information-in-order/" title="Step 1: Get Your Information in Order">Step 1: Get Your Information in Order</a>
+                        </li>
+                        <li class="mobile-submenu-item">
+                                <a href="/en/disability/step-2-apply/" title="Step 2: Apply">Step 2: Apply</a>
+                        </li>
+                        <li class="mobile-submenu-item">
+                                <a href="/en/disability/step-3-have-a-medical-certification-completed/" title="Step 3: Have a Medical Certification Completed">Step 3: Have a Medical Certification Completed</a>
+                        </li>
+                        <li class="mobile-submenu-item">
+                                <a href="/en/disability/step-4-review-benefit-documents/" title="Step 4: Review Benefit Documents">Step 4: Review Benefit Documents</a>
+                        </li>
+                        <li class="mobile-submenu-item">
+                                <a href="/en/disability/step-5-receive-your-first-payment/" title="Step 5: Receive Your First Payment">Step 5: Receive Your First Payment</a>
+                        </li>
+                        <li class="mobile-submenu-item">
+                                <a href="/en/disability/step-6-manage-benefits/" title="Step 6: Manage Benefits">Step 6: Manage Benefits</a>
+                        </li>
+                        <li class="mobile-submenu-item">
+                                <a href="/en/disability/step-7-end-your-benefits/" title="Step 7: End Your Benefits">Step 7: End Your Benefits</a>
+                        </li>
+                        <li class="mobile-submenu-item">
+                                <a href="/en/disability/Am_I_Eligible_for_DI_Benefits/" title="Eligibility Requirements">Eligibility Requirements</a>
+                        </li>
+                        <li class="mobile-submenu-item">
+                                <a href="/en/disability/appeals/" title="Appeals">Appeals</a>
+                        </li>
+                        <li class="mobile-submenu-item">
+                                <a href="/en/about_edd/events-and-seminars/">Events and Educational Webinars</a>
+                        </li>
+                </ul>
+        </li>
+        <li class="mobile-nav-item has-submenu">
+                <button type="button" class="mobile-nav-link" data-nav-toggle id="m-nav-3-btn"
+                        aria-expanded="false" aria-controls="m-nav-3-panel">
+                    <span>Paid Family Leave</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 20 20" fill="none" aria-hidden="true" focusable="false">
+        <path d="M7 3.5 13.5 10 7 16.5" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+    </svg>
 
-                        <ul id="submenu-mobile-nav-35596" class="mobile-submenu" role="menu" aria-labelledby="toggle-mobile-nav-35596" hidden>
-                                <li role="none" class="mobile-submenu-item">
-                                    <a href="/en/jobs_and_training/job-services/" role="menuitem">Job Services</a>
-                                </li>
-                                <li role="none" class="mobile-submenu-item">
-                                    <a href="/en/jobs_and_training/step-1-register-in-caljobs/" role="menuitem">Step 1: Register in CalJOBS</a>
-                                </li>
-                                <li role="none" class="mobile-submenu-item">
-                                    <a href="/en/jobs_and_training/step-2-explore-career-paths/" role="menuitem">Step 2: Explore Career Paths</a>
-                                </li>
-                                <li role="none" class="mobile-submenu-item">
-                                    <a href="/en/jobs_and_training/step-3-enhance-your-skills/" role="menuitem">Step 3: Enhance Your Skills</a>
-                                </li>
-                                <li role="none" class="mobile-submenu-item">
-                                    <a href="/en/jobs_and_training/step-4-search-for-jobs/" role="menuitem">Step 4: Search for Jobs</a>
-                                </li>
-                                <li role="none" class="mobile-submenu-item">
-                                    <a href="/en/jobs_and_training/step-5-apply/" role="menuitem">Step 5: Apply</a>
-                                </li>
-                                <li role="none" class="mobile-submenu-item">
-                                    <a href="/en/jobs_and_training/step-6-interview/" role="menuitem">Step 6: Interview</a>
-                                </li>
-                                <li role="none" class="mobile-submenu-item">
-                                    <a href="/en/jobs_and_training/employer-services/" role="menuitem">Employer Services</a>
-                                </li>
-                                <li role="none" class="mobile-submenu-item">
-                                    <a href="/en/jobs_and_training/register-in-caljobs/" role="menuitem">Register with e-Services for Business and CalJOBS</a>
-                                </li>
-                                <li role="none" class="mobile-submenu-item">
-                                    <a href="/en/jobs_and_training/find-qualified-employees/" role="menuitem">Find Qualified Employees</a>
-                                </li>
-                                <li role="none" class="mobile-submenu-item">
-                                    <a href="/en/jobs_and_training/review-tax-credit-incentives/" role="menuitem">Review Tax Credit Incentives</a>
-                                </li>
-                                <li role="none" class="mobile-submenu-item">
-                                    <a href="/en/jobs_and_training/find-training-for-you-and-your-employees/" role="menuitem">Find Training for You and Your Employees</a>
-                                </li>
-                                <li role="none" class="mobile-submenu-item">
-                                    <a href="/en/jobs_and_training/review-layoff-services/" role="menuitem">Review Layoff Services</a>
-                                </li>
-                                <li role="none" class="mobile-submenu-item">
-                                    <a href="/en/jobs_and_training/Workforce_Partner_Information/" role="menuitem">Workforce Partner Information</a>
-                                </li>
-                                <li role="none" class="mobile-submenu-item">
-                                    <a href="https://labormarketinfo.edd.ca.gov/" role="menuitem">Labor Market Information</a>
-                                </li>
-                                <li role="none" class="mobile-submenu-item">
-                                    <a href="/en/jobs_and_training/services_for_veterans/" role="menuitem">Veterans Services</a>
-                                </li>
-                        </ul>
-                </li>
-                <li class="mobile-nav-item has-submenu">
-                    <button class="mobile-nav-link" aria-expanded="false" aria-controls="submenu-mobile-nav-35597" id="toggle-mobile-nav-35597">
-                        Newsroom
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="29" viewBox="0 0 16 29" fill="none">
-                            <g clip-path="url(#clip0_392_3183)">
-                                <path d="M1.5 1.50001L14.35 14.35L1.5 27.2" stroke="#046B98" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
-                            </g>
-                            <defs>
-                                <clipPath id="clip0_392_3183">
-                                    <rect width="28.7" height="15.85" fill="white" transform="translate(0 28.7) rotate(-90)" />
-                                </clipPath>
-                            </defs>
-                        </svg>
-                    </button>
+                </button>
+                <ul id="m-nav-3-panel" class="mobile-submenu" data-nav-panel aria-labelledby="m-nav-3-btn" hidden>
+                        <li class="mobile-submenu-item">
+                                <a href="/en/disability/paid-family-leave/" title="Paid Family Leave Benefits">Paid Family Leave Benefits</a>
+                        </li>
+                        <li class="mobile-submenu-item">
+                                <a href="/en/disability/paid-family-leave/step-1-get-your-information-in-order/" title="Step 1: Get Your Information in Order">Step 1: Get Your Information in Order</a>
+                        </li>
+                        <li class="mobile-submenu-item">
+                                <a href="/en/disability/paid-family-leave/step-2-apply/" title="Step 2: Apply">Step 2: Apply</a>
+                        </li>
+                        <li class="mobile-submenu-item">
+                                <a href="/en/disability/paid-family-leave/step-3-submit-required-documents/" title="Step 3: Submit Required Documents">Step 3: Submit Required Documents</a>
+                        </li>
+                        <li class="mobile-submenu-item">
+                                <a href="/en/disability/paid-family-leave/step-4-review-benefit-documents/" title="Step 4: Review Benefit Documents">Step 4: Review Benefit Documents</a>
+                        </li>
+                        <li class="mobile-submenu-item">
+                                <a href="/en/disability/paid-family-leave/step-5-receive-your-first-payment/" title="Step 5: Receive Your First Payment">Step 5: Receive Your First Payment</a>
+                        </li>
+                        <li class="mobile-submenu-item">
+                                <a href="/en/disability/paid-family-leave/step-6-manage-benefits/" title="Step 6: Manage Benefits">Step 6: Manage Benefits</a>
+                        </li>
+                        <li class="mobile-submenu-item">
+                                <a href="/en/disability/paid-family-leave/step-7-end-your-benefits/" title="Step 7: End Your Benefits">Step 7: End Your Benefits</a>
+                        </li>
+                        <li class="mobile-submenu-item">
+                                <a href="/en/disability/Am_I_Eligible_for_PFL_Benefits/" title="Eligibility Requirements">Eligibility Requirements</a>
+                        </li>
+                        <li class="mobile-submenu-item">
+                                <a href="/en/disability/appeals/" title="Appeals">Appeals</a>
+                        </li>
+                        <li class="mobile-submenu-item">
+                                <a href="/en/disability/paid-family-leave/Physicians-and-Practitioners/" title="Physicians and Practitioners">Physicians and Practitioners</a>
+                        </li>
+                        <li class="mobile-submenu-item">
+                                <a href="/en/disability/paid-family-leave/Employers/" title="Employers">Employers</a>
+                        </li>
+                        <li class="mobile-submenu-item">
+                                <a href="/en/about_edd/events-and-seminars/">Events and Educational Webinars</a>
+                        </li>
+                </ul>
+        </li>
+        <li class="mobile-nav-item has-submenu">
+                <button type="button" class="mobile-nav-link" data-nav-toggle id="m-nav-4-btn"
+                        aria-expanded="false" aria-controls="m-nav-4-panel">
+                    <span>Employers</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 20 20" fill="none" aria-hidden="true" focusable="false">
+        <path d="M7 3.5 13.5 10 7 16.5" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+    </svg>
 
-                        <ul id="submenu-mobile-nav-35597" class="mobile-submenu" role="menu" aria-labelledby="toggle-mobile-nav-35597" hidden>
-                                <li role="none" class="mobile-submenu-item">
-                                    <a href="/en/newsroom/" role="menuitem">News Releases and Helpful Links</a>
-                                </li>
-                                <li role="none" class="mobile-submenu-item">
-                                    <a href="/en/newsroom/benefitting-californians/" role="menuitem">Benefiting Californians Blog</a>
-                                </li>
-                                <li role="none" class="mobile-submenu-item">
-                                    <a href="/en/about_edd/eddnext/" role="menuitem">EDDNext Modernization Updates</a>
-                                </li>
-                                <li role="none" class="mobile-submenu-item">
-                                    <a href="/en/about_edd/public_records_request/" role="menuitem">Public Records Request</a>
-                                </li>
-                                <li role="none" class="mobile-submenu-item">
-                                    <a href="/en/about_edd/quick_statistics_overview/" role="menuitem">Quick Statistics</a>
-                                </li>
-                                <li role="none" class="mobile-submenu-item">
-                                    <a href="https://labormarketinfo.edd.ca.gov/" role="menuitem">Labor Market Information</a>
-                                </li>
-                                <li role="none" class="mobile-submenu-item">
-                                    <a href="/en/newsroom/facts-and-stats/dashboard/" role="menuitem">Unemployment Data Dashboard</a>
-                                </li>
-                        </ul>
-                </li>
-        </ul>
+                </button>
+                <ul id="m-nav-4-panel" class="mobile-submenu" data-nav-panel aria-labelledby="m-nav-4-btn" hidden>
+                        <li class="mobile-submenu-item">
+                                <a href="/en/payroll_taxes/employer-payroll-taxes/">Employer Payroll Taxes</a>
+                        </li>
+                        <li class="mobile-submenu-item">
+                                <a href="/en/payroll_taxes/step-1-register-as-an-employer/">Step 1: Register as an Employer</a>
+                        </li>
+                        <li class="mobile-submenu-item">
+                                <a href="/en/payroll_taxes/step-2-get-your-information-in-order/">Step 2: Get Your Information in Order</a>
+                        </li>
+                        <li class="mobile-submenu-item">
+                                <a href="/en/payroll_taxes/step-3-register-for-a-payroll-tax-account/">Step 3: Register for a Payroll Tax Account</a>
+                        </li>
+                        <li class="mobile-submenu-item">
+                                <a href="/en/payroll_taxes/step-4-report-employees-and-independent-contractors/">Step 4: Report Employees and Independent Contractors</a>
+                        </li>
+                        <li class="mobile-submenu-item">
+                                <a href="/en/payroll_taxes/step-5-withhold-and-pay-payroll-taxes/">Step 5: Withhold and Pay Payroll Taxes</a>
+                        </li>
+                        <li class="mobile-submenu-item">
+                                <a href="/en/payroll_taxes/step-6-file-tax-returns-and-wage-reports/">Step 6: File Tax Returns and Wage Reports</a>
+                        </li>
+                        <li class="mobile-submenu-item">
+                                <a href="/en/payroll_taxes/step-7-provide-required-notices/">Step 7: Provide Required Notices</a>
+                        </li>
+                        <li class="mobile-submenu-item">
+                                <a href="/en/payroll_taxes/e-Services_for_Business/">e-Services for Business</a>
+                        </li>
+                        <li class="mobile-submenu-item">
+                                <a href="/en/payroll_taxes/">Payroll Taxes Resources</a>
+                        </li>
+                        <li class="mobile-submenu-item">
+                                <a href="/en/payroll_taxes/forms_and_publications/">Payroll Taxes – Forms and Publications</a>
+                        </li>
+                        <li class="mobile-submenu-item">
+                                <a href="/en/payroll_taxes/payroll-tax-webinars/">Payroll Tax Webinars</a>
+                        </li>
+                        <li class="mobile-submenu-item">
+                                <a href="/en/payroll_taxes/employer-news/">California Employer News and Updates</a>
+                        </li>
+                        <li class="mobile-submenu-item">
+                                <a href="/en/jobs_and_training/Work_Opportunity_Tax_Credit/" title="Work Opportunity Tax Credit">Work Opportunity Tax Credit</a>
+                        </li>
+                </ul>
+        </li>
+        <li class="mobile-nav-item has-submenu">
+                <button type="button" class="mobile-nav-link" data-nav-toggle id="m-nav-5-btn"
+                        aria-expanded="false" aria-controls="m-nav-5-panel">
+                    <span>Job Services</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 20 20" fill="none" aria-hidden="true" focusable="false">
+        <path d="M7 3.5 13.5 10 7 16.5" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+    </svg>
+
+                </button>
+                <ul id="m-nav-5-panel" class="mobile-submenu" data-nav-panel aria-labelledby="m-nav-5-btn" hidden>
+                        <li class="mobile-submenu-item">
+                                <a href="/en/jobs_and_training/job-services/" title="Job Services">Job Services</a>
+                        </li>
+                        <li class="mobile-submenu-item">
+                                <a href="/en/jobs_and_training/step-1-register-in-caljobs/" title="Step 1: Register in CalJOBS">Step 1: Register in CalJOBS</a>
+                        </li>
+                        <li class="mobile-submenu-item">
+                                <a href="/en/jobs_and_training/step-2-explore-career-paths/" title="Step 2: Explore Career Paths">Step 2: Explore Career Paths</a>
+                        </li>
+                        <li class="mobile-submenu-item">
+                                <a href="/en/jobs_and_training/step-3-enhance-your-skills/" title="Step 3: Enhance Your Skills">Step 3: Enhance Your Skills</a>
+                        </li>
+                        <li class="mobile-submenu-item">
+                                <a href="/en/jobs_and_training/step-4-search-for-jobs/" title="Step 4: Search for Jobs">Step 4: Search for Jobs</a>
+                        </li>
+                        <li class="mobile-submenu-item">
+                                <a href="/en/jobs_and_training/step-5-apply/" title="Step 5: Apply">Step 5: Apply</a>
+                        </li>
+                        <li class="mobile-submenu-item">
+                                <a href="/en/jobs_and_training/step-6-interview/" title="Step 6: Interview">Step 6: Interview</a>
+                        </li>
+                        <li class="mobile-submenu-item">
+                                <a href="/en/jobs_and_training/employer-services/">Employer Services</a>
+                        </li>
+                        <li class="mobile-submenu-item">
+                                <a href="/en/jobs_and_training/register-in-caljobs/">Register with e-Services for Business and CalJOBS</a>
+                        </li>
+                        <li class="mobile-submenu-item">
+                                <a href="/en/jobs_and_training/find-qualified-employees/">Find Qualified Employees</a>
+                        </li>
+                        <li class="mobile-submenu-item">
+                                <a href="/en/jobs_and_training/review-tax-credit-incentives/">Review Tax Credit Incentives</a>
+                        </li>
+                        <li class="mobile-submenu-item">
+                                <a href="/en/jobs_and_training/find-training-for-you-and-your-employees/">Find Training for You and Your Employees</a>
+                        </li>
+                        <li class="mobile-submenu-item">
+                                <a href="/en/jobs_and_training/review-layoff-services/">Review Layoff Services</a>
+                        </li>
+                        <li class="mobile-submenu-item">
+                                <a href="/en/jobs_and_training/Workforce_Partner_Information/" title="Workforce Partner Information">Workforce Partner Information</a>
+                        </li>
+                        <li class="mobile-submenu-item">
+                                <a href="https://labormarketinfo.edd.ca.gov/" title="Labor Market Information">Labor Market Information</a>
+                        </li>
+                        <li class="mobile-submenu-item">
+                                <a href="/en/jobs_and_training/services_for_veterans/" title="Veterans Services">Veterans Services</a>
+                        </li>
+                </ul>
+        </li>
+        <li class="mobile-nav-item has-submenu">
+                <button type="button" class="mobile-nav-link" data-nav-toggle id="m-nav-6-btn"
+                        aria-expanded="false" aria-controls="m-nav-6-panel">
+                    <span>Newsroom</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 20 20" fill="none" aria-hidden="true" focusable="false">
+        <path d="M7 3.5 13.5 10 7 16.5" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+    </svg>
+
+                </button>
+                <ul id="m-nav-6-panel" class="mobile-submenu" data-nav-panel aria-labelledby="m-nav-6-btn" hidden>
+                        <li class="mobile-submenu-item">
+                                <a href="/en/newsroom/" title="News Releases and Helpful Links">News Releases and Helpful Links</a>
+                        </li>
+                        <li class="mobile-submenu-item">
+                                <a href="/en/newsroom/benefitting-californians/" title="Benefitting Californians Blog">Benefiting Californians Blog</a>
+                        </li>
+                        <li class="mobile-submenu-item">
+                                <a href="/en/about_edd/eddnext/" title="EDDNext Modernization Updates">EDDNext Modernization Updates</a>
+                        </li>
+                        <li class="mobile-submenu-item">
+                                <a href="/en/about_edd/public_records_request/" title="Public Records Request">Public Records Request</a>
+                        </li>
+                        <li class="mobile-submenu-item">
+                                <a href="/en/about_edd/quick_statistics_overview/" title="Quick Statistics">Quick Statistics</a>
+                        </li>
+                        <li class="mobile-submenu-item">
+                                <a href="https://labormarketinfo.edd.ca.gov/" title="Labor Market Information">Labor Market Information</a>
+                        </li>
+                        <li class="mobile-submenu-item">
+                                <a href="/en/newsroom/facts-and-stats/dashboard/" title="Unemployment Data Dashboard">Unemployment Data Dashboard</a>
+                        </li>
+                </ul>
+        </li>
+</ul>
+
     </div>
 
     <div id="header-spacer"></div>
@@ -1069,7 +969,6 @@
         const hamburgerIcon = toggle?.querySelector('.hamburger-icon');
         const header = document.querySelector('.site-header');
         const alertBanner = document.querySelector('.alert-banner');
-        const main = document.querySelector('.main-primary');
 
         if (!toggle || !mobileNav || !header) return;
 
@@ -1152,166 +1051,14 @@
             });
         }
 
-        // ======== Mobile Submenu Logic ========
-        const mobileButtons = document.querySelectorAll('.mobile-nav-link');
 
-        mobileButtons.forEach(function (btn) {
-            const submenuId = btn.getAttribute('aria-controls');
-            const submenu = document.getElementById(submenuId);
 
-            btn.addEventListener('click', function (e) {
-                const isOpen = btn.classList.contains('active');
-
-                // Close all other submenus
-                mobileButtons.forEach(function (otherBtn) {
-                    const otherSubmenu = document.getElementById(otherBtn.getAttribute('aria-controls'));
-                    otherBtn.classList.remove('active');
-                    otherBtn.setAttribute('aria-expanded', 'false');
-                    if (otherSubmenu) otherSubmenu.hidden = true;
-                });
-
-                if (!isOpen) {
-                    btn.classList.add('active');
-                    btn.setAttribute('aria-expanded', 'true');
-                    if (submenu) submenu.hidden = false;
-                    btn.scrollIntoView({ behavior: "smooth" });
-                }
-
-                e.stopPropagation();
-            });
-        });
-
-        // Close all mobile submenus on outside click
-        document.addEventListener('click', function (e) {
-            if (!e.target.closest('#mobile-nav') && !e.target.closest('.mobile-nav-toggle')) {
-                mobileButtons.forEach(function (btn) {
-                    const submenu = document.getElementById(btn.getAttribute('aria-controls'));
-                    btn.classList.remove('active');
-                    btn.setAttribute('aria-expanded', 'false');
-                    if (submenu) submenu.hidden = true;
-                });
-            }
-        });
-
-        // ======== Desktop Nav Submenu Logic ========
-        function closeSubmenu(item) {
-            const toggleBtn = item.querySelector('.main-nav-link');
-            const submenu = item.querySelector('.submenu');
-
-            item.classList.remove('subnav-open');
-            item.classList.add('subnav-closed');
-            toggleBtn?.setAttribute('aria-expanded', 'false');
-            if (submenu) submenu.hidden = true;
-        }
-
-        const navItems = document.querySelectorAll('.main-nav-item.has-submenu');
-
-        function closeAllSubmenus(except = null) {
-            navItems.forEach(function (item) {
-                if (item === except) return;
-
-                const toggleBtn = item.querySelector('.main-nav-link');
-                const submenu = item.querySelector('.submenu');
-
-                item.classList.remove('subnav-open');
-                item.classList.add('subnav-closed');
-                toggleBtn?.setAttribute('aria-expanded', 'false');
-                if (submenu) submenu.hidden = true;
-            });
-        }
-
-        navItems.forEach(function (item, index) {
-            const toggleBtn = item.querySelector('.main-nav-link');
-            const submenu = item.querySelector('.submenu');
-
-            if (index >= navItems.length - 3) {
-                item.classList.add('align-submenu-right');
-            }
-
-            if (!toggleBtn || !submenu) return;
-
-            item.addEventListener('click', function (e) {
-                if (e.target.closest('ul.submenu a')) return;
-
-                const isOpen = item.classList.contains('subnav-open');
-                closeAllSubmenus(isOpen ? null : item);
-
-                const shouldOpen = !isOpen;
-                toggleBtn.setAttribute('aria-expanded', String(shouldOpen));
-                submenu.hidden = !shouldOpen;
-
-                item.classList.toggle('subnav-open', shouldOpen);
-                item.classList.toggle('subnav-closed', !shouldOpen);
-
-                e.stopPropagation();
-            });
-
-            toggleBtn.addEventListener('keydown', function (e) {
-                const key = e.key;
-                const links = submenu.querySelectorAll('a');
-
-                switch (key) {
-                    case 'ArrowDown':
-                        e.preventDefault();
-                        if (links.length) links[0].focus();
-                        break;
-
-                    case 'ArrowUp':
-                        e.preventDefault();
-                        if (links.length) links[links.length - 1].focus();
-                        break;
-
-                    case 'ArrowRight':
-                        e.preventDefault();
-                        const next = navItems[(index + 1) % navItems.length];
-                        next.querySelector('.main-nav-link')?.focus();
-                        break;
-
-                    case 'ArrowLeft':
-                        e.preventDefault();
-                        const prev = navItems[(index - 1 + navItems.length) % navItems.length];
-                        prev.querySelector('.main-nav-link')?.focus();
-                        break;
-
-                    case 'Enter':
-                    case ' ':
-                        e.preventDefault();
-                        toggleBtn.click();
-                        break;
-
-                    case 'Escape':
-                        e.preventDefault();
-                        closeAllSubmenus();
-                        toggleBtn.focus();
-                        break;
-                }
-            });
-
-            const lastLink = submenu.querySelector('a:last-child');
-            lastLink?.addEventListener('keydown', function (e) {
-                if (e.key === 'Tab' && !e.shiftKey) {
-                    setTimeout(() => {
-                        if (!item.contains(document.activeElement)) {
-                            closeSubmenu(item);
-                        }
-                    }, 0);
-                }
-            });
-        });
-
-        document.addEventListener('click', function (e) {
-            if (!e.target.closest('.main-nav-list')) {
-                closeAllSubmenus();
-            }
-        });
-
-        document.addEventListener('keydown', function (e) {
-            if (e.key === 'Escape') {
-                closeAllSubmenus();
-            }
-        });
     });
 </script>
+
+<script src="/Assets/js/main-navigation.js"></script>
+
+
 
 <script>
     document.addEventListener('DOMContentLoaded', () => {
@@ -1365,14 +1112,17 @@
 
 
 
+
+        
+
         
                     <a href="/es/jobs-and-training/Layoff_Services_WARN_Espanol/" class="language-toggle edd-text-link-primary-regular" aria-label="Seleccione este enlace para leer la p&aacute;gina en Espa&#241;ol.">Espa&#241;ol</a>
 
 
         <div class="group">
-            <div class="full-width-title">
-                <h1 class="edd-heading-1-secondary-medium" >Worker Adjustment and Retraining Notification (WARN)</h1>
-            </div>
+                <div class="full-width-title">
+                    <h1 class="edd-heading-1-secondary-medium" >Worker Adjustment and Retraining Notification (WARN)</h1>
+                </div>
 
 
             <div class="social-sharing-block-container-top">
@@ -1382,7 +1132,11 @@
 
                 
 
+                <!--Removing share post from bottom detail page for now-->
+                
+                <!--End of removal of share post bottom detail-->
 
+                
 
 <section class="modern-card-deck-section white" style="padding-top:0rem; padding-bottom:0rem;">
 
@@ -2039,11 +1793,13 @@ function toggleButton(element) {
 </tr>
 </tbody>
 </table>
-</div>            </div>
+</div>
+                
+            </div>
 
         </div>
 
-            <button type="button"
+                <button type="button"
             id="edd-bot-launcher"
             aria-live="polite">
         <span class="edd-bot-launcher-spinner" aria-hidden="true"></span>
@@ -2145,9 +1901,8 @@ function toggleButton(element) {
 
     </div>
 
-    <section id="skip-to-chat">
-        <a href="#lex-web-ui-iframe">Skip to Virtual Chat</a>
-    </section>
+    <!--remove skip to chat function until we can fix for new chat container-->
+    
 
 
 
