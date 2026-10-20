@@ -869,3 +869,27 @@
 ["TOTAL", "6", "1,123"]
 "\tSeems to be a regular row."
 "\t\t{'notice_types': 'TOTAL', 'notices_received': '6', 'affected': '1,123'}"
+"Processing table 0 of data/warn-scraper/cache/ms/warn-py2026-qtr-1-jul-sep-2026.pdf"
+["Date of \nNotice", "Company \nName", "City", "County", "Workforce \nArea", "Event \nNumber", "NAICS \nCODE & \nDescription", "Type of \nAction", "Number \nAffected", "Date of \nAction", "Reason \u2013 \nComments"]
+"\tIndex row!"
+["6/29/26", "Conduent \nCommercial \nSolutions, \nLLC", "Remote \u2013 \nStatewide", "Remote \u2013 \nStatewide", "Statewide", "N/A", "561422 \u2013 \nTelemarketing \nBureaus and \nOther Contact \nCenters", "Closure", "35", "8/28/26", "NON-WARN- \nDue to change in \nbusiness needs."]
+"\tSeems to be a regular row."
+"\t\t{'date_notice': '6/29/26', 'company': 'Conduent Commercial Solutions, LLC', 'city': 'Remote \u2013 Statewide', 'county': 'Remote \u2013 Statewide', 'workforce_area': 'Statewide', 'event_number': 'N/A', 'naics': '561422 \u2013 Telemarketing Bureaus and Other Contact Centers', 'action_type': 'Closure', 'affected': '35', 'date_effective': '8/28/26', 'reason': 'NON-WARN- Due to change in business needs.'}"
+["7/21/26", "Morrison \nHealthcare", "Pascagoula \nand Ocean \nSprings", "Jackson", "Twin \nDistricts", "RR-MS-\n2026-0004", "722310 \u2013   \nFood Service \nContractors", "Closure", "86", "", "9/30/2026  WARN \u2013 Due to \nhospital taking \nover food service \noperations."]
+"\tSeems to be a regular row."
+"\t\t{'date_notice': '7/21/26', 'company': 'Morrison Healthcare', 'city': 'Pascagoula and Ocean Springs', 'county': 'Jackson', 'workforce_area': 'Twin Districts', 'event_number': 'RR-MS- 2026-0004', 'naics': '722310 \u2013 Food Service Contractors', 'action_type': 'Closure', 'affected': '86', 'date_effective': '', 'reason': '9/30/2026 WARN \u2013 Due to hospital taking over food service operations.'}"
+["7/6/26", "Hood \nIndustries", "Wiggins", "Stone", "Twin \nDistricts", "RR-MS- \n2026-0001", "321113 \u2013 \nSawmills", "Closure", "259", "9/5/26", "WARN \u2013 Due to \nirreparable \nfacility damage."]
+"\tSeems to be a regular row."
+"\t\t{'date_notice': '7/6/26', 'company': 'Hood Industries', 'city': 'Wiggins', 'county': 'Stone', 'workforce_area': 'Twin Districts', 'event_number': 'RR-MS- 2026-0001', 'naics': '321113 \u2013 Sawmills', 'action_type': 'Closure', 'affected': '259', 'date_effective': '9/5/26', 'reason': 'WARN \u2013 Due to irreparable facility damage.'}"
+"Processing table 1 of data/warn-scraper/cache/ms/warn-py2026-qtr-1-jul-sep-2026.pdf"
+["Types of Notices", "Notices Received", "Number Affected"]
+"\tIndex row!"
+["WARN", "3", "345"]
+"\tSeems to be a regular row."
+"\t\t{'notice_types': 'WARN', 'notices_received': '3', 'affected': '345'}"
+["NON-WARN", "1", "35"]
+"\tSeems to be a regular row."
+"\t\t{'notice_types': 'NON-WARN', 'notices_received': '1', 'affected': '35'}"
+["TOTAL", "4", "380"]
+"\tSeems to be a regular row."
+"\t\t{'notice_types': 'TOTAL', 'notices_received': '4', 'affected': '380'}"
