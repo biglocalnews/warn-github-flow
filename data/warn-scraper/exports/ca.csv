@@ -137,7 +137,7 @@ notice_date,effective_date,received_date,company,city,num_employees,layoff_or_cl
 08/19/2026,10/19/2026,08/19/2026,"Stone Brewing CO., LLC - Citracado Parkway",,50,Closure Permanent,San Diego County,1999 Citracado Parkway  Escondido CA 92029,warn_report1.xlsx
 08/14/2026,10/13/2026,08/20/2026,"Flying Food Group, LLC",,72,Closure Permanent,San Mateo County,50 Adrian Ct  Burlingame CA 94010,warn_report1.xlsx
 08/12/2026,10/12/2026,08/20/2026,Silgan Containers,,120,Layoff Temporary,Stanislaus County,3250 Patterson Road  Riverbank CA 95367,warn_report1.xlsx
-08/19/2026,11/02/2026,08/20/2026,"Haas Automation, Inc.",,73,Layoff Permanent,Ventura County,2800 Sturgis Road  Oxnard CA 93030,warn_report1.xlsx
+08/19/2026,11/02/2026,08/20/2026,"Haas Automation, Inc.",,73,Relocation Permanent,Ventura County,2800 Sturgis Road  Oxnard CA 93030,warn_report1.xlsx
 08/21/2026,10/20/2026,08/21/2026,Blue Shield of California,,25,Layoff Permanent,Alameda County,601 12th Street  Oakland CA 94607,warn_report1.xlsx
 08/21/2026,10/20/2026,08/21/2026,Blue Shield of California (Building C),,1,Layoff Permanent,El Dorado County,"4203 Town Center Blvd., Building C  El Dorado Hills CA 95762",warn_report1.xlsx
 08/21/2026,10/20/2026,08/21/2026,Blue Shield of California (Building B),,12,Layoff Permanent,El Dorado County,"4203 Town Center Blvd., Building B  El Dorado Hills CA 95672",warn_report1.xlsx
@@ -367,6 +367,28 @@ notice_date,effective_date,received_date,company,city,num_employees,layoff_or_cl
 10/13/2026,12/14/2026,10/13/2026,"ServiceNow, Inc.",,18,Layoff Permanent,San Diego County,4801 Eastgate Mall  San Diego CA 92121,warn_report1.xlsx
 10/14/2026,12/14/2026,10/14/2026,The Neil Jones Food Company dba Tomatek,,116,Layoff Temporary,Fresno County,2025 N Street  Firebaugh CA 93622,warn_report1.xlsx
 10/05/2026,11/19/2026,10/14/2026,Menzies Aviation,,137,Layoff Permanent,Los Angeles County,1 World Way  Los Angeles CA 90045,warn_report1.xlsx
+10/15/2026,12/14/2026,10/15/2026,Fender Musical Instruments Corporation,,533,Closure Temporary,Riverside County,311 Cessna Circle  Corona CA 92878,warn_report1.xlsx
+10/09/2026,12/15/2026,10/15/2026,"Myers Power Products, Inc.",,206,Closure Permanent,San Bernardino County,2950 East Philadelphia Street  Ontario CA 91761,warn_report1.xlsx
+10/15/2026,01/15/2027,10/15/2026,Formagrid Inc. dba Airtable,,190,Layoff Permanent,San Francisco County,"One Front Street, 28th Floor  San Francisco CA 94111",warn_report1.xlsx
+10/14/2026,12/15/2026,10/15/2026,Silverado Senior Living Managment Inc.,,7,Closure Permanent,Los Angeles County,514 North Prospect Avenue  Redondo Beach CA 90277,warn_report1.xlsx
+10/01/2026,10/30/2026,10/16/2026,Baloian Farms,,106,Layoff Temporary,Fresno County,446 N. Blythe Ave.  Fresno CA 93706,warn_report1.xlsx
+10/19/2026,12/18/2026,10/19/2026,"Kaiser Foundation Hospitals and Kaiser Foundation Health Plan, Inc. (1800 Harrison St.)",,1,Layoff Permanent,Alameda County,1800 Harrison St.  Oakland CA 94612,warn_report1.xlsx
+10/19/2026,12/18/2026,10/19/2026,"Kaiser Foundation Hospitals and Kaiser Foundation Health Plan, Inc. (One Kaiser Plaza)",,5,Layoff Permanent,Alameda County,One Kaiser Plaza  Oakland CA 94612,warn_report1.xlsx
+10/19/2026,12/18/2026,10/19/2026,"Kaiser Foundation Hospitals and Kaiser Foundation Health Plan, Inc. (75 N. Fair Oaks Ave.)",,1,Layoff Permanent,Los Angeles County,75 N. Fair Oaks Ave.  Pasadena CA 91103,warn_report1.xlsx
+10/19/2026,12/18/2026,10/19/2026,"Kaiser Foundation Hospitals and Kaiser Foundation Health Plan, Inc. (99 S. Oakland Ave.)",,1,Layoff Permanent,Los Angeles County,99 S. Oakland Ave.  Pasadena CA 91101,warn_report1.xlsx
+10/19/2026,12/18/2026,10/19/2026,"Kaiser Foundation Hospitals and Kaiser Foundation Health Plan, Inc.",,1,Layoff Permanent,Marin County,1650 Los Gamos Dr.  San Rafael CA 94903,warn_report1.xlsx
+10/19/2026,12/18/2026,10/19/2026,"Kaiser Foundation Hospitals and Kaiser Foundation Health Plan, Inc.",,1,Layoff Permanent,Riverside County,1840 California Ave.  Corona CA 92881,warn_report1.xlsx
+10/19/2026,12/18/2026,10/19/2026,"Kaiser Foundation Hospitals and Kaiser Foundation Health Plan, Inc.",,1,Layoff Permanent,Sacramento County,50 Iron Point Cir.  Folsom CA 95630,warn_report1.xlsx
+10/13/2026,12/14/2026,10/19/2026,Tree Service Unlimited Inc.,,137,Layoff Permanent,El Dorado County,4080 Plaza Goldorado Circle Ste A  Cameron Park CA 95682,warn_report1.xlsx
+10/16/2026,09/14/2026,10/19/2026,"Netflix, Inc.",,267,Layoff Permanent,Los Angeles County,5808 Sunset Blvd  Los Angeles CA 90028,warn_report1.xlsx
+10/16/2026,09/14/2026,10/19/2026,"Netflix, Inc.",,227,Layoff Permanent,Santa Clara County,121 Albright Way  Los Gatos CA 95032,warn_report1.xlsx
+10/20/2026,12/19/2026,10/20/2026,Dreyer's Grand Ice Cream,,380,Closure Temporary,Kern County,7301 District Boulevard  Bakersfield CA 93313,warn_report1.xlsx
+10/20/2026,12/20/2026,10/20/2026,"Safeway, Inc.",,92,Closure Permanent,Contra Costa County,905 South 34th Street  Richmond CA 94804,warn_report1.xlsx
+10/20/2026,12/19/2026,10/20/2026,Randstad (Dreyer's Grand Ice Cream),,91,Closure Temporary,Tulare County,970 E. Continental Ave.  Tulare CA 93274,warn_report1.xlsx
+10/19/2026,12/19/2026,10/21/2026,Dreyer's Grand Ice Cream,,715,Closure Temporary,Kern County,7301 District Boulevard  Bakersfield CA 93313,warn_report1.xlsx
+10/21/2026,10/21/2026,10/21/2026,eBay Inc.,,229,Layoff Permanent,Santa Clara County,2025 Hamilton Ave  San Jose CA 95125,warn_report1.xlsx
+10/21/2026,12/23/2026,10/21/2026,"DesigneRx Pharmaceuticals, Inc.",,6,Layoff Permanent,Solano County,4941 Allison Parkway Suite B Vacaville CA 95688,warn_report1.xlsx
+10/19/2026,12/19/2026,10/21/2026,Dreyer's Grand Ice Cream,,448,Closure Temporary,Tulare County,970 E Continental  Tulare CA 93274,warn_report1.xlsx
 07/01/2025,09/02/2025,07/01/2025,Republic National Distributing Company,,104,Closure Permanent,Alameda County,,warn-report-for-7-1-25-to-6-30-26.pdf
 07/01/2025,07/01/2025,07/01/2025,Santa Fe Springs Swap Meet,,109,Layoff Not known at this time,Los Angeles County,,warn-report-for-7-1-25-to-6-30-26.pdf
 06/27/2025,08/26/2025,07/01/2025,Pocino Foods Company,,124,Closure Permanent,Los Angeles County,,warn-report-for-7-1-25-to-6-30-26.pdf
