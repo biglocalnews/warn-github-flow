@@ -59,7 +59,20 @@ if(window.location.href.indexOf("acc.") == -1){
 	}
 </script>
 
-		<a href="#skip-nav" class="sr-only">Skip main navigation</a>
+		
+<div class="w-100 bg-primary">
+	<div  class="container container-fluid-md">
+		<div class="row py-1 text-center"> 			
+			<div class="col-12 text-center">
+				<i class="fas fa-2x fa-exclamation-triangle text-light d-inline-block mb-1 mb-md-0 me-2"></i>
+				<p class="text-light mb-0 m-sm-0 d-inline-block fs-90 text-center"><strong>Notice: </strong> Changes are coming to our website! On <strong>Tue, Nov 10, 2026</strong>, the DWD website will have a new look and feel. <!--For information about the change visit: <br><strong><a style="color:#ffffff" href="/dwd/website-update-information.htm">DWD Website Update Information</a></strong></p>--></div>
+
+		</div>
+	</div>
+</div>
+
+
+<a href="#skip-nav" class="sr-only">Skip main navigation</a>
 <div id="update-browser" class="text-center"><p><span class="fs-140 important red-txt">Outdated or Unsupported Browser Detected</span><br><span>DWD's website uses the latest technology. This makes our site faster and easier to use across all devices. Unfortunatley, your browser is out of date and is not supported. An update is not required, but it is strongly recommended to improve your browsing experience. To update Internet Explorer to Microsoft Edge visit their <a href="https://support.microsoft.com/en-us/microsoft-edge/make-the-switch-from-internet-explorer-to-microsoft-edge-a6f7173e-e84a-36a3-9728-3df20ade9b3c">website</a>.</span></p></div>
 
 
@@ -71,11 +84,7 @@ if(window.location.href.indexOf("acc.") == -1){
 						<a href="https://wisconsin.gov/" class="d-inline-block"><img id="wi-gov-logo" src="/images/internet/wigov-top-logo.png" alt="Wisconsin.gov Logo"></a>
 					</div>
 					
-					<div class="col text-right white-txt mt-2 mt-sm-0 hidden-xs">
-						<a href="/jobs/" class="me-3 align-middle">Jobs at DWD</a>
-						<a href="http://www.wisconsin.gov/Pages/AllAgencies.aspx" target="_blank" class="me-3 align-middle">Agency Directory</a>
-						<a href="http://www.wisconsin.gov/Pages/resident.aspx" target="_blank" class="align-middle">Online Services</a>
-					</div>
+					
 				</div>
 				
 			</div>
@@ -88,14 +97,6 @@ if(window.location.href.indexOf("acc.") == -1){
 						<a href="/"><img id="dwd-logo" src="/images/internet/dwd-banner-logo.png" class="my-2" alt="Department of Workforce Development Logo"></a>
 					</div>
 					
-					<div id="main-search-wrap" class="col-12 col-md-6 col-lg-5">
-						<form id="main-search-form" class="search-form" method="GET" name="default front end" action="/search.htm">
-							<label class="sr-only" for="main-search-input">Search DWD's Website</label>
-							<input id="main-search-input" class="search-input" placeholder="Search DWD's Website" title="Search DWD's Website" type="text" name="query" maxlength="256" onclick="this.value=''" title="Search DWD's Website">
-							<input class="search-icon d-none d-md-block" type="image" src="/images/internet/icon/search.png" alt="Search icon button">
-							<input class="search-icon d-md-none" type="image" src="/images/internet/icon/search-light.png" alt="Search icon button">
-						</form>
-					</div>
 				</div>
 			</div>
 		</div>
@@ -109,76 +110,66 @@ if(window.location.href.indexOf("acc.") == -1){
 					<li class="lvl1-nav">
 						<button class="nav-link dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">UNEMPLOYMENT</button>
 						<ul class="dropdown-menu">
-							<li><a href="/ui/">UI Home</a></li>
+							<li><a href="/ui/">Unemployment Overview</a></li>
 							<li><a href="/uiben/">Claimants</a></li>
 							<li><a href="/uitax/">Employers</a></li>
-							<li><a href="/uitax/esp-resource-page.htm">Service Providers</a></li>
+							<li><a href="/uitax/esp-resource-page/">Service Providers</a></li>
 							<li><a href="/ui/toolkit/">Community Partners</a></li>
-							<li><a href="/dwd/request-speaker.htm">Request a Speaker</a></li>
 						</ul>
 					</li><li class="lvl1-nav">
 						<button class="nav-link dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">WORKPLACE INJURY</button>
 						<ul class="dropdown-menu">
-							<li><a href="/wc/">WC Home</a></li>
-							<li><a href="/wc/workers/">Workers</a></li>
-							<li><a href="/wc/employers/">Employers</a></li>
-							<li><a href="/wc/insurance/">Insurers</a></li>
-							<li><a href="/wc/medical/">Medical Providers</a></li>
-							<li><a href="/wc/safety/">Workplace Safety</a></li>
-							<li><a href="/dwd/request-speaker.htm">Request a Speaker</a></li>
-							<li><a href="/wc/contact/">Contact Us</a></li>
+							<li><a href="/wc/">Worker's Compensation Overview</a></li>
+							<li><a href="/wc/workers">Workers</a></li>
+							<li><a href="/wc/employers">Employers</a></li>
+							<li><a href="/wc/insurance">Insurers</a></li>
+							<li><a href="/wc/fraud">Fraud</a></li>
+							<li><a href="/wc/legal-resources">Legal Resources</a></li>
+							<li><a href="/wc/contact-us">Contact Us</a></li>
 						</ul><li class="lvl1-nav">
 						<button class="nav-link dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">EQUAL RIGHTS</button>
 						<ul class="dropdown-menu">
-							<li><a href="/er/">ER Home</a></li>
-							<li><a href="/er/laborstandards/">Labor Standards</a></li>
-							<li><a href="/er/civilrights/">Civil Rights</a></li>
-							<li><a href="/er/civilrights/fmla/">FMLA</a></li>
-							<li><a href="/worker-classification/">Worker Classification</a></li>
-							<li><a href="/er/complaints/">File a Complaint</a></li>
-							<li><a href="/er/caseportal/">Case Portal</a></li>
-							<li><a href="/dwd/request-speaker.htm">Request a Speaker</a></li>
-							<li><a href="/er/contacts.htm">Contact Us</a></li>
+							<li><a href="/er/">Equal Rights Overview</a></li>
+							<li><a href="/er/labor-standards">Labor Standards</a></li>
+							<li><a href="/er/civil-rights">Civil Rights</a></li>
+							<li><a href="/er/employment-minors">Employment of Minors</a></li>
+							<li><a href="/er/case-portal">Case Portal</a></li>
+							<li><a href="/er/resources">Resources</a></li>
+							<li><a href="/er/contact">Contacts</a></li>
 						</ul>
 					</li><li class="lvl1-nav">
 						<button class="nav-link dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">EMPLOYMENT & TRAINING</button>
 						<ul class="dropdown-menu">
-							<li><a href="/det/">DET Home</a></li>
-							<li><a href="/det/jobseeker.htm">Job Seekers</a></li>
-							<li><a href="/det/employer.htm">Employers</a></li>
-							<li><a href="/veterans/">Veterans</a></li>
-							<li><a href="/det/partners.htm">Partners</a></li>
+							<li><a href="/det">Employment & Training Overview</a></li>
+							<li><a href="/apprenticeship">Apprenticeship</a></li>
+							<li><a href="/det/jobseeker">Job Seekers</a></li>
+							<li><a href="/det/employer">Employers</a></li>
+							<li><a href="/veterans">Veterans</a></li>
+							<li><a href="/det/partners" target="_blank">Partners</a></li>
 							<li><a href="https://apps.dwd.wisconsin.gov/wisconomy" target="_blank">WisConomy</a></li>
-							<li><a href="/det/civil-rights/">Civil Rights</a></li>
-							<li><a href="/dwd/request-speaker.htm">Request a Speaker</a></li>
-							<li><a href="/det/contact.htm">Contact Us</a></li>
+							<li><a href="https://wisconsinjobcenter.org/directory/">Workforce Services</a></li>
 						</ul>
 					</li><li class="lvl1-nav">
 						<button class="nav-link dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">DISABILITY EMPLOYMENT</button>				
 						<ul class="dropdown-menu">
-							<li><a href="/dvr/">DVR Home</a></li>
-							<li><a href="/dvr/about/">About DVR</a></li>
-							<li><a href="/dvr/referral/">How to Apply</a></li>
-							<li><a href="/dvr/job-seekers/">For Job Seekers</a></li>
-							<li><a href="/dvr/business/">For Businesses</a></li>
-							<li><a href="/dvr/partners/">Our Partners</a></li>
-							<li><a href="/dwd/request-speaker.htm">Request a Speaker</a></li>
-							<li><a href="/dvr/about/contacts.htm">Contact Us</a></li>
+							<li><a href="/dvr">Disablity Empployment Overview</a></li>
+							<li><a href="/dvr/referral">Apply for Vocational Rehab Services</a></li>
+							<li><a href="/dvr/job-seekers">Job Seekers</a></li>
+							<li><a href="/dvr/business">Business Services</a></li>
+							<li><a href="/dvr/partners">Partners</a></li>
+							<li><a href="/dvr/about">About DVR</a></li>
 						</ul>
 					</li><li class="lvl1-nav">
 						<button class="nav-link dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">ABOUT DWD</button>						
 						<ul class="dropdown-menu">
-							<li><a href="/dwd/about-dwd.htm">Overview</a></li>
-							<li><a href="/jobs/">Jobs at DWD</a></li>
-							<li><a href="/dwd/leadership.htm">Leadership </a></li>
-							<li><a href="/mywisconsinid/">MyWisconsin ID</a></li>
-							<li><a href="/news/">Newsroom</a></li>
-							<li><a href="/news/publicmeetings/">Public Meetings</a></li>
-							<li><a href="/dwd/orgcharts/">Organization Chart</a></li>
-							<li><a href="/dwd/open-records/">Open Records</a></li>
-							<li><a href="https://wi.accessgov.com/dwd-ext/Forms/Page/8bebfc6d-5e59-4093-81a4-b4f52e713411/adm-20015-e/">Invite DWD to Your Event</a></li>
-							<li><a href="/dwd/request-speaker.htm">Request a Speaker</a></li>
-							<li><a href="/dwd/contact-us.htm">Contact Us</a></li>
+							<li><a href="/dwd/about-dwd">About DWD Overview</a></li>
+							<li><a href="/dwd-leadership">Leadership</a></li>
+							<li><a href="/dwd/orgchart">Organization Chart</a></li>
+							<li><a href="/dwd-reports">Agency Reports</a></li>
+							<li><a href="/publications/dwd/sec-8746-p-2021-2023">Biennial Budget</a></li>
+							<li><a href="/dwd/history">History of DWD</a></li>
+							<li><a href="/councils-committees">Councils and Committees</a></li>
+							<li><a href="/jobs">Work for Us</a></li>							
 						</ul>
 					</li>
 				</ul>
@@ -213,12 +204,12 @@ if(window.location.href.indexOf("acc.") == -1){
 
 				<div class="row">
 					<div class="col-md-6 col-sm-12 mt-3 mt-3"><strong>General Contact</strong><br/>
-						<a href="/cdn-cgi/l/email-protection#8ddac4c2ccd9e4f9e1e8c4cde9fae9a3fae4feeee2e3fee4e3a3eae2fbb2def8efe7e8eef9b0dcf8e8fef9e4e2e3a8bfbdebe2ffa8bfbdf9e5e8a8bfbdc9e4fee1e2eeecf9e8e9a8bfbddae2ffe6e8ffa8bfbdd8e3e4f9">Bureau of Workforce Training, Program Administration Section<br/><span class="__cf_email__" data-cfemail="4b1c02040a1f223f272e020b2f3c2f653c2238282425382225652c243d">[email&#160;protected]</span></a><br/>
+						<a href="/cdn-cgi/l/email-protection#2077696f617449544c4569604457440e574953434f4e53494e0e474f561f7355424a4543541d7155455354494f4e051210464f520512105448450512106449534c4f4341544544051210774f524b4552051210754e4954">Bureau of Workforce Training, Program Administration Section<br/><span class="__cf_email__" data-cfemail="14435d5b55407d6078715d547063703a637d67777b7a677d7a3a737b62">[email&#160;protected]</span></a><br/>
 						201 East Washington Avenue<br/>
 						Madison, WI 53707</div>
 					
 					<div class="col-md-6 col-sm-12 mt-3"><strong>Media Contact</strong><br/>
-						<a href="/cdn-cgi/l/email-protection#90f3fffdfde5fef9f3f1e4f9fffee3fff6f6f9f3f5d0f4e7f4bee7f9e3f3fffee3f9febef7ffe6">DWD Communications<br/><span class="__cf_email__" data-cfemail="680b0705051d06010b091c0107061b070e0e010b0d280c1f0c461f011b0b07061b0106460f071e">[email&#160;protected]</span></a></div>
+						<a href="/cdn-cgi/l/email-protection#83e0eceeeef6edeae0e2f7eaecedf0ece5e5eae0e6c3e7f4e7adf4eaf0e0ecedf0eaedade4ecf5">DWD Communications<br/><span class="__cf_email__" data-cfemail="294a4644445c47404a485d4046475a464f4f404a4c694d5e4d075e405a4a46475a4047074e465f">[email&#160;protected]</span></a></div>
 				</div>
 				<div id="noticeTypeKey" class="float-start p-3 mb-3 mt-3" style="border:1px solid #000000;">
 					<h2 class="text-center mb-3 mt-0" style="text-align:left !important">Legend</h2>
@@ -311,7 +302,7 @@ if(window.location.href.indexOf("acc.") == -1){
     <li><a href="/dislocatedworker/warn/2018/default.htm">2018 Layoff Notice Information</a></li>
 </ul>
 
-<p>Layoff notices from previous years may be requested from the <a href="/cdn-cgi/l/email-protection#7514061e1407161d1c03100635021c06161a1b061c1b1d1c06011a070c5b1a0712">Wisconsin Historical Society</a>
+<p>Layoff notices from previous years may be requested from the <a href="/cdn-cgi/l/email-protection#adccdec6ccdfcec5c4dbc8deeddac4decec2c3dec4c3c5c4ded9c2dfd483c2dfca">Wisconsin Historical Society</a>
 				
 			</div>
 		</div>
@@ -349,7 +340,7 @@ if(window.location.href.indexOf("acc.") == -1){
 					<li><a href="/dwd/sitemap.htm">Sitemap</a></li>
 					<li><a href="/dwd/staff-partners.htm">Staff & Partners</a></li>
 					<li><a href="https://stateempdir.wi.gov/">State Employee Directory</a></li>
-					<li><a href="/cdn-cgi/l/email-protection#a2d5c7c0c4c7c7c6e2c6d5c68cd5cbd1c1cdccd1cbcc8cc5cdd4">Website Support</a></li>
+					<li><a href="/cdn-cgi/l/email-protection#9fe8fafdf9fafafbdffbe8fbb1e8f6ecfcf0f1ecf6f1b1f8f0e9">Website Support</a></li>
 				</ul>
 				<div id="google_translate_element" class="w-auto"></div>
 				<a href="#" data-bs-toggle="modal" data-bs-target="#translate-disclaimer" style="font-size:11px;">Translation Disclaimer</a>
@@ -404,7 +395,7 @@ if(window.location.href.indexOf("acc.") == -1){
 
 				<p>The official text is the English version of the website. Any discrepancies or differences created in the translation are not binding and have no legal effect for compliance or enforcement purposes. If any questions arise related to the accuracy of the information contained in the translated website, refer to the English version of the website which is the official version.</p>
 
-				<p>If you need an official translation of, or other meaningful access to, vital information on DWD's website, please contact the <a href="/cdn-cgi/l/email-protection#fd8a989f9b989899bd998a99d38a948e9e92938e9493d39a928b">DWD WEB TEAM</a>.</p>
+				<p>If you need an official translation of, or other meaningful access to, vital information on DWD's website, please contact the <a href="/cdn-cgi/l/email-protection#37405255515252537753405319405e44545859445e5919505841">DWD WEB TEAM</a>.</p>
 		  </div>
 		  <div class="modal-footer">
 				<div class="form-check me-3">
@@ -477,5 +468,5 @@ if(window.location.href.indexOf("acc.") == -1){
 
 		<script type="module" src="/dislocatedworker/warn/include/default.js?v=2"></script>
 
-<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a557611d78239602',t:'MTc5MzgzNDc0MQ=='};var l=window.parent.location,o;try{o=new URL(l.origin).origin}catch(e){try{o=new URL(new URL(l.href).origin).origin}catch(e){o=''}}var u='/cdn-cgi/challenge-platform/scripts/jsd/main.js?ray=a557611d78239602',a=document.createElement('script');a.src=o?new URL(u,o).href:u;document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a55c8971d9b0acf3',t:'MTc5Mzg4ODgyMg=='};var l=window.parent.location,o;try{o=new URL(l.origin).origin}catch(e){try{o=new URL(new URL(l.href).origin).origin}catch(e){o=''}}var u='/cdn-cgi/challenge-platform/scripts/jsd/main.js?ray=a55c8971d9b0acf3',a=document.createElement('script');a.src=o?new URL(u,o).href:u;document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
 </html>
