@@ -764,11 +764,11 @@
         },
         "soupsieve": {
             "hashes": [
-                "sha256:ca9abf7126667010d8f6e9b39bfc1bc3b23c8aed9bcb0f54a754dde969bb8aab",
-                "sha256:e4d667b3974ce6e038e7390486b8093369854a1d345ffdd4c121dfc4a782e809"
+                "sha256:8ff3422dab0b720fb667ee79864d80531a0e57994a13eb701697719ffcb751f6",
+                "sha256:b296bd2d2f65b1a78149f3d7bf6736a147d2c9e2dfbde0e4404639d748a02e03"
             ],
             "markers": "python_full_version >= '3.11.5'",
-            "version": "==4.1"
+            "version": "==4.1.1"
         },
         "stealthenium": {
             "hashes": [
@@ -880,11 +880,11 @@
         },
         "xvfbwrapper": {
             "hashes": [
-                "sha256:7374748e877f7a3ea73675c7651ede3761adb7ed4b09cd49ef394c4349ecb4b8",
-                "sha256:a095a1f22e52fa9cc36934dae576d19a1d7a97b61d0d3d1de8ff35f03ab43f20"
+                "sha256:d51d726ff8f534445878003e319dc19656ec8d7874294ef046e5e5d101161b37",
+                "sha256:ef0cffe656cb48f63293fec07ea8ad3feb199283f16b33acc5f3195765c2db74"
             ],
             "markers": "python_version >= '3.11'",
-            "version": "==0.2.37"
+            "version": "==0.2.38"
         }
     },
     "develop": {
