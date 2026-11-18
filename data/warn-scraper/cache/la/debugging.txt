@@ -124,9 +124,9 @@
 ["Elevance Health, \nInc.", "3850 N. Causeway Blvd, \nSuite 1770, \nMetairie, LA 70002", "9/15/26", "2/31/26", "216", "Insurance \nAdministration"]
 "\tSeems to be a regular row."
 "\t\t{'company_original': 'Elevance Health, Inc.', 'address_original': '3850 N. Causeway Blvd, Suite 1770, Metairie, LA 70002', 'date_notice': '9/15/26', 'date_action': '2/31/26', 'affected': '216', 'Industry': 'Insurance Administration'}"
-["Upward Health Inc", "80 Arkay Drive,  \nSuite 2320, \nHauppauge, NY, 11788", "10/09/26", "12/08/26", "2", "Healthcare"]
+["Upward Health Inc", "80 Arkay Drive,  \nSuite 2320, \nHauppauge, NY 11788", "10/09/26", "12/08/26", "2", "Healthcare"]
 "\tSeems to be a regular row."
-"\t\t{'company_original': 'Upward Health Inc', 'address_original': '80 Arkay Drive, Suite 2320, Hauppauge, NY, 11788', 'date_notice': '10/09/26', 'date_action': '12/08/26', 'affected': '2', 'Industry': 'Healthcare'}"
+"\t\t{'company_original': 'Upward Health Inc', 'address_original': '80 Arkay Drive, Suite 2320, Hauppauge, NY 11788', 'date_notice': '10/09/26', 'date_action': '12/08/26', 'affected': '2', 'Industry': 'Healthcare'}"
 ["Denka Performance \nElastomer LLC", "560 Highway 44  \nLaplace, LA 70068", "10/06/26", "12/07/26", "26", "Chemical \nManufacturing"]
 "\tSeems to be a regular row."
 "\t\t{'company_original': 'Denka Performance Elastomer LLC', 'address_original': '560 Highway 44 Laplace, LA 70068', 'date_notice': '10/06/26', 'date_action': '12/07/26', 'affected': '26', 'Industry': 'Chemical Manufacturing'}"
@@ -136,6 +136,15 @@
 ["Sodexo, SDH \nServices East, LLC", "4801 Ambassador Caffery \nParkway  \n4600 Ambassador Caffery \nParkway  \nLafayette, LA 70506", "10/22/26", "12/31/26", "189", "Food Services"]
 "\tSeems to be a regular row."
 "\t\t{'company_original': 'Sodexo, SDH Services East, LLC', 'address_original': '4801 Ambassador Caffery Parkway 4600 Ambassador Caffery Parkway Lafayette, LA 70506', 'date_notice': '10/22/26', 'date_action': '12/31/26', 'affected': '189', 'Industry': 'Food Services'}"
+["Sodexo, SDH \nServices East, LLC", "309 Jackson Street \nMonroe, LA 71201", "10/28/26", "12/31/26", "89", "Food Services"]
+"\tSeems to be a regular row."
+"\t\t{'company_original': 'Sodexo, SDH Services East, LLC', 'address_original': '309 Jackson Street Monroe, LA 71201', 'date_notice': '10/28/26', 'date_action': '12/31/26', 'affected': '89', 'Industry': 'Food Services'}"
 ["Hurwitz Mintz \nFurniture Company", "1751 Airline Drive \nMetairie, LA 70001", "10/31/26", "12/31/26", "53", "Retail"]
 "\tSeems to be a regular row."
 "\t\t{'company_original': 'Hurwitz Mintz Furniture Company', 'address_original': '1751 Airline Drive Metairie, LA 70001', 'date_notice': '10/31/26', 'date_action': '12/31/26', 'affected': '53', 'Industry': 'Retail'}"
+["New Dairy Texas, \nLLC", "1308 Bertrand Drive \nLafayette, LA 70506", "11/10/26", "1/9/27", "149", "Food \nManufacturing"]
+"\tSeems to be a regular row."
+"\t\t{'company_original': 'New Dairy Texas, LLC', 'address_original': '1308 Bertrand Drive Lafayette, LA 70506', 'date_notice': '11/10/26', 'date_action': '1/9/27', 'affected': '149', 'Industry': 'Food Manufacturing'}"
+["Sysco Acadiana", "113 Kol Dr. \nBroussard, LA 70518", "11/10/26", "2/28/27", "112", "Food Service \nDelivery"]
+"\tSeems to be a regular row."
+"\t\t{'company_original': 'Sysco Acadiana', 'address_original': '113 Kol Dr. Broussard, LA 70518', 'date_notice': '11/10/26', 'date_action': '2/28/27', 'affected': '112', 'Industry': 'Food Service Delivery'}"
